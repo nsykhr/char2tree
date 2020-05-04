@@ -16,6 +16,8 @@ class UniversalDependenciesCharacterLevelDatasetReader(DatasetReader):
     def __init__(
             self,
             token_indexers: Dict[str, TokenIndexer] = None,
+            use_deptags: bool = False,
+            use_upos: bool = False,
             use_xpos: bool = False,
             tokenizer: Tokenizer = None,
             intratoken_tag: str = INTRATOKEN_TAG,
@@ -24,6 +26,8 @@ class UniversalDependenciesCharacterLevelDatasetReader(DatasetReader):
         super().__init__(lazy=lazy)
         self._token_indexers = token_indexers or {'tokens': SingleIdTokenIndexer()}
         self.use_xpos = use_xpos
+        self.use_upos = use_upos
+        self.use_deptags = use_deptags
         self.tokenizer = tokenizer
         self.intratoken_tag = intratoken_tag
 
@@ -55,20 +59,32 @@ class UniversalDependenciesCharacterLevelDatasetReader(DatasetReader):
         new_lines = []
         moving_number = 1
         for line in lines:
-            old_head_id = int(line[6])
+            
+            if line[6] != '_':
+                old_head_id = int(line[6])
 
-            for i, symbol in enumerate(line[1]):
-                new_line = line[:]
-                new_line[0] = str(moving_number)
-                moving_number += 1
-                new_line[1] = symbol
+                for i, symbol in enumerate(line[1]):
+                    new_line = line[:]
+                    new_line[0] = str(moving_number)
+                    moving_number += 1
+                    new_line[1] = symbol
 
-                if i == len(line[1]) - 1:
-                    new_line[6] = str(token2char_id_mapping[old_head_id])
-                else:
-                    new_line[6] = str(moving_number + 1)
-                    new_line[7] = self.intratoken_tag
-                new_lines.append(new_line)
+                    if i == len(line[1]) - 1:
+                        new_line[6] = str(token2char_id_mapping[old_head_id])
+                    else:
+                        new_line[6] = str(moving_number + 1)
+                        new_line[7] = self.intratoken_tag
+                    new_lines.append(new_line)
+                    
+            else:
+                
+                for i, symbol in enumerate(line[1]):
+                    new_line = line[:]
+                    new_line[0] = str(moving_number)
+                    moving_number += 1
+                    new_line[1] = symbol
+                    
+                    new_lines.append(new_line)
 
         return new_lines
 
@@ -77,27 +93,39 @@ class UniversalDependenciesCharacterLevelDatasetReader(DatasetReader):
         # TODO: make UPOS optional
         for sentence in self.read_corpus(file_path):
             converted_sentence = self.convert_one_sentence(sentence)
+        
             chars = [x[1] for x in converted_sentence]
-            upos_tags = [x[3] for x in converted_sentence]
+            
+            if self.use_upos:
+                upos_tags = [x[3] for x in converted_sentence]
+            else:
+                upos_tags = None
+
             # arc_indices = [(int(x[0]), int(x[6])) for x in converted_sentence]
-            arc_indices = [int(x[6]) for x in converted_sentence]
-            arc_tags = [x[7] for x in converted_sentence]
+
+            if self.use_deptags:
+                arc_indices = [int(x[6]) for x in converted_sentence]
+                arc_tags = [x[7] for x in converted_sentence]
+            else:
+                arc_indices = None
+                arc_tags = None
+
 
             if self.use_xpos:
                 xpos_tags = [x[4] for x in converted_sentence]
-                yield self.text_to_instance(chars, arc_indices, arc_tags,
-                                            upos_tags=upos_tags, xpos_tags=xpos_tags)
-                continue
+            else:
+                xpos_tags = None
 
-            yield self.text_to_instance(chars, arc_indices, arc_tags, upos_tags=upos_tags)
+            yield self.text_to_instance(chars, arc_indices=arc_indices, arc_tags=arc_tags, 
+                                        upos_tags=upos_tags, xpos_tags=xpos_tags)
 
     @overrides
     def text_to_instance(
             self,
             chars: List[str],
             # arc_indices: List[Tuple[int, int]],
-            arc_indices: List[int],
-            arc_tags: List[str],
+            arc_indices: List[int] = None,
+            arc_tags: List[str] = None,
             upos_tags: List[str] = None,
             xpos_tags: List[str] = None
     ) -> Instance:
@@ -121,3 +149,4 @@ class UniversalDependenciesCharacterLevelDatasetReader(DatasetReader):
             fields['arc_indices'] = SequenceLabelField(arc_indices, text_field, label_namespace='arc_indices')
 
         return Instance(fields)
+
