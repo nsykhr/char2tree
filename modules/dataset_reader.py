@@ -1,6 +1,6 @@
 import re
 from overrides import overrides
-from typing import List, Dict, Iterator
+from typing import List, Tuple, Dict, Iterator
 
 from allennlp.data.instance import Instance
 from allennlp.data.tokenizers import Token, Tokenizer
@@ -16,9 +16,9 @@ class UniversalDependenciesCharacterLevelDatasetReader(DatasetReader):
     def __init__(
             self,
             token_indexers: Dict[str, TokenIndexer] = None,
-            use_deptags: bool = False,
             use_upos: bool = False,
             use_xpos: bool = False,
+            use_deptags: bool = False,
             tokenizer: Tokenizer = None,
             intratoken_tag: str = INTRATOKEN_TAG,
             lazy: bool = False
@@ -45,8 +45,6 @@ class UniversalDependenciesCharacterLevelDatasetReader(DatasetReader):
                 yield output
 
     def convert_one_sentence(self, lines: List[List[str]]) -> List[List[str]]:
-        # TODO: make columns 6 and 7 optional
-
         token2char_id_mapping = {0: 0}
 
         moving_number = 1
@@ -59,38 +57,27 @@ class UniversalDependenciesCharacterLevelDatasetReader(DatasetReader):
         new_lines = []
         moving_number = 1
         for line in lines:
-            
-            if line[6] != '_':
-                old_head_id = int(line[6])
+            for i, symbol in enumerate(line[1]):
+                new_line = line[:]
+                new_line[0] = str(moving_number)
+                moving_number += 1
+                new_line[1] = symbol
 
-                for i, symbol in enumerate(line[1]):
-                    new_line = line[:]
-                    new_line[0] = str(moving_number)
-                    moving_number += 1
-                    new_line[1] = symbol
+                if line[6] != '_':
+                    old_head_id = int(line[6])
 
                     if i == len(line[1]) - 1:
                         new_line[6] = str(token2char_id_mapping[old_head_id])
                     else:
                         new_line[6] = str(moving_number + 1)
                         new_line[7] = self.intratoken_tag
-                    new_lines.append(new_line)
-                    
-            else:
-                
-                for i, symbol in enumerate(line[1]):
-                    new_line = line[:]
-                    new_line[0] = str(moving_number)
-                    moving_number += 1
-                    new_line[1] = symbol
-                    
-                    new_lines.append(new_line)
+
+                new_lines.append(new_line)
 
         return new_lines
 
     @overrides
     def _read(self, file_path: str) -> Iterator[Instance]:
-        # TODO: make UPOS optional
         for sentence in self.read_corpus(file_path):
             converted_sentence = self.convert_one_sentence(sentence)
         
@@ -101,20 +88,19 @@ class UniversalDependenciesCharacterLevelDatasetReader(DatasetReader):
             else:
                 upos_tags = None
 
-            # arc_indices = [(int(x[0]), int(x[6])) for x in converted_sentence]
-
-            if self.use_deptags:
-                arc_indices = [int(x[6]) for x in converted_sentence]
-                arc_tags = [x[7] for x in converted_sentence]
-            else:
-                arc_indices = None
-                arc_tags = None
-
-
             if self.use_xpos:
                 xpos_tags = [x[4] for x in converted_sentence]
             else:
                 xpos_tags = None
+
+            if self.use_deptags:
+                # The commented version is for SequenceLabelField which we are not using anymore.
+                # arc_indices = [int(x[6]) for x in converted_sentence]
+                arc_indices = [(int(x[0]), int(x[6])) for x in converted_sentence]
+                arc_tags = [x[7] for x in converted_sentence]
+            else:
+                arc_indices = None
+                arc_tags = None
 
             yield self.text_to_instance(chars, arc_indices=arc_indices, arc_tags=arc_tags, 
                                         upos_tags=upos_tags, xpos_tags=xpos_tags)
@@ -123,8 +109,8 @@ class UniversalDependenciesCharacterLevelDatasetReader(DatasetReader):
     def text_to_instance(
             self,
             chars: List[str],
-            # arc_indices: List[Tuple[int, int]],
-            arc_indices: List[int] = None,
+            arc_indices: List[Tuple[int, int]] = None,
+            # arc_indices: List[int] = None,
             arc_tags: List[str] = None,
             upos_tags: List[str] = None,
             xpos_tags: List[str] = None
@@ -140,13 +126,13 @@ class UniversalDependenciesCharacterLevelDatasetReader(DatasetReader):
 
         if upos_tags is not None:
             fields['upos_tags'] = SequenceLabelField(upos_tags, text_field, label_namespace='upos')
+
         if xpos_tags is not None:
             fields['xpos_tags'] = SequenceLabelField(xpos_tags, text_field, label_namespace='xpos')
 
-        if arc_indices is not None and arc_tags:
-            # fields['arc_tags'] = AdjacencyField(arc_indices, text_field, arc_tags, label_namespace='dependency')
-            fields['arc_tags'] = SequenceLabelField(arc_tags, text_field, label_namespace='dependency')
-            fields['arc_indices'] = SequenceLabelField(arc_indices, text_field, label_namespace='arc_indices')
+        if arc_indices is not None and arc_tags is not None:
+            # fields['arc_tags'] = SequenceLabelField(arc_tags, text_field, label_namespace='dependency')
+            # fields['arc_indices'] = SequenceLabelField(arc_indices, text_field, label_namespace='arc_indices')
+            fields['arc_tags'] = AdjacencyField(arc_indices, text_field, arc_tags, label_namespace='dependency')
 
         return Instance(fields)
-
