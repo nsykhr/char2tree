@@ -133,6 +133,7 @@ class UniversalDependenciesCharacterLevelDatasetReader(DatasetReader):
         if arc_indices is not None and arc_tags is not None:
             # fields['arc_tags'] = SequenceLabelField(arc_tags, text_field, label_namespace='dependency')
             # fields['arc_indices'] = SequenceLabelField(arc_indices, text_field, label_namespace='arc_indices')
-            fields['arc_tags'] = AdjacencyField(arc_indices, text_field, arc_tags, label_namespace='dependency')
+            fields['adjacency_matrix'] = AdjacencyField(arc_indices, text_field, arc_tags,
+                                                        label_namespace='dependency', padding_value=0)
 
         return Instance(fields)
