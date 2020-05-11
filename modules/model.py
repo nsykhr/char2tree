@@ -1,6 +1,5 @@
 import numpy as np
-from typing import Dict
-from collections import defaultdict
+from typing import Tuple, Dict
 
 import torch
 import torch.nn.functional as F
@@ -12,113 +11,8 @@ from allennlp.nn.util import get_text_field_mask
 from allennlp.modules.seq2seq_encoders import Seq2SeqEncoder
 from allennlp.modules.text_field_embedders import TextFieldEmbedder
 
-# TODO: rewrite these modules here
-from fastNLP.models.biaffine_parser import ArcBiaffine, LabelBilinear
-
-
-def _find_cycle(vertices, edges):
-    r"""
-    https://en.wikipedia.org/wiki/Tarjan%27s_strongly_connected_components_algorithm
-    https://github.com/tdozat/Parser/blob/0739216129cd39d69997d28cbc4133b360ea3934/lib/etc/tarjan.py
-    """
-    # TODO: understand what this does and rewrite the docstring
-    _index = 0
-    _stack = []
-    _indices = {}
-    _lowlinks = {}
-    _onstack = defaultdict(lambda: False)
-    _SCCs = []
-
-    def _strongconnect(v):
-        nonlocal _index
-        _indices[v] = _index
-        _lowlinks[v] = _index
-        _index += 1
-        _stack.append(v)
-        _onstack[v] = True
-
-        for w in edges[v]:
-            if w not in _indices:
-                _strongconnect(w)
-                _lowlinks[v] = min(_lowlinks[v], _lowlinks[w])
-            elif _onstack[w]:
-                _lowlinks[v] = min(_lowlinks[v], _indices[w])
-
-        if _lowlinks[v] == _indices[v]:
-            SCC = set()
-            while True:
-                w = _stack.pop()
-                _onstack[w] = False
-                SCC.add(w)
-                if not (w != v):
-                    break
-            _SCCs.append(SCC)
-
-    for v in vertices:
-        if v not in _indices:
-            _strongconnect(v)
-
-    return [SCC for SCC in _SCCs if len(SCC) > 1]
-
-
-def _mst(scores):
-    r"""
-    with some modification to support parser output for MST decoding
-    https://github.com/tdozat/Parser/blob/0739216129cd39d69997d28cbc4133b360ea3934/lib/models/nn.py#L692
-    """
-    # TODO: understand what this does and rewrite the docstring
-    length = scores.shape[0]
-    min_score = scores.min() - 1
-    eye = np.eye(length)
-    scores = scores * (1 - eye) + min_score * eye
-    heads = np.argmax(scores, axis=1)
-    heads[0] = 0
-    tokens = np.arange(1, length)
-    roots = np.where(heads[tokens] == 0)[0] + 1
-    if len(roots) < 1:
-        root_scores = scores[tokens, 0]
-        head_scores = scores[tokens, heads[tokens]]
-        new_root = tokens[np.argmax(root_scores / head_scores)]
-        heads[new_root] = 0
-    elif len(roots) > 1:
-        root_scores = scores[roots, 0]
-        scores[roots, 0] = 0
-        new_heads = np.argmax(scores[roots][:, tokens], axis=1) + 1
-        new_root = roots[np.argmin(
-            scores[roots, new_heads] / root_scores)]
-        heads[roots] = new_heads
-        heads[new_root] = 0
-
-    edges = defaultdict(set)
-    vertices = {0, }
-    for dep, head in enumerate(heads[tokens]):
-        vertices.add(dep + 1)
-        edges[head].add(dep + 1)
-    for cycle in _find_cycle(vertices, edges):
-        dependents = set()
-        to_visit = set(cycle)
-        while len(to_visit) > 0:
-            node = to_visit.pop()
-            if node not in dependents:
-                dependents.add(node)
-                to_visit.update(edges[node])
-        cycle = np.array(list(cycle))
-        old_heads = heads[cycle]
-        old_scores = scores[cycle, old_heads]
-        non_heads = np.array(list(dependents))
-        scores[np.repeat(cycle, len(non_heads)),
-               np.repeat([non_heads], len(cycle), axis=0).flatten()] = min_score
-        new_heads = np.argmax(scores[cycle][:, tokens], axis=1) + 1
-        new_scores = scores[cycle, new_heads] / old_scores
-        change = np.argmax(new_scores)
-        changed_cycle = cycle[change]
-        old_head = old_heads[change]
-        new_head = new_heads[change]
-        heads[changed_cycle] = new_head
-        edges[new_head].add(changed_cycle)
-        edges[old_head].remove(changed_cycle)
-
-    return heads
+from modules.utils import mst
+from modules.biaffine_parser import ArcBiaffine, LabelBilinear
 
 
 @Model.register('char_biaffine')
@@ -138,8 +32,6 @@ class CharBiaffineParser(Model):
                  embedding_dropout: float = 0.5,
                  encoded_dropout: float = 0.5,
                  mlp_dropout: float = 0.5) -> None:
-        # TODO: add clever layer initialization
-
         super().__init__(vocab)
         self.embedder = text_field_embedder
         self.encoder = encoder
@@ -199,7 +91,7 @@ class CharBiaffineParser(Model):
         lens = (mask.long()).sum(1) if mask is not None else torch.zeros(batch_size) + seq_len
         for i, graph in enumerate(matrix):
             len_i = lens[i]
-            ans[i, :len_i] = torch.as_tensor(_mst(graph.detach()[:len_i, :len_i].cpu().numpy()), device=ans.device)
+            ans[i, :len_i] = torch.as_tensor(mst(graph.detach()[:len_i, :len_i].cpu().numpy()), device=ans.device)
         if mask is not None:
             ans *= mask.long()
         return ans
@@ -207,8 +99,8 @@ class CharBiaffineParser(Model):
     @staticmethod
     def arc_loss(arc_pred: torch.Tensor,
                  label_pred: torch.Tensor,
-                 arc_true: torch.LongTensor,
-                 label_true: torch.LongTensor,
+                 arc_true: torch.Tensor,
+                 label_true: torch.Tensor,
                  mask: torch.BoolTensor) -> torch.Tensor:
         """
         Compute loss for dependency parsing.
@@ -236,14 +128,31 @@ class CharBiaffineParser(Model):
 
         return arc_nll + label_nll
 
+    @staticmethod
+    def _transform_adjacency_matrix(adjacency_matrix: torch.Tensor) -> Tuple[torch.Tensor, torch.Tensor]:
+        """
+        :param adjacency_matrix: a tensor of size [batch_size X seq_len X seq_len], where non-zero elements signify a syntactic tag
+        :return: a tuple of tensors, arc_indices [batch_size X seq_len] and arc_tags [batch_size X seq_len]
+
+        We need to extract indices j where arc_tags[i, j] != 0 and tags on these positions.
+        """
+        batch_size, seq_len = adjacency_matrix.size()[:2]
+        arc_indices = torch.zeros((batch_size, seq_len), dtype=torch.long)
+        arc_tags = torch.zeros((batch_size, seq_len), dtype=torch.long)
+
+        nonzero_indices = torch.nonzero(adjacency_matrix)
+        for (b, i, j) in nonzero_indices:
+            arc_indices[b, j] = 1
+            arc_tags[b, j] = adjacency_matrix[b, i, j]
+
+        return arc_indices, arc_tags
+
     def forward(self,
-                chars: Dict[str, torch.LongTensor],
-                arc_indices: torch.LongTensor,
-                arc_tags: torch.LongTensor,
-                upos_tags: torch.LongTensor = None,
-                xpos_tags: torch.LongTensor = None,
+                chars: Dict[str, torch.Tensor],
+                adjacency_matrix: torch.Tensor = None,
+                upos_tags: torch.Tensor = None,
+                xpos_tags: torch.Tensor = None,
                 **kwargs) -> Dict[str, torch.Tensor]:
-        # TODO: make this compatible with AdjacencyField instead of two SequenceLabelFields
         # TODO: add metric monitoring
 
         mask = get_text_field_mask(chars)
@@ -270,8 +179,6 @@ class CharBiaffineParser(Model):
                 output_dict['xpos_loss'] = loss.item()
                 accumulated_loss += loss
 
-        arc_indices = arc_indices.long()
-
         mlp_output = self.mlp(encoded)
         arc_sz, label_sz = self.arc_mlp_size, self.label_mlp_size
         arc_dep, arc_head = mlp_output[:, :, :arc_sz], mlp_output[:, :, arc_sz:2 * arc_sz]
@@ -279,6 +186,11 @@ class CharBiaffineParser(Model):
                                 mlp_output[:, :, 2 * arc_sz + label_sz:]
 
         arc_preds = self.arc_predictor(arc_head, arc_dep)
+
+        if adjacency_matrix is not None:
+            arc_indices, arc_tags = self._transform_adjacency_matrix(adjacency_matrix)
+        else:
+            arc_indices = None
 
         # Use gold or predicted arcs to predict labels.
         if arc_indices is None or not self.training:

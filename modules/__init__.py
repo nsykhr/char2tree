@@ -1,2 +1,3 @@
 from .dataset_reader import UniversalDependenciesCharacterLevelDatasetReader
 from .model import CharBiaffineParser
+from .biaffine_parser import ArcBiaffine, LabelBilinear
