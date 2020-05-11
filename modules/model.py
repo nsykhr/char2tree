@@ -105,7 +105,7 @@ class CharBiaffineParser(Model):
         """
         Compute loss for dependency parsing.
         :param arc_pred: [batch_size, seq_len, seq_len]
-        :param label_pred: [batch_size, seq_len, n_tags]
+        :param label_pred: [batch_size, seq_len, num_labels]
         :param arc_true: [batch_size, seq_len]
         :param label_true: [batch_size, seq_len]
         :param mask: [batch_size, seq_len]
@@ -131,10 +131,9 @@ class CharBiaffineParser(Model):
     @staticmethod
     def _transform_adjacency_matrix(adjacency_matrix: torch.Tensor) -> Tuple[torch.Tensor, torch.Tensor]:
         """
-        :param adjacency_matrix: a tensor of size [batch_size X seq_len X seq_len], where non-zero elements signify a syntactic tag
-        :return: a tuple of tensors, arc_indices [batch_size X seq_len] and arc_tags [batch_size X seq_len]
-
-        We need to extract indices j where arc_tags[i, j] != 0 and tags on these positions.
+        :param adjacency_matrix: a tensor of size [batch_size, seq_len, seq_len],
+        where non-zero elements signify an index of a syntactic tag
+        :return: a tuple of tensors, arc_indices [batch_size, seq_len] and arc_tags [batch_size, seq_len]
         """
         batch_size, seq_len = adjacency_matrix.size()[:2]
         arc_indices = torch.zeros((batch_size, seq_len), dtype=torch.long)
@@ -210,10 +209,10 @@ class CharBiaffineParser(Model):
 
         batch_range = torch.arange(start=0, end=batch_size, dtype=torch.long, device=mask.device).unsqueeze(1)
         label_head = label_head[batch_range, heads].contiguous()
-        label_preds = self.label_predictor(label_head, label_dep)  # [N, max_len, num_label]
+        label_preds = self.label_predictor(label_head, label_dep)  # [batch_size, seq_len, num_labels]
         arange_index = torch.arange(1, seq_len + 1, dtype=torch.long, device=mask.device).unsqueeze(0) \
-            .repeat(batch_size, 1)  # batch_size x max_len
-        app_masks = heads.ne(arange_index)  # batch_size x max_len
+            .repeat(batch_size, 1)  # [batch_size, seq_len]
+        app_masks = heads.ne(arange_index)  # [batch_size, seq_len]
         app_masks = app_masks.unsqueeze(2).repeat(1, 1, self.num_labels)
         app_masks[:, :, 1:] = 0
         label_preds = label_preds.masked_fill(app_masks, -np.inf)
