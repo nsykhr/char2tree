@@ -1,5 +1,3 @@
-local EMBEDDING_DIM = 300;
-
 {
   "dataset_reader": {
     "type": "ud_char_level",
@@ -16,14 +14,14 @@ local EMBEDDING_DIM = 300;
       "token_embedders": {
         "tokens": {
           "type": "embedding",
-          "embedding_dim": EMBEDDING_DIM,
+          "embedding_dim": 300,
           "trainable": true
         }
       }
     },
     "encoder": {
       "type": "stacked_bidirectional_lstm",
-      "input_size": EMBEDDING_DIM,
+      "input_size": 300,
       "hidden_size": 512,
       "num_layers": 2,
       "recurrent_dropout_probability": 0.25,
@@ -47,13 +45,14 @@ local EMBEDDING_DIM = 300;
   "trainer": {
     "optimizer": {
       "type": "adam",
-      "lr": 0.01,
-      "weight_decay": 1e-5
+      "lr": 1e-3,
+      "weight_decay": 1e-4
     },
     "learning_rate_scheduler": {
-      "type": "step",
-      "gamma": 0.5,
-      "step_size": 5
+      "type": "reduce_on_plateau",
+      "factor": 0.5,
+      "patience": 2,
+      "min_lr": 1e-5
     },
     "num_epochs": 100,
     "patience": 10,

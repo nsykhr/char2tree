@@ -16,9 +16,9 @@ class UniversalDependenciesCharacterLevelDatasetReader(DatasetReader):
     def __init__(
             self,
             token_indexers: Dict[str, TokenIndexer] = None,
-            use_upos: bool = False,
+            use_upos: bool = True,
             use_xpos: bool = False,
-            use_deptags: bool = False,
+            use_deptags: bool = True,
             tokenizer: Tokenizer = None,
             intratoken_tag: str = INTRATOKEN_TAG,
             lazy: bool = False
@@ -60,7 +60,6 @@ class UniversalDependenciesCharacterLevelDatasetReader(DatasetReader):
             for i, symbol in enumerate(line[1]):
                 new_line = line[:]
                 new_line[0] = str(moving_number)
-                moving_number += 1
                 new_line[1] = symbol
 
                 if line[6] != '_':
@@ -73,6 +72,7 @@ class UniversalDependenciesCharacterLevelDatasetReader(DatasetReader):
                         new_line[7] = self.intratoken_tag
 
                 new_lines.append(new_line)
+                moving_number += 1
 
         return new_lines
 
@@ -96,8 +96,9 @@ class UniversalDependenciesCharacterLevelDatasetReader(DatasetReader):
             if self.use_deptags:
                 # The commented version is for SequenceLabelField which we are not using anymore.
                 # arc_indices = [int(x[6]) for x in converted_sentence]
-                arc_indices = [(int(x[0]), int(x[6])) for x in converted_sentence]
-                arc_tags = [x[7] for x in converted_sentence]
+                arc_indices = [(int(x[0])-1, int(x[6])-1) for x in converted_sentence
+                               if int(x[0]) > 0 and int(x[6]) > 0]
+                arc_tags = [x[7] for x in converted_sentence if x[7] != 'root']
             else:
                 arc_indices = None
                 arc_tags = None
