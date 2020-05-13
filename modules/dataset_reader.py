@@ -8,6 +8,7 @@ from allennlp.data.dataset_readers.dataset_reader import DatasetReader
 from allennlp.data.token_indexers import SingleIdTokenIndexer, TokenIndexer
 from allennlp.data.fields import Field, TextField, SequenceLabelField, AdjacencyField
 
+ROOT_TOKEN = '<ROOT>'
 INTRATOKEN_TAG = 'app'
 
 
@@ -20,6 +21,7 @@ class UniversalDependenciesCharacterLevelDatasetReader(DatasetReader):
             use_xpos: bool = False,
             use_deptags: bool = True,
             tokenizer: Tokenizer = None,
+            root_token: str = ROOT_TOKEN,
             intratoken_tag: str = INTRATOKEN_TAG,
             lazy: bool = False
     ) -> None:
@@ -29,6 +31,7 @@ class UniversalDependenciesCharacterLevelDatasetReader(DatasetReader):
         self.use_upos = use_upos
         self.use_deptags = use_deptags
         self.tokenizer = tokenizer
+        self.root_token = root_token
         self.intratoken_tag = intratoken_tag
 
     @staticmethod
@@ -54,7 +57,7 @@ class UniversalDependenciesCharacterLevelDatasetReader(DatasetReader):
             token2char_id_mapping[old_id] = new_id
             moving_number += len(line[1])
 
-        new_lines = []
+        new_lines = [['0', self.root_token, self.root_token, 'ROOT', 'ROOT', '_', '0', 'ROOT', '_', '_']]
         moving_number = 1
         for line in lines:
             for i, symbol in enumerate(line[1]):
@@ -80,9 +83,9 @@ class UniversalDependenciesCharacterLevelDatasetReader(DatasetReader):
     def _read(self, file_path: str) -> Iterator[Instance]:
         for sentence in self.read_corpus(file_path):
             converted_sentence = self.convert_one_sentence(sentence)
-        
+
             chars = [x[1] for x in converted_sentence]
-            
+
             if self.use_upos:
                 upos_tags = [x[3] for x in converted_sentence]
             else:
@@ -94,16 +97,13 @@ class UniversalDependenciesCharacterLevelDatasetReader(DatasetReader):
                 xpos_tags = None
 
             if self.use_deptags:
-                # The commented version is for SequenceLabelField which we are not using anymore.
-                # arc_indices = [int(x[6]) for x in converted_sentence]
-                arc_indices = [(int(x[0])-1, int(x[6])-1) for x in converted_sentence
-                               if int(x[0]) > 0 and int(x[6]) > 0]
-                arc_tags = [x[7] for x in converted_sentence if x[7] != 'root']
+                arc_indices = [(int(x[0]), int(x[6])) for x in converted_sentence if int(x[0]) > 0]
+                arc_tags = [x[7] for x in converted_sentence if x[7] != 'ROOT']
             else:
                 arc_indices = None
                 arc_tags = None
 
-            yield self.text_to_instance(chars, arc_indices=arc_indices, arc_tags=arc_tags, 
+            yield self.text_to_instance(chars, arc_indices=arc_indices, arc_tags=arc_tags,
                                         upos_tags=upos_tags, xpos_tags=xpos_tags)
 
     @overrides
@@ -111,7 +111,6 @@ class UniversalDependenciesCharacterLevelDatasetReader(DatasetReader):
             self,
             chars: List[str],
             arc_indices: List[Tuple[int, int]] = None,
-            # arc_indices: List[int] = None,
             arc_tags: List[str] = None,
             upos_tags: List[str] = None,
             xpos_tags: List[str] = None
@@ -132,9 +131,7 @@ class UniversalDependenciesCharacterLevelDatasetReader(DatasetReader):
             fields['xpos_tags'] = SequenceLabelField(xpos_tags, text_field, label_namespace='xpos')
 
         if arc_indices is not None and arc_tags is not None:
-            # fields['arc_tags'] = SequenceLabelField(arc_tags, text_field, label_namespace='dependency')
-            # fields['arc_indices'] = SequenceLabelField(arc_indices, text_field, label_namespace='arc_indices')
             fields['adjacency_matrix'] = AdjacencyField(arc_indices, text_field, arc_tags,
-                                                        label_namespace='dependency', padding_value=0)
+                                                        label_namespace='dependency', padding_value=-1)
 
         return Instance(fields)

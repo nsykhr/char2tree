@@ -3,8 +3,8 @@
     "type": "ud_char_level",
     "use_xpos": true
   },
-  "train_data_path": "data/Japanese/ja_gsd-ud-train.conllu",
-  "validation_data_path": "data/Japanese/ja_gsd-ud-dev.conllu",
+  "train_data_path": "data/japanese/ja_gsd-ud-train.conllu",
+  "validation_data_path": "data/japanese/ja_gsd-ud-dev.conllu",
   "vocabulary": {
     "non_padded_namespaces": ["*tags", "*labels", "upos", "xpos", "dependency"]
   },
@@ -30,7 +30,7 @@
     },
     "arc_mlp_size": 512,
     "label_mlp_size": 128,
-    "use_greedy_infer": true,
+    "use_greedy_infer": false,
     "xpos_head": true,
     "embedding_dropout": 0.25,
     "encoded_dropout": 0.25,
@@ -38,14 +38,14 @@
   },
   "iterator": {
     "type": "bucket",
-    "batch_size": 64,
+    "batch_size": 352,
     "biggest_batch_first": true,
     "sorting_keys": [["chars", "num_tokens"]]
   },
   "trainer": {
     "optimizer": {
       "type": "adam",
-      "lr": 1e-3,
+      "lr": 5e-4,
       "weight_decay": 1e-4
     },
     "learning_rate_scheduler": {
