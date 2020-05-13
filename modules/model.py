@@ -1,5 +1,5 @@
 import numpy as np
-from typing import Tuple, Dict, Union
+from typing import Tuple, Dict
 
 import torch
 import torch.nn.functional as F
@@ -21,14 +21,15 @@ class CharBiaffineParser(Model):
                  vocab: Vocabulary,
                  text_field_embedder: TextFieldEmbedder,
                  encoder: Seq2SeqEncoder,
-                 arc_mlp_size: int,
-                 label_mlp_size: int,
-                 dependency_namespace: str = 'dependency',
-                 use_greedy_infer: bool = False,
                  upos_head: bool = True,
                  upos_namespace: str = 'upos',
                  xpos_head: bool = False,
                  xpos_namespace: str = 'xpos',
+                 dependency_head: bool = True,
+                 dependency_namespace: str = 'dependency',
+                 use_greedy_infer: bool = False,
+                 arc_mlp_size: int = 512,
+                 label_mlp_size: int = 128,
                  embedding_dropout: float = 0.5,
                  encoded_dropout: float = 0.5,
                  mlp_dropout: float = 0.5) -> None:
@@ -37,21 +38,30 @@ class CharBiaffineParser(Model):
         self.encoder = encoder
         encoder_output_dim = encoder.get_output_dim()
 
-        self.arc_mlp_size = arc_mlp_size
-        self.label_mlp_size = label_mlp_size
-        self.mlp = Sequential(Linear(encoder_output_dim, 2 * (arc_mlp_size + label_mlp_size)),
-                              LeakyReLU(0.1), Dropout(mlp_dropout))
-        self.arc_predictor = ArcBiaffine(arc_mlp_size, bias=True)
-        self.num_labels = vocab.get_vocab_size(dependency_namespace)
-        self.label_predictor = LabelBilinear(label_mlp_size, label_mlp_size,
-                                             self.num_labels, bias=True)
-        self.use_greedy_infer = use_greedy_infer
-
         self.upos_head = Linear(encoder_output_dim, vocab.get_vocab_size(upos_namespace)) \
             if upos_head else None
         self.xpos_head = Linear(encoder_output_dim, vocab.get_vocab_size(xpos_namespace)) \
             if xpos_head else None
         self.tagging_loss = CrossEntropyLoss()
+
+        if dependency_head:
+            self.arc_mlp_size = arc_mlp_size
+            self.label_mlp_size = label_mlp_size
+            self.mlp = Sequential(Linear(encoder_output_dim, 2 * (arc_mlp_size + label_mlp_size)),
+                                  LeakyReLU(0.1), Dropout(mlp_dropout))
+            self.arc_predictor = ArcBiaffine(arc_mlp_size, bias=True)
+            self.num_labels = vocab.get_vocab_size(dependency_namespace)
+            self.label_predictor = LabelBilinear(label_mlp_size, label_mlp_size,
+                                                 self.num_labels, bias=True)
+            self.use_greedy_infer = use_greedy_infer
+        else:
+            self.arc_mlp_size = None
+            self.label_mlp_size = None
+            self.mlp = None
+            self.arc_predictor = None
+            self.num_labels = None
+            self.label_predictor = None
+            self.use_greedy_infer = None
 
         self.embedding_dropout = Dropout(embedding_dropout)
         self.encoded_dropout = Dropout(encoded_dropout)
@@ -149,9 +159,9 @@ class CharBiaffineParser(Model):
 
     def forward(self,
                 chars: Dict[str, torch.Tensor],
-                adjacency_matrix: torch.Tensor = None,
                 upos_tags: torch.Tensor = None,
                 xpos_tags: torch.Tensor = None,
+                adjacency_matrix: torch.Tensor = None,
                 **kwargs) -> Dict[str, torch.Tensor]:
         # TODO: add metric monitoring
 
@@ -179,40 +189,43 @@ class CharBiaffineParser(Model):
                 output_dict['xpos_loss'] = loss.item()
                 accumulated_loss += loss
 
-        mlp_output = self.mlp(encoded)
-        arc_sz, label_sz = self.arc_mlp_size, self.label_mlp_size
-        arc_dep, arc_head = mlp_output[:, :, :arc_sz], mlp_output[:, :, arc_sz:2 * arc_sz]
-        label_dep, label_head = mlp_output[:, :, 2 * arc_sz:2 * arc_sz + label_sz], \
-            mlp_output[:, :, 2 * arc_sz + label_sz:]
+        if self.mlp is not None:
+            mlp_output = self.mlp(encoded)
+            arc_sz, label_sz = self.arc_mlp_size, self.label_mlp_size
+            arc_dep, arc_head = mlp_output[:, :, :arc_sz], mlp_output[:, :, arc_sz:2 * arc_sz]
+            label_dep, label_head = mlp_output[:, :, 2 * arc_sz:2 * arc_sz + label_sz], \
+                mlp_output[:, :, 2 * arc_sz + label_sz:]
 
-        arc_preds = self.arc_predictor(arc_head, arc_dep)
+            arc_preds = self.arc_predictor(arc_head, arc_dep)
 
-        if adjacency_matrix is not None:
-            arc_indices, arc_tags = self._transform_adjacency_matrix(adjacency_matrix)
-        else:
-            arc_indices, arc_tags = None, None
+            if adjacency_matrix is not None:
+                arc_indices, arc_tags = self._transform_adjacency_matrix(adjacency_matrix)
+            else:
+                arc_indices, arc_tags = None, None
 
-        # Use greedy decoding in training.
-        if self.use_greedy_infer or self.training:
-            head_preds = self.greedy_decoder(arc_preds, mask)  # [batch_size, seq_len]
-        else:
-            head_preds = self.mst_decoder(arc_preds, mask)  # [batch_size, seq_len]
+            # Use greedy decoding in training.
+            if self.use_greedy_infer or self.training:
+                head_preds = self.greedy_decoder(arc_preds, mask)  # [batch_size, seq_len]
+            else:
+                head_preds = self.mst_decoder(arc_preds, mask)  # [batch_size, seq_len]
 
-        batch_range = torch.arange(start=0, end=batch_size, dtype=torch.long,
-                                   device=mask.device).unsqueeze(1)  # [batch_size, 1]
-        label_head = label_head[batch_range, head_preds].contiguous()  # [batch_size, seq_len, label_mlp_size]
-        label_preds = self.label_predictor(label_head, label_dep)  # [batch_size, seq_len, num_labels]
+            batch_range = torch.arange(start=0, end=batch_size, dtype=torch.long,
+                                       device=mask.device).unsqueeze(1)  # [batch_size, 1]
+            label_head = label_head[batch_range, head_preds].contiguous()  # [batch_size, seq_len, label_mlp_size]
+            label_preds = self.label_predictor(label_head, label_dep)  # [batch_size, seq_len, num_labels]
 
-        output_dict.update({
-            'arc_preds': arc_preds,
-            'label_preds': label_preds,
-        })
-        if head_preds is not None:
-            output_dict['head_preds'] = head_preds
+            output_dict.update({
+                'arc_preds': arc_preds,
+                'label_preds': label_preds,
+            })
+            if head_preds is not None:
+                output_dict['head_preds'] = head_preds
 
-        if arc_indices is not None and arc_tags is not None:
-            loss = self.arc_loss(arc_preds, label_preds, arc_indices, arc_tags, mask)
-            output_dict['dependency_loss'] = loss.item()
-            output_dict['loss'] = accumulated_loss + loss
+            if arc_indices is not None and arc_tags is not None:
+                loss = self.arc_loss(arc_preds, label_preds, arc_indices, arc_tags, mask)
+                output_dict['dependency_loss'] = loss.item()
+                accumulated_loss += loss
+
+        output_dict['loss'] = accumulated_loss
 
         return output_dict
