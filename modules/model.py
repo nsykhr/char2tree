@@ -1,5 +1,5 @@
 import numpy as np
-from typing import Tuple, Dict
+from typing import Tuple, Dict, Union
 
 import torch
 import torch.nn.functional as F
@@ -101,7 +101,7 @@ class CharBiaffineParser(Model):
                  label_pred: torch.Tensor,
                  arc_true: torch.Tensor,
                  label_true: torch.Tensor,
-                 mask: torch.BoolTensor) -> torch.Tensor:
+                 mask: torch.LongTensor) -> torch.Tensor:
         """
         Compute loss for dependency parsing.
         :param arc_pred: [batch_size, seq_len, seq_len]
@@ -114,16 +114,17 @@ class CharBiaffineParser(Model):
 
         batch_size, seq_len = arc_true.shape
         flip_mask = (mask == 0)
-        _arc_pred = arc_pred.masked_fill(flip_mask.unsqueeze(1), -float('inf'))
+        _arc_pred = arc_pred.masked_fill(flip_mask.unsqueeze(2), -float('inf'))
+        _label_pred = label_pred.masked_fill(flip_mask.unsqueeze(2), -float('inf'))
 
         arc_true_filled = arc_true.clone()
-        arc_true_filled[:, 0].fill_(-1)
+        arc_true_filled[:, 0].fill_(0)
         label_true_filled = label_true.clone()
         label_true_filled[:, 0].fill_(-1)
 
         arc_nll = F.cross_entropy(_arc_pred.view(-1, seq_len),
-                                  arc_true_filled.view(-1), ignore_index=-1)
-        label_nll = F.cross_entropy(label_pred.view(-1, label_pred.size(-1)),
+                                  arc_true_filled.view(-1), ignore_index=0)
+        label_nll = F.cross_entropy(_label_pred.view(-1, _label_pred.size(-1)),
                                     label_true_filled.view(-1), ignore_index=-1)
 
         return arc_nll + label_nll
@@ -136,10 +137,10 @@ class CharBiaffineParser(Model):
         :return: a tuple of tensors, arc_indices [batch_size, seq_len] and arc_tags [batch_size, seq_len]
         """
         batch_size, seq_len = adjacency_matrix.size()[:2]
-        arc_indices = torch.zeros((batch_size, seq_len), dtype=torch.long)
-        arc_tags = torch.zeros((batch_size, seq_len), dtype=torch.long)
+        arc_indices = torch.zeros((batch_size, seq_len), dtype=torch.long, device=adjacency_matrix.device)
+        arc_tags = -torch.ones((batch_size, seq_len), dtype=torch.long, device=adjacency_matrix.device)
 
-        nonzero_indices = torch.nonzero(adjacency_matrix)
+        nonzero_indices = torch.nonzero(adjacency_matrix + 1)
         for (b, i, j) in nonzero_indices:
             arc_indices[b, j] = 1
             arc_tags[b, j] = adjacency_matrix[b, i, j]
@@ -182,40 +183,25 @@ class CharBiaffineParser(Model):
         arc_sz, label_sz = self.arc_mlp_size, self.label_mlp_size
         arc_dep, arc_head = mlp_output[:, :, :arc_sz], mlp_output[:, :, arc_sz:2 * arc_sz]
         label_dep, label_head = mlp_output[:, :, 2 * arc_sz:2 * arc_sz + label_sz], \
-                                mlp_output[:, :, 2 * arc_sz + label_sz:]
+            mlp_output[:, :, 2 * arc_sz + label_sz:]
 
         arc_preds = self.arc_predictor(arc_head, arc_dep)
 
         if adjacency_matrix is not None:
             arc_indices, arc_tags = self._transform_adjacency_matrix(adjacency_matrix)
         else:
-            arc_indices = None
+            arc_indices, arc_tags = None, None
 
-        # Use gold or predicted arcs to predict labels.
-        if arc_indices is None or not self.training:
-            # Use greedy decoding in training.
-            if self.training or self.use_greedy_infer:
-                heads = self.greedy_decoder(arc_preds, mask)
-            else:
-                heads = self.mst_decoder(arc_preds, mask)
-            head_preds = heads
+        # Use greedy decoding in training.
+        if self.use_greedy_infer or self.training:
+            head_preds = self.greedy_decoder(arc_preds, mask)  # [batch_size, seq_len]
         else:
-            if arc_indices is None:
-                heads = self.greedy_decoder(arc_preds, mask)
-                head_preds = heads
-            else:
-                head_preds = None
-                heads = arc_indices
+            head_preds = self.mst_decoder(arc_preds, mask)  # [batch_size, seq_len]
 
-        batch_range = torch.arange(start=0, end=batch_size, dtype=torch.long, device=mask.device).unsqueeze(1)
-        label_head = label_head[batch_range, heads].contiguous()
+        batch_range = torch.arange(start=0, end=batch_size, dtype=torch.long,
+                                   device=mask.device).unsqueeze(1)  # [batch_size, 1]
+        label_head = label_head[batch_range, head_preds].contiguous()  # [batch_size, seq_len, label_mlp_size]
         label_preds = self.label_predictor(label_head, label_dep)  # [batch_size, seq_len, num_labels]
-        arange_index = torch.arange(1, seq_len + 1, dtype=torch.long, device=mask.device).unsqueeze(0) \
-            .repeat(batch_size, 1)  # [batch_size, seq_len]
-        app_masks = heads.ne(arange_index)  # [batch_size, seq_len]
-        app_masks = app_masks.unsqueeze(2).repeat(1, 1, self.num_labels)
-        app_masks[:, :, 1:] = 0
-        label_preds = label_preds.masked_fill(app_masks, -np.inf)
 
         output_dict.update({
             'arc_preds': arc_preds,
