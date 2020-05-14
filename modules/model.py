@@ -1,4 +1,3 @@
-import numpy as np
 from typing import Tuple, Dict
 
 import torch
@@ -23,8 +22,10 @@ class CharBiaffineParser(Model):
                  encoder: Seq2SeqEncoder,
                  upos_head: bool = True,
                  upos_namespace: str = 'upos',
+                 upos_hidden: int = 256,
                  xpos_head: bool = False,
                  xpos_namespace: str = 'xpos',
+                 xpos_hidden: int = 256,
                  dependency_head: bool = True,
                  dependency_namespace: str = 'dependency',
                  use_greedy_infer: bool = False,
@@ -32,15 +33,21 @@ class CharBiaffineParser(Model):
                  label_mlp_size: int = 128,
                  embedding_dropout: float = 0.5,
                  encoded_dropout: float = 0.5,
+                 upos_dropout: float = 0.5,
+                 xpos_dropout: float = 0.5,
                  mlp_dropout: float = 0.5) -> None:
         super().__init__(vocab)
         self.embedder = text_field_embedder
         self.encoder = encoder
         encoder_output_dim = encoder.get_output_dim()
 
-        self.upos_head = Linear(encoder_output_dim, vocab.get_vocab_size(upos_namespace)) \
+        self.upos_head = Sequential(Linear(encoder_output_dim, upos_hidden),
+                                    LeakyReLU(0.1), Dropout(upos_dropout),
+                                    Linear(upos_hidden, vocab.get_vocab_size(upos_namespace))) \
             if upos_head else None
-        self.xpos_head = Linear(encoder_output_dim, vocab.get_vocab_size(xpos_namespace)) \
+        self.xpos_head = Sequential(Linear(encoder_output_dim, xpos_hidden),
+                                    LeakyReLU(0.1), Dropout(xpos_dropout),
+                                    Linear(xpos_hidden, vocab.get_vocab_size(xpos_namespace))) \
             if xpos_head else None
         self.tagging_loss = CrossEntropyLoss()
 
@@ -67,43 +74,52 @@ class CharBiaffineParser(Model):
         self.encoded_dropout = Dropout(encoded_dropout)
 
     @staticmethod
-    def greedy_decoder(arc_matrix, mask=None):
-        # TODO: understand what this does and rewrite the docstring
+    def greedy_decoder(arc_matrix: torch.Tensor, mask: torch.Tensor = None):
         r"""
-        贪心解码方式, 输入图, 输出贪心解码的parsing结果, 不保证合法的构成树
-        :param arc_matrix: [batch, seq_len, seq_len] 输入图矩阵
-        :param mask: [batch, seq_len] 输入图的padding mask, 有内容的部分为 1, 否则为 0.
-            若为 ``None`` 时, 默认为全1向量. Default: ``None``
-        :return heads: [batch, seq_len] 每个元素在树中对应的head(parent)预测结果
+        Greedy decoding method. We simply choose the head index with the highest probability, therefore,
+        legal tree structure is not guaranteed.
+
+        :param arc_matrix: [batch, seq_len, seq_len]
+        :param mask: [batch, seq_len]
+        :return heads: [batch, seq_len]: prediction result - head of each token in the sequence
         """
-        _, seq_len, _ = arc_matrix.shape
-        matrix = arc_matrix + torch.diag(arc_matrix.new(seq_len).fill_(-np.inf))
-        flip_mask = mask.eq(False)
-        matrix.masked_fill_(flip_mask.unsqueeze(1), -np.inf)
-        _, heads = torch.max(matrix, dim=2)
-        if mask is not None:
-            heads *= mask.long()
+        batch_size, seq_len = arc_matrix.size()[:2]
+        if mask is None:
+            mask = torch.ones((batch_size, seq_len), dtype=torch.long, device=arc_matrix.device)
+        flip_mask = (mask == 0)
+
+        matrix = arc_matrix + torch.diag(arc_matrix.new_zeros(seq_len).fill_(-float('inf')))
+        matrix.masked_fill_(flip_mask.unsqueeze(1), -float('inf'))
+
+        heads = torch.max(matrix, dim=2)[1]
+        heads *= mask.long()
+
         return heads
 
     @staticmethod
-    def mst_decoder(arc_matrix, mask=None):
-        # TODO: understand what this does and rewrite the docstring
+    def mst_decoder(arc_matrix: torch.Tensor, mask: torch.Tensor = None):
         r"""
-        用最大生成树算法, 计算parsing结果, 保证输出合法的树结构
-        :param arc_matrix: [batch, seq_len, seq_len] 输入图矩阵
-        :param mask: [batch, seq_len] 输入图的padding mask, 有内容的部分为 1, 否则为 0.
-            若为 ``None`` 时, 默认为全1向量. Default: ``None``
-        :return heads: [batch, seq_len] 每个元素在树中对应的head(parent)预测结果
+        Use the maximum spanning tree algorithm to calculate the parsing result
+        and ensure that the output is a legal tree structure.
+
+        :param arc_matrix: [batch, seq_len, seq_len]
+        :param mask: [batch, seq_len]
+        :return heads: [batch, seq_len]: prediction result - head of each token in the sequence
         """
-        batch_size, seq_len, _ = arc_matrix.shape
+        batch_size, seq_len = arc_matrix.size()[:2]
+        if mask is None:
+            mask = torch.ones((batch_size, seq_len), dtype=torch.long, device=arc_matrix.device)
+
         matrix = arc_matrix.clone()
         ans = matrix.new_zeros(batch_size, seq_len).long()
-        lens = (mask.long()).sum(1) if mask is not None else torch.zeros(batch_size) + seq_len
+        lengths = (mask.long()).sum(1) if mask is not None \
+            else torch.zeros(batch_size, dtype=torch.long, device=arc_matrix.device) + seq_len
+
         for i, graph in enumerate(matrix):
-            len_i = lens[i]
+            len_i = lengths[i]
             ans[i, :len_i] = torch.as_tensor(mst(graph.detach()[:len_i, :len_i].cpu().numpy()), device=ans.device)
-        if mask is not None:
-            ans *= mask.long()
+        ans *= mask.long()
+
         return ans
 
     @staticmethod
@@ -143,8 +159,10 @@ class CharBiaffineParser(Model):
     def _transform_adjacency_matrix(adjacency_matrix: torch.Tensor) -> Tuple[torch.Tensor, torch.Tensor]:
         """
         :param adjacency_matrix: a tensor of size [batch_size, seq_len, seq_len],
-        where non-zero elements signify an index of a syntactic tag
+        where elements that are >= 0 signify an index of a syntactic tag
         :return: a tuple of tensors, arc_indices [batch_size, seq_len] and arc_tags [batch_size, seq_len]
+
+        We use zero padding for arc indices and -1 padding for arc tags.
         """
         batch_size, seq_len = adjacency_matrix.size()[:2]
         arc_indices = torch.zeros((batch_size, seq_len), dtype=torch.long, device=adjacency_matrix.device)
