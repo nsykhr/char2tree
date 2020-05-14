@@ -14,38 +14,40 @@
       "token_embedders": {
         "tokens": {
           "type": "embedding",
-          "embedding_dim": 300,
+          "embedding_dim": 100,
           "trainable": true
         }
       }
     },
     "encoder": {
       "type": "stacked_bidirectional_lstm",
-      "input_size": 300,
-      "hidden_size": 512,
+      "input_size": 100,
+      "hidden_size": 640,
       "num_layers": 2,
       "recurrent_dropout_probability": 0.25,
       "layer_dropout_probability": 0.25,
       "use_highway": true
     },
+    "xpos_head": true,
     "arc_mlp_size": 512,
     "label_mlp_size": 128,
     "use_greedy_infer": false,
-    "xpos_head": true,
     "embedding_dropout": 0.25,
     "encoded_dropout": 0.25,
+    "upos_dropout": 0.25,
+    "xpos_dropout": 0.25,
     "mlp_dropout": 0.25
   },
   "iterator": {
     "type": "bucket",
-    "batch_size": 352,
+    "batch_size": 256,
     "biggest_batch_first": true,
     "sorting_keys": [["chars", "num_tokens"]]
   },
   "trainer": {
     "optimizer": {
       "type": "adam",
-      "lr": 5e-4,
+      "lr": 5e-3,
       "weight_decay": 1e-4
     },
     "learning_rate_scheduler": {

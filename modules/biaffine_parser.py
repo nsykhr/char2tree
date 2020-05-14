@@ -20,6 +20,7 @@ class ArcBiaffine(nn.Module):
 
     def forward(self, head, dep):
         """
+        s_ij = dep * U * head_T + bias * head_T
         :param head: arc-head tensor [batch_size, length, hidden_size]
         :param dep: arc-dependent tensor [batch_size, length, hidden_size]
         :return output: tensor [batch_size, length, length]
