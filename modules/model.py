@@ -2,7 +2,7 @@ from typing import Tuple, Dict
 
 import torch
 import torch.nn.functional as F
-from torch.nn import Dropout, Linear, LeakyReLU, Sequential, CrossEntropyLoss
+from torch.nn import Dropout, Linear, PReLU, Sequential, CrossEntropyLoss
 
 from allennlp.models import Model
 from allennlp.data.vocabulary import Vocabulary
@@ -14,8 +14,8 @@ from modules.utils import mst
 from modules.biaffine_parser import ArcBiaffine, LabelBilinear
 
 
-@Model.register('char_biaffine')
-class CharBiaffineParser(Model):
+@Model.register('char_level_joint')
+class CharacterLevelJointModel(Model):
     def __init__(self,
                  vocab: Vocabulary,
                  text_field_embedder: TextFieldEmbedder,
@@ -42,20 +42,20 @@ class CharBiaffineParser(Model):
         encoder_output_dim = encoder.get_output_dim()
 
         self.upos_head = Sequential(Linear(encoder_output_dim, upos_hidden),
-                                    LeakyReLU(0.1), Dropout(upos_dropout),
+                                    PReLU(), Dropout(upos_dropout),
                                     Linear(upos_hidden, vocab.get_vocab_size(upos_namespace))) \
             if upos_head else None
         self.xpos_head = Sequential(Linear(encoder_output_dim, xpos_hidden),
-                                    LeakyReLU(0.1), Dropout(xpos_dropout),
+                                    PReLU(), Dropout(xpos_dropout),
                                     Linear(xpos_hidden, vocab.get_vocab_size(xpos_namespace))) \
             if xpos_head else None
-        self.tagging_loss = CrossEntropyLoss()
+        self.tagging_loss = CrossEntropyLoss(ignore_index=-1)
 
         if dependency_head:
             self.arc_mlp_size = arc_mlp_size
             self.label_mlp_size = label_mlp_size
             self.mlp = Sequential(Linear(encoder_output_dim, 2 * (arc_mlp_size + label_mlp_size)),
-                                  LeakyReLU(0.1), Dropout(mlp_dropout))
+                                  PReLU(), Dropout(mlp_dropout))
             self.arc_predictor = ArcBiaffine(arc_mlp_size, bias=True)
             self.num_labels = vocab.get_vocab_size(dependency_namespace)
             self.label_predictor = LabelBilinear(label_mlp_size, label_mlp_size,
@@ -73,6 +73,10 @@ class CharBiaffineParser(Model):
         self.embedding_dropout = Dropout(embedding_dropout)
         self.encoded_dropout = Dropout(encoded_dropout)
 
+        self.upos_namespace = upos_namespace
+        self.xpos_namespace = xpos_namespace
+        self.dependency_namespace = dependency_namespace
+
     @staticmethod
     def greedy_decoder(arc_matrix: torch.Tensor, mask: torch.Tensor = None):
         r"""
@@ -86,10 +90,10 @@ class CharBiaffineParser(Model):
         batch_size, seq_len = arc_matrix.size()[:2]
         if mask is None:
             mask = torch.ones((batch_size, seq_len), dtype=torch.long, device=arc_matrix.device)
-        flip_mask = (mask == 0)
+        flipped_mask = (mask == 0)
 
         matrix = arc_matrix + torch.diag(arc_matrix.new_zeros(seq_len).fill_(-float('inf')))
-        matrix.masked_fill_(flip_mask.unsqueeze(1), -float('inf'))
+        matrix.masked_fill_(flipped_mask.unsqueeze(1), -float('inf'))
 
         heads = torch.max(matrix, dim=2)[1]
         heads *= mask.long()
@@ -127,30 +131,28 @@ class CharBiaffineParser(Model):
                  label_pred: torch.Tensor,
                  arc_true: torch.Tensor,
                  label_true: torch.Tensor,
-                 mask: torch.LongTensor) -> torch.Tensor:
+                 flipped_mask: torch.Tensor) -> torch.Tensor:
         """
         Compute loss for dependency parsing.
         :param arc_pred: [batch_size, seq_len, seq_len]
         :param label_pred: [batch_size, seq_len, num_labels]
         :param arc_true: [batch_size, seq_len]
         :param label_true: [batch_size, seq_len]
-        :param mask: [batch_size, seq_len]
+        :param flipped_mask: [batch_size, seq_len]
         :return: loss value
         """
-
         batch_size, seq_len = arc_true.shape
-        flip_mask = (mask == 0)
-        _arc_pred = arc_pred.masked_fill(flip_mask.unsqueeze(2), -float('inf'))
-        _label_pred = label_pred.masked_fill(flip_mask.unsqueeze(2), -float('inf'))
+        _arc_pred = arc_pred.masked_fill(flipped_mask.unsqueeze(1), -float('inf'))
 
+        # The first token is always the <ROOT> token. We do not take the predictions for this token into account.
         arc_true_filled = arc_true.clone()
-        arc_true_filled[:, 0].fill_(0)
+        arc_true_filled[:, 0].fill_(-1)
         label_true_filled = label_true.clone()
         label_true_filled[:, 0].fill_(-1)
 
         arc_nll = F.cross_entropy(_arc_pred.view(-1, seq_len),
-                                  arc_true_filled.view(-1), ignore_index=0)
-        label_nll = F.cross_entropy(_label_pred.view(-1, _label_pred.size(-1)),
+                                  arc_true_filled.view(-1), ignore_index=-1)
+        label_nll = F.cross_entropy(label_pred.view(-1, label_pred.size(-1)),
                                     label_true_filled.view(-1), ignore_index=-1)
 
         return arc_nll + label_nll
@@ -162,16 +164,16 @@ class CharBiaffineParser(Model):
         where elements that are >= 0 signify an index of a syntactic tag
         :return: a tuple of tensors, arc_indices [batch_size, seq_len] and arc_tags [batch_size, seq_len]
 
-        We use zero padding for arc indices and -1 padding for arc tags.
+        We use -1 padding for both arc indices and arc tags.
         """
         batch_size, seq_len = adjacency_matrix.size()[:2]
-        arc_indices = torch.zeros((batch_size, seq_len), dtype=torch.long, device=adjacency_matrix.device)
+        arc_indices = -torch.ones((batch_size, seq_len), dtype=torch.long, device=adjacency_matrix.device)
         arc_tags = -torch.ones((batch_size, seq_len), dtype=torch.long, device=adjacency_matrix.device)
 
         nonzero_indices = torch.nonzero(adjacency_matrix + 1)
         for (b, i, j) in nonzero_indices:
-            arc_indices[b, j] = 1
-            arc_tags[b, j] = adjacency_matrix[b, i, j]
+            arc_indices[b, i] = j
+            arc_tags[b, i] = adjacency_matrix[b, i, j]
 
         return arc_indices, arc_tags
 
@@ -185,17 +187,19 @@ class CharBiaffineParser(Model):
 
         mask = get_text_field_mask(chars)
         output_dict = {'mask': mask}
+        flipped_mask = (mask == 0)
 
         batch_size, seq_len = mask.shape
         embedded = self.embedding_dropout(self.embedder(chars))
         encoded = self.encoded_dropout(self.encoder(embedded, mask))
 
-        accumulated_loss = 0
+        accumulated_loss = torch.tensor(0., device=mask.device)
         if self.upos_head is not None:
             logits = self.upos_head(encoded)
             output_dict['upos_logits'] = logits
             if upos_tags is not None:
-                loss = self.tagging_loss(logits.transpose(1, 2), upos_tags)
+                _upos_tags = upos_tags.masked_fill(flipped_mask, -1)
+                loss = self.tagging_loss(logits.transpose(1, 2), _upos_tags)
                 output_dict['upos_loss'] = loss.item()
                 accumulated_loss += loss
 
@@ -203,7 +207,8 @@ class CharBiaffineParser(Model):
             logits = self.xpos_head(encoded)
             output_dict['xpos_logits'] = logits
             if xpos_tags is not None:
-                loss = self.tagging_loss(logits.transpose(1, 2), xpos_tags)
+                _xpos_tags = xpos_tags.masked_fill(flipped_mask, -1)
+                loss = self.tagging_loss(logits.transpose(1, 2), _xpos_tags)
                 output_dict['xpos_loss'] = loss.item()
                 accumulated_loss += loss
 
@@ -234,13 +239,12 @@ class CharBiaffineParser(Model):
 
             output_dict.update({
                 'arc_preds': arc_preds,
-                'label_preds': label_preds,
+                'head_preds': head_preds,
+                'label_preds': label_preds
             })
-            if head_preds is not None:
-                output_dict['head_preds'] = head_preds
 
             if arc_indices is not None and arc_tags is not None:
-                loss = self.arc_loss(arc_preds, label_preds, arc_indices, arc_tags, mask)
+                loss = self.arc_loss(arc_preds, label_preds, arc_indices, arc_tags, flipped_mask)
                 output_dict['dependency_loss'] = loss.item()
                 accumulated_loss += loss
 
