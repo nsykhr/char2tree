@@ -11,7 +11,7 @@ from modules import UniversalDependenciesCharacterLevelDatasetReader, \
     UniversalDependenciesBasicCharacterLevelPredictor
 
 
-def save_predictions_to_conllu(savepath: str, predictions: List[Dict[str, List[str]]]):
+def save_predictions_to_conllu(savepath: str, predictions: List[Dict[str, List[str]]]) -> None:
     with open(savepath, 'w') as f:
         for i, sentence in enumerate(predictions):
             f.write(f'# sent_id = test-s{i+1}\n')
@@ -31,7 +31,7 @@ def save_predictions_to_conllu(savepath: str, predictions: List[Dict[str, List[s
 
 
 def get_predictions(test_path: str, dataset_reader: UniversalDependenciesCharacterLevelDatasetReader,
-                    predictor: UniversalDependenciesBasicCharacterLevelPredictor):
+                    predictor: UniversalDependenciesBasicCharacterLevelPredictor) -> List[Dict[str, List[str]]]:
     all_predictions = []
     for sentence in tqdm(dataset_reader.read_corpus(test_path)):
         tokens = [dataset_reader.root_token] + list(''.join([x[1] for x in sentence]))

@@ -3,10 +3,12 @@ from itertools import chain
 from overrides import overrides
 from typing import List, Dict, Union, Any
 
-from allennlp.models import Model
+from allennlp.data import Instance
 from allennlp.predictors import Predictor
 from allennlp.common.util import JsonDict
-from allennlp.data import DatasetReader, Instance
+
+
+from modules import UniversalDependenciesCharacterLevelDatasetReader, CharacterLevelJointModel
 
 
 def vote(votes: List[Any]) -> Any:
@@ -16,8 +18,8 @@ def vote(votes: List[Any]) -> Any:
 @Predictor.register('ud_basic_char_level')
 class UniversalDependenciesBasicCharacterLevelPredictor(Predictor):
     def __init__(self,
-                 model: Model,
-                 dataset_reader: DatasetReader):
+                 model: CharacterLevelJointModel,
+                 dataset_reader: UniversalDependenciesCharacterLevelDatasetReader):
         super().__init__(model=model, dataset_reader=dataset_reader)
 
     @overrides
