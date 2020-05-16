@@ -3,10 +3,10 @@
     "type": "ud_char_level",
     "use_xpos": true
   },
-  "train_data_path": "data/UD_Japanese-BCCWJ/ja_bccwj-ud-train.conllu",
-  "validation_data_path": "data/UD_Japanese-BCCWJ/ja_bccwj-ud-dev.conllu",
+  "train_data_path": "data/UD_Japanese-GSD/ja_gsd-ud-train.conllu",
+  "validation_data_path": "data/UD_Japanese-GSD/ja_gsd-ud-dev.conllu",
   "vocabulary": {
-    "non_padded_namespaces": ["*tags", "*labels", "upos", "xpos", "dependency"]
+    "non_padded_namespaces": ["*tags", "*labels", "upos", "dependency"]
   },
   "model": {
     "type": "char_level_joint",
@@ -28,12 +28,12 @@
       "layer_dropout_probability": 0.3,
       "use_highway": true
     },
-    "xpos_head": true,
-    "use_intratoken_heuristics": true,
-    "embedding_dropout": 0.25,
+    "upos_hidden": 320,
+    "arc_mlp_size": 512,
+    "label_mlp_size": 128,
+    "embedding_dropout": 0.3,
     "encoded_dropout": 0.3,
-    "upos_dropout": 0.25,
-    "xpos_dropout": 0.25,
+    "upos_dropout": 0.3,
     "mlp_dropout": 0.3
   },
   "iterator": {
