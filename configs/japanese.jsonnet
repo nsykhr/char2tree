@@ -1,7 +1,6 @@
 {
   "dataset_reader": {
-    "type": "ud_char_level",
-    "use_xpos": true
+    "type": "ud_char_level"
   },
   "train_data_path": "data/UD_Japanese-GSD/ja_gsd-ud-train.conllu",
   "validation_data_path": "data/UD_Japanese-GSD/ja_gsd-ud-dev.conllu",
@@ -29,8 +28,6 @@
       "use_highway": true
     },
     "upos_hidden": 320,
-    "arc_mlp_size": 512,
-    "label_mlp_size": 128,
     "embedding_dropout": 0.3,
     "encoded_dropout": 0.3,
     "upos_dropout": 0.3,
