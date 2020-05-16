@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>57109</sentences><tokens>1273287</tokens><words>1273287</words><fused>0</fused></total>
+    <train><sentences>40801</sentences><tokens>923761</tokens><words>923761</words><fused>0</fused></train>
+    <dev><sentences>8427</sentences><tokens>180767</tokens><words>180767</words><fused>0</fused></dev>
+    <test><sentences>7881</sentences><tokens>168759</tokens><words>168759</words><fused>0</fused></test>
+  </size>
+  <lemmas unique="0" /><!--  -->
+  <forms unique="0" /><!--  -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="17">
+    <tag name="ADJ">27494</tag><!-- _ -->
+    <tag name="ADP">255976</tag><!-- _ -->
+    <tag name="ADV">18815</tag><!-- _ -->
+    <tag name="AUX">147400</tag><!-- _ -->
+    <tag name="CCONJ">16142</tag><!-- _ -->
+    <tag name="DET">5357</tag><!-- _ -->
+    <tag name="INTJ">915</tag><!-- _ -->
+    <tag name="NOUN">369172</tag><!-- _ -->
+    <tag name="NUM">58321</tag><!-- _ -->
+    <tag name="PART">7456</tag><!-- _ -->
+    <tag name="PRON">11557</tag><!-- _ -->
+    <tag name="PROPN">35938</tag><!-- _ -->
+    <tag name="PUNCT">107005</tag><!-- _ -->
+    <tag name="SCONJ">41512</tag><!-- _ -->
+    <tag name="SYM">60957</tag><!-- _ -->
+    <tag name="VERB">108692</tag><!-- _ -->
+    <tag name="X">578</tag><!-- _ -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="2">
+    <feat name="Foreign" value="Yes" upos="X">218</feat><!-- _ -->
+    <feat name="Polarity" value="Neg" upos="ADJ,AUX,NOUN">12793</feat><!-- _ -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="23">
+    <dep name="acl">31794</dep>
+    <dep name="advcl">30221</dep>
+    <dep name="advmod">16940</dep>
+    <dep name="amod">22253</dep>
+    <dep name="aux">131946</dep>
+    <dep name="case">253009</dep>
+    <dep name="cc">16120</dep>
+    <dep name="compound">170525</dep>
+    <dep name="cop">5661</dep>
+    <dep name="dep">81623</dep>
+    <dep name="det">5356</dep>
+    <dep name="discourse">834</dep>
+    <dep name="dislocated">379</dep>
+    <dep name="iobj">15689</dep>
+    <dep name="mark">41369</dep>
+    <dep name="nmod">113787</dep>
+    <dep name="nsubj">55117</dep>
+    <dep name="nummod">53859</dep>
+    <dep name="obj">33059</dep>
+    <dep name="obl">29630</dep>
+    <dep name="punct">106990</dep>
+    <dep name="reparandum">17</dep>
+    <dep name="root">57109</dep>
+  </deps>
+</treebank>
