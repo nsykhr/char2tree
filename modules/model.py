@@ -2,7 +2,7 @@ from typing import Tuple, Dict
 
 import torch
 import torch.nn.functional as F
-from torch.nn import Dropout, Linear, PReLU, Sequential, CrossEntropyLoss
+from torch.nn import Dropout, Linear, PReLU, Sequential
 
 from allennlp.models import Model
 from allennlp.data.vocabulary import Vocabulary
@@ -28,9 +28,10 @@ class CharacterLevelJointModel(Model):
                  xpos_hidden: int = 256,
                  dependency_head: bool = True,
                  dependency_namespace: str = 'dependency',
-                 use_greedy_infer: bool = False,
                  arc_mlp_size: int = 512,
                  label_mlp_size: int = 128,
+                 use_greedy_infer: bool = False,
+                 use_intratoken_heuristics: bool = False,
                  embedding_dropout: float = 0.5,
                  encoded_dropout: float = 0.5,
                  upos_dropout: float = 0.5,
@@ -45,11 +46,11 @@ class CharacterLevelJointModel(Model):
                                     PReLU(), Dropout(upos_dropout),
                                     Linear(upos_hidden, vocab.get_vocab_size(upos_namespace))) \
             if upos_head else None
+
         self.xpos_head = Sequential(Linear(encoder_output_dim, xpos_hidden),
                                     PReLU(), Dropout(xpos_dropout),
                                     Linear(xpos_hidden, vocab.get_vocab_size(xpos_namespace))) \
             if xpos_head else None
-        self.tagging_loss = CrossEntropyLoss(ignore_index=-1)
 
         if dependency_head:
             self.arc_mlp_size = arc_mlp_size
@@ -61,6 +62,7 @@ class CharacterLevelJointModel(Model):
             self.label_predictor = LabelBilinear(label_mlp_size, label_mlp_size,
                                                  self.num_labels, bias=True)
             self.use_greedy_infer = use_greedy_infer
+            self.use_intratoken_heuristics = use_intratoken_heuristics
         else:
             self.arc_mlp_size = None
             self.label_mlp_size = None
@@ -69,6 +71,7 @@ class CharacterLevelJointModel(Model):
             self.num_labels = None
             self.label_predictor = None
             self.use_greedy_infer = None
+            self.use_intratoken_heuristics = None
 
         self.embedding_dropout = Dropout(embedding_dropout)
         self.encoded_dropout = Dropout(encoded_dropout)
@@ -122,6 +125,7 @@ class CharacterLevelJointModel(Model):
         for i, graph in enumerate(matrix):
             len_i = lengths[i]
             ans[i, :len_i] = torch.as_tensor(mst(graph.detach()[:len_i, :len_i].cpu().numpy()), device=ans.device)
+
         ans *= mask.long()
 
         return ans
@@ -142,7 +146,7 @@ class CharacterLevelJointModel(Model):
         :return: loss value
         """
         batch_size, seq_len = arc_true.shape
-        _arc_pred = arc_pred.masked_fill(flipped_mask.unsqueeze(1), -float('inf'))
+        masked_arc_pred = arc_pred.masked_fill(flipped_mask.unsqueeze(1), -float('inf'))
 
         # The first token is always the <ROOT> token. We do not take the predictions for this token into account.
         arc_true_filled = arc_true.clone()
@@ -150,7 +154,7 @@ class CharacterLevelJointModel(Model):
         label_true_filled = label_true.clone()
         label_true_filled[:, 0].fill_(-1)
 
-        arc_nll = F.cross_entropy(_arc_pred.view(-1, seq_len),
+        arc_nll = F.cross_entropy(masked_arc_pred.view(-1, seq_len),
                                   arc_true_filled.view(-1), ignore_index=-1)
         label_nll = F.cross_entropy(label_pred.view(-1, label_pred.size(-1)),
                                     label_true_filled.view(-1), ignore_index=-1)
@@ -183,7 +187,7 @@ class CharacterLevelJointModel(Model):
                 xpos_tags: torch.Tensor = None,
                 adjacency_matrix: torch.Tensor = None,
                 **kwargs) -> Dict[str, torch.Tensor]:
-        # TODO: add metric monitoring
+        # TODO: add online metric monitoring
 
         mask = get_text_field_mask(chars)
         output_dict = {'mask': mask}
@@ -198,8 +202,9 @@ class CharacterLevelJointModel(Model):
             logits = self.upos_head(encoded)
             output_dict['upos_logits'] = logits
             if upos_tags is not None:
-                _upos_tags = upos_tags.masked_fill(flipped_mask, -1)
-                loss = self.tagging_loss(logits.transpose(1, 2), _upos_tags)
+                masked_upos_tags = upos_tags.masked_fill(flipped_mask, -1)
+                loss = F.cross_entropy(logits.transpose(1, 2), masked_upos_tags,
+                                       ignore_index=-1)
                 output_dict['upos_loss'] = loss.item()
                 accumulated_loss += loss
 
@@ -207,8 +212,9 @@ class CharacterLevelJointModel(Model):
             logits = self.xpos_head(encoded)
             output_dict['xpos_logits'] = logits
             if xpos_tags is not None:
-                _xpos_tags = xpos_tags.masked_fill(flipped_mask, -1)
-                loss = self.tagging_loss(logits.transpose(1, 2), _xpos_tags)
+                masked_xpos_tags = xpos_tags.masked_fill(flipped_mask, -1)
+                loss = F.cross_entropy(logits.transpose(1, 2), masked_xpos_tags,
+                                       ignore_index=-1)
                 output_dict['xpos_loss'] = loss.item()
                 accumulated_loss += loss
 
@@ -236,6 +242,19 @@ class CharacterLevelJointModel(Model):
                                        device=mask.device).unsqueeze(1)  # [batch_size, 1]
             label_head = label_head[batch_range, head_preds].contiguous()  # [batch_size, seq_len, label_mlp_size]
             label_preds = self.label_predictor(label_head, label_dep)  # [batch_size, seq_len, num_labels]
+
+            if not self.training and self.use_intratoken_heuristics:
+                # TODO: currently this part makes loss infinite
+                """This piece of code prevents the model from predicting the app dependency type
+                when the head is not the next token. It can only work for character-level
+                models when the language does not contain any incorporation. Besides, the index
+                of the app dependency type in the vocabulary must be 0."""
+                shifted_index = torch.arange(1, seq_len + 1, dtype=torch.long, device=mask.device).unsqueeze(0) \
+                    .repeat(batch_size, 1)
+                app_masks = head_preds.ne(shifted_index)
+                app_masks = app_masks.unsqueeze(2).repeat(1, 1, self.num_labels)
+                app_masks[:, :, 1:] = 0
+                label_preds = label_preds.masked_fill(app_masks, -float('inf'))
 
             output_dict.update({
                 'arc_preds': arc_preds,

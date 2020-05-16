@@ -53,8 +53,7 @@ def main():
     config = Params.from_file(Path(args.model_path, 'config.json'))
     dataset_reader = DatasetReader.from_params(config['dataset_reader'])
 
-    model = Model.load(config, serialization_dir=args.model_path,
-                       weights_file='models/japanese/best.th', cuda_device=args.cuda)
+    model = Model.load(config, serialization_dir=args.model_path, cuda_device=args.cuda)
     model.eval()
 
     predictor = UniversalDependenciesBasicCharacterLevelPredictor(model=model, dataset_reader=dataset_reader)
