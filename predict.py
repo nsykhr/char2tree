@@ -47,7 +47,7 @@ def main():
     parser.add_argument('--test-path', '-t', type=str, help='Path to the testing data file in the UD format.')
     parser.add_argument('--model-path', '-m', type=str, help='Path to the directory with the trained model.')
     parser.add_argument('--savepath', '-s', type=str, help='Path to save the CONLLU file with predictions.')
-    parser.add_argument('--cuda', '-c', type=int, default=-1, help='Whether or not to use CUDA.')
+    parser.add_argument('--cuda', '-c', type=int, default=-1, help='CUDA device index (default value is -1 for CPU).')
     args = parser.parse_args()
 
     config = Params.from_file(Path(args.model_path, 'config.json'))
