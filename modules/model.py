@@ -244,10 +244,10 @@ class CharacterLevelJointModel(Model):
             label_preds = self.label_predictor(label_head, label_dep)  # [batch_size, seq_len, num_labels]
 
             if self.use_intratoken_heuristics and arc_tags is None and arc_indices is None:
-                """This piece of code prevents the model from predicting the app dependency type
-                when the head is not the next token (only during inference). It can only work
-                for character-level models when the language does not contain any incorporation.
-                Besides, the index of the app dependency type in the vocabulary must be 0."""
+                """This piece of code prevents the model from predicting the app dependency
+                type when the head is not the next token (only during inference). It can
+                only work for character-level models. Besides, the index of the app
+                dependency type in the model vocabulary must be 0."""
                 shifted_index = torch.arange(1, seq_len + 1, dtype=torch.long, device=mask.device).unsqueeze(0) \
                     .repeat(batch_size, 1)
                 app_masks = head_preds.ne(shifted_index)

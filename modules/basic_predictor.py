@@ -108,7 +108,7 @@ class UniversalDependenciesBasicCharacterLevelPredictor(Predictor):
             self.update_head_indices(output)
 
         else:
-            char_preds.update({'tokens': json_dict['tokens']})
+            char_preds.update({'tokens': json_dict['tokens'][1:]})
             char_preds['heads'] = list(map(str, char_preds['heads']))
             output = char_preds
 
