@@ -23,6 +23,7 @@ class UniversalDependenciesDatasetReader(DatasetReader):
             use_deptags: bool = True,
             num_cols: int = 10,
             tokenizer: Tokenizer = None,
+            use_lowercase: bool = True,
             root_token: str = ROOT_TOKEN,
             intratoken_tag: str = INTRATOKEN_TAG,
             lazy: bool = False
@@ -39,6 +40,7 @@ class UniversalDependenciesDatasetReader(DatasetReader):
         self.num_cols = num_cols
 
         self.tokenizer = tokenizer
+        self.use_lowercase = use_lowercase
         self.root_token = root_token
         self.intratoken_tag = intratoken_tag
 
@@ -77,12 +79,16 @@ class UniversalDependenciesDatasetReader(DatasetReader):
                 continue
 
             if '.' in line[0]:  # enhanced dependency
-                base_token_idx = i - int(line[0].split('.')[-1]) + 1
+                base_token_idx = i - int(line[0].split('.')[-1])
+                subtoken_start = sentence[base_token_idx][1].find(line[1])
+                if subtoken_start == -1:
+                    print(f'Enhanced dependencies error: subtoken {line[1]} not found',
+                          f'in the base token {sentence[base_token_idx][1]}.')
+                    continue
+
+                base_token_idx += 1  # To account for 1-indexing in the CONLLU.
                 enhanced_dependencies[base_token_idx] = {}
-                subtoken_start = sentence[base_token_idx - 1][1].find(line[1])
-                assert subtoken_start != -1, \
-                    f'Enhanced dependencies error: subtoken {line[1]} not found' \
-                    f'in the base token {sentence[base_token_idx][1]}.'
+
                 subtoken_end = subtoken_start + len(line[1])
 
                 for char_idx in range(subtoken_start, subtoken_end):
@@ -139,7 +145,7 @@ class UniversalDependenciesDatasetReader(DatasetReader):
                     if enhanced_dependencies[token_idx][i][-1] == '<SUBTOKEN_END>':
                         # The last character of an incorporated subtoken is the child
                         # of the last character of the whole token.
-                        old_head_id, rel_type = enhanced_dependencies[token_idx][i][7].split(':')
+                        old_head_id, rel_type = enhanced_dependencies[token_idx][i][8].split(':')
                         new_line[6] = str(token2char_id_mapping[int(old_head_id)])
                         new_line[7] = 'incorp:' + rel_type
 
@@ -185,6 +191,8 @@ class UniversalDependenciesDatasetReader(DatasetReader):
 
         fields: Dict[str, Field] = {}
 
+        if self.use_lowercase:
+            tokens = list(map(str.lower, tokens))
         tokens = self.tokenizer.tokenize(' '.join(tokens)) \
             if self.tokenizer is not None else [Token(t) for t in tokens]
 

@@ -44,7 +44,7 @@
     "type": "bucket",
     "batch_size": 32,
     "biggest_batch_first": true,
-    "sorting_keys": [["chars", "num_tokens"]]
+    "sorting_keys": [["tokens", "num_tokens"]]
   },
   "trainer": {
     "optimizer": {
