@@ -7,7 +7,7 @@ from allennlp.models import Model
 from allennlp.data import DatasetReader
 from allennlp.common.params import Params
 
-from modules import UniversalDependenciesCharacterLevelDatasetReader, \
+from modules import UniversalDependenciesDatasetReader, \
     UniversalDependenciesBasicCharacterLevelPredictor
 
 
@@ -30,7 +30,7 @@ def save_predictions_to_conllu(savepath: str, predictions: List[Dict[str, List[s
             f.write('\n')
 
 
-def get_predictions(test_path: str, dataset_reader: UniversalDependenciesCharacterLevelDatasetReader,
+def get_predictions(test_path: str, dataset_reader: UniversalDependenciesDatasetReader,
                     predictor: UniversalDependenciesBasicCharacterLevelPredictor) -> List[Dict[str, List[str]]]:
     all_predictions = []
     for sentence in tqdm(dataset_reader.read_corpus(test_path)):

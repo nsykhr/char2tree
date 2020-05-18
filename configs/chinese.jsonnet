@@ -1,6 +1,6 @@
 {
   "dataset_reader": {
-    "type": "ud_char_level",
+    "type": "ud_reader",
     "use_xpos": true
   },
   "train_data_path": "data/UD_Chinese-GSD/zh_gsd-ud-train.conllu",
