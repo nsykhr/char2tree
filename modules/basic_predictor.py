@@ -8,7 +8,7 @@ from allennlp.predictors import Predictor
 from allennlp.common.util import JsonDict
 
 
-from modules import UniversalDependenciesCharacterLevelDatasetReader, CharacterLevelJointModel
+from modules import UniversalDependenciesDatasetReader, CharacterLevelJointModel
 
 
 def vote(votes: List[Any]) -> Any:
@@ -19,7 +19,7 @@ def vote(votes: List[Any]) -> Any:
 class UniversalDependenciesBasicCharacterLevelPredictor(Predictor):
     def __init__(self,
                  model: CharacterLevelJointModel,
-                 dataset_reader: UniversalDependenciesCharacterLevelDatasetReader):
+                 dataset_reader: UniversalDependenciesDatasetReader):
         super().__init__(model=model, dataset_reader=dataset_reader)
 
     @overrides

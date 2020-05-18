@@ -182,19 +182,19 @@ class CharacterLevelJointModel(Model):
         return arc_indices, arc_tags
 
     def forward(self,
-                chars: Dict[str, torch.Tensor],
+                tokens: Dict[str, torch.Tensor],
                 upos_tags: torch.Tensor = None,
                 xpos_tags: torch.Tensor = None,
                 adjacency_matrix: torch.Tensor = None,
                 **kwargs) -> Dict[str, torch.Tensor]:
         # TODO: add online metric monitoring
 
-        mask = get_text_field_mask(chars)
+        mask = get_text_field_mask(tokens)
         output_dict = {'mask': mask}
         flipped_mask = (mask == 0)
 
         batch_size, seq_len = mask.shape
-        embedded = self.embedding_dropout(self.embedder(chars))
+        embedded = self.embedding_dropout(self.embedder(tokens))
         encoded = self.encoded_dropout(self.encoder(embedded, mask))
 
         accumulated_loss = torch.tensor(0., device=mask.device)

@@ -1,6 +1,6 @@
 {
   "dataset_reader": {
-    "type": "ud_char_level"
+    "type": "ud_reader"
   },
   "train_data_path": "data/UD_Japanese-GSD/ja_gsd-ud-train.conllu",
   "validation_data_path": "data/UD_Japanese-GSD/ja_gsd-ud-dev.conllu",
