@@ -41,7 +41,6 @@
         },
         "upos_dropout": 0.33,
         "upos_hidden": 192,
-        "use_intratoken_heuristics": true,
         "xpos_dropout": 0.33,
         "xpos_head": true,
         "xpos_hidden": 192

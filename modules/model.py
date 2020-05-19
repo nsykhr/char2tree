@@ -31,7 +31,6 @@ class CharacterLevelJointModel(Model):
                  arc_mlp_size: int = 512,
                  label_mlp_size: int = 128,
                  use_greedy_infer: bool = False,
-                 use_intratoken_heuristics: bool = False,
                  embedding_dropout: float = 0.5,
                  encoded_dropout: float = 0.5,
                  upos_dropout: float = 0.5,
@@ -62,7 +61,6 @@ class CharacterLevelJointModel(Model):
             self.label_predictor = LabelBilinear(label_mlp_size, label_mlp_size,
                                                  self.num_labels, bias=True)
             self.use_greedy_infer = use_greedy_infer
-            self.use_intratoken_heuristics = use_intratoken_heuristics
         else:
             self.arc_mlp_size = None
             self.label_mlp_size = None
@@ -71,7 +69,6 @@ class CharacterLevelJointModel(Model):
             self.num_labels = None
             self.label_predictor = None
             self.use_greedy_infer = None
-            self.use_intratoken_heuristics = None
 
         self.embedding_dropout = Dropout(embedding_dropout)
         self.encoded_dropout = Dropout(encoded_dropout)
@@ -242,18 +239,6 @@ class CharacterLevelJointModel(Model):
                                        device=mask.device).unsqueeze(1)  # [batch_size, 1]
             label_head = label_head[batch_range, head_preds].contiguous()  # [batch_size, seq_len, label_mlp_size]
             label_preds = self.label_predictor(label_head, label_dep)  # [batch_size, seq_len, num_labels]
-
-            if self.use_intratoken_heuristics and arc_tags is None and arc_indices is None:
-                """This piece of code prevents the model from predicting the app dependency
-                type when the head is not the next token (only during inference). It can
-                only work for character-level models. Besides, the index of the app
-                dependency type in the model vocabulary must be 0."""
-                shifted_index = torch.arange(1, seq_len + 1, dtype=torch.long, device=mask.device).unsqueeze(0) \
-                    .repeat(batch_size, 1)
-                app_masks = head_preds.ne(shifted_index)
-                app_masks = app_masks.unsqueeze(2).repeat(1, 1, self.num_labels)
-                app_masks[:, :, 1:] = 0
-                label_preds = label_preds.masked_fill(app_masks, -float('inf'))
 
             output_dict.update({
                 'arc_preds': arc_preds,

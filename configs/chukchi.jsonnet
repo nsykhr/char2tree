@@ -2,7 +2,8 @@
   "dataset_reader": {
     "type": "ud_reader"
   },
-  "train_data_path": "data/Chukchi/ckt-train.conllu",
+  "train_data_path": "data/Chukchi/ckt_hse-ud-train.00.conllu",
+  "validation_data_path": "data/Chukchi/ckt_hse-ud-test.00.conllu",
   "vocabulary": {
     "non_padded_namespaces": ["*tags", "*labels", "upos", "dependency"]
   },
@@ -29,7 +30,6 @@
     "upos_hidden": 64,
     "arc_mlp_size": 128,
     "label_mlp_size": 64,
-    "use_intratoken_heuristics": true,
     "embedding_dropout": 0.2,
     "encoded_dropout": 0.25,
     "upos_dropout": 0.25,
@@ -47,7 +47,14 @@
       "lr": 5e-3,
       "weight_decay": 1e-4
     },
-    "num_epochs": 50,
+    "learning_rate_scheduler": {
+      "type": "reduce_on_plateau",
+      "factor": 0.5,
+      "patience": 5,
+      "min_lr": 1e-5
+    },
+    "num_epochs": 100,
+    "patience": 15,
     "grad_norm": 5.0,
     "cuda_device": 0
   }

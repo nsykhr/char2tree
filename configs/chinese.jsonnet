@@ -33,7 +33,6 @@
     "xpos_hidden": 192,
     "arc_mlp_size": 256,
     "label_mlp_size": 128,
-    "use_intratoken_heuristics": true,
     "embedding_dropout": 0.3,
     "encoded_dropout": 0.33,
     "upos_dropout": 0.33,
