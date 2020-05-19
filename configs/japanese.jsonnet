@@ -28,7 +28,6 @@
       "use_highway": true
     },
     "upos_hidden": 320,
-    "use_intratoken_heuristics": true,
     "embedding_dropout": 0.3,
     "encoded_dropout": 0.3,
     "upos_dropout": 0.3,

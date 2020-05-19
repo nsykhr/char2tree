@@ -60,15 +60,15 @@ class UniversalDependenciesDatasetReader(DatasetReader):
                 yield output
 
     @staticmethod
-    def get_token2char_id_mapping(sentence: List[List[str]]) -> Tuple[Dict[int, int],
-                                                                      Dict[int, Dict[int, List[str]]]]:
+    def get_token2char_id_mapping(sentence: List[List[str]]) -> Tuple[Dict[str, str],
+                                                                      Dict[str, Dict[int, List[str]]]]:
         """
         This function handles both creating the mapping and processing the "special cases":
         multi-word tokens and enhanced dependencies (both signify an incorporation of some kind).
         It does the latter by modifying the sentence in-place.
         """
         enhanced_dependencies = {}
-        token2char_id_mapping = {0: 0}
+        token2char_id_mapping = {'0': '0'}
 
         moving_number = 1
         multiword_indices = set()
@@ -78,6 +78,15 @@ class UniversalDependenciesDatasetReader(DatasetReader):
                 multiword_indices = set(line[0].split('-'))
                 continue
 
+            old_id = line[0]
+            if old_id.isdigit():
+                new_id = str(moving_number + len(line[1]) - 1)
+            else:
+                base_token_idx = i - int(line[0].split('.')[-1])
+                new_id = str(moving_number - len(sentence[base_token_idx][1]) +
+                             sentence[base_token_idx][1].find(line[1]) + len(line[1]) - 1)
+            token2char_id_mapping[old_id] = new_id
+
             if '.' in line[0]:  # enhanced dependency
                 base_token_idx = i - int(line[0].split('.')[-1])
                 subtoken_start = sentence[base_token_idx][1].find(line[1])
@@ -86,8 +95,9 @@ class UniversalDependenciesDatasetReader(DatasetReader):
                           f'in the base token {sentence[base_token_idx][1]}.')
                     continue
 
-                base_token_idx += 1  # To account for 1-indexing in the CONLLU.
-                enhanced_dependencies[base_token_idx] = {}
+                base_token_idx = sentence[i-1][0]
+                if old_id not in enhanced_dependencies:
+                    enhanced_dependencies[base_token_idx] = {}
 
                 subtoken_end = subtoken_start + len(line[1])
 
@@ -100,9 +110,6 @@ class UniversalDependenciesDatasetReader(DatasetReader):
 
                 continue
 
-            old_id = int(line[0])
-            new_id = moving_number + len(line[1]) - 1
-            token2char_id_mapping[old_id] = new_id
             moving_number += len(line[1])
 
             if line[6] in multiword_indices:
@@ -116,41 +123,52 @@ class UniversalDependenciesDatasetReader(DatasetReader):
 
         new_sentence = [['0', self.root_token, self.root_token, 'ROOT', 'ROOT', '_', '0', 'ROOT', '_', '_']]
         moving_number = 1
-        for line in sentence:
-            if not line[0].isdigit():
+        for i, line in enumerate(sentence):
+            token_idx = line[0]
+
+            if not token_idx.isdigit():
+                if token_idx in enhanced_dependencies:
+                    # Chained incorporation.
+                    last_char_idx = int(token2char_id_mapping[enhanced_dependencies[token_idx][max(
+                        enhanced_dependencies[token_idx].keys())][0]])
+                    old_head_id, rel_type = enhanced_dependencies[token_idx][max(
+                        enhanced_dependencies[token_idx].keys())][8].split(':')
+                    new_sentence[last_char_idx][6] = token2char_id_mapping[old_head_id]
+                    new_sentence[last_char_idx][7] = 'incorp:' + rel_type
                 continue
 
-            token_idx = int(line[0])
-
-            for i, symbol in enumerate(line[1]):
+            for j, symbol in enumerate(line[1]):
                 new_line = line[:]
                 new_line[0] = str(moving_number)
                 new_line[1] = symbol
 
-                if i == len(line[1]) - 1:
+                if j == len(line[1]) - 1:
                     if line[6] != '_':
-                        old_head_id = int(line[6])
-                        new_line[6] = str(token2char_id_mapping[old_head_id])
+                        old_head_id = line[6]
+                        new_line[6] = token2char_id_mapping[old_head_id]
                 else:
                     new_line[6] = str(moving_number + 1)
                     new_line[7] = self.intratoken_tag
 
-                if token_idx in enhanced_dependencies and i in enhanced_dependencies[token_idx]:
-                    if i > 0 and enhanced_dependencies[token_idx][i][-1] == '<SUBTOKEN_START>':
+                if token_idx in enhanced_dependencies and j in enhanced_dependencies[token_idx]:
+                    if j > 0 and enhanced_dependencies[token_idx][j][-1] == '<SUBTOKEN_START>' \
+                            and new_sentence[-1][7] == 'app':
                         # The first character of an incorporated subtoken is the head
                         # of the previous character with the special relation type left_crcmfix.
-                        new_sentence[-1][6] = str(moving_number)
+                        # If the current character is not already the head (with the app label),
+                        # then the structure is more complex (e. g. two incorporated elements in a row),
+                        # and we leave it be.
                         new_sentence[-1][7] = 'left_crcmfix'
 
-                    if enhanced_dependencies[token_idx][i][-1] == '<SUBTOKEN_END>':
+                    if enhanced_dependencies[token_idx][j][-1] == '<SUBTOKEN_END>':
                         # The last character of an incorporated subtoken is the child
                         # of the last character of the whole token.
-                        old_head_id, rel_type = enhanced_dependencies[token_idx][i][8].split(':')
-                        new_line[6] = str(token2char_id_mapping[int(old_head_id)])
+                        old_head_id, rel_type = enhanced_dependencies[token_idx][j][8].split(':')
+                        new_line[6] = token2char_id_mapping[old_head_id]
                         new_line[7] = 'incorp:' + rel_type
 
-                    new_line[3] = enhanced_dependencies[token_idx][i][3]
-                    new_line[4] = enhanced_dependencies[token_idx][i][4]
+                    new_line[3] = enhanced_dependencies[token_idx][j][3]
+                    new_line[4] = enhanced_dependencies[token_idx][j][4]
 
                 new_sentence.append(new_line)
                 moving_number += 1
@@ -210,3 +228,7 @@ class UniversalDependenciesDatasetReader(DatasetReader):
                                                         label_namespace='dependency', padding_value=-1)
 
         return Instance(fields)
+
+
+reader = UniversalDependenciesDatasetReader()
+reader.read('../data/test.conllu')

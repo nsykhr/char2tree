@@ -37,8 +37,7 @@
             }
         },
         "upos_dropout": 0.3,
-        "upos_hidden": 320,
-        "use_intratoken_heuristics": true
+        "upos_hidden": 320
     },
     "train_data_path": "data/UD_Japanese-GSD/ja_gsd-ud-train.conllu",
     "validation_data_path": "data/UD_Japanese-GSD/ja_gsd-ud-dev.conllu",

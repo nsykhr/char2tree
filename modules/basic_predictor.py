@@ -19,8 +19,10 @@ def vote(votes: List[Any]) -> Any:
 class UniversalDependenciesBasicCharacterLevelPredictor(Predictor):
     def __init__(self,
                  model: CharacterLevelJointModel,
-                 dataset_reader: UniversalDependenciesDatasetReader):
+                 dataset_reader: UniversalDependenciesDatasetReader,
+                 use_intratoken_heuristics: bool = True):
         super().__init__(model=model, dataset_reader=dataset_reader)
+        self.use_intratoken_heuristics = use_intratoken_heuristics
 
     @overrides
     def _json_to_instance(self, json_dict: dict) -> Instance:
@@ -46,10 +48,22 @@ class UniversalDependenciesBasicCharacterLevelPredictor(Predictor):
         if 'head_preds' in prediction and 'label_preds' in prediction:
             output['heads'] = prediction['head_preds'][1:]
 
-            output['labels'] = [self._model.vocab.get_token_from_index(
-                int(np.argmax(token_logits)),
-                namespace=self._model.dependency_namespace)
-                for token_logits in prediction['label_preds'][1:]]
+            output['labels'] = []
+            for i, head, token_logits in enumerate(zip(output['heads'], prediction['label_preds'][1:])):
+                sorted_labels = [self._model.vocab.get_token_from_index(
+                    int(x), namespace=self._model.dependency_namespace)
+                                    for x in np.argsort(token_logits)][::-1]
+
+                best_label = sorted_labels[0]
+
+                if self.use_intratoken_heuristics:
+                    for label in sorted_labels:
+                        if label in (self._dataset_reader.intratoken_tag, 'left_crcmfix') and head != i + 2:
+                            continue
+                        best_label = label
+                        break
+
+                output['labels'].append(best_label)
 
         return output
 

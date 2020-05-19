@@ -20,6 +20,7 @@ def save_predictions_to_conllu(savepath: str, predictions: List[Dict[str, List[s
             f.write(f'# text = {text}\n')
 
             for j, token in enumerate(sentence['tokens']):
+                index = sentence['index'][j] if 'index' in sentence else str(j+1)
                 upos = sentence['upos'][j] if 'upos' in sentence else '_'
                 xpos = sentence['xpos'][j] if 'xpos' in sentence else '_'
                 head = sentence['heads'][j] if 'heads' in sentence else '_'
