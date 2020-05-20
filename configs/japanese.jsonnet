@@ -8,7 +8,7 @@
     "non_padded_namespaces": ["*tags", "*labels", "upos", "dependency"]
   },
   "model": {
-    "type": "char_level_joint",
+    "type": "joint_tagger_parser",
     "text_field_embedder": {
       "token_embedders": {
         "tokens": {
