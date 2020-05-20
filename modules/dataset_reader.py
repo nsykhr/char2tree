@@ -228,7 +228,3 @@ class UniversalDependenciesDatasetReader(DatasetReader):
                                                         label_namespace='dependency', padding_value=-1)
 
         return Instance(fields)
-
-
-reader = UniversalDependenciesDatasetReader()
-reader.read('../data/test.conllu')

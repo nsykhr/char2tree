@@ -1,6 +1,6 @@
 {
     "dataset_reader": {
-        "type": "ud_char_level",
+        "type": "ud_reader",
         "use_xpos": true
     },
     "iterator": {
@@ -15,7 +15,7 @@
         ]
     },
     "model": {
-        "type": "char_level_joint",
+        "type": "joint_tagger_parser",
         "arc_mlp_size": 256,
         "embedding_dropout": 0.3,
         "encoded_dropout": 0.33,

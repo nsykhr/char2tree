@@ -14,8 +14,8 @@ from modules.utils import mst
 from modules.biaffine_parser import ArcBiaffine, LabelBilinear
 
 
-@Model.register('char_level_joint')
-class CharacterLevelJointModel(Model):
+@Model.register('joint_tagger_parser')
+class JointTaggerParser(Model):
     def __init__(self,
                  vocab: Vocabulary,
                  text_field_embedder: TextFieldEmbedder,
