@@ -10082,7 +10082,7 @@
 # labels = complete-dep anno-fran missing-ptcl
 1-2	Имԓетгынтэвъыма	_	_	_	_	_	_	_	_
 1	Имԓетгынтэв	_	VERB	_	_	8	advcl	8:advcl	Gloss=вода-VB-убегать-SIM-=EMPH
-1.1	Имԓ	_	NOUN	_	_	_	_	1:obj	Gloss=вода
+1.1	имԓ	_	NOUN	_	_	_	_	1:obj	Gloss=вода
 2	ъыма	_	PART	_	_	1	discourse	1:discourse	_
 3	амноӈэты	_	NOUN	_	_	8	obl	8:obl	Gloss=тундра-DAT
 4-5	рэмкына	_	_	_	_	_	_	_	_

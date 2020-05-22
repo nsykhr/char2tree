@@ -8,7 +8,7 @@ from allennlp.predictors import Predictor
 from allennlp.common.util import JsonDict
 
 
-from modules import UniversalDependenciesDatasetReader, CharacterLevelJointModel
+from modules import UniversalDependenciesDatasetReader, JointTaggerParser
 
 
 def vote(votes: List[Any]) -> Any:
@@ -18,7 +18,7 @@ def vote(votes: List[Any]) -> Any:
 @Predictor.register('ud_basic_char_level')
 class UniversalDependenciesBasicCharacterLevelPredictor(Predictor):
     def __init__(self,
-                 model: CharacterLevelJointModel,
+                 model: JointTaggerParser,
                  dataset_reader: UniversalDependenciesDatasetReader,
                  use_intratoken_heuristics: bool = True):
         super().__init__(model=model, dataset_reader=dataset_reader)
@@ -49,7 +49,7 @@ class UniversalDependenciesBasicCharacterLevelPredictor(Predictor):
             output['heads'] = prediction['head_preds'][1:]
 
             output['labels'] = []
-            for i, head, token_logits in enumerate(zip(output['heads'], prediction['label_preds'][1:])):
+            for i, (head, token_logits) in enumerate(zip(output['heads'], prediction['label_preds'][1:])):
                 sorted_labels = [self._model.vocab.get_token_from_index(
                     int(x), namespace=self._model.dependency_namespace)
                                     for x in np.argsort(token_logits)][::-1]
@@ -64,6 +64,12 @@ class UniversalDependenciesBasicCharacterLevelPredictor(Predictor):
                         break
 
                 output['labels'].append(best_label)
+
+            # This crutch forbids the model the predict the left_crcmfix label if it doesn't predict
+            # any incorporated tokens further in the sequence.
+            output['labels'] = [label if any(l.startswtith('incorp:') for l in output['labels'][i + 1:])
+                                else label.replace('left_crcmfix', 'app')
+                                for i, label in enumerate(output['labels'])]
 
         return output
 
@@ -116,8 +122,8 @@ class UniversalDependenciesBasicCharacterLevelPredictor(Predictor):
                     output['xpos'].append(vote(curr_xpos))
                     curr_xpos = []
 
-                output['labels'].append(label)
                 output['heads'].append(char_preds['heads'][i])
+                output['labels'].append(label)
 
             self.update_head_indices(output)
 
