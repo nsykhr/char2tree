@@ -6,7 +6,7 @@ import argparse
 from tqdm import tqdm
 from pathlib import Path
 
-from typing import List, Dict, Iterator, Union
+from typing import List, Tuple, Dict, Iterator, Union
 
 
 def read_corpus(filepath: Union[str, Path]) -> Iterator[List[List[str]]]:
@@ -16,7 +16,10 @@ def read_corpus(filepath: Union[str, Path]) -> Iterator[List[List[str]]]:
                 continue
             output = []
             for line in sentence.split('\n'):
-                if line.startswith('#') or not line:
+                if not line:
+                    continue
+                if line.startswith('#'):
+                    output.append([line])
                     continue
                 output.append(line.split('\t'))
             yield output
@@ -59,7 +62,10 @@ def get_token_mapping(sentence: List[List[str]]) -> Dict[str, str]:
     return token_mapping
 
 
-def flatten_sentence(sentence: List[List[str]]) -> List[List[str]]:
+def flatten_sentence(sentence: List[List[str]]) -> Tuple[List[List[str]], List[str]]:
+    metadata = [line[0] for line in sentence if len(line) == 1]
+    sentence = sentence[len(metadata):]
+
     shift = 0
     new_sentence = []
     multiword_indices = set()
@@ -84,11 +90,6 @@ def flatten_sentence(sentence: List[List[str]]) -> List[List[str]]:
             new_line[6] = token_mapping[old_head_id]
             new_line[7] = 'incorp:' + rel_type
 
-            # base_token_idx = i - int(line[0].split('.')[1])
-            # subtoken_start = sentence[base_token_idx][1].find(line[1])
-            # subtoken_end = subtoken_start + len(line[1])
-
-            base_token_idx = i - 1
             subtoken_start = new_sentence[-1][1].find(line[1])
             subtoken_end = subtoken_start + len(line[1])
 
@@ -123,13 +124,20 @@ def flatten_sentence(sentence: List[List[str]]) -> List[List[str]]:
 
             new_sentence.append(new_line)
 
-    return new_sentence
+    return new_sentence, metadata
 
 
 def flatten_file(src_path: Union[str, Path], tgt_path: Union[str, Path]) -> None:
     with open(tgt_path, 'w') as f:
         for sentence in read_corpus(src_path):
-            flat_sentence = flatten_sentence(sentence)
+            flat_sentence, metadata = flatten_sentence(sentence)
+
+            text = ''.join([x[1] for x in flat_sentence])
+            for i, element in enumerate(metadata):
+                if element.startswith('# text ='):
+                    metadata[i] = f'# text = {text}'
+
+            f.write('\n'.join(metadata) + '\n')
             f.write('\n'.join(['\t'.join(line) for line in flat_sentence]) + '\n\n')
 
 
