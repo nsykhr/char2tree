@@ -1,0 +1,706 @@
+1	Ынкъам	_	CCONJ	_	_	3	cc	_	Gloss=и
+2	пъомпъоӈыт	_	NOUN	_	_	3	obj	_	Gloss=гриб-NOM.PL
+3	тыгичинэт	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-собирать-3SG.O-PL|SpaceAfter=No
+4	.	_	PUNCT	_	_	3	punct	_	_
+
+1	Иквъэт	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-сказать-TH-PL-=PTCL
+2	э	_	PART	_	_	1	fused:discourse	_	_
+3	амвынэ	_	ADV	_	_	5	advmod	_	Gloss=RESTR-ну.ка
+4	гыт	_	PRON	_	_	5	nsubj	_	Gloss=ты
+5	эвнумэкэткэ	_	VERB	_	_	1	parataxis:speech	_	Gloss=PREF-кружок-VB-CAR-INS|SpaceAfter=No
+6	.	_	PUNCT	_	_	1	punct	_	_
+
+1	Ээ	_	INTJ	_	_	4	discourse	_	Gloss=ээ
+2	эты	_	ADV	_	_	4	advmod	_	Gloss=наверное
+3	гым	_	PRON	_	_	4	nsubj	_	Gloss=я
+4	камчамоԓевым	_	NOUN	_	_	0	root	_	Gloss=комсомолец-NP.1SG|SpaceAfter=No
+5	.	_	PUNCT	_	_	4	punct	_	_
+
+1	Тивымкэ	_	X	_	_	2	reparandum	_	Gloss=FST
+2	тивык	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-сказать-1SG.S
+3	этаны	_	ADV	_	_	6	advmod	_	Gloss=наверное
+4	вай	_	ADV	_	_	6	advmod	_	Gloss=вот
+5	ӄырымэнайгым	_	AUX	_	_	6	aux	_	Gloss=NEG.FUT-GEN-NP.1SG
+6	камчамоԓевым	_	NOUN	_	_	2	parataxis	_	Gloss=комсомолец-NP.1SG|SpaceAfter=No
+7	.	_	PUNCT	_	_	6	punct	_	_
+
+1	Ынкатагнэпы	_	PRON	_	_	2	obl	_	Gloss=тот-OBL-FRONT-ABL
+2	гапаайгым	_	VERB	_	_	0	root	_	Gloss=PF-переставать-NP.1SG|SpaceAfter=No
+3	.	_	PUNCT	_	_	2	punct	_	_
+
+1	Ытԓыгэ	_	NOUN	_	_	2	nsubj	_	Gloss=отец-INS
+2	тэйкынин	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-делать-3SG.A.3.O-3SG.O
+3	яраӈы	_	NOUN	_	_	2	obj	_	Gloss=яранга-NOM.SG|SpaceAfter=No
+4	.	_	PUNCT	_	_	2	punct	_	_
+
+1	Аӈӄак	_	NOUN	_	_	2	obl	_	Gloss=море-LOC
+2	пыкэрыӈӈок	_	VERB	_	_	4	advcl	_	Gloss=прибывать-INCH-LOC
+3	чамъам	_	ADV	_	_	4	advmod	_	Gloss=невозможно
+4	рэриӈэгъэ	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-FUT-взлетать-TH
+5	рэпыԓӄэтгъэ	_	VERB	_	_	4	parataxis	_	Gloss=2/3.S/A-FUT-тонуть-VB-TH|SpaceAfter=No
+6	.	_	PUNCT	_	_	4	punct	_	_
+
+1	Ынӄо	_	ADV	_	_	2	advmod	_	Gloss=потом
+2	тыԓянвык	_	VERB	_	_	0	root	_	Gloss=идти-NMN-LOC
+3	нытваӄэн	_	AUX	_	_	2	cop	_	Gloss=ST-быть-ST.3SG
+4	аԓвабригаден	_	NOUN	_	_	5	nmod:poss	_	Gloss=другой-бригада-GEN
+5	ярат	_	NOUN	_	_	2	nsubj	_	Gloss=яранга-NOM.PL-=EMPH
+6	ъым	_	PART	_	_	5	fused:discourse	_	_
+7	.	_	PUNCT	_	_	2	punct	_	_
+
+1	Ынӄэн	_	PRON	_	_	6	discourse	_	Gloss=DET
+2	иʼгэ	_	NOUN	_	_	3	reparandum	_	Gloss=волк-INS
+3	иʼгэ	_	NOUN	_	_	6	nsubj	_	Gloss=волк-INS
+4	ынӄэ	_	PART	_	_	6	discourse	_	Gloss=DET
+5	наноно	_	X	_	_	6	reparandum	_	Gloss=FST
+6	наномаваквъан	_	VERB	_	_	0	root	_	Gloss=LOW.A-TR-тёплый-CS-CS-TH-3SG.O|SpaceAfter=No
+7	.	_	PUNCT	_	_	6	punct	_	_
+
+1	Тагрытыԓяма	_	VERB	_	_	2	orphan	_	Gloss=кочевать.летом-SIM
+2	мури	_	PRON	_	_	0	root	_	Gloss=мы-=PTCL
+3	ӈэ	_	PART	_	_	2	fused:discourse	_	_
+4	.	_	PUNCT	_	_	2	punct	_	_
+
+1	Айвачыӈкы	_	NOUN	_	_	2	obl	_	Gloss=подветренная.сторона-LOC
+2	тагъэ	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-проходить-TH-2/3SG.S|SpaceAfter=No
+3	.	_	PUNCT	_	_	2	punct	_	_
+
+1	Ынан	_	PRON	_	_	2	nsubj	_	Gloss=он.INS
+2	иниквъи	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-INV-сказать-TH-2/3SG.S
+3	нанэ	_	X	_	_	5	reparandum	_	Gloss=FST
+4	ковԓёрвоо	_	X	_	_	5	reparandum	_	Gloss=FST
+5	ковԓёрва	_	NOUN	_	_	7	obl	_	Gloss=шар-нарта-INS
+6	мыт	_	X	_	_	7	reparandum	_	Gloss=FST
+7	мытрэетгъэ	_	VERB	_	_	2	parataxis	_	Gloss=1PL.S/A-FUT-приходить-TH
+8	гыныгъярагты	_	NOUN	_	_	7	obl	_	Gloss=ты-POSS.INC-яранга-DAT|SpaceAfter=No
+9	.	_	PUNCT	_	_	2	punct	_	_
+
+1	Ӄы	_	X	_	_	3	reparandum	_	Gloss=FST
+2	нэмыӄэй	_	ADV	_	_	3	advmod	_	Gloss=тоже
+3	ӄырычвогэ	_	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-личинка-EAT-IRR-2/3SG.S|SpaceAfter=No
+4	.	_	PUNCT	_	_	3	punct	_	_
+
+1	Ԓгинъыръыӄинэт	_	VERB	_	_	0	root	_	Gloss=INTS-ST-лживый-ST.3SG-PL
+2	чавчыват	_	NOUN	_	_	1	nsubj	_	Gloss=оленевод-NOM.PL|SpaceAfter=No
+3	.	_	PUNCT	_	_	1	punct	_	_
+
+1	Ныныпчеӈивйивӄин	_	VERB	_	_	0	root	_	Gloss=ST-TR-расспрашивать-CS-DISTR.O-ST.3SG
+2	коԓё	_	ADV	_	_	1	advmod	_	Gloss=очень
+3	нымныма	_	NOUN	_	_	1	nsubj	_	Gloss=посёлок-INS
+4	Медведев	_	PROPN	_	_	1	obj	_	Gloss=Медведев-NOM.SG
+5	ъым	_	PART	_	_	4	fused:discourse	_	Gloss=EMPH
+6	.	_	PUNCT	_	_	1	punct	_	_
+
+1	Чакэттэты	_	NOUN	_	_	2	obl	_	Gloss=сестра-DAT
+2	трачаёсӄэв	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-FUT-чай-EAT-MCP-=EMPH
+3	ъым	_	PART	_	_	2	fused:discourse	_	_
+4	.	_	PUNCT	_	_	2	punct	_	_
+
+1	Нрзб	_	X	_	_	4	discourse	_	Gloss=
+2	ынӄэн	_	PART	_	_	4	discourse	_	Gloss=DET-=PTCL
+3	э	_	PART	_	_	2	fused:discourse	_	_
+4	гакооԓгыԓе	_	VERB	_	_	0	root	_	Gloss=PF-падать.замертво-PF.3SG.нер.изм.
+5	ынръам	_	ADV	_	_	4	advmod	_	Gloss=видимо-=PTCL
+6	а	_	PART	_	_	5	fused:discourse	_	_
+7	ръиԓеԓьын	_	NOUN	_	_	4	nsubj	_	Gloss=участвовать.в.гонках-ATTR-NOM.SG-=EMPH
+8	ъым	_	PART	_	_	7	fused:discourse	_	_
+9	.	_	PUNCT	_	_	4	punct	_	_
+
+1	Эʼтки	_	ADJ	_	_	0	root	_	Gloss=плохо
+2	ынӈэ	_	AUX	_	_	5	aux	_	Gloss=PROH
+3	ынӄэн	_	PART	_	_	5	discourse	_	Gloss=DET
+4	ягмаԓеччо	_	NOUN	_	_	5	xcomp	_	Gloss=ступня-вытирать-MAT-EQU
+5	нэрэтчыгыт	_	VERB	_	_	1	parataxis	_	Gloss=LOW.A-FUT-делать-2SG.O|SpaceAfter=No
+6	.	_	PUNCT	_	_	1	punct	_	_
+
+1	Йыӈэнин	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-грузить-3SG.A.3.O-3SG.O-=EMPH
+2	ъым	_	PART	_	_	1	fused:discourse	_	_
+3	ченэтрагты	_	NOUN	_	_	4	obl	_	Gloss=сам-жилище-DAT
+4	танэн	_	VERB	_	_	1	parataxis	_	Gloss=2/3.S/A-приносить-3SG.O-3SG.O
+5	ынкыӈ	_	PRON	_	_	4	obl	_	Gloss=тот-LOC-=PTCL
+6	э	_	PART	_	_	5	fused:discourse	_	_
+7	.	_	PUNCT	_	_	1	punct	_	_
+
+1	Н	_	VERB	_	_	2	left_crcmfix	_	Gloss=ST-лживый-спать-INCH-ST.3SG
+2	ъыръ	_	ADV	_	_	3	incorp:advmod	_	Gloss=лживый
+3	ыйыԓӄыӈӈоӄэн	_	VERB	_	_	0	root	_	Gloss=ST-лживый-спать-INCH-ST.3SG
+4	ынӈин	_	ADV	_	_	3	advmod	_	Gloss=так
+5	вай	_	PART	_	_	3	discourse	_	Gloss=вот|SpaceAfter=No
+6	.	_	PUNCT	_	_	3	punct	_	_
+
+1	Кымгытчитгъи	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-сжиматься-COMB-TH-2/3SG.S
+2	кымъыԓгыӄэй	_	NOUN	_	_	1	nsubj	_	Gloss=червь-SING-DIM-NOM.SG|SpaceAfter=No
+3	.	_	PUNCT	_	_	1	punct	_	_
+
+1	Ԓгэгэчевкы	_	ADJ	_	_	0	root	_	Gloss=INTS-интересный-LOC
+2	гатваморэ	_	AUX	_	_	1	cop	_	Gloss=PF-быть-NP.1PL|SpaceAfter=No
+3	.	_	PUNCT	_	_	1	punct	_	_
+
+1	Ныӈыръатваӄаат	_	VERB	_	_	0	root	_	Gloss=ST-сердиться-VB-RES-ST.3PL
+2	танӈыт	_	NOUN	_	_	1	nsubj	_	Gloss=чужеземец-NOM.PL
+3	а	_	PART	_	_	2	fused:discourse	_	Gloss=PTCL
+4	.	_	PUNCT	_	_	1	punct	_	_
+
+1	Ӄоры	_	ADV	_	_	9	advmod	_	Gloss=потом-=PTCL
+2	ӈа	_	PART	_	_	1	fused:discourse	_	_
+3	вай	_	ADV	_	_	9	advmod	_	Gloss=вот
+4	ынкы	_	PRON	_	_	9	obl	_	Gloss=тот-LOC
+5	рочгатама	_	ADV	_	_	9	advmod	_	Gloss=другой.берег-ADV.PROL-SIM
+6	ваамԓыӈата	_	NOUN	_	_	9	obl	_	Gloss=река-EDGE-ADV.PROL
+7	йынрытчигэ	_	X	_	_	8	reparandum	_	Gloss=FST
+8	йынрыгэӈытко	_	NOUN	_	_	9	obj	_	Gloss=высокий.обрывистый.берег-BOTTOM-NUMBER
+9	мытвинвытэгнэннэт	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-след-FRONT-VB-3SG.O-PL-=PTCL
+10	э	_	PART	_	_	9	fused:discourse	_	_
+11	.	_	PUNCT	_	_	9	punct	_	_
+
+1	Мури	_	PRON	_	_	0	root	_	Gloss=мы
+2	вай	_	PART	_	_	3	discourse	_	Gloss=вот
+3	Амваанвыкэнайгым	_	PROPN	_	_	1	parataxis	_	Gloss=Амгуэма-REL-NP.1SG
+4	гым	_	PRON	_	_	3	nsubj	_	Gloss=я|SpaceAfter=No
+5	.	_	PUNCT	_	_	1	punct	_	_
+
+1	Чымӄык	_	NOUN	_	_	7	obj	_	Gloss=часть-=EMPH
+2	ъым	_	PART	_	_	1	fused:discourse	_	_
+3	эты	_	ADV	_	_	7	advmod	_	Gloss=наверное
+4	тумгэ	_	NOUN	_	_	5	reparandum	_	Gloss=друг-INS
+5	ыʼвэӄучитэ	_	NOUN	_	_	7	nsubj	_	Gloss=муж-INS
+6	нэнайпа	_	X	_	_	7	reparandum	_	Gloss=FST
+7	нэнавъятӄэнат	_	VERB	_	_	0	root	_	Gloss=ST-INV-распрягать-ST.3SG-PL|SpaceAfter=No
+8	.	_	PUNCT	_	_	7	punct	_	_
+
+1	И	_	X	_	_	3	discourse	_	Gloss=
+2	так	_	X	_	_	1	flat:foreign	_	Gloss=
+3	раԓечетгъэ	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-прокатиться-COMB-TH-2/3SG.S
+4	ваԓв	_	X	_	_	6	reparandum	_	Gloss=FST
+5	яа	_	X	_	_	6	reparandum	_	Gloss=FST
+6	яачы	_	ADV	_	_	3	advmod	_	Gloss=сзади
+7	рэ	_	X	_	_	8	reparandum	_	Gloss=FST
+8	яачы	_	ADV	_	_	3	advmod	_	Gloss=сзади
+9	рэӄокаԓгын	_	NOUN	_	_	3	nsubj	_	Gloss=лиса-SING-NOM.SG
+10	раԓеэʼ	_	VERB	_	_	3	parataxis	_	Gloss=2/3.S/A-прокатиться-TH-2/3SG.S-=EMPH
+11	ыʼм	_	PART	_	_	10	fused:discourse	_	_
+12	мимԓык	_	NOUN	_	_	10	obl	_	Gloss=вода-LOC
+13	аӈӄак	_	NOUN	_	_	14	obl	_	Gloss=море-LOC
+14	пыкирык	_	VERB	_	_	10	advcl	_	Gloss=прибывать-LOC
+15	ын	_	X	_	_	16	reparandum	_	Gloss=FST
+16	ынӄэн	_	PRON	_	_	17	nsubj	_	Gloss=DET
+17	нинивӄин	_	VERB	_	_	3	parataxis	_	Gloss=ST-INV-сказать-ST.3SG|SpaceAfter=No
+18	.	_	PUNCT	_	_	3	punct	_	_
+
+1	Н	_	VERB	_	_	2	left_crcmfix	_	Gloss=ST-ягода-собирать-NP.1SG
+2	уунъ	_	NOUN	_	_	3	incorp:obj	_	Gloss=ягода
+3	ыгичийгым	_	VERB	_	_	0	root	_	Gloss=ST-ягода-собирать-NP.1SG
+4	чама	_	ADV	_	_	5	advmod	_	Gloss=также
+5	ныпъоӈгэԓейгым	_	NOUN	_	_	3	parataxis	_	Gloss=ST-гриб-SEARCH-NP.1SG|SpaceAfter=No
+6	.	_	PUNCT	_	_	3	punct	_	_
+
+1	Ниԓгытэвигым	_	VERB	_	_	0	root	_	Gloss=ST-мыться-NP.1SG
+2	ынкъам	_	CCONJ	_	_	3	cc	_	Gloss=и
+3	нывийгым	_	VERB	_	_	1	conj	_	Gloss=ST-варить-NP.1SG
+4	нытапэтӈивым	_	VERB	_	_	1	conj	_	Gloss=ST-MAKE-обед-MAKE-NP.1SG|SpaceAfter=No
+5	.	_	PUNCT	_	_	1	punct	_	_
+
+1	Гыргоԓягты	_	NOUN	_	_	2	obl	_	Gloss=вверху-DAT
+2	наакатваӄаат	_	VERB	_	_	0	root	_	Gloss=ST-жирник-RES-ST.3PL|SpaceAfter=No
+3	.	_	PUNCT	_	_	2	punct	_	_
+
+1	Ӈэвэӄ	_	PART	_	_	4	discourse	_	Gloss=же-=EMPH
+2	ъым	_	PART	_	_	1	fused:discourse	_	_
+3	ӈан	_	ADV	_	_	4	advmod	_	Gloss=DEICT
+4	тиквыт	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-сказать-2SG.O
+5	ынӈэ	_	AUX	_	_	6	aux	_	Gloss=PROH
+6	араԓека	_	VERB	_	_	4	parataxis:speech	_	Gloss=CAR-прокатиться-CAR-INS
+7	мимԓык	_	NOUN	_	_	8	obl	_	Gloss=вода-LOC
+8	пыкирык	_	VERB	_	_	9	advcl	_	Gloss=прибывать-LOC
+9	рэпыԓӄэтгъэ	_	VERB	_	_	4	parataxis:speech	_	Gloss=2/3.S/A-FUT-тонуть-VB-TH|SpaceAfter=No
+10	.	_	PUNCT	_	_	4	punct	_	_
+
+1	Нрзб	_	X	_	_	4	discourse	_	Gloss=
+2	тэԓенъеп	_	ADV	_	_	4	advmod	_	Gloss=раньше-ещё
+3	коԓё	_	ADV	_	_	4	advmod	_	Gloss=очень
+4	ръиԓечитԓьэтԓеэт	_	VERB	_	_	0	root	_	Gloss=участвовать.в.гонках-COMB-PLAC-PF.3PL
+5	таӈымԓьаԓяӈэт	_	NOUN	_	_	4	obl	_	Gloss=GOOD-TOT-зима-TIME
+6	таӈымыԓьо	_	NOUN	_	_	5	appos	_	Gloss=GOOD-весь
+7	нымнымыт	_	NOUN	_	_	4	nsubj	_	Gloss=посёлок-NOM.PL-=EMPH
+8	ъым	_	PART	_	_	7	fused:discourse	_	_
+9	.	_	PUNCT	_	_	4	punct	_	_
+
+1	Ӄытԓыги	_	ADV	_	_	5	advmod	_	Gloss=оказывается
+2	ынӄэ	_	PART	_	_	5	discourse	_	Gloss=DET
+3	ԓёԓьоԓгын	_	NOUN	_	_	5	nsubj	_	Gloss=грудь-SING-NOM.SG
+4	ранрэԓьэԓгэпы	_	NOUN	_	_	5	obl	_	Gloss=верхняя.часть.спины-правая.постромка.упряжи-ABL
+5	гэпинтыӄэтԓин	_	VERB	_	_	0	root	_	Gloss=COM-появляться-PF.3SG|SpaceAfter=No
+6	.	_	PUNCT	_	_	5	punct	_	_
+
+1	Ԓюут	_	ADV	_	_	2	advmod	_	Gloss=вдруг
+2	ёоʼръогъэ	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-пуржить-DISTR.S-TH-2/3SG.S|SpaceAfter=No
+3	.	_	PUNCT	_	_	2	punct	_	_
+
+1	Ԓюут	_	ADV	_	_	4	advmod	_	Gloss=вдруг
+2	ӈэвысӄэт	_	NOUN	_	_	4	nsubj	_	Gloss=женщина-NOM.SG
+3	чинит	_	PRON	_	_	4	dep	_	Gloss=сам
+4	иквъи	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-сказать-TH-2/3SG.S|SpaceAfter=No
+5	.	_	PUNCT	_	_	4	punct	_	_
+
+1	Апэтыпԓыткок	_	VERB	_	_	3	advcl	_	Gloss=обед-COMPL-LOC
+2	нэмэ	_	ADV	_	_	3	advmod	_	Gloss=опять
+3	нымигчирысӄививым	_	VERB	_	_	0	root	_	Gloss=ST-работа-MCP-NP.1SG|SpaceAfter=No
+4	.	_	PUNCT	_	_	3	punct	_	_
+
+1	Чама	_	ADV	_	_	2	advmod	_	Gloss=также
+2	ныԓгинымигчирӄинэт	_	VERB	_	_	0	root	_	Gloss=ST-INTS-ST-работа-ST.3SG-PL
+3	ынин	_	PRON	_	_	4	nmod:poss	_	Gloss=он-GEN
+4	мынгыт	_	NOUN	_	_	2	nsubj	_	Gloss=рука-NOM.PL|SpaceAfter=No
+5	.	_	PUNCT	_	_	2	punct	_	_
+
+1	Ивкэ	_	AUX	_	_	3	aux	_	Gloss=OPT
+2	гынан	_	PRON	_	_	3	nsubj	_	Gloss=ты.INS
+3	ӄуӈэԓги	_	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-собирать.дрова-IRR-2/3SG.S|SpaceAfter=No
+4	.	_	PUNCT	_	_	3	punct	_	_
+
+1	Плиска	_	X	_	_	3	reparandum	_	Gloss=близко
+2	блиска	_	X	_	_	3	reparandum	_	Gloss=близко
+3	чымчеӄэй	_	ADV	_	_	0	root	_	Gloss=близко-INS-DIM
+4	вэԓыткоран	_	NOUN	_	_	3	nsubj	_	Gloss=товар-ITER-жилище-NOM.SG
+5	Мрэнти	_	PROPN	_	_	6	obj	_	Gloss=комар-NOM.PL
+6	ӄыркургынэт	_	VERB	_	_	3	parataxis	_	Gloss=2.S/A.SUBJ-покупать-IRR-3SG.O-PL|SpaceAfter=No
+7	.	_	PUNCT	_	_	6	punct	_	_
+
+1	Ынӄэн	_	PART	_	_	2	discourse	_	Gloss=DET
+2	гивэ	_	VERB	_	_	0	root	_	Gloss=COM-сказать-INS
+3	мури	_	PRON	_	_	6	nsubj	_	Gloss=мы
+4	вай	_	ADV	_	_	6	advmod	_	Gloss=вот
+5	Чукоткайпы	_	PROPN	_	_	6	obl	_	Gloss=Чукотка-ABL
+6	мытыпкирмык	_	VERB	_	_	2	parataxis	_	Gloss=1PL.S/A-прибывать-1PL.S/O|SpaceAfter=No
+7	.	_	PUNCT	_	_	2	punct	_	_
+
+1	Пэтԓе	_	ADV	_	_	4	advmod	_	Gloss=быстро
+2	тыԓыг	_	VERB	_	_	3	left_crcmfix	_	Gloss=1SG.S/A-AUTH-одежда.из.шкур-надевать-TH-1SG.S
+3	авэръ	_	NOUN	_	_	4	incorp:obj	_	Gloss=одежда.из.шкур
+4	эпыгъак	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-AUTH-одежда.из.шкур-надевать-TH-1SG.S
+5	ъым	_	PART	_	_	4	fused:discourse	_	Gloss=EMPH
+6	а	_	PART	_	_	4	discourse	_	Gloss=PTCL
+7	.	_	PUNCT	_	_	4	punct	_	_
+
+1	Чама	_	ADV	_	_	2	cc	_	Gloss=также
+2	ныръиԓеӄинэт	_	VERB	_	_	0	root	_	Gloss=ST-участвовать.в.гонках-ST.3SG-PL|SpaceAfter=No
+3	.	_	PUNCT	_	_	2	punct	_	_
+
+1	Айвачыӈӄачайпы	_	NOUN	_	_	3	obl	_	Gloss=подветренная.сторона-NEAR-ABL
+2	это	_	X	_	_	3	discourse	_	Gloss=
+3	ӄининиги	_	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-появляться-IRR-2/3SG.S|SpaceAfter=No
+4	.	_	PUNCT	_	_	3	punct	_	_
+
+1	Пԓевыт	_	PART	_	_	7	advmod	_	Gloss=пусть.будет.так
+2	ӈан	_	ADV	_	_	1	flat	_	Gloss=DEICT
+3	эʼми	_	ADV	_	_	7	advmod	_	Gloss=где
+4	ваԓы	_	NOUN	_	_	7	nsubj	_	Gloss=нож.NOM.SG
+5	ӈутку	_	ADV	_	_	7	advmod	_	Gloss=здесь
+6	ӄоԓ	_	PRON	_	_	7	nmod	_	Gloss=некий
+7	гатымӈэвԓен	_	VERB	_	_	0	root	_	Gloss=PF-потеряться-PF.3SG
+8	ԓгититэепкы	_	ADV	_	_	9	advmod	_	Gloss=INTS-когда-ещё-LOC
+9	нэнаԓвавморэ	_	VERB	_	_	7	parataxis	_	Gloss=ST-INV-не.мочь-NP.1PL
+10	ԓьук	_	VERB	_	_	9	xcomp	_	Gloss=находить-LOC-=EMPH
+11	ъым	_	PART	_	_	10	fused:discourse	_	_
+12	.	_	PUNCT	_	_	7	punct	_	_
+
+1	Ӈагтагнэты	_	NOUN	_	_	2	obl	_	Gloss=сопка-FRONT-DAT
+2	мытԓемык	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-идти-1PL.S/O
+3	йынрысӄыткыната	_	NOUN	_	_	2	obl	_	Gloss=высокий.обрывистый.берег-SURF-TOP-ADV.PROL|SpaceAfter=No
+4	.	_	PUNCT	_	_	2	punct	_	_
+
+1	Ԓгэн	_	ADV	_	_	3	advmod	_	Gloss=просто
+2	рэмкын	_	NOUN	_	_	3	nsubj	_	Gloss=народ-NOM.SG
+3	ниԓюԓьэтӄин	_	VERB	_	_	0	root	_	Gloss=ST-шевелиться-ST.3SG-=PTCL
+4	э	_	PART	_	_	3	fused:discourse	_	_
+5	.	_	PUNCT	_	_	3	punct	_	_
+
+1	Рымавыттэ	_	NOUN	_	_	0	root	_	Gloss=дикий.щавель-NOM.PL-=EMPH
+2	м	_	PART	_	_	1	fused:discourse	_	_
+3	нинэнръэԓевивым	_	VERB	_	_	1	parataxis	_	Gloss=ST-INV-TR-смешиваться-CS-NP.1SG
+4	ынкы	_	PRON	_	_	3	obl	_	Gloss=тот-LOC
+5	гэвтыт	_	NOUN	_	_	3	obj	_	Gloss=иван.чай-NOM.PL
+6	и	_	CCONJ	_	_	7	cc	_	Gloss=
+7	ԓыгэвытвыттэ	_	NOUN	_	_	5	conj	_	Gloss=AUTH-лист-NOM.PL|SpaceAfter=No
+8	.	_	PUNCT	_	_	1	punct	_	_
+
+1	Ынкатагнэпы	_	PRON	_	_	2	obl	_	Gloss=тот-OBL-FRONT-ABL
+2	гатанпаайгым	_	VERB	_	_	0	root	_	Gloss=PF-GOOD-переставать-NP.1SG
+3	ынӄо	_	ADV	_	_	2	advmod	_	Gloss=потом
+4	рычвок	_	VERB	_	_	2	xcomp	_	Gloss=личинка-EAT-INF|SpaceAfter=No
+5	.	_	PUNCT	_	_	2	punct	_	_
+
+1	Тэԓеӈкы	_	ADV	_	_	2	advmod	_	Gloss=раньше-LOC
+2	гатваԓен	_	AUX	_	_	0	root	_	Gloss=PF-быть-PF.3SG
+3	оʼравэтԓьан	_	NOUN	_	_	2	nsubj	_	Gloss=человек-NOM.SG|SpaceAfter=No
+4	.	_	PUNCT	_	_	2	punct	_	_
+
+1	Чама	_	ADV	_	_	4	cc	_	Gloss=также
+2	рэн	_	X	_	_	4	reparandum	_	Gloss=FST
+3	йъа	_	X	_	_	4	reparandum	_	Gloss=FST
+4	гаԓгэтаранԓен	_	VERB	_	_	0	root	_	Gloss=PF-INTS-MAKE-жилище-MAKE-PF.3SG
+5	рэмкын	_	NOUN	_	_	4	nsubj	_	Gloss=народ-NOM.SG|SpaceAfter=No
+6	.	_	PUNCT	_	_	4	punct	_	_
+
+1	Ынан	_	PRON	_	_	0	root	_	Gloss=он.INS-=EMPH-=PTCL
+2	ъым	_	PART	_	_	1	fused:discourse	_	_
+3	э	_	PART	_	_	1	discourse	_	_
+4	ив	_	X	_	_	5	reparandum	_	Gloss=FST
+5	гэрэӄыԓин	_	VERB	_	_	1	parataxis	_	Gloss=PF-что-PF.3SG
+6	ӈээккэӄэй	_	NOUN	_	_	5	obj	_	Gloss=FEM-сын-DIM-NOM.SG
+7	арычвокыԓьин	_	VERB	_	_	6	acl	_	Gloss=CAR-личинка-EAT-CAR-ATTR-GEN|SpaceAfter=No
+8	.	_	PUNCT	_	_	5	punct	_	_
+
+1	А	_	CCONJ	_	_	3	cc	_	Gloss=
+2	гым	_	PRON	_	_	3	nsubj	_	Gloss=я
+3	вэԓвагты	_	ADV	_	_	0	root	_	Gloss=быть.не.в.курсе-DAT
+4	нытвайгым	_	AUX	_	_	3	cop	_	Gloss=ST-быть-NP.1SG|SpaceAfter=No
+5	.	_	PUNCT	_	_	3	punct	_	_
+
+1	И	_	CCONJ	_	_	6	cc	_	Gloss=
+2	ытԓыгын	_	NOUN	_	_	6	nsubj	_	Gloss=отец-NOM.SG
+3	ӈаргынэн	_	NOUN	_	_	5	nmod:poss	_	Gloss=природа-GEN
+4	найвы	_	X	_	_	5	reparandum	_	Gloss=FST
+5	айгысӄыӈӄач	_	NOUN	_	_	6	obl	_	Gloss=север-NEAR
+6	нывакъотваӄэн	_	VERB	_	_	0	root	_	Gloss=ST-садиться-RES-ST.3SG
+7	нырэӄыӄин	_	VERB	_	_	6	parataxis	_	Gloss=ST-что-ST.3SG
+8	ны	_	X	_	_	10	reparandum	_	Gloss=FST
+9	ны	_	X	_	_	10	reparandum	_	Gloss=FST
+10	нэнарынӈыӄин	_	VERB	_	_	6	parataxis	_	Gloss=ST-INV-строгать-ST.3SG
+11	оттыԓгын	_	NOUN	_	_	10	obj	_	Gloss=дерево-SING-NOM.SG|SpaceAfter=No
+12	.	_	PUNCT	_	_	6	punct	_	_
+
+1	Ынӄо	_	ADV	_	_	3	advmod	_	Gloss=потом
+2	гытгыпэԓгыкагыргын	_	NOUN	_	_	3	obj	_	Gloss=озеро-горло-проход-NOM.SG
+3	мытъиргъэн	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-переправляться-TH-3SG.O-=EMPH
+4	ъым	_	PART	_	_	3	fused:discourse	_	_
+5	.	_	PUNCT	_	_	3	punct	_	_
+
+1	Мытив	_	PART	_	_	5	discourse	_	Gloss=кажется
+2	ынӄэн	_	PART	_	_	5	discourse	_	Gloss=DET-=PTCL
+3	э	_	PART	_	_	2	fused:discourse	_	_
+4	танӈымэԓ	_	ADV	_	_	5	advmod	_	Gloss=чужеземец-LIKE
+5	иквъи	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-сказать-TH-2/3SG.S
+6	чымчеӄэй	_	ADV	_	_	5	xcomp	_	Gloss=близко-INS-DIM|SpaceAfter=No
+7	.	_	PUNCT	_	_	5	punct	_	_
+
+1	И	_	X	_	_	3	discourse	_	Gloss=
+2	это	_	X	_	_	1	flat:foreign	_	Gloss=
+3	нычаёӄэнат	_	VERB	_	_	0	root	_	Gloss=ST-чай-EAT-ST.3SG-PL|SpaceAfter=No
+4	.	_	PUNCT	_	_	3	punct	_	_
+
+1	Ӄэԓёӄ	_	ADV	_	_	4	advmod	_	Gloss=конечно-=EMPH
+2	ъым	_	PART	_	_	1	fused:discourse	_	_
+3	Тэӈыԓӄот	_	PROPN	_	_	4	nsubj	_	Gloss=Тэнылькот-NOM.SG
+4	гъэӄэԓтэтԓин	_	ADJ	_	_	0	root	_	Gloss=PF-плохой-BE-PF.3SG|SpaceAfter=No
+5	.	_	PUNCT	_	_	4	punct	_	_
+
+1	Гэ	_	VERB	_	_	2	left_crcmfix	_	Gloss=PF-злиться-выворачивать-PF.3SG
+2	гэрг	_	VERB	_	_	3	incorp:advcl	_	Gloss=злиться
+3	ыпынчиԓин	_	VERB	_	_	0	root	_	Gloss=PF-злиться-выворачивать-PF.3SG
+4	ӄэлуӄ	_	ADV	_	_	3	advmod	_	Gloss=конечно-=PTCL
+5	э	_	PART	_	_	4	fused:discourse	_	_
+6	чама	_	ADV	_	_	11	advmod	_	Gloss=также
+7	юрэӄ	_	ADV	_	_	11	advmod	_	Gloss=может.быть-=EMPH
+8	ъым	_	PART	_	_	7	fused:discourse	_	_
+9	ынӄэн	_	PART	_	_	11	discourse	_	Gloss=DET-=PTCL
+10	э	_	PART	_	_	9	fused:discourse	_	_
+11	ӈыркыԓятгъэ	_	VERB	_	_	3	parataxis	_	Gloss=2/3.S/A-чувствовать.стыд-VB-TH-2/3SG.S|SpaceAfter=No
+12	.	_	PUNCT	_	_	3	punct	_	_
+
+1	Ныгтоӄэнат	_	VERB	_	_	0	root	_	Gloss=ST-вынимать-ST.3SG-PL|SpaceAfter=No
+2	.	_	PUNCT	_	_	1	punct	_	_
+
+1	Гым	_	PRON	_	_	2	nsubj	_	Gloss=я
+2	матчьатгъа	_	VERB	_	_	0	root	_	Gloss=1SG.S/A.SUBJ-ложиться.спать-TH
+3	этъопэԓ	_	ADV	_	_	2	advmod	_	Gloss=лучше|SpaceAfter=No
+4	.	_	PUNCT	_	_	2	punct	_	_
+
+1	Ынӄэн	_	PART	_	_	8	discourse	_	Gloss=DET
+2	а	_	X	_	_	8	discourse	_	Gloss=
+3	то	_	X	_	_	2	flat:foreign	_	Gloss=
+4	яраԓьата	_	NOUN	_	_	8	nsubj	_	Gloss=яранга-ATTR-INS
+5	энмэч	_	ADV	_	_	8	advmod	_	Gloss=уже
+6	гынин	_	PRON	_	_	7	nmod:poss	_	Gloss=ты-GEN
+7	эвиръыт	_	NOUN	_	_	8	obj	_	Gloss=одежда.из.шкур-NOM.PL
+8	нэныԓгывэтыркынэт	_	VERB	_	_	0	root	_	Gloss=LOW.A-сжигать-IPFV-PL|SpaceAfter=No
+9	.	_	PUNCT	_	_	8	punct	_	_
+
+1	Ӈоонрэ	_	ADV	_	_	4	advmod	_	Gloss=там-ADV.ALL
+2	тыԓяма	_	VERB	_	_	4	advcl	_	Gloss=идти-SIM
+3	Эԓгыӄанъявэты	_	PROPN	_	_	4	obl	_	Gloss=белый-ущелье-DAT
+4	гэмэчпъоӈгэԓеморэ	_	VERB	_	_	0	root	_	Gloss=PF-APPR-гриб-SEARCH-NP.1PL|SpaceAfter=No
+5	.	_	PUNCT	_	_	4	punct	_	_
+
+1	Иквъэт	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-сказать-TH-PL
+2	вынэ	_	PART	_	_	1	parataxis:speech	_	Gloss=ну.ка
+3	вай	_	ADV	_	_	1	parataxis:speech	_	Gloss=вот
+4	комсомолтэ	_	NOUN	_	_	5	nsubj	_	Gloss=комсомолец-NOM.PL
+5	нумэкэтӄинэт	_	VERB	_	_	1	parataxis:speech	_	Gloss=ST-кружок-VB-ST.3SG-PL|SpaceAfter=No
+6	.	_	PUNCT	_	_	5	punct	_	_
+
+1	Вытку	_	ADV	_	_	2	advmod	_	Gloss=только.что
+2	тыԓьуэʼн	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-видеть-TH-3SG.O-=PTCL
+3	э	_	PART	_	_	2	fused:discourse	_	_
+4	гэчеэмык	_	PROPN	_	_	6	obl	_	Gloss=ГСМ-LOC
+5	ӄача	_	ADP	_	_	4	case	_	Gloss=около
+6	тыԓьуэʼн	_	VERB	_	_	2	parataxis	_	Gloss=1SG.S/A-видеть-TH-3SG.O|SpaceAfter=No
+7	.	_	PUNCT	_	_	2	punct	_	_
+
+1	Гым	_	PRON	_	_	5	obj	_	Gloss=я
+2	ытԓьата	_	NOUN	_	_	5	nsubj	_	Gloss=мать-INS
+3	гэна	_	VERB	_	_	4	left_crcmfix	_	Gloss=PF-INV-повторно-TR-молоко-VB-PF.3SG|SpaceAfter=No
+4	пытӄы	_	ADV	_	_	5	incorp:advmod	_	Gloss=повторно
+5	нԓыватԓен	_	VERB	_	_	0	root	_	Gloss=PF-INV-повторно-TR-молоко-VB-PF.3SG|SpaceAfter=No
+6	.	_	PUNCT	_	_	5	punct	_	_
+
+1	Эʼмъи	_	ADV	_	_	6	discourse	_	Gloss=где-=EMPH
+2	м	_	PART	_	_	1	fused:discourse	_	_
+3	ӄыччым	_	AUX	_	_	6	aux	_	Gloss=NEG.FUT
+4	эʼтки	_	ADV	_	_	6	advmod	_	Gloss=плохо
+5	эʼтки	_	ADV	_	_	6	advmod	_	Gloss=плохо
+6	тъэнӄэыччын	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-не.хотеть-VB-IPFV
+7	ягмаԓеччо	_	NOUN	_	_	6	xcomp	_	Gloss=ступня-вытирать-MAT-EQU
+8	итык	_	AUX	_	_	7	cop	_	Gloss=являться-INF|SpaceAfter=No
+9	.	_	PUNCT	_	_	6	punct	_	_
+
+1	Ытчайы	_	NOUN	_	_	5	nsubj	_	Gloss=тётя
+2	гымнин	_	PRON	_	_	1	nmod:poss	_	Gloss=я-AN.GEN
+3	ытԓя	_	NOUN	_	_	1	conj	_	Gloss=мать-NOM.SG
+4	эну	_	X	_	_	5	reparandum	_	Gloss=FST
+5	нэнамӈыԓёӄэн	_	VERB	_	_	0	root	_	Gloss=ST-INV-спрашивать-ST.3SG-=PTCL
+6	а	_	PART	_	_	5	fused:discourse	_	_
+7	.	_	PUNCT	_	_	5	punct	_	_
+
+1	Нивӄинэт	_	VERB	_	_	0	root	_	Gloss=ST-сказать-ST.3SG-PL
+2	Плиска	_	PROPN	_	_	1	obj	_	Gloss=Плиска-NOM.SG
+3	нэмыӄэй	_	ADV	_	_	1	advmod	_	Gloss=тоже|SpaceAfter=No
+4	.	_	PUNCT	_	_	1	punct	_	_
+
+1	Нивӄин	_	VERB	_	_	0	root	_	Gloss=ST-сказать-ST.3SG
+2	эʼптэ	_	ADV	_	_	5	advmod	_	Gloss=тоже
+3	гым	_	PRON	_	_	5	nsubj	_	Gloss=я
+4	ивкэ	_	AUX	_	_	5	aux	_	Gloss=OPT
+5	мэԓгыӄанъявӈытааʼк	_	VERB	_	_	1	parataxis:speech	_	Gloss=1SG.S/A.SUBJ-белый-ущелье-GO.DO-TH-1SG.S|SpaceAfter=No
+6	.	_	PUNCT	_	_	1	punct	_	_
+
+1	Тэӈэвыт	_	ADV	_	_	2	advmod	_	Gloss=GOOD-когда
+2	ԓыгэнывваԓяв	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-INTS-TR-пурга-CS
+3	чама	_	ADV	_	_	4	advmod	_	Gloss=также
+4	рыввиръувнин	_	VERB	_	_	2	parataxis	_	Gloss=2/3.S/A-TR-воздух-DISTR.S-CS-3SG.A.3.O-3SG.O-=EMPH
+5	ъым	_	PART	_	_	4	fused:discourse	_	_
+6	.	_	PUNCT	_	_	2	punct	_	_
+
+1	Ынӄорыӈ	_	ADV	_	_	0	root	_	Gloss=потом-=PTCL
+2	а	_	PART	_	_	1	fused:discourse	_	_
+3	.	_	PUNCT	_	_	1	punct	_	_
+
+1	Ивнинэт	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-сказать-3SG.A.3.O-3SG.O-PL
+2	янот	_	ADV	_	_	6	advmod	_	Gloss=сначала-=EMPH
+3	ъым	_	PART	_	_	2	fused:discourse	_	_
+4	вай	_	PART	_	_	6	discourse	_	Gloss=вот
+5	опэт	_	X	_	_	6	reparandum	_	Gloss=FST
+6	мыӄэтвэтгъэк	_	VERB	_	_	1	parataxis:speech	_	Gloss=1SG.S/A.SUBJ-забивать-VB-TH-LOC-=EMPH
+7	ъым	_	PART	_	_	6	fused:discourse	_	_
+8	оп	_	X	_	_	9	reparandum	_	Gloss=FST
+9	ваԓы	_	NOUN	_	_	11	obj	_	Gloss=нож.NOM.SG
+10	янот	_	ADV	_	_	11	advmod	_	Gloss=сначала
+11	мынъыԓигъэн	_	VERB	_	_	1	parataxis:speech	_	Gloss=1SG.S/A.SUBJ-вталкивать-TH-3SG.O|SpaceAfter=No
+12	.	_	PUNCT	_	_	1	punct	_	_
+
+1	Ӄытԓыги	_	ADV	_	_	6	advmod	_	Gloss=оказывается
+2	ынӄэн	_	PART	_	_	6	discourse	_	Gloss=DET
+3	ԓюут	_	ADV	_	_	6	advmod	_	Gloss=вдруг-=PTCL
+4	э	_	PART	_	_	3	fused:discourse	_	_
+5	энаркып	_	X	_	_	6	reparandum	_	Gloss=FST
+6	энаркыпчыткогъэ	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-INV-ударять-ITER-TH-2/3SG.S
+7	ӈинчьэккэтэ	_	NOUN	_	_	6	nsubj	_	Gloss=молодой-ADJ-сын-INS-=EMPH
+8	ыʼм	_	PART	_	_	7	fused:discourse	_	_
+9	.	_	PUNCT	_	_	6	punct	_	_
+
+1	Ныԓӄутигым	_	VERB	_	_	0	root	_	Gloss=ST-вставать-NP.1SG
+2	инъэ	_	NOUN	_	_	1	obl	_	Gloss=утро-INS|SpaceAfter=No
+3	.	_	PUNCT	_	_	1	punct	_	_
+
+1	Эӄыԓпэ	_	ADV	_	_	3	advmod	_	Gloss=быстро
+2	гэԓи	_	X	_	_	3	reparandum	_	Gloss=FST
+3	гэръэйвэтԓинэт	_	VERB	_	_	0	root	_	Gloss=PF-укладывать.груз.при.кочёвке-VB-PF.3SG-PL
+4	и	_	CCONJ	_	_	5	cc	_	Gloss=
+5	яԓгытгъат	_	VERB	_	_	3	conj	_	Gloss=2/3.S/A-кочевать-TH-PL
+6	тэӈэӄыԓпэ	_	ADV	_	_	5	advmod	_	Gloss=GOOD-быстро|SpaceAfter=No
+7	.	_	PUNCT	_	_	3	punct	_	_
+
+1	Ӈэԓвыԓ	_	NOUN	_	_	3	obj	_	Gloss=стадо-NOM.SG
+2	ыргин	_	PRON	_	_	1	nmod:poss	_	Gloss=они-GEN
+3	уйӈэ	_	VERB	_	_	0	root	_	Gloss=нет
+4	гэнъэтԓин	_	AUX	_	_	3	aux	_	Gloss=PF-стать-PF.3SG|SpaceAfter=No
+5	.	_	PUNCT	_	_	3	punct	_	_
+
+1	Урааа	_	X	_	_	2	discourse	_	Gloss=ура.нер.изм.
+2	мургинэт	_	PRON	_	_	0	root	_	Gloss=мы-GEN-PL
+3	ура	_	X	_	_	4	discourse	_	Gloss=ура
+4	мургинэт	_	PRON	_	_	2	parataxis	_	Gloss=мы-GEN-PL|SpaceAfter=No
+5	.	_	PUNCT	_	_	2	punct	_	_
+
+1	Ынӄэната	_	PRON	_	_	0	root	_	Gloss=DET-INS
+2	ӈэ	_	PART	_	_	1	fused:discourse	_	Gloss=PTCL
+3	.	_	PUNCT	_	_	1	punct	_	_
+
+1	Иквъи	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-сказать-TH-2/3SG.S-=EMPH-=PTCL
+2	ыʼм	_	PART	_	_	1	fused:discourse	_	_
+3	а	_	PART	_	_	1	discourse	_	_
+4	.	_	PUNCT	_	_	1	punct	_	_
+
+1	Ивкэ	_	AUX	_	_	3	aux	_	Gloss=OPT
+2	гынан	_	PRON	_	_	3	nsubj	_	Gloss=ты.INS
+3	ӄывинтэтги	_	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-подбрасывать.дрова.в.огонь-VB-IRR-2/3SG.S|SpaceAfter=No
+4	.	_	PUNCT	_	_	3	punct	_	_
+
+1	Чама	_	ADV	_	_	4	advmod	_	Gloss=также
+2	таӈны	_	VERB	_	_	3	left_crcmfix	_	Gloss=ST-каша-варить-ST.3SG-PL|SpaceAfter=No
+3	рэԓӄ	_	NOUN	_	_	4	incorp:obj	_	Gloss=каша
+4	ыпатӄэнат	_	VERB	_	_	0	root	_	Gloss=ST-каша-варить-ST.3SG-PL|SpaceAfter=No
+5	.	_	PUNCT	_	_	4	punct	_	_
+
+1	Ынӄорыӈ	_	ADV	_	_	7	advmod	_	Gloss=потом-=PTCL
+2	а	_	PART	_	_	1	fused:discourse	_	_
+3	ӄоԓетъыԓёӈ	_	NOUN	_	_	7	obl	_	Gloss=некий-день-=PTCL
+4	а	_	PART	_	_	3	fused:discourse	_	_
+5	нэмэ	_	ADV	_	_	7	advmod	_	Gloss=опять
+6	Чукоткагты	_	PROPN	_	_	7	obl	_	Gloss=Чукотка-DAT
+7	етгъи	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-приходить-TH-2/3SG.S-=EMPH
+8	ыʼм	_	PART	_	_	7	fused:discourse	_	_
+9	.	_	PUNCT	_	_	7	punct	_	_
+
+1	Ымыԓьо	_	PRON	_	_	4	dep	_	Gloss=весь
+2	ӄоԓ	_	PRON	_	_	1	dep	_	Gloss=некий
+3	эргыръокы	_	NOUN	_	_	4	obl	_	Gloss=свет-DISTR.S-LOC
+4	тыԓӄутгъэк	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-вставать-TH-1SG.S-=EMPH-=PTCL
+5	ъым	_	PART	_	_	4	fused:discourse	_	_
+6	э	_	PART	_	_	4	discourse	_	_
+7	рэмкын	_	NOUN	_	_	9	nsubj	_	Gloss=народ-NOM.SG
+8	эвын	_	ADV	_	_	9	advmod	_	Gloss=уже
+9	норгымэгԓетӄэн	_	VERB	_	_	4	parataxis	_	Gloss=ST-нарта-работать-ST.3SG|SpaceAfter=No
+10	.	_	PUNCT	_	_	4	punct	_	_
+
+1	Нивигым	_	VERB	_	_	0	root	_	Gloss=ST-сказать-NP.1SG
+2	ынӈатаԓ	_	ADV	_	_	3	advmod	_	Gloss=очень
+3	йыӄӄайъым	_	ADJ	_	_	6	amod	_	Gloss=замечательный.EMPH
+4	вай	_	ADV	_	_	6	advmod	_	Gloss=вот
+5	ынӄэнат	_	PRON	_	_	6	det	_	Gloss=DET-NOM.PL
+6	пԓеӄӄэгти	_	NOUN	_	_	1	parataxis	_	Gloss=обувь-DIM-NOM.PL-=EMPH
+7	ыʼм	_	PART	_	_	6	fused:discourse	_	_
+8	.	_	PUNCT	_	_	1	punct	_	_
+
+1	Омваамвыԓгэты	_	PROPN	_	_	2	obl	_	Gloss=Амгуэма-EDGE-DAT
+2	гэймэвԓин	_	VERB	_	_	0	root	_	Gloss=PF-приближаться-PF.3SG
+3	Катюша	_	PROPN	_	_	4	reparandum	_	Gloss=Катюша-NOM.SG
+4	Катюша	_	PROPN	_	_	2	nsubj	_	Gloss=Катюша-NOM.SG|SpaceAfter=No
+5	.	_	PUNCT	_	_	2	punct	_	_
+
+1	Тыԓгыръугъи	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-таять-DISTR.S-TH-2/3SG.S|SpaceAfter=No
+2	.	_	PUNCT	_	_	1	punct	_	_
+
+1	Вапаӄат	_	NOUN	_	_	0	root	_	Gloss=мухомор-NOM.PL
+2	эʼми	_	ADV	_	_	1	advmod	_	Gloss=где|SpaceAfter=No
+3	.	_	PUNCT	_	_	1	punct	_	_
+
+1	Ны	_	VERB	_	_	2	left_crcmfix	_	Gloss=ST-покрышка.яранги-отрываться-NP.1PL
+2	рэтэм	_	NOUN	_	_	3	incorp:obj	_	Gloss=ST-покрышка.яранги-отрываться-NP.1PL
+3	ӈытэнмури	_	VERB	_	_	0	root	_	Gloss=ST-покрышка.яранги-отрываться-NP.1PL
+4	ымыԓьэты	_	PRON	_	_	3	obl	_	Gloss=весь-DAT
+5	ынӄэн	_	PART	_	_	3	discourse	_	Gloss=DET
+6	э	_	PART	_	_	5	fused:discourse	_	Gloss=PTCL
+7	.	_	PUNCT	_	_	3	punct	_	_
+
+1	Ынкъам	_	CCONJ	_	_	2	cc	_	Gloss=и
+2	тымӈэвыркын	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-потеряться-IPFV
+3	иаʼм	_	ADV	_	_	2	advmod	_	Gloss=почему
+4	ынӄэн	_	PART	_	_	2	discourse	_	Gloss=DET|SpaceAfter=No
+5	.	_	PUNCT	_	_	2	punct	_	_
+
+1	Ынкъам	_	CCONJ	_	_	5	cc	_	Gloss=и
+2	мури	_	PRON	_	_	5	nsubj	_	Gloss=мы
+3	гачакэттомга	_	NOUN	_	_	2	obl	_	Gloss=COM-сестра-друг-INS
+4	гэ	_	X	_	_	5	reparandum	_	Gloss=FST
+5	гэегтэԓмури	_	VERB	_	_	0	root	_	Gloss=PF-спастись-NP.1PL
+6	Каврагыргын	_	PROPN	_	_	5	dislocated	_	Gloss=Каврагыргин-NOM.SG
+7	ынкъам	_	CCONJ	_	_	8	cc	_	Gloss=и
+8	гым	_	PRON	_	_	6	conj	_	Gloss=я|SpaceAfter=No
+9	.	_	PUNCT	_	_	5	punct	_	_
+
+1	Ангынтавкэгты	_	VERB	_	_	0	root	_	Gloss=CAR-TR-убегать-CAR.DAT|SpaceAfter=No
+2	.	_	PUNCT	_	_	1	punct	_	_
+
+1	Ынӄо	_	ADV	_	_	4	advmod	_	Gloss=потом
+2	мрэнэ	_	NOUN	_	_	4	nsubj	_	Gloss=комар-INS
+3	гым	_	PRON	_	_	4	obj	_	Gloss=я
+4	нагтатэвым	_	VERB	_	_	0	root	_	Gloss=ST-гнать-NP.1SG|SpaceAfter=No
+5	.	_	PUNCT	_	_	4	punct	_	_
+
+1	Ивкэ	_	AUX	_	_	2	aux	_	Gloss=OPT
+2	мыӄамэтвагъак	_	VERB	_	_	0	root	_	Gloss=1SG.S/A.SUBJ-есть-TH-1SG.S|SpaceAfter=No
+3	.	_	PUNCT	_	_	2	punct	_	_
+
+1	Ытръэч	_	ADV	_	_	0	root	_	Gloss=только|SpaceAfter=No
+2	.	_	PUNCT	_	_	1	punct	_	_
+
+1	Ынӄэн	_	DET	_	_	3	det	_	Gloss=DET
+2	виин	_	ADV	_	_	12	advmod	_	Gloss=пока
+3	рыюԓьын	_	NOUN	_	_	5	reparandum	_	Gloss=пасти.оленей.ночью-ATTR-NOM.SG-=PTCL
+4	э	_	PART	_	_	3	fused:discourse	_	_
+5	рыюԓьэ	_	NOUN	_	_	12	nsubj	_	Gloss=пасти.оленей.ночью-ATTR-INS
+6	виин	_	ADV	_	_	2	reparandum	_	Gloss=пока
+7	ынӄэн	_	DET	_	_	9	det	_	Gloss=DET-=PTCL
+8	э	_	PART	_	_	7	fused:discourse	_	_
+9	ӄаагтыноԓгын	_	NOUN	_	_	12	obj	_	Gloss=олень-GO.TO-APUD-NOM.SG-=PTCL
+10	э	_	PART	_	_	9	fused:discourse	_	_
+11	нинэ	_	X	_	_	12	reparandum	_	Gloss=FST
+12	нинэныпкирэтӄин	_	VERB	_	_	0	root	_	Gloss=ST-INV-TR-прибывать-VB-ST.3SG-=EMPH
+13	ъым	_	PART	_	_	12	fused:discourse	_	_
+14	.	_	PUNCT	_	_	12	punct	_	_
+
+1	Ӄы	_	X	_	_	3	reparandum	_	Gloss=FST
+2	ӄы	_	X	_	_	3	reparandum	_	Gloss=FST
+3	ӄэԓёӄ	_	ADV	_	_	7	advmod	_	Gloss=конечно-=EMPH
+4	ъым	_	PART	_	_	3	fused:discourse	_	_
+5	я	_	X	_	_	6	reparandum	_	Gloss=FST
+6	епэчги	_	ADV	_	_	7	advmod	_	Gloss=ещё.не
+7	ачаёӄыӄамэтвакыԓьэн	_	VERB	_	_	10	dep	_	Gloss=CAR-чай-EAT-есть-CAR-ATTR-GEN
+8	ынӈин	_	ADV	_	_	10	advmod	_	Gloss=так
+9	ԓыгэн	_	ADV	_	_	10	advmod	_	Gloss=просто
+10	мытэквэнмык	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-отправляться-1PL.S/O|SpaceAfter=No
+11	.	_	PUNCT	_	_	10	punct	_	_
+
+1	Эʼйӈэвыткумури	_	VERB	_	_	0	root	_	Gloss=звать-ITER-NP.1PL
+2	энарэрык	_	VERB	_	_	1	xcomp	_	Gloss=искать-INF|SpaceAfter=No
+3	.	_	PUNCT	_	_	1	punct	_	_
+
+1	Ынӄо	_	ADV	_	_	2	advmod	_	Gloss=потом
+2	мытиԓгытэвмык	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-мыться-1PL.S/O
+3	и	_	CCONJ	_	_	4	cc	_	Gloss=и
+4	мытчаёмгомык	_	VERB	_	_	2	parataxis	_	Gloss=1PL.S/A-чай-EAT-INCH-1PL.S/O
+5	и	_	CCONJ	_	_	6	cc	_	Gloss=и
+6	мыткаԓеткомгомык	_	VERB	_	_	2	parataxis	_	Gloss=1PL.S/A-писать-ITER-INCH-1PL.S/O|SpaceAfter=No
+7	.	_	PUNCT	_	_	2	punct	_	_
+
+1	Къам	_	CCONJ	_	_	10	cc	_	Gloss=и-=PTCL
+2	а	_	PART	_	_	1	fused:discourse	_	_
+3	ӄоԓ	_	PRON	_	_	4	obj	_	Gloss=некий
+4	нэнтыгъэн	_	VERB	_	_	10	dep	_	Gloss=LOW.A-иметь-TH-3SG.O
+5	ынӄэн	_	PART	_	_	10	discourse	_	Gloss=DET-=PTCL
+6	э	_	PART	_	_	5	fused:discourse	_	_
+7	эвын	_	ADV	_	_	10	advmod	_	Gloss=уже-=PTCL
+8	а	_	PART	_	_	7	fused:discourse	_	_
+9	ӄоԓӄочатԓьанма	_	VERB	_	_	10	advcl	_	Gloss=колхоз-VB-PLAC-SIM
+10	нэпиригъэн	_	VERB	_	_	0	root	_	Gloss=LOW.A-брать-TH-3SG.O
+11	ӈутку	_	ADV	_	_	10	advmod	_	Gloss=здесь
+12	танӈа	_	NOUN	_	_	10	nsubj	_	Gloss=чужеземец-INS|SpaceAfter=No
+13	.	_	PUNCT	_	_	10	punct	_	_
+
+1	Ныннын	_	PRON	_	_	4	nsubj	_	Gloss=имя-NOM.SG
+2	гымынин	_	PRON	_	_	3	nmod:poss	_	Gloss=я-AN.GEN
+3	ытԓьакэн	_	NOUN	_	_	1	nmod:relat	_	Gloss=мать-REL
+4	Руԓтыӈэвыт	_	PROPN	_	_	0	root	_	Gloss=Рультынэвыт-NOM.SG|SpaceAfter=No
+5	.	_	PUNCT	_	_	4	punct	_	_
+

@@ -60,12 +60,12 @@ class UniversalDependenciesDatasetReader(DatasetReader):
                 yield output
 
     @staticmethod
-    def get_token2char_id_mapping(sentence: List[List[str]]) -> Tuple[Dict[str, str],
-                                                                      Dict[str, Dict[int, List[str]]]]:
+    def get_mappings(sentence: List[List[str]]) -> Tuple[Dict[str, str],
+                                                         Dict[str, Dict[int, List[str]]]]:
         """
-        This function handles both creating the mapping and processing the "special cases":
-        multi-word tokens and enhanced dependencies (both signify an incorporation of some kind).
-        It does the latter by modifying the sentence in-place.
+        This function handles both creating the token-to-character mapping and processing
+        the "special cases": multi-word tokens and enhanced dependencies (both signify an
+        incorporation of some kind). For multi-word tokens, the input is modified in-place.
         """
         enhanced_dependencies = {}
         token2char_id_mapping = {'0': '0'}
@@ -82,6 +82,7 @@ class UniversalDependenciesDatasetReader(DatasetReader):
             if old_id.isdigit():
                 new_id = str(moving_number + len(line[1]) - 1)
             else:
+                # Chained incorporation.
                 base_token_idx = i - int(line[0].split('.')[-1])
                 new_id = str(moving_number - len(sentence[base_token_idx][1]) +
                              sentence[base_token_idx][1].find(line[1]) + len(line[1]) - 1)
@@ -96,7 +97,7 @@ class UniversalDependenciesDatasetReader(DatasetReader):
                     continue
 
                 base_token_idx = sentence[i-1][0]
-                if old_id not in enhanced_dependencies:
+                if base_token_idx not in enhanced_dependencies:
                     enhanced_dependencies[base_token_idx] = {}
 
                 subtoken_end = subtoken_start + len(line[1])
@@ -119,7 +120,7 @@ class UniversalDependenciesDatasetReader(DatasetReader):
         return token2char_id_mapping, enhanced_dependencies
 
     def convert_to_character_level(self, sentence: List[List[str]]) -> List[List[str]]:
-        token2char_id_mapping, enhanced_dependencies = self.get_token2char_id_mapping(sentence)
+        token2char_id_mapping, enhanced_dependencies = self.get_mappings(sentence)
 
         new_sentence = [['0', self.root_token, self.root_token, 'ROOT', 'ROOT', '_', '0', 'ROOT', '_', '_']]
         moving_number = 1
@@ -151,7 +152,7 @@ class UniversalDependenciesDatasetReader(DatasetReader):
                     new_line[7] = self.intratoken_tag
 
                 if token_idx in enhanced_dependencies and j in enhanced_dependencies[token_idx]:
-                    if j > 0 and enhanced_dependencies[token_idx][j][-1] == '<SUBTOKEN_START>' \
+                    if j > 0 and '<SUBTOKEN_START>' in enhanced_dependencies[token_idx][j][-2:] \
                             and new_sentence[-1][7] == 'app':
                         # The first character of an incorporated subtoken is the head
                         # of the previous character with the special relation type left_crcmfix.

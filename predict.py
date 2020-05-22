@@ -7,8 +7,7 @@ from allennlp.models import Model
 from allennlp.data import DatasetReader
 from allennlp.common.params import Params
 
-from modules import UniversalDependenciesDatasetReader, \
-    UniversalDependenciesBasicCharacterLevelPredictor
+from modules import UniversalDependenciesDatasetReader, UniversalDependenciesBasicCharacterLevelPredictor
 
 
 def save_predictions_to_conllu(savepath: str, predictions: List[Dict[str, List[str]]]) -> None:
@@ -26,7 +25,7 @@ def save_predictions_to_conllu(savepath: str, predictions: List[Dict[str, List[s
                 head = sentence['heads'][j] if 'heads' in sentence else '_'
                 label = sentence['labels'][j] if 'labels' in sentence else '_'
 
-                f.write('\t'.join([str(j+1), token, '_', upos, xpos, '_', head, label, '_', '_']) + '\n')
+                f.write('\t'.join([index, token, '_', upos, xpos, '_', head, label, '_', '_']) + '\n')
 
             f.write('\n')
 
@@ -34,8 +33,9 @@ def save_predictions_to_conllu(savepath: str, predictions: List[Dict[str, List[s
 def get_predictions(test_path: str, dataset_reader: UniversalDependenciesDatasetReader,
                     predictor: UniversalDependenciesBasicCharacterLevelPredictor) -> List[Dict[str, List[str]]]:
     all_predictions = []
-    for sentence in tqdm(dataset_reader.read_corpus(test_path)):
-        tokens = [dataset_reader.root_token] + list(''.join([x[1] for x in sentence]))
+    for sentence in tqdm(list(dataset_reader.read_corpus(test_path))):
+        tokens = [dataset_reader.root_token] + \
+                 list(''.join([x[1] for x in sentence if x[0].isdigit()]))
         json_dict = {'tokens': tokens}
         predictions = predictor.predict(json_dict)
         all_predictions.append(predictions)

@@ -2,8 +2,8 @@
   "dataset_reader": {
     "type": "ud_reader"
   },
-  "train_data_path": "data/Chukchi/ckt_hse-ud-train.00.conllu",
-  "validation_data_path": "data/Chukchi/ckt_hse-ud-test.00.conllu",
+  "train_data_path": "data/Chukchi/flat_train/ckt_hse-ud-train.00.conllu",
+  "validation_data_path": "data/Chukchi/flat_test/ckt_hse-ud-test.00.conllu",
   "vocabulary": {
     "non_padded_namespaces": ["*tags", "*labels", "upos", "dependency"]
   },
@@ -44,7 +44,7 @@
   "trainer": {
     "optimizer": {
       "type": "adam",
-      "lr": 5e-3,
+      "lr": 4e-3,
       "weight_decay": 1e-4
     },
     "learning_rate_scheduler": {
@@ -54,7 +54,7 @@
       "min_lr": 1e-5
     },
     "num_epochs": 100,
-    "patience": 15,
+    "patience": 20,
     "grad_norm": 5.0,
     "cuda_device": 0
   }
