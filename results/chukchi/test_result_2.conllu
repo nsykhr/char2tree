@@ -1,0 +1,1269 @@
+# sent_id = Water_cart:42
+# text = Ытръэч.
+# text[phon] = ətrʔes
+# text[rus] = Конец.
+# text[eng] = That is all.
+# labels = complete-dep anno-fran
+1	Ытръэч	_	ADV	_	_	0	root	_	_
+2	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Komsomolets:4
+# text = Ныръэтури.
+# text[phon] = nərʔeturi
+# text[rus] = «Что вы делаете?».
+# text[eng] = «What are you doing?»
+# labels = complete-dep anno-fran
+1	Ныръэтури	_	VERB	_	_	0	root	_	_
+2	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Brandy:7
+# text = Наӄам Брэнди называлось.
+# text[phon] = naqam brendi называлось
+# text[rus] = На самом деле называлось «Бренди».
+# text[eng] = In fact, it was called «Brandy».
+# labels = complete-dep anno-fran
+1	Наӄам	_	CCONJ	_	_	3	advmod	_	_
+2	Брэндиназы	_	PROPN	_	_	3	advmod	_	_
+3	валось	_	PROPN	_	_	0	root	_	_
+4	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = The_Eskimo_is_fishing:13
+# text = Ӄорыӈ энтк гэтэйкыԓин кинокэ.
+# text[phon] = qorəŋ entk ɣetejkəɬin kinoke
+# text[rus] = Потом это сняли в кино.
+# text[eng] = Then a film was made.
+# labels = complete-dep anno-fran
+1	Ӄоры	_	ADV	_	_	3	advmod	_	_
+2	ӈэнтк	_	NOUN	_	_	3	obl	_	_
+3	гэтэйкыԓин	_	VERB	_	_	0	root	_	_
+4	кинок	_	NOUN	_	_	3	obl	_	_
+5	э	_	PART	_	_	4	fused:discourse	_	_
+6	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Not_eating_larvae:12
+# text = Это тумгытум ӄыгитэгэ мургин ынпыӈэв гэрэӄыԓин тэӈтэӈэвыт пэ пэ это.
+# text[phon] = это tumɣətum qəɣiteɣe murɣin ənpəŋew ɣereqəɬin teŋteŋewət pe pe это
+# text[rus] = «Муж, посмотри, что с нашей старшей дочкой?».
+# text[eng] = «Husband, look, what happened to our eldest daughter?»
+# labels = complete-dep anno-fran
+1	Это	_	X	_	_	2	discourse	_	_
+2	тумгытум	_	NOUN	_	_	3	nsubj	_	_
+3	ӄыгитэгэ	_	VERB	_	_	0	root	_	_
+4	мургин	_	PRON	_	_	6	nmod:poss	_	_
+5	ынпыӈэв	_	NOUN	_	_	6	obj	_	_
+6	гэрэӄыԓин	_	VERB	_	_	3	parataxis	_	_
+7	тэӈтэӈэвытпэпээто	_	NOUN	_	_	6	obj	_	_
+8	.	_	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Chapaev:6
+# text = Ӈинӄэйӄэгти ӈээккэӄэгти ымыԓьо нывакъотваӄэнатъым.
+# text[phon] = ŋinqejqeɣti ŋeekkeqeɣti əməɬʔo nəwakʔotwaqenatʔəm
+# text[rus] = Мальчишки и девчонки все сидят.
+# text[eng] = All the boys and the girls are sitting.
+# labels = complete-dep anno-karina
+1	Ӈинӄэйӄэгти	_	NOUN	_	_	4	nsubj	_	_
+2	ӈээккэӄэгти	_	NOUN	_	_	4	nsubj	_	_
+3	ымыԓьо	_	PRON	_	_	4	obj	_	_
+4	нывакъотваӄэнат	_	VERB	_	_	0	root	_	_
+5	ъым	_	PART	_	_	4	fused:discourse	_	_
+6	.	_	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Life:3
+# text = Ынӄо бригадиро гатваԓен.
+# text[phon] = ənqo brigadiro ɣatwaɬen
+# text[rus] = Потом бригадиром стал.
+# text[eng] = Then he became a foreman.
+# labels = complete-dep anno-fran
+1	Ынӄо	_	ADV	_	_	2	advmod	_	_
+2	бри	_	ADV	_	_	4	advmod	_	_
+3	гадиро	_	PROPN	_	_	4	nsubj	_	_
+4	гатваԓен	_	AUX	_	_	0	root	_	_
+5	.	_	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Larvae:9
+# text = Ынӄэн эӄыԓпэӈэ тыпиринэт ынӈин.
+# text[phon] = ənqen eqəɬpeŋe təpirinet ənŋin
+# text[rus] = Быстро схватила их так.
+# text[eng] = Grabbed them quickly.
+# labels = complete-dep anno-fran ənqen
+1	Ынӄэн	_	PART	_	_	5	discourse	_	_
+2	э	_	PART	_	_	1	fused:discourse	_	_
+3	ӄыԓпэӈ	_	NOUN	_	_	5	advmod	_	_
+4	эты	_	VERB	_	_	5	obl	_	_
+5	пиринэт	_	VERB	_	_	0	root	_	_
+6	ынӈин	_	ADV	_	_	5	advmod	_	_
+7	.	_	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Mushrooms:9
+# text = Ытръэч.
+# text[phon] = ətrʔes
+# text[rus] = Всё.
+# text[eng] = That is all.
+# labels = complete-dep anno-fran
+1	Ытръэч	_	ADV	_	_	0	root	_	_
+2	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = The_day_before_yesterday:7
+# text = Ынкъам мытъенмык Эԓгыӄанъяквыпы пэтԓе.
+# text[phon] = ənkʔam mətjenmək eɬɣəqanjakwəpə petɬe
+# text[rus] = DMP: — И мы приехали из Эгвекинота быстро.
+# text[eng] = DMP: — And we quickly came back from Egvekiot.
+# labels = complete-dep anno-fran
+1	Ынкъам	_	CCONJ	_	_	2	cc	_	_
+2	мытъенмык	_	VERB	_	_	0	root	_	_
+3	Эԓгыӄанъяквыпыпэтԓе	_	PROPN	_	_	2	parataxis	_	_
+4	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Dog_sledge_driver:4
+# text = Выткуӈэ чыкээквъиыʼмэ.
+# text[phon] = wətkuŋe səkeekwʔiʔəme
+# text[rus] = Только что тот опомнился.
+# text[eng] = He has just regained consciousness.
+# labels = complete-dep anno-fran
+1	Вытку	_	ADV	_	_	3	advmod	_	_
+2	ӈэчыкэ	_	NOUN	_	_	3	fused:discourse	_	_
+3	эквъи	_	VERB	_	_	0	root	_	_
+4	ыʼм	_	PART	_	_	3	fused:discourse	_	_
+5	э	_	PART	_	_	3	discourse	_	_
+6	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Mushrooms:3
+# text = Ынкъам тыгэчеӈӈонат.
+# text[phon] = ənkʔam təɣeseŋŋonat
+# text[rus] = И начала их собирать.
+# text[eng] = I started gathering them.
+# labels = complete-dep anno-fran
+1	Ынкъам	_	CCONJ	_	_	2	cc	_	_
+2	тыгэчеӈӈонат	_	VERB	_	_	0	root	_	_
+3	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Being_a_child:21
+# text = Чакэттомгыӄай уйӈэ гагаԓяԓенъым.
+# text[phon] = sakettomɣəqaj ujŋe ɣaɣaɬaɬenʔəm
+# text[rus] = Младшей сестры не стало.
+# text[eng] = My younger sister passed away.
+# labels = complete-dep anno-fran
+1	Чакэт	_	NOUN	_	_	4	advmod	_	_
+2	томгыӄай	_	NOUN	_	_	4	nsubj	_	_
+3	уйӈэ	_	VERB	_	_	4	root	_	_
+4	гагаԓяԓен	_	VERB	_	_	0	root	_	_
+5	ъым	_	PART	_	_	4	fused:discourse	_	_
+6	.	_	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Shaman:2
+# text = Нрзб ԓымынӄо ныԓейвыӄин.
+# text[phon] = нрзб ɬəmənqo nəɬejwəqin
+# text[rus] = Повсюду ходил.
+# text[eng] = He walked everywhere.
+# labels = complete-dep anno-fran
+1	Нрзб	_	X	_	_	3	discourse	_	_
+2	ԓымынӄо	_	ADV	_	_	3	advmod	_	_
+3	ныԓейвыӄин	_	VERB	_	_	0	root	_	_
+4	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Knives:18
+# text = Нэԓьунэт эвын ваԓят ымыԓьо гэнумэкэвйивԓеэт гэгичийивԓеэт ымы ръысӄыёԓгычыко ваԓьыт гагтоԓенат.
+# text[phon] = neɬʔunet ewən waɬat əməɬʔo ɣenumekewjiwɬeet ɣeɣisijiwɬeet əmə rʔəsqəjoɬɣəsəko waɬʔət ɣaɣtoɬenat
+# text[rus] = И увидели, что, оказалось, все ножи были собраны и сложены в одну кучу, и даже те, что были в ножнах, тоже вытащены.
+# text[eng] = And they saw that, it turned out, all knives were collected and stacked in one together, even those that were in the sheath were dragged out too.
+# labels = complete-dep anno-fran
+1	Нэԓьунэт	_	VERB	_	_	0	root	_	_
+2	эвын	_	ADV	_	_	1	advmod	_	_
+3	ваԓятымыԓьогэнумэкэвйивԓеэт	_	NOUN	_	_	1	parataxis	_	_
+4	гэгичийивԓеэ	_	VERB	_	_	1	parataxis	_	_
+5	т	_	VERB	_	_	3	parataxis	_	_
+6	ымыръысӄыёԓгычыко	_	NOUN	_	_	8	obl	_	_
+7	ваԓьыт	_	AUX	_	_	6	cop	_	_
+8	гагтоԓенат	_	VERB	_	_	1	parataxis	_	_
+9	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Komsomolets:3
+# text = Ынкы кԓюпык ӄача ӄычекытваԓьымкына тыйъоаʼнъым тымӈыԓёнат.
+# text[phon] = ənkə kɬupək qasa qəsekətwaɬʔəmkəna təjʔoʔanʔəm təmŋəɬonat
+# text[rus] = Подошёл к тем, кто толпился там возле клуба, спрашиваю их.
+# text[eng] = I approached the ones who stood near the club and asked them:
+# labels = complete-dep anno-fran
+1	Ынкы	_	PRON	_	_	2	obl	_	_
+2	кԓюпык	_	NOUN	_	_	6	obl	_	_
+3	ӄача	_	ADP	_	_	2	case	_	_
+4	ӄычекытваԓьымкын	_	VERB	_	_	5	root	_	_
+5	а	_	VERB	_	_	6	fused:discourse	_	_
+6	тыйъоаʼн	_	VERB	_	_	0	root	_	_
+7	ъым	_	PART	_	_	6	fused:discourse	_	_
+8	тымӈыԓёнат	_	VERB	_	_	6	parataxis	_	_
+9	.	_	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Komsomolets_(again):8
+# text = Вы гыт ынӈин эвнумэкэткэ.
+# text[phon] = wə ɣət ənŋin ewnumeketke
+# text[rus] = «Тебе не нужно приходить на собрания».
+# text[eng] = «You should not come to the meetings.»
+# labels = complete-dep anno-karina unclear-syntax
+1	Выгыт	_	ADV	_	_	3	nsubj	_	_
+2	ынӈин	_	ADV	_	_	4	advmod	_	_
+3	эвнумэк	_	VERB	_	_	0	root	_	_
+4	эткэ	_	NOUN	_	_	3	parataxis	_	_
+5	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Mushrooms:6
+# text = Наӄам ныгтымранатӄэн.
+# text[phon] = naqam nəɣtəmranatqen
+# text[rus] = Но было очень много комаров.
+# text[eng] = But there were so many mosquitos.
+# labels = complete-dep anno-fran
+1	Наӄам	_	CCONJ	_	_	3	cc	_	_
+2	ныгты	_	VERB	_	_	3	obl	_	_
+3	мранатӄэн	_	VERB	_	_	0	root	_	_
+4	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Kettle:2
+# text = Ӈэвъэнйыръын ынкъам ӄԓявыԓ гатваԓенат.
+# text[phon] = ŋewʔenjərʔən ənkʔam qɬawəɬ ɣatwaɬenat
+# text[rus] = Жили-были муж и жена.
+# text[eng] = There lived a wife and a husband.
+# labels = complete-dep anno-fran
+1	Ӈэвъэнйыръын	_	NOUN	_	_	3	nsubj	_	_
+2	ынкъам	_	CCONJ	_	_	4	cc	_	_
+3	ӄԓявыԓ	_	NOUN	_	_	4	nsubj	_	_
+4	гатваԓенат	_	AUX	_	_	0	cop	_	_
+5	.	_	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Telyopka:1
+# text = Тэлёпкаӄай Тэлёпкаӄай аны ӄыгывъекви.
+# text[phon] = telʲopkaqaj telʲopkaqaj anə qəɣəwjekwi
+# text[rus] = Телёпка, Телёпка, ну проснись.
+# text[eng] = Telyopka, Telyopka, come on, wake up.
+# labels = complete-dep anno-fran
+1	Тэлёпкаӄай	_	PROPN	_	_	4	vocative	_	_
+2	Тэлёпкаӄай	_	PROPN	_	_	4	vocative	_	_
+3	аны	_	ADV	_	_	4	advmod	_	_
+4	ӄыгывъекви	_	VERB	_	_	0	root	_	_
+5	.	_	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Transhumance:8
+# text = Ӄорыӈэ ныръэйвэнмури яраӈы.
+# text[phon] = qorəŋe nərʔejwenmuri jaraŋə
+# text[rus] = Потом грузим ярангу.
+# text[eng] = Then we load the yaranga (on a sledge).
+# labels = complete-dep anno-karina
+1	Ӄорыӈ	_	ADV	_	_	3	advmod	_	_
+2	э	_	PART	_	_	1	fused:discourse	_	_
+3	ныръэйвэнмури	_	VERB	_	_	0	root	_	_
+4	яраӈы	_	NOUN	_	_	3	obl	_	_
+5	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = An_evil_spirit_and_a_dicky_bird:10
+# text = Чит ӄымԓёркынэн пчеӄаԓгыӄай.
+# text[phon] = sit qəmɬorkənen pseqaɬɣəqaj
+# text[rus] = Только собрался поесть костный мозг у птички (т. е. ударить ей по ноге).
+# text[eng] = The evil spirit was just about to eat the bird’s bone marrow (i.e. to hit it on the leg).
+# labels = complete-dep anno-fran unclear-syntax
+1	Чит	_	AUX	_	_	2	discourse	_	_
+2	ӄымԓёркынэн	_	VERB	_	_	0	root	_	_
+3	пчеӄаԓгыӄай	_	NOUN	_	_	2	obj	_	_
+4	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Having_bear_ears:7
+# text = Ӈинӄэй и ӈээккэӄэй ӄынрагтатгынат.
+# text[phon] = ŋinqej и ŋeekkeqej qənraɣtatɣənat
+# text[rus] = Мальчика и девочку отведи домой.
+# text[eng] = Bring the boy and the girl home.
+# labels = complete-dep anno-fran
+1	Ӈинӄэй	_	NOUN	_	_	4	nsubj	_	_
+2	и	_	CCONJ	_	_	4	cc	_	_
+3	ӈээккэӄэй	_	NOUN	_	_	4	obj	_	_
+4	ӄынрагтатгынат	_	VERB	_	_	0	root	_	_
+5	.	_	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Larvae:4
+# text = Нинэйыԓӄин гым каарачыко ваԓьэвым ва ынӄэн нэнаԓпынрыӄэн кэгынмычыку.
+# text[phon] = ninejəɬqin ɣəm kaarasəko waɬʔewəm wa ənqen nenaɬpənrəqen keɣənməsəku
+# text[rus] = Давала мне, я в кибитке сидела, а она давала мне их в кулаке.
+# text[eng] = She was giving them to me, I was sitting in the closed sledge and she was giving them to me holding them in her fist.
+# labels = complete-dep anno-fran ənqen
+1	Нинэйыԓӄин	_	VERB	_	_	0	root	_	_
+2	гым	_	PRON	_	_	1	obj	_	_
+3	каарачыко	_	NOUN	_	_	1	obl	_	_
+4	ваԓьэвымва	_	AUX	_	_	6	advmod	_	_
+5	ынӄэн	_	PART	_	_	6	discourse	_	_
+6	нэнаԓпынрыӄэн	_	VERB	_	_	1	parataxis	_	_
+7	кэгынмычыку	_	NOUN	_	_	6	obj	_	_
+8	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Brandy:2
+# text = Эмнуӈыԓьыт ныпкирӄинэт ынӄэнэ.
+# text[phon] = emnuŋəɬʔət nəpkirqinet ənqene
+# text[rus] = Приезжали тундровики.
+# text[eng] = Tundra people came.
+# labels = complete-dep anno-fran ənqen
+1	Эмнуӈыԓьыт	_	NOUN	_	_	2	nsubj	_	_
+2	ныпкирӄинэт	_	VERB	_	_	0	root	_	_
+3	ынӄэн	_	PART	_	_	2	discourse	_	_
+4	э	_	PART	_	_	3	fused:discourse	_	_
+5	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Shaman:11
+# text = Нымӈыԓёӄэн ытԓён гэрэӄигыт кытвыԓӄун миӈкыри ганточгатэгыт.
+# text[phon] = nəmŋəɬoqen ətɬon ɣereqiɣət kətwəɬqun miŋkəri ɣantosɣateɣət
+# text[rus] = Его спрашивают: что же ты сделал, как ты вышел?
+# text[eng] = They ask him: what did you do, how did you get out?
+# labels = complete-dep anno-karina
+1	Нымӈыԓёӄэн	_	VERB	_	_	0	root	_	_
+2	ытԓён	_	PRON	_	_	3	nsubj	_	_
+3	гэрэӄигыткытвыԓӄун	_	VERB	_	_	1	parataxis	_	_
+4	миӈкыри	_	ADV	_	_	5	advmod	_	_
+5	ганточгатэгыт	_	VERB	_	_	3	parataxis	_	_
+6	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = I_am_from_Chukotka:20
+# text = Ынӄэн нывэтгавӄэнат.
+# text[phon] = ənqen nəwetɣawqenat
+# text[rus] = Они говорят.
+# text[eng] = They are talking.
+# labels = complete-dep anno-fran ənqen
+1	Ынӄэн	_	PART	_	_	2	nsubj	_	_
+2	нывэтгавӄэнат	_	VERB	_	_	0	root	_	_
+3	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = GUM:17
+# text = Нивигым аԓымы мэԓнымкыӄинэ тытԓытыԓ ӈотӄоры ӈытогыргын ваԓьын.
+# text[phon] = niwiɣəm aɬəmə meɬnəmkəqine tətɬətəɬ ŋotqorə ŋətoɣərɣən waɬʔən
+# text[rus] = Думаю: вроде было много входных дверей, много выходов оттуда.
+# text[eng] = I am thinking: there were a lot of entrance doors, a lot of exits from there.
+# labels = complete-dep anno-fran
+1	Нивигым	_	VERB	_	_	0	root	_	_
+2	а	_	ADV	_	_	1	cc	_	_
+3	ԓымымэԓ	_	ADV	_	_	4	reparandum	_	_
+4	нымкыӄинэт	_	ADJ	_	_	1	parataxis	_	_
+5	ытԓытыԓ	_	NOUN	_	_	4	nsubj	_	_
+6	ӈот	_	ADV	_	_	4	advmod	_	_
+7	ӄоры	_	ADV	_	_	8	advmod	_	_
+8	ӈытогыргын	_	NOUN	_	_	1	nsubj	_	_
+9	ваԓьын	_	AUX	_	_	8	cop	_	_
+10	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Water_cart:41
+# text = Выԓгыкирзовыйсапокԓьынъыма эвтэ джинсыӄонагыԓьын эвыр тэӈэвытӄэй тэгнъыӄэвъяӈӈогъан ыныки нъымытӄытэԓпыгъан гаймаӈэн нъыӄитывъигъэн.
+# text[phon] = wəɬɣəkirzowəjsapokɬʔənʔəma ewte džinsəqonaɣəɬʔən ewər teŋewətqej teɣnʔəqewjaŋŋoɣʔan ənəki nʔəmətqəteɬpəɣʔan ɣajmaŋen nʔəqitəwʔiɣʔen
+# text[rus] = В тонких кирзовых сапогах и джинсовых штанах, сейчас же замёрз бы, если бы вдруг закончилось топливо, возможно, замёрз бы насмерть.
+# text[eng] = He would have frozen in his kersey boots and jeans, and if he had been out of fuel, he would have probably frozen to death.
+# labels = complete-dep anno-karina unclear-syntax
+1	Выԓгык	_	NOUN	_	_	10	obl	_	_
+2	ирзовыйсапокԓьын	_	X	_	_	14	nsubj	_	_
+3	ъым	_	PART	_	_	2	fused:discourse	_	_
+4	а	_	PART	_	_	14	discourse	_	_
+5	ъым	_	PART	_	_	2	fused:discourse	_	_
+6	а	_	PART	_	_	2	discourse	_	_
+7	эвтэджинсыӄонагыԓьын	_	PROPN	_	_	14	nsubj	_	_
+8	эвыртэ	_	PROPN	_	_	14	fused:discourse	_	_
+9	ӈэвытӄэй	_	NOUN	_	_	14	obj	_	_
+10	тэгнъыӄэвъяӈӈогъа	_	VERB	_	_	14	parataxis	_	_
+11	н	_	VERB	_	_	14	parataxis	_	_
+12	ыныкин	_	PRON	_	_	14	advmod	_	_
+13	ъым	_	PART	_	_	2	fused:discourse	_	_
+14	ытӄытэԓпыгъан	_	VERB	_	_	0	parataxis	_	_
+15	гаймаӈэн	_	NOUN	_	_	16	reparandum	_	_
+16	нъыӄитывъигъэн	_	VERB	_	_	14	parataxis	_	_
+17	.	_	PUNCT	_	_	14	punct	_	_
+
+# sent_id = I_am_from_Chukotka:17
+# text = Нывэтгавӄэнат ӈирэргэри.
+# text[phon] = nəwetɣawqenat ŋirerɣeri
+# text[rus] = Они говорят вдвоём.
+# text[eng] = They are talking together.
+# labels = complete-dep anno-fran
+1	Нывэтгавӄэнат	_	VERB	_	_	0	root	_	_
+2	ӈирэргэри	_	NOUN	_	_	1	nsubj	_	_
+3	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = The_Eskimo_is_fishing:10
+# text = Нутгыӄээтэ этъым пэԓгома чама нывинӄинэт.
+# text[phon] = nutɣəqeete etʔəm peɬɣoma sama nəwinqinet
+# text[rus] = Они, когда сытые, податливые, смирные.
+# text[eng] = When they are full up, they are pliable, meek.
+# labels = complete-dep anno-fran
+1	Нутгыӄээт	_	VERB	_	_	0	root	_	_
+2	ээт	_	ADV	_	_	6	advmod	_	_
+3	ъым	_	PART	_	_	2	fused:discourse	_	_
+4	пэԓгома	_	NOUN	_	_	6	nsubj	_	_
+5	чама	_	ADV	_	_	6	advmod	_	_
+6	нывинӄинэт	_	VERB	_	_	1	parataxis	_	_
+7	.	_	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Stud_buck_reindeer:10
+# text = Ԓьунин Тыӈэтим нивӄин ӈаанӄэнъым вай тыркыԓьиӈын.
+# text[phon] = ɬʔunin təŋetiʔm niwqin ŋaanqenʔəm waj tərkəɬʔiŋən
+# text[rus] = Увидела Тынэти и говорит: «Вон он, производитель!».
+# text[eng] = She saw Tyngeti and says: «There he is, the stud buck reindeer!».
+# labels = complete-dep anno-fran
+1	Ԓьунин	_	VERB	_	_	0	root	_	_
+2	Тыӈэтим	_	NOUN	_	_	1	fused:discourse	_	_
+3	нивӄин	_	VERB	_	_	1	parataxis	_	_
+4	ӈаанӄэн	_	PART	_	_	7	discourse	_	_
+5	ъым	_	PART	_	_	4	fused:discourse	_	_
+6	вай	_	NOUN	_	_	7	discourse	_	_
+7	тыркыԓьиӈын	_	NOUN	_	_	1	nsubj	_	_
+8	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tent:2
+# text = Ваԓӄыԓыргытанӈын тинԓыԓеԓьынэ.
+# text[phon] = waɬqəɬərɣətanŋən tinɬəɬeɬʔəne
+# text[rus] = Бородатый чужеземец в очках.
+# text[eng] = A bearded foreigner with glasses.
+# labels = complete-dep anno-fran
+1	Ваԓӄыԓыргытанӈын	_	NOUN	_	_	2	nsubj	_	_
+2	тинԓыԓеԓьын	_	VERB	_	_	0	root	_	_
+3	э	_	PART	_	_	2	fused:discourse	_	_
+4	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Not_eating_larvae:7
+# text = Рыпыткынтавъё тъынин нрзб.
+# text[phon] = rəpətkəntawjo tʔənin нрзб
+# text[rus] = И то, что было внутри личинки (букв. разорванное), вылила.
+# text[eng] = And poured the substance (lit. what was crushed) into my mouth.
+# labels = complete-dep anno-fran
+1	Рыпыткынтавъётъынин	_	VERB	_	_	0	root	_	_
+2	нрзб	_	X	_	_	1	discourse	_	_
+3	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Hooligan:7
+# text = Ниви тыӈойӈыкыпԓыгъан.
+# text[phon] = niwi təŋojŋəkəpɬəɣʔan
+# text[rus] = Пнул его по заднице.
+# text[eng] = I kicked him in the ass.
+# labels = complete-dep anno-fran
+1	Нивиты	_	VERB	_	_	3	obl	_	_
+2	ӈойӈык	_	NOUN	_	_	3	obl	_	_
+3	ыпԓыгъан	_	VERB	_	_	0	root	_	_
+4	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Dog_sledge_driver:7
+# text = Нинэгитэӄин ръэмиӈкэкин ӈотӄэн оʼравэтԓьан.
+# text[phon] = nineɣiteqin rʔemiŋkekin ŋotqen ʔorawetɬʔan
+# text[rus] = Разглядывает его, откуда этот человек.
+# text[eng] = He is looking at him trying to find out where he comes from.
+# labels = complete-dep anno-fran
+1	Нинэгитэӄин	_	VERB	_	_	0	root	_	_
+2	ръэмиӈкэкин	_	ADV	_	_	1	advmod	_	_
+3	ӈотӄэн	_	PRON	_	_	4	discourse	_	_
+4	оʼравэтԓьан	_	NOUN	_	_	1	nsubj	_	_
+5	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Not_eating_larvae:31
+# text = Гымыкытчаяыʼм вэриву вэривуунъыкинэт эти гичининэт.
+# text[phon] = ɣəməkətsajaʔəm weriwu weriwuunʔəkinet эти ɣisininet
+# text[rus] = Моя тётя брусничные эти (листья) собрала.
+# text[eng] = My aunt gathered lingonberry leaves.
+# labels = complete-dep anno-fran
+1	Гымык	_	PRON	_	_	6	nsubj	_	_
+2	ытчая	_	NOUN	_	_	6	nsubj	_	_
+3	ыʼм	_	PART	_	_	2	fused:discourse	_	_
+4	вэривувэри	_	NOUN	_	_	6	nsubj	_	_
+5	вуунъыкинэтэти	_	NOUN	_	_	6	reparandum	_	_
+6	гичининэт	_	VERB	_	_	0	root	_	_
+7	.	_	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Breast:15
+# text = Ԓёԓьоԓгын гэпинтыӄэтԓин нивигым ын тэӈынӈин.
+# text[phon] = ɬoɬʔoɬɣən ɣepintəqetɬin niwiɣəm ən teŋənŋin
+# text[rus] = «Надо же, думаю, грудь выскочила».
+# text[eng] = «Wow, I think, my boob jumped out».
+# comment = Перед последним словом слышится слог, похожий на [ən] или [əm]. Если это правда, не исключено,что это часть последнего слова (например, тоталитативный префикс əm-), а в последнем слова другаягармония (например, произнесено əm-taŋ-ənŋen).
+# labels = complete-dep anno-fran
+1	Ԓёԓьоԓгын	_	NOUN	_	_	2	nsubj	_	_
+2	гэпинтыӄэтԓин	_	VERB	_	_	0	root	_	_
+3	нивигым	_	VERB	_	_	2	parataxis	_	_
+4	ынтэӈ	_	ADV	_	_	3	advmod	_	_
+5	ынӈин	_	ADV	_	_	3	advmod	_	_
+6	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Having_bear_ears:6
+# text = Мэсӄымавыч мэсӄымэк гииӈитгъи.
+# text[phon] = mesqəmawəs mesqəmek ɣiiŋitɣʔi
+# text[rus] = «Почти год ты прожил.
+# text[eng] = You have been here for almost a year.
+# labels = complete-dep anno-fran
+1	Мэсӄымавыч	_	NOUN	_	_	3	nsubj	_	_
+2	мэсӄымэк	_	NOUN	_	_	3	obl	_	_
+3	гииӈитгъи	_	VERB	_	_	0	root	_	_
+4	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = An_evil_spirit_and_a_dicky_bird:13
+# text = Эв ии рыпэт чыпъэв.
+# text[phon] = ew ii rəpet səpʔew
+# text[rus] = «Ай, аж синяк!».
+# text[eng] = «Ouch, even a bruise».
+# labels = complete-dep anno-fran
+1	Эвиирыпэтчыпъэв	_	NOUN	_	_	0	root	_	_
+2	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Brandy:19
+# text = Ытръэч ынӄэн пличка бличка иквъиыʼм.
+# text[phon] = ətrʔes ənqen pliska bliska ikwʔiʔəm
+# text[rus] = Только «близко, близко» говорил.
+# text[eng] = He just said «close, close».
+# labels = complete-dep anno-karina
+1	Ытръэч	_	ADV	_	_	5	advmod	_	_
+2	ынӄэн	_	PART	_	_	5	discourse	_	_
+3	пличка	_	X	_	_	5	reparandum	_	_
+4	бличка	_	NOUN	_	_	5	obl	_	_
+5	иквъи	_	VERB	_	_	0	root	_	_
+6	ыʼм	_	PART	_	_	5	fused:discourse	_	_
+7	.	_	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Money:13
+# text = Ынӈинъымэ нрзб пятьдесят рублей сколько там.
+# text[phon] = ənŋinʔəme нрзб пятьдесят рублей сколько там
+# text[rus] = Пятьдесят рублей или сколько там…
+# text[eng] = Fifty rubles or how much were there…
+# labels = complete-dep anno-fran
+1	Ынӈин	_	ADV	_	_	6	advmod	_	_
+2	ъы	_	PART	_	_	3	root	_	_
+3	м	_	PART	_	_	1	fused:discourse	_	_
+4	э	_	PART	_	_	1	discourse	_	_
+5	нрзб	_	X	_	_	6	discourse	_	_
+6	пятьдесятрублейсколькотам	_	X	_	_	7	root	_	_
+7	.	_	PUNCT	_	_	0	punct	_	_
+
+# sent_id = Having_bear_ears:16
+# text = И митъэԓыги ӈан маёԓгын ӄанарайъо йъотъра нарайъотԓяты нрзб ӄывъёпчагынат.
+# text[phon] = и mitʔeɬəɣi ŋan majoɬɣən qanarajʔo jʔotʔra narajʔotɬatə нрзб qəwjopsaɣənat
+# text[rus] = И запомни: когда к холму будешь подходить, (тихонько) свистни их.
+# text[eng] = And remember: when you will be approaching the hill, whistle gently to call them.
+# labels = complete-dep anno-karina
+1	И	_	CCONJ	_	_	8	cc	_	_
+2	митъэԓыги	_	ADV	_	_	8	advmod	_	_
+3	ӈанмаёԓгын	_	NOUN	_	_	8	nsubj	_	_
+4	ӄан	_	PART	_	_	8	discourse	_	_
+5	а	_	PART	_	_	4	fused:discourse	_	_
+6	райъойъотъранарайъотԓяты	_	NOUN	_	_	8	obl	_	_
+7	нрзб	_	X	_	_	8	discourse	_	_
+8	ӄывъёпчагынат	_	VERB	_	_	0	root	_	_
+9	.	_	PUNCT	_	_	8	punct	_	_
+
+# sent_id = Vacation:5
+# text = Ынкы трэԓьуӈынэт гымнинэт чакэттомгыӄай Лариса ынкъам гымнин ӈавытԓывэӄай Виталина.
+# text[phon] = ənkə treɬʔuŋənet ɣəmninet sakettomɣəqaj larisa ənkʔam ɣəmnin ŋawətɬəweqaj vʲitalʲina
+# text[rus] = Там я увижу сестрёнку Ларису и племянницу Виталину.
+# text[eng] = There I will see my sister Larissa and my niece Vitalina.
+# labels = complete-dep anno-fran
+1	Ынкы	_	PRON	_	_	2	obl	_	_
+2	трэԓьуӈынэт	_	VERB	_	_	0	root	_	_
+3	гым	_	PRON	_	_	7	nsubj	_	_
+4	нинэт	_	PRON	_	_	2	nmod:poss	_	_
+5	чакэттомгыӄайЛариса	_	NOUN	_	_	2	nsubj	_	_
+6	ынкъам	_	CCONJ	_	_	8	cc	_	_
+7	гымнин	_	PRON	_	_	8	nmod:poss	_	_
+8	ӈавытԓывэӄайВиталина	_	NOUN	_	_	2	nsubj	_	_
+9	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Being_a_child:27
+# text = Аны евъев евъев.
+# text[phon] = anə jewjew jewjew
+# text[rus] = «Ну же, подожди, подожди!».
+# text[eng] = «Come on, wait!».
+# labels = complete-dep anno-fran unclear-syntax
+1	Аны	_	NOUN	_	_	2	advmod	_	_
+2	евъевевъев	_	VERB	_	_	0	root	_	_
+3	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = In_the_tracks_of_a_gadfly:3
+# text = Мэвын ынӈин мэйӈыԓьын нъывинвэтгъэн.
+# text[phon] = mewən ənŋin mejŋəɬʔən nʔəwinwetɣʔen
+# text[rus] = Разве овод может так крупно наследить?
+# text[eng] = But could a gadfly leave so many traces?
+# labels = complete-dep anno-fran unclear-syntax
+1	Мэвын	_	ADV	_	_	4	advmod	_	_
+2	ынӈин	_	ADV	_	_	4	advmod	_	_
+3	мэйӈыԓьын	_	NOUN	_	_	4	nsubj	_	_
+4	нъывинвэтгъэн	_	VERB	_	_	0	root	_	_
+5	.	_	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Endless_fairy_tale:9
+# text = Ӄээӄын.
+# text[phon] = qeeqən
+# text[rus] = Ещё?
+# text[eng] = More?
+# labels = complete-dep anno-fran
+1	Ӄээӄын	_	ADV	_	_	0	root	_	_
+2	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Raven_and_fox:17
+# text = Еԓьой тэӈувъэԓеӈэԓвыԓ мыйыԓгыт.
+# text[phon] = jeɬʔoj teŋuwʔeɬeŋeɬwəɬ məjəɬɣət
+# text[rus] = «Братец, я абсолютно чёрное стадо тебе отдам».
+# text[eng] = «Brother (lit. cousin), I will give you an absolutely black herd.»
+# labels = complete-dep anno-fran
+1	Еԓьойтэ	_	NOUN	_	_	4	nsubj	_	_
+2	ӈувъэԓе	_	NOUN	_	_	4	advmod	_	_
+3	ӈэԓвыԓ	_	NOUN	_	_	4	nsubj	_	_
+4	мыйыԓгыт	_	VERB	_	_	0	root	_	_
+5	.	_	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Kettle:21
+# text = Тъэче ӈирэче ивнин ӈыроча ивнин.
+# text[phon] = tʔese ŋirese iwnin ŋərosa iwnin
+# text[rus] = Сколько-то раз, два раза сказала, три раза сказала:
+# text[eng] = She said it several times, two times, three times:
+# labels = complete-dep anno-fran
+1	Тъэчеӈирэче	_	NOUN	_	_	2	nsubj	_	_
+2	ивнин	_	VERB	_	_	0	root	_	_
+3	ӈыроча	_	NOUN	_	_	4	fused:discourse	_	_
+4	ивнин	_	VERB	_	_	2	parataxis	_	_
+5	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Eagle:1
+# text = Чапаев ытри Пэтька гамаравԓенат.
+# text[phon] = čapajew ətri petʲka ɣamarawɬenat
+# text[rus] = Поссорились Чапаев и Петька.
+# text[eng] = Chapaev and Petka had an argument.
+# labels = complete-dep anno-fran unclear-syntax
+1	Чапаевытри	_	ADV	_	_	3	advmod	_	_
+2	Пэтька	_	NOUN	_	_	3	nsubj	_	_
+3	гамаравԓенат	_	VERB	_	_	0	root	_	_
+4	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Let’s_go_wash_to_Egvekinot:12
+# text = Мытмачпъоӈгэԓемыкъым чама ковԓёрвыткоԓьын Митя ынин экык мытынӄамэтвавын.
+# text[phon] = mətmaspʔoŋɣeɬeməkʔəm sama kowɬorwətkoɬʔən mitʲa ənin ekək mətənqametwawən
+# text[rus] = Мы собрали немного грибов и водителя Митю, её сына, покормили.
+# text[eng] = We collected some mushrooms and fed the driver Mitya, her son.
+# labels = complete-dep anno-fran
+1	Мытмачпъоӈгэԓемык	_	VERB	_	_	0	root	_	_
+2	ъым	_	PART	_	_	1	fused:discourse	_	_
+3	чама	_	ADV	_	_	1	advmod	_	_
+4	ковԓёрвыткоԓьын	_	NOUN	_	_	1	nsubj	_	_
+5	Мит	_	ADV	_	_	1	reparandum	_	_
+6	яынинэкык	_	NOUN	_	_	7	obl	_	_
+7	мытынӄамэтвавын	_	VERB	_	_	1	parataxis	_	_
+8	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = The_race_to_death:10
+# text = Ӄытԓыги гакооԓгыԓен.
+# text[phon] = qətɬəɣi ɣakooɬɣəɬen
+# text[rus] = Оказывается, инфаркт схватил его.
+# text[eng] = It turned out that he caught a heart attack.
+# labels = complete-dep anno-fran
+1	Ӄытԓыги	_	ADV	_	_	2	advmod	_	_
+2	гакооԓгыԓен	_	VERB	_	_	0	root	_	_
+3	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Telyopka:16
+# text = Гымо мыйыԓӄэркын.
+# text[phon] = ɣəmo məjəɬqerkən
+# text[rus] = Я буду спать.
+# text[eng] = I will sleep.
+# labels = complete-dep anno-fran
+1	Гымо	_	PRON	_	_	2	nsubj	_	_
+2	мыйыԓӄэркын	_	VERB	_	_	0	root	_	_
+3	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Shaman:18
+# text = Чымче ынкы ваԓьын ыёогыргын Омваанвыкэнъым.
+# text[phon] = səmse ənkə waɬʔən əjooɣərɣən omwaanwəkenʔəm
+# text[rus] = Там неподалёку была полынья амгуэмская.
+# text[eng] = There was an ice-hole near Amguema.
+# labels = complete-dep anno-karina
+1	Чымче	_	ADV	_	_	2	advmod	_	_
+2	ынкы	_	PRON	_	_	4	obl	_	_
+3	ваԓьын	_	AUX	_	_	4	cop	_	_
+4	ыёогыргын	_	NOUN	_	_	5	nsubj	_	_
+5	Омваанвыкэн	_	PROPN	_	_	0	root	_	_
+6	ъым	_	PART	_	_	5	fused:discourse	_	_
+7	.	_	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Grass:9
+# text = Гымнанъым тиквъэн ванэ ӄивтык ынӄэнэ въэ въэгти энмэн тыԓьунэт.
+# text[phon] = ɣəmnanʔəm tikwʔen wane qiwtək ənqene wʔe wʔeɣti enmen təɬʔunet
+# text[rus] = Я сказала: «Неужели нельзя говорить, траву же увидела».
+# text[eng] = I said: «Is it really prohibited to talk when I saw the grass?».
+# labels = complete-dep anno-fran ənqen
+1	Гымнан	_	PRON	_	_	3	nsubj	_	_
+2	ъым	_	PART	_	_	1	fused:discourse	_	_
+3	тиквъэн	_	VERB	_	_	0	root	_	_
+4	ванэӄивтык	_	VERB	_	_	3	obl	_	_
+5	ынӄэн	_	PART	_	_	9	discourse	_	_
+6	э	_	PART	_	_	5	fused:discourse	_	_
+7	въэвъэгти	_	NOUN	_	_	3	nsubj	_	_
+8	энмэн	_	ADV	_	_	9	advmod	_	_
+9	тыԓьунэт	_	VERB	_	_	3	parataxis	_	_
+10	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Gathering_mushrooms:4
+# text = Ынӄэн тынтыяатгъан аʼнэԓёвыргын ынӄо.
+# text[phon] = ənqen təntəjaatɣʔan ʔaneɬowərɣən ənqo
+# text[rus] = KTV: Забыла про рыбалку, потом...
+# text[eng] = KTV: And then I forgot about fishing.
+# labels = complete-dep anno-fran ənqen
+1	Ынӄэн	_	PART	_	_	2	discourse	_	_
+2	тынтыяатгъан	_	VERB	_	_	0	root	_	_
+3	аʼнэԓёвыргын	_	VERB	_	_	2	parataxis	_	_
+4	ынӄо	_	ADV	_	_	2	advmod	_	_
+5	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Kettle:11
+# text = Эӄыԓпэ чайкок нэнититгъэн увиэʼт эӄыԓпэ эна эни энаръэнат ӄымъяркыпԓятгъат.
+# text[phon] = eqəɬpe sajkok nenititɣʔen uwiʔet eqəɬpe ena eni enarʔenat qəmjarkəpɬatɣʔat
+# text[rus] = Быстро чайник сварили, сварили быстро, накрыли их (чайники), иней с яранги выбили.
+# text[eng] = They boiled the kettle quickly, cooked it quickly, covered them, beat the frost out of the yaranga.
+# labels = complete-dep anno-fran
+1	Эӄыԓпэ	_	ADV	_	_	3	advmod	_	_
+2	чайкок	_	VERB	_	_	3	obl	_	_
+3	нэнититгъэн	_	VERB	_	_	0	root	_	_
+4	увиэʼтэ	_	NOUN	_	_	5	fused:discourse	_	_
+5	ӄыԓпэ	_	ADV	_	_	6	advmod	_	_
+6	энаэниэнаръэнат	_	NOUN	_	_	7	nsubj	_	_
+7	ӄымъяркыпԓятгъат	_	VERB	_	_	3	parataxis	_	_
+8	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Not_eating_larvae:43
+# text = И вэнԓыги ӄыԓютэги.
+# text[phon] = и wenɬəɣi qəɬuteɣi
+# text[rus] = «Всё равно пописай».
+# text[eng] = «Still, pee.»
+# labels = complete-dep anno-fran
+1	И	_	ADV	_	_	3	cc	_	_
+2	вэнԓыги	_	ADV	_	_	3	advmod	_	_
+3	ӄыԓютэги	_	VERB	_	_	0	root	_	_
+4	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Kettle:7
+# text = Ӄыӄымъяркыпԓыткы а ӄыӄымъяркыпԓятгэ.
+# text[phon] = qəqəmjarkəpɬətkə а qəqəmjarkəpɬatɣe
+# text[rus] = «Выбей иней с яранги».
+# text[eng] = «Beat the frost out of the yaranga.»
+# labels = complete-dep anno-fran
+1	Ӄыӄымъяркыпԓыткыаӄы	_	NOUN	_	_	2	reparandum	_	_
+2	ӄымъяркыпԓятгэ	_	VERB	_	_	0	root	_	_
+3	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = On_a_daily_basis:6
+# text = Игытъым ванэ гым м мымигчирэтгъэк.
+# text[phon] = iɣətʔəm wane ɣəm m məmiɣsiretɣʔek
+# text[rus] = Я на данный момент не работаю.
+# text[eng] = I’m not currently working.
+# labels = complete-dep anno-fran
+1	Игыт	_	ADV	_	_	5	advmod	_	_
+2	ъым	_	PART	_	_	1	fused:discourse	_	_
+3	ванэ	_	AUX	_	_	5	aux	_	_
+4	гым	_	PRON	_	_	5	nsubj	_	_
+5	ммымигчирэтгъэк	_	VERB	_	_	0	root	_	_
+6	.	_	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Kettle:27
+# text = Ынӄэн мургин кукэӄэй чинит нычайпатӄэн.
+# text[phon] = ənqen murɣin kukeqej sinit nəsajpatqen
+# text[rus] = «Это наш чайничек сам чай варит».
+# text[eng] = «This is our kettle, it makes tea by itself.»
+# labels = complete-dep anno-fran
+1	Ынӄэн	_	PART	_	_	5	discourse	_	_
+2	мургин	_	PRON	_	_	5	nmod:poss	_	_
+3	кукэӄэй	_	NOUN	_	_	5	nsubj	_	_
+4	чинит	_	ADV	_	_	5	advmod	_	_
+5	нычайпатӄэн	_	VERB	_	_	0	root	_	_
+6	.	_	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Being_a_child:6
+# text = Ынӄэнэ чеԓг гачеԓгыръоԓенат гатъыԓыӈӈоԓенат.
+# text[phon] = ənqene seɬɣ ɣaseɬɣərʔoɬenat ɣatʔəɬəŋŋoɬenat
+# text[rus] = Все заболели краснухой.
+# text[eng] = Everyone got infected with rubella.
+# labels = complete-dep anno-fran ənqen unclear-syntax
+1	Ынӄэн	_	PART	_	_	3	discourse	_	_
+2	э	_	PART	_	_	1	fused:discourse	_	_
+3	чеԓггачеԓгыръоԓенат	_	VERB	_	_	0	root	_	_
+4	гатъыԓыӈӈоԓенат	_	VERB	_	_	3	parataxis	_	_
+5	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Fishing_with_Ilya:12
+# text = Мури и с Ильёй нычаёморэ.
+# text[phon] = muri и с Ильёй nəsajomore
+# text[rus] = Мы с Ильёй пили чай.
+# text[eng] = Me and Ilya were drinking tea.
+# labels = complete-dep anno-fran
+1	Мури	_	PRON	_	_	4	nsubj	_	_
+2	и	_	PART	_	_	4	cc	_	_
+3	сИльёй	_	PROPN	_	_	4	nsubj	_	_
+4	нычаёморэ	_	VERB	_	_	0	root	_	_
+5	.	_	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Let’s_go_wash_to_Egvekinot:3
+# text = Эпэӄэй Эԓгыӄанъявэты мынги мыниԓгытэвысӄивмык.
+# text[phon] = epeqej eɬɣəqanjawetə mənɣi məniɬɣətewəsqiwmək
+# text[rus] = «Бабушка, давай поедем в Эгвекинот мыться (в бане)».
+# text[eng] = Babushka, let’go wash to Egvekinot.
+# labels = complete-dep anno-fran
+1	Эпэӄэй	_	NOUN	_	_	3	vocative	_	_
+2	Эԓгыӄанъявэты	_	PROPN	_	_	3	obl	_	_
+3	мынгимыниԓгытэвысӄивмык	_	VERB	_	_	0	root	_	_
+4	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Having_bear_ears:29
+# text = Ӈотӄэнат гымнинэт нэнэнэт.
+# text[phon] = ŋotqenat ɣəmninet nenenet
+# text[rus] = Это мои дети.
+# text[eng] = These are my children.
+# labels = complete-dep anno-fran
+1	Ӈотӄэнат	_	PRON	_	_	0	root	_	_
+2	гымнинэт	_	PRON	_	_	3	nmod:poss	_	_
+3	нэнэнэт	_	NOUN	_	_	1	parataxis	_	_
+4	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Not_eating_larvae:2
+# text = Гым нэмыӄэй нрзб это ны нырычваԓыӈыттыӄэнат нэмыӄэй гым нывинрэтигым нырычвантойгым.
+# text[phon] = ɣəm neməqej нрзб это nə nərəswaɬəŋəttəqenat neməqej ɣəm nəwinretiɣəm nərəswantojɣəm
+# text[rus] = Собирали личинок, я тоже помогала, доставала личинок.
+# text[eng] = We were gathering the grubs, I also helped, I was extracting the grubs.
+# labels = complete-dep anno-fran
+1	Гым	_	PRON	_	_	5	nsubj	_	_
+2	нэмыӄэй	_	ADV	_	_	5	advmod	_	_
+3	нрзб	_	X	_	_	9	discourse	_	_
+4	это	_	X	_	_	5	flat:foreign	_	_
+5	нынырычваԓыӈыттыӄэнат	_	VERB	_	_	0	root	_	_
+6	нэмыӄэй	_	ADV	_	_	9	advmod	_	_
+7	гым	_	PRON	_	_	9	nsubj	_	_
+8	нывинрэтигым	_	VERB	_	_	5	parataxis	_	_
+9	нырычвантойгым	_	VERB	_	_	5	parataxis	_	_
+10	.	_	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Raven_and_fox:13
+# text = Вэнԓыгиыʼм ӄоԓ нивӄин вэнԓыги и нинивӄин.
+# text[phon] = wenɬəɣiʔəm qoɬ niwqin wenɬəɣi и niniwqin
+# text[rus] = Всё равно тот (лис) говорит, всё равно говорит ему:
+# text[eng] = Nevertheless he (the fox) says, nevertheless he says to him:
+# labels = complete-dep anno-fran
+1	Вэнԓыги	_	ADV	_	_	4	advmod	_	_
+2	ыʼм	_	PART	_	_	4	fused:discourse	_	_
+3	ӄоԓ	_	PRON	_	_	4	nsubj	_	_
+4	нивӄин	_	VERB	_	_	0	root	_	_
+5	вэнԓыги	_	ADV	_	_	7	advmod	_	_
+6	и	_	ADV	_	_	7	cc	_	_
+7	нинивӄин	_	VERB	_	_	4	parataxis	_	_
+8	.	_	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Stud_buck_reindeer:5
+# text = Нрзб Тынарагтына а Тыӈэтинэ ынӄэнэ ӄаавъятыԓьынэ Ыʼттъыгыргын йъонэнъымэ агтаннэнат ынӄэн ӄаат оʼраӈоонрэ.
+# text[phon] = нрзб tənaraɣtəna а təŋetine ənqene qaawjatəɬʔəne ʔəttʔəɣərɣən jʔonenʔəme aɣtannenat ənqen qaat ʔoraŋoonre
+# text[rus] = Тынарагтын… а — Тынэти — пошёл к распрягавшему оленей Ыттыгыргину, отогнал тех оленей в другую сторону.
+# text[eng] = Tynaragtyn… no—Tyngeti—went to Yttygyrgyn who was unharnessing reindeers and drove those reindeers in the other direction.
+# labels = complete-dep anno-fran ənqen
+1	Нрзб	_	X	_	_	7	discourse	_	_
+2	ТынарагтынааТы	_	PROPN	_	_	3	obl	_	_
+3	ӈэтин	_	ADV	_	_	7	advmod	_	_
+4	э	_	PART	_	_	10	fused:discourse	_	_
+5	ынӄэн	_	PART	_	_	10	discourse	_	_
+6	э	_	PART	_	_	5	fused:discourse	_	_
+7	ӄаавъятыԓьын	_	VERB	_	_	10	nsubj	_	_
+8	э	_	PART	_	_	10	fused:discourse	_	_
+9	Ыʼттъыгыргын	_	PROPN	_	_	10	nsubj	_	_
+10	йъонэн	_	VERB	_	_	0	parataxis	_	_
+11	ъым	_	PART	_	_	10	fused:discourse	_	_
+12	э	_	PART	_	_	10	discourse	_	_
+13	агтаннэнат	_	VERB	_	_	10	parataxis	_	_
+14	ынӄэн	_	DET	_	_	10	discourse	_	_
+15	ӄаат	_	NOUN	_	_	10	nsubj	_	_
+16	оʼраӈоонрэ	_	ADV	_	_	10	advmod	_	_
+17	.	_	PUNCT	_	_	10	punct	_	_
+
+# sent_id = Kettle:20
+# text = Чайкокаӄагэгыт ӄититги.
+# text[phon] = sajkokaqaɣeɣət qititɣi
+# text[rus] = «Чайничек, варись».
+# text[eng] = «Kettle, cook.»
+# labels = complete-dep anno-fran
+1	Чайкокаӄагэгыт	_	NOUN	_	_	2	nsubj	_	_
+2	ӄититги	_	VERB	_	_	0	root	_	_
+3	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Wyttal:11
+# text = Рыпонтаԓгав нэнатаԓяморъэм нинэнумури рымытӄыԓгавкы.
+# text[phon] = rəpontaɬɣaw nenataɬamorʔem ninenumuri rəmətqəɬɣawkə
+# text[rus] = Вместе с печенью долбим, едим с (нерпичьим) жиром.
+# text[eng] = We grind it and mix it with liver (lit. beat it with liver), we eat it with the (seal) fat.
+# labels = complete-dep anno-fran
+1	Рыпонтаԓгавнэнат	_	VERB	_	_	0	root	_	_
+2	аԓямор	_	X	_	_	1	nsubj	_	_
+3	ъэм	_	PART	_	_	2	fused:discourse	_	_
+4	нинэнумури	_	VERB	_	_	1	parataxis	_	_
+5	ры	_	NOUN	_	_	6	reparandum	_	_
+6	мытӄыԓгавкы	_	VERB	_	_	4	parataxis	_	_
+7	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Mother:4
+# text = Руԓтыӈэвыт ытԓьата мури нэнмэйӈэвмык ытԓыгэ чавчывак майны.
+# text[phon] = ruɬtəŋewət ətɬʔata muri nenmejŋewmək ətɬəɣe sawsəwak majnə
+# text[rus] = Мать и отец вырастили нас в оленеводстве в Майне.
+# text[eng] = Our mother and father raised us in a place for reindeer breeding.
+# labels = complete-dep anno-fran unclear-syntax
+1	Руԓтыӈэвытытԓьата	_	NOUN	_	_	3	nsubj	_	_
+2	мури	_	PRON	_	_	3	nsubj	_	_
+3	нэнмэйӈэвмык	_	VERB	_	_	0	root	_	_
+4	ытԓыгэ	_	NOUN	_	_	3	nsubj	_	_
+5	чавчывакмайны	_	NOUN	_	_	3	obl	_	_
+6	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = WC:1
+# text = Чапаевна Пэтька ивнин.
+# text[phon] = čapajewna petʲka iwnin
+# text[rus] = Чапаев говорит Петьке:
+# text[eng] = Chapaev says to Petka:
+# labels = complete-dep anno-fran
+1	Чапаевна	_	PROPN	_	_	3	nsubj	_	_
+2	Пэтька	_	PROPN	_	_	3	nsubj	_	_
+3	ивнин	_	VERB	_	_	0	root	_	_
+4	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Being_a_child:1
+# text = Ӄэԓёӄъым эмнуӈкы гым гъурэтигымэ.
+# text[phon] = qeɬoqʔəm emnuŋkə ɣəm ɣʔuretiɣəme
+# text[rus] = Конечно, я родилась в тундре.
+# text[eng] = Of course, I was born in tundra.
+# labels = complete-dep anno-fran
+1	Ӄэԓёӄ	_	ADV	_	_	5	advmod	_	_
+2	ъым	_	PART	_	_	1	fused:discourse	_	_
+3	эмнуӈкы	_	NOUN	_	_	5	obl	_	_
+4	гым	_	PRON	_	_	5	nsubj	_	_
+5	гъурэтигым	_	VERB	_	_	0	root	_	_
+6	э	_	PART	_	_	5	fused:discourse	_	_
+7	.	_	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Ice_Age:11
+# text = Чит нымкыӄин коԓё камагтэ.
+# text[phon] = sit nəmkəqin koɬo kamaɣte
+# text[rus] = Раньше очень много было мамонтов.
+# text[eng] = There used to be a lot of mammoths.
+# labels = complete-dep anno-fran
+1	Чит	_	AUX	_	_	2	discourse	_	_
+2	нымкыӄин	_	ADJ	_	_	0	root	_	_
+3	коԓёкамагтэ	_	NOUN	_	_	2	nsubj	_	_
+4	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Brandy:15
+# text = Нука ӄвэԓыткорантагэыʼм вай ынкъам гымыкагты ӄыркургынэт.
+# text[phon] = нука qweɬətkorantaɣeʔəm waj ənkʔam ɣəməkaɣtə qərkurɣənet
+# text[rus] = «Ну-ка сходи в магазин и купи мне их!».
+# text[eng] = «Well, go to the store and buy them for me!».
+# labels = complete-dep anno-fran
+1	Нукаӄвэԓыткорантагэ	_	NOUN	_	_	0	root	_	_
+2	ыʼм	_	PART	_	_	1	fused:discourse	_	_
+3	вай	_	ADV	_	_	6	advmod	_	_
+4	ынкъам	_	CCONJ	_	_	6	cc	_	_
+5	гымыкагты	_	PRON	_	_	6	obl	_	_
+6	ӄыркургынэт	_	VERB	_	_	1	parataxis	_	_
+7	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Bouillon_with_crushed_bones:3
+# text = Ыʼттъымыт таԓяпԓыткогъэ.
+# text[phon] = ʔəttʔəmət taɬapɬətkoɣʔe
+# text[rus] = NNN: Кости ты закончила дробить.
+# text[eng] = NNN: You finished crushing the bones.
+# labels = complete-dep anno-fran
+1	Ыʼтт	_	NOUN	_	_	2	nsubj	_	_
+2	ъымыттаԓяпԓыткогъэ	_	VERB	_	_	0	root	_	_
+3	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = In_the_evening:4
+# text = Нивӄин.
+# text[phon] = niwqin
+# text[rus] = Говорит:
+# text[eng] = He says:
+# labels = complete-dep anno-fran
+1	Нивӄин	_	VERB	_	_	0	root	_	_
+2	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Having_bear_ears:13
+# text = Наӄам кэйӈывиԓюԓьыт.
+# text[phon] = naqam kejŋəwiɬuɬʔət
+# text[rus] = Но с медвежьими ушками.
+# text[eng] = But they were with bear ears.
+# labels = complete-dep anno-fran
+1	Наӄам	_	CCONJ	_	_	2	cc	_	_
+2	кэйӈывиԓюԓьыт	_	NOUN	_	_	0	root	_	_
+3	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Larvae:15
+# text = Гымнан эпэӄэйыну нинъэйӈэвивым ынӄэн ынӈинэ.
+# text[phon] = ɣəmnan epeqejənu ninʔejŋewiwəm ənqen ənŋine
+# text[rus] = Я так её бабушкой называла.
+# text[eng] = I called her my grandmother, that way.
+# labels = complete-dep anno-fran valency secondary-predication
+1	Гымнан	_	PRON	_	_	3	nsubj	_	_
+2	эпэӄэйыну	_	NOUN	_	_	3	nsubj	_	_
+3	нинъэйӈэвивым	_	VERB	_	_	0	root	_	_
+4	ынӄэн	_	PART	_	_	3	discourse	_	_
+5	ынӈин	_	ADV	_	_	3	advmod	_	_
+6	э	_	PART	_	_	5	fused:discourse	_	_
+7	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Telyopka:2
+# text = Ивкэ гыто ӄуӈэԓги Тэлёпкаӄай.
+# text[phon] = iwke ɣəto quŋeɬɣi telʲopkaqaj
+# text[rus] = Пожалуйста, сходи за дровами, Телёпка.
+# text[eng] = Please, go and gather firewood, Telyopka.
+# labels = complete-dep anno-fran
+1	Ивкэ	_	AUX	_	_	3	aux	_	_
+2	гыто	_	PRON	_	_	3	nsubj	_	_
+3	ӄуӈэԓги	_	VERB	_	_	0	root	_	_
+4	Тэлёпкаӄай	_	PROPN	_	_	3	vocative	_	_
+5	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = A_chatterbox_and_a_wanton_girl:2
+# text = Ӄоԓе итгъэт ӄынвэтэ ӈиръэ ӈэвысӄэтти эԓерэты натанат.
+# text[phon] = qoɬe itɣʔet qənwete ŋirʔe ŋewəsqetti eɬeretə natanat
+# text[rus] = Однажды наконец двух женщин сослали на остров.
+# text[eng] = Once upon a time, two women were finally sent away to an island.
+# labels = complete anno-fran
+1	Ӄоԓ	_	PRON	_	_	3	nsubj	_	_
+2	е	_	VERB	_	_	3	nsubj	_	_
+3	итгъэт	_	VERB	_	_	0	root	_	_
+4	ӄынвэт	_	ADV	_	_	3	advmod	_	_
+5	э	_	PART	_	_	4	fused:discourse	_	_
+6	ӈиръэ	_	NUM	_	_	7	nummod	_	_
+7	ӈэвысӄэт	_	NOUN	_	_	3	obj	_	_
+8	ти	_	NOUN	_	_	10	cc	_	_
+9	эԓерэты	_	VERB	_	_	10	obl	_	_
+10	натанат	_	VERB	_	_	3	parataxis	_	_
+11	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Knives:15
+# text = Ԓюут мэӈӄо расӄэпыӈэ ваԓят аратыткоӈӈоаʼт аакгэӈэтыӈ.
+# text[phon] = ɬuut meŋqo rasqepəŋe waɬat aratətkoŋŋoʔat aakɣeŋetəŋ
+# text[rus] = Вдруг откуда-то с потолка полога ножи начали падать туда, где стояли свечи.
+# text[eng] = Suddenly somewhere from the ceiling of the inner tent knives began to fall to the place where the candles were.
+# labels = complete-dep anno-fran
+1	Ԓюут	_	ADV	_	_	4	advmod	_	_
+2	мэӈӄорасӄэпыӈ	_	NOUN	_	_	4	nsubj	_	_
+3	э	_	PART	_	_	2	fused:discourse	_	_
+4	ваԓятаратыткоӈӈоаʼт	_	VERB	_	_	0	root	_	_
+5	аакгэӈэтыӈ	_	NOUN	_	_	4	obl	_	_
+6	.	_	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Being_a_child:14
+# text = Ымы эʼчек выква вык ныквынтоӄэн ынӄэнэ.
+# text[phon] = əmə ʔesek wəkwa wək nəkwəntoqen ənqene
+# text[rus] = Даже когда мочился, у него выходили камни.
+# text[eng] = And even when he was urinating, the stones were coming out.
+# labels = complete-dep anno-karina
+1	Ымы	_	ADV	_	_	2	advmod	_	_
+2	эʼчеквыквавык	_	VERB	_	_	3	obl	_	_
+3	ныквынтоӄэн	_	VERB	_	_	0	root	_	_
+4	ынӄэн	_	PART	_	_	3	discourse	_	_
+5	э	_	PART	_	_	4	fused:discourse	_	_
+6	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Having_bear_ears:11
+# text = Ынӄо ыԓвыԓютэ рытриԓнин ӄԓявыԓ.
+# text[phon] = ənqo əɬwəɬute rətriɬnin qɬawəɬ
+# text[rus] = Потом медведица отпустила мужчину.
+# text[eng] = Then the bear let the man go.
+# labels = complete-dep anno-fran
+1	Ынӄо	_	ADV	_	_	3	advmod	_	_
+2	ыԓвыԓютэ	_	NOUN	_	_	3	nsubj	_	_
+3	рытриԓнин	_	VERB	_	_	0	root	_	_
+4	ӄԓявыԓ	_	NOUN	_	_	3	obj	_	_
+5	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Not_eating_larvae:47
+# text = Ынӄо нивӄинэт иаʼм ытԓён ынӈин нрзб.
+# text[phon] = ənqo niwqinet iʔam ətɬon ənŋin нрзб
+# text[rus] = Потом говорили, почему она такое не ест.
+# text[eng] = Afterwards people were saying, why is she so (not eating grubs)?
+# labels = complete-dep anno-fran
+1	Ынӄо	_	ADV	_	_	2	advmod	_	_
+2	нивӄинэт	_	VERB	_	_	0	root	_	_
+3	иаʼм	_	ADV	_	_	2	advmod	_	_
+4	ытԓён	_	PRON	_	_	2	nsubj	_	_
+5	ынӈин	_	ADV	_	_	2	advmod	_	_
+6	нрзб	_	X	_	_	2	discourse	_	_
+7	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Water_cart:32
+# text = Ынӈин ӄыныгйивэтыркын миӈкыри ныԓеркын.
+# text[phon] = ənŋin qənəɣjiwetərkən miŋkəri nəɬerkən
+# text[rus] = Показывай направление, куда ехать».
+# text[eng] = Show the direction where to drive.»
+# labels = complete-dep anno-fran subordination
+1	Ынӈин	_	ADV	_	_	2	advmod	_	_
+2	ӄыныгйивэтыркын	_	VERB	_	_	0	root	_	_
+3	миӈкыри	_	ADV	_	_	4	advmod	_	_
+4	ныԓеркын	_	VERB	_	_	2	parataxis	_	_
+5	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Stud_buck_reindeer:7
+# text = Тынарагтынаыʼм Ыʼттъыгыргын нэнамӈыԓёӄэн миӈкыриыʼм тыркыԓьиӈын еэ гэԓ гэ гэԓӄытԓин.
+# text[phon] = tənaraɣtənaʔəm ʔəttʔəɣərɣən nenamŋəɬoqen miŋkəriʔəm tərkəɬʔiŋən jee ɣeɬ ɣe ɣeɬqətɬin
+# text[rus] = Тынарагтын спрашивает Ыттыгыргина: «В какую сторону производитель пошёл?».
+# text[eng] = Tynaragtyn asks Yttygyrgin: «Which way did the stud buck reindeer go?».
+# labels = complete-dep anno-fran
+1	Тынарагтына	_	PROPN	_	_	4	nsubj	_	_
+2	ыʼм	_	PART	_	_	5	fused:discourse	_	_
+3	Ыʼттъыгыргын	_	PROPN	_	_	4	nsubj	_	_
+4	нэнамӈыԓёӄэн	_	VERB	_	_	0	root	_	_
+5	миӈкыри	_	ADV	_	_	9	advmod	_	_
+6	ыʼм	_	PART	_	_	5	fused:discourse	_	_
+7	тыркыԓьиӈыне	_	NOUN	_	_	9	reparandum	_	_
+8	э	_	CCONJ	_	_	9	reparandum	_	_
+9	гэԓгэгэԓӄытԓин	_	VERB	_	_	4	parataxis	_	_
+10	.	_	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Chapaev:15
+# text = Ынӈатаԓ гым нэмыӄэй ӄэԓюӄъым.
+# text[phon] = ənŋataɬ ɣəm neməqej qeɬuqʔəm
+# text[rus] = И я тоже, конечно.
+# text[eng] = Me too, of course.
+# labels = complete-dep anno-karina
+1	Ынӈатаԓгым	_	ADV	_	_	3	nsubj	_	_
+2	нэмыӄэй	_	ADV	_	_	3	advmod	_	_
+3	ӄэԓюӄ	_	ADV	_	_	0	advmod	_	_
+4	ъым	_	PART	_	_	3	fused:discourse	_	_
+5	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Water_cart:22
+# text = Миӈкыри мынинмыкъыма.
+# text[phon] = miŋkəri məninməkʔəma
+# text[rus] = «Куда направимся?».
+# text[eng] =  «Where are we going to?»
+# labels = complete-dep anno-fran leaf-invalid
+1	Миӈкыри	_	ADV	_	_	2	advmod	_	_
+2	мынинмык	_	VERB	_	_	0	root	_	_
+3	ъым	_	PART	_	_	2	fused:discourse	_	_
+4	а	_	PART	_	_	2	discourse	_	_
+5	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = I_am_from_Chukotka:1
+# text = Ӈинӄэй ынкэкин нэмыӄэй миӈкыри нрзб танӈыӈэнӄай.
+# text[phon] = ŋinqej ənkekin neməqej miŋkəri нрзб tanŋəŋenqaj
+# text[rus] = Местный мальчик, ну как же, русский мальчик…
+# text[eng] = A local boy, how to say, a Russian boy…
+# labels = complete-dep anno-fran
+1	Ӈинӄэй	_	NOUN	_	_	4	nsubj	_	_
+2	ынкэкин	_	PRON	_	_	4	reparandum	_	_
+3	нэмыӄэй	_	ADV	_	_	4	advmod	_	_
+4	миӈкыри	_	ADV	_	_	0	advmod	_	_
+5	нрзб	_	X	_	_	4	discourse	_	_
+6	танӈыӈэнӄай	_	NOUN	_	_	4	nsubj	_	_
+7	.	_	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Faces:4
+# text = Ӄоԓ ни нинивӄин.
+# text[phon] = qoɬ ni niniwqin
+# text[rus] = Одна другой говорит:
+# text[eng] = One says to the other one:
+# labels = complete-dep anno-fran
+1	Ӄоԓ	_	PRON	_	_	3	nsubj	_	_
+2	ни	_	X	_	_	3	nsubj	_	_
+3	нинивӄин	_	VERB	_	_	0	root	_	_
+4	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Gathering_mushrooms:6
+# text = Тыгынтэгъэ пъомпъоӈэты.
+# text[phon] = təɣənteɣʔe pʔompʔoŋetə
+# text[rus] = KTV: — Убежала за грибами.
+# text[eng] = KTV: — Ran to pick mushrooms (lit. ran for mushrooms).
+# labels = complete-dep anno-fran
+1	Тыгынтэгъэ	_	VERB	_	_	0	root	_	_
+2	пъомпъоӈэты	_	NOUN	_	_	1	obl	_	_
+3	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = WC:7
+# text = Таӈамынан аʼԓяёрайпы ӈыток кэгынмыт ниниԓгытэвӄинэт.
+# text[phon] = taŋamənan ʔaɬajorajpə ŋətok keɣənmət niniɬɣətewqinet
+# text[rus] = «Только он один, выходя из туалета, руки моет».
+# text[eng] =  «It is only him who washes his hands leaving the toilet.».
+# labels = complete-dep anno-fran
+1	Таӈамынан	_	ADV	_	_	4	nsubj	_	_
+2	аʼԓяёрайпы	_	NOUN	_	_	4	obl	_	_
+3	ӈытоккэгынмыт	_	NOUN	_	_	4	reparandum	_	_
+4	ниниԓгытэвӄинэт	_	VERB	_	_	0	root	_	_
+5	.	_	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Telyopka:9
+# text = Ыммымэӄэй ыммымэӄэй аны тыэʼнӄэркын.
+# text[phon] = əmməmeqej əmməmeqej anə təʔenqerkən
+# text[rus] = Мамочка, мамочка, ну не хочу.
+# text[eng] = Mummy, mummy, I do not want to.
+# labels = complete-dep anno-fran
+1	Ыммымэӄэй	_	NOUN	_	_	4	vocative	_	_
+2	ыммымэӄэй	_	NOUN	_	_	4	vocative	_	_
+3	аны	_	ADV	_	_	4	advmod	_	_
+4	тыэʼнӄэркын	_	VERB	_	_	0	root	_	_
+5	.	_	PUNCT	_	_	4	punct	_	_
+
+# sent_id = GUM:25
+# text = Эʼми ӄуттиӈэ эʼмиыʼмэ эʼми атэӄай ымы эʼми ынъэӄэй.
+# text[phon] = ʔemi quttiŋe ʔemiʔəme ʔemi ateqaj əmə ʔemi ənʔeqej
+# text[rus] = «Где остальные, где папочка и где брат?».
+# text[eng] = «Where are the others, where is daddy and where is your brother?».
+# labels = complete-dep anno-fran
+1	Эʼми	_	ADV	_	_	2	advmod	_	_
+2	ӄуттиӈэ	_	ADV	_	_	3	fused:discourse	_	_
+3	эʼми	_	ADV	_	_	8	advmod	_	_
+4	ыʼ	_	ADV	_	_	3	nsubj	_	_
+5	м	_	ADV	_	_	3	fused:discourse	_	_
+6	э	_	PART	_	_	2	discourse	_	_
+7	эʼмиатэӄайымы	_	ADV	_	_	9	advmod	_	_
+8	эʼмиынъэӄэй	_	NOUN	_	_	7	root	_	_
+9	.	_	PUNCT	_	_	0	punct	_	_
+
+# sent_id = Komsomolets:5
+# text = Иквъи амвынэ камчамоԓтэ нумэкэтӄинэт.
+# text[phon] = ikwʔi amwəne kamsamoɬte numeketqinet
+# text[rus] = Отвечают: «А, это комсомольцы собрались».
+# text[eng] = They reply: «Well, Komsomol members got together.»
+# labels = complete-dep anno-fran
+1	Иквъи	_	VERB	_	_	0	root	_	_
+2	амвынэ	_	PART	_	_	1	fused:discourse	_	_
+3	камчамоԓтэ	_	NOUN	_	_	4	nsubj	_	_
+4	нумэкэтӄинэт	_	VERB	_	_	1	parataxis	_	_
+5	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Bouillon_with_crushed_bones:9
+# text = Нывинтивым чама ынӄэн ԓгипыгыпгэтыԓьэтӄин таԓяпат.
+# text[phon] = nəwintiwəm sama ənqen ɬɣipəɣəpɣetəɬʔetqin taɬapat
+# text[rus] = Подбрасываю дров в костёр, и сильно кипит похлёбка из толчёной кости.
+# text[eng] = I put some wood into the fire and the bones broth is boiling.
+# labels = complete-dep anno-karina
+1	Нывинтивым	_	VERB	_	_	0	root	_	_
+2	чама	_	ADV	_	_	1	advmod	_	_
+3	ынӄэн	_	PART	_	_	4	discourse	_	_
+4	ԓгипыгыпгэтыԓьэтӄин	_	VERB	_	_	1	parataxis	_	_
+5	таԓяпат	_	NOUN	_	_	4	obj	_	_
+6	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Kettle:30
+# text = Нэмыӄэй мургин яаёԓӄыԓ.
+# text[phon] = neməqej murɣin jaajoɬqəɬ
+# text[rus] = «Нам он тоже нужен».
+# text[eng] = «We need it too.»
+# labels = complete-dep anno-fran
+1	Нэмыӄэй	_	ADV	_	_	3	advmod	_	_
+2	мургин	_	PRON	_	_	3	nmod:poss	_	_
+3	яаёԓӄыԓ	_	VERB	_	_	0	root	_	_
+4	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Water_cart:9
+# text = Ӄорагынрэтыԓьыт вэчьыма нъъетынэтэ мынъумэкэнмыкъым вэнратынво.
+# text[phon] = qoraɣənretəɬʔət wesʔəma nʔjetənete mənʔumekenməkʔəm wenratənwo
+# text[rus] = Оленеводы, наверное, могли бы приехать, и мы вместе собрались бы помочь».
+# text[eng] = The reindeer herders could probably come and we would all come together to help.»
+# labels = complete-dep anno-fran
+1	Ӄорагынрэтыԓьыт	_	NOUN	_	_	5	nsubj	_	_
+2	вэчьы	_	NOUN	_	_	5	obl	_	_
+3	м	_	PART	_	_	2	fused:discourse	_	_
+4	анъъетынэтэ	_	PROPN	_	_	5	obl	_	_
+5	мынъумэкэнмык	_	VERB	_	_	0	root	_	_
+6	ъым	_	PART	_	_	5	fused:discourse	_	_
+7	вэнратынво	_	NOUN	_	_	5	parataxis	_	_
+8	.	_	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Eagle:5
+# text = Тиԓмытириԓ тиԓмэ эʼԓьэԓ ванэ нын нынвэтгаваннэн.
+# text[phon] = tiɬmətiriɬ tiɬme ʔeɬʔeɬ wane nən nənwetɣawannen
+# text[rus] = «Орёл с говном не разговаривает».
+# text[eng] = «An eagle does not talk to crap.»
+# labels = complete-dep anno-fran
+1	Тиԓмытириԓтиԓмэ	_	VERB	_	_	0	root	_	_
+2	эʼԓьэԓванэ	_	NOUN	_	_	3	fused:discourse	_	_
+3	ныннынвэтгаваннэн	_	VERB	_	_	1	parataxis	_	_
+4	.	_	PUNCT	_	_	3	punct	_	_
+

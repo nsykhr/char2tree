@@ -67,7 +67,7 @@ class UniversalDependenciesBasicCharacterLevelPredictor(Predictor):
 
             # This crutch forbids the model the predict the left_crcmfix label if it doesn't predict
             # any incorporated tokens further in the sequence.
-            output['labels'] = [label if any(l.startswtith('incorp:') for l in output['labels'][i + 1:])
+            output['labels'] = [label if any(l.startswith('incorp:') for l in output['labels'][i + 1:])
                                 else label.replace('left_crcmfix', 'app')
                                 for i, label in enumerate(output['labels'])]
 
