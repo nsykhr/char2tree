@@ -7,16 +7,14 @@ from allennlp.models import Model
 from allennlp.data import DatasetReader
 from allennlp.common.params import Params
 
+from scripts.flatten import read_corpus
 from modules import UniversalDependenciesDatasetReader, UniversalDependenciesBasicCharacterLevelPredictor
 
 
 def save_predictions_to_conllu(savepath: str, predictions: List[Dict[str, List[str]]]) -> None:
     with open(savepath, 'w') as f:
         for i, sentence in enumerate(predictions):
-            f.write(f'# sent_id = test-s{i+1}\n')
-
-            text = ''.join(sentence['tokens'])
-            f.write(f'# text = {text}\n')
+            f.write('\n'.join(sentence['metadata']) + '\n')
 
             for j, token in enumerate(sentence['tokens']):
                 index = sentence['index'][j] if 'index' in sentence else str(j+1)
@@ -33,11 +31,15 @@ def save_predictions_to_conllu(savepath: str, predictions: List[Dict[str, List[s
 def get_predictions(test_path: str, dataset_reader: UniversalDependenciesDatasetReader,
                     predictor: UniversalDependenciesBasicCharacterLevelPredictor) -> List[Dict[str, List[str]]]:
     all_predictions = []
-    for sentence in tqdm(list(dataset_reader.read_corpus(test_path))):
-        tokens = [dataset_reader.root_token] + \
-                 list(''.join([x[1] for x in sentence if x[0].isdigit()]))
+    for sentence in tqdm(list(read_corpus(test_path))):
+        metadata = [line[0] for line in sentence if len(line) == 1]
+        sentence = sentence[len(metadata):]
+
+        tokens = [dataset_reader.root_token] + list(''.join([x[1] for x in sentence if x[0].isdigit()]))
         json_dict = {'tokens': tokens}
         predictions = predictor.predict(json_dict)
+        predictions['metadata'] = metadata
+
         all_predictions.append(predictions)
 
     return all_predictions
