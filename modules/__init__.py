@@ -1,4 +1,4 @@
 from .dataset_reader import UniversalDependenciesDatasetReader
 from .model import JointTaggerParser
 from .biaffine_parser import ArcBiaffine, LabelBilinear
-from .basic_predictor import UniversalDependenciesBasicCharacterLevelPredictor
+from .char_level_predictor import UniversalDependenciesCharacterLevelPredictor

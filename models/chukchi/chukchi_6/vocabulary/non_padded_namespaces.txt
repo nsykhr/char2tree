@@ -1,4 +1,4 @@
-dependency
 *labels
-*tags
 upos
+*tags
+dependency
