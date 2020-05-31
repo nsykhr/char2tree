@@ -8,7 +8,7 @@ from allennlp.data import DatasetReader
 from allennlp.common.params import Params
 
 from scripts.flatten import read_corpus
-from modules import UniversalDependenciesDatasetReader, UniversalDependenciesBasicCharacterLevelPredictor
+from modules import UniversalDependenciesDatasetReader, UniversalDependenciesCharacterLevelPredictor
 
 
 def save_predictions_to_conllu(savepath: str, predictions: List[Dict[str, List[str]]]) -> None:
@@ -29,7 +29,7 @@ def save_predictions_to_conllu(savepath: str, predictions: List[Dict[str, List[s
 
 
 def get_predictions(test_path: str, dataset_reader: UniversalDependenciesDatasetReader,
-                    predictor: UniversalDependenciesBasicCharacterLevelPredictor) -> List[Dict[str, List[str]]]:
+                    predictor: UniversalDependenciesCharacterLevelPredictor) -> List[Dict[str, List[str]]]:
     all_predictions = []
     for sentence in tqdm(list(read_corpus(test_path))):
         metadata = [line[0] for line in sentence if len(line) == 1]
@@ -59,7 +59,7 @@ def main():
     model = Model.load(config, serialization_dir=args.model_path, cuda_device=args.cuda)
     model.eval()
 
-    predictor = UniversalDependenciesBasicCharacterLevelPredictor(model=model, dataset_reader=dataset_reader)
+    predictor = UniversalDependenciesCharacterLevelPredictor(model=model, dataset_reader=dataset_reader)
 
     predictions = get_predictions(args.test_path, dataset_reader, predictor)
     save_predictions_to_conllu(args.savepath, predictions)

@@ -1,5 +1,8 @@
 """
 This script is intended to flatten the Chukchi testing data for evaluation with the CONLL evaluation script.
+It handles multi-word tokens (MWTs) and enhanced dependencies existing in that corpus. It also removes spaces
+from the text, replacing them with the ~ character so that both UDPipe and our model receive the same amount
+of information about pre-existing segmentation in the corpus.
 """
 import re
 import argparse
@@ -93,7 +96,7 @@ def flatten_sentence(sentence: List[List[str]]) -> Tuple[List[List[str]], List[s
             subtoken_start = new_sentence[-1][1].find(line[1])
             subtoken_end = subtoken_start + len(line[1])
 
-            left_token_part = new_sentence[-1][:]
+            right_token_part = new_sentence[-1][:]
 
             if subtoken_start > 0 and not \
                     new_sentence[-1][7].startswith('incorp:'):
@@ -110,9 +113,9 @@ def flatten_sentence(sentence: List[List[str]]) -> Tuple[List[List[str]], List[s
 
             new_sentence.append(new_line)
 
-            left_token_part[0] = str(i + shift + 2)
-            left_token_part[1] = left_token_part[1][subtoken_end:]
-            new_sentence.append(left_token_part)
+            right_token_part[0] = str(i + shift + 2)
+            right_token_part[1] = right_token_part[1][subtoken_end:]
+            new_sentence.append(right_token_part)
             shift += 1
 
         else:
@@ -121,6 +124,15 @@ def flatten_sentence(sentence: List[List[str]]) -> Tuple[List[List[str]], List[s
             if line[6] in multiword_indices:
                 new_line[7] = 'fused:' + new_line[7]
                 multiword_indices = set()
+
+                if int(new_line[6]) < int(new_line[0]):
+                    new_line[1] += '~'
+                    assert new_sentence[int(new_line[6]) - 1][1].endswith('~')
+                    new_sentence[int(new_line[6]) - 1][1] = \
+                        new_sentence[int(new_line[6]) - 1][1][:-1]
+
+            elif new_line[7] != 'punct':
+                new_line[1] += '~'
 
             new_sentence.append(new_line)
 

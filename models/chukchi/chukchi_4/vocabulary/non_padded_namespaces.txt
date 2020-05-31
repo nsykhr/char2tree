@@ -1,4 +1,4 @@
-*tags
 dependency
 upos
 *labels
+*tags
