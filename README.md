@@ -1,4 +1,4 @@
-# End-to-End Segmentator, Part-of-Speech Tagger, and Dependency Parser for Universal Dependencies
+# End-to-End Segmenter, Part-of-Speech Tagger, and Dependency Parser for Universal Dependencies
 
 In this repository you will find the code for our paper on joint segmenting, tagging, and parsing of incorporating languages (namely, we've been using Chukchi, for which we manually annotated a small treebank). While developed with these languages in mind, the code works for any data in the Universal Dependencies format.
 
