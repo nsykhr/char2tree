@@ -1,0 +1,102 @@
+# sent_id = Dog_sledge_driver:1
+# text = Миӈкэтэ ԓымэвыт ваамъеквэыʼм ԓымэвыт аӈӄаеквэ ныԓеӄин магԓяԓьынъым.
+# text[phon] = miŋkete ɬəmewət waamjekweʔəm ɬəmewət aŋqajekwe nəɬeqin maɣɬaɬʔənʔəm
+# text[rus] = Где-то или по реке, или по морю едет ездок на собаках.
+# text[eng] = A dog sledge driver was riding somwhere along the river or by the sea.
+# labels = complete-dep anno-fran
+1	Миӈкэтэ	_	ADV	_	_	7	advmod	_	Gloss=где-OBL-ADV.PROL
+2	ԓымэвыт	_	CCONJ	_	_	3	cc	_	Gloss=OMN-или
+3-4	ваамъеквэыʼм	_	_	_	_	_	_	_	Gloss=река-PROL-=EMPH
+3	ваамъеквэ	_	NOUN	_	_	1	conj	_	Gloss=река-PROL
+4	ыʼм	ъм	PART	_	_	3	advmod:emph	_	Gloss=EMPH
+5	ԓымэвыт	_	CCONJ	_	_	6	cc	_	Gloss=OMN-или
+6	аӈӄаеквэ	аӈӄы	NOUN	_	_	1	conj	_	Gloss=море-PROL
+7	ныԓеӄин	тыԓек	VERB	_	Valency=1	0	root	_	Gloss=ST-идти-ST.3SG
+8-9	магԓяԓьынъым	_	_	_	_	_	_	_	Gloss=ездок.на.собаках-NOM.SG-=EMPH
+8	магԓяԓьын	магԓяԓьынъым	NOUN	_	_	7	nsubj	_	Gloss=ездок.на.собаках-NOM.SG
+9	ъым	ъм	PART	_	_	8	advmod:emph	_	Gloss=EMPH
+10	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = Dog_sledge_driver:2
+# text = Ԓюут ԓьунинэ эԓгъоравэтԓьан.
+# text[phon] = ɬuut ɬʔunine eɬɣʔorawetɬʔan
+# text[rus] = Вдруг увидел белого человека.
+# text[eng] = Suddenly, he saw a white man.
+# labels = complete-dep anno-fran
+1	Ԓюут	ԓюут	ADV	_	_	2	advmod	_	Gloss=вдруг
+2-3	ԓьунинэ	_	_	_	_	_	_	_	Gloss=2/3.S/A-видеть-3SG.A.3.O-3SG.O-=PTCL
+2	ԓьунин	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-видеть-3SG.A.3.O-3SG.O
+3	э	а	PART	_	_	2	advmod:emph	_	Gloss=PTCL
+4-5	эԓгъоравэтԓьан	_	_	_	_	_	_	_	Gloss=белый-человек-NOM.SG
+4	эԓг	иԓг	ADJ	_	_	5	amod	_	Gloss=белый
+5	ъоравэтԓьан	оʼравэтԓьа	NOUN	_	_	2	obj	_	Gloss=человек-NOM.SG
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Dog_sledge_driver:3
+# text = Йыӈэнинъым ченэтрагты танэн ынкыӈэ.
+# text[phon] = jəŋeninʔəm senetraɣtə tanen ənkəŋe
+# text[rus] = Погрузил его и привёз к себе домой.
+# text[eng] = He loaded him on the sledge and brought him home.
+# labels = complete-dep anno-fran
+1-2	Йыӈэнинъым	_	_	_	_	_	_	_	Gloss=2/3.S/A-грузить-3SG.A.3.O-3SG.O-=EMPH
+1	Йыӈэнин	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-грузить-3SG.A.3.O-3SG.O
+2	ъым	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	ченэтрагты	_	NOUN	_	_	4	obl	_	Gloss=сам-жилище-DAT
+4	танэн	_	VERB	_	_	1	parataxis	_	Gloss=2/3.S/A-приносить-3SG.O-3SG.O
+5-6	ынкыӈэ	_	_	_	_	_	_	_	Gloss=тот-LOC-=PTCL
+5	ынкы	_	PRON	_	_	4	obl	_	Gloss=тот-LOC
+6	ӈэ	а	PART	_	_	5	advmod:emph	_	Gloss=PTCL
+7	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Dog_sledge_driver:4
+# text = Выткуӈэ чыкээквъиыʼмэ.
+# text[phon] = wətkuŋe səkeekwʔiʔəme
+# text[rus] = Только что тот опомнился.
+# text[eng] = He has just regained consciousness.
+# labels = complete-dep anno-fran
+1-2	Выткуӈэ	_	_	_	_	_	_	_	Gloss=только.что-=PTCL
+1	Вытку	_	ADV	_	_	3	advmod	_	Gloss=только.что
+2	ӈэ	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3-5	чыкээквъиыʼмэ	_	_	_	_	_	_	_	Gloss=2/3.S/A-опомниться-TH-2/3SG.S-=EMPH-=PTCL
+3	чыкээквъиыʼ	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-опомниться-TH-2/3SG.S
+4	м	ъм	PART	_	_	3	advmod:emph	_	Gloss=EMPH
+5	э	а	PART	_	_	3	advmod:emph	_	Gloss=PTCL
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Dog_sledge_driver:5
+# text = Пэнъёԓгыткоӄэн ръэнут эты эскимос ԓеӈытаӄ.
+# text[phon] = penjoɬɣətkoqen rʔenut etə eskimos ɬeŋətaq
+# text[rus] = Поддерживает костёр, это эскимос, видимо.
+# text[eng] = He is keeping the bonfire, this Eskimo, apparently.
+# text[eng'] = Something is keeping the bonfire going, it is an Eskimo, apparently.
+# comment = Префиксального показателя статива не слышно.
+# labels = complete-dep anno-fran unclear-syntax
+1	Пэнъёԓгыткоӄэн	_	VERB	_	_	0	root	_	Gloss=костёр-ITER-ST.3SG
+2	ръэнут	ръэнут	PRON	_	_	1	nsubj	_	Gloss=что.NOM.SG
+3	эты	эты	ADV	_	_	4	advmod	_	Gloss=наверное
+4	эскимос	эскимос	NOUN	_	_	1	parataxis	_	Gloss=эскимос-NOM.SG
+5	ԓеӈытаӄ	ԓеӈытаӄ	ADV	_	_	4	advmod	_	Gloss=видимо
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Dog_sledge_driver:6
+# text = Ынкы нэнаномаватӄэн.
+# text[phon] = ənkə nenanomawatqen
+# text[rus] = Там он его обогревает.
+# text[eng] = He is warming him up there.
+# labels = complete-dep anno-fran
+1	Ынкы	ын	PRON	_	_	2	obl	_	Gloss=тот-LOC
+2	нэнаномаватӄэн	_	VERB	_	Valency=2	0	root	_	Gloss=ST-INV-TR-тёплый-CS-VB-ST.3SG
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Dog_sledge_driver:7
+# text = Нинэгитэӄин ръэмиӈкэкин ӈотӄэн оʼравэтԓьан.
+# text[phon] = nineɣiteqin rʔemiŋkekin ŋotqen ʔorawetɬʔan
+# text[rus] = Разглядывает его, откуда этот человек.
+# text[eng] = He is looking at him trying to find out where he comes from.
+# labels = complete-dep anno-fran
+1	Нинэгитэӄин	гитэк	VERB	_	Valency=2	0	root	_	Gloss=ST-INV-смотреть-ST.3SG
+2	ръэмиӈкэкин	_	ADV	_	_	1	parataxis	_	Gloss=что-где-OBL-REL
+3	ӈотӄэн	ӈотӄэн	PRON	_	_	4	det	_	Gloss=этот
+4	оʼравэтԓьан	оʼравэтԓьан	NOUN	_	_	2	nsubj	_	Gloss=человек-NOM.SG
+5	.	.	PUNCT	_	_	1	punct	_	_
+

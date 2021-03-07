@@ -1,0 +1,114 @@
+# sent_id = The_day_before_yesterday:1
+# text = Айвэ гым пытӄайвэ тыетгъэк Эԓгыӄанъяквыпы.
+# text[phon] = ajwe ɣəm pətqajwe təjetɣʔek eɬɣəqanjakwəpə
+# text[rus] = DMP: — Позавчера я приехала из Эгвекинота.
+# text[eng] = DMP: — The day before yesterday I came from Egvekinot.
+# labels = complete-dep anno-fran
+1	Айвэ	_	ADV	_	_	4	advmod	_	Gloss=вчера
+2	гым	гым	PRON	_	_	4	nsubj	_	Gloss=я
+3	пытӄайвэ	_	ADV	_	_	4	advmod	_	Gloss=повторно-вчера
+4	тыетгъэк	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-приходить-TH-1SG.S
+5	Эԓгыӄанъяквыпы	_	PROPN	_	_	4	obl	_	Gloss=белый-ущелье-ABL
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = The_day_before_yesterday:2
+# text = Ынкы.
+# text[phon] = ənkə
+# text[rus] = DMP: Там...
+# text[eng] = DMP: There...
+# labels = complete-dep anno-fran
+1	Ынкы	ын	PRON	_	_	0	root	_	Gloss=тот-LOC
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = The_day_before_yesterday:3
+# text = Нывиԓыткуйгыт.
+# text[phon] = nəwiɬətkujɣət
+# text[rus] = KTV: — Отоваривалась?
+# text[eng] = KTV: — You were buying something?
+# labels = complete-dep anno-fran
+1	Нывиԓыткуйгыт	_	NOUN	_	_	0	root	_	Gloss=ST-товар-ITER-NP.2SG
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = The_day_before_yesterday:4
+# text = Ынкы ыʼтвиӈын гэетԓин.
+# text[phon] = ənkə ʔətwiŋən ɣejetɬin
+# text[rus] = DMP: — Там корабль пришёл.
+# text[eng] = DMP: —A ship came there.
+# labels = complete-dep anno-fran
+1	Ынкы	ын	PRON	_	_	3	obl	_	Gloss=тот-LOC
+2	ыʼтвиӈын	ыʼтвиӈын	NOUN	_	_	3	nsubj	_	Gloss=лодка-AUG-NOM.SG
+3	гэетԓин	_	VERB	_	Valency=1	0	root	_	Gloss=PF-приходить-PF.3SG
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = The_day_before_yesterday:5
+# text = Вэԓыткорак имыръэнутэ ныйыԓӄин.
+# text[phon] = weɬətkorak imərʔenute nəjəɬqin
+# text[rus] = DMP: — В магазине чего только не дают.
+# text[eng] = DMP: — They sell so many different things in the shop (lit. give whatever).
+# labels = complete-dep anno-fran
+1	Вэԓыткорак	вэԓыткоран	NOUN	_	_	4	obl	_	Gloss=товар-ITER-жилище-LOC
+2-3	имыръэнутэ	_	_	_	_	_	_	_	Gloss=FC-что.NOM.SG-=PTCL
+2	имыръэнут	имыръэнутэ	PRON	_	_	4	obj	_	Gloss=FC-что.NOM.SG
+3	э	а	PART	_	_	2	advmod:emph	_	Gloss=PTCL
+4	ныйыԓӄин	йыԓык	VERB	_	Valency=2	0	root	_	Gloss=ST-давать-ST.3SG
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = The_day_before_yesterday:6
+# text = Эʼԓьэԓетэ.
+# text[phon] = ʔeɬʔeɬete
+# text[rus] = KTV: — Говно (всякое) [смех].
+# text[eng] = KTV: — All kinds of shit [laughter].
+# labels = complete-dep anno-fran
+1-2	Эʼԓьэԓетэ	_	_	_	_	_	_	_	Gloss=экскременты-NOM.PL-=PTCL
+1	Эʼԓьэԓет	эʼԓьэԓ	NOUN	_	_	0	root	_	Gloss=экскременты-NOM.PL
+2	э	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = The_day_before_yesterday:7
+# text = Ынкъам мытъенмык Эԓгыӄанъяквыпы пэтԓе.
+# text[phon] = ənkʔam mətjenmək eɬɣəqanjakwəpə petɬe
+# text[rus] = DMP: — И мы приехали из Эгвекинота быстро.
+# text[eng] = DMP: — And we quickly came back from Egvekiot.
+# labels = complete-dep anno-fran
+1	Ынкъам	ынкъам	CCONJ	_	_	2	cc	_	Gloss=и
+2	мытъенмык	етык	VERB	_	Valency=1	0	root	_	Gloss=1PL.S/A-приходить-1PL.S/O
+3	Эԓгыӄанъяквыпы	_	PROPN	_	_	2	obl	_	Gloss=белый-ущелье-ABL
+4	пэтԓе	пэтԓе	ADV	_	_	2	advmod	_	Gloss=быстро
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = The_day_before_yesterday:8
+# text = Ӄԓявыԓ мургин гатапачпортӈыԓен.
+# text[phon] = qɬawəɬ murɣin ɣatapasportŋəɬen
+# text[rus] = DMP: Парень наш (с)делал паспорт.
+# text[eng] = DMP: Our fellow got a passport (lit. made).
+# labels = complete-dep anno-fran
+1	Ӄԓявыԓ	Ӄԓявыԓ	NOUN	_	_	3	nsubj	_	Gloss=мужчина-NOM.SG
+2	мургин	мури	PRON	_	_	1	nmod:poss	_	Gloss=мы-GEN
+3	гатапачпортӈыԓен	_	VERB	_	Valency=1	0	root	_	Gloss=PF-MAKE-паспорт-MAKE-PF.3SG
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = The_day_before_yesterday:9
+# text = Ынкъам айвэ ымъыԓёӈэт тытъымӄупӄэтгъэк.
+# text[phon] = ənkʔam ajwe əmʔəɬoŋet tətʔəmqupqetɣʔek
+# text[rus] = DMP: И вчера весь день я чувствовала недомогание.
+# text[eng] = DMP: And I was feeling sick yesterday all day long.
+# labels = complete-dep anno-fran
+1	Ынкъам	ынкъам	CCONJ	_	_	4	cc	4:cc	Gloss=и
+2	айвэ	_	ADV	_	_	4	advmod	4:advmod	Gloss=вчера
+3	ымъыԓёӈэт	_	NOUN	_	_	4	obl	4:obl	Gloss=TOT-день-TIME
+4	тытъымӄупӄэтгъэк	_	VERB	_	Incorporated[advcl]=Yes	0	root	0:root	Gloss=1SG.S/A-вянуть-исхудать-TH-1SG.S
+4.1	тъым	тъымык	VERB	_	Incorporated=Yes	_	_	4:advcl	Gloss=вянуть
+5	.	.	PUNCT	_	_	4	punct	4:punct	_
+
+# sent_id = The_day_before_yesterday:10
+# text = Ымъычоӈэт нрзб ымъыԓёӈэт тыйыԓӄэтгъэк.
+# text[phon] = əmʔəsoŋet нрзб əmʔəɬoŋet təjəɬqetɣʔek
+# text[rus] = DMP: Весь день проспала.
+# text[eng] = DMP: Slept the whole day.
+# labels = complete-dep anno-fran
+1	Ымъычоӈэт	_	NOUN	_	_	4	obl	_	Gloss=TOT-день-TIME
+2	нрзб	_	X	_	_	4	discourse	_	Gloss=
+3	ымъыԓёӈэт	_	NOUN	_	_	4	obl	_	Gloss=TOT-день-TIME
+4	тыйыԓӄэтгъэк	йыԓӄэтык	VERB	_	_	0	root	_	Gloss=1SG.S/A-спать-VB-TH-LOC
+5	.	.	PUNCT	_	_	4	punct	_	_
+

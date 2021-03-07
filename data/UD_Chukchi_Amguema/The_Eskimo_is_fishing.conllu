@@ -1,0 +1,275 @@
+# sent_id = The_Eskimo_is_fishing:1
+# text = Ынӄэн этъым аӈӄак нъанэԓёӄэн эскимос нэмэ.
+# text[phon] = ənqen etʔəm aŋqak nʔaneɬoqen eskimos neme
+# text[rus] = Это, наверное, на море удил рыбу эскимос снова.
+# text[eng] = It’s probably the Eskimo was fishing on the sea again.
+# labels = complete-dep anno-karina
+1	Ынӄэн	ынӄэн	PART	_	_	5	discourse	_	Gloss=DET
+2-3	этъым	_	_	_	_	_	_	_	Gloss=наверное-=EMPH
+2	эт	_	ADV	_	_	5	advmod	_	Gloss=наверное
+3	ъым	ъм	PART	_	_	2	advmod:emph	_	Gloss=EMPH
+4	аӈӄак	аӈӄы	NOUN	_	_	5	obl	_	Gloss=море-LOC
+5	нъанэԓёӄэн	_	VERB	_	Valency=1	0	root	_	Gloss=ST-удить-ST.3SG
+6	эскимос	эскимос	NOUN	_	_	5	nsubj	_	Gloss=эскимос-NOM.SG
+7	нэмэ	нэмэ	ADV	_	_	5	advmod	_	Gloss=опять
+8	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = The_Eskimo_is_fishing:2
+# text = Ынӄэнэ гэԓыткынгыпы янотэ аʼнэԓётаӈа нинъэйӈэвӄаат ыннытэ мэй мэйӈыръаваӈӄытъанам.
+# text[phon] = ənqene ɣeɬətkənɣəpə janote ʔaneɬotaŋa ninʔejŋewqaat ənnəte mej mejŋərʔawaŋqətʔanaʔm
+# text[rus] = Он сначала, удя, из-подо льда призывает рыбу, привлекая большой блесной из моржового клыка.
+# text[eng] = First, while fishing, he is calling the fish from under the ice, attracting it with the big spoon-bait made from the walrus tusk.
+# labels = complete-dep anno-fran ənqen hard-compound
+1-2	Ынӄэнэ	_	_	_	_	_	_	_	Gloss=DET-=PTCL
+1	Ынӄэн	_	PART	_	_	8	discourse	_	Gloss=DET
+2	э	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3	гэԓыткынгыпы	гиԓгиԓ	NOUN	_	_	8	obl	_	Gloss=лёд-TOP-ABL
+4-5	янотэ	_	_	_	_	_	_	_	Gloss=сначала-=PTCL
+4	янот	янотык	ADV	_	_	8	advmod	_	Gloss=сначала
+5	э	а	PART	_	_	4	advmod:emph	_	Gloss=PTCL
+6-7	аʼнэԓётаӈа	_	_	_	_	_	_	_	Gloss=удить-INS-=PTCL
+6	аʼнэԓёта	_	VERB	_	_	8	advcl	_	Gloss=удить-INS
+7	ӈа	а	PART	_	_	6	advmod:emph	_	Gloss=PTCL
+8	нинъэйӈэвӄаат	_	VERB	_	Valency=2	0	root	_	Gloss=ST-INV-звать-ST.3PL
+9-10	ыннытэ	_	_	_	_	_	_	_	Gloss=рыба-NOM.PL-=PTCL
+9	ынныт	_	NOUN	_	_	8	obj	_	Gloss=рыба-NOM.PL
+10	э	а	PART	_	_	9	advmod:emph	_	Gloss=PTCL
+11	мэй	мэй	X	_	_	12	reparandum	_	Gloss=FST
+12-13	мэйӈыръаваӈӄытъанам	_	_	_	_	_	_	_	Gloss=большой-что-моржовый.клык-блесна-INS-=EMPH
+12	мэйӈыръаваӈӄытъана	_	NOUN	_	_	8	obl	_	Gloss=большой-что-моржовый.клык-блесна-INS
+13	м	ъм	PART	_	_	12	advmod:emph	_	Gloss=EMPH
+14	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = The_Eskimo_is_fishing:3
+# text = Ынӄорыӈа ӈыронванныԓьына черунэӈ ӈаԓгычаронаӈыԓьын эюпинэӈ ынӄэнатаӈэ.
+# text[phon] = ənqorəŋa ŋəronwannəɬʔəna seruneŋ ŋaɬɣəsaronaŋəɬʔən ejupineŋ ənqenataŋe
+# text[rus] = Потом трёхзубый крюк, обоюдокрюкое орудие пронзания, таким образом…
+# text[eng] = Then the trident hook, a two-hook weapon of stabbing, in such a manner…
+# labels = complete-dep anno-fran
+1-2	Ынӄорыӈа	_	_	_	_	_	_	_	Gloss=потом-=PTCL
+1	Ынӄоры	_	ADV	_	_	6	advmod	_	Gloss=потом
+2	ӈа	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3-5	ӈыронванныԓьына	_	_	_	_	_	_	_	Gloss=три-зуб-ATTR-NOM.SG-=PTCL
+3	ӈырон	ӈырон	NUM	_	NumType=Card	4	nummod	_	Gloss=три
+4	ванныԓьын	ванныԓьына	NOUN	_	_	6	nmod:attr	_	Gloss=зуб-ATTR-NOM.SG
+5	а	а	PART	_	_	4	advmod:emph	_	Gloss=PTCL
+6	черунэӈ	_	NOUN	_	_	0	root	_	Gloss=вылавливать.крючком-TOOL
+7	ӈаԓгычаронаӈыԓьын	ӈаԓгычаронаӈыԓьын	NOUN	_	_	8	nmod:attr	_	Gloss=по.обе.стороны.нер.изм.-вылавливать.крючком-TOOL-ATTR-NOM.SG
+8	эюпинэӈ	_	NOUN	_	_	6	appos	_	Gloss=укалывать-TOOL
+9-10	ынӄэнатаӈэ	_	_	_	_	_	_	_	Gloss=DET-INS-=PTCL
+9	ынӄэната	ынӄэн	PRON	_	_	6	parataxis	_	Gloss=DET-INS
+10	ӈэ	а	PART	_	_	9	advmod:emph	_	Gloss=PTCL
+11	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = The_Eskimo_is_fishing:4
+# text = Рыпыткэвнинэт нрзб черутэ нэнагтоӄэнатъыма.
+# text[phon] = rəpətkewninet нрзб serute nenaɣtoqenatʔəma
+# text[rus] = Вот этим крюком рыбу протыкая, вытаскивает.
+# text[eng] = Using this hook, he is stabbing the fish and then is pulling it out.
+# labels = complete-dep anno-fran
+1	Рыпыткэвнинэт	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-TR-лопаться-CS-3SG.A.3.O-3SG.O-PL
+2	нрзб	_	X	_	_	1	discourse	_	Gloss=
+3	черутэ	черук	NOUN	_	_	1	obl	_	Gloss=вылавливать.крючком-INS
+4-6	нэнагтоӄэнатъыма	_	_	_	_	_	_	_	Gloss=ST-INV-вынимать-ST.3SG-PL-=EMPH-=PTCL
+4	нэнагтоӄэнат	_	VERB	_	_	1	parataxis	_	Gloss=ST-INV-вынимать-ST.3SG-PL
+5	ъым	ъм	PART	_	_	4	advmod:emph	_	Gloss=EMPH
+6	а	а	PART	_	_	4	advmod:emph	_	Gloss=PTCL
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = The_Eskimo_is_fishing:5
+# text = Ынӈинэ эчкимочтэ нъанэԓёӄэнат.
+# text[phon] = ənŋine eskimoste nʔaneɬoqenat
+# text[rus] = Вот так эскимосы рыбачат.
+# text[eng] = That’s how Eskimos fish.
+# labels = complete-dep anno-fran
+1-2	Ынӈинэ	_	_	_	_	_	_	_	Gloss=так-=PTCL
+1	Ынӈин	_	PART	_	_	4	advmod	_	Gloss=так
+2	э	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3	эчкимочтэ	_	NOUN	_	_	4	nsubj	_	Gloss=эскимос-NOM.PL
+4	нъанэԓёӄэнат	_	VERB	_	Valency=1	0	root	_	Gloss=ST-удить-ST.3SG-PL
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = The_Eskimo_is_fishing:6
+# text = Ынӄорыӈа.
+# text[phon] = ənqorəŋa
+# text[rus] = Потом…
+# text[eng] = Then…
+# labels = complete-dep anno-fran
+1-2	Ынӄорыӈа	_	_	_	_	_	_	_	Gloss=потом-=PTCL
+1	Ынӄорыӈ	_	ADV	_	_	0	root	_	Gloss=потом
+2	а	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = The_Eskimo_is_fishing:7
+# text = Ынӄэнэ аӈӄаԓыгэнниӈыт гэчымъэв нывинӄээт гиԓйиӈкы ваԓьыт.
+# text[phon] = ənqene aŋqaɬəɣenniŋət ɣesəmʔew nəwinqeet ɣiɬjiŋkə waɬʔət
+# text[rus] = Таким образом, арктические гольцы, пока рядом, подо льдом спокойно ходят.
+# text[eng] = Thus, the Arctic chars, while being nearby, are walking quietly under the ice.
+# labels = complete-dep anno-karina
+1-2	Ынӄэнэ	_	_	_	_	_	_	_	Gloss=DET-=PTCL
+1	Ынӄэн	_	PART	_	_	5	discourse	_	Gloss=DET
+2	э	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3	аӈӄаԓыгэнниӈыт	_	NOUN	_	_	5	nsubj	_	Gloss=море-AUTH-рыба-AUG-NOM.PL
+4	гэчымъэв	_	ADV	_	_	5	advmod	_	Gloss=COM-близко.нер.изм.-ADV
+5	нывинӄээт	_	ADJ	_	_	0	root	_	Gloss=ST-смирный-ST.3PL
+6	гиԓйиӈкы	гиԓгиԓ	NOUN	_	_	7	obl	_	Gloss=лёд-BOTTOM-LOC
+7	ваԓьыт	вак	AUX	_	_	5	parataxis	_	Gloss=быть-ATTR-NOM.PL
+8	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = The_Eskimo_is_fishing:8
+# text = Ныгиԓйиӈэтӄээтъым ынкъамэ.
+# text[phon] = nəɣiɬjiŋetqeetʔəm ənkʔame
+# text[rus] = Ходят подо льдом…
+# text[eng] = They are walking under the ice…
+# labels = complete-dep anno-fran
+1-2	Ныгиԓйиӈэтӄээтъым	_	_	_	_	_	_	_	Gloss=ST-лёд-BOTTOM-VB-ST.3PL-=EMPH
+1	Ныгиԓйиӈэтӄээт	_	VERB	_	Valency=1	0	root	_	Gloss=ST-лёд-BOTTOM-VB-ST.3PL
+2	ъым	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3-4	ынкъамэ	_	_	_	_	_	_	_	Gloss=и-=PTCL
+3	ынкъам	_	CCONJ	_	_	1	parataxis	_	Gloss=и
+4	э	а	PART	_	_	3	advmod:emph	_	Gloss=PTCL
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = The_Eskimo_is_fishing:9
+# text = Ынӄэнатаӈэ.
+# text[phon] = ənqenataŋe
+# text[rus] = Таким образом…
+# text[eng] = So…
+# labels = complete-dep anno-fran
+1-2	Ынӄэнатаӈэ	_	_	_	_	_	_	_	Gloss=DET-INS-=PTCL|SpaceAfter=No
+1	Ынӄэната	ынӄэн	PRON	_	_	0	root	_	Gloss=DET-INS
+2	ӈэ	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = The_Eskimo_is_fishing:10
+# text = Нутгыӄээтэ этъым пэԓгома чама нывинӄинэт.
+# text[phon] = nutɣəqeete etʔəm peɬɣoma sama nəwinqinet
+# text[rus] = Они, когда сытые, податливые, смирные.
+# text[eng] = When they are full up, they are pliable, meek.
+# labels = complete-dep anno-fran
+1-2	Нутгыӄээтэ	_	_	_	_	_	_	_	Gloss=ST-лёгкий-ST.3PL-=PTCL
+1	Нутгыӄээт	_	ADJ	_	_	0	root	_	Gloss=ST-лёгкий-ST.3PL
+2	э	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3-4	этъым	_	_	_	_	_	_	_	Gloss=наверное-=EMPH
+3	эт	_	ADV	_	_	1	advmod	_	Gloss=наверное
+4	ъым	ъм	PART	_	_	3	advmod:emph	_	Gloss=EMPH
+5	пэԓгома	пиԓгук	VERB	_	_	7	advcl	_	Gloss=быть.сытым-SIM
+6	чама	чама	ADV	_	_	7	advmod	_	Gloss=также
+7	нывинӄинэт	_	ADJ	_	_	1	parataxis	_	Gloss=ST-смирный-ST.3SG-PL
+8	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = The_Eskimo_is_fishing:11
+# text = Ынӄэнатаӈ нычеруйивӄинэтъым.
+# text[phon] = ənqenataŋ nəserujiwqinetʔəm
+# text[rus] = Таким образом ловят крюком.
+# text[eng] = So they fish with a hook.
+# labels = complete-dep anno-fran valency
+1-2	Ынӄэнатаӈ	_	_	_	_	_	_	_	Gloss=DET-INS-=PTCL
+1	Ынӄэната	_	PRON	_	_	3	obl	_	Gloss=DET-INS
+2	ӈ	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3-4	нычеруйивӄинэтъым	_	_	_	_	_	_	_	Gloss=ST-вылавливать.крючком-DISTR.O-ST.3SG-PL-=EMPH
+3	нычеруйивӄинэт	_	VERB	_	Valency=2	0	root	_	Gloss=ST-вылавливать.крючком-DISTR.O-ST.3SG-PL
+4	ъым	ъм	PART	_	_	3	advmod:emph	_	Gloss=EMPH
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = The_Eskimo_is_fishing:12
+# text = Ныгтоӄэнат.
+# text[phon] = nəɣtoqenat
+# text[rus] = Вытаскивают.
+# text[eng] = Then they pull it out.
+# labels = complete-dep anno-fran
+1	Ныгтоӄэнат	_	VERB	_	Valency=2	0	root	_	Gloss=ST-вынимать-ST.3SG-PL
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = The_Eskimo_is_fishing:13
+# text = Ӄорыӈ энтк гэтэйкыԓин кинокэ.
+# text[phon] = qorəŋ entk ɣetejkəɬin kinoke
+# text[rus] = Потом это сняли в кино.
+# text[eng] = Then a film was made.
+# labels = complete-dep anno-fran
+1-2	Ӄорыӈ	_	_	_	_	_	_	_	Gloss=потом-=PTCL
+1	Ӄоры	_	ADV	_	_	4	advmod	_	Gloss=потом
+2	ӈ	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3	энтк	энтк	X	_	_	4	reparandum	_	Gloss=FST
+4	гэтэйкыԓин	тэйкык	VERB	_	Valency=2	0	root	_	Gloss=PF-делать-PF.3SG
+5-6	кинокэ	_	_	_	_	_	_	_	Gloss=фильм-LOC-=PTCL
+5	кинок	_	NOUN	_	_	4	obl	_	Gloss=фильм-LOC
+6	э	а	PART	_	_	5	advmod:emph	_	Gloss=PTCL
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = The_Eskimo_is_fishing:14
+# text = Ыʼтвыӄэй пэнин ыргин.
+# text[phon] = ʔətwəqej penin ərɣin
+# text[rus] = Их обычная маленькая лодка…
+# text[eng] = Their usual little boat…
+# labels = complete-dep anno-fran
+1	Ыʼтвыӄэй	ыʼтвы	NOUN	_	_	0	root	_	Gloss=лодка-DIM-NOM.SG
+2	пэнин	пэнин	ADJ	_	_	1	amod	_	Gloss=прежний
+3	ыргин	ытри	PRON	_	_	1	nmod:poss	_	Gloss=они-GEN
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = The_Eskimo_is_fishing:15
+# text = Рэӄо каяку или каюку ныԓгыӄинэ эчкимочԓьама.
+# text[phon] = reqo kajaku или kajuku nəɬɣəqine eskimosɬʔama
+# text[rus] = Как уж его называют эскимосы, каяк или каюк.
+# text[eng] = How it is called by Eskimos, kayak or kayuk.
+# labels = complete-dep anno-fran
+1	Рэӄо	_	PRON	_	_	5	obj	_	Gloss=что-EQU
+2	каяку	_	NOUN	_	_	1	appos	_	Gloss=каяк-EQU
+3	или	_	CCONJ	_	_	4	cc	_	Gloss=
+4	каюку	_	NOUN	_	_	2	conj	_	Gloss=каюк-EQU
+5-6	ныԓгыӄинэ	_	_	_	_	_	_	_	Gloss=ST-считать-ST.3SG-=PTCL
+5	ныԓгыӄин	_	VERB	_	Valency=2	0	root	_	Gloss=ST-считать-ST.3SG
+6	э	а	PART	_	_	5	advmod:emph	_	Gloss=PTCL
+7-9	эчкимочԓьама	_	_	_	_	_	_	_	Gloss=эскимос-ATTR-INS-=EMPH-=PTCL
+7	эчкимочԓьа	_	NOUN	_	_	5	nsubj	_	Gloss=эскимос-ATTR-INS
+8	м	ъм	PART	_	_	7	advmod:emph	_	Gloss=EMPH
+9	а	а	PART	_	_	7	advmod:emph	_	Gloss=PTCL
+10	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = The_Eskimo_is_fishing:16
+# text = Гымнан гэмо ӄэԓюӄ мури ӄорагынрэтыԓьыморэ.
+# text[phon] = ɣəmnan ɣemo qeɬuq muri qoraɣənretəɬʔəmore
+# text[rus] = Я не знаю, мы ведь оленеводы.
+# text[eng] = I don’t know since we are reindeer herders.
+# labels = complete-dep anno-fran
+1	Гымнан	гым	PRON	_	_	2	nsubj	_	Gloss=я-INS
+2	гэмо	_	VERB	_	_	0	root	_	Gloss=не.знать
+3	ӄэԓюӄ	ӄэԓюӄ	ADV	_	_	2	advmod	_	Gloss=конечно
+4	мури	мури	PRON	_	_	5	nsubj	_	Gloss=мы
+5	ӄорагынрэтыԓьыморэ	ӄорагынрэтыԓьын	NOUN	_	_	2	parataxis	_	Gloss=олень-защищать-ATTR-NP.1PL
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = The_Eskimo_is_fishing:17
+# text = Ытръэч ынӄэнэ.
+# text[phon] = ətrʔes ənqene
+# text[rus] = Вот и всё.
+# text[eng] = That’s all.
+# labels = complete-dep anno-fran ənqen
+1	Ытръэч	ытръэч	ADV	_	_	2	advmod	_	Gloss=только
+2-3	ынӄэнэ	_	_	_	_	_	_	_	Gloss=DET-=PTCL
+2	ынӄэн	_	PRON	_	_	0	root	_	Gloss=DET
+3	э	а	PART	_	_	2	advmod:emph	_	Gloss=PTCL
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = The_Eskimo_is_fishing:18
+# text = Нымкъэв гэннуԓин нырагтыӈӈоӄэн.
+# text[phon] = nəmkʔew ɣennuɬin nəraɣtəŋŋoqen
+# text[rus] = Много рыбы поймав, идёт домой.
+# text[eng] = Having caught a lot of fish, he is going home.
+# labels = complete-dep anno-fran
+1	Нымкъэв	нымкъэв	ADJ	_	_	2	advmod	_	Gloss=ST-многий-ADV
+2	гэннуԓин	_	VERB	_	Valency=1	0	root	_	Gloss=PF-рыба-EAT-PF.3SG
+3	нырагтыӈӈоӄэн	_	VERB	_	Valency=1	2	parataxis	_	Gloss=ST-жилище-GO.TO-INCH-ST.3SG
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = The_Eskimo_is_fishing:19
+# text = Ынӈин кинопԓыткуиʼ.
+# text[phon] = ənŋin kinopɬətkuʔi
+# text[rus] = Так кино закончилось.
+# text[eng] = So the movie ended.
+# labels = complete-dep anno-fran
+1	Ынӈин	ынӈин	ADV	_	_	2	advmod	_	Gloss=так
+2	кинопԓыткуиʼ	_	NOUN	_	_	0	root	_	Gloss=2/3.S/A-фильм-COMPL-TH-2/3SG.S
+3	.	.	PUNCT	_	_	2	punct	_	_
+

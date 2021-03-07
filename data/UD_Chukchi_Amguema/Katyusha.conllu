@@ -1,0 +1,61 @@
+# sent_id = Katyusha:1
+# text = Омваамвыԓгэты гэймэвԓин Катюша Катюша.
+# text[phon] = omwaamwəɬɣetə ɣejmewɬin katʲuša katʲuša
+# text[rus] = К берегу Амгуэмы подошла Катюша.
+# text[eng] = Katusha walked up to the shore of Amgema river.
+# labels = complete-dep anno-fran
+1	Омваамвыԓгэты	_	PROPN	_	_	2	obl	_	Gloss=Амгуэма-EDGE-DAT
+2	гэймэвԓин	эймэвык	VERB	_	Valency=1	0	root	_	Gloss=PF-приближаться-PF.3SG
+3	Катюша	Катюша	PROPN	_	_	4	reparandum	_	Gloss=Катюша-NOM.SG
+4	Катюша	Катюша	PROPN	_	_	2	nsubj	_	Gloss=Катюша-NOM.SG
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Katyusha:2
+# text = Гапыгынмасӄэвԓен коԓё Катюша Катюша.
+# text[phon] = ɣapəɣənmasqewɬen koɬo katʲuša katʲuša
+# text[rus] = Пыгпыг пошла замочить Катюша, вот как.
+# text[eng] = Katusha came to soak the pygpyg.
+# labels = complete-dep anno-fran
+1	Гапыгынмасӄэвԓен	_	VERB	_	Incorporated[obj]=Yes|Valency=1	0	root	0:root	Gloss=PF-пузырь-замачивать-MCP-PF.3SG
+1.1	пыгын	пыгпыг	NOUN	_	Incorporated=Yes	_	_	1:obj	Gloss=пузырь
+2	коԓё	коԓё	ADV	_	_	1	advmod	1:advmod	Gloss=очень
+3	Катюша	Катюша	PROPN	_	_	4	reparandum	4:reparandum	Gloss=Катюша-NOM.SG
+4	Катюша	Катюша	PROPN	_	_	1	nsubj	1:nsubj	Gloss=Катюша-NOM.SG
+5	.	.	PUNCT	_	_	1	punct	1:punct	_
+
+# sent_id = Katyusha:3
+# text = Ынкъам коԓё нинэнмытӄин.
+# text[phon] = ənkʔam koɬo ninenmətqin
+# text[rus] = И окунает его, вот как.
+# text[eng] = And she is dipping it.
+# labels = complete-dep anno-fran
+1	Ынкъам	ынкъам	CCONJ	_	_	3	cc	_	Gloss=и
+2	коԓё	коԓё	ADV	_	_	3	advmod	_	Gloss=очень
+3	нинэнмытӄин	_	VERB	_	_	0	root	_	Gloss=ST-INV-окунать-ST.3SG
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Katyusha:4
+# text = Нинэнмытпытӄынмытӄин.
+# text[phon] = ninenmətpətqənmətqin
+# text[rus] = Снова окунает.
+# text[eng] = Dipping again.
+# labels = complete-dep anno-fran
+1	Нинэнмытпытӄынмытӄин	нмытык	VERB	_	Incorporated[advcl]=Yes|Incorporated[advmod]=Yes	0	root	0:root	Gloss=ST-INV-окунать-повторно-окунать-ST.3SG
+1.1	нмыт	нмытык	VERB	_	Incorporated=Yes	_	_	1:advcl	Gloss=окунать
+1.2	пытӄы	пытӄы	ADV	_	Incorporated=Yes	_	_	1:advmod	Gloss=повторно
+2	.	.	PUNCT	_	_	1	punct	1:punct	_
+
+# sent_id = Katyusha:5
+# text = Таӈванэван нэйитгъэн пыгпыг ӈан пыгпыг ӈан.
+# text[phon] = taŋwanewan nejitɣʔen pəɣpəɣ ŋan pəɣpəɣ ŋan
+# text[rus] = Но они <волны Амгуэмы> никак не размочат пыгпыг.
+# text[eng] = But they <the waves and water of Amguema river> are not wetting the pygpyg.
+# labels = complete-dep anno-fran unclear-syntax
+1	Таӈванэван	_	AUX	_	_	2	aux	_	Gloss=GOOD-NEG.NFUT
+2	нэйитгъэн	_	VERB	_	_	0	root	_	Gloss=LOW.A-капать-TH-3SG.O
+3	пыгпыг	пыгпыг	NOUN	_	_	5	reparandum	_	Gloss=пузырь-NOM.SG
+4	ӈан	ӈан	PART	_	_	3	advmod	_	Gloss=DEICT
+5	пыгпыг	пыгпыг	NOUN	_	_	2	obj	_	Gloss=пузырь-NOM.SG
+6	ӈан	ӈан	PART	_	_	5	advmod	_	Gloss=DEICT
+7	.	.	PUNCT	_	_	2	punct	_	_
+

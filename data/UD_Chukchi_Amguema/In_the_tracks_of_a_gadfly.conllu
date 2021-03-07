@@ -1,0 +1,35 @@
+# sent_id = In_the_tracks_of_a_gadfly:1
+# text = Ԓгинъыръыӄинэт чавчыват.
+# text[phon] = ɬɣinʔərʔəqinet sawsəwat
+# text[rus] = Врут эти тундровики.
+# text[eng] = The reindeer herders are lying.
+# labels = complete-dep anno-fran
+1	Ԓгинъыръыӄинэт	_	ADJ	_	_	0	root	_	Gloss=INTS-ST-лживый-ST.3SG-PL
+2	чавчыват	_	NOUN	_	_	1	nsubj	_	Gloss=оленевод-NOM.PL
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = In_the_tracks_of_a_gadfly:2
+# text = Энмэн ръоравэнвыеквэ ныԓеӄинэт.
+# text[phon] = enmen rʔorawenwəjekwe nəɬeqinet
+# text[rus] = Якобы по следу овода идут.
+# text[eng] = It is said they follow the gadfly's track.
+# labels = complete-dep anno-fran
+1	Энмэн	энмэн	PART	_	_	4	discourse	_	Gloss=говорят
+2-3	ръоравэнвыеквэ	_	_	_	_	_	_	_	Gloss=овод-след-PROL
+2	ръора	ръораԓгын	NOUN	_	_	3	nmod	_	Gloss=овод
+3	вэнвыеквэ	винв	NOUN	_	_	4	obl	_	Gloss=след-PROL
+4	ныԓеӄинэт	тыԓек	VERB	_	Valency=1	0	root	_	Gloss=ST-идти-ST.3SG-PL
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = In_the_tracks_of_a_gadfly:3
+# text = Мэвын ынӈин мэйӈыԓьын нъывинвэтгъэн.
+# text[phon] = mewən ənŋin mejŋəɬʔən nʔəwinwetɣʔen
+# text[rus] = Разве овод может так крупно наследить?
+# text[eng] = But could a gadfly leave so many traces?
+# labels = complete-dep anno-fran unclear-syntax
+1	Мэвын	_	ADV	_	_	4	advmod	_	Gloss=разве
+2	ынӈин	ынӈин	ADV	_	_	3	advmod	_	Gloss=так
+3	мэйӈыԓьын	мэйӈыԓьын	ADJ	_	_	4	orphan	_	Gloss=большой-ATTR-NOM.SG
+4	нъывинвэтгъэн	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-COND-след-VB-TH-IRR.2/3SG.S
+5	.	.	PUNCT	_	_	4	punct	_	_
+

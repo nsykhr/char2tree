@@ -1,0 +1,184 @@
+# sent_id = Hooligan:1
+# text = Нымӈыԓтэԓӄэн Ваӈӄарэмакэн Куувэӈэ аӈӄаԓьын.
+# text[phon] = nəmŋəɬteɬqen waŋqaremaken kuuweŋe aŋqaɬʔən
+# text[rus] = Ванкаремский Куувэн, помор, рассказывал.
+# text[eng] = Kuuwen from Wankarem, a maritime Chukchi, told (this story).
+# labels = complete-dep anno-fran
+1	Нымӈыԓтэԓӄэн	_	VERB	_	Valency=1	0	root	_	Gloss=ST-весть-DUR-ST.3SG
+2	Ваӈӄарэмакэн	Ваӈӄарэм	PROPN	_	_	3	nmod:relat	_	Gloss=Ванкарем-REL
+3-4	Куувэӈэ	_	_	_	_	_	_	_	Gloss=Куувэн-NOM.SG-=PTCL
+3	Куувэ	Куувэ	PROPN	_	_	1	nsubj	_	Gloss=Куувэн-NOM.SG
+4	ӈэ	а	PART	_	_	3	advmod:emph	_	Gloss=PTCL
+5	аӈӄаԓьын	аӈӄаԓьын	NOUN	_	_	3	nmod	_	Gloss=море-ATTR-NOM.SG
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Hooligan:2
+# text = Нивӄинэ ӄоԓ мытинмык нутэк гэткивмури магԓяԓьыморэ ԓгэчьачаӈвыячеэгатӄэн.
+# text[phon] = niwqine qoɬ mətinmək nutek ɣetkiwmuri maɣɬaɬʔəmore ɬɣesʔasaŋwəjaseeɣatqen
+# text[rus] = Говорит, как-то раз мы заночевали в тундре, мы на собаках были, дул свежий, очень морозный ветер.
+# text[eng] = He says, once we spent a night in tundra, we were the dog sledge drivers, the wind was fresh and very cold.
+# labels = complete-dep anno-fran
+1-2	Нивӄинэ	_	_	_	_	_	_	_	Gloss=ST-сказать-ST.3SG-=PTCL
+1	Нивӄин	_	VERB	_	Valency=2	0	root	0:root	Gloss=ST-сказать-ST.3SG
+2	э	а	PART	_	_	1	advmod:emph	1:advmod:emph	Gloss=PTCL
+3	ӄоԓ	ӄоԓ	PRON	_	_	4	nsubj	4:nsubj	Gloss=некий
+4	мытинмык	итык	VERB	_	Valency=1	1	parataxis:speech	1:parataxis:speech	Gloss=1PL.S/A-являться-1PL.S/O
+5	нутэк	нутэнут	NOUN	_	_	6	obl	6:obl	Gloss=страна-LOC
+6	гэткивмури	_	VERB	_	Valency=1	4	parataxis	4:parataxis	Gloss=PF-проходить.о.днях-NP.1PL
+7	магԓяԓьыморэ	магԓяԓьын	NOUN	_	_	4	parataxis	4:parataxis	Gloss=ездок.на.собаках-NP.1PL
+8	ԓгэчьачаӈвыячеэгатӄэн	выясээгатык	VERB	_	Incorporated[dep]=Yes|Valency=1	4	parataxis	4:parataxis	Gloss=INTS-морозный-дуть.о.свежей.пурге-ST.3SG
+8.1	чьачаӈ	съэсэӈ	ADJ	_	Incorporated=Yes	_	_	8:dep	_
+9	.	.	PUNCT	_	_	1	punct	1:punct	_
+
+# sent_id = Hooligan:3
+# text = Ымыԓьо ӄоԓ эргыръокы тыԓӄутгъэкъымэ рэмкын эвын норгымэгԓетӄэн.
+# text[phon] = əməɬʔo qoɬ erɣərʔokə təɬqutɣʔekʔəme remkən ewən norɣəmeɣɬetqen
+# text[rus] = И вот, на рассвете, я встал, смотрю — весь народ уже работает у нарт.
+# text[eng] = And at the dawn, I woke up and saw that all people were already preparing the sledges.
+# labels = complete-dep anno-fran unclear-syntax
+1	Ымыԓьо	ымыԓьо	PRON	_	_	4	dep	_	Gloss=весь
+2	ӄоԓ	ӄоԓ	PRON	_	_	1	dep	_	Gloss=некий
+3	эргыръокы	_	NOUN	_	_	4	obl	_	Gloss=свет-DISTR.S-LOC
+4-6	тыԓӄутгъэкъымэ	_	_	_	_	_	_	_	Gloss=1SG.S/A-вставать-TH-1SG.S-=EMPH-=PTCL
+4	тыԓӄутгъэк	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-вставать-TH-1SG.S
+5	ъым	ъм	PART	_	_	4	advmod:emph	_	Gloss=EMPH
+6	э	а	PART	_	_	4	advmod:emph	_	Gloss=PTCL
+7	рэмкын	рэмкын	NOUN	_	_	9	nsubj	_	Gloss=народ-NOM.SG
+8	эвын	эвын	ADV	_	_	9	advmod	_	Gloss=уже
+9	норгымэгԓетӄэн	_	VERB	_	Valency=1	4	parataxis	_	Gloss=ST-нарта-работать-ST.3SG
+10	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Hooligan:4
+# text = Чинитъыттъыгаканъёк рэмкыт ӄача энмэ нымигчирэтӄинэт.
+# text[phon] = sinitʔəttʔəɣakanjok remkət qasa enme nəmiɣsiretqinet
+# text[rus] = Возле своих упряжек народ уже работает.
+# text[eng] = People were working near the sledges.
+# labels = complete-dep anno-fran
+1	Чинитъыттъыгаканъёк	_	NOUN	_	_	5	obl	_	Gloss=сам-собака-пара.упряжных.оленей-LOC
+2	рэмкыт	рэмкын	NOUN	_	_	5	nsubj	_	Gloss=народ-NOM.PL
+3	ӄача	ӄача	ADP	_	_	1	case	_	Gloss=около
+4	энмэ	_	ADV	_	_	5	advmod	_	Gloss=уже
+5	нымигчирэтӄинэт	_	VERB	_	Valency=1	0	root	_	Gloss=ST-работа-VB-ST.3SG-PL
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Hooligan:5
+# text = Нивигым мычейвыткугъэк китаӄуна момавгъак.
+# text[phon] = niwiɣəm məsejwətkuɣʔek kitaquna momawɣʔak
+# text[rus] = Думаю, пойду пройдусь, согреюсь-ка.
+# text[eng] = I think (lit. say): I will walk around and get warm.
+# labels = complete-dep anno-fran speech
+1	Нивигым	_	VERB	_	Valency=1	0	root	_	Gloss=ST-сказать-NP.1SG
+2	мычейвыткугъэк	_	VERB	_	_	1	parataxis:speech	_	Gloss=1SG.S/A.SUBJ-идти-ITER-TH-1SG.S
+3-4	китаӄуна	_	_	_	_	_	_	_	Gloss=ну.ка-=PTCL
+3	китаӄун	_	PART	_	_	5	discourse	_	Gloss=ну.ка
+4	а	а	PART	_	_	3	advmod:emph	_	Gloss=PTCL
+5	момавгъак	омавык	VERB	_	_	2	parataxis	_	Gloss=1SG.S/A.SUBJ-тёплый-CS-TH-1SG.S
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Hooligan:6
+# text = Тыԓьугъэн ӄоԓ каӈэтваԓьын орвыкъым.
+# text[phon] = təɬʔuɣʔen qoɬ kaŋetwaɬʔən orwəkʔəm
+# text[rus] = Вижу, один нагнулся над нартой.
+# text[eng] = I saw one man bent over the sledge.
+# labels = complete-dep anno-fran
+1	Тыԓьугъэн	ԓьук	VERB	_	_	0	root	_	Gloss=1SG.S/A-видеть-TH-3SG.O
+2	ӄоԓ	ӄоԓ	PRON	_	_	1	obj	_	Gloss=некий
+3	каӈэтваԓьын	каӈэтваԓьын	VERB	_	_	2	acl:attr	_	Gloss=нагнуться-RES-ATTR-NOM.SG
+4-5	орвыкъым	_	_	_	_	_	_	_	Gloss=нарта-LOC-=EMPH
+4	орвык	_	NOUN	_	_	3	obl	_	Gloss=нарта-LOC
+5	ъым	ъм	PART	_	_	4	advmod:emph	_	Gloss=EMPH
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Hooligan:7
+# text = Ниви тыӈойӈыкыпԓыгъан.
+# text[phon] = niwi təŋojŋəkəpɬəɣʔan
+# text[rus] = Пнул его по заднице.
+# text[eng] = I kicked him in the ass.
+# labels = complete-dep anno-fran
+1	Ниви	Ниви	X	_	_	2	reparandum	2:reparandum	Gloss=FST
+2	тыӈойӈыкыпԓыгъан	_	VERB	_	Incorporated[obj]=Yes|Valency=1	0	root	0:root	Gloss=1SG.S/A-таз-ударять-TH-3SG.O
+2.1	ӈойӈ	ӈойӈ	NOUN	_	Incorporated=Yes	_	_	2:obj	_
+3	.	.	PUNCT	_	_	2	punct	2:punct	_
+
+# sent_id = Hooligan:8
+# text = Нивигым этаны гымнин ынӄэнэ пэнин ӄуӈычгытэйкэвытумгын.
+# text[phon] = niwiɣəm etanə ɣəmnin ənqene penin quŋəsɣətejkewətumɣən
+# text[rus] = Я думал, это, наверное, мой друг, с которым мы постоянно в шутку боролись.
+# text[eng] = I thought that was probably my friend with which we used to fight for fun.
+# labels = complete-dep anno-fran ənqen speech
+1	Нивигым	_	VERB	_	Valency=2	0	root	_	Gloss=ST-сказать-NP.1SG
+2	этаны	этаны	ADV	_	_	1	parataxis:speech	_	Gloss=наверное
+3	гымнин	_	PRON	_	_	7	nmod:poss	_	Gloss=я-AN.GEN
+4-5	ынӄэнэ	_	_	_	_	_	_	_	Gloss=DET-=PTCL
+4	ынӄэн	_	PART	_	_	7	discourse	_	Gloss=DET
+5	э	а	PART	_	_	4	advmod:emph	_	Gloss=PTCL
+6	пэнин	пэнин	ADJ	_	_	7	amod	_	Gloss=прежний
+7	ӄуӈычгытэйкэвытумгын	ӄуӈычгытэйкэвытумгын	NOUN	_	_	1	parataxis:speech	_	Gloss=озорной-бороться-друг-NOM.SG
+8	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Hooligan:9
+# text = Читъым нэрмэйгым гым нэрмэчитивым Ваӈӄарэмак тэйкэвык.
+# text[phon] = sitʔəm nermejɣəm ɣəm nermesitiwəm waŋqaremak tejkewək
+# text[rus] = А я был силач в Ванкареме, практически непобедим.
+# text[eng] = And I was a strong man in Wankarem, almost invincible.
+# labels = complete-dep anno-fran
+1-2	Читъым	_	_	_	_	_	_	_	Gloss=было-=EMPH
+1	Чит	_	AUX	_	_	3	discourse	_	Gloss=было
+2	ъым	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	нэрмэйгым	эрмэ	ADJ	_	_	0	root	_	Gloss=ST-сильный-NP.1SG
+4	гым	гым	PRON	_	_	5	nsubj	_	Gloss=я
+5	нэрмэчитивым	_	ADJ	_	_	3	parataxis	_	Gloss=ST-сильный-COMB-NP.1SG
+6	Ваӈӄарэмак	Ваӈӄарэма	PROPN	_	_	5	obl	_	Gloss=Ванкарем-LOC
+7	тэйкэвык	_	VERB	_	_	5	advcl	_	Gloss=бороться-LOC
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Hooligan:10
+# text = Тыгитэгъэн ӄытԓыги ӄырым ӄытԓыги эмнуӈыԓьын Пэгытту.
+# text[phon] = təɣiteɣʔen qətɬəɣi qərəm qətɬəɣi emnuŋəɬʔən peɣəttu
+# text[rus] = Смотрю — оказывается, это не он, а тундровик Пегыт.
+# text[eng] = I look at him and it turns out that this is not him but Pegyt, a man from tundra.
+# labels = complete-dep anno-fran
+1	Тыгитэгъэн	гитэк	VERB	_	_	0	root	_	Gloss=1SG.S/A-смотреть-TH-3SG.O
+2	ӄытԓыги	_	ADV	_	_	3	advmod	_	Gloss=оказывается
+3	ӄырым	ӄырым	AUX	_	_	1	parataxis	_	Gloss=NEG.FUT
+4	ӄытԓыги	_	ADV	_	_	6	advmod	_	Gloss=оказывается
+5	эмнуӈыԓьын	эмнуӈыԓьын	NOUN	_	_	6	nmod:attr	_	Gloss=тундра-ATTR-NOM.SG
+6	Пэгытту	Пэгытту	PROPN	_	_	1	parataxis	_	Gloss=Пегыт-NOM.SG
+7	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Hooligan:11
+# text = Чит тыгынтэвыркынъым инэпириъи.
+# text[phon] = sit təɣəntewərkənʔəm inepiriʔi
+# text[rus] = Я хотел смыться, а он меня схватил.
+# text[eng] = I wanted to run away but he caught me.
+# labels = complete-dep anno-fran
+1	Чит	чит	AUX	_	_	2	discourse	_	Gloss=было
+2-3	тыгынтэвыркынъым	_	_	_	_	_	_	_	Gloss=1SG.S/A-убегать-IPFV-=EMPH
+2	тыгынтэвыркын	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-убегать-IPFV
+3	ъым	ъм	PART	_	_	2	advmod:emph	_	Gloss=EMPH
+4	инэпириъи	_	VERB	_	_	2	parataxis	_	Gloss=2/3.S/A-INV-брать-TH-2/3SG.S
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Hooligan:12
+# text = Мыттэйкэвмыкъым.
+# text[phon] = məttejkewməkʔəm
+# text[rus] = Поборолись.
+# text[eng] = We fought.
+# labels = complete-dep anno-fran
+1-2	Мыттэйкэвмыкъым	_	_	_	_	_	_	_	Gloss=1PL.S/A-бороться-1PL.S/O-=EMPH
+1	Мыттэйкэвмык	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-бороться-1PL.S/O
+2	ъым	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Hooligan:13
+# text = Ԓымынкыри энанватъевгъэ ымы инэтриԓгъи.
+# text[phon] = ɬəmənkəri enanwatjewɣʔe əmə inetriɬɣʔi
+# text[rus] = Он меня поскладывал в разные стороны и отпустил.
+# text[eng] = He beat me up (lit. bent me here and there) and let me go.
+# labels = complete-dep anno-fran
+1	Ԓымынкыри	_	ADV	_	_	2	advmod	_	Gloss=OMN-тот-LOC-ADV.ALL
+2	энанватъевгъэ	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-INV-складывать-DISTR.O-TH-2/3SG.S
+3	ымы	ымы	ADV	_	_	4	advmod	_	Gloss=также
+4	инэтриԓгъи	рытриԓык	VERB	_	_	2	parataxis	_	Gloss=2/3.S/A-INV-пускать-TH-2/3SG.S
+5	.	.	PUNCT	_	_	2	punct	_	_
+

@@ -1,0 +1,100 @@
+# sent_id = Mushrooms:1
+# text = Гым чит Омваамвырочгэты тъанэԓёсӄэвык яраг рымагтэты.
+# text[phon] = ɣəm sit omwaamwərosɣetə tʔaneɬosqewək jaraɣ rəmaɣtetə
+# text[rus] = Я было отправилась к Амгуэме на рыбалку, за дома.
+# text[eng] = I went to Amguema to fish, behind the houses.
+# labels = complete-dep anno-fran
+1	Гым	гым	PRON	_	_	3	nsubj	_	Gloss=я
+2	чит	чит	AUX	_	_	3	cop	_	Gloss=было
+3	Омваамвырочгэты	_	PROPN	_	_	0	root	_	Gloss=Амгуэма-другой.берег-DAT
+4	тъанэԓёсӄэвык	_	VERB	_	_	3	advcl	_	Gloss=1SG.S/A-удить-MCP-1SG.S
+5	яраг	_	NOUN	_	_	4	obl	_	Gloss=яранга-LOC
+6	рымагтэты	_	ADP	_	_	5	case	_	Gloss=сзади-DAT
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Mushrooms:2
+# text = Ынӄо ԓюут ынкы тыԓьунэт пъомпъоӈыт нымкыӄин.
+# text[phon] = ənqo ɬuut ənkə təɬʔunet pʔompʔoŋət nəmkəqin
+# text[rus] = И вдруг я там увидела много грибов.
+# text[eng] = And suddenly I saw many mushrooms.
+# labels = complete-dep anno-fran
+1	Ынӄо	ынӄо	ADV	_	_	4	advmod	_	Gloss=потом
+2	ԓюут	ԓюут	ADV	_	_	4	advmod	_	Gloss=вдруг
+3	ынкы	ынкы	PRON	_	_	4	obl	_	Gloss=тот-LOC
+4	тыԓьунэт	ԓьук	VERB	_	_	0	root	_	Gloss=1SG.S/A-видеть-3SG.O-PL
+5	пъомпъоӈыт	_	NOUN	_	_	4	obj	_	Gloss=гриб-NOM.PL
+6	нымкыӄин	_	ADJ	_	_	4	parataxis	_	Gloss=ST-многий-ST.3SG
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Mushrooms:3
+# text = Ынкъам тыгэчеӈӈонат.
+# text[phon] = ənkʔam təɣeseŋŋonat
+# text[rus] = И начала их собирать.
+# text[eng] = I started gathering them.
+# labels = complete-dep anno-fran
+1	Ынкъам	ынкъам	CCONJ	_	_	2	cc	_	Gloss=и
+2	тыгэчеӈӈонат	гичик	VERB	_	_	0	root	_	Gloss=1SG.S/A-собирать-INCH-3SG.O-PL
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Mushrooms:4
+# text = Пууръу тытаӈынтыяатын аʼнэԓёгыргын.
+# text[phon] = puurʔu tətaŋəntəjaatən ʔaneɬoɣərɣən
+# text[rus] = Напротив, про рыбалку забыла.
+# text[eng] = I totally forgot about fishing.
+# labels = complete-dep anno-fran subordination
+1	Пууръу	_	ADV	_	_	2	advmod	_	Gloss=взамен
+2	тытаӈынтыяатын	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-GOOD-забывать-VB-3SG.O
+3	аʼнэԓёгыргын	аʼнэԓёгыргын	VERB	_	_	2	obj	_	Gloss=удить-NMLZ-NOM.SG
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Mushrooms:5
+# text = Ынкъам пъомпъоӈыт тыгичинэт.
+# text[phon] = ənkʔam pʔompʔoŋət təɣisinet
+# text[rus] = И я собрала грибов.
+# text[eng] = I picked some mushrooms.
+# labels = complete-dep anno-fran
+1	Ынкъам	ынкъам	CCONJ	_	_	3	cc	_	Gloss=и
+2	пъомпъоӈыт	_	NOUN	_	_	3	obj	_	Gloss=гриб-NOM.PL
+3	тыгичинэт	гичик	VERB	_	_	0	root	_	Gloss=1SG.S/A-собирать-3SG.O-PL
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Mushrooms:6
+# text = Наӄам ныгтымранатӄэн.
+# text[phon] = naqam nəɣtəmranatqen
+# text[rus] = Но было очень много комаров.
+# text[eng] = But there were so many mosquitos.
+# labels = complete-dep anno-fran
+1	Наӄам	наӄам	ADV	_	_	2	advmod	_	Gloss=однако
+2	ныгтымранатӄэн	_	VERB	_	Valency=1	0	root	_	Gloss=ST-HARD-комар-VB-ST.3SG
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Mushrooms:7
+# text = Мрэнэ нэнугым.
+# text[phon] = mrene nenuɣəm
+# text[rus] = Комары меня съели.
+# text[eng] = Mosquitos bit me so intensely (lit. ate me).
+# labels = complete-dep anno-fran
+1	Мрэнэ	_	NOUN	_	_	2	nsubj	_	Gloss=комар-INS
+2	нэнугым	рук	VERB	_	_	0	root	_	Gloss=LOW.A-есть-1SG.O
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Mushrooms:8
+# text = И ынкы трагтыгъак.
+# text[phon] = i ənkə traɣtəɣʔak
+# text[rus] = И я домой пошла.
+# text[eng] = I went home.
+# labels = complete-dep anno-fran
+1	И	_	CCONJ	_	_	3	cc	_	Gloss=и
+2	ынкы	ынкы	PRON	_	_	3	obl	_	Gloss=тот-LOC
+3	трагтыгъак	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-жилище-GO.TO-TH-1SG.S
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Mushrooms:9
+# text = Ытръэч.
+# text[phon] = ətrʔes
+# text[rus] = Всё.
+# text[eng] = That is all.
+# labels = complete-dep anno-fran
+1	Ытръэч	ытръэч	ADV	_	_	0	root	_	Gloss=только
+2	.	.	PUNCT	_	_	1	punct	_	_
+
