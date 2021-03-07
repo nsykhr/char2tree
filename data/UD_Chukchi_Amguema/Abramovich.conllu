@@ -1,0 +1,93 @@
+# sent_id = Abramovich:1
+# text = Кытур ынӈытэӄэ Медведев прэзидэнто энма Канчаланэты гэрэмкичиԓин.
+# text[phon] = kətur ənŋəteqe medwedew prezidento enma kančalanetə ɣeremkisiɬin
+# text[rus] = Однажды, не так давно, Медведев, ещё будучи президентом, приехал в гости в Канчалан.
+# text[eng] = Once, not a long time ago, Medvedev came to visit Kanchalan, he was the president back then.
+# labels = complete anno-fran
+1	Кытур	кытур	ADV	_	_	8	advmod	_	Gloss=в.прошлом.году
+2-3	ынӈытэӄэ	_	_	_	_	_	_	_	Gloss=недавно-=PTCL
+2	ынӈытэӄ	ынӈытэӄ	ADV	_	_	8	advmod	_	Gloss=недавно
+3	э	а	PART	_	_	2	advmod:emph	_	Gloss=PTCL
+4	Медведев	Медведев	PROPN	_	_	8	nsubj	_	Gloss=Медведев-NOM.SG
+5	прэзидэнто	прэзидэнт	NOUN	_	_	8	advcl	_	Gloss=президент-EQU
+6	энма	итык	AUX	_	_	5	cop	_	Gloss=являться-SIM
+7	Канчаланэты	Канчалан	PROPN	_	_	8	obl	_	Gloss=Канчалан-DAT
+8	гэрэмкичиԓин	рэмкичик	VERB	_	Valency=1	0	root	_	Gloss=PF-ходить.в.гости-PF.3SG|SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = Abramovich:2
+# text = Ынкъа ԓюут ӈыръа вертолёттэ вакъогъатӈа.
+# text[phon] = ənkʔa ɬuut ŋərʔa wertalʲotte wakʔoɣʔatŋa
+# text[rus] = И вдруг четыре вертолёта приземлились.
+# text[eng] = Suddenly, four helicopters landed.
+# labels = complete anno-fran
+1	Ынкъа	ынкъа	CCONJ	_	_	5	cc	_	Gloss=и
+2	ԓюут	ԓюут	ADV	_	_	5	advmod	_	Gloss=вдруг
+3	ӈыръа	ӈыраӄ	NUM	_	NumType=Card	4	nummod	_	Gloss=четыре
+4	вертолёттэ	вертолёт	NOUN	_	_	5	nsubj	_	Gloss=вертолёт-NOM.PL
+5-6	вакъогъатӈа	_	_	_	_	_	_	_	Gloss=2/3.S/A-садиться-TH-PL-=PTCL|SpaceAfter=No
+5	вакъогъат	вакъок	VERB	_	Valency=1	0	root	_	Gloss=2/3.S/A-садиться-TH-PL
+6	ӈа	а	PART	_	_	5	advmod:emph	_	Gloss=PTCL
+7	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Abramovich:3
+# text = Ныныпчеӈивйивӄин коԓё нымныма Медведевъым.
+# text[phon] = nənəpseŋiwjiwqin koɬo nəmnəma medwedewʔəm
+# text[rus] = Весь посёлок расспрашивал Медведева.
+# text[eng] = All the village was asking Medvedev various questions.
+# labels = complete anno-fran
+1	Ныныпчеӈивйивӄин	пчэӈик	VERB	_	Valency=2	0	root	_	Gloss=ST-TR-расспрашивать-CS-DISTR.O-ST.3SG
+2	коԓё	коԓё	ADV	_	_	1	advmod	_	Gloss=очень
+3	нымныма	нымным	NOUN	_	Case=Erg	1	nsubj	_	Gloss=посёлок-INS
+4-5	Медведевъым	_	_	_	_	_	_	_	Gloss=Медведев-NOM.SG-=EMPH|SpaceAfter=No
+4	Медведев	Медведев	PROPN	_	_	1	obj	_	Gloss=Медведев-NOM.SG
+5	ъым	ъм	PART	_	_	4	advmod:emph	_	Gloss=EMPH
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Abramovich:4
+# text = Гэчевкы нынтыӄин таӈкоԓё ынкы ныгынритӄин.
+# text[phon] = ɣesewkə nəntəqin taŋkoɬo ənkə nəɣənritqin
+# text[rus] = Весело проводили время, очень там о нём заботились.
+# text[eng] = Everyone was having fun and taking care of him.
+# labels = complete anno-fran
+1	Гэчевкы	гэчевкы	NOUN	_	_	2	obl	_	Gloss=развлечение-LOC
+2	нынтыӄин	рытык	VERB	_	Valency=2	0	root	_	Gloss=ST-иметь-ST.3SG
+3	таӈкоԓё	коԓё	ADV	_	_	5	advmod	_	Gloss=GOOD-очень
+4	ынкы	ын	PRON	_	_	5	obl	_	Gloss=тот-LOC
+5	ныгынритӄин	гынритык	VERB	_	Valency=2	2	parataxis	_	Gloss=ST-защищать-ST.3SG|SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Abramovich:5
+# text = Ԓюутэ Абрамович ӈыронвертолёта вакъогъэ нэмыӄэй.
+# text[phon] = ɬuute abramowič ŋəronwertalʲota wakʔoɣʔe neməqej
+# text[rus] = Вдруг Абрамович на трёх вертолётах приземлился тоже.
+# text[eng] = Suddenly, three helicopters landed and Abramovich was there.
+# text[eng'] = Suddenly, Abramovich landed with three helicopters as well.
+# labels = complete anno-fran
+1-2	Ԓюутэ	_	_	_	_	_	_	_	Gloss=вдруг-=PTCL
+1	Ԓюут	Ԓюут	ADV	_	_	6	advmod	_	Gloss=вдруг
+2	э	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3	Абрамович	Абрамович	PROPN	_	_	6	nsubj	_	Gloss=Абрамович-NOM.SG
+4-5	ӈыронвертолёта	_	_	_	_	_	_	_	Gloss=три-вертолёт-INS
+4	ӈырон	ӈыроӄ	NUM	_	NumType=Card	5	nummod	_	Gloss=три
+5	вертолёта	вертолёт	NOUN	_	_	6	obl	_	Gloss=вертолёт-INS
+6	вакъогъэ	вакъок	VERB	_	Valency=1	0	root	_	Gloss=2/3.S/A-садиться-TH-2/3SG.S
+7	нэмыӄэй	нэмыӄэй	ADV	_	_	6	advmod	_	Gloss=тоже|SpaceAfter=No
+8	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Abramovich:6
+# text = Медведев ивкэ ԓыгэн ынкы напэԓягъан йъэԓыги Абрамович наягнагъан.
+# text[phon] = medwedew iwke ɬəɣen ənkə napeɬaɣʔan jʔeɬəɣi abramowič najaɣnaɣʔan
+# text[rus] = Медведева, ничего не говоря, просто там оставили, и первым делом направились к Абрамовичу.
+# text[eng] = Without saying anything, everyone left Medvedev and headed to meet Abramovich.
+# labels = complete anno-fran
+1	Медведев	Медведев	PROPN	_	_	5	obj	_	Gloss=Медведев-NOM.SG
+2	ивкэ	ивык	VERB	_	_	5	advcl	_	Gloss=сказать-CAR-INS
+3	ԓыгэн	ԓыгэн	ADV	_	_	5	advmod	_	Gloss=просто
+4	ынкы	ын	PRON	_	_	5	obl	_	Gloss=тот-LOC
+5	напэԓягъан	пэԓяк	VERB	_	Valency=2	0	root	_	Gloss=LOW.A-оставлять-TH-3SG.O
+6	йъэԓыги	йъэԓыги	ADV	_	_	8	advmod	_	Gloss=в.первую.очередь
+7	Абрамович	Абрамович	PROPN	_	_	8	obj	_	Gloss=Абрамович-NOM.SG
+8	наягнагъан	ягнак	VERB	_	Valency=2	5	parataxis	_	Gloss=LOW.A-встречать-TH-3SG.O|SpaceAfter=No
+9	.	.	PUNCT	_	_	5	punct	_	_
+

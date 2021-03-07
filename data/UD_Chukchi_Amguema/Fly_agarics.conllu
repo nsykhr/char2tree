@@ -1,0 +1,116 @@
+# sent_id = Fly_agarics:1
+# text = Вапаӄат вапаӄат вапаӄат вапаӄат вапаӄат вапаӄат.
+# text[phon] = wapaqat wapaqat wapaqat wapaqat wapaqat wapaqat
+# text[rus] = Мухоморы, мухоморы, мухоморы, мухоморы, мухоморы, мухоморы.
+# text[eng] = Fly agarics, fly agarics, fly agarics, fly agarics, fly agarics, fly agarics.
+# labels = complete-dep anno-karina
+1	Вапаӄат	_	NOUN	_	_	0	root	_	Gloss=мухомор-NOM.PL
+2	вапаӄат	_	NOUN	_	_	1	parataxis	_	Gloss=мухомор-NOM.PL
+3	вапаӄат	_	NOUN	_	_	2	parataxis	_	Gloss=мухомор-NOM.PL
+4	вапаӄат	_	NOUN	_	_	3	parataxis	_	Gloss=мухомор-NOM.PL
+5	вапаӄат	_	NOUN	_	_	4	parataxis	_	Gloss=мухомор-NOM.PL
+6	вапаӄат	_	NOUN	_	_	5	parataxis	_	Gloss=мухомор-NOM.PL
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Fly_agarics:2
+# text = Вапаӄат гымнин.
+# text[phon] = wapaqat ɣəmnin
+# text[rus] = Мухоморы мои?
+# text[eng] = Are (these) fly agarics mine?
+# labels = complete-dep anno-karina
+1	Вапаӄат	_	NOUN	_	_	0	root	_	Gloss=мухомор-NOM.PL
+2	гымнин	_	PRON	_	_	1	nmod:poss	_	Gloss=я-AN.GEN
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Fly_agarics:3
+# text = Вапаӄат эʼми.
+# text[phon] = wapaqat ʔemi
+# text[rus] = Мухоморы где?
+# text[eng] = Where are the fly agarics?
+# labels = complete-dep anno-karina
+1	Вапаӄат	_	NOUN	_	_	0	root	_	Gloss=мухомор-NOM.PL
+2	эʼми	эʼми	ADV	_	_	1	advmod	_	Gloss=где
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Fly_agarics:4
+# text = Вапаӄат уйӈэ.
+# text[phon] = wapaqat ujŋe
+# text[rus] = Мухоморов нет!
+# text[eng] = There are no fly agarics!
+# labels = complete-dep anno-karina
+1	Вапаӄат	_	NOUN	_	_	2	nsubj	_	Gloss=мухомор-NOM.PL
+2	уйӈэ	уйӈэ	VERB	_	_	0	root	_	Gloss=нет
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Fly_agarics:5
+# text = Уйӈэ.
+# text[phon] = ujŋe
+# text[rus] = Нет!
+# text[eng] = No!
+# labels = complete-dep anno-karina
+1	Уйӈэ	уйӈэ	VERB	_	_	0	root	_	Gloss=нет
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Fly_agarics:6
+# text = Уйӈэ.
+# text[phon] = ujŋe
+# text[rus] = Нет!
+# text[eng] = No!
+# labels = complete-dep anno-karina
+1	Уйӈэ	уйӈэ	VERB	_	_	0	root	_	Gloss=нет
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Fly_agarics:7
+# text = Уйӈэ.
+# text[phon] = ujŋe
+# text[rus] = Нет!
+# text[eng] = No!
+# labels = complete-dep anno-karina
+1	Уйӈэ	уйӈэ	VERB	_	_	0	root	_	Gloss=нет
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Fly_agarics:8
+# text = Уйӈэ.
+# text[phon] = ujŋe
+# text[rus] = Нет!
+# text[eng] = No!
+# labels = complete-dep anno-karina
+1	Уйӈэ	уйӈэ	VERB	_	_	0	root	_	Gloss=нет
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Fly_agarics:9
+# text = Ванныт рынныт ванныт рынныт ванныт рынныт ванныт рынныт ванныт рынныт ванныт рынныт ванныт рынныт ванныт рынныт.
+# text[phon] = wannət rənnət wannət rənnət wannət rənnət wannət rənnət wannət rənnət wannət rənnət wannət rənnət wannət rənnət
+# text[rus] = Зубы (и) рога, зубы (и) рога, зубы (и) рога, зубы (и) рога, зубы (и) рога, зубы (и) рога, зубы (и) рога, зубы (и) рога.
+# text[eng] = Teeth (and) horns, teeth (and) horns, teeth (and) horns, teeth (and) horns, teeth (and) horns, teeth (and) horns, teeth (and) horns, teeth (and) horns.
+# labels = complete-dep anno-karina
+1	Ванныт	_	NOUN	_	_	0	root	_	Gloss=зуб-NOM.PL
+2	рынныт	_	NOUN	_	_	1	conj	_	Gloss=рог-NOM.PL
+3	ванныт	_	NOUN	_	_	1	parataxis	_	Gloss=зуб-NOM.PL
+4	рынныт	_	NOUN	_	_	3	conj	_	Gloss=рог-NOM.PL
+5	ванныт	_	NOUN	_	_	3	parataxis	_	Gloss=зуб-NOM.PL
+6	рынныт	_	NOUN	_	_	5	conj	_	Gloss=рог-NOM.PL
+7	ванныт	_	NOUN	_	_	5	parataxis	_	Gloss=зуб-NOM.PL
+8	рынныт	_	NOUN	_	_	7	conj	_	Gloss=рог-NOM.PL
+9	ванныт	_	NOUN	_	_	7	parataxis	_	Gloss=зуб-NOM.PL
+10	рынныт	_	NOUN	_	_	9	conj	_	Gloss=рог-NOM.PL
+11	ванныт	_	NOUN	_	_	9	parataxis	_	Gloss=зуб-NOM.PL
+12	рынныт	_	NOUN	_	_	11	conj	_	Gloss=рог-NOM.PL
+13	ванныт	_	NOUN	_	_	11	parataxis	_	Gloss=зуб-NOM.PL
+14	рынныт	_	NOUN	_	_	13	conj	_	Gloss=рог-NOM.PL
+15	ванныт	_	NOUN	_	_	13	parataxis	_	Gloss=зуб-NOM.PL
+16	рынныт	_	NOUN	_	_	15	conj	_	Gloss=рог-NOM.PL
+17	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Fly_agarics:10
+# text = Аны вай ӈавԓыӄай мынрагтымык.
+# text[phon] = anə waj ŋawɬəqaj mənraɣtəmək
+# text[rus] = Ну же, двоюродная сестричка, пойдём домой.
+# text[eng] = Come on, cousin, let's go home.
+# labels = complete-dep anno-karina
+1	Аны	аны	PART	_	_	4	discourse	_	Gloss=давай
+2	вай	вай	PART	_	_	4	discourse	_	Gloss=вот
+3	ӈавԓыӄай	ӈавԓыӄай	NOUN	_	_	4	vocative	_	Gloss=женщина-DIM-NOM.SG
+4	мынрагтымык	_	VERB	_	_	0	root	_	Gloss=1PL.S/A.SUBJ-жилище-GO.TO-1PL.S/O
+5	.	.	PUNCT	_	_	4	punct	_	_
+

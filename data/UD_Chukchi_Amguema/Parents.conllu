@@ -1,0 +1,87 @@
+# sent_id = Parents:1
+# text = Гымнин ытԓьат Ыʼттъуви ынкъам Оʼмрытвааԓ.
+# text[phon] = ɣəmnin ətɬʔat ʔəttʔuwi ənkʔam ʔomrətwaaɬ
+# text[rus] = Мои родители Ы’ттъуви и О’мрытваль.
+# text[eng] = My parents were Yttuwi and Omrytwaal.
+# labels = complete anno-fran
+1	Гымнин	гым	PRON	_	_	2	nmod:poss	_	Gloss=я-AN.GEN
+2	ытԓьат	ытԓя	NOUN	_	_	3	nsubj	_	Gloss=мать-NOM.PL
+3	Ыʼттъуви	Ыʼттъуви	PROPN	_	_	0	root	_	Gloss=Ыттуви-NOM.SG
+4	ынкъам	ынкъам	CCONJ	_	_	5	cc	_	Gloss=и
+5	Оʼмрытвааԓ	Оʼмрытвааԓ	PROPN	_	_	3	conj	_	Gloss=Омрытваль-NOM.SG
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Parents:2
+# text = Пууръу эпы гымнин оʼм Оʼмрыквот нэмыӄэй ӄорагынрэтыԓьо нитӄин.
+# text[phon] = puurʔu epə ɣəmnin ʔom ʔomrəkwot neməqej qoraɣənretəɬʔo nitqin
+# text[rus] = Мой дедушка О’мрыквот тоже был оленеводом.
+# text[eng] = My grandfather Omrykwot was a reindeer herder, too.
+# labels = complete-dep anno-fran
+1	Пууръу	_	ADV	_	_	7	cc	_	Gloss=взамен
+2	эпы	эпы	NOUN	_	_	7	nsubj	_	Gloss=дедушка-NOM.SG
+3	гымнин	_	PRON	_	_	2	nmod:poss	_	Gloss=я-AN.GEN
+4	оʼм	оʼм	X	_	_	5	reparandum	_	Gloss=FST
+5	Оʼмрыквот	Оʼмрыквот	PROPN	_	_	2	appos	_	Gloss=Омрыквот-NOM.SG
+6	нэмыӄэй	нэмыӄэй	ADV	_	_	7	advmod	_	Gloss=тоже
+7	ӄорагынрэтыԓьо	ӄорагынрэтыԓьын	NOUN	_	_	0	root	_	Gloss=олень-защищать-ATTR-EQU
+8	нитӄин	итык	AUX	_	Valency=1	7	cop	_	Gloss=ST-являться-ST.3SG
+9	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = Parents:3
+# text = Гымнин ытԓыгыт ытԓьатэ ӄонпы эмнуӈкы нымигчирэтӄинэт нэмыӄэй ӄорагынрэтыԓьо нитӄинэт.
+# text[phon] = ɣəmnin ətɬəɣət ətɬʔate qonpə emnuŋkə nəmiɣsiretqinet neməqej qoraɣənretəɬʔo nitqinet
+# text[rus] = Мои родители всё время работали в тундре, тоже оленеводами были.
+# text[eng] = My parents worked all the time in the tundra, they were also reindeer herders.
+# labels = complete-dep anno-fran
+1	Гымнин	_	PRON	_	_	2	nmod:poss	_	Gloss=я-AN.GEN
+2	ытԓыгыт	ытԓыгын	NOUN	_	_	7	nsubj	_	Gloss=отец-NOM.PL
+3-4	ытԓьатэ	_	_	_	_	_	_	_	Gloss=мать-PL-=PTCL
+3	ытԓьат	_	NOUN	_	_	2	conj	_	Gloss=мать-PL
+4	э	а	PART	_	_	3	advmod:emph	_	Gloss=PTCL
+5	ӄонпы	_	ADV	_	_	6	advmod	_	Gloss=всегда
+6	эмнуӈкы	_	NOUN	_	_	7	obl	_	Gloss=тундра-LOC
+7	нымигчирэтӄинэт	_	VERB	_	Valency=1	0	root	_	Gloss=ST-работа-VB-ST.3SG-PL
+8	нэмыӄэй	нэмыӄэй	ADV	_	_	9	advmod	_	Gloss=тоже
+9	ӄорагынрэтыԓьо	ӄорагынрэтыԓьын	NOUN	_	_	7	parataxis	_	Gloss=олень-защищать-ATTR-EQU
+10	нитӄинэт	итык	AUX	_	Valency=1	9	cop	_	Gloss=ST-являться-ST.3SG-PL
+11	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = Parents:4
+# text = Ынкъам мури гачакэттомга гэ гэегтэԓмури Каврагыргын ынкъам гым.
+# text[phon] = ənkʔam muri ɣasakettomɣa ɣe ɣejeɣteɬmuri kawraɣərɣən ənkʔam ɣəm
+# text[rus] = И мы с сестрой выжили, Каврагыргына и я.
+# text[eng] = And my sister and I survived, Kawragyrgyn and me.
+# labels = complete-dep anno-karina
+1	Ынкъам	ынкъам	CCONJ	_	_	5	cc	_	Gloss=и
+2	мури	мури	PRON	_	Case=Abs	5	nsubj	_	Gloss=мы
+3	гачакэттомга	чакэттомгын	NOUN	_	_	2	obl	_	Gloss=COM-сестра-друг-INS
+4	гэ	гэ	X	_	_	5	reparandum	_	Gloss=FST
+5	гэегтэԓмури	_	VERB	_	Valency=2	0	root	_	Gloss=PF-спастись-NP.1PL
+6	Каврагыргын	Каврагыргын	PROPN	_	_	5	dislocated	_	Gloss=Каврагыргин-NOM.SG
+7	ынкъам	ынкъам	CCONJ	_	_	8	cc	_	Gloss=и
+8	гым	гым	PRON	_	_	6	conj	_	Gloss=я
+9	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Parents:5
+# text = Ытръэче ӈирэӄ нэнэнэт вагъэт.
+# text[phon] = ətrʔese ŋireq nenenet waɣʔet
+# text[rus] = Только два ребёнка осталось.
+# text[eng] = Only two children survived.
+# labels = complete-dep anno-karina
+1-2	Ытръэче	_	_	_	_	_	_	_	Gloss=только-=PTCL
+1	Ытръэч	_	ADV	_	_	5	advmod	_	Gloss=только
+2	е	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3	ӈирэӄ	ӈирэӄ	NUM	_	NumType=Card	4	nummod	_	Gloss=два
+4	нэнэнэт	_	NOUN	_	_	5	nsubj	_	Gloss=ребёнок-NOM.PL
+5	вагъэт	_	AUX	_	_	0	root	_	Gloss=2/3.S/A-быть-TH-PL
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Parents:6
+# text = Ытръэч.
+# text[phon] = ətrʔes
+# text[rus] = Всё.
+# text[eng] = That’s all.
+# labels = complete-dep anno-karina
+1	Ытръэч	ытръэч	ADV	_	_	0	root	_	Gloss=только
+2	.	.	PUNCT	_	_	1	punct	_	_
+

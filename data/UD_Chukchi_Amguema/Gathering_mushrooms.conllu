@@ -1,0 +1,177 @@
+# sent_id = Gathering_mushrooms:1
+# text = Айвэ гым чит нъаԓегы нъанэԓёсӄэвым.
+# text[phon] = ajwe ɣəm sit nʔaɬeɣə nʔaneɬosqewəm
+# text[rus] = KTV: — Вчера я пошла было на рыбалку.
+# text[eng] = KTV: — Yesterday I went fishing.
+# labels = complete-dep anno-fran
+1	Айвэ	_	ADV	_	_	5	advmod	_	Gloss=вчера
+2	гым	гым	PRON	_	Case=Abs	5	nsubj	_	Gloss=я
+3	чит	чит	AUX	_	_	5	discourse	_	Gloss=было
+4	нъаԓегы	нъаԓегы	X	_	_	5	reparandum	_	Gloss=FST
+5	нъанэԓёсӄэвым	_	VERB	_	Valency=1	0	root	_	Gloss=ST-удить-MCP-NP.1SG
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Gathering_mushrooms:2
+# text = Ԓюутэ пъомпъоӈыт тыԓьунэт ԓгинымкыӄин.
+# text[phon] = ɬuute pʔompʔoŋət təɬʔunet ɬɣinəmkəqin
+# text[rus] = KTV: Вдруг увидела очень много грибов.
+# text[eng] = KTV: Suddenly, I saw many mushrooms.
+# labels = complete-dep anno-fran
+1-2	Ԓюутэ	_	_	_	_	_	_	_	Gloss=вдруг-=PTCL
+1	Ԓюут	Ԓюут	ADV	_	_	4	advmod	_	Gloss=вдруг
+2	э	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3	пъомпъоӈыт	_	NOUN	_	_	4	obj	_	Gloss=гриб-NOM.PL
+4	тыԓьунэт	ԓьук	VERB	_	_	0	root	_	Gloss=1SG.S/A-видеть-3SG.O-PL
+5	ԓгинымкыӄин	_	ADJ	_	_	4	parataxis	_	Gloss=INTS-ST-многий-ST.3SG
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Gathering_mushrooms:3
+# text = Ынкъам тыгэчеӈӈонат.
+# text[phon] = ənkʔam təɣeseŋŋonat
+# text[rus] = KTV: И начала их собирать.
+# text[eng] = KTV: I started gathering them.
+# labels = complete-dep anno-fran
+1	Ынкъам	ынкъам	CCONJ	_	_	2	cc	_	Gloss=и
+2	тыгэчеӈӈонат	гичик	VERB	_	_	0	root	_	Gloss=1SG.S/A-собирать-INCH-3SG.O-PL
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Gathering_mushrooms:4
+# text = Ынӄэн тынтыяатгъан аʼнэԓёвыргын ынӄо.
+# text[phon] = ənqen təntəjaatɣʔan ʔaneɬowərɣən ənqo
+# text[rus] = KTV: Забыла про рыбалку, потом...
+# text[eng] = KTV: And then I forgot about fishing.
+# labels = complete-dep anno-fran ənqen
+1	Ынӄэн	ынӄэн	PART	_	_	2	discourse	_	Gloss=DET
+2	тынтыяатгъан	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-забывать-VB-TH-3SG.O
+3	аʼнэԓёвыргын	аʼнэԓёвыргын	NOUN	_	_	2	obj	_	Gloss=удить-NMLZ-NOM.SG
+4	ынӄо	ынӄо	ADV	_	_	2	advmod	_	Gloss=потом
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Gathering_mushrooms:5
+# text = Тръиԓегъэ пъомпъоӈэты.
+# text[phon] = trʔiɬeɣʔe pʔompʔoŋetə
+# text[rus] = DMP: — Погналась за грибами [смех].
+# text[eng] = DMP: I hunted (lit. chased) the mushrooms [laughter].
+# labels = complete-dep anno-fran
+1	Тръиԓегъэ	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-участвовать.в.гонках-TH
+2	пъомпъоӈэты	_	NOUN	_	_	1	obl	_	Gloss=гриб-DAT
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Gathering_mushrooms:6
+# text = Тыгынтэгъэ пъомпъоӈэты.
+# text[phon] = təɣənteɣʔe pʔompʔoŋetə
+# text[rus] = KTV: — Убежала за грибами.
+# text[eng] = KTV: — Ran to pick mushrooms (lit. ran for mushrooms).
+# labels = complete-dep anno-fran
+1	Тыгынтэгъэ	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-убегать-TH
+2	пъомпъоӈэты	_	NOUN	_	_	1	obl	_	Gloss=гриб-DAT
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Gathering_mushrooms:7
+# text = Ынӄо мрэнэ гым нагтатэвым.
+# text[phon] = ənqo mrene ɣəm naɣtatewəm
+# text[rus] = KTV: Потом комары меня загоняли.
+# text[eng] = KTV: Then mosquitos tired me out.
+# labels = complete-dep anno-fran
+1	Ынӄо	ынӄо	ADV	_	_	4	advmod	_	Gloss=потом
+2	мрэнэ	_	NOUN	_	_	4	nsubj	_	Gloss=комар-INS
+3	гым	гым	PRON	_	_	4	obj	_	Gloss=я
+4	нагтатэвым	_	VERB	_	Valency=2	0	root	_	Gloss=ST-гнать-NP.1SG
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Gathering_mushrooms:8
+# text = Гым трагтыгъак.
+# text[phon] = ɣəm traɣtəɣʔak
+# text[rus] = KTV: Я пошла домой.
+# text[eng] = KTV: I went home.
+# labels = complete-dep anno-fran
+1	Гым	гым	PRON	_	_	2	nsubj	_	Gloss=я
+2	трагтыгъак	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-жилище-GO.TO-TH-1SG.S
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Gathering_mushrooms:9
+# text = Ага ярагты нагтатгыт.
+# text[phon] = ага jaraɣtə naɣtatɣət
+# text[rus] = DMP: — Ага, домой тебя пригнали.
+# text[eng] = DMP: — Yeah, they made you go home (lit. drove).
+# labels = complete-dep anno-fran
+1	Ага	ага	INTJ	_	_	3	discourse	_	Gloss=
+2	ярагты	_	NOUN	_	_	3	obl	_	Gloss=яранга-DAT
+3	нагтатгыт	_	VERB	_	_	0	root	_	Gloss=LOW.A-гнать-2SG.O
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Gathering_mushrooms:10
+# text = Ии ынкъам пъомпъоӈытэ тынмигчирэвнэт.
+# text[phon] = ii ənkʔam pʔompʔoŋəte tənmiɣsirewnet
+# text[rus] = KTV: — Да, и я грибы обработала.
+# text[eng] = KTV: — Yes, and I worked on the mushrooms.
+# labels = complete-dep anno-fran
+1	Ии	ии	INTJ	_	_	5	discourse	_	Gloss=да
+2	ынкъам	ынкъам	CCONJ	_	_	5	cc	_	Gloss=и
+3-4	пъомпъоӈытэ	_	_	_	_	_	_	_	Gloss=гриб-NOM.PL-=PTCL
+3	пъомпъоӈыт	_	NOUN	_	_	5	obj	_	Gloss=гриб-NOM.PL
+4	э	а	PART	_	_	3	advmod:emph	_	Gloss=PTCL
+5	тынмигчирэвнэт	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-TR-работа-CS-3SG.O-PL
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Gathering_mushrooms:11
+# text = Тынититынэт игыт.
+# text[phon] = tənititənet iɣət
+# text[rus] = KTV: Сварила сегодня.
+# text[eng] = KTV: Cooked them today.
+# labels = complete-dep anno-fran
+1	Тынититынэт	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-TR-вариться-3SG.O-PL
+2	игыт	игыр	ADV	_	_	1	advmod	_	Gloss=сегодня
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Gathering_mushrooms:12
+# text = Тынчикунэт.
+# text[phon] = tənsikunet
+# text[rus] = DMP: — Обработала.
+# text[eng] = DMP: — I prepared them.
+# labels = complete-dep anno-fran
+1	Тынчикунэт	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-обрабатывать-3SG.O-PL
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Gathering_mushrooms:13
+# text = А.
+# text[phon] = а
+# text[rus] = KTV: — А?
+# text[eng] = KTV: — Huh?
+# labels = complete-dep anno-fran
+1	А	а	INTJ	_	_	0	root	_	Gloss=
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Gathering_mushrooms:14
+# text = Тынчикунэт.
+# text[phon] = tənsikunet
+# text[rus] = DMP: — Обработала.
+# text[eng] = DMP: — I prepared them.
+# labels = complete-dep anno-fran
+1	Тынчикунэт	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-обрабатывать-3SG.O-PL
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Gathering_mushrooms:15
+# text = Тынчикунэт.
+# text[phon] = tənsikunet
+# text[rus] = KTV: — Обработала.
+# text[eng] = KTV: — I prepared them.
+# labels = complete-dep anno-fran
+1	Тынчикунэт	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-обрабатывать-3SG.O-PL
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Gathering_mushrooms:16
+# text = И тынититынэт ынкъам игыт вай ӈан ӈоонӄэн.
+# text[phon] = i tənititənet ənkʔam iɣət waj ŋan ŋoonqen
+# text[rus] = KTV: И сварила их и сегодня, вот так вот...
+# text[eng] = KTV: And cooked them today, this is it...
+# labels = complete-dep anno-fran
+1	И	_	CCONJ	_	_	2	cc	_	Gloss=и
+2	тынититынэт	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-TR-вариться-3SG.O-PL
+3	ынкъам	ынкъам	CCONJ	_	_	4	cc	_	Gloss=и
+4	игыт	игыр	ADV	_	_	2	conj	_	Gloss=сегодня
+5	вай	вай	ADV	_	_	4	parataxis	_	Gloss=вот
+6	ӈан	ӈан	ADV	_	_	4	parataxis	_	Gloss=DEICT
+7	ӈоонӄэн	ӈоонӄэн	ADV	_	_	4	parataxis	_	Gloss=вон.тот
+8	.	.	PUNCT	_	_	2	punct	_	_
+

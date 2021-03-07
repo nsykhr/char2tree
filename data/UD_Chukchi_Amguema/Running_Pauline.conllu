@@ -1,0 +1,43 @@
+# sent_id = Running_Pauline:1
+# text = Гытэӈпыԓытъымкытгынтыйъакытгынтыпалина.
+# text[phon] = ɣəteŋpəɬətʔəmkətɣəntəjʔakətɣəntəpalʲina
+# text[rus] = Красивая, стройная, (бегущая,) быстро бегущая Полина.
+# text[eng] = Beautiful, fit, (running,) running fast Polina.
+# labels = complete-dep anno-fran unclear-morph
+1-6	Гытэӈпыԓытъымкытгынтыйъакытгынтыпалина	_	_	_	_	_	_	_	Gloss=красивый-стройный-бежать-VERY-бежать-Полина
+1	Гытэӈ	_	ADJ	_	_	6	amod	_	Gloss=красивый
+2	пыԓытъым	_	ADJ	_	_	6	amod	_	Gloss=стройный
+3	кытгынт	_	VERB	_	_	6	acl	_	Gloss=бежать
+4	ыйъа	_	ADV	_	_	5	advmod	_	Gloss=VERY
+5	кытгынты	_	VERB	_	_	6	acl	_	Gloss=бежать
+6	палина	Полина	PROPN	_	_	0	root	_	Gloss=Полина
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Running_Pauline:2
+# text = Гытэӈйъапыԓытъымкытгынтыпалина.
+# text[phon] = ɣəteŋjʔapəɬətʔəmkətɣəntəpalʲina
+# text[rus] = Красивая, очень стройная, бегущая Полина.
+# text[eng] = Beautiful, really fit, running Polina.
+# labels = complete-dep anno-fran unclear-morph
+1-5	Гытэӈйъапыԓытъымкытгынтыпалина	_	_	_	_	_	_	_	Gloss=красивый-VERY-стройный-бежать-Полина
+1	Гытэӈ	_	ADJ	_	_	5	amod	_	Gloss=красивый
+2	йъа	_	ADV	_	_	3	advmod	_	Gloss=VERY
+3	пыԓытъым	_	ADJ	_	_	5	amod	_	Gloss=стройный
+4	кытгынты	_	VERB	_	_	5	acl	_	Gloss=бежать
+5	палина	Полина	PROPN	_	_	0	root	_	Gloss=Полина
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Running_Pauline:3
+# text = Гытэӈйъапыԓытъымкытгынтыарина.
+# text[phon] = ɣəteŋjʔapəɬətʔəmkətɣəntəarʲina
+# text[rus] = Красивая, очень стройная, бегущая Арина.
+# text[eng] = Beautiful, really fit, running Arina.
+# labels = complete-dep anno-fran unclear-morph
+1-5	Гытэӈйъапыԓытъымкытгынтыарина	_	_	_	_	_	_	_	Gloss=красивый-VERY-стройный-бежать-Арина
+1	Гытэӈ	_	ADJ	_	_	5	amod	_	Gloss=красивый
+2	йъа	_	ADV	_	_	3	advmod	_	Gloss=VERY
+3	пыԓытъым	_	ADJ	_	_	5	amod	_	Gloss=стройный
+4	кытгынты	_	VERB	_	_	5	acl	_	Gloss=бежать
+5	арина	Арина	PROPN	_	_	0	root	_	Gloss=Полина
+6	.	.	PUNCT	_	_	5	punct	_	_
+

@@ -1,0 +1,145 @@
+# sent_id = Grass:1
+# text = Мури Ӈакаԓгын Ынмынкав гым ынкъам ӄоԓьым Наташа Канунникава.
+# text[phon] = muri ŋakaɬɣən ənmənkaw ɣəm ənkʔam qoɬʔəm nataša kanunnʲikawa
+# text[rus] = Мы — Накаль, Ынмынкау, я и это… Наташа Канунникова…
+# text[eng] = We—Ngakalgyn, Ynmynkaw, me and… Natasha Kanunnikova…
+# labels = complete-dep anno-fran unclear-syntax
+1	Мури	мури	PRON	_	_	0	root	_	Gloss=мы
+2	Ӈакаԓгын	Ӈакаԓгын	PROPN	_	_	1	appos	_	Gloss=Накаль-NOM.SG
+3	Ынмынкав	Ынмынкав	PROPN	_	_	2	conj	_	Gloss=Ынмынкау-NOM.SG
+4	гым	гым	PRON	_	_	2	conj	_	Gloss=я
+5	ынкъам	ынкъам	CCONJ	_	_	9	cc	_	Gloss=и
+6-7	ӄоԓьым	_	_	_	_	_	_	_	Gloss=некий-=EMPH
+6	ӄоԓ	_	PRON	_	_	8	discourse	_	Gloss=некий
+7	ьым	ъм	PART	_	_	6	advmod:emph	_	Gloss=EMPH
+8	Наташа	Наташа	PROPN	_	_	2	conj	_	Gloss=Наташа-NOM.SG
+9	Канунникава	Канунникава	PROPN	_	_	8	flat:name	_	Gloss=Канунникова-NOM.SG
+10	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Grass:2
+# text = Тэӈ тэӈкэԓиткукы танӈынотагты нэнӈивмык.
+# text[phon] = teŋ teŋkeɬitkukə tanŋənotaɣtə nenŋiwmək
+# text[rus] = Мы хорошо учились, и нас отправили на материк.
+# text[eng] = We studied well and were sent to the “mainland”.
+# labels = complete-dep anno-fran
+1	Тэӈ	_	ADJ	_	_	2	advmod	_	Gloss=хороший
+2-3	тэӈкэԓиткукы	_	_	_	_	_	_	_	Gloss=GOOD-писать-ITER-LOC-=PTCL
+2	тэӈкэԓиткук	_	VERB	_	_	5	advcl	_	Gloss=GOOD-писать-ITER-LOC
+3	ы	а	PART	_	_	2	advmod:emph	_	Gloss=PTCL
+4	танӈынотагты	_	NOUN	_	_	5	obl	_	Gloss=чужеземец-страна-DAT
+5	нэнӈивмык	тыӈивык	VERB	_	_	0	root	_	Gloss=LOW.A-отправить-1PL.S/O
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Grass:3
+# text = Ынкъам акватыӈӈок нивӄинэт рэпкирӈытык танӈынотак ынӈэ ив ынӈэ ынӈэ аг агтывэ агтывэтгавыԓьаткэ.
+# text[phon] = ənkʔam akwatəŋŋok niwqinet repkirŋətək tanŋənotak ənŋe iw ənŋe ənŋe aɣ aɣtəwe aɣtəwetɣawəɬʔatke
+# text[rus] = И перед отъездом нам сказали: «Когда приедете на материк, не надо кричать громко».
+# text[eng] = And before leaving, they told us: «When you arrive on the “mainland”, you should not scream loudly».
+# labels = complete-dep anno-fran
+1	Ынкъам	ынкъам	CCONJ	_	_	3	cc	_	Gloss=и
+2	акватыӈӈок	_	VERB	_	_	3	advcl	_	Gloss=отправляться-INCH-LOC
+3	нивӄинэт	ивык	VERB	_	Valency=2	0	root	_	Gloss=ST-сказать-ST.3SG-PL
+4	рэпкирӈытык	_	VERB	_	Valency=1	3	parataxis:speech	_	Gloss=2/3.S/A-FUT-прибывать-FUT-2PL.S/O
+5	танӈынотак	_	NOUN	_	_	4	obl	_	Gloss=чужеземец-страна-LOC
+6	ынӈэ	ынӈэ	AUX	_	_	12	aux	_	Gloss=PROH
+7	ив	ив	X	_	_	8	reparandum	_	Gloss=FST
+8	ынӈэ	ынӈэ	AUX	_	_	12	aux	_	Gloss=PROH
+9	ынӈэ	ынӈэ	AUX	_	_	12	aux	_	Gloss=PROH
+10	аг	аг	X	_	_	12	reparandum	_	Gloss=FST
+11	агтывэ	агтывэ	X	_	_	12	reparandum	_	Gloss=FST
+12	агтывэтгавыԓьаткэ	_	VERB	_	_	4	advcl	_	Gloss=CAR-HARD-говорить-PLAC-CAR-INS
+13	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Grass:4
+# text = Ӄыгитэ нымэйыӈӄинэтэ умкыт.
+# text[phon] = qəɣite nəmejəŋqinete umkət
+# text[rus] = «Cмотри, большие кусты!».
+# text[eng] = «Look at this, what big bushes!».
+# labels = complete-dep anno-fran unclear-syntax
+1	Ӄыгитэ	_	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-смотреть
+2-3	нымэйыӈӄинэтэ	_	_	_	_	_	_	_	Gloss=ST-большой-ST.3SG-PL-=PTCL
+2	нымэйыӈӄинэт	_	ADJ	_	_	1	parataxis	_	Gloss=ST-большой-ST.3SG-PL
+3	э	а	PART	_	_	2	advmod:emph	_	Gloss=PTCL
+4	умкыт	_	NOUN	_	_	2	nsubj	_	Gloss=куст-NOM.PL
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Grass:5
+# text = Танӈынотак мытыпкирмыкъым.
+# text[phon] = tanŋənotak mətəpkirməkʔəm
+# text[rus] = Мы приехали на материк.
+# text[eng] = We arrived on the “mainland”.
+# labels = complete-dep anno-fran
+1	Танӈынотак	_	NOUN	_	_	2	obl	_	Gloss=чужеземец-страна-LOC
+2-3	мытыпкирмыкъым	_	_	_	_	_	_	_	Gloss=1PL.S/A-прибывать-1PL.S/O-=EMPH
+2	мытыпкирмык	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-прибывать-1PL.S/O
+3	ъым	ъм	PART	_	_	2	advmod:emph	_	Gloss=EMPH
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Grass:6
+# text = Мытԓьунэт нымэйыӈӄинэт умкытэ.
+# text[phon] = mətɬʔunet nəmejəŋqinet umkəte
+# text[rus] = Мы увидели большие кусты.
+# text[eng] = We saw big bushes.
+# labels = complete-dep anno-fran unclear-syntax
+1	Мытԓьунэт	ԓьук	VERB	_	_	0	root	_	Gloss=1PL.S/A-видеть-3SG.O-PL
+2	нымэйыӈӄинэт	_	ADJ	_	_	3	amod	_	Gloss=ST-большой-ST.3SG-PL
+3-4	умкытэ	_	_	_	_	_	_	_	Gloss=куст-NOM.PL-=PTCL
+3	умкыт	_	NOUN	_	_	1	obj	_	Gloss=куст-NOM.PL
+4	э	а	PART	_	_	3	advmod:emph	_	Gloss=PTCL
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Grass:7
+# text = Ӈакаԓгын гымнан тиквъэн ӄыгитэ нытэӈӄинэт въэгти.
+# text[phon] = ŋakaɬɣən ɣəmnan tikwʔen qəɣite nəteŋqinet wʔeɣti
+# text[rus] = Я сказала Накаль: «Cмотри, какая хорошая трава!».
+# text[eng] = I told Ngakalgyn: «Look here, what a good grass!».
+# labels = complete-dep anno-fran unclear-syntax
+1	Ӈакаԓгын	Ӈакаԓгын	PROPN	_	_	3	obj	_	Gloss=Накаль-NOM.SG
+2	гымнан	гым	PRON	_	_	3	nsubj	_	Gloss=я-INS
+3	тиквъэн	_	VERB	_	Valency=2	0	root	_	Gloss=1SG.S/A-сказать-TH-3SG.O
+4	ӄыгитэ	_	VERB	_	_	3	parataxis:speech	_	Gloss=2.S/A.SUBJ-смотреть
+5	нытэӈӄинэт	_	ADJ	_	_	3	parataxis:speech	_	Gloss=ST-хороший-ST.3SG-PL
+6	въэгти	_	NOUN	_	_	5	nsubj	_	Gloss=трава-NOM.PL
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Grass:8
+# text = Мурыгрээн кэԓиныгйивэтыԓьын нивӄин иаʼмэ майӈывэтгавыркынэтык ынӄэн нэгитэркынитык.
+# text[phon] = murəɣreen keɬinəɣjiwetəɬʔən niwqin iʔame majŋəwetɣawərkənetək ənqen neɣiterkənitək
+# text[rus] = Учительница, [которая была] с нами, сказала: «Зачем громко говорите, на вас смотрят».
+# text[eng] = The teacher [who was] with us said: «Why are you speaking so loudly, they are looking at you».
+# labels = complete-dep anno-fran ənqen
+1-2	Мурыгрээн	_	_	_	_	_	_	_	Gloss=мы-POSS.INC-=с
+1	Мурыг	_	PRON	_	_	3	nmod	3:nmod	Gloss=мы-POSS.INC
+2	рээн	_	ADP	_	_	1	case	1:case	Gloss=с
+3	кэԓиныгйивэтыԓьын	кэԓиныгйивэтыԓьын	VERB	_	_	4	nsubj	4:nsubj	Gloss=писать-TR-знак-VB-ATTR-NOM.SG
+4	нивӄин	ивык	VERB	_	Valency=1	0	root	0:root	Gloss=ST-сказать-ST.3SG
+5-6	иаʼмэ	_	_	_	_	_	_	_	Gloss=почему-=PTCL
+5	иаʼм	_	ADV	_	_	4	advmod	4:advmod	Gloss=почему
+6	э	а	PART	_	_	5	advmod:emph	5:advmod:emph	Gloss=PTCL
+7	майӈывэтгавыркынэтык	_	VERB	_	Incorporated[dep]=Yes	4	parataxis:speech	4:parataxis:speech	Gloss=большой-говорить-IPFV-2PL.S/O
+7.1	майӈ	майӈ	ADJ	_	Incorporated=Yes	_	_	7:dep	Gloss=большой
+8	ынӄэн	ынӄэн	PART	_	_	9	discourse	9:discourse	Gloss=DET
+9	нэгитэркынитык	гитэк	VERB	_	_	4	parataxis:speech	4:parataxis:speech	Gloss=LOW.A-смотреть-IPFV-2PL.S/O
+10	.	.	PUNCT	_	_	4	punct	4:punct	_
+
+# sent_id = Grass:9
+# text = Гымнанъым тиквъэн ванэ ӄивтык ынӄэнэ въэ въэгти энмэн тыԓьунэт.
+# text[phon] = ɣəmnanʔəm tikwʔen wane qiwtək ənqene wʔe wʔeɣti enmen təɬʔunet
+# text[rus] = Я сказала: «Неужели нельзя говорить, траву же увидела».
+# text[eng] = I said: «Is it really prohibited to talk when I saw the grass?».
+# labels = complete-dep anno-fran ənqen
+1-2	Гымнанъым	_	_	_	_	_	_	_	Gloss=я-INS-=EMPH
+1	Гымнан	_	PRON	_	_	3	nsubj	_	Gloss=я-INS
+2	ъым	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	тиквъэн	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-сказать-TH-3SG.O
+4	ванэ	вак	AUX	_	_	5	aux	_	Gloss=NEG.NFUT
+5	ӄивтык	_	VERB	_	_	3	parataxis:speech	_	Gloss=2.S/A.SUBJ-сказать-2PL.S/O
+6-7	ынӄэнэ	_	_	_	_	_	_	_	Gloss=DET-=PTCL
+6	ынӄэн	_	PART	_	_	5	discourse	_	Gloss=DET
+7	э	а	PART	_	_	6	advmod:emph	_	Gloss=PTCL
+8	въэ	_	X	_	_	9	reparandum	_	Gloss=умереть
+9	въэгти	_	NOUN	_	_	11	obj	_	Gloss=трава-NOM.PL
+10	энмэн	энмэн	PART	_	_	11	discourse	_	Gloss=говорят
+11	тыԓьунэт	ԓьук	VERB	_	_	5	parataxis	_	Gloss=1SG.S/A-видеть-3SG.O-PL
+12	.	.	PUNCT	_	_	3	punct	_	_
+

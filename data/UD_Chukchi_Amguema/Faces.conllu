@@ -1,0 +1,87 @@
+# sent_id = Faces:1
+# text = Гатваԓенат ӈиръэ ӈэвъэнйыръын.
+# text[phon] = ɣatwaɬenat ŋirʔe ŋewʔenjərʔən
+# text[rus] = Жили-были две женщины.
+# text[eng] = Once upon a time there were two women.
+# labels = complete-dep anno-fran
+1	Гатваԓенат	вак	AUX	_	Valency=1	0	root	_	Gloss=PF-быть-PF.3SG-PL
+2	ӈиръэ	_	NUM	_	NumType=Card	3	nummod	_	Gloss=два
+3	ӈэвъэнйыръын	ӈэвъэнйыръын	NOUN	_	_	1	nsubj	_	Gloss=жена-содержимое-NOM.SG
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Faces:2
+# text = Ӄоԓ ковԓёвԓьоԓьынъым ӄоԓе ивԓыԓьуԓӄыԓԓьын.
+# text[phon] = qoɬ kowɬowɬʔoɬʔənʔəm qoɬe iwɬəɬʔuɬqəɬɬʔən
+# text[rus] = Одна круглолицая, другая длиннолицая.
+# text[eng] = One was chubby and the other one with a long face.
+# labels = complete-dep anno-fran
+1	Ӄоԓ	ӄоԓ	PRON	_	_	2	nsubj	2:nsubj	Gloss=некий
+2-3	ковԓёвԓьоԓьынъым	_	_	_	_	_	_	_	Gloss=круглый-видеть-ATTR-NOM.SG-=EMPH
+2	ковԓёвԓьоԓьын	ковԓёвԓьоԓьынъым	VERB	_	Incorporated[dep]=Yes	0	root	0:root	Gloss=круглый-видеть-ATTR-NOM.SG
+2.1	ковԓёв	кувԓюв	ADJ	_	Incorporated=Yes	_	_	2:dep	Gloss=круглый
+3	ъым	ъм	PART	_	_	2	advmod:emph	2:advmod:emph	Gloss=EMPH
+4-5	ӄоԓе	_	_	_	_	_	_	_	Gloss=некий-=PTCL
+4	ӄоԓ	ӄоԓ	PRON	_	_	6	nsubj	6:nsubj	Gloss=некий
+5	е	а	PART	_	_	4	advmod:emph	4:advmod:emph	Gloss=PTCL
+6	ивԓыԓьуԓӄыԓԓьын	ивԓыԓьуԓӄыԓԓьын	VERB	_	Incorporated[dep]=Yes	2	parataxis	2:parataxis	Gloss=длинный-видеть-DEB-ATTR-NOM.SG
+6.1	ивԓ	ивԓ	ADJ	_	Incorporated=Yes	_	_	6:dep	Gloss=длинный
+7	.	.	PUNCT	_	_	2	punct	2:punct	_
+
+# sent_id = Faces:3
+# text = Ынкъам гъэтйивԓинэт.
+# text[phon] = ənkʔam ɣʔetjiwɬinet
+# text[rus] = И они поссорились.
+# text[eng] = They had a fight.
+# labels = complete-dep anno-fran valency
+1	Ынкъам	ынкъам	CCONJ	_	_	2	cc	_	Gloss=и
+2	гъэтйивԓинэт	_	VERB	_	Valency=1	0	root	_	Gloss=PF-спорить-PF.3SG-PL
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Faces:4
+# text = Ӄоԓ ни нинивӄин.
+# text[phon] = qoɬ ni niniwqin
+# text[rus] = Одна другой говорит:
+# text[eng] = One says to the other one:
+# labels = complete-dep anno-fran
+1	Ӄоԓ	ӄоԓ	PRON	_	_	3	nsubj	_	Gloss=некий
+2	ни	ни	X	_	_	3	reparandum	_	Gloss=FST
+3	нинивӄин	ивык	VERB	_	Valency=2	0	root	_	Gloss=ST-INV-сказать-ST.3SG
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Faces:5
+# text = Гынин ԓьуԓӄыԓ ӄнут кокатчетъёԓгын.
+# text[phon] = ɣənin ɬʔuɬqəɬ qnut kokatsetjoɬɣən
+# text[rus] = «Твоё лицо — как подставка для кастрюли».
+# text[eng] = «Your face is like a stand for a pot.»
+# labels = complete-dep anno-fran
+1	Гынин	_	PRON	_	_	2	nmod:poss	_	Gloss=ты-GEN
+2	ԓьуԓӄыԓ	ԓьуԓӄыԓ	VERB	_	_	4	nsubj	_	Gloss=видеть-DEB-NOM.SG
+3	ӄнут	_	ADV	_	_	4	advmod	_	Gloss=как
+4	кокатчетъёԓгын	кокатчетъёԓгын	NOUN	_	_	0	root	_	Gloss=котелок-класть-CONT-NOM.SG
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Faces:6
+# text = Ӄоԓьым иквъи.
+# text[phon] = qoɬʔəm ikwʔi
+# text[rus] = Другая отвечает:
+# text[eng] = The other one replies:
+# labels = complete-dep anno-fran
+1-2	Ӄоԓьым	_	_	_	_	_	_	_	Gloss=некий-=EMPH
+1	Ӄоԓ	ӄоԓ	PRON	_	_	3	nsubj	_	Gloss=некий
+2	ьым	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	иквъи	икын	VERB	_	Valency=2	0	root	_	Gloss=2/3.S/A-сказать-TH-2/3SG.S
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Faces:7
+# text = Гынинъым ӄнут рэпаԓӄыёԓгын.
+# text[phon] = ɣəninʔəm qnut repaɬqəjoɬɣən
+# text[rus] = «А твоё — как грузовая нарта».
+# text[eng] = «And yours is like a cargo sledge.»
+# labels = complete-dep anno-fran
+1-2	Гынинъым	_	_	_	_	_	_	_	Gloss=ты-GEN-=EMPH
+1	Гынин	_	PRON	_	_	4	nsubj	_	Gloss=ты-GEN
+2	ъым	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	ӄнут	_	ADV	_	_	4	advmod	_	Gloss=как
+4	рэпаԓӄыёԓгын	рэпаԓӄыёԓгын	NOUN	_	_	0	root	_	Gloss=моржовая.шкура-CONT-NOM.SG
+5	.	.	PUNCT	_	_	4	punct	_	_
+

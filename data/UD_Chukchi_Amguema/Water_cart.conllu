@@ -1,0 +1,628 @@
+# sent_id = Water_cart:1
+# text = Ԓьэԓеӈръукэ тэкэм ӄууԓьэтык ӈутри наймыӄаат энмыгэӈэтыӈа.
+# text[phon] = ɬʔeɬeŋrʔuke tekem quuɬʔetək ŋutri najməqaat enməɣeŋetəŋa
+# text[rus] = Зимой, где-то в декабре, сюда ездили за водой под бугор.
+# text[eng] = In the winter, someday in December, we came here to the bottom of the hill to fetch some water.
+# labels = complete-dep anno-fran
+1-2	Ԓьэԓеӈръукэ	_	_	_	_	_	_	_	Gloss=зима-DISTR.S-LOC-=PTCL
+1	Ԓьэԓеӈръук	ԓьэԓеӈръук	VERB	_	_	6	advcl	_	Gloss=зима-DISTR.S-LOC
+2	э	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3	тэкэм	тэкэм	ADV	_	_	6	advmod	_	Gloss=прямо.к
+4	ӄууԓьэтык	ӄууԓьэтык	NOUN	_	_	6	obl	_	Gloss=стоять.о.коротких.днях.декабря-LOC
+5	ӈутри	_	ADV	_	_	6	advmod	_	Gloss=тут-ADV.ALL
+6	наймыӄаат	_	VERB	_	Valency=1	0	root	_	Gloss=ST-сходить.за.водой-ST.3PL
+7-8	энмыгэӈэтыӈа	_	_	_	_	_	_	_	Gloss=скала-BOTTOM-DAT-=PTCL
+7	энмыгэӈэты	_	NOUN	_	_	6	obl	_	Gloss=скала-BOTTOM-DAT
+8	ӈа	а	PART	_	_	7	advmod:emph	_	Gloss=PTCL
+9	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Water_cart:2
+# text = Ковԓёрвоор ЗИЛ 157 ковԓёрвыткоԓьын танӈынотайпы етыԓьын.
+# text[phon] = kowɬorwoor ЗИЛ 157 kowɬorwətkoɬʔən tanŋənotajpə jetəɬʔən
+# text[rus] = Водитель «ЗИЛ-157» приехал с материка.
+# text[eng] = The driver of «Zil-157» came from the mainland.
+# labels = complete-dep anno-fran unclear-syntax
+1	Ковԓёрвоор	Ковԓёрвоор	NOUN	_	_	4	dep	_	Gloss=шар-нарта-NOM.SG
+2	ЗИЛ	_	PROPN	_	_	1	appos	_	Gloss=
+3	157	_	NUM	_	_	2	flat:name	_	Gloss=
+4	ковԓёрвыткоԓьын	ковԓёрвыткоԓьын	NOUN	_	_	6	nsubj	_	Gloss=шар-нарта-ITER-ATTR-NOM.SG
+5	танӈынотайпы	_	NOUN	_	_	6	obl	_	Gloss=чужеземец-страна-ABL
+6	етыԓьын	_	VERB	_	Valency=1	0	root	_	Gloss=приходить-ATTR-NOM.SG
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Water_cart:3
+# text = Еп инъыӈӄач гатымӈэвԓен тагмынгытчьэты тыԓикъым.
+# text[phon] = jep inʔəŋqas ɣatəmŋewɬen taɣmənɣətsʔetə təɬikʔəm
+# text[rus] = Ещё с утра потерялся, в десять часов.
+# text[eng] = Already in the morning he got lost, at 10 o'clock.
+# labels = complete-dep anno-fran
+1	Еп	еп	ADV	_	_	3	advmod	_	Gloss=ещё
+2	инъыӈӄач	_	NOUN	_	_	3	obl	_	Gloss=утро-NEAR
+3	гатымӈэвԓен	_	VERB	_	Valency=1	0	root	_	Gloss=PF-потеряться-PF.3SG
+4	тагмынгытчьэты	_	NUM	_	_	3	obl	_	Gloss=GOOD-десять-ADJ-DAT
+5-6	тыԓикъым	_	_	_	_	_	_	_	Gloss=поворачиваться-LOC-=EMPH
+5	тыԓик	_	VERB	_	_	3	advcl	_	Gloss=поворачиваться-LOC
+6	ъым	ъм	PART	_	_	5	advmod:emph	_	Gloss=EMPH
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Water_cart:4
+# text = Ԓюутэ вуԓӄытвикэ ӈэръамытԓыӈчьэты гаԓякэ очочаӈа главный зоотехника инъэйӈэквъи энавэтгавъёԓгыткоэʼ иквъиӈа.
+# text[phon] = ɬuute wuɬqətwike ŋerʔamətɬəŋsʔetə ɣaɬake ososaŋa главный zaatʲexnʲika inʔejŋekwʔi enawetɣawjoɬɣətkoʔe ikwʔiŋa
+# text[rus] = Вдруг вечером, после семи часов, начальник — главный зоотехник — позвал меня, позвонил по телефону и сказал:
+# text[eng] = Suddenly, in the evening, after 7 pm., the chief — the chief livestock expert — called me and said:
+# labels = complete-dep anno-fran
+1-2	Ԓюутэ	_	_	_	_	_	_	_	Gloss=вдруг-=PTCL
+1	Ԓюут	_	ADV	_	_	12	advmod	_	Gloss=вдруг
+2	э	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3-4	вуԓӄытвикэ	_	_	_	_	_	_	_	Gloss=темнота-TRSF-LOC-=PTCL
+3	вуԓӄытвик	_	VERB	_	_	12	advcl	_	Gloss=темнота-TRSF-LOC
+4	э	а	PART	_	_	3	advmod:emph	_	Gloss=PTCL
+5	ӈэръамытԓыӈчьэты	_	NUM	_	_	6	obl	_	Gloss=два-пять-ADJ-DAT
+6-7	гаԓякэ	_	_	_	_	_	_	_	Gloss=проходить-LOC-=PTCL
+6	гаԓяк	_	VERB	_	_	12	advcl	_	Gloss=проходить-LOC
+7	э	а	PART	_	_	6	advmod:emph	_	Gloss=PTCL
+8-9	очочаӈа	_	_	_	_	_	_	_	Gloss=начальник-INS-=PTCL
+8	очоча	_	NOUN	_	_	12	nsubj	_	Gloss=начальник-INS
+9	ӈа	а	PART	_	_	8	advmod:emph	_	Gloss=PTCL
+10	главный	_	ADJ	_	_	11	amod	_	Gloss=
+11	зоотехника	_	NOUN	_	Case=Erg	8	appos	_	Gloss=зоотехник-INS
+12	инъэйӈэквъи	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-INV-звать-TH-2/3SG.S
+13	энавэтгавъёԓгыткоэʼ	_	VERB	_	_	12	parataxis	_	Gloss=2/3.S/A-INV-говорить-CONT-ITER-TH-2/3SG.S
+14-15	иквъиӈа	_	_	_	_	_	_	_	Gloss=2/3.S/A-сказать-TH-2/3SG.S-=PTCL
+14	иквъи	_	VERB	_	_	12	parataxis	_	Gloss=2/3.S/A-сказать-TH-2/3SG.S
+15	ӈа	а	PART	_	_	14	advmod:emph	_	Gloss=PTCL
+16	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = Water_cart:5
+# text = Еп гынмыԓ инъэ ковԓёрвоор гатымӈэвԓенъыма.
+# text[phon] = jep ɣənməɬ inʔe kowɬorwoor ɣatəmŋewɬenʔəma
+# text[rus] = «Ещё сегодня утром машина потерялась.
+# text[eng] = «Already in the morning the car got lost.
+# labels = complete-dep anno-fran
+1	Еп	еп	ADV	_	_	5	advmod	_	Gloss=ещё
+2	гынмыԓ	_	ADV	_	_	5	advmod	_	Gloss=недавно
+3	инъэ	_	NOUN	_	_	5	obl	_	Gloss=утро-INS
+4	ковԓёрвоор	ковԓёрвоор	NOUN	_	_	5	nsubj	_	Gloss=шар-нарта-NOM.SG
+5-7	гатымӈэвԓенъыма	_	_	_	_	_	_	_	Gloss=PF-потеряться-PF.3SG-=EMPH-=PTCL
+5	гатымӈэвԓен	_	VERB	_	Valency=1	0	root	_	Gloss=PF-потеряться-PF.3SG
+6	ъым	ъм	PART	_	_	5	advmod:emph	_	Gloss=EMPH
+7	а	а	PART	_	_	5	advmod:emph	_	Gloss=PTCL
+8	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Water_cart:6
+# text = Ԓьу нэнаԓвавморэ.
+# text[phon] = ɬʔu nenaɬwawmore
+# text[rus] = Найти не можем.
+# text[eng] = We cannot find it.
+# labels = complete-dep anno-fran subordination
+1	Ԓьу	_	VERB	_	_	2	xcomp	_	Gloss=видеть
+2	нэнаԓвавморэ	ԓывавык	VERB	_	_	0	root	_	Gloss=ST-INV-не.мочь-NP.1PL
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Water_cart:7
+# text = Эʼми таӈтымӈэквъэ.
+# text[phon] = ʔemi taŋtəmŋekwʔe
+# text[rus] = Где-то сильно потерялся.
+# text[eng] = He really got lost somewhere.
+# labels = complete-dep anno-fran
+1	Эʼми	эʼми	ADV	_	_	2	advmod	_	Gloss=где
+2	таӈтымӈэквъэ	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-GOOD-потеряться-TH-2/3SG.S
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Water_cart:8
+# text = Энмэч воԓӄытвэӈӈо вуԓӄытвигъим.
+# text[phon] = enmes woɬqətweŋŋo wuɬqətwiɣʔim
+# text[rus] = А уже вечер настал.
+# text[eng] = And it has already became dark.
+# labels = complete-dep anno-fran
+1	Энмэч	энмэч	ADV	_	_	3	advmod	_	Gloss=уже
+2	воԓӄытвэӈӈо	_	VERB	_	_	3	reparandum	_	Gloss=темнота-TRSF-INCH
+3-4	вуԓӄытвигъим	_	_	_	_	_	_	_	Gloss=2/3.S/A-темнота-TRSF-TH-2/3SG.S-=EMPH
+3	вуԓӄытвигъи	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-темнота-TRSF-TH-2/3SG.S
+4	м	ъм	PART	_	_	3	advmod:emph	_	Gloss=EMPH
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Water_cart:9
+# text = Ӄорагынрэтыԓьыт вэчьыма нъъетынэтэ мынъумэкэнмыкъым вэнратынво.
+# text[phon] = qoraɣənretəɬʔət wesʔəma nʔjetənete mənʔumekenməkʔəm wenratənwo
+# text[rus] = Оленеводы, наверное, могли бы приехать, и мы вместе собрались бы помочь».
+# text[eng] = The reindeer herders could probably come and we would all come together to help.»
+# labels = complete-dep anno-fran
+1	Ӄорагынрэтыԓьыт	ӄорагынрэтыԓьын	NOUN	_	_	4	nsubj	_	Gloss=олень-защищать-ATTR-NOM.PL
+2-3	вэчьыма	_	_	_	_	_	_	_	Gloss=пожалуй-=PTCL
+2	вэчьым	_	PART	_	_	4	discourse	_	Gloss=пожалуй
+3	а	а	PART	_	_	2	advmod:emph	_	Gloss=PTCL
+4-5	нъъетынэтэ	_	_	_	_	_	_	_	Gloss=2/3.S/A-COND-приходить-IRR.2/3SG.S-PL-=PTCL
+4	нъъетынэт	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-COND-приходить-IRR.2/3SG.S-PL
+5	э	а	PART	_	_	4	advmod:emph	_	Gloss=PTCL
+6-7	мынъумэкэнмыкъым	_	_	_	_	_	_	_	Gloss=1PL.S/A.COND-кружок-VB-1PL.S/O-=EMPH
+6	мынъумэкэнмык	_	VERB	_	_	4	parataxis	_	Gloss=1PL.S/A.COND-кружок-VB-1PL.S/O
+7	ъым	ъм	PART	_	_	6	advmod:emph	_	Gloss=EMPH
+8	вэнратынво	винрэтык	VERB	_	_	6	advcl	_	Gloss=помогать-SUP
+9	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Water_cart:10
+# text = Эʼйӈэвыткумури энарэрык.
+# text[phon] = ʔejŋewətkumuri enarerək
+# text[rus] = Позвали нас искать.
+# text[eng] = They called us to look for him.
+# labels = complete-dep anno-fran
+1	Эʼйӈэвыткумури	_	VERB	_	_	0	root	_	Gloss=звать-ITER-NP.1PL
+2	энарэрык	_	VERB	_	_	1	xcomp	_	Gloss=искать-INF
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Water_cart:11
+# text = Пэтԓе тыԓыгавэръэпыгъакъыма.
+# text[phon] = petɬe təɬəɣawerʔepəɣʔakʔəma
+# text[rus] = Быстро надел меховую одежду.
+# text[eng] = I quickly put on my fur clothes.
+# labels = complete-dep anno-fran
+1	Пэтԓе	пэтԓе	ADV	_	_	2	advmod	2:advmod	Gloss=быстро
+2-4	тыԓыгавэръэпыгъакъыма	_	_	_	_	_	_	_	Gloss=1SG.S/A-AUTH-одежда.из.шкур-надевать-TH-1SG.S-=EMPH-=PTCL|SpaceAfter=No
+2	тыԓыгавэръэпыгъак	_	VERB	_	Incorporated[obj]=Yes	0	root	0:root	Gloss=1SG.S/A-AUTH-одежда.из.шкур-надевать-TH-1SG.S
+2.1	авэръ	эвиръын	NOUN	_	Incorporated=Yes	_	_	2:obj	Gloss=одежда.из.шкур
+3	ъым	ъм	PART	_	_	2	advmod:emph	2:advmod:emph	Gloss=EMPH
+4	а	а	PART	_	_	2	advmod:emph	2:advmod:emph	Gloss=PTCL
+5	.	.	PUNCT	_	_	2	punct	2:punct	_
+
+# sent_id = Water_cart:12
+# text = Ӄорыӈа эʼми епӈа ӄуттиӈа нъатчаӄаат оʼравэтԓьат.
+# text[phon] = qorəŋa ʔemi jepŋa quttiŋa nʔatsaqaat ʔorawetɬʔat
+# text[rus] = Потом где-то ещё других ждали людей.
+# text[eng] = And then we were waiting for some other people.
+# labels = complete-dep anno-fran non-projective
+1-2	Ӄорыӈа	_	_	_	_	_	_	_	Gloss=потом-=PTCL
+1	Ӄоры	_	ADV	_	_	8	advmod	_	Gloss=потом
+2	ӈа	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3	эʼми	эʼми	ADV	_	_	8	advmod	_	Gloss=где
+4-5	епӈа	_	_	_	_	_	_	_	Gloss=ещё-=PTCL
+4	еп	_	ADV	_	_	8	advmod	_	Gloss=ещё
+5	ӈа	а	PART	_	_	4	advmod:emph	_	Gloss=PTCL
+6-7	ӄуттиӈа	_	_	_	_	_	_	_	Gloss=некий-NOM.PL-=PTCL
+6	ӄутти	_	PRON	_	_	9	nmod	_	Gloss=некий-NOM.PL
+7	ӈа	а	PART	_	_	6	advmod:emph	_	Gloss=PTCL
+8	нъатчаӄаат	_	VERB	_	Valency=2	0	root	_	Gloss=ST-ждать-ST.3PL
+9	оʼравэтԓьат	_	NOUN	_	_	8	obj	_	Gloss=человек-NOM.PL
+10	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = Water_cart:13
+# text = Мури гэтумгинэтэ ӈуткэтэ мытвинвытэгнэнмык айвачваамԓыӈата чама рочгэты.
+# text[phon] = muri ɣetumɣinete ŋutkete mətwinwəteɣnenmək ajwaswaamɬəŋata sama rosɣetə
+# text[rus] = Мы с напарником здесь проверили следы, вдоль южной стороны реки, и на другой берег (отправились).
+# text[eng] = Me and my partner checked the traces along the southern shore of the river, and also (we came) to the other shore.
+# labels = complete-dep anno-fran
+1	Мури	мури	PRON	_	_	4	nsubj	_	Gloss=мы
+2	гэтумгинэтэ	гыԓгын	NOUN	_	_	1	conj	_	Gloss=COM-друг-GEN-INS
+3	ӈуткэтэ	_	ADV	_	_	4	advmod	_	Gloss=здесь-ADV.PROL
+4	мытвинвытэгнэнмык	вины	VERB	_	_	0	root	_	Gloss=1PL.S/A-след-FRONT-VB-1PL.S/O
+5	айвачваамԓыӈата	_	NOUN	_	_	4	obl	_	Gloss=подветренная.сторона-река-EDGE-ADV.PROL
+6	чама	чама	ADV	_	_	7	advmod	_	Gloss=также
+7	рочгэты	рочгын	NOUN	_	_	4	obl	_	Gloss=другой.берег-DAT
+8	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Water_cart:14
+# text = Ӄорыӈа вай ынкы рочгатама ваамԓыӈата йынрытчигэ йынрыгэӈытко мытвинвытэгнэннэтэ.
+# text[phon] = qorəŋa waj ənkə rosɣatama waamɬəŋata jənrətsiɣe jənrəɣeŋətko mətwinwəteɣnennete
+# text[rus] = Потом там на том берегу у подножий обрывистых скал посмотрели.
+# text[eng] = And then on the other shore, we checked the spots around the cliffs.
+# comment = Непонятно, есть ли что-то на конце слова jənrəɣeŋətko. Если это существительное, должен бытьненулевой показатель номинатива.
+# labels = complete-dep anno-fran morph-checked-karina
+1-2	Ӄорыӈа	_	_	_	_	_	_	_	Gloss=потом-=PTCL
+1	Ӄоры	_	ADV	_	_	9	advmod	_	Gloss=потом
+2	ӈа	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3	вай	вай	ADV	_	_	9	advmod	_	Gloss=вот
+4	ынкы	ын	PRON	_	_	9	obl	_	Gloss=тот-LOC
+5	рочгатама	_	ADV	_	_	9	advmod	_	Gloss=другой.берег-ADV.PROL-SIM
+6	ваамԓыӈата	_	NOUN	_	_	9	obl	_	Gloss=река-EDGE-ADV.PROL
+7	йынрытчигэ	йынрытчигэ	X	_	_	8	reparandum	_	Gloss=FST
+8	йынрыгэӈытко	йынрын	NOUN	_	_	9	obj	_	Gloss=высокий.обрывистый.берег-BOTTOM-NUMBER
+9-10	мытвинвытэгнэннэтэ	_	_	_	_	_	_	_	Gloss=1PL.S/A-след-FRONT-VB-3SG.O-PL-=PTCL
+9	мытвинвытэгнэннэт	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-след-FRONT-VB-3SG.O-PL
+10	э	а	PART	_	_	9	advmod:emph	_	Gloss=PTCL
+11	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = Water_cart:15
+# text = Ваам эвычагты эԓӄыԓинытык айвачыӈӄач уйӈэ ръэт ԓёӈръэтатыԓьын.
+# text[phon] = waam ewəsaɣtə eɬqəɬinətək ajwasəŋqas ujŋe rʔet ɬoŋrʔetatəɬʔən
+# text[rus] = Вниз по реке прошлись, с южной стороны следов нет, не наследил.
+# text[eng] = We walked down the river, there were no footprints on the southern side, he did not leave any traces.
+# labels = complete-dep anno-fran checked-negation-karina
+1	Ваам	_	NOUN	_	_	3	obl	_	Gloss=река
+2	эвычагты	_	ADP	_	_	1	case	_	Gloss=внизу-DAT
+3	эԓӄыԓинытык	_	VERB	_	_	0	root	_	Gloss=
+4	айвачыӈӄач	_	NOUN	_	_	5	obl	_	Gloss=подветренная.сторона-NEAR
+5	уйӈэ	уйӈэ	PART	_	_	3	parataxis	_	Gloss=нет
+6	ръэт	ръэт	NOUN	_	_	5	nsubj	_	Gloss=дорога-NOM.SG
+7	ԓёӈръэтатыԓьын	ԓёӈръэтатыԓьын	VERB	_	_	3	parataxis	_	Gloss=NEG.PFV-дорога-VB-ATTR-NOM.SG
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Water_cart:16
+# text = Ӈоонрэ ԓм айгысӄыӈӄачьым ԓымынкыри гаԓгиръэтатԓяԓен.
+# text[phon] = ŋoonre ɬm ajɣəsqəŋqasʔəm ɬəmənkəri ɣaɬɣirʔetatɬaɬen
+# text[rus] = Туда, в сторону севера, повсюду наследил.
+# text[eng] = Northwards, he left traces all over the place.
+# labels = complete-dep anno-fran
+# comment = Возможно, произносит [ɣaɬɣə-] в начале. Тогда с гармонией гласных всё в порядке, однако нужнозаводить новый алломорф для интенсификатора.
+1	Ӈоонрэ	ӈоонрэ	ADV	_	_	6	advmod	_	Gloss=там-ADV.ALL
+2	ԓм	ԓм	X	_	_	3	reparandum	_	Gloss=FST
+3-4	айгысӄыӈӄачьым	_	_	_	_	_	_	_	Gloss=север-NEAR-=EMPH
+3	айгысӄыӈӄачьы	_	NOUN	_	_	6	obl	_	Gloss=север-NEAR
+4	м	ъм	PART	_	_	3	advmod:emph	_	Gloss=EMPH
+5	ԓымынкыри	_	PRON	_	_	6	obl	_	Gloss=OMN-тот-LOC-ADV.ALL
+6	гаԓгиръэтатԓяԓен	_	VERB	_	Valency=1	0	root	_	Gloss=PF-INTS-дорога-VB-GRAD-PF.3SG
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Water_cart:17
+# text = Наӄам ээк нывитъытэԓпыӄин.
+# text[phon] = naqam eek nəwitʔəteɬpəqin
+# text[rus] = Но на лампе заканчивался фитиль.
+# text[eng] = But the wick in the oil lamp was coming to an end.
+# labels = complete-dep anno-fran valency incorporation
+1	Наӄам	наӄам	CCONJ	_	_	3	cc	3:cc	Gloss=однако
+2	ээк	ээк	NOUN	_	_	3	nsubj	3:nsubj	Gloss=жирник-NOM.SG
+3	нывитъытэԓпыӄин	_	VERB	_	Incorporated[dep]=Yes|Valency=1	0	root	0:root	Gloss=ST-фитиль-кончаться-ST.3SG
+3.1	витъ	витъ	NOUN	_	Incorporated=Yes	_	_	3:dep	Gloss=фитиль
+4	.	.	PUNCT	_	_	3	punct	3:punct	_
+
+# sent_id = Water_cart:18
+# text = Пэԓӄынтэнмык вездеходетыӈ.
+# text[phon] = peɬqəntenmək wizʲdʲikotʲetəŋ
+# text[rus] = Мы вернулись в вездеход.
+# text[eng] = We came back to the all-terrain vehicle.
+# labels = complete-dep anno-fran
+1	Пэԓӄынтэнмык	_	VERB	_	_	0	root	_	Gloss=возвращаться-VB-1PL.S/O
+2	вездеходетыӈ	вездеход	NOUN	_	_	1	obl	_	Gloss=вездеход-DAT-AD
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Water_cart:19
+# text = Энмыгэӈкы нытваӄаат.
+# text[phon] = enməɣeŋkə nətwaqaat
+# text[rus] = Под бугром они были.
+# text[eng] = They were under the cliff.
+# labels = complete-dep anno-fran
+1	Энмыгэӈкы	_	NOUN	_	_	0	root	_	Gloss=скала-BOTTOM-LOC
+2	нытваӄаат	вак	AUX	_	Valency=1	1	cop	_	Gloss=ST-быть-ST.3PL
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Water_cart:20
+# text = Гыргоԓягты наакатваӄаат.
+# text[phon] = ɣərɣoɬaɣtə naakatwaqaat
+# text[rus] = Наверх светили.
+# text[eng] = Lighting upwards.
+# labels = complete-dep anno-fran valency
+1	Гыргоԓягты	_	NOUN	_	_	2	obl	_	Gloss=вверху-DAT
+2	наакатваӄаат	_	VERB	_	Valency=1	0	root	_	Gloss=ST-жирник-RES-ST.3PL
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Water_cart:21
+# text = Ныӈыръатваӄаат танӈыта.
+# text[phon] = nəŋərʔatwaqaat tanŋəta
+# text[rus] = Размышляли русские (в подавленном состоянии):
+# text[eng] = The foreigners were grumpy:
+# labels = complete-dep anno-fran
+1	Ныӈыръатваӄаат	_	VERB	_	Valency=1	0	root	_	Gloss=ST-сердиться-VB-RES-ST.3PL
+2-3	танӈыта	_	_	_	_	_	_	_	Gloss=чужеземец-NOM.PL-=PTCL
+2	танӈыт	танӈын	NOUN	_	_	1	nsubj	_	Gloss=чужеземец-NOM.PL
+3	а	а	PART	_	_	2	advmod:emph	_	Gloss=PTCL
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Water_cart:22
+# text = Миӈкыри мынинмыкъыма.
+# text[phon] = miŋkəri məninməkʔəma
+# text[rus] = «Куда направимся?».
+# text[eng] =  «Where are we going to?»
+# labels = complete-dep anno-fran leaf-invalid
+1	Миӈкыри	миӈкыри	ADV	_	_	0	root	_	Gloss=где-LOC-ADV.ALL
+2-4	мынинмыкъыма	_	_	_	_	_	_	_	Gloss=1PL.S/A.SUBJ-являться-1PL.S/O-=EMPH-=PTCL
+2	мынинмык	итык	AUX	_	_	1	cop	_	Gloss=1PL.S/A.SUBJ-являться-1PL.S/O
+3	ъым	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+4	а	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Water_cart:23
+# text = Тивын очоча.
+# text[phon] = tiwən ososa
+# text[rus] = Я сказал директору:
+# text[eng] = I told the chief:
+# labels = complete-dep anno-fran
+1	Тивын	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-сказать-3SG.O
+2-3	очоча	_	_	_	_	_	_	_	Gloss=начальник-=PTCL
+2	очоч	_	NOUN	_	_	1	obj	_	Gloss=начальник
+3	а	а	PART	_	_	2	advmod:emph	_	Gloss=PTCL
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Water_cart:24
+# text = Этъопэԓ ӈоонрэ айгыпы мынԓеԓьэнмык.
+# text[phon] = etʔopeɬ ŋoonre ajɣəpə mənɬeɬʔenmək
+# text[rus] = «Лучше туда, по направлению против ветра, поедем.
+# text[eng] = «It is better if we go windward.
+# labels = complete-dep anno-fran
+1	Этъопэԓ	этъопэԓ	ADV	_	_	4	advmod	_	Gloss=лучше
+2	ӈоонрэ	ӈоонрэ	ADV	_	_	4	advmod	_	Gloss=там-ADV.ALL
+3	айгыпы	айгыпы	ADV	_	_	4	advmod	_	Gloss=против.ветра
+4	мынԓеԓьэнмык	_	VERB	_	_	0	root	_	Gloss=1PL.S/A.SUBJ-идти-PLAC-1PL.S/O
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Water_cart:25
+# text = Миӈкы винвыт эвын мытрайъоӈына мытрантымӈэвӈӈоӈын мынкынпыткоԓьатыӈӈомыкъым.
+# text[phon] = miŋkə winwət ewən mətrajʔoŋəna mətrantəmŋewŋŋoŋən mənkənpətkoɬʔatəŋŋoməkʔəm
+# text[rus] = Где следы начнём терять, там привяжемся (букв. начнём петлять)».
+# text[eng] = And we will stay at the spot (lit. start to meander) where we begin to loose the trace.»
+# labels = complete-dep anno-fran unclear-syntax difficult-verb
+1	Миӈкы	миӈкы	ADV	_	_	4	advmod	_	Gloss=где-LOC
+2	винвыт	вины	NOUN	_	_	4	obj	_	Gloss=след-NOM.PL
+3	эвын	_	ADV	_	_	4	advmod	_	Gloss=если
+4-5	мытрайъоӈына	_	_	_	_	_	_	_	Gloss=1PL.S/A-FUT-настигать-FUT-3SG.O-=PTCL
+4	мытрайъоӈын	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-FUT-настигать-FUT-3SG.O
+5	а	а	PART	_	_	4	advmod:emph	_	Gloss=PTCL
+6	мытрантымӈэвӈӈоӈын	_	VERB	_	_	4	parataxis	_	Gloss=1PL.S/A-FUT-TR-потеряться-INCH-FUT-3SG.O
+7-8	мынкынпыткоԓьатыӈӈомыкъым	_	_	_	_	_	_	_	Gloss=1PL.S/A.SUBJ-ITER-PLAC-INCH-1PL.S/O-=EMPH
+7	мынкынпыткоԓьатыӈӈомык	_	VERB	_	_	4	parataxis	_	Gloss=1PL.S/A.SUBJ-ITER-PLAC-INCH-1PL.S/O
+8	ъым	ъм	PART	_	_	7	advmod:emph	_	Gloss=EMPH
+9	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Water_cart:26
+# text = Ԓгиэʼӄээʼвкы ваԓьын танӈочочьым тиквъэна.
+# text[phon] = ɬɣiʔeqeʔewkə waɬʔən tanŋososʔəm tikwʔena
+# text[rus] = Очень упёртому русскому директору сказал:
+# text[eng] = He said to the very stubborn Russian chief:
+# labels = complete-dep anno-fran
+1	Ԓгиэʼӄээʼвкы	_	ADJ	_	_	4	acl	_	Gloss=INTS-BAD-негнущийся-LOC
+2	ваԓьын	ваԓьын	AUX	_	_	1	cop	_	Gloss=быть-ATTR-NOM.SG
+3-5	танӈочочьым	_	_	_	_	_	_	_	Gloss=чужеземец-начальник-NOM.SG-=EMPH
+3	танӈ	танӈочочьым	NOUN	_	_	4	nmod	_	Gloss=чужеземец
+4	очочьы	_	NOUN	_	_	6	obj	_	Gloss=начальник-NOM.SG
+5	м	ъм	PART	_	_	4	advmod:emph	_	Gloss=EMPH
+6-7	тиквъэна	_	_	_	_	_	_	_	Gloss=1SG.S/A-сказать-TH-3SG.O-=PTCL
+6	тиквъэн	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-сказать-TH-3SG.O
+7	а	а	PART	_	_	6	advmod:emph	_	Gloss=PTCL
+8	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Water_cart:27
+# text = Наӄамэ эʼйӈэвыткуркынитык винрэттумгъум.
+# text[phon] = naqame ʔejŋewətkurkənitək winrettumɣʔum
+# text[rus] = «Зачем вы нас зовёте помогать?
+# text[eng] = «Why are you asking us for help?
+# labels = complete-dep anno-fran
+1-2	Наӄамэ	_	_	_	_	_	_	_	Gloss=однако-=PTCL
+1	Наӄам	_	ADV	_	_	3	advmod	_	Gloss=однако
+2	э	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3	эʼйӈэвыткуркынитык	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-звать-1PL.O-IPFV-2PL.S/O
+4-6	винрэттумгъум	_	_	_	_	_	_	_	Gloss=помогать-друг-EQU-=EMPH
+4	винрэт	_	VERB	_	_	5	acl	_	Gloss=помогать
+5	тумгъу	_	NOUN	_	_	3	obl	_	Gloss=друг-EQU
+6	м	ъм	PART	_	_	5	advmod:emph	_	Gloss=EMPH
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Water_cart:28
+# text = Опопыӈа торгынан чинит ӄэнарэрыркынэтык йыӄӄэй раԓмаԓявӈытык гымнан рэӄын ивык.
+# text[phon] = opopəŋa torɣənan sinit qenarerərkənetək jəqqej raɬmaɬawŋətək ɣəmnan reqən iwək
+# text[rus] = Лучше уж тогда сами ищите, раз вы не слушаете, что я говорю».
+# text[eng] = You'd better look for him yourselves if you do not listen to what I say.»
+# labels = complete-dep anno-fran
+1-2	Опопыӈа	_	_	_	_	_	_	_	Gloss=лучше-=PTCL
+1	Опопы	_	ADV	_	_	5	advmod	_	Gloss=лучше
+2	ӈа	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3	торгынан	_	PRON	_	_	5	nsubj	_	Gloss=вы-INS
+4	чинит	чинит	ADV	_	_	5	advmod	_	Gloss=сам
+5	ӄэнарэрыркынэтык	_	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-искать-IPFV-2PL.S/O
+6	йыӄӄэй	йыӄӄэй	ADV	_	_	7	advmod	_	Gloss=разве
+7	раԓмаԓявӈытык	_	VERB	_	_	5	parataxis	_	Gloss=2/3.S/A-FUT-слушаться-CS-FUT-2PL.S/O
+8	гымнан	гым	PRON	_	_	10	nsubj	_	Gloss=я-INS
+9	рэӄын	рэӄын	PRON	_	_	10	obj	_	Gloss=что-NOM.SG
+10	ивык	_	VERB	_	_	7	advcl	_	Gloss=сказать-LOC
+11	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Water_cart:29
+# text = Ӄээӄын авъеткынка вэтчатвагъэм.
+# text[phon] = qeeqən awjetkənka wetsatwaɣʔem
+# text[rus] = Какое-то время молча постоял.
+# text[eng] = He stood there silently for some time.
+# labels = complete-dep anno-fran
+1	Ӄээӄын	ӄээӄын	ADV	_	_	3	advmod	_	Gloss=ещё.немного
+2	авъеткынка	авъеткынка	NOUN	_	_	3	obl	_	Gloss=CAR-воздух-TOP-CAR-INS
+3-4	вэтчатвагъэм	_	_	_	_	_	_	_	Gloss=2/3.S/A-вставать-RES-TH-2/3SG.S-=EMPH
+3	вэтчатваг	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-вставать-RES-TH-2/3SG.S
+4	ъэм	ъм	PART	_	_	3	advmod:emph	_	Gloss=EMPH
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Water_cart:30
+# text = Иквъиыʼма.
+# text[phon] = ikwʔiʔəma
+# text[rus] = Сказал:
+# text[eng] = He said:
+# labels = complete-dep anno-fran
+1-3	Иквъиыʼма	_	_	_	_	_	_	_	Gloss=2/3.S/A-сказать-TH-2/3SG.S-=EMPH-=PTCL
+1	Иквъи	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-сказать-TH-2/3SG.S
+2	ыʼм	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	а	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Water_cart:31
+# text = Кабинак ӄыӈэԓӄиквъима ыʼттъыёԓвездеходыкъыма.
+# text[phon] = kabinak qəŋeɬqikwʔima ʔəttʔəjoɬwizʲdʲixodəkʔəma
+# text[rus] = «В кабину садись, в передний вездеход.
+# text[eng] = «Sit down into the cab, into the anterior all-terrain vehicle.
+# labels = complete-dep anno-fran
+1	Кабинак	_	NOUN	_	_	2	obl	_	Gloss=кабина-LOC
+2-4	ӄыӈэԓӄиквъима	_	_	_	_	_	_	_	Gloss=2.S/A.SUBJ-садиться.в.транспорт-IRR-2/3SG.S-=EMPH-=PTCL
+2	ӄыӈэԓӄиквъи	_	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-садиться.в.транспорт-IRR-2/3SG.S
+3	м	ъм	PART	_	_	2	advmod:emph	_	Gloss=EMPH
+4	а	а	PART	_	_	2	advmod:emph	_	Gloss=PTCL
+5-8	ыʼттъыёԓвездеходыкъыма	_	_	_	_	_	_	_	Gloss=перед-вездеход-LOC-=EMPH-=PTCL
+5	ыʼттъыёԓ	ыʼттъыётԓьан	ADJ	_	_	6	amod	_	Gloss=перед
+6	вездеходык	вездеход	NOUN	_	_	2	obl	_	Gloss=вездеход-LOC
+7	ъым	ъм	PART	_	_	6	advmod:emph	_	Gloss=EMPH
+8	а	а	PART	_	_	6	advmod:emph	_	Gloss=PTCL
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Water_cart:32
+# text = Ынӈин ӄыныгйивэтыркын миӈкыри ныԓеркын.
+# text[phon] = ənŋin qənəɣjiwetərkən miŋkəri nəɬerkən
+# text[rus] = Показывай направление, куда ехать».
+# text[eng] = Show the direction where to drive.»
+# labels = complete-dep anno-fran subordination
+1	Ынӈин	ынӈин	ADV	_	_	2	advmod	_	Gloss=так
+2	ӄыныгйивэтыркын	рыгйивэтык	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-TR-знак-VB-IPFV
+3	миӈкыри	миӈкыри	ADV	_	_	4	advmod	_	Gloss=где-LOC-ADV.ALL
+4	ныԓеркын	_	VERB	_	_	2	parataxis	_	Gloss=3.S/A.SUBJ-идти-IPFV
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Water_cart:33
+# text = Ӄээӄын эвычагты айгыпы ӈэнри ваамъеквэ ӄойвыткыната тарӄойвыткыната мытԓеԓьэнмыкъым.
+# text[phon] = qeeqən ewəsaɣtə ajɣəpə ŋenri waamjekwe qojwətkənata tarqojwətkənata mətɬeɬʔenməkʔəm
+# text[rus] = Ещё дальше туда вниз, против ветра, вдоль реки, по льду, по режущему льду, долго ехали.
+# text[eng] = And down there, windward, along the river, crossing the ice, the sharp ice, we were driving.
+# labels = complete-dep anno-fran
+1	Ӄээӄын	ӄээӄын	ADV	_	_	8	advmod	_	Gloss=ещё.немного
+2	эвычагты	_	ADV	_	_	8	advmod	_	Gloss=внизу-DAT
+3	айгыпы	айгыпы	ADV	_	_	8	advmod	_	Gloss=против.ветра
+4	ӈэнри	ӈэнри	ADV	_	_	8	advmod	_	Gloss=там-ADV.ALL
+5	ваамъеквэ	вээм	NOUN	_	_	8	obl	_	Gloss=река-PROL
+6	ӄойвыткыната	ӄуйв	NOUN	_	_	8	obl	_	Gloss=лёд.на.реке-TOP-ADV.PROL
+7	тарӄойвыткыната	_	NOUN	_	_	8	obl	_	Gloss=царапать-лёд.на.реке-TOP-ADV.PROL
+8-9	мытԓеԓьэнмыкъым	_	_	_	_	_	_	_	Gloss=1PL.S/A-идти-PLAC-1PL.S/O-=EMPH
+8	мытԓеԓьэнмык	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-идти-PLAC-1PL.S/O
+9	ъым	ъм	PART	_	_	8	advmod:emph	_	Gloss=EMPH
+10	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = Water_cart:34
+# text = Ынӄорыӈ эквыйынрэпы ԓюут мыттамкъым.
+# text[phon] = ənqorəŋ ekwəjənrepə ɬuut məttamkʔəm
+# text[rus] = Потом мимо высокого бугра вдруг проехали.
+# text[eng] = Then we suddenly passed a high hill.
+# labels = complete-dep anno-fran
+1-2	Ынӄорыӈ	_	_	_	_	_	_	_	Gloss=потом-=PTCL
+1	Ынӄоры	_	ADV	_	_	6	advmod	_	Gloss=потом
+2	ӈ	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3-4	эквыйынрэпы	_	_	_	_	_	_	_	Gloss=высокий-высокий.обрывистый.берег-ABL
+3	эквы	_	ADJ	_	_	4	amod	_	Gloss=высокий
+4	йынрэпы	_	NOUN	_	_	6	obl	_	Gloss=высокий.обрывистый.берег-ABL
+5	ԓюут	ԓюут	ADV	_	_	6	advmod	_	Gloss=вдруг
+6-7	мыттамкъым	_	_	_	_	_	_	_	Gloss=1PL.S/A-проходить-1PL.S/O-=EMPH
+6	мыттамк	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-проходить-1PL.S/O
+7	ъым	ъм	PART	_	_	6	advmod:emph	_	Gloss=EMPH
+8	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Water_cart:35
+# text = Чейвэ тъёпатын каӈкачгыргын.
+# text[phon] = sejwe tjopatən kaŋkasɣərɣən
+# text[rus] = Пешком сходил проверить крутой спуск.
+# text[eng] = I went to check the steep slope.
+# labels = complete-dep anno-fran
+1	Чейвэ	_	VERB	_	_	2	advcl	_	Gloss=идти-INS
+2	тъёпатын	ёпатык	VERB	_	_	0	root	_	Gloss=1SG.S/A-проверять-VB-3SG.O
+3	каӈкачгыргын	каӈкачгыргын	NOUN	_	_	2	obj	_	Gloss=наконечник.хорея-NMLZ-NOM.SG
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Water_cart:36
+# text = Тэнкаӈкачгыргыкъыма туркэӈкэԓетэ вээмӄэйчыку ачымъытъымыёԓгычыкоеквэ мытԓяӈӈомыкъым тотръэт мытйъогъан.
+# text[phon] = tenkaŋkasɣərɣəkʔəma turkeŋkeɬete weemqejsəku asəmʔətʔəməjoɬɣəsəkojekwe mətɬaŋŋoməkʔəm totrʔet mətjʔoɣʔan
+# text[rus] = На этом спуске, вдоль спуска, в речке, внутри протоки начали ездить, нашли свежий след.
+# text[eng] = On the slope, along the slope, in the river, the creeks were moving and we found the fresh trace.
+# labels = complete-dep anno-fran
+1-4	Тэнкаӈкачгыргыкъыма	_	_	_	_	_	_	_	Gloss=лёд-наконечник.хорея-NMLZ-LOC-=EMPH-=PTCL
+1	Тэн	тин	NOUN	_	_	2	nmod	_	Gloss=лёд
+2	каӈкачгыргык	кэӈкэԓ	NOUN	_	_	9	obl	_	Gloss=наконечник.хорея-NMLZ-LOC
+3	ъым	ъм	PART	_	_	2	advmod:emph	_	Gloss=EMPH
+4	а	а	PART	_	_	2	advmod:emph	_	Gloss=PTCL
+5-6	туркэӈкэԓетэ	_	_	_	_	_	_	_	Gloss=новый-наконечник.хорея-ADV.PROL
+5	тур	тур	ADJ	_	_	6	amod	_	Gloss=новый
+6	кэӈкэԓетэ	кэӈкэԓ	NOUN	_	_	9	obl	_	Gloss=наконечник.хорея-ADV.PROL
+7	вээмӄэйчыку	_	NOUN	_	_	9	obl	_	Gloss=река-DIM-IN
+8	ачымъытъымыёԓгычыкоеквэ	_	NOUN	_	_	9	obl	_	Gloss=лучевая.кость-CONT-IN-PROL
+9-10	мытԓяӈӈомыкъым	_	_	_	_	_	_	_	Gloss=1PL.S/A-идти-INCH-1PL.S/O-=EMPH
+9	мытԓяӈӈомык	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-идти-INCH-1PL.S/O
+10	ъым	ъм	PART	_	_	9	advmod:emph	_	Gloss=EMPH
+11	тотръэт	тотръэт	NOUN	_	_	12	obj	_	Gloss=новый-дорога-NOM.SG
+12	мытйъогъан	йъок	VERB	_	_	9	parataxis	_	Gloss=1PL.S/A-настигать-TH-3SG.O
+13	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = Water_cart:37
+# text = Ынӄэн ԓыгэн ръэт мытыркыԓегъэнъым.
+# text[phon] = ənqen ɬəɣen rʔet mətərkəɬeɣʔenʔəm
+# text[rus] = Прямо по этому следу шли.
+# text[eng] = We were following the track.
+# labels = complete-dep anno-fran ənqen
+1	Ынӄэн	ынӄэн	PART	_	_	4	discourse	_	Gloss=DET
+2	ԓыгэн	ԓыгэн	ADV	_	_	4	advmod	_	Gloss=просто
+3	ръэт	ръэт	NOUN	_	_	4	obj	_	Gloss=дорога-NOM.SG
+4-5	мытыркыԓегъэнъым	_	_	_	_	_	_	_	Gloss=1PL.S/A-преследовать-TH-3SG.O-=EMPH|SpaceAfter=No
+4	мытыркыԓегъэн	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-преследовать-TH-3SG.O
+5	ъым	ъм	PART	_	_	4	advmod:emph	_	Gloss=EMPH
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Water_cart:38
+# text = Ԓюут ӈэраӄычьэты ныкитэ мытынрынгиивын ковԓёрвоор.
+# text[phon] = ɬuut ŋeraqəsʔetə nəkite mətənrənɣiiwən kowɬorwoor
+# text[rus] = Наконец в два часа ночи нашли машину.
+# text[eng] = Finally, at 2 in the morning, we found the car.
+# labels = complete-dep anno-fran
+1	Ԓюут	ԓюут	ADV	_	_	4	advmod	_	Gloss=вдруг
+2	ӈэраӄычьэты	ӈирэӄычьын	NUM	_	_	4	obl	_	Gloss=два-ADJ-DAT
+3	ныкитэ	ныкитэ	NOUN	_	_	4	obl	_	Gloss=ночь-INS
+4	мытынрынгиивын	рырынгиивык	VERB	_	_	0	root	_	Gloss=1PL.S/A-TR-встречаться-CS-3SG.O
+5	ковԓёрвоор	ковԓёрвоор	NOUN	_	_	4	obj	_	Gloss=шар-нарта-NOM.SG
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Water_cart:39
+# text = Наӄам ковԓёрвыткоԓьын гаԓгэмытӄытаԓпыӈӈоԓенъым.
+# text[phon] = naqam kowɬorwətkoɬʔən ɣaɬɣemətqətaɬpəŋŋoɬenʔəm
+# text[rus] = А у водителя совсем заканчивалось топливо.
+# text[eng] = And the driver was running out of fuel.
+# labels = complete-dep anno-fran
+1	Наӄам	наӄам	CCONJ	_	_	3	cc	3:cc	Gloss=однако
+2	ковԓёрвыткоԓьын	ковԓёрвыткоԓьын	NOUN	_	_	3	nsubj	3:nsubj	Gloss=шар-нарта-ITER-ATTR-NOM.SG
+3-4	гаԓгэмытӄытаԓпыӈӈоԓенъым	_	_	_	_	_	_	_	Gloss=PF-INTS-жир-кончаться-INCH-PF.3SG-=EMPH|SpaceAfter=No
+3	гаԓгэмытӄытаԓпыӈӈоԓен	_	VERB	_	Incorporated[obj]=Yes|Valency=1	0	root	0:root	Gloss=PF-INTS-жир-кончаться-INCH-PF.3SG
+3.1	мытӄыт	мытӄымыт	NOUN	_	Incorporated=Yes	_	_	3:obj	Gloss=жир
+4	ъым	ъм	PART	_	_	3	advmod:emph	3:advmod:emph	_
+5	.	.	PUNCT	_	_	3	punct	3:punct	_
+
+# sent_id = Water_cart:40
+# text = Ръэнут.
+# text[phon] = rʔenut
+# text[rus] = Что ж...
+# text[eng] = Well...
+# labels = complete-dep anno-fran
+1	Ръэнут	Ръэнут	PRON	_	_	0	root	_	Gloss=что.NOM.SG|SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Water_cart:41
+# text = Выԓгыкирзовыйсапокԓьынъыма эвтэ джинсыӄонагыԓьын эвыр тэӈэвытӄэй тэгнъыӄэвъяӈӈогъан ыныки нъымытӄытэԓпыгъан гаймаӈэн нъыӄитывъигъэн.
+# text[phon] = wəɬɣəkirzowəjsapokɬʔənʔəma ewte džinsəqonaɣəɬʔən ewər teŋewətqej teɣnʔəqewjaŋŋoɣʔan ənəki nʔəmətqəteɬpəɣʔan ɣajmaŋen nʔəqitəwʔiɣʔen
+# text[rus] = В тонких кирзовых сапогах и джинсовых штанах, сейчас же замёрз бы, если бы вдруг закончилось топливо, возможно, замёрз бы насмерть.
+# text[eng] = He would have frozen in his kersey boots and jeans, and if he had been out of fuel, he would have probably frozen to death.
+# labels = complete-dep anno-karina unclear-syntax
+1-5	Выԓгыкирзовыйсапокԓьынъыма	_	_	_	_	_	_	_	Gloss=тонкий-кирзовый-сапог-ATTR-NOM.SG-=EMPH-=PTCL
+1	Выԓгы	Выԓгы	ADJ	_	_	3	amod	3:amod	Gloss=тонкий
+2	кирзовый	_	ADJ	_	_	3	amod	3:amod	Gloss=кирзовый
+3	сапокԓьын	сапокԓьын	NOUN	_	_	12	obl	12:obl	Gloss=сапог-ATTR-NOM.SG
+4	ъым	ъм	PART	_	_	3	advmod:emph	3:advmod:emph	Gloss=EMPH
+5	а	а	PART	_	_	3	advmod:emph	3:advmod:emph	Gloss=PTCL
+6-7	эвтэ	_	_	_	_	_	_	_	Gloss=когда-=PTCL
+6	эвт	_	SCONJ	_	_	9	mark	9:mark	Gloss=когда
+7	э	а	PART	_	_	6	advmod:emph	6:advmod:emph	Gloss=PTCL
+8-9	джинсыӄонагыԓьын	_	_	_	_	_	_	_	Gloss=джинсы-штаны-ATTR-NOM.SG
+8	джинсы	_	NOUN	_	_	9	nmod	9:nmod	Gloss=джинсы
+9	ӄонагыԓьын	_	NOUN	_	_	3	conj	3:conj	Gloss=штаны-ATTR-NOM.SG
+10	эвыр	ADV	SCONJ	_	_	9	mark	9:mark	Gloss=когда
+11	тэӈэвытӄэй	_	ADV	_	_	12	advmod	12:advmod	Gloss=GOOD-когда-DIM
+12	тэгнъыӄэвъяӈӈогъан	_	VERB	_	_	0	root	0:root	Gloss=2/3.S/A-GOOD-COND-зябнуть-INCH-TH-IRR.2/3SG.S
+13	ыныки	_	SCONJ	_	_	14	mark	14:mark	Gloss=если
+14	нъымытӄытэԓпыгъан	_	VERB	_	Incorporated[nsubj]=Yes	12	advcl	12:advcl	Gloss=2/3.S/A-COND-жир-кончаться-TH-IRR.2/3SG.S
+14.1	мытӄы	мытӄымыт	NOUN	_	Incorporated=Yes	_	_	14:nsubj	Gloss=2/3.S/A-COND-жир-кончаться-TH-IRR.2/3SG.S
+15	гаймаӈэн	гаймаӈэн	ADV	_	_	16	advmod	16:advmod	Gloss=возможно
+16	нъыӄитывъигъэн	_	VERB	_	Incorporated[advcl]=Yes	12	parataxis	12:parataxis	Gloss=2/3.S/A-COND-замерзать-умереть-TH-IRR.2/3SG.S
+16.1	ӄиты	_	VERB	_	Incorporated=Yes	_	_	16:advcl	Gloss=замерзать
+17	.	.	PUNCT	_	_	12	punct	12:punct	_
+
+# sent_id = Water_cart:42
+# text = Ытръэч.
+# text[phon] = ətrʔes
+# text[rus] = Конец.
+# text[eng] = That is all.
+# labels = complete-dep anno-fran
+1	Ытръэч	ытръэч	ADV	_	_	0	root	_	Gloss=только|SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+

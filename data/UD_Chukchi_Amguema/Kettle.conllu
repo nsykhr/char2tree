@@ -1,0 +1,424 @@
+# sent_id = Kettle:1
+# text = Гатваԓенат ӈэвъэнйыръын ынкъам ӄԓявыԓ.
+# text[phon] = ɣatwaɬenat ŋewʔenjərʔən ənkʔam qɬawəɬ
+# text[rus] = Жили-были муж и жена.
+# text[eng] = Once upon a time there lived a wife and a husband.
+# labels = complete-dep anno-fran
+1	Гатваԓенат	вак	AUX	_	Valency=1	0	root	_	Gloss=PF-быть-PF.3SG-PL
+2	ӈэвъэнйыръын	ӈэвъэнйыръын	NOUN	_	_	1	nsubj	_	Gloss=жена-содержимое-NOM.SG
+3	ынкъам	ынкъам	CCONJ	_	_	4	cc	_	Gloss=и
+4	ӄԓявыԓ	ӄԓявыԓ	NOUN	_	_	2	conj	_	Gloss=мужчина-NOM.SG
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Kettle:2
+# text = Ӈэвъэнйыръын ынкъам ӄԓявыԓ гатваԓенат.
+# text[phon] = ŋewʔenjərʔən ənkʔam qɬawəɬ ɣatwaɬenat
+# text[rus] = Жили-были муж и жена.
+# text[eng] = There lived a wife and a husband.
+# labels = complete-dep anno-fran
+1	Ӈэвъэнйыръын	Ӈэвъэнйыръын	NOUN	_	_	4	nsubj	_	Gloss=жена-содержимое-NOM.SG
+2	ынкъам	ынкъам	CCONJ	_	_	3	cc	_	Gloss=и
+3	ӄԓявыԓ	ӄԓявыԓ	NOUN	_	_	1	conj	_	Gloss=мужчина-NOM.SG
+4	гатваԓенат	вак	AUX	_	Valency=1	0	root	_	Gloss=PF-быть-PF.3SG-PL
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Kettle:3
+# text = Ӈэԓвыԓ ыргин уйӈэ гэнъэтԓин.
+# text[phon] = ŋeɬwəɬ ərɣin ujŋe ɣenʔetɬin
+# text[rus] = Стада их не стало.
+# text[eng] = Their herd was gone.
+# labels = complete-dep anno-fran unclear-syntax negation
+1	Ӈэԓвыԓ	Ӈэԓвыԓ	NOUN	_	_	3	obj	_	Gloss=стадо-NOM.SG
+2	ыргин	ытри	PRON	_	_	1	nmod:poss	_	Gloss=они-GEN
+3	уйӈэ	уйӈэ	VERB	_	_	0	root	_	Gloss=нет
+4	гэнъэтԓин	_	AUX	_	Valency=1	3	aux	_	Gloss=PF-стать-PF.3SG
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Kettle:4
+# text = Ынан ӄԓявыԓя ӈэвъэнйыръын ивнин.
+# text[phon] = ənan qɬawəɬa ŋewʔenjərʔən iwnin
+# text[rus] = Потом муж сказал жене:
+# text[eng] = Then the husband says to his wife:
+# labels = complete-dep anno-fran
+1	Ынан	_	ADV	_	_	4	advmod	_	Gloss=потом
+2	ӄԓявыԓя	ӄԓявыԓ	NOUN	_	_	4	nsubj	_	Gloss=мужчина-INS
+3	ӈэвъэнйыръын	ӈэвъэнйыръын	NOUN	_	_	4	obj	_	Gloss=жена-содержимое-NOM.SG
+4	ивнин	ивык	VERB	_	_	0	root	_	Gloss=2/3.S/A-сказать-3SG.A.3.O-3SG.O
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Kettle:5
+# text = Нэԓьунэт гэкэӈыԓьыт.
+# text[phon] = neɬʔunet ɣekeŋəɬʔət
+# text[rus] = «Видели оленьи упряжки».
+# text[eng] = «They saw some reindeer teams».
+# labels = complete-dep anno-fran
+1	Нэԓьунэт	ԓьук	VERB	_	_	0	root	_	Gloss=LOW.A-видеть-3SG.O-PL
+2	гэкэӈыԓьыт	гэкэӈыԓьын	NOUN	_	_	1	obj	_	Gloss=упряжка-ATTR-NOM.PL
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Kettle:6
+# text = Ӄԓявыԓя ивнин.
+# text[phon] = qɬawəɬa iwnin
+# text[rus] = Муж сказал:
+# text[eng] = The husband said:
+# labels = complete-dep anno-fran
+1	Ӄԓявыԓя	ӄԓявыԓ	NOUN	_	_	2	nsubj	_	Gloss=мужчина-INS
+2	ивнин	ивык	VERB	_	_	0	root	_	Gloss=2/3.S/A-сказать-3SG.A.3.O-3SG.O
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Kettle:7
+# text = Ӄыӄымъяркыпԓыткы а ӄыӄымъяркыпԓятгэ.
+# text[phon] = qəqəmjarkəpɬətkə а qəqəmjarkəpɬatɣe
+# text[rus] = «Выбей иней с яранги».
+# text[eng] = «Beat the frost out of the yaranga.»
+# labels = complete-dep anno-fran
+1	Ӄыӄымъяркыпԓыткы	_	VERB	_	_	3	reparandum	3:reparandum	Gloss=2.S/A.SUBJ-иней-ударять-IRR-2PL.A.3.O|ModifiedGloss=Yes
+2	а	_	PART	_	_	3	advmod:emph	3:advmod:emph	Gloss=
+3	ӄыӄымъяркыпԓятгэ	кыпԓыткок	VERB	_	Incorporated[obj]=Yes	0	root	0:root	Gloss=2.S/A.SUBJ-иней-ударять-VB-IRR-2/3SG.S
+3.1	ӄымъяр	ӄэев	NOUN	_	Incorporated=Yes	_	_	3:obj	Gloss=иней
+4	.	.	PUNCT	_	_	3	punct	3:punct	_
+
+# sent_id = Kettle:8
+# text = Ӈэвъэн ӈэвъэнэ чайкокат энаръэнан энаръэнэнат ӄымъяркыпԓятгъэ.
+# text[phon] = ŋewʔen ŋewʔene sajkokat enarʔenan enarʔenenat qəmjarkəpɬatɣʔe
+# text[rus] = Жена чайники накрыла, иней с яранги выбила.
+# text[eng] = The wife covered the kettles and beat the frost out of the yaranga.
+# labels = complete-dep anno-fran
+1	Ӈэвъэн	Ӈэвъэн	NOUN	_	_	2	reparandum	2:reparandum	Gloss=жена-NOM.SG
+2	ӈэвъэнэ	ӈэвъэн	NOUN	_	_	5	nsubj	5:nsubj	Gloss=жена-INS
+3	чайкокат	_	NOUN	_	_	5	obj	5:obj	Gloss=чай-котелок-NOM.PL
+4	энаръэнан	энаръэнан	X	_	_	5	reparandum	5:reparandum	Gloss=FST
+5	энаръэнэнат	энаръэк	VERB	_	_	0	root	0:root	Gloss=2/3.S/A-накрывать-3SG.A.3.O-3SG.O-PL
+6	ӄымъяркыпԓятгъэ	_	VERB	_	Incorporated[obj]=Yes	5	parataxis	5:parataxis	Gloss=2/3.S/A-иней-ударять-VB-TH-2/3SG.S
+6.1	ӄымъяр	ӄэев	NOUN	_	Incorporated=Yes	_	_	6:obj	Gloss=иней
+7	.	.	PUNCT	_	_	5	punct	5:punct	_
+
+# sent_id = Kettle:9
+# text = Эӄыԓпэ рыԓгъат.
+# text[phon] = eqəɬpe rəɬɣʔat
+# text[rus] = Быстро залезли в полог.
+# text[eng] = They quickly got into the inner tent.
+# labels = complete-dep anno-fran
+1	Эӄыԓпэ	эӄыԓпэ	ADV	_	_	2	advmod	_	Gloss=быстро
+2	рыԓгъат	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-углубляться-TH-PL
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Kettle:10
+# text = Оʼраԓвагты тывэтгаквъак.
+# text[phon] = ʔoraɬwaɣtə təwetɣakwʔak
+# text[rus] = Неправильно сказала.
+# text[eng] = I said it wrong.
+# labels = complete-dep anno-fran
+1	Оʼраԓвагты	_	ADV	_	_	2	advmod	_	Gloss=TOWARDS-другой-DAT
+2	тывэтгаквъак	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-говорить-TH-1SG.S
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Kettle:11
+# text = Эӄыԓпэ чайкок нэнититгъэн увиэʼт эӄыԓпэ эна эни энаръэнат ӄымъяркыпԓятгъат.
+# text[phon] = eqəɬpe sajkok nenititɣʔen uwiʔet eqəɬpe ena eni enarʔenat qəmjarkəpɬatɣʔat
+# text[rus] = Быстро чайник сварили, сварили быстро, накрыли их (чайники), иней с яранги выбили.
+# text[eng] = They boiled the kettle quickly, cooked it quickly, covered them, beat the frost out of the yaranga.
+# labels = complete-dep anno-fran
+1	Эӄыԓпэ	эӄыԓпэ	ADV	_	_	3	advmod	3:advmod	Gloss=быстро
+2	чайкок	чайкок	NOUN	_	_	3	obj	3:obj	Gloss=чай-котелок-NOM.SG
+3	нэнититгъэн	_	VERB	_	_	0	root	0:root	Gloss=LOW.A-TR-вариться-TH-3SG.O
+4	увиэʼт	_	VERB	_	_	3	parataxis	3:parataxis	Gloss=2/3.S/A-варить-TH-PL
+5	эӄыԓпэ	эӄыԓпэ	ADV	_	_	4	advmod	4:advmod	Gloss=быстро
+6	эна	эна	X	_	_	8	reparandum	8:reparandum	Gloss=FST
+7	эни	эни	X	_	_	8	reparandum	8:reparandum	Gloss=FST
+8	энаръэнат	энаръэк	VERB	_	_	3	parataxis	3:parataxis	Gloss=2/3.S/A-накрывать-3SG.O-PL
+9	ӄымъяркыпԓятгъат	_	VERB	_	Incorporated[obj]=Yes	3	parataxis	3:parataxis	Gloss=2/3.S/A-иней-ударять-VB-TH-PL
+9.1	ӄымъяр	ӄэев	NOUN	_	Incorporated=Yes	_	_	9:obj	Gloss=иней
+10	.	.	PUNCT	_	_	3	punct	3:punct	_
+
+# sent_id = Kettle:12
+# text = Етгъэт гэкэӈыԓьыт рыԓгъат.
+# text[phon] = jetɣʔet ɣekeŋəɬʔət rəɬɣʔat
+# text[rus] = Прибыли те, кто на упряжках, вошли в полог.
+# text[eng] = The ones on the sledges (lit. on the teams) arrived and came into the inner tent.
+# labels = complete-dep anno-fran
+1	Етгъэт	етык	VERB	_	_	0	root	_	Gloss=2/3.S/A-приходить-TH-PL
+2	гэкэӈыԓьыт	гэкэӈыԓьын	NOUN	_	_	1	nsubj	_	Gloss=упряжка-ATTR-NOM.PL
+3	рыԓгъат	_	VERB	_	_	1	parataxis	_	Gloss=2/3.S/A-углубляться-TH-PL
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Kettle:13
+# text = Нивӄинэт.
+# text[phon] = niwqinet
+# text[rus] = Те сказали:
+# text[eng] = They said:
+# labels = complete-dep anno-fran
+1	Нивӄинэт	ивык	VERB	_	Valency=2	0	root	_	Gloss=ST-сказать-ST.3SG-PL
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Kettle:14
+# text = Тэӈуйӈэ мури ныӈъоморэ.
+# text[phon] = teŋujŋe muri nəŋʔomore
+# text[rus] = «Совсем ничего у нас нет, мы бедствуем».
+# text[eng] = «We have nothing, we are in need.»
+# labels = complete-dep anno-fran
+1	Тэӈуйӈэ	уйӈэ	PART	_	_	0	root	_	Gloss=GOOD-нет
+2	мури	мури	PRON	_	_	3	nsubj	_	Gloss=мы
+3	ныӈъоморэ	ӈъок	VERB	_	Valency=1	1	parataxis	_	Gloss=ST-жить.в.нужде-NP.1PL
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Kettle:15
+# text = Ныӈъоморэ.
+# text[phon] = nəŋʔomore
+# text[rus] = «Бедствуем мы».
+# text[eng] = «We are in need.»
+# labels = complete-dep anno-fran
+1	Ныӈъоморэ	ӈъок	VERB	_	Valency=1	0	root	_	Gloss=ST-жить.в.нужде-NP.1PL
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Kettle:16
+# text = Гарачаёнԓенат рэмкыԓьыт.
+# text[phon] = ɣarasajonɬenat remkəɬʔət
+# text[rus] = Захотели гости чай пить.
+# text[eng] = The guests wanted to drink some tea.
+# labels = complete-dep anno-fran
+1	Гарачаёнԓенат	_	VERB	_	Valency=1	0	root	_	Gloss=PF-DES-чай-EAT-DES-PF.3SG-PL
+2	рэмкыԓьыт	_	NOUN	_	_	1	nsubj	_	Gloss=народ-ATTR-NOM.PL
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Kettle:17
+# text = Ӄԓявыԓя ивнин ӈэвъэн.
+# text[phon] = qɬawəɬa iwnin ŋewʔen
+# text[rus] = Муж сказал жене:
+# text[eng] = The husband said to his wife:
+# labels = complete-dep anno-fran
+1	Ӄԓявыԓя	ӄԓявыԓ	NOUN	_	_	2	nsubj	_	Gloss=мужчина-INS
+2	ивнин	ивык	VERB	_	_	0	root	_	Gloss=2/3.S/A-сказать-3SG.A.3.O-3SG.O
+3	ӈэвъэн	ӈэвъэн	NOUN	_	_	2	obj	_	Gloss=жена-NOM.SG
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Kettle:18
+# text = Ӄувиги.
+# text[phon] = quwiɣi
+# text[rus] = «Вари».
+# text[eng] = «Cook.»
+# labels = complete-dep anno-fran
+1	Ӄувиги	увик	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-варить-IRR-2/3SG.S
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Kettle:19
+# text = Ӈытогъэ ӈэвъэнйыръын ынкы иквъи.
+# text[phon] = ŋətoɣʔe ŋewʔenjərʔən ənkə ikwʔi
+# text[rus] = Вышла жена, там сказала:
+# text[eng] = The wife came out and said:
+# labels = complete-dep anno-fran
+1	Ӈытогъэ	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-выходить-TH-2/3SG.S
+2	ӈэвъэнйыръын	ӈэвъэнйыръын	NOUN	_	_	1	nsubj	_	Gloss=жена-содержимое-NOM.SG
+3	ынкы	ынкы	PRON	_	_	4	obl	_	Gloss=тот-LOC
+4	иквъи	икын	VERB	_	_	1	parataxis	_	Gloss=2/3.S/A-сказать-TH-2/3SG.S
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Kettle:20
+# text = Чайкокаӄагэгыт ӄититги.
+# text[phon] = sajkokaqaɣeɣət qititɣi
+# text[rus] = «Чайничек, варись».
+# text[eng] = «Kettle, cook.»
+# labels = complete-dep anno-fran
+1	Чайкокаӄагэгыт	_	NOUN	_	_	2	vocative	_	Gloss=чай-котелок-DIM-NP.2SG
+2	ӄититги	ититык	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-вариться-IRR-2/3SG.S
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Kettle:21
+# text = Тъэче ӈирэче ивнин ӈыроча ивнин.
+# text[phon] = tʔese ŋirese iwnin ŋərosa iwnin
+# text[rus] = Сколько-то раз, два раза сказала, три раза сказала:
+# text[eng] = She said it several times, two times, three times:
+# labels = complete-dep anno-fran
+1	Тъэче	_	ADV	_	_	3	advmod	_	Gloss=сколько-MPL
+2	ӈирэче	ӈирэче	ADV	_	_	3	advmod	_	Gloss=два-MPL
+3	ивнин	ивык	VERB	_	_	0	root	_	Gloss=2/3.S/A-сказать-3SG.A.3.O-3SG.O
+4	ӈыроча	ӈыроча	ADV	_	_	5	advmod	_	Gloss=три-MULT
+5	ивнин	ивык	VERB	_	_	3	parataxis	_	Gloss=2/3.S/A-сказать-3SG.A.3.O-3SG.O
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Kettle:22
+# text = Чайкокаӄагэгыт ӄититги.
+# text[phon] = sajkokaqaɣeɣət qititɣi
+# text[rus] = «Чайничек, варись».
+# text[eng] = «Kettle, cook.»
+# labels = complete-dep anno-fran
+1	Чайкокаӄагэгыт	_	NOUN	_	_	2	vocative	_	Gloss=чай-котелок-DIM-NP.2SG
+2	ӄититги	ититык	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-вариться-IRR-2/3SG.S
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Kettle:23
+# text = И ԓюут рэннин кукэӈы ԓгинытгыԓӄин.
+# text[phon] = и ɬuut rennin kukeŋə ɬɣinətɣəɬqin
+# text[rus] = И вдруг приносит чайник очень горячий.
+# text[eng] = And suddenly she brings a very hot kettle.
+# labels = complete-dep anno-fran unclear-syntax
+1	И	_	CCONJ	_	_	3	cc	_	Gloss=
+2	ԓюут	ԓюут	ADV	_	_	3	advmod	_	Gloss=вдруг
+3	рэннин	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-приносить-3SG.A.3.O-3SG.O
+4	кукэӈы	кукэӈы	NOUN	_	_	3	obj	_	Gloss=котелок-NOM.SG
+5	ԓгинытгыԓӄин	_	ADJ	_	_	3	parataxis	_	Gloss=INTS-ST-горячий-ST.3SG
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Kettle:24
+# text = Иквъэтэ.
+# text[phon] = ikwʔete
+# text[rus] = Те говорят:
+# text[eng] = They say:
+# labels = complete-dep anno-fran
+1-2	Иквъэтэ	_	_	_	_	_	_	_	Gloss=2/3.S/A-сказать-TH-PL-=PTCL
+1	Иквъэт	_	VERB	_	Valency=2	0	root	_	Gloss=2/3.S/A-сказать-TH-PL
+2	э	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Kettle:25
+# text = Миӈкыри тури ынӈин чайпаттык.
+# text[phon] = miŋkəri turi ənŋin sajpattək
+# text[rus] = «Как вы так чай сварили?».
+# text[eng] = «How did you prepare the tea?»
+# labels = complete-dep anno-fran
+1	Миӈкыри	миӈкыри	ADV	_	_	4	advmod	4:advmod	Gloss=где-LOC-ADV.ALL
+2	тури	тури	PRON	_	_	4	nsubj	4:nsubj	Gloss=вы
+3	ынӈин	ынӈин	ADV	_	_	4	advmod	4:advmod	Gloss=так
+4	чайпаттык	ыпатык	VERB	_	Incorporated[obj]=Yes	0	root	0:root	Gloss=2/3.S/A-чай-варить-2PL.S/O
+4.1	чай	чай	NOUN	_	Incorporated=Yes	_	_	4:obj	Gloss=чай
+5	.	.	PUNCT	_	_	4	punct	4:punct	_
+
+# sent_id = Kettle:26
+# text = Нивӄин.
+# text[phon] = niwqin
+# text[rus] = Говорит:
+# text[eng] = She says:
+# labels = complete-dep anno-fran
+1	Нивӄин	ивык	VERB	_	Valency=2	0	root	_	Gloss=ST-сказать-ST.3SG
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Kettle:27
+# text = Ынӄэн мургин кукэӄэй чинит нычайпатӄэн.
+# text[phon] = ənqen murɣin kukeqej sinit nəsajpatqen
+# text[rus] = «Это наш чайничек сам чай варит».
+# text[eng] = «This is our kettle, it makes tea by itself.»
+# labels = complete-dep anno-fran
+1	Ынӄэн	ынӄэн	PRON	_	_	3	nsubj	3:nsubj	Gloss=DET
+2	мургин	_	PRON	_	_	3	nmod:poss	3:nmod:poss	Gloss=мы-GEN
+3	кукэӄэй	кукэӄэй	NOUN	_	_	0	root	0:root	Gloss=котелок-DIM-NOM.SG
+4	чинит	чинит	ADV	_	_	5	advmod	5:advmod	Gloss=сам
+5	нычайпатӄэн	_	VERB	_	Incorporated[obj]=Yes|Valency=1	3	parataxis	3:parataxis	Gloss=ST-чай-варить-ST.3SG
+5.1	чай	чай	NOUN	_	Incorporated=Yes	_	_	5:obj	Gloss=чай
+6	.	.	PUNCT	_	_	5	punct	5:punct	_
+
+# sent_id = Kettle:28
+# text = Рэмкэ наԓгээнъатэвгъан кукэӈы.
+# text[phon] = remke naɬɣeenʔatewɣʔan kukeŋə
+# text[rus] = Гости очень просили чайник.
+# text[eng] = The guests asked for the kettle.
+# labels = complete-dep anno-fran
+1	Рэмкэ	рэмкын	NOUN	_	_	2	nsubj	_	Gloss=народ-INS
+2	наԓгээнъатэвгъан	_	VERB	_	_	0	root	_	Gloss=LOW.A-INTS-быть.полезным-CS-TH-3SG.O
+3	кукэӈы	кукэӈы	NOUN	_	_	2	obj	_	Gloss=котелок-NOM.SG
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Kettle:29
+# text = А ӄԓявыԓ нивӄин.
+# text[phon] = а qɬawəɬ niwqin
+# text[rus] = А муж говорил:
+# text[eng] = And the husband said:
+# labels = complete-dep anno-fran valency
+1	А	_	CCONJ	_	_	3	cc	_	Gloss=
+2	ӄԓявыԓ	ӄԓявыԓ	NOUN	_	_	3	nsubj	_	Gloss=мужчина-NOM.SG
+3	нивӄин	ивык	VERB	_	Valency=2	0	root	_	Gloss=ST-сказать-ST.3SG
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Kettle:30
+# text = Нэмыӄэй мургин яаёԓӄыԓ.
+# text[phon] = neməqej murɣin jaajoɬqəɬ
+# text[rus] = «Нам он тоже нужен».
+# text[eng] = «We need it too.»
+# labels = complete-dep anno-fran
+1	Нэмыӄэй	нэмыӄэй	ADV	_	_	3	advmod	_	Gloss=тоже
+2	мургин	_	PRON	_	_	3	nmod:poss	_	Gloss=мы-GEN
+3	яаёԓӄыԓ	_	VERB	_	_	0	root	_	Gloss=использовать-PTCP.PASS-DEB
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Kettle:31
+# text = Потом мургин яаёԓӄыԓ.
+# text[phon] = потом murɣin jaajoɬqəɬ
+# text[rus] = «Потом он нам нужен».
+# text[eng] = «We also need it.»
+# labels = complete-dep anno-fran
+1	Потом	потом	X	_	_	3	discourse	_	Gloss=
+2	мургин	мури	PRON	_	_	3	nmod:poss	_	Gloss=мы-GEN
+3	яаёԓӄыԓ	_	VERB	_	_	0	root	_	Gloss=использовать-PTCP.PASS-DEB
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Kettle:32
+# text = Рэмкэ ивнин.
+# text[phon] = remke iwnin
+# text[rus] = Гости сказали:
+# text[eng] = The guests said:
+# labels = complete-dep anno-fran
+1	Рэмкэ	рэмкын	NOUN	_	_	2	nsubj	_	Gloss=народ-INS
+2	ивнин	ивык	VERB	_	_	0	root	_	Gloss=2/3.S/A-сказать-3SG.A.3.O-3SG.O
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Kettle:33
+# text = Ым ымыԓьэты ӈэԓвыԓ трэ мытрэйыԓгыт.
+# text[phon] = əm əməɬʔetə ŋeɬwəɬ tre mətrejəɬɣət
+# text[rus] = «Всё стадо тебе отдадим».
+# text[eng] = «We will give you the whole herd.»
+# labels = complete-dep anno-fran
+1	Ым	Ым	X	_	_	2	reparandum	_	Gloss=FST
+2	ымыԓьэты	_	PRON	_	_	5	obl	_	Gloss=весь-DAT
+3	ӈэԓвыԓ	ӈэԓвыԓ	NOUN	_	_	5	obj	_	Gloss=стадо-NOM.SG
+4	трэ	трэ	X	_	_	5	reparandum	_	Gloss=FST
+5	мытрэйыԓгыт	йыԓык	VERB	_	_	0	root	_	Gloss=1PL.S/A-FUT-давать-2SG.O
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Kettle:34
+# text = Нэйыԓгъэн кукэӈы и эквэтгъэт рэмкыԓьыт.
+# text[phon] = nejəɬɣʔen kukeŋə и ekwetɣʔet remkəɬʔət
+# text[rus] = Отдали им чайник, и уехали гости.
+# text[eng] = They gave them the kettle, and the guests left.
+# labels = complete-dep anno-fran
+1	Нэйыԓгъэн	_	VERB	_	_	0	root	_	Gloss=LOW.A-давать-TH-3SG.O
+2	кукэӈы	кукэӈы	NOUN	_	_	1	obj	_	Gloss=котелок-NOM.SG
+3	и	_	CCONJ	_	_	4	cc	_	Gloss=
+4	эквэтгъэт	эквэтык	VERB	_	_	1	parataxis	_	Gloss=2/3.S/A-отправляться-TH-PL
+5	рэмкыԓьыт	_	NOUN	_	_	4	obj	_	Gloss=народ-ATTR-NOM.PL
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Kettle:35
+# text = Тумгэ ивнин ӈэвъэнйы ӈэвъэн.
+# text[phon] = tumɣe iwnin ŋewʔenjə ŋewʔen
+# text[rus] = Муж сказал жене:
+# text[eng] = The husband said to his wife:
+# labels = complete-dep anno-fran
+1	Тумгэ	тумгытум	NOUN	_	_	2	nsubj	_	Gloss=друг-INS
+2	ивнин	ивык	VERB	_	_	0	root	_	Gloss=2/3.S/A-сказать-3SG.A.3.O-3SG.O
+3	ӈэвъэнйы	ӈэвъэнйы	X	_	_	4	reparandum	_	Gloss=FST
+4	ӈэвъэн	ӈэвъэн	NOUN	_	_	2	obj	_	Gloss=жена-NOM.SG
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Kettle:36
+# text = Эӄыԓпэ мынръэйвэнмык.
+# text[phon] = eqəɬpe mənrʔejwenmək
+# text[rus] = «Быстро разбираем ярангу».
+# text[eng] = «Let's disassemble the yaranga fast.»
+# labels = complete-dep anno-fran
+1	Эӄыԓпэ	эӄыԓпэ	ADV	_	_	2	advmod	_	Gloss=быстро
+2	мынръэйвэнмык	ръэйвэтык	VERB	_	_	0	root	_	Gloss=1PL.S/A.SUBJ-укладывать.груз.при.кочёвке-VB-1PL.S/O
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Kettle:37
+# text = Эӄыԓпэ гэԓи гэръэйвэтԓинэт и яԓгытгъат тэӈэӄыԓпэ.
+# text[phon] = eqəɬpe ɣeɬi ɣerʔejwetɬinet и jaɬɣətɣʔat teŋeqəɬpe
+# text[rus] = Быстро разобрали ярангу и откочевали очень быстро.
+# text[eng] = They quickly disassembled the yaranga and left (lit. nomadised) very quickly.
+# labels = complete-dep anno-fran
+1	Эӄыԓпэ	эӄыԓпэ	ADV	_	_	3	advmod	_	Gloss=быстро
+2	гэԓи	гэԓи	X	_	_	3	reparandum	_	Gloss=FST
+3	гэръэйвэтԓинэт	_	VERB	_	Valency=2	0	root	_	Gloss=PF-укладывать.груз.при.кочёвке-VB-PF.3SG-PL
+4	и	_	CCONJ	_	_	5	cc	_	Gloss=
+5	яԓгытгъат	яԓгытык	VERB	_	_	3	conj	_	Gloss=2/3.S/A-кочевать-TH-PL
+6	тэӈэӄыԓпэ	_	ADV	_	_	5	advmod	_	Gloss=GOOD-быстро
+7	.	.	PUNCT	_	_	3	punct	_	_
+

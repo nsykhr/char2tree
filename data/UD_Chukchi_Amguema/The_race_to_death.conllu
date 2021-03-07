@@ -1,0 +1,163 @@
+# sent_id = The_race_to_death:1
+# text = Нрзб тэԓенъеп коԓё ръиԓечитԓьэтԓеэт таӈымԓьаԓяӈэт таӈымыԓьо нымнымытъым.
+# text[phon] = нрзб teɬenjep koɬo rʔiɬesitɬʔetɬeet taŋəmɬʔaɬaŋet taŋəməɬʔo nəmnəmətʔəm
+# text[rus] = В старину устраивали большие гонки (соревнования) в течение всей зимы все селения (стойбища).
+# text[eng] = In the old days, all the villages (all the camps) organised big races throughout the winter.
+# labels = complete-dep anno-fran
+1	Нрзб	_	X	_	_	4	discourse	_	Gloss=
+2	тэԓенъеп	_	ADV	_	_	4	advmod	_	Gloss=раньше-ещё
+3	коԓё	коԓё	ADV	_	_	4	advmod	_	Gloss=очень
+4	ръиԓечитԓьэтԓеэт	ръиԓек	VERB	_	_	0	root	_	Gloss=участвовать.в.гонках-COMB-PLAC-PF.3PL
+5	таӈымԓьаԓяӈэт	_	NOUN	_	_	4	obl	_	Gloss=GOOD-TOT-зима-TIME
+6	таӈымыԓьо	_	NOUN	_	_	5	appos	_	Gloss=GOOD-весь
+7-8	нымнымытъым	_	_	_	_	_	_	_	Gloss=посёлок-NOM.PL-=EMPH
+7	нымнымыт	_	NOUN	_	_	4	nsubj	_	Gloss=посёлок-NOM.PL
+8	ъым	ъм	PART	_	_	7	advmod:emph	_	Gloss=EMPH
+9	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = The_race_to_death:2
+# text = Ынкъамэ ӄоԓ нитӄинэт нымӈыԓтэԓӄэнатэ таӈамаԓва ваԓьын эʼрагыргын нытваӄэнъымэ.
+# text[phon] = ənkʔame qoɬ nitqinet nəmŋəɬteɬqenate taŋamaɬwa waɬʔən ʔeraɣərɣən nətwaqenʔəme
+# text[rus] = И иногда рассказывали, что всякие, самые разнообразные гонки бывали.
+# text[eng] = And sometimes people told that there were a wide range of the most diverse races.
+# labels = complete-dep anno-fran copulae reattached-clitic
+1-2	Ынкъамэ	_	_	_	_	_	_	_	Gloss=и-=PTCL
+1	Ынкъам	_	CCONJ	_	_	5	cc	_	Gloss=и
+2	э	а	PART	_	_	5	advmod:emph	_	Gloss=PTCL
+3	ӄоԓ	ӄоԓ	PRON	_	_	5	dep	_	Gloss=некий
+4	нитӄинэт	итык	AUX	_	Valency=1	3	cop	_	Gloss=ST-являться-ST.3SG-PL
+5-6	нымӈыԓтэԓӄэнатэ	_	_	_	_	_	_	_	Gloss=ST-весть-DUR-ST.3SG-PL-=PTCL
+5	нымӈыԓтэԓӄэнат	_	VERB	_	_	0	root	_	Gloss=ST-весть-DUR-ST.3SG-PL
+6	э	а	PART	_	_	5	advmod:emph	_	Gloss=PTCL
+7	таӈамаԓва	_	ADV	_	_	9	acl	_	Gloss=GOOD-RESTR-другой-AD
+8	ваԓьын	ваԓьын	AUX	_	_	7	cop	_	Gloss=быть-ATTR-NOM.SG
+9	эʼрагыргын	эʼрагыргын	VERB	_	_	5	parataxis	_	Gloss=состязаться.в.гонках.на.упряжках-NMLZ-NOM.SG
+10-12	нытваӄэнъымэ	_	_	_	_	_	_	_	Gloss=ST-быть-ST.3SG-=EMPH-=PTCL
+10	нытваӄэн	_	AUX	_	Valency=1	9	cop	_	Gloss=ST-быть-ST.3SG
+11	ъым	ъм	PART	_	_	9	advmod:emph	_	Gloss=EMPH
+12	э	а	PART	_	_	9	advmod:emph	_	Gloss=PTCL
+13	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = The_race_to_death:3
+# text = Ӄоԓ итгъэтэ тэԓенъеп нивӄээт гагтытантэйкыԓи гаканйыӈ.
+# text[phon] = qoɬ itɣʔete teɬenjep niwqeet ɣaɣtətantejkəɬi ɣakanjəŋ
+# text[rus] = Как-то раз давным-давно, говорят, очень хорошо была сделана упряжка.
+# text[eng] = Once upon a time, people say, a team was very well made up.
+# labels = complete-dep anno-fran
+1	Ӄоԓ	ӄоԓ	PRON	_	_	2	nsubj	_	Gloss=некий
+2-3	итгъэтэ	_	_	_	_	_	_	_	Gloss=2/3.S/A-являться-TH-2/3SG.S-PL-=PTCL
+2	итгъэт	_	VERB	_	Valency=1	0	root	_	Gloss=2/3.S/A-являться-TH-2/3SG.S-PL
+3	э	а	PART	_	_	2	advmod:emph	_	Gloss=PTCL
+4	тэԓенъеп	_	ADV	_	_	2	advmod	_	Gloss=раньше-ещё
+5	нивӄээт	_	VERB	_	Valency=2	2	parataxis	_	Gloss=ST-сказать-ST.3PL
+6	гагтытантэйкыԓи	_	VERB	_	Valency=2	2	parataxis	_	Gloss=PF-HARD-GOOD-делать-PF.3SG.нер.изм.
+7-8	гаканйыӈ	_	_	_	_	_	_	_	Gloss=упряжка-NOM.SG-=PTCL
+7	гаканйы	гаканйыӈ	NOUN	_	_	6	obj	_	Gloss=упряжка-NOM.SG
+8	ӈ	а	PART	_	_	7	advmod:emph	_	Gloss=PTCL
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = The_race_to_death:4
+# text = Яноттыԓяк минринэтгъиӈэ гаканйыӈа.
+# text[phon] = janottəɬak minrinetɣʔiŋe ɣakanjəŋa
+# text[rus] = За впереди идущим последовала упряжка.
+# text[eng] = The team followed behind the racer in front.
+# labels = complete-dep anno-karina
+1	Яноттыԓяк	_	NOUN	_	_	2	advcl	2:advcl	Gloss=сначала-идти-LOC
+2-3	минринэтгъиӈэ	_	_	_	_	_	_	_	Gloss=2/3.S/A-следовать.за-TH-2/3SG.S-=PTCL
+2	минринэтгъи	_	VERB	_	_	0	root	0:root	Gloss=2/3.S/A-следовать.за-TH-2/3SG.S
+3	ӈэ	а	PART	_	_	2	advmod:emph	2:advmod:emph	Gloss=PTCL
+4-5	гаканйыӈа	_	_	_	_	_	_	_	Gloss=упряжка-NOM.SG-=PTCL
+4	гаканйы	гаканйыӈа	NOUN	_	_	2	nsubj	2:nsubj	Gloss=упряжка-NOM.SG
+5	ӈа	а	PART	_	_	4	advmod:emph	4:advmod:emph	Gloss=PTCL
+6	.	.	PUNCT	_	_	2	punct	2:punct	_
+
+# sent_id = The_race_to_death:5
+# text = Нрзб ынӄэнэ гакооԓгыԓе ынръама ръиԓеԓьынъым.
+# text[phon] = нрзб ənqene ɣakooɬɣəɬe ənrʔama rʔiɬeɬʔənʔəm
+# text[rus] = А гонщика сразу же схватил инфаркт.
+# text[eng] = And the driver immediately caught a heart attack.
+# labels = complete-dep anno-fran ənqen
+1	Нрзб	_	X	_	_	4	discourse	_	Gloss=
+2-3	ынӄэнэ	_	_	_	_	_	_	_	Gloss=DET-=PTCL
+2	ынӄэн	_	PART	_	_	4	discourse	_	Gloss=DET
+3	э	а	PART	_	_	2	advmod:emph	_	Gloss=PTCL
+4	гакооԓгыԓе	_	VERB	_	Valency=1	0	root	_	Gloss=PF-падать.замертво-PF.3SG.нер.изм.
+5-6	ынръама	_	_	_	_	_	_	_	Gloss=видимо-=PTCL
+5	ынръам	_	ADV	_	_	4	advmod	_	Gloss=видимо
+6	а	а	PART	_	_	5	advmod:emph	_	Gloss=PTCL
+7-8	ръиԓеԓьынъым	_	_	_	_	_	_	_	Gloss=участвовать.в.гонках-ATTR-NOM.SG-=EMPH
+7	ръиԓеԓьын	ръиԓеԓьынъым	NOUN	_	_	4	nsubj	_	Gloss=участвовать.в.гонках-ATTR-NOM.SG
+8	ъым	ъм	PART	_	_	7	advmod:emph	_	Gloss=EMPH
+9	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = The_race_to_death:6
+# text = Амгаканйыӈа яноттыԓяка пыкиргъиӈэ.
+# text[phon] = amɣakanjəŋa janottəɬaka pəkirɣʔiŋe
+# text[rus] = Только упряжка (без гонщика) пришла за впереди идущим.
+# text[eng] = Only the team (without the driver) came after the first racer.
+# labels = complete-dep anno-karina
+1-2	Амгаканйыӈа	_	_	_	_	_	_	_	Gloss=RESTR-упряжка-NOM.SG-=PTCL
+1	Амгаканйы	Амгаканйыӈа	NOUN	_	_	5	nsubj	5:nsubj	Gloss=RESTR-упряжка-NOM.SG
+2	ӈа	а	PART	_	_	1	advmod:emph	1:advmod:emph	Gloss=PTCL
+3-4	яноттыԓяка	_	_	_	_	_	_	_	Gloss=сначала-идти-LOC-=PTCL
+3	яноттыԓяк	_	NOUN	_	_	5	obl	5:obl	Gloss=сначала-идти-LOC
+4	а	а	PART	_	_	3	advmod:emph	3:advmod:emph	Gloss=PTCL
+5-6	пыкиргъиӈэ	_	_	_	_	_	_	_	Gloss=2/3.S/A-прибывать-TH-2/3SG.S-=PTCL|SpaceAfter=No
+5	пыкиргъи	_	VERB	_	Valency=1	0	root	0:root	Gloss=2/3.S/A-прибывать-TH-2/3SG.S
+6	ӈэ	а	PART	_	_	5	advmod:emph	5:advmod:emph	Gloss=PTCL
+7	.	.	PUNCT	_	_	5	punct	5:punct	_
+
+# sent_id = The_race_to_death:7
+# text = Таӈранъав орвоор ныԓеӄин.
+# text[phon] = taŋranʔaw orwoor nəɬeqin
+# text[rus] = Очень ровно (прямо) шла нарта.
+# text[eng] = The sledge was moving very straight.
+# labels = complete-dep anno-fran
+1	Таӈранъав	_	ADV	_	_	3	advmod	_	Gloss=GOOD-напротив
+2	орвоор	орвоор	NOUN	_	_	3	obl	_	Gloss=нарта
+3	ныԓеӄин	тыԓек	VERB	_	Valency=1	0	root	_	Gloss=ST-идти-ST.3SG
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = The_race_to_death:8
+# text = Тэӈԓюӈымыԓеԓьын тэӈэвыт ныви яноттыԓяк ӄача пыкиргъи нывиԓгъи.
+# text[phon] = teŋɬuŋəməɬeɬʔən teŋewət nəwi janottəɬak qasa pəkirɣʔi nəwiɬɣʔi
+# text[rus] = Абсолютно без единой поломки (нарта) пришла, возле впереди идущего остановилась.
+# text[eng] = The sledge came without a single breakdown and stopped near the racer in front.
+# labels = complete-dep anno-karina
+1	Тэӈԓюӈымыԓеԓьын	_	VERB	_	_	6	nsubj	_	Gloss=GOOD-NEG.PFV-ломать(ся)-ATTR-NOM.SG
+2	тэӈэвыт	_	ADV	_	_	6	advmod	_	Gloss=GOOD-когда
+3	ныви	ныви	X	_	_	4	reparandum	_	Gloss=FST
+4	яноттыԓяк	_	NOUN	_	_	6	obl	_	Gloss=сначала-идти-LOC
+5	ӄача	ӄача	ADP	_	_	4	case	_	Gloss=около
+6	пыкиргъи	_	VERB	_	Valency=1	0	root	_	Gloss=2/3.S/A-прибывать-TH-2/3SG.S
+7	нывиԓгъи	_	VERB	_	_	6	parataxis	_	Gloss=2/3.S/A-останавливаться-TH-2/3SG.S
+8	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = The_race_to_death:9
+# text = А этынвынъым пэ поӄытгагтыёԓго ытръэч ныԓгыӄин нрзб чьэчеӈвыйичыку.
+# text[phon] = а etənwənʔəm pe poqətɣaɣtəjoɬɣo ətrʔes nəɬɣəqin нрзб sʔeseŋwəjisəku
+# text[rus] = Хозяина же превратили в трамплин в морозном пару.
+# text[eng] = The owner (driver) was turned into a springboard in a frosty steam.
+# labels = complete-dep anno-fran valency
+1	А	а	CCONJ	_	_	7	cc	_	Gloss=
+2-3	этынвынъым	_	_	_	_	_	_	_	Gloss=хозяин-NOM.SG-=EMPH
+2	этынвын	этынвынъым	NOUN	_	_	7	nsubj	_	Gloss=хозяин-NOM.SG
+3	ъым	ъм	PART	_	_	2	advmod:emph	_	Gloss=EMPH
+4	пэ	пэ	X	_	_	5	reparandum	_	Gloss=FST
+5	поӄытгагтыёԓго	_	NOUN	_	_	7	xcomp	_	Gloss=лететь.кубарем-CONT-EQU
+6	ытръэч	ытръэч	ADV	_	_	7	advmod	_	Gloss=только
+7	ныԓгыӄин	тыԓгык	VERB	_	Valency=1	0	root	_	Gloss=ST-считать-ST.3SG
+8	нрзб	_	X	_	_	7	discourse	_	Gloss=
+9	чьэчеӈвыйичыку	_	NOUN	_	_	7	obl	_	Gloss=морозный-воздух-IN
+10	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = The_race_to_death:10
+# text = Ӄытԓыги гакооԓгыԓен.
+# text[phon] = qətɬəɣi ɣakooɬɣəɬen
+# text[rus] = Оказывается, инфаркт схватил его.
+# text[eng] = It turned out that he caught a heart attack.
+# labels = complete-dep anno-fran
+1	Ӄытԓыги	_	PART	_	_	2	discourse	_	Gloss=оказывается
+2	гакооԓгыԓен	_	VERB	_	Valency=1	0	root	_	Gloss=PF-падать.замертво-PF.3SG
+3	.	.	PUNCT	_	_	2	punct	_	_
+

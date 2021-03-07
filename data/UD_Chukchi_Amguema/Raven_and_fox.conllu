@@ -1,0 +1,506 @@
+# sent_id = Raven_and_fox:1
+# text = Энмэн гатваԓен ваԓвийӈын.
+# text[phon] = enmen ɣatwaɬen waɬwijŋən
+# text[rus] = Итак, жил-был ворон.
+# text[eng] = So, there was a raven.
+# labels = complete-dep anno-fran
+1	Энмэн	энмэн	ADV	_	_	2	advmod	_	Gloss=итак
+2	гатваԓен	вак	AUX	_	Valency=1	0	root	_	Gloss=PF-быть-PF.3SG
+3	ваԓвийӈын	ваԓвийӈын	NOUN	_	_	2	nsubj	_	Gloss=ворон-AUG-NOM.SG
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Raven_and_fox:2
+# text = Энмэпы ныраԓечетӄэн.
+# text[phon] = enmepə nəraɬesetqen
+# text[rus] = С обрыва катался.
+# text[eng] = He used to slide down the cliff (lit. from the cliff).
+# labels = complete-dep anno-fran
+1	Энмэпы	_	NOUN	_	_	2	obl	_	Gloss=скала-ABL
+2	ныраԓечетӄэн	раԓечетык	VERB	_	Valency=1	0	root	_	Gloss=ST-прокатиться-COMB-ST.3SG
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Raven_and_fox:3
+# text = Энмэпы ныраԓечетӄэн.
+# text[phon] = enmepə nəraɬesetqen
+# text[rus] = С обрыва катался.
+# text[eng] = He used to slide down the cliff (lit. from the cliff).
+# labels = complete-dep anno-fran
+1	Энмэпы	_	NOUN	_	_	2	obl	_	Gloss=скала-ABL
+2	ныраԓечетӄэн	раԓечетык	VERB	_	Valency=1	0	root	_	Gloss=ST-прокатиться-COMB-ST.3SG
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Raven_and_fox:4
+# text = Потом ынӄо ныр ныгаԓяӄэн рэӄокаԓгын.
+# text[phon] = потом ənqo nər nəɣaɬaqen reqokaɬɣən
+# text[rus] = Потом мимо проходил лис.
+# text[eng] = Then a fox was passing by.
+# labels = complete-dep anno-fran
+1	Потом	_	X	_	_	2	reparandum	_	Gloss=
+2	ынӄо	ынӄо	ADV	_	_	4	advmod	_	Gloss=потом
+3	ныр	ныр	X	_	_	4	reparandum	_	Gloss=FST
+4	ныгаԓяӄэн	гаԓяк	VERB	_	Valency=1	0	root	_	Gloss=ST-проходить-ST.3SG
+5	рэӄокаԓгын	рэӄокаԓгын	NOUN	_	_	4	nsubj	_	Gloss=лиса-SING-NOM.SG
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Raven_and_fox:5
+# text = Ԓьунин энмэпы раԓечетыԓьын ваԓвийӈын.
+# text[phon] = ɬʔunin enmepə raɬesetəɬʔən waɬwijŋən
+# text[rus] = Увидел, как ворон катается с обрыва.
+# text[eng] = He saw that the raven was sliding down the cliff.
+# text[eng'] = He saw a raven sliding down the cliff.
+# labels = complete-dep anno-fran
+1	Ԓьунин	ԓьук	VERB	_	_	0	root	_	Gloss=2/3.S/A-видеть-3SG.A.3.O-3SG.O
+2	энмэпы	_	NOUN	_	_	3	obl	_	Gloss=скала-ABL
+3	раԓечетыԓьын	раԓечетыԓьын	VERB	_	_	4	acl:attr	_	Gloss=прокатиться-COMB-ATTR-NOM.SG
+4	ваԓвийӈын	ваԓвийӈын	NOUN	_	_	1	obj	_	Gloss=ворон-AUG-NOM.SG
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Raven_and_fox:6
+# text = Еԓьой гым нэмыӄэй мыраԓегъак.
+# text[phon] = jeɬʔoj ɣəm neməqej məraɬeɣʔak
+# text[rus] = «Братец, я тоже прокачусь».
+# text[eng] = «Brother (lit. cousin), I also want to slide.»
+# labels = complete-dep anno-fran
+1	Еԓьой	_	NOUN	_	_	4	vocative	_	Gloss=двоюродный.брат-VOC
+2	гым	гым	PRON	_	_	4	nsubj	_	Gloss=я
+3	нэмыӄэй	нэмыӄэй	ADV	_	_	4	advmod	_	Gloss=тоже
+4	мыраԓегъак	раԓек	VERB	_	_	0	root	_	Gloss=1SG.S/A.SUBJ-прокатиться-TH-1SG.S
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Raven_and_fox:7
+# text = Ӄоԓьым нивӄин.
+# text[phon] = qoɬʔəm niwqin
+# text[rus] = Тот (ворон) говорит:
+# text[eng] = That raven says:
+# labels = complete-dep anno-fran
+1-2	Ӄоԓьым	_	_	_	_	_	_	_	Gloss=некий-=EMPH
+1	Ӄоԓ	ӄоԓ	PRON	_	_	3	nsubj	_	Gloss=некий
+2	ьым	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	нивӄин	ивык	VERB	_	Valency=2	0	root	_	Gloss=ST-сказать-ST.3SG
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Raven_and_fox:8
+# text = Аӈӄак пыкэрыӈӈок чамъам рэриӈэгъэ рэпыԓӄэтгъэ.
+# text[phon] = aŋqak pəkerəŋŋok samʔam reriŋeɣʔe repəɬqetɣʔe
+# text[rus] = «Приближаясь к океану, ты не сможешь взлететь и утонешь».
+# text[eng] = «Approaching the sea, you will not be able to fly up and you will drown.»
+# labels = complete-dep anno-fran
+1	Аӈӄак	аӈӄы	NOUN	_	_	2	obl	_	Gloss=море-LOC
+2	пыкэрыӈӈок	_	VERB	_	_	4	advcl	_	Gloss=прибывать-INCH-LOC
+3	чамъам	_	ADV	_	_	4	advmod	_	Gloss=невозможно
+4	рэриӈэгъэ	риӈэк	VERB	_	_	0	root	_	Gloss=2/3.S/A-FUT-взлетать-TH
+5	рэпыԓӄэтгъэ	пыԓӄэтык	VERB	_	_	4	parataxis	_	Gloss=2/3.S/A-FUT-тонуть-VB-TH
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Raven_and_fox:9
+# text = А ӄоԓ вэнԓыги вэнԓыги мыраԓечетгъак.
+# text[phon] = a qoɬ wenɬəɣi wenɬəɣi məraɬesetɣʔak
+# text[rus] = А он (лис) всё равно: «Я всё равно прокачусь».
+# text[eng] = And nevertheless he (says): «I still want to slide.»
+# labels = complete-dep anno-fran
+1	А	_	CCONJ	_	_	2	cc	_	Gloss=PTCL
+2	ӄоԓ	ӄоԓ	PRON	_	_	0	root	_	Gloss=некий
+3	вэнԓыги	вэнԓыги	ADV	_	_	5	advmod	_	Gloss=всё.же
+4	вэнԓыги	вэнԓыги	ADV	_	_	5	advmod	_	Gloss=всё.же
+5	мыраԓечетгъак	раԓечетык	VERB	_	Valency=1	2	parataxis	_	Gloss=1SG.S/A.SUBJ-прокатиться-COMB-TH-1SG.S
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Raven_and_fox:10
+# text = Ӄырымъым мыгтогыт рэпы это рэпыԓӄатыӈӈогъа.
+# text[phon] = qərəmʔəm məɣtoɣət repə это repəɬqatəŋŋoɣʔa
+# text[rus] = «Я тебя не вытащу, если будешь тонуть».
+# text[eng] = «I will not pull you out if you start drowning.»
+# labels = complete-dep anno-fran subordination leaf-invalid
+1-2	Ӄырымъым	_	_	_	_	_	_	_	Gloss=NEG.FUT-=EMPH
+1	Ӄырым	ӄырым	AUX	_	_	3	aux	_	Gloss=NEG.FUT
+2	ъым	ъм	PART	_	_	3	advmod:emph	_	Gloss=EMPH
+3	мыгтогыт	_	VERB	_	_	0	root	_	Gloss=1SG.S/A.SUBJ-вынимать-2SG.O
+4	рэпы	рэпы	X	_	_	6	reparandum	_	Gloss=FST
+5	это	_	X	_	_	6	reparandum	_	Gloss=
+6	рэпыԓӄатыӈӈогъа	_	VERB	_	_	3	parataxis	_	Gloss=2/3.S/A-FUT-тонуть-VB-INCH-TH
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Raven_and_fox:11
+# text = И так раԓечетгъэ ваԓв яа яачы рэ яачы рэӄокаԓгын раԓеэʼыʼм мимԓык аӈӄак пыкирык ын ынӄэн нинивӄин.
+# text[phon] = и так raɬesetɣʔe waɬw jaa jaasə re jaasə reqokaɬɣən raɬeʔeʔəm mimɬək aŋqak pəkirək ən ənqen niniwqin
+# text[rus] = Потом лис скатился и, когда он приближался к воде, к морю, ворон ему говорит:
+# text[eng] = Then the fox slid down and when he was coming closer to the water, to the sea, the raven said:
+# labels = complete-dep anno-fran
+1	И	_	X	_	_	3	discourse	_	Gloss=
+2	так	так	X	_	_	1	flat:foreign	_	Gloss=
+3	раԓечетгъэ	раԓечетык	VERB	_	Valency=1	0	root	_	Gloss=2/3.S/A-прокатиться-COMB-TH-2/3SG.S
+4	ваԓв	ваԓв	X	_	_	6	reparandum	_	Gloss=FST
+5	яа	яа	X	_	_	6	reparandum	_	Gloss=FST
+6	яачы	яачы	ADV	_	_	3	advmod	_	Gloss=сзади
+7	рэ	рэ	X	_	_	8	reparandum	_	Gloss=FST
+8	яачы	яачы	ADV	_	_	3	advmod	_	Gloss=сзади
+9	рэӄокаԓгын	рэӄокаԓгын	NOUN	_	_	3	nsubj	_	Gloss=лиса-SING-NOM.SG
+10-11	раԓеэʼыʼм	_	_	_	_	_	_	_	Gloss=2/3.S/A-прокатиться-TH-2/3SG.S-=EMPH
+10	раԓеэʼ	_	VERB	_	Valency=1	3	parataxis	_	Gloss=2/3.S/A-прокатиться-TH-2/3SG.S
+11	ыʼм	ъм	PART	_	_	10	advmod:emph	_	Gloss=EMPH
+12	мимԓык	_	NOUN	_	_	10	obl	_	Gloss=вода-LOC
+13	аӈӄак	аӈӄы	NOUN	_	_	14	obl	_	Gloss=море-LOC
+14	пыкирык	_	VERB	_	_	10	advcl	_	Gloss=прибывать-LOC
+15	ын	ын	X	_	_	16	reparandum	_	Gloss=FST
+16	ынӄэн	ынӄэн	PRON	_	_	17	nsubj	_	Gloss=DET
+17	нинивӄин	ивык	VERB	_	_	3	parataxis	_	Gloss=ST-INV-сказать-ST.3SG
+18	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Raven_and_fox:12
+# text = Ӈэвэӄъым ӈан тиквыт ынӈэ араԓека мимԓык пыкирык рэпыԓӄэтгъэ.
+# text[phon] = ŋeweqʔəm ŋan tikwət ənŋe araɬeka mimɬək pəkirək repəɬqetɣʔe
+# text[rus] = «Я же тебе говорил, не надо скатываться, приближаясь к воде, утонешь».
+# text[eng] = «I told you, do not slide down, you will drown approaching the water.»
+# labels = complete-dep anno-fran negation
+1-2	Ӈэвэӄъым	_	_	_	_	_	_	_	Gloss=же-=EMPH
+1	Ӈэвэӄ	_	PART	_	_	4	discourse	_	Gloss=же
+2	ъым	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	ӈан	ӈан	ADV	_	_	4	advmod	_	Gloss=DEICT
+4	тиквыт	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-сказать-2SG.O
+5	ынӈэ	ынӈэ	AUX	_	_	6	aux	_	Gloss=PROH
+6	араԓека	_	VERB	_	_	4	parataxis:speech	_	Gloss=CAR-прокатиться-CAR-INS
+7	мимԓык	_	NOUN	_	_	8	obl	_	Gloss=вода-LOC
+8	пыкирык	_	VERB	_	_	9	advcl	_	Gloss=прибывать-LOC
+9	рэпыԓӄэтгъэ	пыԓӄэтык	VERB	_	_	4	parataxis:speech	_	Gloss=2/3.S/A-FUT-тонуть-VB-TH
+10	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Raven_and_fox:13
+# text = Вэнԓыгиыʼм ӄоԓ нивӄин вэнԓыги и нинивӄин.
+# text[phon] = wenɬəɣiʔəm qoɬ niwqin wenɬəɣi и niniwqin
+# text[rus] = Всё равно тот (лис) говорит, всё равно говорит ему:
+# text[eng] = Nevertheless he (the fox) says, nevertheless he says to him:
+# labels = complete-dep anno-fran
+1-2	Вэнԓыгиыʼм	_	_	_	_	_	_	_	Gloss=всё.же-=EMPH
+1	Вэнԓыги	_	PART	_	_	4	discourse	_	Gloss=всё.же
+2	ыʼм	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	ӄоԓ	ӄоԓ	PRON	_	_	4	obj	_	Gloss=некий
+4	нивӄин	ивык	VERB	_	Valency=2	0	root	_	Gloss=ST-сказать-ST.3SG
+5	вэнԓыги	вэнԓыги	PART	_	_	7	discourse	_	Gloss=всё.же
+6	и	_	X	_	_	7	discourse	_	Gloss=
+7	нинивӄин	ивык	VERB	_	_	4	parataxis	_	Gloss=ST-INV-сказать-ST.3SG
+8	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Raven_and_fox:14
+# text = Еԓьой ивкэм ӄэнагтогэ тэӈыннин тэгниԓгыӄин ӈэԓвыԓ трэйыԓ.
+# text[phon] = jeɬʔoj iwkeʔm qenaɣtoɣe teŋənnin teɣniɬɣəqin ŋeɬwəɬ trejəɬ
+# text[rus] = «Братец, вытащи меня, пожалуйста, я абсолютно белое стадо тебе отдам».
+# text[eng] = «Brother (lit. cousin), pull me out, please, I will give you an absolutely white herd.»
+# labels = complete-dep anno-fran leaf-invalid
+1	Еԓьой	_	NOUN	_	_	4	vocative	_	Gloss=двоюродный.брат-VOC
+2-3	ивкэм	_	_	_	_	_	_	_	Gloss=OPT-=EMPH
+2	ивкэ	_	AUX	_	_	4	aux	_	Gloss=OPT
+3	м	ъм	PART	_	_	4	advmod:emph	_	Gloss=EMPH
+4	ӄэнагтогэ	агтак	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-INV-вынимать-IRR-2/3SG.S
+5	тэӈыннин	тэӈыннин	X	_	_	6	reparandum	_	Gloss=FST
+6	тэгниԓгыӄин	_	ADJ	_	_	7	amod	_	Gloss=GOOD-ST-белый-ST.3SG
+7	ӈэԓвыԓ	ӈэԓвыԓ	NOUN	_	_	8	obj	_	Gloss=стадо-NOM.SG
+8	трэйыԓ	_	VERB	_	_	4	parataxis	_	Gloss=1SG.S/A-FUT-давать
+9	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Raven_and_fox:15
+# text = Ынӈин ваԓьэвым.
+# text[phon] = ənŋin waɬʔewəm
+# text[rus] = «У меня такое есть».
+# text[eng] = «I already have one.»
+# labels = complete-dep anno-fran unclear-syntax possession
+1	Ынӈин	ынӈин	ADV	_	_	2	advmod	_	Gloss=так
+2	ваԓьэвым	_	VERB	_	_	0	root	_	Gloss=быть-ATTR-NP.1SG
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Raven_and_fox:16
+# text = Вэнԓыги нэмэ нинъэйӈэвйивӄин.
+# text[phon] = wenɬəɣi neme ninʔejŋewjiwqin
+# text[rus] = Всё равно снова зовёт его:
+# text[eng] = Still he calls him:
+# labels = complete-dep anno-fran
+1	Вэнԓыги	вэнԓыги	ADV	_	_	3	advmod	_	Gloss=всё.же
+2	нэмэ	нэмэ	ADV	_	_	3	advmod	_	Gloss=опять
+3	нинъэйӈэвйивӄин	_	VERB	_	_	0	root	_	Gloss=ST-INV-звать-DISTR.O-ST.3SG
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Raven_and_fox:17
+# text = Еԓьой тэӈувъэԓеӈэԓвыԓ мыйыԓгыт.
+# text[phon] = jeɬʔoj teŋuwʔeɬeŋeɬwəɬ məjəɬɣət
+# text[rus] = «Братец, я абсолютно чёрное стадо тебе отдам».
+# text[eng] = «Brother (lit. cousin), I will give you an absolutely black herd.»
+# labels = complete-dep anno-fran
+1	Еԓьой	_	NOUN	_	_	4	vocative	_	Gloss=двоюродный.брат-VOC
+2-3	тэӈувъэԓеӈэԓвыԓ	_	_	_	_	_	_	_	Gloss=GOOD-чёрный-стадо-NOM.SG
+2	тэӈувъэԓе	_	ADJ	_	_	3	amod	_	Gloss=GOOD-чёрный
+3	ӈэԓвыԓ	ӈэԓвыԓ	NOUN	_	_	4	obj	_	Gloss=стадо-NOM.SG
+4	мыйыԓгыт	_	VERB	_	_	0	root	_	Gloss=1SG.S/A.SUBJ-давать-2SG.O
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Raven_and_fox:18
+# text = Ынӈин ваԓьэвым.
+# text[phon] = ənŋin waɬʔewəm
+# text[rus] = «У меня такое есть».
+# text[eng] = «I already have one.»
+# labels = complete-dep anno-fran unclear-syntax possession
+1	Ынӈин	ынӈин	ADV	_	_	2	advmod	_	Gloss=так
+2	ваԓьэвым	_	AUX	_	_	0	root	_	Gloss=быть-ATTR-NP.1SG
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Raven_and_fox:19
+# text = Тэӈкэԓиԓьыӈэԓвыԓ мыйыԓгыт.
+# text[phon] = teŋkeɬiɬʔəŋeɬwəɬ məjəɬɣət
+# text[rus] = «Я очень пёстрое стадо тебе отдам».
+# text[eng] = «I will give you an extremely mottled herd.»
+# labels = complete-dep anno-fran
+1-2	Тэӈкэԓиԓьыӈэԓвыԓ	_	_	_	_	_	_	_	Gloss=GOOD-писать-ATTR-стадо-NOM.SG
+1	Тэӈкэԓиԓьы	_	ADJ	_	_	2	acl:attr	_	Gloss=GOOD-писать-ATTR
+2	ӈэԓвыԓ	ӈэԓвыԓ	NOUN	_	_	3	obj	_	Gloss=стадо-NOM.SG
+3	мыйыԓгыт	_	VERB	_	_	0	root	_	Gloss=1SG.S/A.SUBJ-давать-2SG.O|SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Raven_and_fox:20
+# text = Ынӈин ваԓьэвым.
+# text[phon] = ənŋin waɬʔewəm
+# text[rus] = «У меня такое есть».
+# text[eng] = «I already have one.»
+# labels = complete-dep anno-fran unclear-syntax possession
+1	Ынӈин	ынӈин	ADV	_	_	2	advmod	_	Gloss=так
+2	ваԓьэвым	_	AUX	_	_	0	root	_	Gloss=быть-ATTR-NP.1SG
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Raven_and_fox:21
+# text = Тэӈыпԓыԓыӈэԓвыԓ мыйыԓ.
+# text[phon] = teŋəpɬəɬəŋeɬwəɬ məjəɬ
+# text[rus] = «Евражьего цвета стадо тебе отдам».
+# text[eng] = «I will give you the herd of the ground squirrel color (gray and yellow).»
+# labels = complete-dep anno-fran
+1-3	Тэӈыпԓыԓыӈэԓвыԓ	_	_	_	_	_	_	_	Gloss=GOOD-серый.с.желтизной-стадо-NOM.SG
+1	Тэӈ	Тэӈ	ADV	_	_	2	advmod	_	Gloss=GOOD
+2	ыпԓыԓы	_	ADJ	_	_	3	amod	_	Gloss=серый.с.желтизной
+3	ӈэԓвыԓ	_	NOUN	_	_	4	obj	_	Gloss=стадо-NOM.SG
+4	мыйыԓ	_	VERB	_	_	0	root	_	Gloss=1SG.S/A.SUBJ-давать
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Raven_and_fox:22
+# text = Ынӈин ваԓьэвым.
+# text[phon] = ənŋin waɬʔewəm
+# text[rus] = «У меня такое есть».
+# text[eng] = «I already have one.»
+# labels = complete-dep anno-fran unclear-syntax possession
+1	Ынӈин	ынӈин	ADV	_	_	2	advmod	_	Gloss=так
+2	ваԓьэвым	_	AUX	_	_	0	root	_	Gloss=быть-ATTR-NP.1SG
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Raven_and_fox:23
+# text = Ынӄо ивнин.
+# text[phon] = ənqo iwnin
+# text[rus] = Потом говорит:
+# text[eng] = Then he says:
+# labels = complete-dep anno-fran
+1	Ынӄо	ынӄо	ADV	_	_	2	advmod	_	Gloss=потом
+2	ивнин	ивык	VERB	_	_	0	root	_	Gloss=2/3.S/A-сказать-3SG.A.3.O-3SG.O
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Raven_and_fox:24
+# text = Тэӈъинкэԓи иʼӈкэчиӈэвъэнйыръын трэйыԓгыт трэрэнӈын.
+# text[phon] = teŋʔinkeɬi ʔiŋkesiŋewʔenjərʔən trejəɬɣət trerenŋən
+# text[rus] = «Я тебе девушку с татуированным носом отдам, привезу».
+# text[eng] = «I will give you a girl with a tattooed nose, I will bring her.»
+# labels = complete-dep anno-fran unclear-morph
+1	Тэӈъинкэԓи	Тэӈъинкэԓи	X	_	_	4	reparandum	_	Gloss=FST
+2-4	иʼӈкэчиӈэвъэнйыръын	_	_	_	_	_	_	_	Gloss=нос-писать-жена-содержимое-NOM.SG
+2	иʼӈ	иʼӈъиӈ	NOUN	_	_	3	obj	_	Gloss=нос
+3	кэчи	кэԓик	VERB	_	_	4	acl	_	Gloss=писать
+4	ӈэвъэнйыръын	_	NOUN	_	_	5	obj	_	Gloss=жена-содержимое-NOM.SG
+5	трэйыԓгыт	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-FUT-давать-2SG.O
+6	трэрэнӈын	_	VERB	_	_	5	parataxis	_	Gloss=1SG.S/A-FUT-приносить-FUT-3SG.O
+7	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Raven_and_fox:25
+# text = Йытонэн.
+# text[phon] = jətonen
+# text[rus] = Ворон вытащил его.
+# text[eng] = The raven pulled him out.
+# labels = complete-dep anno-fran
+1	Йытонэн	йыток	VERB	_	_	0	root	_	Gloss=2/3.S/A-вынимать-3SG.A.3.O-3SG.O
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Raven_and_fox:26
+# text = Иаʼм гынмыеп ивкыԓьигыт.
+# text[phon] = iʔam ɣənməjep iwkəɬʔiɣət
+# text[rus] = «Почему раньше не сказал?».
+# text[eng] = «Why did not you tell that earlier? »
+# labels = complete-dep anno-fran
+1	Иаʼм	_	ADV	_	_	3	advmod	_	Gloss=почему
+2	гынмыеп	_	ADV	_	_	3	advmod	_	Gloss=уже.давно
+3	ивкыԓьигыт	_	VERB	_	_	0	root	_	Gloss=сказать-CAR-ATTR-NP.2SG
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Raven_and_fox:27
+# text = Йытонэн.
+# text[phon] = jətonen
+# text[rus] = Вытащил его.
+# text[eng] = He pulled him out.
+# labels = complete-dep anno-fran
+1	Йытонэн	йыток	VERB	_	_	0	root	_	Gloss=2/3.S/A-вынимать-3SG.A.3.O-3SG.O
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Raven_and_fox:28
+# text = Ытръэч ивнин титъэм рэрэн.
+# text[phon] = ətrʔes iwnin titʔem reren
+# text[rus] = Только говорит: «Когда привезёшь?».
+# text[eng] = He says: «When will you bring her?»
+# labels = complete-dep anno-fran
+1	Ытръэч	ытръэч	ADV	_	_	2	advmod	_	Gloss=только
+2	ивнин	ивык	VERB	_	_	0	root	_	Gloss=2/3.S/A-сказать-3SG.A.3.O-3SG.O
+3-4	титъэм	_	_	_	_	_	_	_	Gloss=когда-=EMPH
+3	тит	_	ADV	_	_	5	advmod	_	Gloss=когда
+4	ъэм	ъм	PART	_	_	3	advmod:emph	_	Gloss=EMPH
+5	рэрэн	_	VERB	_	_	2	parataxis:speech	_	Gloss=2/3.S/A-FUT-приносить
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Raven_and_fox:29
+# text = Ынӈин тъэче кивык ӄонпы ныраԓечетысӄэвӄэн ӄонпы.
+# text[phon] = ənŋin tʔese kiwək qonpə nəraɬesetəsqewqen qonpə
+# text[rus] = Так, несколько раз переночевав, всё время шёл кататься.
+# text[eng] = So, he spent several nights there and always went to slide.
+# labels = complete-dep anno-fran
+1	Ынӈин	ынӈин	ADV	_	_	3	advmod	_	Gloss=так
+2	тъэче	_	ADV	_	_	3	advmod	_	Gloss=сколько-MPL
+3	кивык	_	VERB	_	_	5	advcl	_	Gloss=проходить.о.днях-LOC
+4	ӄонпы	_	ADV	_	_	5	advmod	_	Gloss=всегда
+5	ныраԓечетысӄэвӄэн	_	VERB	_	Valency=1	0	root	_	Gloss=ST-прокатиться-COMB-MCP-ST.3SG
+6	ӄонпы	_	ADV	_	_	5	advmod	_	Gloss=всегда
+7	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Raven_and_fox:30
+# text = Тъэче кивкинэк вытку рэннин иʼӈкэԓиӈэвъэнйыръын.
+# text[phon] = tʔese kiwkinek wətku rennin ʔiŋkeɬiŋewʔenjərʔən
+# text[rus] = Через несколько суток только привёз девушку с татуированным носом.
+# text[eng] = Only after several days he brought the girl with the tattooed nose.
+# labels = complete-dep anno-fran
+1	Тъэче	_	ADV	_	_	4	advmod	_	Gloss=сколько-MPL
+2	кивкинэк	_	NOUN	_	_	4	obl	_	Gloss=сутки-REL-LOC
+3	вытку	вытку	ADV	_	_	4	advmod	_	Gloss=только.что
+4	рэннин	рэннин	VERB	_	_	0	root	_	Gloss=2/3.S/A-приносить-3SG.A.3.O-NOM.SG
+5-7	иʼӈкэԓиӈэвъэнйыръын	_	_	_	_	_	_	_	Gloss=нос-писать-жена-содержимое-NOM.SG
+5	иʼӈ	иʼӈъиӈ	NOUN	_	_	6	obj	_	Gloss=нос
+6	кэԓи	кэԓик	VERB	_	_	7	acl	_	Gloss=писать
+7	ӈэвъэнйыръын	_	NOUN	_	_	4	obj	_	Gloss=жена-содержимое-NOM.SG
+8	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Raven_and_fox:31
+# text = Рырагтаннэнъым ивнин.
+# text[phon] = rəraɣtannenʔəm iwnin
+# text[rus] = Затащил в дом, говорит:
+# text[eng] = He brought her to the house and said:
+# labels = complete-dep anno-fran
+1-2	Рырагтаннэнъым	_	_	_	_	_	_	_	Gloss=2/3.S/A-TR-жилище-GO.TO-VB-3SG.A.3.O-3SG.O-=EMPH
+1	Рырагтаннэн	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-TR-жилище-GO.TO-VB-3SG.A.3.O-3SG.O
+2	ъым	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	ивнин	ивык	VERB	_	_	1	parataxis	_	Gloss=2/3.S/A-сказать-3SG.A.3.O-3SG.O
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Raven_and_fox:32
+# text = Ӄыгитъэм вае.
+# text[phon] = qəɣitʔem waje
+# text[rus] = «Смотри-ка!».
+# text[eng] = «Look!»
+# labels = complete-dep anno-fran
+1-2	Ӄыгитъэм	_	_	_	_	_	_	_	Gloss=2.S/A.SUBJ-смотреть
+1	Ӄыгит	_	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-смотреть
+2	ъэм	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3-4	вае	_	_	_	_	_	_	_	Gloss=вот-=PTCL
+3	ва	_	ADV	_	_	1	parataxis	_	Gloss=вот
+4	е	а	PART	_	_	3	advmod:emph	_	Gloss=PTCL
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Raven_and_fox:33
+# text = Аввэткынка нывакъотваӄэн.
+# text[phon] = awwetkənka nəwakʔotwaqen
+# text[rus] = Сидит молча.
+# text[eng] = She was sitting quietly.
+# labels = complete-dep anno-fran
+1	Аввэткынка	_	NOUN	_	_	2	obl	_	Gloss=CAR-воздух-TOP-CAR-INS
+2	нывакъотваӄэн	_	VERB	_	Valency=1	0	root	_	Gloss=ST-садиться-RES-ST.3SG
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Raven_and_fox:34
+# text = Ӈэвъэнйыръын таӈванэ ымы ниԓюԓьэтгъэн.
+# text[phon] = ŋewʔenjərʔən taŋwane əmə niɬuɬʔetɣʔen
+# text[rus] = Девушка совсем не двигалась.
+# text[eng] = The girl was not moving at all.
+# labels = complete-dep anno-fran
+1	Ӈэвъэнйыръын	ӈэвъэнйыръын	NOUN	_	_	4	nsubj	_	Gloss=жена-содержимое-NOM.SG
+2	таӈванэ	_	AUX	_	_	4	aux	_	Gloss=GOOD-NEG.NFUT
+3	ымы	ымы	ADV	_	_	4	advmod	_	Gloss=также
+4	ниԓюԓьэтгъэн	иԓюԓьэтык	VERB	_	_	0	root	_	Gloss=3.S/A.SUBJ-шевелиться-TH-IRR.2/3SG.S
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Raven_and_fox:35
+# text = Имыръэнут нинэнэймэвӄин ӄутын ӄоԓьым ӄырым ымыӈ а эʼнӄу ԓыӈыркын ынӈин нымкыче.
+# text[phon] = imərʔenut ninenejmewqin qutən qoɬʔəm qərəm əməŋ а ʔenqu ɬəŋərkən ənŋin nəmkəse
+# text[rus] = Чего он только не подносил, она не хотела ничего, и так много раз.
+# text[eng] = No matter what he brought her, she did not want anything, and that happened many times.
+# labels = complete-dep anno-fran
+1	Имыръэнут	Имыръэнут	PRON	_	_	2	obj	_	Gloss=FC-что.NOM.SG
+2	нинэнэймэвӄин	_	VERB	_	_	0	root	_	Gloss=ST-INV-TR-приближаться-ST.3SG
+3	ӄутын	ӄутын	PRON	_	_	9	obj	_	Gloss=некий-NOM.SG
+4-5	ӄоԓьым	_	_	_	_	_	_	_	Gloss=некий-=EMPH
+4	ӄоԓ	_	PRON	_	_	3	appos	_	Gloss=некий
+5	ьым	ъм	PART	_	_	4	advmod:emph	_	Gloss=EMPH
+6	ӄырым	ӄырым	AUX	_	_	9	aux	_	Gloss=NEG.FUT
+7	ымыӈ	ымыӈ	ADV	_	_	9	advmod	_	Gloss=также
+8	а	_	X	_	_	9	reparandum	_	Gloss=
+9	эʼнӄу	_	VERB	_	_	2	parataxis	_	Gloss=не.хотеть-EQU
+10	ԓыӈыркын	ԓыӈык	AUX	_	_	9	aux	_	Gloss=2/3.S/A-считать-IPFV
+11	ынӈин	ынӈин	ADV	_	_	12	advmod	_	Gloss=так
+12	нымкыче	_	ADJ	_	_	2	parataxis	_	Gloss=ST-многий-MPL
+13	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Raven_and_fox:36
+# text = Гым матчьатгъа этъопэԓ.
+# text[phon] = ɣəm matsʔatɣʔa etʔopeɬ
+# text[rus] = «Я лучше спать лягу».
+# text[eng] = «I would better go to bed.»
+# labels = complete-dep anno-fran
+1	Гым	гым	PRON	_	Case=Abs	2	nsubj	_	Gloss=я
+2	матчьатгъа	_	VERB	_	_	0	root	_	Gloss=1SG.S/A.SUBJ-ложиться.спать-TH
+3	этъопэԓ	этъопэԓ	ADV	_	_	2	advmod	_	Gloss=лучше
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Raven_and_fox:37
+# text = Тыԓгыръугъи.
+# text[phon] = təɬɣərʔuɣʔi
+# text[rus] = Она растаяла.
+# text[eng] = She melted.
+# labels = complete-dep anno-fran
+1	Тыԓгыръугъи	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-таять-DISTR.S-TH-2/3SG.S
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Raven_and_fox:38
+# text = Ынык ӄача атчьатгъэ нрзб.
+# text[phon] = ənək qasa atsʔatɣʔe нрзб
+# text[rus] = Рядом с ней лёг спать.
+# text[eng] = He lay down to sleep next to her.
+# labels = complete-dep anno-fran
+1	Ынык	ытԓён	PRON	_	_	3	obl	_	Gloss=он-LOC
+2	ӄача	ӄача	ADP	_	_	1	case	_	Gloss=около
+3	атчьатгъэ	атчьатык	VERB	_	_	0	root	_	Gloss=2/3.S/A-ложиться.спать-TH-2/3SG.S
+4	нрзб	_	X	_	_	3	discourse	_	Gloss=
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Raven_and_fox:39
+# text = И гэԓгыръуԓин.
+# text[phon] = и ɣeɬɣərʔuɬin
+# text[rus] = И она растаяла.
+# text[eng] = And she melted.
+# labels = complete-dep anno-fran
+1	И	и	CCONJ	_	_	2	cc	_	Gloss=
+2	гэԓгыръуԓин	_	VERB	_	Valency=1	0	root	_	Gloss=PF-таять-DISTR.S-PF.3SG
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Raven_and_fox:40
+# text = Ытръэч.
+# text[phon] = ətrʔes
+# text[rus] = Всё.
+# text[eng] = That is all.
+# labels = complete-dep anno-fran
+1	Ытръэч	ытръэч	ADV	_	_	0	root	_	Gloss=только
+2	.	.	PUNCT	_	_	1	punct	_	_
+

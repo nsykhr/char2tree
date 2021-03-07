@@ -1,0 +1,690 @@
+# sent_id = Not_eating_larvae:1
+# text = Гым ныппыԓьэв вама гарыч нырычваԓыӈыттыӄэнат.
+# text[phon] = ɣəm nəppəɬʔew wama ɣarəs nərəswaɬəŋəttəqenat
+# text[rus] = Когда я была маленькой, собирали личинок овода.
+# text[eng] = When I was little, we used to catch gadfly grubs.
+# labels = complete-dep anno-fran
+1	Гым	гым	PRON	_	_	2	nsubj	_	Gloss=я
+2	ныппыԓьэв	ныппыԓьэв	ADJ	_	_	5	advcl	_	Gloss=ST-маленький-ADV
+3	вама	вак	AUX	_	Valency=1	2	cop	_	Gloss=быть-SIM
+4	гарыч	гарыч	X	_	_	5	reparandum	_	Gloss=FST
+5	нырычваԓыӈыттыӄэнат	_	VERB	_	Valency=1	0	root	_	Gloss=ST-личинка-CATCH-ST.3SG-PL
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Not_eating_larvae:2
+# text = Гым нэмыӄэй нрзб это ны нырычваԓыӈыттыӄэнат нэмыӄэй гым нывинрэтигым нырычвантойгым.
+# text[phon] = ɣəm neməqej нрзб это nə nərəswaɬəŋəttəqenat neməqej ɣəm nəwinretiɣəm nərəswantojɣəm
+# text[rus] = Собирали личинок, я тоже помогала, доставала личинок.
+# text[eng] = We were gathering the grubs, I also helped, I was extracting the grubs.
+# labels = complete-dep anno-fran valency
+1	Гым	гым	PRON	_	_	6	nsubj	9:nsubj	Gloss=я
+2	нэмыӄэй	нэмыӄэй	ADV	_	_	6	advmod	6:advmod	Gloss=тоже
+3	нрзб	нрзб	X	_	_	6	discourse	6:discourse	Gloss=
+4	это	это	PART	_	_	6	discourse	6:discourse	Gloss=
+5	ны	ны	X	_	_	6	reparandum	6:reparandum	Gloss=FST
+6	нырычваԓыӈыттыӄэнат	_	VERB	_	Valency=1	0	root	0:root	Gloss=ST-личинка-CATCH-ST.3SG-PL
+7	нэмыӄэй	нэмыӄэй	ADV	_	_	9	advmod	9:advmod	Gloss=тоже
+8	гым	гым	PRON	_	_	9	nsubj	9:nsubj	Gloss=я
+9	нывинрэтигым	винрэтык	VERB	_	Valency=1	6	parataxis	6:parataxis	Gloss=ST-помогать-NP.1SG
+10	нырычвантойгым	_	VERB	_	Incorporated[obj]=Yes|Valency=1	6	parataxis	6:parataxis	Gloss=ST-личинка-вынимать-NP.1SG
+10.1	рычва	_	NOUN	_	Incorporated=Yes	_	_	6:obj	Gloss=личинка
+11	.	.	PUNCT	_	_	6	punct	6:punct	_
+
+# sent_id = Not_eating_larvae:3
+# text = Гым ӈавъёԓя нинивӄин.
+# text[phon] = ɣəm ŋawjoɬa niniwqin
+# text[rus] = Двоюродная сестра мне говорит:
+# text[eng] = My cousin says to me:
+# labels = complete-dep anno-fran
+1	Гым	гым	PRON	_	_	3	obj	_	Gloss=я
+2	ӈавъёԓя	ӈавъёԓ	NOUN	_	_	3	nsubj	_	Gloss=двоюродная.сестра-INS
+3	нинивӄин	ивык	VERB	_	Valency=2	0	root	_	Gloss=ST-INV-сказать-ST.3SG
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Not_eating_larvae:4
+# text = Ӄы нэмыӄэй ӄырычвогэ.
+# text[phon] = qə neməqej qərəswoɣe
+# text[rus] = «Ты тоже поешь личинок».
+# text[eng] = «Eat a gadfly grub, too.»
+# labels = complete-dep anno-fran
+1	Ӄы	Ӄы	X	_	_	3	reparandum	_	Gloss=FST
+2	нэмыӄэй	нэмыӄэй	ADV	_	_	3	advmod	_	Gloss=тоже
+3	ӄырычвогэ	_	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-личинка-EAT-IRR-2/3SG.S
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Not_eating_larvae:5
+# text = Ӄырым ӄырым мырычвогъак.
+# text[phon] = qərəm qərəm mərəswoɣʔak
+# text[rus] = «Не буду я есть личинок».
+# text[eng] = «I will not eat grubs.»
+# labels = complete-dep anno-fran
+1	Ӄырым	ӄырым	AUX	_	_	3	aux:neg	_	Gloss=NEG.FUT
+2	ӄырым	ӄырым	AUX	_	_	3	aux:neg	_	Gloss=NEG.FUT
+3	мырычвогъак	_	VERB	_	_	0	root	_	Gloss=1SG.S/A.SUBJ-личинка-EAT-TH-1SG.S
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Not_eating_larvae:6
+# text = Тэӈвэнԓыги рыпыткынтэвнинъым гэнанвытрынтэвԓинъым.
+# text[phon] = teŋwenɬəɣi rəpətkəntewninʔəm ɣenanwətrəntewɬinʔəm
+# text[rus] = И всё-таки выдавила (личинку), на спину меня повалила.
+# text[eng] = Nevertheless, she crashed a grub and knocked me down flat on my back.
+# labels = complete-dep anno-fran
+1	Тэӈвэнԓыги	вэнԓыги	ADV	_	_	2	advmod	_	Gloss=GOOD-всё.же
+2-3	рыпыткынтэвнинъым	_	_	_	_	_	_	_	Gloss=2/3.S/A-TR-лопаться-CS-3SG.A.3.O-3SG.O-=EMPH
+2	рыпыткынтэвнин	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-TR-лопаться-CS-3SG.A.3.O-3SG.O
+3	ъым	ъм	PART	_	_	2	advmod:emph	_	Gloss=EMPH
+4-5	гэнанвытрынтэвԓинъым	_	_	_	_	_	_	_	Gloss=PF-INV-TR-ложиться.на.спину-CS-PF.3SG-=EMPH
+4	гэнанвытрынтэвԓин	_	VERB	_	Valency=2	2	parataxis	_	Gloss=PF-INV-TR-ложиться.на.спину-CS-PF.3SG
+5	ъым	ъм	PART	_	_	4	advmod:emph	_	Gloss=EMPH
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Not_eating_larvae:7
+# text = Рыпыткынтавъё тъынин нрзб.
+# text[phon] = rəpətkəntawjo tʔənin нрзб
+# text[rus] = И то, что было внутри личинки (букв. разорванное), вылила.
+# text[eng] = And poured the substance (lit. what was crushed) into my mouth.
+# labels = complete-dep anno-fran
+1	Рыпыткынтавъё	пыткынтык	VERB	_	Valency=2	2	obj	_	Gloss=TR-лопаться-CS-PTCP.PASS
+2	тъынин	тыӄык	VERB	_	_	0	root	_	Gloss=2/3.S/A-выливать-3SG.A.3.O-3SG.O
+3	нрзб	нрзб	X	_	_	2	discourse	_	Gloss=
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Not_eating_larvae:8
+# text = Ну я прих трагтыгъак гым и иниквъи.
+# text[phon] = ну я прих traɣtəɣʔak ɣəm и inikwʔi
+# text[rus] = Ну я пришла домой, и она мне говорит:
+# text[eng] = I came home and she says to me:
+# labels = complete-dep anno-fran
+1	Ну	ну	X	_	_	4	reparandum	_	Gloss=
+2	я	я	X	_	_	1	flat:foreign	_	Gloss=
+3	прих	_	X	_	_	1	flat:foreign	_	Gloss=
+4	трагтыгъак	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-жилище-GO.TO-TH-1SG.S
+5	гым	гым	PRON	_	_	7	obj	_	Gloss=я
+6	и	и	CCONJ	_	_	7	cc	_	Gloss=
+7	иниквъи	икын	VERB	_	_	4	parataxis	_	Gloss=2/3.S/A-INV-сказать-TH-2/3SG.S
+8	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Not_eating_larvae:9
+# text = Ну я такая нивӄин гэрэӄигыт гиԓгыԓьувигыт.
+# text[phon] = ну я такая niwqin ɣereqiɣət ɣiɬɣəɬʔuwiɣət
+# text[rus] = Говорит: «Что с твоим лицом?».
+# text[eng] = She says: «What happened to your face?»
+# text[eng'] = Ну я такая [she] says what happened [to you], you look white
+# labels = complete-dep anno-fran valency speech
+1	Ну	_	X	_	_	4	reparandum	4:reparandum	Gloss=
+2	я	_	X	_	_	1	flat:foreign	1:flat:foreign	Gloss=
+3	такая	_	X	_	_	1	flat:foreign	1:flat:foreign	Gloss=
+4	нивӄин	ивык	VERB	_	Valency=2	0	root	0:root	Gloss=ST-сказать-ST.3SG
+5	гэрэӄигыт	рэӄык	VERB	_	Valency=1	4	parataxis	4:parataxis	Gloss=PF-что-NP.2SG
+6	гиԓгыԓьувигыт	ԓьук	VERB	_	Incorporated[dep]=Yes|Valency=1	4	parataxis	4:parataxis	Gloss=PF-белый-видеть-CS-NP.2SG
+6.1	иԓг	иԓг	ADJ	_	Incorporated=Yes	_	_	6:dep	Gloss=белый
+7	.	.	PUNCT	_	_	4	punct	4:punct	_
+
+# sent_id = Not_eating_larvae:10
+# text = Наӄам эвыт тэӈэвыт ныпээттыԓейгым.
+# text[phon] = naqam ewət teŋewət nəpeettəɬejɣəm
+# text[rus] = Но всё равно оно опухало постепенно.
+# text[eng] = It was gradually swelling.
+# labels = complete-dep anno-fran
+1	Наӄам	наӄам	ADV	_	_	4	advmod	_	Gloss=однако
+2	эвыт	_	ADV	_	_	4	advmod	_	Gloss=когда
+3	тэӈэвыт	_	ADV	_	_	4	advmod	_	Gloss=GOOD-когда
+4	ныпээттыԓейгым	_	VERB	_	Valency=1	0	root	_	Gloss=ST-опухать-GRAD-NP.1SG
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Not_eating_larvae:11
+# text = Нинивӄин ытԓьата.
+# text[phon] = niniwqin ətɬʔata
+# text[rus] = Мать говорит:
+# text[eng] = My mother says:
+# labels = complete-dep anno-fran
+1	Нинивӄин	ивык	VERB	_	Valency=2	0	root	_	Gloss=ST-INV-сказать-ST.3SG
+2	ытԓьата	_	NOUN	_	_	1	nsubj	_	Gloss=мать-INS
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Not_eating_larvae:12
+# text = Это тумгытум ӄыгитэгэ мургин ынпыӈэв гэрэӄыԓин тэӈтэӈэвыт пэ пэ это.
+# text[phon] = это tumɣətum qəɣiteɣe murɣin ənpəŋew ɣereqəɬin teŋteŋewət pe pe это
+# text[rus] = «Муж, посмотри, что с нашей старшей дочкой?».
+# text[eng] = «Husband, look, what happened to our eldest daughter?»
+# labels = complete-dep anno-fran
+1	Это	это	X	_	_	3	discourse	_	Gloss=
+2	тумгытум	тумгытум	NOUN	_	_	3	vocative	_	Gloss=друг-NOM.SG
+3	ӄыгитэгэ	_	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-смотреть-IRR-2/3SG.S
+4	мургин	мури	PRON	_	_	5	nmod:poss	_	Gloss=мы-GEN
+5	ынпыӈэв	ынпыӈэв	NOUN	_	_	3	obj	_	Gloss=старый-FEM
+6	гэрэӄыԓин	рэӄыԓ	VERB	_	Valency=1	3	parataxis	_	Gloss=PF-что-PF.3SG
+7	тэӈтэӈэвыт	_	ADV	_	_	6	advmod	_	Gloss=GOOD-GOOD-когда
+8	пэ	пэ	X	_	_	10	reparandum	_	Gloss=FST
+9	пэ	пэ	X	_	_	10	reparandum	_	Gloss=FST
+10	это	это	X	_	_	6	discourse	_	Gloss=
+11	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Not_eating_larvae:13
+# text = Ныԓгиргыткуԓьэтӄин тут же ны ныннупэтӄинэт рыгыткогыргыт.
+# text[phon] = nəɬɣirɣətkuɬʔetqin тут же nə nənnupetqinet rəɣətkoɣərɣət
+# text[rus] = Начало чесаться, расчёсы опухали.
+# text[eng] = It began to itch, the scratches were swelling.
+# labels = complete-dep anno-fran
+1	Ныԓгиргыткуԓьэтӄин	рыгык	VERB	_	Valency=1	0	root	_	Gloss=ST-INTS-царапать-ITER-PLAC-ST.3SG
+2	тут	тут	X	_	_	5	discourse	_	Gloss=
+3	же	же	X	_	_	2	flat:foreign	_	Gloss=
+4	ны	ны	X	_	_	5	reparandum	_	Gloss=FST
+5	ныннупэтӄинэт	тынупэтык	VERB	_	Valency=1	1	parataxis	_	Gloss=ST-опухать-ST.3SG-PL
+6	рыгыткогыргыт	рыгык	NOUN	_	_	5	nsubj	_	Gloss=царапать-ITER-NMLZ-NOM.PL
+7	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Not_eating_larvae:14
+# text = Ытчаяыʼм ӄэйвэ гинэԓьуԓинъым гэԓьуԓин рывытрынтавъё ынӄэн рычваԓгын гэнпыткынтэвԓин.
+# text[phon] = ətsajaʔəm qejwe ɣineɬʔuɬinʔəm ɣeɬʔuɬin rəwətrəntawjo ənqen rəswaɬɣən ɣenpətkəntewɬin
+# text[rus] = Тётя, правда, видела, как она меня положила на спину и как личинку выдавила.
+# text[eng] = My aunt saw that she knocked me down on my back and crashed the gadfly grub.
+# labels = complete-dep anno-fran
+1-2	Ытчаяыʼм	_	_	_	_	_	_	_	Gloss=тётя-INS-=EMPH
+1	Ытчая	_	NOUN	_	_	4	nsubj	_	Gloss=тётя-INS
+2	ыʼм	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	ӄэйвэ	ӄэйвэ	ADV	_	_	4	advmod	_	Gloss=ли
+4-5	гинэԓьуԓинъым	_	_	_	_	_	_	_	Gloss=PF-INV-видеть-PF.3SG-=EMPH
+4	гинэԓьуԓин	_	VERB	_	Valency=2	0	root	_	Gloss=PF-INV-видеть-PF.3SG
+5	ъым	ъм	PART	_	_	4	advmod:emph	_	Gloss=EMPH
+6	гэԓьуԓин	ԓьук	VERB	_	Valency=2	4	parataxis	_	Gloss=PF-видеть-PF.3SG
+7	рывытрынтавъё	_	VERB	_	Valency=2	6	obj	_	Gloss=TR-ложиться.на.спину-CS-PTCP.PASS
+8	ынӄэн	ынӄэн	DET	_	_	9	det	_	Gloss=DET
+9	рычваԓгын	рычваԓгын	NOUN	_	_	10	obj	_	Gloss=личинка-SING-NOM.SG
+10	гэнпыткынтэвԓин	рыпыткынтэвык	VERB	_	Valency=2	6	parataxis	_	Gloss=PF-TR-лопаться-CS-PF.3SG
+11	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Not_eating_larvae:15
+# text = Йыкыргын нинэйпыӄин нинивӄин ӄытитӄэтгын.
+# text[phon] = jəkərɣən ninejpəqin niniwqin qətitqetɣən
+# text[rus] = Рот мне закрыла (когда опрокидывала, чтобы залить), сказала: «Глотай!».
+# text[eng] = She covered my mouth and told me: «Swallow it!»
+# labels = complete-dep anno-fran
+1	Йыкыргын	Йыкыргын	NOUN	_	_	2	obj	_	Gloss=рот-NOM.SG
+2	нинэйпыӄин	эйпык	VERB	_	Valency=2	0	root	_	Gloss=ST-INV-затыкать-ST.3SG
+3	нинивӄин	ивык	VERB	_	Valency=2	2	parataxis	_	Gloss=ST-INV-сказать-ST.3SG
+4	ӄытитӄэтгын	титӄэтык	VERB	_	Valency=2	3	parataxis:speech	_	Gloss=2.S/A.SUBJ-глотать-IRR-3SG.O
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Not_eating_larvae:16
+# text = Гымнан ванэ мытитӄэтгъэн.
+# text[phon] = ɣəmnan wane mətitqetɣʔen
+# text[rus] = Я не проглотила.
+# text[eng] = I did not swallow it.
+# labels = complete-dep anno-fran
+1	Гымнан	гым	PRON	_	_	3	nsubj	_	Gloss=я-INS
+2	ванэ	вак	AUX	_	Valency=1	3	aux	_	Gloss=NEG.NFUT
+3	мытитӄэтгъэн	титӄэтык	VERB	_	Valency=2	0	root	_	Gloss=1SG.S/A.SUBJ-глотать-TH-3SG.O
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Not_eating_larvae:17
+# text = Вэнԓыги это чиӈкэйыръын ӄытԓыги гэтитӄэтԓин гымнан.
+# text[phon] = wenɬəɣi это siŋkejərʔən qətɬəɣi ɣetitqetɬin ɣəmnan
+# text[rus] = Но со слюной всё равно, оказывается, попало.
+# text[eng] = But still I swallowed some of it with the saliva.
+# labels = complete-dep anno-fran
+1	Вэнԓыги	вэнԓыги	ADV	_	_	5	advmod	_	Gloss=всё.же
+2	это	_	X	_	_	5	discourse	_	Gloss=
+3	чиӈкэйыръын	чиӈкэйыръын	NOUN	_	_	5	obj	_	Gloss=слюна-содержимое-NOM.SG
+4	ӄытԓыги	_	ADV	_	_	5	advmod	_	Gloss=оказывается
+5	гэтитӄэтԓин	титӄэтык	VERB	_	Valency=2	0	root	_	Gloss=PF-глотать-PF.3SG
+6	гымнан	гым	PRON	_	_	5	nsubj	_	Gloss=я-INS
+7	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Not_eating_larvae:18
+# text = Тэӈэвыт тыпээттыԓяӈӈогъа и гинив.
+# text[phon] = teŋewət təpeettəɬaŋŋoɣʔa и ɣiniw
+# text[rus] = Тут же я начала опухать.
+# text[eng] = I began to swell right away.
+# labels = complete-dep anno-fran
+1	Тэӈэвыт	_	ADV	_	_	2	advmod	_	Gloss=GOOD-когда
+2	тыпээттыԓяӈӈогъа	тынупэтык	VERB	_	_	0	root	_	Gloss=1SG.S/A-опухать-GRAD-INCH-TH
+3	и	и	CCONJ	_	_	4	cc	_	Gloss=
+4	гинив	гинив	X	_	_	2	reparandum	_	Gloss=FST
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Not_eating_larvae:19
+# text = И это нычаёӄэнат.
+# text[phon] = и это nəsajoqenat
+# text[rus] = И это, чай пили.
+# text[eng] = And we were drinking tea.
+# labels = complete-dep anno-fran
+1	И	и	X	_	_	3	discourse	_	Gloss=
+2	это	это	X	_	_	1	flat:foreign	_	Gloss=
+3	нычаёӄэнат	чаёк	VERB	_	Valency=1	0	root	_	Gloss=ST-чай-EAT-ST.3SG-PL
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Not_eating_larvae:20
+# text = Ытчайы гымнин ытԓя эну нэнамӈыԓёӄэна.
+# text[phon] = ətsajə ɣəmnin ətɬa enu nenamŋəɬoqena
+# text[rus] = Тётя и мать расспрашивают:
+# text[eng] = My aunt and mother wonder:
+# comment = Тут всё очень не чисто с транскрипцией и морфологическим разбором, поэтому синтаксис скорееневозможный.
+# labels = complete-dep anno-fran unclear-syntax
+1	Ытчайы	_	NOUN	_	_	5	nsubj	_	Gloss=тётя
+2	гымнин	_	PRON	_	_	1	nmod:poss	_	Gloss=я-AN.GEN
+3	ытԓя	ытԓя	NOUN	_	_	1	conj	_	Gloss=мать-NOM.SG
+4	эну	эну	X	_	_	5	reparandum	_	Gloss=FST
+5-6	нэнамӈыԓёӄэна	_	_	_	_	_	_	_	Gloss=ST-INV-спрашивать-ST.3SG-=PTCL
+5	нэнамӈыԓёӄэн	_	VERB	_	_	0	root	_	Gloss=ST-INV-спрашивать-ST.3SG
+6	а	а	PART	_	_	5	advmod:emph	_	Gloss=PTCL
+7	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Not_eating_larvae:21
+# text = Ынръам гэрэӄыԓин мургин ынпыӈэвыӈ тэӈэвыт рыгыткукинэт тут тынуттыԓеркыт тынутчиргъи.
+# text[phon] = ənrʔam ɣereqəɬin murɣin ənpəŋewəŋ teŋewət rəɣətkukinet tut tənuttəɬerkət tənutsirɣʔi
+# text[rus] = «Что происходит сейчас с нашей старшей дочкой — тут же появляются расчёсы и опухает она».
+# text[eng] = «What is going on with our eldest daughter, the scratches are swelling.»
+# labels = complete-dep anno-fran unclear-syntax
+1	Ынръам	ынръам	ADV	_	_	2	advmod	_	Gloss=в+данное+время
+2	гэрэӄыԓин	_	VERB	_	Valency=1	0	root	_	Gloss=PF-что-PF.3SG
+3	мургин	_	PRON	_	_	4	nmod:poss	_	Gloss=мы-GEN
+4-5	ынпыӈэвыӈ	_	_	_	_	_	_	_	Gloss=старый-FEM-=PTCL
+4	ынпыӈэвы	_	NOUN	_	_	2	nsubj	_	Gloss=старый-FEM
+5	ӈ	а	PART	_	_	4	advmod:emph	_	Gloss=PTCL
+6	тэӈэвыт	_	ADV	_	_	9	advmod	_	Gloss=GOOD-когда
+7	рыгыткукинэт	_	VERB	_	_	9	nsubj	_	Gloss=царапать-ITER-REL-PL
+8	тут	тут	X	_	_	9	reparandum	_	Gloss=FST
+9	тынуттыԓеркыт	тынутык	VERB	_	_	2	parataxis	_	Gloss=2/3.S/A-опухать-GRAD-IPFV-PL
+10	тынутчиргъи	тынутык	VERB	_	_	9	parataxis	_	Gloss=2/3.S/A-опухать-PLUR-TH-2/3SG.S
+11	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Not_eating_larvae:22
+# text = Ӄутынъым ивнин.
+# text[phon] = qutənʔəm iwnin
+# text[rus] = Другая отвечает:
+# text[eng] = The other one answers:
+# labels = complete-dep anno-fran
+1-2	Ӄутынъым	_	_	_	_	_	_	_	Gloss=некий-NOM.SG-=EMPH
+1	Ӄутын	Ӄутынъым	PRON	_	_	3	nsubj	_	Gloss=некий-NOM.SG
+2	ъым	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	ивнин	ивык	VERB	_	Valency=2	0	root	_	Gloss=2/3.S/A-сказать-3SG.A.3.O-3SG.O
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Not_eating_larvae:23
+# text = Нрзб ыныг ӈавъёԓя йыкыргычыкогты гэнпыткынтэвԓин рычваԓгын.
+# text[phon] = нрзб ənəɣ ŋawjoɬa jəkərɣəsəkoɣtə ɣenpətkəntewɬin rəswaɬɣən
+# text[rus] = «Ей двоюродная сестра в рот раздавила личинку».
+# text[eng] = «Her cousin crashed a grub into her mouth.»
+# labels = complete-dep anno-fran
+1	Нрзб	_	X	_	_	5	discourse	_	Gloss=
+2	ыныг	_	PRON	_	_	5	obl	_	Gloss=он-LOC
+3	ӈавъёԓя	ӈавъёԓ	NOUN	_	_	5	nsubj	_	Gloss=двоюродная.сестра-INS
+4	йыкыргычыкогты	_	NOUN	_	_	5	obl	_	Gloss=рот-IN-DAT
+5	гэнпыткынтэвԓин	рыпыткынтэвык	VERB	_	Valency=2	0	root	_	Gloss=PF-TR-лопаться-CS-PF.3SG
+6	рычваԓгын	рычваԓгын	NOUN	_	_	5	obj	_	Gloss=личинка-SING-NOM.SG
+7	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Not_eating_larvae:24
+# text = И ытԓыгын ӈаргынэн найвы айгысӄыӈӄач нывакъотваӄэн нырэӄыӄин ны ны нэнарынӈыӄин оттыԓгын.
+# text[phon] = и ətɬəɣən ŋarɣənen najwə ajɣəsqəŋqas nəwakʔotwaqen nəreqəqin nə nə nenarənŋəqin ottəɬɣən
+# text[rus] = Отец на улице, с северной стороны, сидел что-то делал, строгал деревяшку.
+# text[eng] = My father was outside, at the northern side, sitting and doing something, whittling wood.
+# labels = complete-dep anno-fran disfluency
+1	И	и	CCONJ	_	_	6	cc	_	Gloss=
+2	ытԓыгын	ытԓыгын	NOUN	_	_	6	nsubj	_	Gloss=отец-NOM.SG
+3	ӈаргынэн	_	NOUN	_	_	5	nmod:poss	_	Gloss=природа-GEN
+4	найвы	найвы	X	_	_	5	reparandum	_	Gloss=FST
+5	айгысӄыӈӄач	эйгысӄын	NOUN	_	_	6	obl	_	Gloss=север-NEAR
+6	нывакъотваӄэн	_	VERB	_	Valency=1	0	root	_	Gloss=ST-садиться-RES-ST.3SG
+7	нырэӄыӄин	_	VERB	_	Valency=1	6	parataxis	_	Gloss=ST-что-ST.3SG
+8	ны	ны	X	_	_	10	reparandum	_	Gloss=FST
+9	ны	ны	X	_	_	10	reparandum	_	Gloss=FST
+10	нэнарынӈыӄин	_	VERB	_	_	6	parataxis	_	Gloss=ST-INV-строгать-ST.3SG
+11	оттыԓгын	оттыԓгын	NOUN	_	_	10	obj	_	Gloss=дерево-SING-NOM.SG
+12	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Not_eating_larvae:25
+# text = Ынкатагнэпы гатанпаайгым ынӄо рычвок.
+# text[phon] = ənkataɣnepə ɣatanpaajɣəm ənqo rəswok
+# text[rus] = С тех пор я перестала есть личинок.
+# text[eng] = Since then I have stopped eating grubs.
+# labels = complete-dep anno-fran valency
+1	Ынкатагнэпы	ынкатагнэпы	PRON	_	_	2	obl	_	Gloss=тот-OBL-FRONT-ABL
+2	гатанпаайгым	паак	VERB	_	Valency=1	0	root	_	Gloss=PF-GOOD-переставать-NP.1SG
+3	ынӄо	ынӄо	ADV	_	_	2	advmod	_	Gloss=потом
+4	рычвок	рысва	VERB	_	_	2	xcomp	_	Gloss=личинка-EAT-INF
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Not_eating_larvae:26
+# text = Нэнанъотавӄэн рычвоԓьэгым.
+# text[phon] = nenanʔotawqen rəswoɬʔeɣəm
+# text[rus] = Мне запрещали есть личинок.
+# text[eng] = It was forbidden for me to eat grubs.
+# labels = complete-dep anno-fran subordination
+1	Нэнанъотавӄэн	ръотавык	VERB	_	_	0	root	_	Gloss=ST-INV-запрещать-ST.3SG
+2	рычвоԓьэгым	_	VERB	_	_	1	ccomp	_	Gloss=личинка-EAT-ATTR-NP.1SG
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Not_eating_larvae:27
+# text = Нинивӄин ӄырычванторкын.
+# text[phon] = niniwqin qərəswantorkən
+# text[rus] = Мне говорили: «Ты доставай личинок».
+# text[eng] = They were saying: «Extract the grubs.»
+# labels = complete-dep anno-fran speech
+1	Нинивӄин	ивык	VERB	_	Valency=2	0	root	0:root	Gloss=ST-INV-сказать-ST.3SG
+2	ӄырычванторкын	йыток	VERB	_	Incorporated[obj]=Yes|Valency=1	1	parataxis:speech	1:parataxis:speech	Gloss=2.S/A.SUBJ-личинка-вынимать-IPFV
+2.1	рычва	рысва	NOUN	_	Incorporated=Yes	_	_	2:obj	Gloss=личинка
+3	.	.	PUNCT	_	_	1	punct	1:punct	_
+
+# sent_id = Not_eating_larvae:28
+# text = Ыннэн тэӈыннэ ӄиԓгытэквынэт кэгынмыт рычвантопԓыткок.
+# text[phon] = ənnen teŋənne qiɬɣətekwənet keɣənmət rəswantopɬətkok
+# text[rus] = «Единственное что — мой руки после того, как достаёшь личинок».
+# text[eng] = «But wash your hands after you take out the grubs.»
+# labels = complete-dep anno-fran unclear-syntax
+1	Ыннэн	ыннэн	NUM	_	_	2	reparandum	2:reparandum	Gloss=один
+2	тэӈыннэ	_	ADV	_	_	3	advmod	3:advmod	Gloss=GOOD-один
+3	ӄиԓгытэквынэт	_	VERB	_	_	0	root	0:root	Gloss=2.S/A.SUBJ-мыться-IRR-3SG.O-PL
+4	кэгынмыт	_	NOUN	_	_	3	obj	3:obj	Gloss=кисть.руки-NOM.PL
+5	рычвантопԓыткок	йыток	VERB	_	Incorporated[obj]=Yes	3	advcl	3:advcl	Gloss=личинка-вынимать-COMPL-LOC
+5.1	рычва	рычва	NOUN	_	Incorporated=Yes	_	_	5:obj	Gloss=личинка
+6	.	.	PUNCT	_	_	3	punct	3:punct	_
+
+# sent_id = Not_eating_larvae:29
+# text = Ынӄоры паагъэ тынутчирык.
+# text[phon] = ənqorə paaɣʔe tənutsirək
+# text[rus] = Потом перестало опухать.
+# text[eng] = After that it stopped swelling.
+# labels = complete-dep anno-fran
+1	Ынӄоры	ынӄоры	ADV	_	_	2	advmod	_	Gloss=потом
+2	паагъэ	паак	VERB	_	_	0	root	_	Gloss=2/3.S/A-переставать-TH-2/3SG.S
+3	тынутчирык	тынутык	VERB	_	_	2	xcomp	_	Gloss=опухать-PLUR-INF
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Not_eating_larvae:30
+# text = Ынкатагнэпы нырычвантойгым ӄонпы нык ныкэгынмиԓгытэвигым.
+# text[phon] = ənkataɣnepə nərəswantojɣəm qonpə nək nəkeɣənmiɬɣətewiɣəm
+# text[rus] = С тех пор я всегда, когда достаю личинок, руки мою.
+# text[eng] = Since then I always wash my hands when I extract grubs.
+# labels = complete-dep anno-fran
+1	Ынкатагнэпы	ынкатагнэпы	PRON	_	_	2	obl	2:obl	Gloss=тот-OBL-FRONT-ABL
+2	нырычвантойгым	_	VERB	_	Valency=1	0	root	0:root	Gloss=ST-личинка-вынимать-NP.1SG
+3	ӄонпы	_	ADV	_	_	5	advmod	5:advmod	Gloss=всегда
+4	нык	нык	X	_	_	5	reparandum	5:reparandum	Gloss=FST
+5	ныкэгынмиԓгытэвигым	_	VERB	_	Incorporated[obj]=Yes|Valency=1	2	parataxis	2:parataxis	Gloss=ST-кисть.руки-мыться-NP.1SG
+5.1	кэгынм	_	NOUN	_	Incorporated=Yes	_	_	5:obj	Gloss=кисть.руки
+6	.	.	PUNCT	_	_	2	punct	2:punct	_
+
+# sent_id = Not_eating_larvae:31
+# text = Гымыкытчаяыʼм вэриву вэривуунъыкинэт эти гичининэт.
+# text[phon] = ɣəməkətsajaʔəm weriwu weriwuunʔəkinet эти ɣisininet
+# text[rus] = Моя тётя брусничные эти (листья) собрала.
+# text[eng] = My aunt gathered lingonberry leaves.
+# labels = complete-dep anno-fran
+1-3	Гымыкытчаяыʼм	_	_	_	_	_	_	_	Gloss=я-POSS.INC-тётя-INS-=EMPH
+1	Гымык	гым	PRON	_	_	2	nmod:poss	_	Gloss=я-POSS.INC
+2	ытчая	_	NOUN	_	_	6	nsubj	_	Gloss=тётя-INS
+3	ыʼм	ъм	PART	_	_	2	advmod:emph	_	Gloss=EMPH
+4	вэриву	вэриву	X	_	_	5	reparandum	_	Gloss=FST
+5	вэривуунъыкинэт	_	NOUN	_	_	7	obl	_	Gloss=кислый-ягода-REL-PL
+6	эти	_	X	_	_	7	discourse	_	Gloss=
+7	гичининэт	гичик	VERB	_	Valency=2	0	root	_	Gloss=2/3.S/A-собирать-3SG.A.3.O-3SG.O-PL
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = Not_eating_larvae:32
+# text = Рыпгыпгэвнин нинивӄин.
+# text[phon] = rəpɣəpɣewnin niniwqin
+# text[rus] = Сварила, говорит:
+# text[eng] = Boiled them and said:
+# labels = complete-dep anno-fran
+1	Рыпгыпгэвнин	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-TR-пузырь-CS-3SG.A.3.O-3SG.O
+2	нинивӄин	ивык	VERB	_	Valency=2	1	parataxis	_	Gloss=ST-INV-сказать-ST.3SG
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Not_eating_larvae:33
+# text = Ӄыԓпыгын ну гэмэч гэмэсӄытвиԓин виин.
+# text[phon] = qəɬpəɣən ну ɣemes ɣemesqətwiɬin wiin
+# text[rus] = «Пей, пока оно ещё горячее (немного остыло)».
+# text[eng] = «Drink it while it is still warm (cooled down only a bit).»
+# labels = complete-dep anno-fran unclear-syntax
+1	Ӄыԓпыгын	пыԓык	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-пить-IRR-3SG.O
+2	ну	_	X	_	_	4	discourse	_	Gloss=
+3	гэмэч	гэмэч	X	_	_	4	reparandum	_	Gloss=FST
+4	гэмэсӄытвиԓин	_	VERB	_	Valency=1	1	parataxis	_	Gloss=PF-APPR-остывать-PF.3SG
+5	виин	виин	ADV	_	_	4	advmod	_	Gloss=пока
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Not_eating_larvae:34
+# text = Нинивӄин ӄыԓпыркын ӄыԓпигын.
+# text[phon] = niniwqin qəɬpərkən qəɬpiɣən
+# text[rus] = Говорит: «Пей давай, пей».
+# text[eng] = Says: «Drink it.»
+# labels = complete-dep anno-fran speech
+1	Нинивӄин	ивык	VERB	_	Valency=2	0	root	_	Gloss=ST-INV-сказать-ST.3SG
+2	ӄыԓпыркын	пыԓык	VERB	_	_	3	reparandum	_	Gloss=2.S/A.SUBJ-пить-IPFV
+3	ӄыԓпигын	пыԓык	VERB	_	_	1	parataxis:speech	_	Gloss=2.S/A.SUBJ-пить-IRR-3SG.O
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Not_eating_larvae:35
+# text = И наӄам нинивигым.
+# text[phon] = и naqam niniwiɣəm
+# text[rus] = Я же говорю:
+# text[eng] = But I say:
+# labels = complete-dep anno-fran
+1	И	и	CCONJ	_	_	3	cc	_	Gloss=
+2	наӄам	наӄам	ADV	_	_	3	advmod	_	Gloss=однако
+3	нинивигым	_	VERB	_	Valency=2	0	root	_	Gloss=ST-INV-сказать-NP.1SG
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Not_eating_larvae:36
+# text = Эʼтки вае уже тынанӄыпаатгъак эвниквичиԓьэткэ опопы мэчынкы.
+# text[phon] = ʔetki waje уже tənanqəpaatɣʔak ewnikwisiɬʔetke opopə mesənkə
+# text[rus] = «Мне уже плохо, у меня живот вздулся, лучше не пить, хватит».
+# text[eng] = «I am already feeling bad, my stomach has swelled, it is better not to drink anymore, enough.»
+# labels = complete-dep anno-fran valency unclear-syntax
+1	Эʼтки	эʼтки	ADV	_	_	0	root	0:root	Gloss=плохо
+2-3	вае	_	_	_	_	_	_	_	Gloss=вот-=PTCL
+2	ва	_	PART	_	_	1	discourse	1:discourse	Gloss=вот
+3	е	а	PART	_	_	2	advmod:emph	2:advmod:emph	Gloss=EMPH
+4	уже	уже	ADV	_	_	1	advmod	1:advmod	Gloss=
+5	тынанӄыпаатгъак	_	VERB	_	Incorporated[obj]=Yes	1	parataxis	1:parataxis	Gloss=1SG.S/A-живот-опухать-TH-1SG.S
+5.1	нанӄы	нанӄын	NOUN	_	Incorporated=Yes	_	_	5:obj	Gloss=живот
+6	эвниквичиԓьэткэ	иквисик	VERB	_	_	7	nsubj	7:nsubj	Gloss=PREF-CAR-пить-PLAC-CAR-INS
+7	опопы	опопы	ADV	_	_	1	parataxis	1:parataxis	Gloss=лучше
+8	мэчынкы	мэчынкы	ADV	_	_	1	parataxis	1:parataxis	Gloss=достаточно
+9	.	.	PUNCT	_	_	1	punct	1:punct	_
+
+# sent_id = Not_eating_larvae:37
+# text = Иниквъи ӄарычгытвагэ.
+# text[phon] = inikwʔi qarəsɣətwaɣe
+# text[rus] = Говорит: «Полежи на боку».
+# text[eng] = She says: «Lie down on one side.»
+# labels = complete-dep anno-fran
+1	Иниквъи	икын	VERB	_	_	0	root	_	Gloss=2/3.S/A-INV-сказать-TH-2/3SG.S
+2	ӄарычгытвагэ	арычгытвак	VERB	_	_	1	parataxis:speech	_	Gloss=2.S/A.SUBJ-ложиться.на.бок-RES-IRR-2/3SG.S
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Not_eating_larvae:38
+# text = Нинэ ӄээӄын тарычгытвагъак.
+# text[phon] = nine qeeqən tarəsɣətwaɣʔak
+# text[rus] = Я ещё немного на боку полежала.
+# text[eng] = I lay down for a bit.
+# labels = complete-dep anno-fran
+1	Нинэ	Нинэ	X	_	_	2	reparandum	_	Gloss=FST
+2	ӄээӄын	ӄээӄын	ADV	_	_	3	advmod	_	Gloss=ещё.немного
+3	тарычгытвагъак	арычгытвак	VERB	_	_	0	root	_	Gloss=1SG.S/A-ложиться.на.бок-RES-TH-1SG.S
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Not_eating_larvae:39
+# text = Энэвӈӈогъэ гым.
+# text[phon] = enewŋŋoɣʔe ɣəm
+# text[rus] = Она мне начала говорить:
+# text[eng] = She started telling me:
+# labels = complete-dep anno-fran
+1	Энэвӈӈогъэ	_	VERB	_	Valency=2	0	root	_	Gloss=2/3.S/A-INV-сказать-INCH-TH-2/3SG.S
+2	гым	гым	PRON	_	_	1	obj	_	Gloss=я
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Not_eating_larvae:40
+# text = Ӄыԓютэги.
+# text[phon] = qəɬuteɣi
+# text[rus] = «Сходи пописай».
+# text[eng] = «Go pee.»
+# labels = complete-dep anno-fran
+1	Ӄыԓютэги	ԓютэк	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-мочиться.о.женщине-IRR-2/3SG.S
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Not_eating_larvae:41
+# text = Гымнан нивигым.
+# text[phon] = ɣəmnan niwiɣəm
+# text[rus] = Я говорю:
+# text[eng] = I say:
+# labels = complete-dep anno-fran
+1	Гымнан	гым	PRON	_	_	2	nsubj	_	Gloss=я-INS
+2	нивигым	_	VERB	_	Valency=2	0	root	_	Gloss=ST-сказать-NP.1SG
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Not_eating_larvae:42
+# text = Ванэ мыԓётаӈӈогъак.
+# text[phon] = wane məɬotaŋŋoɣʔak
+# text[rus] = «Не хочу пи́сать».
+# text[eng] = «I do not want to pee.»
+# labels = complete-dep anno-fran
+1	Ванэ	ванэван	AUX	_	_	2	aux	_	Gloss=NEG.NFUT
+2	мыԓётаӈӈогъак	_	VERB	_	_	0	root	_	Gloss=1SG.S/A.SUBJ-мочиться.о.женщине-INCH-TH-1SG.S
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Not_eating_larvae:43
+# text = И вэнԓыги ӄыԓютэги.
+# text[phon] = и wenɬəɣi qəɬuteɣi
+# text[rus] = «Всё равно пописай».
+# text[eng] = «Still, pee.»
+# labels = complete-dep anno-fran
+1	И	и	CCONJ	_	_	3	cc	_	Gloss=
+2	вэнԓыги	вэнԓыги	ADV	_	_	3	advmod	_	Gloss=всё.же
+3	ӄыԓютэги	ԓютэк	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-мочиться.о.женщине-IRR-2/3SG.S
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Not_eating_larvae:44
+# text = Ну ынкатагнэпы ынӄо ԓыгэн энанъотавӈӈогъэ рычвоԓьэгым.
+# text[phon] = ну ənkataɣnepə ənqo ɬəɣen enanʔotawŋŋoɣʔe rəswoɬʔeɣəm
+# text[rus] = С тех пор она просто стала запрещать мне есть личинки.
+# text[eng] = Since then she has simply forbidden me to eat grubs.
+# labels = complete-dep anno-fran subordination
+1	Ну	ну	X	_	_	5	discourse	_	Gloss=
+2	ынкатагнэпы	ынкатагнэпы	PRON	_	_	5	obl	_	Gloss=тот-OBL-FRONT-ABL
+3	ынӄо	ынӄо	ADV	_	_	5	advmod	_	Gloss=потом
+4	ԓыгэн	ԓыгэн	ADV	_	_	5	advmod	_	Gloss=просто
+5	энанъотавӈӈогъэ	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-INV-запрещать-INCH-TH-2/3SG.S
+6	рычвоԓьэгым	_	VERB	_	_	5	ccomp	_	Gloss=личинка-EAT-ATTR-NP.1SG
+7	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Not_eating_larvae:45
+# text = Ӄонпы ныкэгынмиԓгытэвигым.
+# text[phon] = qonpə nəkeɣənmiɬɣətewiɣəm
+# text[rus] = Я всегда мою руки.
+# text[eng] = I always wash my hands.
+# labels = complete-dep anno-fran
+1	Ӄонпы	_	ADV	_	_	2	advmod	2:advmod	Gloss=всегда
+2	ныкэгынмиԓгытэвигым	иԓгытэвык	VERB	_	Incorporated[obj]=Yes|Valency=1	0	root	0:root	Gloss=ST-кисть.руки-мыться-NP.1SG
+2.1	кэгынм	кэгриԓ	NOUN	_	Incorporated=Yes	_	_	2:obj	_
+3	.	.	PUNCT	_	_	2	punct	2:punct	_
+
+# sent_id = Not_eating_larvae:46
+# text = Ынкатагнэпы гапаайгым.
+# text[phon] = ənkataɣnepə ɣapaajɣəm
+# text[rus] = С тех пор перестала (есть личинки).
+# text[eng] = Since then I has stopped (eating grubs).
+# labels = complete-dep anno-fran valency
+1	Ынкатагнэпы	ынкатагнэпы	PRON	_	_	2	obl	_	Gloss=тот-OBL-FRONT-ABL
+2	гапаайгым	паак	VERB	_	Valency=1	0	root	_	Gloss=PF-переставать-NP.1SG
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Not_eating_larvae:47
+# text = Ынӄо нивӄинэт иаʼм ытԓён ынӈин нрзб.
+# text[phon] = ənqo niwqinet iʔam ətɬon ənŋin нрзб
+# text[rus] = Потом говорили, почему она такое не ест.
+# text[eng] = Afterwards people were saying, why is she so (not eating grubs)?
+# labels = complete-dep anno-fran
+1	Ынӄо	ынӄо	ADV	_	_	2	advmod	_	Gloss=потом
+2	нивӄинэт	ивык	VERB	_	Valency=1	0	root	_	Gloss=ST-сказать-ST.3SG-PL
+3	иаʼм	_	ADV	_	_	2	advmod	_	Gloss=почему
+4	ытԓён	ытԓён	PRON	_	_	5	nsubj	_	Gloss=он
+5	ынӈин	ынӈин	ADV	_	_	2	parataxis:speech	_	Gloss=так
+6	нрзб	_	X	_	_	5	discourse	_	Gloss=
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Not_eating_larvae:48
+# text = Я говорю ӄырым ытръэч игыт трэгичиркынэт и томыкагты трэйыԓыркынэт.
+# text[phon] = я говорю qərəm ətrʔes iɣət treɣisirkənet и toməkaɣtə trejəɬərkənet
+# text[rus] = Я говорю: «Хватит, я буду только собирать их (личинки) и другим отдавать».
+# text[eng] = I say: «No, I will only catch them and give them to others.»
+# labels = complete-dep anno-fran
+1	Я	_	X	_	_	2	nsubj	_	Gloss=
+2	говорю	_	X	_	_	0	root	_	Gloss=
+3	ӄырым	ӄырым	AUX	_	_	6	aux:neg	_	Gloss=NEG.FUT
+4	ытръэч	ытръэч	ADV	_	_	6	advmod	_	Gloss=только
+5	игыт	игыр	ADV	_	_	6	advmod	_	Gloss=сегодня
+6	трэгичиркынэт	_	VERB	_	_	2	parataxis:speech	_	Gloss=1SG.S/A-FUT-собирать-IPFV-PL
+7	и	_	CCONJ	_	_	9	cc	_	Gloss=
+8	томыкагты	_	ADJ	_	_	9	obl	_	Gloss=другой-OBL-DAT
+9	трэйыԓыркынэт	_	VERB	_	_	6	conj	_	Gloss=1SG.S/A-FUT-давать-IPFV-PL
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Not_eating_larvae:49
+# text = Игытъым тумгыт нивӄээт.
+# text[phon] = iɣətʔəm tumɣət niwqeet
+# text[rus] = Сейчас друзья говорят:
+# text[eng] = Now friends say:
+# labels = complete-dep anno-fran valency
+1-2	Игытъым	_	_	_	_	_	_	_	Gloss=сегодня-=EMPH
+1	Игыт	_	ADV	_	_	4	advmod	_	Gloss=сегодня
+2	ъым	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	тумгыт	тумгытум	NOUN	_	_	4	nsubj	_	Gloss=друг-NOM.PL
+4	нивӄээт	_	VERB	_	Valency=2	0	root	_	Gloss=ST-сказать-ST.3PL
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Not_eating_larvae:50
+# text = Ивкэ мынырычвомык.
+# text[phon] = iwke mənərəswomək
+# text[rus] = «Давай поедим личинок».
+# text[eng] = «Let's eat gadfly grubs.»
+# labels = complete-dep anno-fran
+1	Ивкэ	ивкэ	AUX	_	_	2	aux	_	Gloss=OPT
+2	мынырычвомык	_	VERB	_	_	0	root	_	Gloss=1PL.S/A.SUBJ-личинка-EAT-1PL.S/O
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Not_eating_larvae:51
+# text = А гым вэԓвагты нытвайгым.
+# text[phon] = а ɣəm weɬwaɣtə nətwajɣəm
+# text[rus] = А мне совсем не хочется.
+# text[eng] = I do not want that at all.
+# labels = complete-dep anno-fran unclear-syntax
+1	А	_	CCONJ	_	_	3	cc	_	Gloss=
+2	гым	гым	PRON	_	_	3	nsubj	_	Gloss=я
+3	вэԓвагты	_	ADV	_	_	0	root	_	Gloss=быть.не.в.курсе-DAT
+4	нытвайгым	вак	AUX	_	Valency=1	3	cop	_	Gloss=ST-быть-NP.1SG
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Not_eating_larvae:52
+# text = Гымнан ги гымнин гэчеёттэ тэӈэвыт томыкагты нинэйыԓигым рычват кто мэӈин гэчеёттэ тагъяӈӄэн рычвагты.
+# text[phon] = ɣəmnan ɣi ɣəmnin ɣesejotte teŋewət toməkaɣtə ninejəɬiɣəm rəswat кто meŋin ɣesejotte taɣjaŋqen rəswaɣtə
+# text[rus] = Я собранные личинки тут же другим отдаю, кто хочет личинок.
+# text[eng] = I give the grubs I catch to others, the ones who want some grubs.
+# labels = complete-dep anno-fran unclear-syntax disfluency
+1	Гымнан	гым	PRON	_	_	7	nsubj	_	Gloss=я-INS
+2	ги	ги	X	_	_	3	reparandum	_	Gloss=FST
+3	гымнин	_	PRON	_	_	4	nmod:poss	_	Gloss=я-AN.GEN
+4	гэчеёттэ	гичик	VERB	_	_	7	obj	_	Gloss=собирать-PTCP.PASS-NOM.PL
+5	тэӈэвыт	_	ADV	_	_	7	advmod	_	Gloss=GOOD-когда
+6	томыкагты	_	PRON	_	_	7	obl	_	Gloss=другой-OBL-DAT
+7	нинэйыԓигым	йыԓык	VERB	_	Valency=2	0	root	_	Gloss=ST-INV-давать-NP.1SG
+8	рычват	_	NOUN	_	_	4	dislocated	_	Gloss=личинка-NOM.PL
+9	кто	кто	X	_	_	10	reparandum	_	Gloss=
+10	мэӈин	_	PRON	_	_	12	nsubj	_	Gloss=кто
+11	гэчеёттэ	гичик	VERB	_	_	13	nmod	_	Gloss=собирать-PTCP.PASS-NOM.PL
+12	тагъяӈӄэн	_	VERB	_	_	7	parataxis	_	Gloss=желание-ST.3SG
+13	рычвагты	рычваԓгын	NOUN	_	_	12	obj	_	Gloss=личинка-DAT
+14	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = Not_eating_larvae:53
+# text = И мэчынкы.
+# text[phon] = и mesənkə
+# text[rus] = И хватит.
+# text[eng] = And that is enough.
+# labels = complete-dep anno-fran
+1	И	и	CCONJ	_	_	2	cc	_	Gloss=
+2	мэчынкы	мэчынкы	ADV	_	_	0	root	_	Gloss=достаточно
+3	.	.	PUNCT	_	_	2	punct	_	_
+

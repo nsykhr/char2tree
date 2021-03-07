@@ -1,0 +1,95 @@
+# sent_id = WC:1
+# text = Чапаевна Пэтька ивнин.
+# text[phon] = čapajewna petʲka iwnin
+# text[rus] = Чапаев говорит Петьке:
+# text[eng] = Chapaev says to Petka:
+# labels = complete-dep anno-fran
+1	Чапаевна	Чапаев	PROPN	_	_	3	nsubj	_	Gloss=Чапаев-AN.INS
+2	Пэтька	Пэтька	PROPN	_	_	3	obj	_	Gloss=Петька-NOM.SG
+3	ивнин	ивык	VERB	_	_	0	root	_	Gloss=2/3.S/A-сказать-3SG.A.3.O-3SG.O
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = WC:2
+# text = Ытԓён микынэ аʼԓяёран эʼԓерыԓгэ тивыркынин.
+# text[phon] = ətɬon mikəne ʔaɬajoran ʔeɬerəɬɣe tiwərkənin
+# text[rus] = «Кто это в туалете говняные следы пальцами оставляет?
+# text[eng] = «Who leaves crappy fingerprints in the toilet?
+# labels = complete-dep anno-fran
+1	Ытԓён	ытԓён	PART	_	_	5	discourse	_	Gloss=же
+2	микынэ	_	PRON	_	_	5	nsubj	_	Gloss=кто-AN.INS
+3	аʼԓяёран	аʼԓяёран	NOUN	_	_	5	obj	_	Gloss=экскременты-класть-жилище-NOM.SG
+4	эʼԓерыԓгэ	_	NOUN	_	_	5	obl	_	Gloss=экскременты-палец-INS
+5	тивыркынин	тивык	VERB	_	_	0	root	_	Gloss=2/3.S/A-ударять-IPFV-3SG.A.3.O-3SG.O
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = WC:3
+# text = Нрзб ӄыныгйивэквынэ микынэ ынӄэна ынӈин рытыркынин.
+# text[phon] = нрзб qənəɣjiwekwəne mikəne ənqena ənŋin rətərkənin
+# text[rus] = Выясни, кто так делает».
+# text[eng] = Find out who does that.»
+# labels = complete-dep anno-fran subordination
+1	Нрзб	_	X	_	_	2	discourse	_	Gloss=
+2-3	ӄыныгйивэквынэ	_	_	_	_	_	_	_	Gloss=2.S/A.SUBJ-TR-знак-CS-IRR-3SG.O-=PTCL
+2	ӄыныгйивэквын	_	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-TR-знак-CS-IRR-3SG.O
+3	э	а	PART	_	_	2	advmod:emph	_	Gloss=PTCL
+4	микынэ	_	PRON	_	_	8	nsubj	_	Gloss=кто-AN.INS
+5-6	ынӄэна	_	_	_	_	_	_	_	Gloss=DET-=PTCL
+5	ынӄэн	ынӄэна	PRON	_	_	8	obj	_	Gloss=DET
+6	а	а	PART	_	_	5	advmod:emph	_	Gloss=PTCL
+7	ынӈин	ынӈин	ADV	_	_	8	advmod	_	Gloss=так
+8	рытыркынин	рытык	VERB	_	_	2	dep	_	Gloss=2/3.S/A-иметь-IPFV-3SG.A.3.O-3SG.O
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = WC:4
+# text = Пэтԓе Пэтька рэсӄиквъим иквъиӈа.
+# text[phon] = petɬe petʲka resqikwʔim ikwʔiŋa
+# text[rus] = Вскоре Петька заходит и говорит:
+# text[eng] = Soon Petka enters (the room) and says:
+# labels = complete-dep anno-fran
+1	Пэтԓе	пэтԓе	ADV	_	_	3	advmod	_	Gloss=быстро
+2	Пэтька	Пэтька	PROPN	_	_	3	nsubj	_	Gloss=Петька-NOM.SG
+3-4	рэсӄиквъим	_	_	_	_	_	_	_	Gloss=2/3.S/A-входить-TH-2/3SG.S-=EMPH
+3	рэсӄиквъи	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-входить-TH-2/3SG.S
+4	м	ъм	PART	_	_	3	advmod:emph	_	Gloss=EMPH
+5-6	иквъиӈа	_	_	_	_	_	_	_	Gloss=2/3.S/A-сказать-TH-2/3SG.S-=PTCL
+5	иквъи	_	VERB	_	_	3	parataxis	_	Gloss=2/3.S/A-сказать-TH-2/3SG.S
+6	ӈа	а	PART	_	_	5	advmod:emph	_	Gloss=PTCL
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = WC:5
+# text = Вынэ ӈан Фурмановына.
+# text[phon] = wəne ŋan furmanowəna
+# text[rus] = «Ну, это Фурманов».
+# text[eng] = «Well, this is Furmanov.»
+# labels = complete-dep anno-fran
+1	Вынэ	вынэ	PART	_	_	3	discourse	_	Gloss=ну.ка
+2	ӈан	ӈан	ADV	_	_	3	advmod	_	Gloss=DEICT
+3	Фурмановына	Фурманов	PROPN	_	Case=Erg	0	root	_	Gloss=Фурманов-AN.INS
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = WC:6
+# text = Иаʼм гынан нрзб ынӈин ивыркын.
+# text[phon] = iʔam ɣənan нрзб ənŋin iwərkən
+# text[rus] = «Почему ты так думаешь?».
+# text[eng] =  «Why do you think so?»
+# labels = complete-dep anno-fran
+1	Иаʼм	_	ADV	_	_	5	advmod	_	Gloss=почему
+2	гынан	гыт	PRON	_	_	5	nsubj	_	Gloss=ты.INS
+3	нрзб	_	X	_	_	5	discourse	_	Gloss=
+4	ынӈин	ынӈин	ADV	_	_	5	advmod	_	Gloss=так
+5	ивыркын	ивык	VERB	_	_	0	root	_	Gloss=2/3.S/A-сказать-IPFV
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = WC:7
+# text = Таӈамынан аʼԓяёрайпы ӈыток кэгынмыт ниниԓгытэвӄинэт.
+# text[phon] = taŋamənan ʔaɬajorajpə ŋətok keɣənmət niniɬɣətewqinet
+# text[rus] = «Только он один, выходя из туалета, руки моет».
+# text[eng] =  «It is only him who washes his hands leaving the toilet.».
+# labels = complete-dep anno-fran
+1	Таӈамынан	_	PRON	_	_	5	nsubj	_	Gloss=GOOD-RESTR-он.INS
+2	аʼԓяёрайпы	_	NOUN	_	_	3	obl	_	Gloss=экскременты-класть-жилище-ABL
+3	ӈыток	_	VERB	_	_	5	advcl	_	Gloss=выходить-LOC
+4	кэгынмыт	_	NOUN	_	_	5	obj	_	Gloss=кисть.руки-NOM.PL
+5	ниниԓгытэвӄинэт	_	VERB	_	_	0	root	_	Gloss=ST-INV-мыться-ST.3SG-PL
+6	.	.	PUNCT	_	_	5	punct	_	_
+

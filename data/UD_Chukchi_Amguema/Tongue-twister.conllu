@@ -1,0 +1,13 @@
+# sent_id = Tongue-twister:1
+# text = Яраруӄӄэмԓыԓеӈэвъэнӄэй.
+# text[phon] = jararuqqemɬəɬeŋewʔenqej
+# text[rus] = Девушка с глазами (большими), как бубен и тазик.
+# text[eng] = A girl with eyes (big) as a tambourine or a washbowl.
+# labels = complete anno-fran
+1-4	Яраруӄӄэмԓыԓеӈэвъэнӄэй	_	_	_	_	_	_	_	Gloss=бубен-блюдо-глаз-жена-DIM-NOM.SG
+1	Ярар	ярар	NOUN	_	_	2	nmod	_	Gloss=бубен
+2	уӄӄэм	уӄӄэм	NOUN	_	_	3	nmod	_	Gloss=блюдо
+3	ԓыԓе	ԓыԓяԓгын	NOUN	_	_	4	nmod	_	Gloss=глаз
+4	ӈэвъэнӄэй	ӈэвъэн	NOUN	_	_	0	root	_	Gloss=жена-DIM-NOM.SG
+5	.	.	PUNCT	_	_	4	punct	_	_
+
