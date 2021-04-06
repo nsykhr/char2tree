@@ -5,10 +5,12 @@ from typing import List, Dict
 
 from allennlp.models import Model
 from allennlp.data import DatasetReader
+from allennlp.predictors import Predictor
 from allennlp.common.params import Params
 
 from scripts.flatten import read_corpus
-from modules import UniversalDependenciesDatasetReader, UniversalDependenciesCharacterLevelPredictor
+from modules import UniversalDependenciesDatasetReader, UniversalDependenciesPredictor, \
+    UniversalDependenciesCharacterLevelPredictor
 
 
 def save_predictions_to_conllu(savepath: str, predictions: List[Dict[str, List[str]]]) -> None:
@@ -29,13 +31,14 @@ def save_predictions_to_conllu(savepath: str, predictions: List[Dict[str, List[s
 
 
 def get_predictions(test_path: str, dataset_reader: UniversalDependenciesDatasetReader,
-                    predictor: UniversalDependenciesCharacterLevelPredictor) -> List[Dict[str, List[str]]]:
+                    predictor: Predictor, char_level: bool = True) -> List[Dict[str, List[str]]]:
     all_predictions = []
     for sentence in tqdm(list(read_corpus(test_path))):
         metadata = [line[0] for line in sentence if len(line) == 1]
         sentence = sentence[len(metadata):]
 
-        tokens = [dataset_reader.root_token] + list(''.join([x[1] for x in sentence if x[0].isdigit()]))
+        tokens = [dataset_reader.root_token] + [x[1] for x in sentence if x[0].isdigit()] if char_level else \
+            [dataset_reader.root_token] + list(''.join([x[1] for x in sentence if x[0].isdigit()]))
         json_dict = {'tokens': tokens}
         predictions = predictor.predict(json_dict)
         predictions['metadata'] = metadata
@@ -49,6 +52,8 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--test-path', '-t', type=str, help='Path to the testing data file in the UD format.')
     parser.add_argument('--model-path', '-m', type=str, help='Path to the directory with the trained model.')
+    parser.add_argument('--char-level', type=bool, default=True,
+                        help='Whether the model is character-level or token-level.')
     parser.add_argument('--savepath', '-s', type=str, help='Path to save the CONLLU file with predictions.')
     parser.add_argument('--cuda', '-c', type=int, default=-1, help='CUDA device index (default value is -1 for CPU).')
     args = parser.parse_args()
@@ -59,9 +64,10 @@ def main():
     model = Model.load(config, serialization_dir=args.model_path, cuda_device=args.cuda)
     model.eval()
 
-    predictor = UniversalDependenciesCharacterLevelPredictor(model=model, dataset_reader=dataset_reader)
+    predictor = UniversalDependenciesCharacterLevelPredictor(model=model, dataset_reader=dataset_reader) \
+        if args.char_level else UniversalDependenciesPredictor(model=model, dataset_reader=dataset_reader)
 
-    predictions = get_predictions(args.test_path, dataset_reader, predictor)
+    predictions = get_predictions(args.test_path, dataset_reader, predictor, args.char_level)
     save_predictions_to_conllu(args.savepath, predictions)
 
 

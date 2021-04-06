@@ -115,6 +115,9 @@ class UniversalDependenciesDatasetReader(DatasetReader):
     @overrides
     def _read(self, file_path: str) -> Iterator[Instance]:
         for sentence in self.read_corpus(file_path):
+            if any(not x[0].isdigit() or not x[6].isdigit() for x in sentence):
+                continue
+
             if self.character_level:
                 converted_sentence = self.convert_to_character_level(sentence)
             else:

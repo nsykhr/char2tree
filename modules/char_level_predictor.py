@@ -15,14 +15,12 @@ def vote(votes: List[Any]) -> Any:
     return max(set(votes), key=votes.count)
 
 
-@Predictor.register('ud_basic_char_level')
-class UniversalDependenciesCharacterLevelPredictor(Predictor):
+class UniversalDependenciesPredictor(Predictor):
     def __init__(self,
                  model: JointTaggerParser,
-                 dataset_reader: UniversalDependenciesDatasetReader,
-                 use_intratoken_heuristics: bool = True):
+                 dataset_reader: UniversalDependenciesDatasetReader):
         super().__init__(model=model, dataset_reader=dataset_reader)
-        self.use_intratoken_heuristics = use_intratoken_heuristics
+        self.use_intratoken_heuristics = False
 
     @overrides
     def _json_to_instance(self, json_dict: dict) -> Instance:
@@ -46,7 +44,7 @@ class UniversalDependenciesCharacterLevelPredictor(Predictor):
                 for token_logits in prediction['xpos_logits'][1:]]
 
         if 'head_preds' in prediction and 'label_preds' in prediction:
-            output['heads'] = prediction['head_preds'][1:]
+            output['heads'] = list(map(str, prediction['head_preds'][1:]))
 
             output['labels'] = []
             for i, (head, token_logits) in enumerate(zip(output['heads'], prediction['label_preds'][1:])):
@@ -73,6 +71,24 @@ class UniversalDependenciesCharacterLevelPredictor(Predictor):
 
         return output
 
+    def predict(self, json_dict: JsonDict) -> Dict[str, List[str]]:
+        if not json_dict:
+            return {}
+        preds = self._predict(json_dict)
+        preds['tokens'] = json_dict['tokens'][1:]
+
+        return preds
+
+
+@Predictor.register('ud_basic_char_level')
+class UniversalDependenciesCharacterLevelPredictor(UniversalDependenciesPredictor):
+    def __init__(self,
+                 model: JointTaggerParser,
+                 dataset_reader: UniversalDependenciesDatasetReader,
+                 use_intratoken_heuristics: bool = True):
+        super().__init__(model=model, dataset_reader=dataset_reader)
+        self.use_intratoken_heuristics = use_intratoken_heuristics
+
     @staticmethod
     def update_head_indices(predictions: Dict[str, List[str]]) -> None:
         char_id2token_id = {0: 0}
@@ -85,6 +101,7 @@ class UniversalDependenciesCharacterLevelPredictor(Predictor):
 
         predictions['heads'] = [str(char_id2token_id[head]) for head in predictions['heads']]
 
+    @overrides
     def predict(self, json_dict: JsonDict) -> Dict[str, List[str]]:
         if not json_dict:
             return {}
@@ -128,8 +145,7 @@ class UniversalDependenciesCharacterLevelPredictor(Predictor):
             self.update_head_indices(output)
 
         else:
-            char_preds.update({'tokens': json_dict['tokens'][1:]})
-            char_preds['heads'] = list(map(str, char_preds['heads']))
+            char_preds['tokens'] = json_dict['tokens'][1:]
             output = char_preds
 
         return output
