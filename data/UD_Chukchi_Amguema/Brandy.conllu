@@ -1,0 +1,347 @@
+# sent_id = Brandy:1
+# text = Рыркайпияк мури каԓеткома ынӄэн.
+# text[phon] = rərkajpijak muri kaɬetkoma ənqen
+# text[rus] = В Рыркайпии это [было], когда мы ещё были школьниками.
+# text[eng] = This happened in Ryrkaypiy when we were still schoolchildren.
+# labels = complete-dep anno-karina
+1	Рыркайпияк	_	PROPN	_	_	4	obl	_	Gloss=Рыркайпий-LOC
+2	мури	мури	PRON	_	_	3	nsubj	_	Gloss=мы
+3	каԓеткома	_	VERB	_	_	4	advcl	_	Gloss=писать-ITER-SIM
+4	ынӄэн	ынӄэн	DET	_	_	0	root	_	Gloss=DET
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Brandy:2
+# text = Эмнуӈыԓьыт ныпкирӄинэт ынӄэнэ.
+# text[phon] = emnuŋəɬʔət nəpkirqinet ənqene
+# text[rus] = Приезжали тундровики.
+# text[eng] = Tundra people came.
+# labels = complete-dep anno-fran ənqen
+1	Эмнуӈыԓьыт	_	NOUN	_	_	2	nsubj	_	Gloss=тундра-ATTR-NOM.PL
+2	ныпкирӄинэт	пыкирык	VERB	_	Valency=1	0	root	_	Gloss=ST-прибывать-ST.3SG-PL
+3-4	ынӄэнэ	_	_	_	_	_	_	_	Gloss=DET-=PTCL
+3	ынӄэн	_	PART	_	_	2	discourse	_	Gloss=DET
+4	э	а	PART	_	_	3	advmod:emph	_	Gloss=PTCL
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Brandy:3
+# text = Наӄамэ итык эвынъым нъэӄимԓынӈэӄинэт вэԓыткорайпыӈ.
+# text[phon] = naqame itək ewənʔəm nʔeqimɬənŋeqinet weɬətkorajpəŋ
+# text[rus] = К тому же… на деле покупали в магазине алкоголь.
+# text[eng] = Besides ... in fact, they bought alcohol in the store.
+# labels = complete-dep anno-fran
+1-2	Наӄамэ	_	_	_	_	_	_	_	Gloss=однако-=PTCL
+1	Наӄам	_	ADV	_	_	6	advmod	_	Gloss=однако
+2	э	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3	итык	итык	PART	_	_	6	discourse	_	Gloss=всё.же
+4-5	эвынъым	_	_	_	_	_	_	_	Gloss=если-=EMPH
+4	эвын	_	ADV	_	_	6	advmod	_	Gloss=если
+5	ъым	ъм	PART	_	_	4	advmod:emph	_	Gloss=EMPH
+6	нъэӄимԓынӈэӄинэт	_	VERB	_	Valency=1	0	root	_	Gloss=ST-плохой-вода-GET-ST.3SG-PL
+7	вэԓыткорайпыӈ	_	NOUN	_	_	6	obl	_	Gloss=товар-ITER-жилище-ABL-AD
+8	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Brandy:4
+# text = Наӄам ӈанэ а эт ӈиръэӄи.
+# text[phon] = naqam ŋane а эт ŋirʔeqi
+# text[rus] = И там…
+# text[eng] = And there…
+# labels = complete-dep anno-karina
+1	Наӄам	наӄам	CCONJ	_	_	2	cc	_	Gloss=однако
+2-3	ӈанэ	_	_	_	_	_	_	_	Gloss=DEICT-=PTCL
+2	ӈан	_	ADV	_	_	0	root	_	Gloss=DEICT
+3	э	а	PART	_	_	2	advmod:emph	_	Gloss=PTCL
+4	а	_	X	_	_	3	reparandum	_	Gloss=
+5	эт	_	X	_	_	3	reparandum	_	Gloss=
+6	ӈиръэӄи	ӈиръэӄи	X	_	_	3	reparandum	_	Gloss=FST
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Brandy:5
+# text = Эʼӄимԓытъым аԓва ваԓьыт ынӄэн ӄырымэнэ ԓыгъэӄимԓыт ваа ԓыгэнэ наӄам нычеԓгԓьоӄэнат.
+# text[phon] = ʔeqimɬətʔəm aɬwa waɬʔət ənqen qərəmene ɬəɣʔeqimɬət waa ɬəɣene naqam nəseɬɣɬʔoqenat
+# text[rus] = Бутылки с алкоголем тогда другие были, не такие, как обычно, а прямо красноватые.
+# text[eng] = Bottles with alcohol then were different, not such as usual but really reddish.
+# labels = complete-dep anno-karina
+1-2	Эʼӄимԓытъым	_	_	_	_	_	_	_	Gloss=плохой-вода-NOM.PL-=EMPH
+1	Эʼӄимԓыт	_	NOUN	_	_	3	nsubj	3:nsubj	Gloss=плохой-вода-NOM.PL
+2	ъым	ъм	PART	_	_	1	advmod:emph	1:advmod:emph	Gloss=EMPH
+3	аԓва	аԓва	ADJ	_	_	0	root	0:root	Gloss=другой-AD
+4	ваԓьыт	вак	AUX	_	Valency=1	3	aux	3:aux	Gloss=быть-ATTR-NOM.PL
+5	ынӄэн	ынӄэн	PART	_	_	3	discourse	3:discourse	Gloss=DET
+6-7	ӄырымэнэ	_	_	_	_	_	_	_	Gloss=NEG.FUT-GEN-=PTCL
+6	ӄырымэн	_	VERB	_	_	3	parataxis	3:parataxis	Gloss=NEG.FUT-GEN
+7	э	а	PART	_	_	6	advmod:emph	6:advmod:emph	Gloss=PTCL
+8	ԓыгъэӄимԓыт	_	NOUN	_	_	1	appos	1:appos	Gloss=AUTH-плохой-вода-NOM.PL
+9	ваа	_	ADV	_	_	6	advmod	6:advmod	Gloss=договорились
+10-11	ԓыгэнэ	_	_	_	_	_	_	_	Gloss=просто-=PTCL
+10	ԓыгэн	_	PART	_	_	6	discourse	6:discourse	Gloss=просто
+11	э	а	PART	_	_	10	advmod:emph	10:advmod:emph	Gloss=PTCL
+12	наӄам	наӄам	CCONJ	_	_	13	cc	13:cc	Gloss=однако
+13	нычеԓгԓьоӄэнат	_	VERB	_	Incorporated[dep]=Yes|Valency=1	3	parataxis	3:parataxis	Gloss=ST-красный-видеть-ST.3SG-PL
+13.1	чеԓг	сеԓг	ADJ	_	Incorporated=Yes	_	_	13:dep	Gloss=красный
+14	.	.	PUNCT	_	_	3	punct	3:punct	_
+
+# sent_id = Brandy:6
+# text = Мрэнти.
+# text[phon] = mrenti
+# text[rus] = «Мрэнти».
+# text[eng] = «Mrenti».
+# labels = complete-dep anno-fran
+1	Мрэнти	Мрэнти	PROPN	_	_	0	root	_	Gloss=комар-NOM.PL
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Brandy:7
+# text = Наӄам Брэнди называлось.
+# text[phon] = naqam brendi называлось
+# text[rus] = На самом деле называлось «Бренди».
+# text[eng] = In fact, it was called «Brandy».
+# labels = complete-dep anno-fran
+1	Наӄам	наӄам	ADV	_	_	3	advmod	_	Gloss=однако
+2	Брэнди	Брэнди	PROPN	_	_	3	obj	_	Gloss=бренди-NOM.SG
+3	называлось	_	VERB	_	_	0	root	_	Gloss=
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Brandy:8
+# text = Брэнди Брэндину ныԓгыӄинэтъым.
+# text[phon] = brendi brendinu nəɬɣəqinetʔəm
+# text[rus] = Называли его «Бренди».
+# text[eng] = They called it «Brandy».
+# labels = complete-dep anno-fran unclear-syntax valency
+1	Брэнди	Брэнди	PROPN	_	_	2	reparandum	_	Gloss=бренди-NOM.SG
+2	Брэндину	Брэнди	PROPN	_	_	3	obj	_	Gloss=бренди-EQU
+3-4	ныԓгыӄинэтъым	_	_	_	_	_	_	_	Gloss=ST-считать-ST.3SG-PL-=EMPH
+3	ныԓгыӄинэт	_	VERB	_	Valency=2	0	root	_	Gloss=ST-считать-ST.3SG-PL
+4	ъым	ъм	PART	_	_	3	advmod:emph	_	Gloss=EMPH
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Brandy:9
+# text = Ӄутти ӄуттиыʼм ынръамэ нэплички плисӄэнӈаӄэнат.
+# text[phon] = qutti quttiʔəm ənrʔame nepliski plisqenŋaqenat
+# text[rus] = А другие, другие покупали «Плиску».
+# text[eng] = And some other people bought «Pliska».
+# labels = complete-dep anno-fran
+1	Ӄутти	_	PRON	_	_	2	reparandum	_	Gloss=некий-NOM.PL
+2-3	ӄуттиыʼм	_	_	_	_	_	_	_	Gloss=некий-NOM.PL-=EMPH
+2	ӄутти	_	PRON	_	_	7	nsubj	_	Gloss=некий-NOM.PL
+3	ыʼм	ъм	PART	_	_	2	advmod:emph	_	Gloss=EMPH
+4-5	ынръамэ	_	_	_	_	_	_	_	Gloss=видимо-=PTCL
+4	ынръам	_	ADV	_	_	7	advmod	_	Gloss=видимо
+5	э	а	PART	_	_	4	advmod:emph	_	Gloss=PTCL
+6	нэплички	нэплички	X	_	_	7	reparandum	_	Gloss=FST
+7	плисӄэнӈаӄэнат	_	VERB	_	_	0	root	_	Gloss=Плиска-GET-ST.3SG-PL
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = Brandy:10
+# text = Ӄораваԓьыт ӄэԓюӄъым пыкитԓьыт отпускыԓьыт.
+# text[phon] = qorawaɬʔət qeɬuqʔəm pəkitɬʔət otpuskəɬʔət
+# text[rus] = Пастухи потому что приезжали в отпуск.
+# text[eng] = Because shepherds came on vacation.
+# labels = complete-dep anno-fran unclear-syntax
+1	Ӄораваԓьыт	_	NOUN	_	_	4	nsubj	_	Gloss=пастух-NOM.PL
+2-3	ӄэԓюӄъым	_	_	_	_	_	_	_	Gloss=конечно-=EMPH
+2	ӄэԓюӄ	ӄэԓюӄъым	ADV	_	_	4	advmod	_	Gloss=конечно
+3	ъым	ъм	PART	_	_	2	advmod:emph	_	Gloss=EMPH
+4	пыкитԓьыт	_	VERB	_	_	0	root	_	Gloss=прибывать-ATTR-NOM.PL
+5	отпускыԓьыт	отпуск	NOUN	_	_	4	parataxis	_	Gloss=отпуск-ATTR-NOM.PL
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Brandy:11
+# text = Ӄутырыкъым ынӄэн Брэнди.
+# text[phon] = qutərəkʔəm ənqen brendi
+# text[rus] = А другие – [покупали] «Брэнди».
+# text[eng] = And other people, they [bought] «Brandy».
+# labels = complete-dep anno-karina
+1-2	Ӄутырыкъым	_	_	_	_	_	_	_	Gloss=некий-AN.PL-LOC-=EMPH
+1	Ӄутырык	_	PRON	_	_	0	root	_	Gloss=некий-AN.PL-LOC
+2	ъым	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	ынӄэн	ынӄэн	DET	_	_	4	det	_	Gloss=DET
+4	Брэнди	Брэнди	PROPN	_	_	1	orphan	_	Gloss=бренди-NOM.SG
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Brandy:12
+# text = Мрэнтиыʼм ынӄэн.
+# text[phon] = mrentiʔəm ənqen
+# text[rus] = «Мрэнти» то есть.
+# text[eng] = That is «Mrenti».
+# labels = complete-dep anno-fran ənqen
+1-2	Мрэнтиыʼм	_	_	_	_	_	_	_	Gloss=комар-NOM.PL-=EMPH
+1	Мрэнти	Мрэнти	PROPN	_	_	0	root	_	Gloss=комар-NOM.PL
+2	ыʼм	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	ынӄэн	ынӄэн	PART	_	_	1	discourse	_	Gloss=DET
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Brandy:13
+# text = Ынпыначгын ӄоныры ынӄэнэ гавъёԓьатԓенъым.
+# text[phon] = ənpənasɣən qonərə ənqene ɣawjoɬʔatɬenʔəm
+# text[rus] = И как назло, старик был тем, кто посылал.
+# text[eng] = And unfortunately, the old man was the one who sent.
+# labels = complete-dep anno-fran ənqen valency
+1	Ынпыначгын	Ынпыначгын	NOUN	_	_	5	obj	_	Gloss=старик-NOM.SG
+2	ӄоныры	ӄоныры	ADV	_	_	5	advmod	_	Gloss=притом
+3-4	ынӄэнэ	_	_	_	_	_	_	_	Gloss=DET-=PTCL
+3	ынӄэн	_	PART	_	_	5	discourse	_	Gloss=DET
+4	э	а	PART	_	_	3	advmod:emph	_	Gloss=PTCL
+5-6	гавъёԓьатԓенъым	_	_	_	_	_	_	_	Gloss=PF-посылать.с.поручением-VB-PF.3SG-=EMPH
+5	гавъёԓьатԓен	_	VERB	_	Valency=2	0	root	_	Gloss=PF-посылать.с.поручением-VB-PF.3SG
+6	ъым	ъм	PART	_	_	5	advmod:emph	_	Gloss=EMPH
+7	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Brandy:14
+# text = Аʼачек эты нинивӄин.
+# text[phon] = ʔaasek etə niniwqin
+# text[rus] = Он, наверное, говорил юноше:
+# text[eng] = He probably told the young man:
+# labels = complete-dep anno-fran
+1	Аʼачек	Аʼачек	NOUN	_	_	3	obj	_	Gloss=парень-NOM.SG
+2	эты	эты	ADV	_	_	3	advmod	_	Gloss=наверное
+3	нинивӄин	ивык	VERB	_	Valency=2	0	root	_	Gloss=ST-INV-сказать-ST.3SG
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Brandy:15
+# text = Нука ӄвэԓыткорантагэыʼм вай ынкъам гымыкагты ӄыркургынэт.
+# text[phon] = нука qweɬətkorantaɣeʔəm waj ənkʔam ɣəməkaɣtə qərkurɣənet
+# text[rus] = «Ну-ка сходи в магазин и купи мне их!».
+# text[eng] = «Well, go to the store and buy them for me!».
+# labels = complete-dep anno-fran
+1	Нука	_	PART	_	_	2	discourse	_	Gloss=
+2-3	ӄвэԓыткорантагэыʼм	_	_	_	_	_	_	_	Gloss=2.S/A.SUBJ-товар-ITER-жилище-GO.DO-IRR-2/3SG.S-=EMPH
+2	ӄвэԓыткорантагэ	_	NOUN	_	_	0	root	_	Gloss=2.S/A.SUBJ-товар-ITER-жилище-GO.DO-IRR-2/3SG.S
+3	ыʼм	ъм	PART	_	_	2	advmod:emph	_	Gloss=EMPH
+4	вай	вай	ADV	_	_	2	advmod	_	Gloss=вот
+5	ынкъам	ынкъам	CCONJ	_	_	7	cc	_	Gloss=и
+6	гымыкагты	гым	PRON	_	_	7	obl	_	Gloss=я-OBL-DAT
+7	ӄыркургынэт	_	VERB	_	_	2	conj	_	Gloss=2.S/A.SUBJ-покупать-IRR-3SG.O-PL
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Brandy:16
+# text = А ынӄэн вэԓыткоран плиска блиска.
+# text[phon] = а ənqen weɬətkoran pliska bliska
+# text[rus] = «Этот магазин близко-близко!».
+# text[eng] = «This store is very close!».
+# labels = complete-dep anno-fran
+1	А	_	CCONJ	_	_	5	cc	_	Gloss=
+2	ынӄэн	ынӄэн	DET	_	_	3	det	_	Gloss=DET
+3	вэԓыткоран	вэԓыткоран	NOUN	_	_	5	nsubj	_	Gloss=товар-ITER-жилище-NOM.SG
+4	плиска	_	X	_	_	5	reparandum	_	Gloss=близко
+5	блиска	_	X	_	_	0	root	_	Gloss=близко
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Brandy:17
+# text = Ӈан Мрэнти ӄыркургынэт.
+# text[phon] = ŋan mrenti qərkurɣənet
+# text[rus] = «Купи «Мрэнти»!».
+# text[eng] = «Buy «Mrenti»!».
+# labels = complete-dep anno-fran
+1	Ӈан	ӈан	ADV	_	_	3	advmod	_	Gloss=DEICT
+2	Мрэнти	Мрэнти	PROPN	_	_	3	obj	_	Gloss=комар-NOM.PL
+3	ӄыркургынэт	_	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-покупать-IRR-3SG.O-PL
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Brandy:18
+# text = Ынӄэн гав чичеквъиыʼм ӄэԓюӄ аʼачекъым гэтэнӈыткуԓин.
+# text[phon] = ənqen ɣaw sisekwʔiʔəm qeɬuq ʔaasekʔəm ɣetenŋətkuɬin
+# text[rus] = И понял парень и засмеялся.
+# text[eng] = And the guy understood and laughed.
+# labels = complete-dep anno-fran
+1	Ынӄэн	ынӄэн	DET	_	_	3	dep	_	Gloss=DET
+2	гав	гав	X	_	_	3	reparandum	_	Gloss=FST
+3-4	чичеквъиыʼм	_	_	_	_	_	_	_	Gloss=2/3.S/A-понимать-TH-2/3SG.S-=EMPH
+3	чичеквъи	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-понимать-TH-2/3SG.S
+4	ыʼм	ъм	PART	_	_	3	advmod:emph	_	Gloss=EMPH
+5	ӄэԓюӄ	ӄэԓюӄ	ADV	_	_	8	advmod	_	Gloss=конечно
+6-7	аʼачекъым	_	_	_	_	_	_	_	Gloss=парень-NOM.SG-=EMPH
+6	аʼачек	аʼачекъым	NOUN	_	_	8	nsubj	_	Gloss=парень-NOM.SG
+7	ъым	ъм	PART	_	_	6	advmod:emph	_	Gloss=EMPH
+8	гэтэнӈыткуԓин	тэнӈыткук	VERB	_	Valency=1	3	parataxis	_	Gloss=PF-смеяться-ITER-PF.3SG
+9	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Brandy:19
+# text = Ытръэч ынӄэн пличка бличка иквъиыʼм.
+# text[phon] = ətrʔes ənqen pliska bliska ikwʔiʔəm
+# text[rus] = Только «близко, близко» говорил.
+# text[eng] = He just said «close, close».
+# labels = complete-dep anno-karina
+1	Ытръэч	ытръэч	ADV	_	_	5	advmod	_	Gloss=только
+2	ынӄэн	ынӄэн	PART	_	_	5	discourse	_	Gloss=DET
+3	пличка	_	X	_	_	5	parataxis	_	Gloss=близко
+4	бличка	_	X	_	_	3	reparandum	_	Gloss=близко
+5-6	иквъиыʼм	_	_	_	_	_	_	_	Gloss=2/3.S/A-сказать-TH-2/3SG.S-=EMPH
+5	иквъи	_	VERB	_	Valency=2	0	root	_	Gloss=2/3.S/A-сказать-TH-2/3SG.S
+6	ыʼм	ъм	PART	_	_	5	advmod:emph	_	Gloss=EMPH
+7	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Brandy:20
+# text = Мытив ынӄэнэ танӈымэԓ иквъи чымчеӄэй.
+# text[phon] = mətiw ənqene tanŋəmeɬ ikwʔi səmseqej
+# text[rus] = Он просто, кажется, по-русски сказал «очень близко».
+# text[eng] = He just seems to have said in Russian «very close».
+# labels = complete-dep anno-karina
+1	Мытив	_	PART	_	_	5	discourse	_	Gloss=кажется
+2-3	ынӄэнэ	_	_	_	_	_	_	_	Gloss=DET-=PTCL
+2	ынӄэн	_	PART	_	_	5	discourse	_	Gloss=DET
+3	э	а	PART	_	_	2	advmod:emph	_	Gloss=PTCL
+4	танӈымэԓ	_	ADV	_	_	5	advmod	_	Gloss=чужеземец-LIKE
+5	иквъи	икын	VERB	_	_	0	root	_	Gloss=2/3.S/A-сказать-TH-2/3SG.S
+6	чымчеӄэй	_	ADV	_	_	5	xcomp	_	Gloss=близко-INS-DIM
+7	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Brandy:21
+# text = Плиска блиска чымчеӄэй вэԓыткоран Мрэнти ӄыркургынэт.
+# text[phon] = pliska bliska səmseqej weɬətkoran mrenti qərkurɣənet
+# text[rus] = «Рядом магазин, купи бренди!».
+# text[eng] = «The store is close, buy brandy!».
+# labels = complete-dep anno-fran unclear-syntax
+1	Плиска	_	X	_	_	3	reparandum	_	Gloss=близко
+2	блиска	_	X	_	_	3	reparandum	_	Gloss=близко
+3	чымчеӄэй	_	ADV	_	_	0	root	_	Gloss=близко-INS-DIM
+4	вэԓыткоран	вэԓыткоран	NOUN	_	_	3	nsubj	_	Gloss=товар-ITER-жилище-NOM.SG
+5	Мрэнти	Мрэнти	PROPN	_	_	6	obj	_	Gloss=комар-NOM.PL
+6	ӄыркургынэт	_	VERB	_	_	3	parataxis	_	Gloss=2.S/A.SUBJ-покупать-IRR-3SG.O-PL
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Brandy:22
+# text = Ынӄэн аʼачекъым вэԓыткорантаэʼм ӄытԓыги ымы Плиски курнинэтъым ымы Мрэнти купи ын курнинэт.
+# text[phon] = ənqen ʔaasekʔəm weɬətkorantaʔem qətɬəɣi əmə pliski kurninetʔəm əmə mrenti купи ən kurninet
+# text[rus] = Это… парень пошёл в магазин, и оказывается, он и «Плиски» купил, и «Мрэнти» купил.
+# text[eng] = The guy went to the store, and it turned out that he bought «Pliska» and «Mrenti» as well.
+# labels = complete-dep anno-karina
+1	Ынӄэн	ынӄэн	PART	_	_	4	discourse	_	Gloss=DET
+2-3	аʼачекъым	_	_	_	_	_	_	_	Gloss=парень-NOM.SG-=EMPH
+2	аʼачек	аʼачекъым	NOUN	_	_	4	nsubj	_	Gloss=парень-NOM.SG
+3	ъым	ъм	PART	_	_	2	advmod:emph	_	Gloss=EMPH
+4-5	вэԓыткорантаэʼм	_	_	_	_	_	_	_	Gloss=2/3.S/A-товар-ITER-жилище-GO.DO-TH-2/3SG.S-=EMPH
+4	вэԓыткорантаэʼ	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-товар-ITER-жилище-GO.DO-TH-2/3SG.S
+5	м	ъм	PART	_	_	4	advmod:emph	_	Gloss=EMPH
+6	ӄытԓыги	_	PART	_	_	9	discourse	_	Gloss=оказывается
+7	ымы	ымы	ADV	_	_	9	advmod	_	Gloss=также
+8	Плиски	_	PROPN	_	_	9	obj	_	Gloss=Плиска.NOM.PL
+9-10	курнинэтъым	_	_	_	_	_	_	_	Gloss=2/3.S/A-покупать-3SG.A.3.O-3SG.O-PL-=EMPH
+9	курнинэт	_	VERB	_	_	4	parataxis	_	Gloss=2/3.S/A-покупать-3SG.A.3.O-3SG.O-PL
+10	ъым	ъм	PART	_	_	9	advmod:emph	_	Gloss=EMPH
+11	ымы	ымы	ADV	_	_	12	advmod	_	Gloss=также
+12	Мрэнти	_	PROPN	_	_	15	obj	_	Gloss=комар-NOM.PL
+13	купи	_	X	_	_	15	reparandum	_	Gloss=
+14	ын	ын	X	_	_	15	reparandum	_	Gloss=FST
+15	курнинэт	_	VERB	_	_	9	parataxis	_	Gloss=2/3.S/A-покупать-3SG.A.3.O-3SG.O-PL
+16	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Brandy:23
+# text = Ынӄэн ынӈатаԓ.
+# text[phon] = ənqen ənŋataɬ
+# text[rus] = «Ну что такое!» (, — недовольно говорит тундровик).
+# text[eng] = «Come on!» (, says the tundra man being dissatisfied).
+# labels = complete-dep anno-karina
+1	Ынӄэн	ынӄэн	PART	_	_	2	discourse	_	Gloss=DET
+2	ынӈатаԓ	ынӈатаԓ	ADV	_	_	0	root	_	Gloss=очень
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Brandy:24
+# text = Нивӄинэт Плиска нэмыӄэй.
+# text[phon] = niwqinet pliska neməqej
+# text[rus] = «Говорили же «Плиску» тоже!» (, — оправдывается парень).
+# text[eng] = «You have said «Pliska» too!» (, the guy justifies himself).
+# labels = complete-dep anno-fran
+1	Нивӄинэт	ивык	VERB	_	Valency=2	0	root	_	Gloss=ST-сказать-ST.3SG-PL
+2	Плиска	Плиска	PROPN	_	_	1	obj	_	Gloss=Плиска-NOM.SG
+3	нэмыӄэй	нэмыӄэй	ADV	_	_	1	advmod	_	Gloss=тоже
+4	.	.	PUNCT	_	_	1	punct	_	_
+

@@ -1,0 +1,257 @@
+# sent_id = Let’s_go_wash_to_Egvekinot:1
+# text = Гым паӈъэвӈытъыԓёк.
+# text[phon] = ɣəm paŋʔewŋətʔəɬok
+# text[rus] = Я в выходные дни…
+# text[eng] = On holidays, I…
+# labels = complete-dep anno-fran
+1	Гым	гым	PRON	_	Case=Abs	2	nsubj	_	Gloss=я
+2	паӈъэвӈытъыԓёк	_	VERB	_	_	0	root	_	Gloss=утомляться-выходить.нер.изм.-день-LOC
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Let’s_go_wash_to_Egvekinot:2
+# text = И нас вэтгавъёԓгыткоэʼ Айгытвааԓына иниквъи.
+# text[phon] = и нас wetɣawjoɬɣətkoʔe ajɣətwaaɬəna inikwʔi
+# text[rus] = И нас… Позвонила Айгытваль и сказала мне:
+# text[eng] = And we… Ajgytwaal called by phone and said to me:
+# labels = complete-dep anno-fran
+1	И	_	CCONJ	_	_	3	cc	_	Gloss=
+2	нас	_	X	_	_	3	obj	_	Gloss=
+3	вэтгавъёԓгыткоэʼ	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-говорить-CONT-ITER-TH-2/3SG.S
+4	Айгытвааԓына	Айгытвааԓ	PROPN	_	_	3	nsubj	_	Gloss=Айгытваль-AN.INS
+5	иниквъи	икын	VERB	_	_	3	parataxis	_	Gloss=2/3.S/A-INV-сказать-TH-2/3SG.S
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Let’s_go_wash_to_Egvekinot:3
+# text = Эпэӄэй Эԓгыӄанъявэты мынги мыниԓгытэвысӄивмык.
+# text[phon] = epeqej eɬɣəqanjawetə mənɣi məniɬɣətewəsqiwmək
+# text[rus] = «Бабушка, давай поедем в Эгвекинот мыться (в бане)».
+# text[eng] = Babushka, let’go wash to Egvekinot.
+# labels = complete-dep anno-fran
+1	Эпэӄэй	Эпэӄэй	NOUN	_	_	4	vocative	_	Gloss=бабушка-NOM.SG
+2	Эԓгыӄанъявэты	_	PROPN	_	_	4	obl	_	Gloss=белый-ущелье-DAT
+3	мынги	мынги	X	_	_	4	reparandum	_	Gloss=FST
+4	мыниԓгытэвысӄивмык	_	VERB	_	_	0	root	_	Gloss=1PL.S/A.SUBJ-мыться-MCP-1PL.S/O
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Let’s_go_wash_to_Egvekinot:4
+# text = Гымнанъым тиквъэк эгэй ытръэчьым ръэнут мынпиринэт.
+# text[phon] = ɣəmnanʔəm tikwʔek eɣej ətrʔesʔəm rʔenut mənpirinet
+# text[rus] = Я сказала: «Хорошо, только что нам нужно взять?».
+# text[eng] = I said: «OK, but what shoud we take?».
+# labels = complete-dep anno-fran
+1-2	Гымнанъым	_	_	_	_	_	_	_	Gloss=я-INS-=EMPH
+1	Гымнан	_	PRON	_	_	3	nsubj	_	Gloss=я-INS
+2	ъым	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	тиквъэк	_	VERB	_	Valency=2	0	root	_	Gloss=1SG.S/A-сказать-TH-1SG.S
+4	эгэй	эгэй	ADV	_	_	3	parataxis	_	Gloss=ладно
+5-6	ытръэчьым	_	_	_	_	_	_	_	Gloss=только-=EMPH
+5	ытръэчьы	_	ADV	_	_	8	advmod	_	Gloss=только
+6	м	ъм	PART	_	_	5	advmod:emph	_	Gloss=EMPH
+7	ръэнут	ръэнут	PRON	_	_	8	obj	_	Gloss=что.NOM.SG
+8	мынпиринэт	пирик	VERB	_	_	3	parataxis	_	Gloss=1PL.S/A.SUBJ-брать-3SG.O-PL
+9	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Let’s_go_wash_to_Egvekinot:5
+# text = Иниквъи ӄычавполпэрэгэм ынкъам пъомпъомъёчгынъым ынкъам эчг иԓгытэвкинэт яаёԓӄыԓтэ.
+# text[phon] = inikwʔi qəsawpolpereɣeʔm ənkʔam pʔompʔomjosɣənʔəm ənkʔam esɣ iɬɣətewkinet jaajoɬqəɬte
+# text[rus] = Она сказала: «Возьми мыло и корзинку для грибов и купальные принадлежности».
+# text[eng] = She said: «Take a soap and a basket for mushrooms as well as bathing accessories».
+# labels = complete-dep anno-fran speech
+1	Иниквъи	икын	VERB	_	Valency=2	0	root	0:root	Gloss=2/3.S/A-INV-сказать-TH-2/3SG.S
+2-3	ӄычавполпэрэгэм	_	_	_	_	_	_	_	Gloss=2.S/A.SUBJ-мыло-брать-IRR-2/3SG.S-=EMPH
+2	ӄычавполпэрэгэ	пири	VERB	_	Incorporated[obj]=Yes|Valency=1	1	parataxis	1:parataxis	Gloss=2.S/A.SUBJ-мыло-брать-IRR-2/3SG.S
+2.1	чавпол	чоп	NOUN	_	Incorporated=Yes	_	_	2:obj	Gloss=мыло
+3	м	ъм	PART	_	_	2	advmod:emph	2:advmod:emph	Gloss=EMPH
+4	ынкъам	ынкъам	CCONJ	_	_	5	cc	5:cc	Gloss=и
+5-6	пъомпъомъёчгынъым	_	_	_	_	_	_	_	Gloss=гриб-CONT-NOM.SG-=EMPH
+5	пъомпъомъёчгын	пъомпъомъёчгынъым	NOUN	_	_	2	orphan	2.1:conj	Gloss=гриб-CONT-NOM.SG
+6	ъым	ъм	PART	_	_	5	advmod:emph	5:advmod:emph	_
+7	ынкъам	ынкъам	CCONJ	_	_	10	cc	10:cc	Gloss=и
+8	эчг	эчг	X	_	_	9	reparandum	9:reparandum	Gloss=FST
+9	иԓгытэвкинэт	_	VERB	_	_	10	acl:relat	10:acl:relat	Gloss=мыться-REL-NOM.PL
+10	яаёԓӄыԓтэ	_	NOUN	_	_	2	orphan	2.1:conj	Gloss=использовать-PTCP.PASS-DEB-NOM.PL
+11	.	.	PUNCT	_	_	2	punct	2:punct	_
+
+# sent_id = Let’s_go_wash_to_Egvekinot:6
+# text = Тытэнмаквъакъым.
+# text[phon] = tətenmakwʔakʔəm
+# text[rus] = Я приготовилась.
+# text[eng] = I prepared.
+# labels = complete-dep anno-fran
+1-2	Тытэнмаквъакъым	_	_	_	_	_	_	_	Gloss=1SG.S/A-готовиться-TH-1SG.S-=EMPH
+1	Тытэнмаквъак	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-готовиться-TH-1SG.S
+2	ъым	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Let’s_go_wash_to_Egvekinot:7
+# text = Тыч тынвэтгавъёԓгытковын тивын миӈкыри мыԓӄытык.
+# text[phon] = təs tənwetɣawjoɬɣətkowən tiwən miŋkəri məɬqətək
+# text[rus] = Я позвонила, спросила, куда идти.
+# text[eng] = I called and asked where should I go.
+# labels = complete-dep anno-fran
+1	Тыч	Тыч	X	_	_	2	reparandum	_	Gloss=FST
+2	тынвэтгавъёԓгытковын	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-TR-говорить-CONT-ITER-CS-3SG.O
+3	тивын	_	VERB	_	Valency=2	2	parataxis	_	Gloss=1SG.S/A-сказать-3SG.O
+4	миӈкыри	миӈкыри	ADV	_	_	5	advmod	_	Gloss=где-LOC-ADV.ALL
+5	мыԓӄытык	ӄытык	VERB	_	Valency=1	3	parataxis	_	Gloss=1SG.S/A.SUBJ-идти-1SG.S
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Let’s_go_wash_to_Egvekinot:8
+# text = Ынан иниквъи нанэ ковԓёрвоо ковԓёрва мыт мытрэетгъэ гыныгъярагты.
+# text[phon] = ənan inikwʔi nane kowɬorwoo kowɬorwa mət mətrejetɣʔe ɣənəɣjaraɣtə
+# text[rus] = Она сказала: «Мы приедем на машине к твоему дому».
+# text[eng] = She said: «We will drive to your house».
+# labels = complete-dep anno-fran
+1	Ынан	_	PRON	_	_	2	nsubj	_	Gloss=он.INS
+2	иниквъи	икын	VERB	_	Valency=2	0	root	_	Gloss=2/3.S/A-INV-сказать-TH-2/3SG.S
+3	нанэ	нанэ	X	_	_	5	reparandum	_	Gloss=FST
+4	ковԓёрвоо	ковԓёрвоо	X	_	_	5	reparandum	_	Gloss=FST
+5	ковԓёрва	_	NOUN	_	_	7	obl	_	Gloss=шар-нарта-INS
+6	мыт	мыт	X	_	_	7	reparandum	_	Gloss=FST
+7	мытрэетгъэ	_	VERB	_	_	2	parataxis	_	Gloss=1PL.S/A-FUT-приходить-TH
+8	гыныгъярагты	_	NOUN	_	_	7	obl	_	Gloss=ты-POSS.INC-яранга-DAT
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Let’s_go_wash_to_Egvekinot:9
+# text = Ынкы нэнъатчайгым.
+# text[phon] = ənkə nenʔatsajɣəm
+# text[rus] = Я там ждала.
+# text[eng] = I was waiting there.
+# labels = complete-dep anno-fran
+1	Ынкы	ынкы	PRON	_	_	2	obl	_	Gloss=тот-LOC
+2	нэнъатчайгым	_	VERB	_	_	0	root	_	Gloss=ST-INV-ждать-NP.1SG
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Let’s_go_wash_to_Egvekinot:10
+# text = Етгъэтъым мытэквэнмык Эԓгыӄанъявэты.
+# text[phon] = jetɣʔetʔəm mətekwenmək eɬɣəqanjawetə
+# text[rus] = Они приехали, мы поехали в Эгвекинот.
+# text[eng] = They came, we went to Egvekinot.
+# labels = complete-dep anno-fran
+1-2	Етгъэтъым	_	_	_	_	_	_	_	Gloss=2/3.S/A-приходить-TH-PL-=EMPH
+1	Етгъэт	_	VERB	_	Valency=1	0	root	_	Gloss=2/3.S/A-приходить-TH-PL
+2	ъым	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	мытэквэнмык	эквэтык	VERB	_	_	1	parataxis	_	Gloss=1PL.S/A-отправляться-1PL.S/O
+4	Эԓгыӄанъявэты	_	PROPN	_	_	3	obl	_	Gloss=белый-ущелье-DAT
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Let’s_go_wash_to_Egvekinot:11
+# text = Тыԓяма нынвиԓмурим ныпъоӈгэԓеморэ.
+# text[phon] = təɬama nənwiɬmuriʔm nəpʔoŋɣeɬemore
+# text[rus] = Когда ехали, останавливались, собирали грибы.
+# text[eng] = While driving, we stopped and collected mushrooms.
+# labels = complete-dep anno-fran
+1	Тыԓяма	тыԓяк	VERB	_	Valency=1	2	advcl	_	Gloss=идти-SIM
+2-3	нынвиԓмурим	_	_	_	_	_	_	_	Gloss=ST-останавливаться-NP.1PL-=EMPH
+2	нынвиԓмури	_	VERB	_	Valency=1	0	root	_	Gloss=ST-останавливаться-NP.1PL
+3	м	ъм	PART	_	_	2	advmod:emph	_	Gloss=EMPH
+4	ныпъоӈгэԓеморэ	_	NOUN	_	Valency=1	2	parataxis	_	Gloss=ST-гриб-SEARCH-NP.1PL
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Let’s_go_wash_to_Egvekinot:12
+# text = Мытмачпъоӈгэԓемыкъым чама ковԓёрвыткоԓьын Митя ынин экык мытынӄамэтвавын.
+# text[phon] = mətmaspʔoŋɣeɬeməkʔəm sama kowɬorwətkoɬʔən mitʲa ənin ekək mətənqametwawən
+# text[rus] = Мы собрали немного грибов и водителя Митю, её сына, покормили.
+# text[eng] = We collected some mushrooms and fed the driver Mitya, her son.
+# labels = complete-dep anno-fran
+1-2	Мытмачпъоӈгэԓемыкъым	_	_	_	_	_	_	_	Gloss=1PL.S/A-APPR-гриб-SEARCH-1PL.S/O-=EMPH
+1	Мытмачпъоӈгэԓемык	_	NOUN	_	_	0	root	_	Gloss=1PL.S/A-APPR-гриб-SEARCH-1PL.S/O
+2	ъым	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	чама	чама	ADV	_	_	8	advmod	_	Gloss=также
+4	ковԓёрвыткоԓьын	ковԓёрвыткоԓьын	NOUN	_	_	8	obj	_	Gloss=шар-нарта-ITER-ATTR-NOM.SG
+5	Митя	Митя	PROPN	_	_	4	appos	_	Gloss=Митя-NOM.SG
+6	ынин	ытԓён	PRON	_	_	7	nmod:poss	_	Gloss=он-GEN
+7	экык	экык	NOUN	_	_	4	appos	_	Gloss=сын-NOM.SG
+8	мытынӄамэтвавын	_	VERB	_	Valency=2	1	parataxis	_	Gloss=1PL.S/A-TR-есть-CS-3SG.O
+9	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Let’s_go_wash_to_Egvekinot:13
+# text = Ӄы ӄы ӄэԓёӄъым я епэчги ачаёӄыӄамэтвакыԓьэн ынӈин ԓыгэн мытэквэнмык.
+# text[phon] = qə qə qeɬoqʔəm ja jepesɣi asajoqəqametwakəɬʔen ənŋin ɬəɣen mətekwenmək
+# text[rus] = Конечно, он ещё не позавтракал, мы прямо так уехали.
+# text[eng] = Of course, he hasn’t had breakfast yet, we left like that.
+# labels = complete-dep anno-fran unclear-syntax
+1	Ӄы	Ӄы	X	_	_	3	reparandum	_	Gloss=FST
+2	ӄы	ӄы	X	_	_	3	reparandum	_	Gloss=FST
+3-4	ӄэԓёӄъым	_	_	_	_	_	_	_	Gloss=конечно-=EMPH
+3	ӄэԓёӄ	_	ADV	_	_	7	advmod	_	Gloss=конечно
+4	ъым	ъм	PART	_	_	3	advmod:emph	_	Gloss=EMPH
+5	я	я	X	_	_	6	reparandum	_	Gloss=FST
+6	епэчги	_	ADV	_	_	7	advmod	_	Gloss=ещё.не
+7	ачаёӄыӄамэтвакыԓьэн	_	VERB	_	_	10	dep	_	Gloss=CAR-чай-EAT-есть-CAR-ATTR-GEN
+8	ынӈин	ынӈин	ADV	_	_	10	advmod	_	Gloss=так
+9	ԓыгэн	ԓыгэн	ADV	_	_	10	advmod	_	Gloss=просто
+10	мытэквэнмык	эквэтык	VERB	_	_	0	root	_	Gloss=1PL.S/A-отправляться-1PL.S/O
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = Let’s_go_wash_to_Egvekinot:14
+# text = Ынӄо Иԓгыӄэнъевы мытыпкирмыкъым.
+# text[phon] = ənqo iɬɣəqenjewə mətəpkirməkʔəm
+# text[rus] = Потом мы приехали в Эгвекинот.
+# text[eng] = Then we arrived to Egvekinot.
+# labels = complete-dep anno-fran
+1	Ынӄо	ынӄо	ADV	_	_	3	advmod	_	Gloss=потом
+2	Иԓгыӄэнъевы	_	PROPN	_	_	3	obl	_	Gloss=белый-ущелье
+3-4	мытыпкирмыкъым	_	_	_	_	_	_	_	Gloss=1PL.S/A-прибывать-1PL.S/O-=EMPH
+3	мытыпкирмык	_	VERB	_	Valency=1	0	root	_	Gloss=1PL.S/A-прибывать-1PL.S/O
+4	ъым	ъм	PART	_	_	3	advmod:emph	_	Gloss=EMPH
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Let’s_go_wash_to_Egvekinot:15
+# text = Мытиԓгытэвмыкъым.
+# text[phon] = mətiɬɣətewməkʔəm
+# text[rus] = Помылись.
+# text[eng] = We washed.
+# labels = complete-dep anno-fran
+1-2	Мытиԓгытэвмыкъым	_	_	_	_	_	_	_	Gloss=1PL.S/A-мыться-1PL.S/O-=EMPH
+1	Мытиԓгытэвмык	_	VERB	_	Valency=1	0	root	_	Gloss=1PL.S/A-мыться-1PL.S/O
+2	ъым	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Let’s_go_wash_to_Egvekinot:16
+# text = Вэԓыткорайпы мыттамыкъым мытхԓепынӈэмыкъым.
+# text[phon] = weɬətkorajpə məttaməkʔəm mətxɬepənŋeməkʔəm
+# text[rus] = Зашли в магазин, купили хлеба.
+# text[eng] = We went to the shop and bought some bread.
+# labels = complete-dep anno-fran
+1	Вэԓыткорайпы	вэԓыткоран	NOUN	_	_	2	obl	_	Gloss=товар-ITER-жилище-ABL
+2-3	мыттамыкъым	_	_	_	_	_	_	_	Gloss=1PL.S/A-проходить-1PL.S/O-=EMPH
+2	мыттамык	_	VERB	_	Valency=1	0	root	_	Gloss=1PL.S/A-проходить-1PL.S/O
+3	ъым	ъм	PART	_	_	2	advmod:emph	_	Gloss=EMPH
+4-5	мытхԓепынӈэмыкъым	_	_	_	_	_	_	_	Gloss=1PL.S/A-хлеб-GET-1PL.S/O-=EMPH
+4	мытхԓепынӈэмык	_	VERB	_	Valency=1	2	parataxis	_	Gloss=1PL.S/A-хлеб-GET-1PL.S/O
+5	ъым	ъм	PART	_	_	4	advmod:emph	_	Gloss=EMPH
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Let’s_go_wash_to_Egvekinot:17
+# text = Ԓыгэн имыръэнутэт мытпиринэтъым.
+# text[phon] = ɬəɣen imərʔenutet mətpirinetʔəm
+# text[rus] = И много всякого набрали.
+# text[eng] = And we got a lot of various things.
+# labels = complete-dep anno-fran
+1	Ԓыгэн	ԓыгэн	ADV	_	_	3	advmod	_	Gloss=просто
+2	имыръэнутэт	имыръэнутэт	PRON	_	_	3	obj	_	Gloss=FC-что.NOM.SG-PL
+3-4	мытпиринэтъым	_	_	_	_	_	_	_	Gloss=1PL.S/A-брать-3SG.O-PL-=EMPH
+3	мытпиринэт	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-брать-3SG.O-PL
+4	ъым	ъм	PART	_	_	3	advmod:emph	_	Gloss=EMPH
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Let’s_go_wash_to_Egvekinot:18
+# text = Ынӄо мытрагтымык.
+# text[phon] = ənqo mətraɣtəmək
+# text[rus] = Потом поехали домой.
+# text[eng] = Then we went home.
+# labels = complete-dep anno-fran
+1	Ынӄо	ынӄо	ADV	_	_	2	advmod	_	Gloss=потом
+2	мытрагтымык	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-жилище-GO.TO-1PL.S/O
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Let’s_go_wash_to_Egvekinot:19
+# text = Ытръэч.
+# text[phon] = ətrʔes
+# text[rus] = Всё.
+# text[eng] = That is all.
+# labels = complete-dep anno-fran
+1	Ытръэч	ытръэч	ADV	_	_	0	root	_	Gloss=только
+2	.	.	PUNCT	_	_	1	punct	_	_
+

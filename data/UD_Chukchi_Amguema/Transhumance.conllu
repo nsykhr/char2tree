@@ -1,0 +1,482 @@
+# sent_id = Transhumance:1
+# text = Итыкъым ԓьэԓеӈкыӈэ ныяԓгынморэ.
+# text[phon] = itəkʔəm ɬʔeɬeŋkəŋe nəjaɬɣənmore
+# text[rus] = Зимой, вообще-то мы зимой кочевали.
+# text[eng] = Actually, we nomadised in the winter.
+# labels = complete-dep anno-karina
+1-2	Итыкъым	_	_	_	_	_	_	_	Gloss=являться-LOC-=EMPH
+1	Итык	_	VERB	_	_	5	discourse	_	Gloss=являться-LOC
+2	ъым	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3-4	ԓьэԓеӈкыӈэ	_	_	_	_	_	_	_	Gloss=зима-LOC-=PTCL
+3	ԓьэԓеӈкы	ԓьэԓеӈ	NOUN	_	_	5	obl	_	Gloss=зима-LOC
+4	ӈэ	а	PART	_	_	3	advmod:emph	_	Gloss=PTCL
+5	ныяԓгынморэ	_	VERB	_	Valency=1	0	root	_	Gloss=ST-кочевать-NP.1PL
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Transhumance:2
+# text = Ытръэч ынӄэн ԓгиинъэ ныгъевмури.
+# text[phon] = ətrʔes ənqen ɬɣiinʔe nəɣjewmuri
+# text[rus] = Только вот очень рано утром просыпались.
+# text[eng] = We used to wake up early in the morning.
+# labels = complete-dep anno-karina
+1	Ытръэч	ытръэч	ADV	_	_	4	advmod	_	Gloss=только
+2	ынӄэн	ынӄэн	DET	_	_	4	discourse	_	Gloss=DET
+3	ԓгиинъэ	_	NOUN	_	_	4	obl	_	Gloss=INTS-утро-INS
+4	ныгъевмури	_	VERB	_	Valency=1	0	root	_	Gloss=ST-просыпаться-NP.1PL
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Transhumance:3
+# text = Ымы мургинэ ынпыначгынэ ыʼвэӄучин тумгытум ыʼвэӄучин ытԓыгын мык гымыгтумгин ытԓыгынэ.
+# text[phon] = əmə murɣine ənpənasɣəne ʔəwequsin tumɣətum ʔəwequsin ətɬəɣən mək ɣəməɣtumɣin ətɬəɣəne
+# text[rus] = И наш старик, друг мужа... отец мужа, отец моего мужа...
+# text[eng] = And our old man, (my) husband's friend... (my) husband's father, my husband's father...
+# labels = complete-dep anno-karina
+1	Ымы	ымы	ADV	_	_	4	cc	_	Gloss=также
+2-3	мургинэ	_	_	_	_	_	_	_	Gloss=мы-GEN-=PTCL
+2	мургин	_	PRON	_	_	4	nmod:poss	_	Gloss=мы-GEN
+3	э	а	PART	_	_	2	advmod:emph	_	Gloss=PTCL
+4-5	ынпыначгынэ	_	_	_	_	_	_	_	Gloss=старик-NOM.SG-=PTCL
+4	ынпыначгын	ынпыначгынэ	NOUN	_	_	0	root	_	Gloss=старик-NOM.SG
+5	э	а	PART	_	_	4	advmod:emph	_	Gloss=PTCL
+6	ыʼвэӄучин	ыʼвэӄуч	NOUN	_	_	7	nmod:poss	_	Gloss=муж-GEN
+7	тумгытум	тумгытум	NOUN	_	_	4	parataxis	_	Gloss=друг-NOM.SG
+8	ыʼвэӄучин	ыʼвэӄуч	NOUN	_	_	9	nmod:poss	_	Gloss=муж-GEN
+9	ытԓыгын	ытԓыгын	NOUN	_	_	4	parataxis	_	Gloss=отец-NOM.SG
+10	мык	мык	X	_	_	11	reparandum	_	Gloss=FST
+11-12	гымыгтумгин	_	_	_	_	_	_	_	Gloss=я-POSS.INC-друг-GEN
+11	гымыг	_	NOUN	_	_	12	nmod:poss	_	Gloss=я-POSS.INC
+12	тумгин	_	NOUN	_	_	13	nmod:poss	_	Gloss=друг-GEN
+13-14	ытԓыгынэ	_	_	_	_	_	_	_	Gloss=отец-NOM.SG-=PTCL
+13	ытԓыгын	ытԓыгынэ	NOUN	_	_	4	parataxis	_	Gloss=отец-NOM.SG
+14	э	а	PART	_	_	13	advmod:emph	_	Gloss=PTCL
+15	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Transhumance:4
+# text = Моргынан нынԓеӄоно нинъэйӈэвмури.
+# text[phon] = morɣənan nənɬeqono ninʔejŋewmuri
+# text[rus] = Мы называли его Нынлеко.
+# text[eng] = We called him Nynleko.
+# labels = complete-dep anno-karina
+1	Моргынан	_	PRON	_	_	3	nsubj	_	Gloss=мы-INS
+2	нынԓеӄоно	_	PROPN	_	_	3	xcomp	_	Gloss=Нынлеко-EQU
+3	нинъэйӈэвмури	_	VERB	_	_	0	root	_	Gloss=ST-INV-звать-NP.1PL
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Transhumance:5
+# text = Ынпыначгын.
+# text[phon] = ənpənasɣən
+# text[rus] = Старик.
+# text[eng] = Old man.
+# labels = complete-dep anno-karina
+1	Ынпыначгын	ынпыначгын	NOUN	_	_	0	root	_	Gloss=старик-NOM.SG
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Transhumance:6
+# text = Ынӄэн нинэныгъевмури ымы ӈинӄэгти ымы ныӄамэтвачаёморэ инъэ ԓгиинъэӄэй.
+# text[phon] = ənqen ninenəɣjewmuri əmə ŋinqeɣti əmə nəqametwasajomore inʔe ɬɣiinʔeqej
+# text[rus] = Это... нас будили и мальчиков тоже, и мы ели, чай пили рано утречком.
+# text[eng] = So... they would wake us up, and the boys, too, and we would eat and drink tea early in the morning.
+# labels = complete-dep anno-karina
+1	Ынӄэн	ынӄэн	PART	_	_	2	discourse	2:discourse	Gloss=DET
+2	нинэныгъевмури	_	VERB	_	_	0	root	0:root	Gloss=ST-INV-TR-просыпаться-NP.1PL
+3	ымы	ымы	ADV	_	_	4	advmod	4:advmod	Gloss=также
+4	ӈинӄэгти	_	NOUN	_	_	2	obj	2:obj	Gloss=молодой-DIM-NOM.PL
+5	ымы	ымы	ADV	_	_	6	advmod	6:advmod	Gloss=также
+6	ныӄамэтвачаёморэ	чаёк	VERB	_	Incorporated[advcl]=Yes|Valency=1	2	parataxis	2:parataxis	Gloss=ST-есть-чай-EAT-NP.1PL
+6.1	ӄамэтва	ӄамэтва	VERB	_	Incorporated=Yes	_	_	6:advcl	Gloss=есть
+7	инъэ	_	NOUN	_	_	6	obl	6:obl	Gloss=утро-INS
+8	ԓгиинъэӄэй	_	NOUN	_	_	7	appos	7:appos	Gloss=INTS-утро-INS-DIM|SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	2:punct	_
+
+# sent_id = Transhumance:7
+# text = Тымӈэӈырачьэтъым ԓиӈыткучьын ныԓеӄинъымэ ӈэвэӄ нынтовэрэнморэ ымыԓьо.
+# text[phon] = təmŋeŋərasʔetʔəm ɬiŋətkusʔən nəɬeqinʔəme ŋeweq nəntowerenmore əməɬʔo
+# text[rus] = Время уже где-то к четырём на часах идёт, все выходят.
+# text[eng] = It is almost four, everyone goes outside.
+# labels = complete-dep anno-karina
+1-2	Тымӈэӈырачьэтъым	_	_	_	_	_	_	_	Gloss=INDEF-четыре-ADJ-DAT-=EMPH
+1	Тымӈэӈырачьэт	_	ADJ	_	_	4	obl	4:obl	Gloss=INDEF-четыре-ADJ-DAT
+2	ъым	ъм	PART	_	_	1	advmod:emph	1:advmod:emph	Gloss=EMPH
+3	ԓиӈыткучьын	ԓиӈыткучьын	NOUN	_	_	4	nsubj	4:nsubj	Gloss=часы-NOM.SG
+4-6	ныԓеӄинъымэ	_	_	_	_	_	_	_	Gloss=ST-идти-ST.3SG-=EMPH-=PTCL
+4	ныԓеӄин	_	VERB	_	Valency=1	0	root	0:root	Gloss=ST-идти-ST.3SG
+5	ъым	ъм	PART	_	_	4	advmod:emph	4:advmod:emph	Gloss=EMPH
+6	э	а	PART	_	_	4	advmod:emph	4:advmod:emph	Gloss=PTCL
+7	ӈэвэӄ	ӈэвэӄ	PART	_	_	8	discourse	8:discourse	Gloss=же
+8	нынтовэрэнморэ	вирик	VERB	_	Incorporated[advcl]=Yes|Valency=1	4	parataxis	4:parataxis	Gloss=ST-выходить-спускаться-VB-NP.1PL
+8.1	нто	ӈыток	VERB	_	Incorporated=Yes	_	_	8:advcl	Gloss=выходить
+9	ымыԓьо	ымыԓьо	DET	_	_	8	nsubj	8:nsubj	Gloss=весь
+10	.	.	PUNCT	_	_	4	punct	4:punct	_
+
+# sent_id = Transhumance:8
+# text = Ӄорыӈэ ныръэйвэнмури яраӈы.
+# text[phon] = qorəŋe nərʔejwenmuri jaraŋə
+# text[rus] = Потом грузим ярангу.
+# text[eng] = Then we load the yaranga (on a sledge).
+# labels = complete-dep anno-karina
+1-2	Ӄорыӈэ	_	_	_	_	_	_	_	Gloss=потом-=PTCL
+1	Ӄоры	_	ADV	_	_	3	advmod	_	Gloss=потом
+2	ӈэ	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3	ныръэйвэнмури	ръэйвэтык	VERB	_	Valency=2	0	root	_	Gloss=ST-укладывать.груз.при.кочёвке-VB-NP.1PL
+4	яраӈы	яраӈы	NOUN	_	_	3	obj	_	Gloss=яранга-NOM.SG
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Transhumance:9
+# text = Нырэтэмӈытэнмури ымыԓьэты ынӄэнэ.
+# text[phon] = nəretemŋətenmuri əməɬʔetə ənqene
+# text[rus] = Полностью освобождаем рэтэм, это...
+# text[eng] = We remove the yaranga roof, so...
+# labels = complete-dep anno-karina
+1	Нырэтэмӈытэнмури	ӈытэтык	VERB	_	Incorporated[obj]=Yes|Valency=1	0	root	0:root	Gloss=ST-покрышка.яранги-отрываться-NP.1PL
+1.1	рэтэм	рэтэм	NOUN	_	Incorporated=Yes	_	_	1:obj	Gloss=покрышка.яранги
+2	ымыԓьэты	_	PRON	_	_	1	obl	1:obl	Gloss=весь-DAT
+3-4	ынӄэнэ	_	_	_	_	_	_	_	Gloss=DET-=PTCL|SpaceAfter=No
+3	ынӄэн	_	PART	_	_	1	discourse	1:discourse	Gloss=DET
+4	э	а	PART	_	_	3	advmod:emph	3:advmod:emph	Gloss=PTCL
+5	.	.	PUNCT	_	_	1	punct	1:punct	_
+
+# sent_id = Transhumance:10
+# text = Нинэйӈэмури ӈэвэӄэ нытиӈэӈӈымури орвыт.
+# text[phon] = ninejŋemuri ŋeweqe nətiŋeŋŋəmuri orwət
+# text[rus] = Загружаем нарты.
+# text[eng] = We load the sledge.
+# labels = complete-dep anno-karina reattached-clitic
+1	Нинэйӈэмури	_	VERB	_	_	0	root	_	Gloss=ST-INV-грузить-NP.1PL
+2-3	ӈэвэӄэ	_	_	_	_	_	_	_	Gloss=же-=PTCL
+2	ӈэвэӄ	_	PART	_	_	1	cc	_	Gloss=же
+3	э	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+4	нытиӈэӈӈымури	_	VERB	_	Valency=2	1	parataxis	_	Gloss=ST-MAKE-ноша-MAKE-NP.1PL
+5	орвыт	_	NOUN	_	_	4	obj	_	Gloss=нарта-NOM.PL
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Transhumance:11
+# text = Нинэтиӈэӈӈу нинэтиӈэӈӈымури орвыт.
+# text[phon] = ninetiŋeŋŋu ninetiŋeŋŋəmuri orwət
+# text[rus] = Загружаем нарты.
+# text[eng] = We load the sledge.
+# labels = complete-dep anno-karina
+1	Нинэтиӈэӈӈу	Нинэтиӈэӈӈу	X	_	_	2	reparandum	_	Gloss=FST
+2	нинэтиӈэӈӈымури	_	VERB	_	_	0	root	_	Gloss=ST-INV-MAKE-ноша-MAKE-NP.1PL
+3	орвыт	_	NOUN	_	_	2	obj	_	Gloss=нарта-NOM.PL
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Transhumance:12
+# text = Ынӄоры ӄԓявыԓтэ норвынпэтгавӄэнатъым.
+# text[phon] = ənqorə qɬawəɬte norwənpetɣawqenatʔəm
+# text[rus] = Потом мужчины строят загон из нарт.
+# text[eng] = Then men build an enclosure with sledges.
+# labels = complete-dep anno-karina
+1	Ынӄоры	ынӄоры	ADV	_	_	3	advmod	3:advmod	Gloss=потом
+2	ӄԓявыԓтэ	_	NOUN	_	_	3	nsubj	3:nsubj	Gloss=мужчина-NOM.PL
+3-4	норвынпэтгавӄэнатъым	_	_	_	_	_	_	_	Gloss=ST-TR-прямой-CS-ST.3SG-PL-=EMPH
+3	норвынпэтгавӄэнат	_	VERB	_	Incorporated[obj]=Yes|Valency=1	0	root	0:root	Gloss=ST-TR-прямой-CS-ST.3SG-PL
+3.1	орвы	орвоор	NOUN	_	Incorporated=Yes	_	_	3:obj	Gloss=нарта
+4	ъым	ъм	PART	_	_	3	advmod:emph	3:advmod:emph	Gloss=EMPH
+5	.	.	PUNCT	_	_	3	punct	3:punct	_
+
+# sent_id = Transhumance:13
+# text = Ынӄэн виин рыюԓьынэ рыюԓьэ виин ынӄэнэ ӄаагтыноԓгынэ нинэ нинэныпкирэтӄинъым.
+# text[phon] = ənqen wiin rəjuɬʔəne rəjuɬʔe wiin ənqene qaaɣtənoɬɣəne nine ninenəpkiretqinʔəm
+# text[rus] = Это пока ночной дежурный подгоняет часть стада.
+# text[eng] = As the night herdsman leads the herd.
+# labels = complete-dep anno-karina
+1	Ынӄэн	ынӄэн	DET	_	_	3	det	_	Gloss=DET
+2	виин	виин	ADV	_	_	12	advmod	_	Gloss=пока
+3-4	рыюԓьынэ	_	_	_	_	_	_	_	Gloss=пасти.оленей.ночью-ATTR-NOM.SG-=PTCL
+3	рыюԓьын	рыюԓьынэ	NOUN	_	_	5	reparandum	_	Gloss=пасти.оленей.ночью-ATTR-NOM.SG
+4	э	а	PART	_	_	3	advmod:emph	_	Gloss=PTCL
+5	рыюԓьэ	_	NOUN	_	Case=Erg	12	nsubj	_	Gloss=пасти.оленей.ночью-ATTR-INS
+6	виин	виин	ADV	_	_	2	reparandum	_	Gloss=пока
+7-8	ынӄэнэ	_	_	_	_	_	_	_	Gloss=DET-=PTCL
+7	ынӄэн	_	DET	_	_	9	det	_	Gloss=DET
+8	э	а	PART	_	_	7	advmod:emph	_	Gloss=PTCL
+9-10	ӄаагтыноԓгынэ	_	_	_	_	_	_	_	Gloss=олень-GO.TO-APUD-NOM.SG-=PTCL
+9	ӄаагтыноԓгын	ӄаагтыноԓгынэ	NOUN	_	_	12	obj	_	Gloss=олень-GO.TO-APUD-NOM.SG
+10	э	а	PART	_	_	9	advmod:emph	_	Gloss=PTCL
+11	нинэ	нинэ	X	_	_	12	reparandum	_	Gloss=FST
+12-13	нинэныпкирэтӄинъым	_	_	_	_	_	_	_	Gloss=ST-INV-TR-прибывать-VB-ST.3SG-=EMPH
+12	нинэныпкирэтӄин	_	VERB	_	Valency=1	0	root	_	Gloss=ST-INV-TR-прибывать-VB-ST.3SG
+13	ъым	ъм	PART	_	_	12	advmod:emph	_	Gloss=EMPH
+14	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = Transhumance:14
+# text = Тэкэм инъэыʼмэ ӄэԓюӄъым нычайпанморэ чамаыʼм ынӄэнэ эръэт нэмыӄэй амрачаёӈа.
+# text[phon] = tekem inʔeʔəme qeɬuqʔəm nəsajpanmore samaʔəm ənqene erʔet neməqej amrasajoŋa
+# text[rus] = Утром, конечно, чай готовим, и мясо тоже, чтобы чай попить.
+# text[eng] = Of course, in the morning we make tea and cook meat to drink tea.
+# labels = complete-dep anno-karina
+1	Тэкэм	тэкэм	ADV	_	_	2	advmod	2:advmod	Gloss=прямо.к
+2-4	инъэыʼмэ	_	_	_	_	_	_	_	Gloss=утро-INS-=EMPH-=PTCL
+2	инъэыʼ	_	NOUN	_	_	7	obl	7:obl	Gloss=утро-INS
+3	м	ъм	PART	_	_	2	advmod:emph	2:advmod:emph	Gloss=EMPH
+4	э	а	PART	_	_	2	advmod:emph	2:advmod:emph	Gloss=PTCL
+5-6	ӄэԓюӄъым	_	_	_	_	_	_	_	Gloss=конечно-=EMPH
+5	ӄэԓюӄ	ӄэԓюӄъым	ADV	_	_	7	discourse	7:discourse	Gloss=конечно
+6	ъым	ъм	PART	_	_	5	advmod:emph	5:advmod:emph	Gloss=EMPH
+7	нычайпанморэ	_	VERB	_	Incorporated[obj]=Yes|Valency=1	0	root	0:root	Gloss=ST-чай-варить-NP.1PL
+7.1	чай	чай	NOUN	_	Incorporated=Yes	_	_	7:obj	Gloss=чай
+8-9	чамаыʼм	_	_	_	_	_	_	_	Gloss=также-=EMPH
+8	чама	_	ADV	_	_	7	advmod	7:advmod	Gloss=также
+9	ыʼм	ъм	PART	_	_	8	advmod:emph	8:advmod:emph	Gloss=EMPH
+10-11	ынӄэнэ	_	_	_	_	_	_	_	Gloss=DET-=PTCL
+10	ынӄэн	_	PART	_	_	7	discourse	7:discourse	Gloss=DET
+11	э	а	PART	_	_	10	advmod:emph	10:advmod:emph	Gloss=PTCL
+12	эръэт	_	NOUN	_	_	7	orphan	7.1:conj	Gloss=варёное.мясо-NOM.PL
+13	нэмыӄэй	нэмыӄэй	ADV	_	_	12	advmod	12:advmod	Gloss=тоже
+14	амрачаёӈа	_	VERB	_	_	12	advcl	12:advcl	Gloss=RESTR-FUT-чай-EAT-DES-INS|SpaceAfter=No
+15	.	.	PUNCT	_	_	7	punct	7:punct	_
+
+# sent_id = Transhumance:15
+# text = Ынӄэнэ ӄаагтыноԓгын эмрэнъыԓиӈэ энэӄыԓпэ нычаёморэ ынан ӈинӄэгти нэнанӄамэтвавморэ ынӄоры ӈэԓвыԓ нинэнъыԓимури.
+# text[phon] = ənqene qaaɣtənoɬɣən emrenʔəɬiŋe eneqəɬpe nəsajomore ənan ŋinqeɣti nenanqametwawmore ənqorə ŋeɬwəɬ ninenʔəɬimuri
+# text[rus] = Чтобы стадо загнать, быстрее чай пьём, потом мальчишек кормим, потом стадо загоняем.
+# text[eng] = As we have to drive the herd in (the enclosure), we quickly drink tea, feed the boys and then drive the herd in (the enclosure).
+# labels = complete-dep anno-karina
+1-2	Ынӄэнэ	_	_	_	_	_	_	_	Gloss=DET-=PTCL
+1	Ынӄэн	_	DET	_	_	6	discourse	_	Gloss=DET
+2	э	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3	ӄаагтыноԓгын	ӄаагтыноԓгын	NOUN	_	_	4	obj	_	Gloss=олень-GO.TO-APUD-NOM.SG
+4	эмрэнъыԓиӈэ	_	VERB	_	_	6	advcl	_	Gloss=RESTR-DES-вталкивать-DES-INS
+5	энэӄыԓпэ	_	ADV	_	_	6	advmod	_	Gloss=быстро
+6	нычаёморэ	чаёк	VERB	_	Valency=1	0	root	_	Gloss=ST-чай-EAT-NP.1PL
+7	ынан	_	ADV	_	_	9	advmod	_	Gloss=потом
+8	ӈинӄэгти	_	NOUN	_	_	9	obj	_	Gloss=молодой-DIM-NOM.PL
+9	нэнанӄамэтвавморэ	ӄамэтвак	VERB	_	_	6	parataxis	_	Gloss=ST-INV-TR-есть-CS-NP.1PL
+10	ынӄоры	ынӄоры	ADV	_	_	12	advmod	_	Gloss=потом
+11	ӈэԓвыԓ	ӈэԓвыԓ	NOUN	_	_	12	obj	_	Gloss=стадо
+12	нинэнъыԓимури	ръыԓик	VERB	_	_	6	parataxis	_	Gloss=ST-INV-вталкивать-NP.1PL
+13	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Transhumance:16
+# text = И ныӄор ныӄорагыркэморэ ӈэвэӄ.
+# text[phon] = и nəqor nəqoraɣərkemore ŋeweq
+# text[rus] = И ездовых оленей по местам расставляем.
+# text[eng] = And we set the draught reindeer into their positions.
+# labels = complete-dep anno-karina
+1	И	_	X	_	_	3	discourse	3:discourse	Gloss=
+2	ныӄор	ныӄор	X	_	_	3	reparandum	3:reparandum	Gloss=FST
+3	ныӄорагыркэморэ	гыркик	VERB	_	Incorporated[obj]=Yes|Valency=1	0	root	0:root	Gloss=ST-олень-DRAG.OUT-NP.1PL
+3.1	ӄора	ӄора	NOUN	_	Incorporated=Yes	_	_	3:obj	Gloss=олень
+4	ӈэвэӄ	ӈэвэӄ	PART	_	_	3	discourse	3:discourse	Gloss=же
+5	.	.	PUNCT	_	_	3	punct	3:punct	_
+
+# sent_id = Transhumance:17
+# text = Ымыӈэ гым тумгынэ нинивӄин.
+# text[phon] = əməŋe ɣəm tumɣəne niniwqin
+# text[rus] = И мне муж говорит:
+# text[eng] = And my husbends says:
+# labels = complete-dep anno-karina
+1-2	Ымыӈэ	_	_	_	_	_	_	_	Gloss=также-=PTCL
+1	Ымы	_	ADV	_	_	5	advmod	_	Gloss=также
+2	ӈэ	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3	гым	гым	PRON	_	_	5	obj	_	Gloss=я
+4	тумгынэ	тумгытум	NOUN	_	_	5	nsubj	_	Gloss=друг-AN.INS
+5	нинивӄин	ивык	VERB	_	Valency=2	0	root	_	Gloss=ST-INV-сказать-ST.3SG
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Transhumance:18
+# text = Эʼптэ ӄыӄорагыркэ ӄыӄорагыркэркын ынӄэн ӄинэвинрэтыркын.
+# text[phon] = ʔepte qəqoraɣərke qəqoraɣərkerkən ənqen qinewinretərkən
+# text[rus] = «Ты тоже оленей расставляй, давай помогай».
+# text[eng] = «Set the reindeer, too, help me.»
+# labels = complete-dep anno-karina
+1	Эʼптэ	_	ADV	_	_	3	advmod	3:advmod	Gloss=тоже
+2	ӄыӄорагыркэ	ӄыӄорагыркэ	X	_	_	3	reparandum	3:reparandum	Gloss=FST
+3	ӄыӄорагыркэркын	гыркик	VERB	_	_	0	root	0:root	Gloss=2.S/A.SUBJ-олень-DRAG.OUT-IPFV
+3.1	ӄора	ӄора	NOUN	_	_	_	_	3:obj	Gloss=2.S/A.SUBJ-олень-DRAG.OUT-IPFV
+4	ынӄэн	ынӄэн	PART	_	_	5	discourse	5:discourse	Gloss=DET
+5	ӄинэвинрэтыркын	винрэтык	VERB	_	_	3	parataxis	3:parataxis	Gloss=2.S/A.SUBJ-INV-помогать-IPFV
+6	.	.	PUNCT	_	_	3	punct	3:punct	_
+
+# sent_id = Transhumance:19
+# text = Ынпыӈэвытъым ӄэԓюӄъымэ ынӄэн нэмыӄэе.
+# text[phon] = ənpəŋewətʔəm qeɬuqʔəme ənqen neməqeje
+# text[rus] = И старшие женщины, конечно же, тоже.
+# text[eng] = And elder women, of course, too.
+# labels = complete-dep anno-fran
+1-2	Ынпыӈэвытъым	_	_	_	_	_	_	_	Gloss=старый-FEM-NOM.PL-=EMPH
+1	Ынпыӈэвыт	_	ADJ	_	_	0	root	_	Gloss=старый-FEM-NOM.PL
+2	ъым	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3-5	ӄэԓюӄъымэ	_	_	_	_	_	_	_	Gloss=конечно-=EMPH-=PTCL
+3	ӄэԓюӄ	_	ADV	_	_	1	advmod	_	Gloss=конечно
+4	ъым	ъм	PART	_	_	3	advmod:emph	_	Gloss=EMPH
+5	э	а	PART	_	_	3	advmod:emph	_	Gloss=PTCL
+6	ынӄэн	ынӄэн	DET	_	_	1	discourse	_	Gloss=DET
+7-8	нэмыӄэе	_	_	_	_	_	_	_	Gloss=тоже-=PTCL
+7	нэмыӄэ	_	ADV	_	_	1	advmod	_	Gloss=тоже
+8	е	а	PART	_	_	7	advmod:emph	_	Gloss=PTCL
+9	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Transhumance:20
+# text = Ӈоонӄоӈэ мэӈӄо поӄэпы нэнанӈытоӈанморэ.
+# text[phon] = ŋoonqoŋe meŋqo poqepə nenanŋətoŋanmore
+# text[rus] = Оттуда, откуда... с зада (с узкого прохода) выводим.
+# text[eng] = From there... From where... From behid we bring the reindeer.
+# labels = complete-dep anno-fran
+1-2	Ӈоонӄоӈэ	_	_	_	_	_	_	_	Gloss=там-ADV.ABL-=PTCL
+1	Ӈоонӄо	_	ADV	_	_	5	advmod	_	Gloss=там-ADV.ABL
+2	ӈэ	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3	мэӈӄо	мэӈӄокэн	ADV	_	_	5	advmod	_	Gloss=где-ADV.ABL
+4	поӄэпы	_	NOUN	_	_	5	obl	_	Gloss=зад-ABL
+5	нэнанӈытоӈанморэ	_	VERB	_	Valency=2	0	root	_	Gloss=ST-INV-TR-выходить-SF-NP.1PL
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Transhumance:21
+# text = Гым тэӈэмпиритэ ынӄэнэ рырвинрыёт чеймыкинэт ынӄэнат гымнан аʼтав нэнайпатэвым.
+# text[phon] = ɣəm teŋempirite ənqene rərwinrəjot sejməkinet ənqenat ɣəmnan ʔataw nenajpatewəm
+# text[rus] = Я голыми руками беру первых (самых ручных) и вторых (тягловых) оленей и ставлю их.
+# text[eng] = With bare hands, I take the most domestic reindeer and the draught reindeer and place them in the appropriate position.
+# labels = complete-dep anno-fran unclear-syntax
+1	Гым	гым	PRON	_	Case=Abs	10	dislocated	_	Gloss=я
+2	тэӈэмпиритэ	пирик	VERB	_	_	10	advcl	_	Gloss=GOOD-RESTR-брать-INS
+3-4	ынӄэнэ	_	_	_	_	_	_	_	Gloss=DET-=PTCL
+3	ынӄэн	_	PART	_	_	2	discourse	_	Gloss=DET
+4	э	а	PART	_	_	3	advmod:emph	_	Gloss=PTCL
+5	рырвинрыёт	_	VERB	_	_	10	obj	_	Gloss=TR-вести.за.руку-PTCP.PASS-NOM.PL
+6	чеймыкинэт	_	NOUN	_	_	5	conj	_	Gloss=тягловый.олень-REL-NOM.PL
+7	ынӄэнат	_	PRON	_	_	5	appos	_	Gloss=DET-NOM.PL
+8	гымнан	гым	PRON	_	_	10	nsubj	_	Gloss=я-INS
+9	аʼтав	аʼтав	ADV	_	_	10	advmod	_	Gloss=ну
+10	нэнайпатэвым	_	VERB	_	_	0	root	_	Gloss=ST-INV-надевать-VB-NP.1SG
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = Transhumance:22
+# text = Ну и ытԓёнъым эӄыԓпэ ӈэвэӄэ еп айвэ титэ ыʼттъыёԓе ынӄэн раёвынвыԓ раёвынвыԓӄыԓтэӈэ ынпыначгаӈэ нэнаёпат нинэԓӄырирӄинэтъым.
+# text[phon] = ну и ətɬonʔəm eqəɬpe ŋeweqe jep ajwe tite ʔəttʔəjoɬe ənqen rajowənwəɬ rajowənwəɬqəɬteŋe ənpənasɣaŋe nenajopat nineɬqərirqinetʔəm
+# text[rus] = Ну и он (старик) же ещё раньше, на днях, быстро разведал места для будущей стоянки.
+# text[eng] = And he (the old man) investigated the areas suitable for a nightstand earlier these days.
+# labels = complete-dep anno-fran unclear-syntax
+1	Ну	_	X	_	_	20	discourse	_	Gloss=
+2	и	_	X	_	_	1	flat:foreign	_	Gloss=
+3-4	ытԓёнъым	_	_	_	_	_	_	_	Gloss=он-=EMPH
+3	ытԓён	_	PRON	_	_	20	dislocated	_	Gloss=он
+4	ъым	ъм	PART	_	_	3	advmod:emph	_	Gloss=EMPH
+5	эӄыԓпэ	эӄыԓпэ	ADV	_	_	20	advmod	_	Gloss=быстро
+6-7	ӈэвэӄэ	_	_	_	_	_	_	_	Gloss=же-=PTCL
+6	ӈэвэӄ	_	PART	_	_	20	discourse	_	Gloss=же
+7	э	а	PART	_	_	6	advmod:emph	_	Gloss=PTCL
+8	еп	еп	ADV	_	_	20	advmod	_	Gloss=ещё
+9	айвэ	_	ADV	_	_	20	advmod	_	Gloss=вчера
+10	титэ	титэ	ADV	_	_	20	advmod	_	Gloss=когда
+11-12	ыʼттъыёԓе	_	_	_	_	_	_	_	Gloss=перед-=PTCL
+11	ыʼттъыёԓ	_	ADV	_	_	20	advmod	_	Gloss=перед
+12	е	а	PART	_	_	11	advmod:emph	_	Gloss=PTCL
+13	ынӄэн	ынӄэн	PART	_	_	20	discourse	_	Gloss=DET
+14	раёвынвыԓ	раёвынвыԓ	X	_	_	15	reparandum	_	Gloss=FST
+15-16	раёвынвыԓӄыԓтэӈэ	_	_	_	_	_	_	_	Gloss=становиться.стойбищем-NMN-DEB-NOM.PL-=PTCL
+15	раёвынвыԓӄыԓтэ	_	VERB	_	_	20	obj	_	Gloss=становиться.стойбищем-NMN-DEB-NOM.PL
+16	ӈэ	а	PART	_	_	15	advmod:emph	_	Gloss=PTCL
+17-18	ынпыначгаӈэ	_	_	_	_	_	_	_	Gloss=старик-INS-=PTCL
+17	ынпыначга	_	NOUN	_	_	20	nsubj	_	Gloss=старик-INS
+18	ӈэ	а	PART	_	_	17	advmod:emph	_	Gloss=PTCL
+19	нэнаёпат	нэнаёпат	X	_	_	20	reparandum	_	Gloss=FST
+20-21	нинэԓӄырирӄинэтъым	_	_	_	_	_	_	_	Gloss=ST-INV-искать-ST.3SG-PL-=EMPH
+20	нинэԓӄырирӄинэт	_	VERB	_	_	0	root	_	Gloss=ST-INV-искать-ST.3SG-PL
+21	ъым	ъм	PART	_	_	20	advmod:emph	_	Gloss=EMPH
+22	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = Transhumance:23
+# text = Ԓыгэн ӈэнриԓьым уʼрэӈэнри ныԓемури нымгутыԓемури ымъыԓёӈэт.
+# text[phon] = ɬəɣen ŋenriɬʔəm ʔureŋenri nəɬemuri nəmɣutəɬemuri əmʔəɬoŋet
+# text[rus] = В ту сторону и кочуем весь день.
+# text[eng] = And we nomadise all day long going that direction.
+# labels = complete-dep anno-fran incorporation
+1	Ԓыгэн	ԓыгэн	ADV	_	_	5	advmod	5:advmod	Gloss=просто
+2-3	ӈэнриԓьым	_	_	_	_	_	_	_	Gloss=там-ADV.ALL.EXH-=EMPH
+2	ӈэнриԓ	_	ADV	_	_	5	advmod	5:advmod	Gloss=там-ADV.ALL.EXH
+3	ьым	ъм	PART	_	_	2	advmod:emph	2:advmod:emph	Gloss=EMPH
+4	уʼрэӈэнри	уʼрэӈэнри	ADV	_	_	5	advmod	5:advmod	Gloss=открытый-там-ADV.ALL
+5	ныԓемури	тыԓек	VERB	_	Valency=1	0	root	0:root	Gloss=ST-идти-NP.1PL
+6	нымгутыԓемури	_	VERB	_	Incorporated[obl]=Yes|Valency=1	5	parataxis	5:parataxis	Gloss=ST-аргиш-идти-NP.1PL
+6.1	мгу	муу	NOUN	_	Incorporated=Yes	_	_	6:obl	Gloss=аргиш
+7	ымъыԓёӈэт	_	ADV	_	_	6	advmod	6:advmod	Gloss=TOT-день-TIME
+8	.	.	PUNCT	_	_	5	punct	5:punct	_
+
+# sent_id = Transhumance:24
+# text = Нырэювмури ынӄэнэ ныӄаавъянморэ.
+# text[phon] = nərejuwmuri ənqene nəqaawjanmore
+# text[rus] = Становимся стойбищем и распрягаем оленей.
+# text[eng] = We set the camp and unharness the reindeer.
+# labels = complete-dep anno-fran
+1	Нырэювмури	рэювык	VERB	_	Valency=1	0	root	_	Gloss=ST-становиться.стойбищем-NP.1PL
+2-3	ынӄэнэ	_	_	_	_	_	_	_	Gloss=DET-=PTCL
+2	ынӄэн	_	PART	_	_	4	discourse	_	Gloss=DET
+3	э	а	PART	_	_	2	advmod:emph	_	Gloss=PTCL
+4	ныӄаавъянморэ	_	VERB	_	Valency=1	1	parataxis	_	Gloss=ST-олень-распрягать-NP.1PL
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Transhumance:25
+# text = Гымнанэ ӄэԓюӄ рырвинрыёт кааръаматыԓьыт чеймыкинэт нинэт нэнавъятэвым итык чама.
+# text[phon] = ɣəmnane qeɬuq rərwinrəjot kaarʔamatəɬʔət sejməkinet ninet nenawjatewəm itək sama
+# text[rus] = Я, конечно же, ручных, тех, которые в детской кибитке, и тягловых оленей распрягаю.
+# text[eng] = Of course, I unharness the same domestic ones that drag the sledge for babies and the draught reindeer.
+# labels = complete-dep anno-fran weird-advcl
+1-2	Гымнанэ	_	_	_	_	_	_	_	Gloss=я-INS-=PTCL
+1	Гымнан	_	PRON	_	_	8	nsubj	_	Gloss=я-INS
+2	э	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3	ӄэԓюӄ	ӄэԓюӄ	ADV	_	_	8	advmod	_	Gloss=конечно
+4	рырвинрыёт	_	VERB	_	_	8	obj	_	Gloss=TR-вести.за.руку-PTCP.PASS-NOM.PL
+5	кааръаматыԓьыт	_	NOUN	_	_	4	nmod:attr	_	Gloss=нарта.с.кибиткой-тащить.волоком-ATTR-NOM.PL
+6	чеймыкинэт	_	NOUN	_	_	4	nmod:relat	_	Gloss=тягловый.олень-REL-NOM.PL
+7	нинэт	нинэт	X	_	_	8	reparandum	_	Gloss=FST
+8	нэнавъятэвым	_	VERB	_	_	0	root	_	Gloss=ST-INV-распрягать-NP.1SG
+9	итык	итык	AUX	_	_	10	cop	_	Gloss=являться-LOC
+10	чама	чама	ADV	_	_	8	advcl	_	Gloss=также
+11	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = Transhumance:26
+# text = Чымӄыкъым эты тумгэ ыʼвэӄучитэ нэнайпа нэнавъятӄэнат.
+# text[phon] = səmqəkʔəm etə tumɣe ʔəwequsite nenajpa nenawjatqenat
+# text[rus] = Остальных муж распрягал.
+# text[eng] = My husband sets the the rest of them free.
+# labels = complete-dep anno-fran
+1-2	Чымӄыкъым	_	_	_	_	_	_	_	Gloss=часть-=EMPH
+1	Чымӄык	чымӄык	NOUN	_	_	7	obj	_	Gloss=часть
+2	ъым	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	эты	эты	ADV	_	_	7	advmod	_	Gloss=наверное
+4	тумгэ	тумгытум	NOUN	_	_	5	reparandum	_	Gloss=друг-INS
+5	ыʼвэӄучитэ	ыʼвэӄуч	NOUN	_	_	7	nsubj	_	Gloss=муж-INS
+6	нэнайпа	нэнайпа	X	_	_	7	reparandum	_	Gloss=FST
+7	нэнавъятӄэнат	выятык	VERB	_	_	0	root	_	Gloss=ST-INV-распрягать-ST.3SG-PL
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = Transhumance:27
+# text = Ӈэвъэн.
+# text[phon] = ŋewʔen
+# text[rus] = «Жена!».
+# text[eng] = «Wife!»
+# labels = complete-dep anno-fran
+1	Ӈэвъэн	Ӈэвъэн	NOUN	_	_	0	root	_	Gloss=жена-NOM.SG|SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Transhumance:28
+# text = Ну и нытарагморэ мури гэтумгинэтэ ӈинӄэгти виинэ ӄоо миӈкы ԓымынӄо ныԓейвыӄинэт.
+# text[phon] = ну и nətaraɣmore muri ɣetumɣinete ŋinqeɣti wiine qoo miŋkə ɬəmənqo nəɬejwəqinet
+# text[rus] = Ну и мы с мужем ставим ярангу, а мальчишки в это время пока неизвестно где (везде) гуляют.
+# text[eng] = Me and my husband set the yaranga and the boys are... I do not know... somewhere, walk around the area.
+# labels = complete-dep anno-fran
+1	Ну	_	X	_	_	3	discourse	_	Gloss=
+2	и	_	X	_	_	1	flat:foreign	_	Gloss=
+3	нытарагморэ	тараӈык	VERB	_	Valency=1	0	root	_	Gloss=ST-MAKE-жилище-MAKE-NP.1PL
+4	мури	мури	PRON	_	_	3	nsubj	_	Gloss=мы
+5	гэтумгинэтэ	гыԓгын	NOUN	_	_	4	conj	_	Gloss=COM-друг-GEN-INS
+6	ӈинӄэгти	_	NOUN	_	_	4	conj	_	Gloss=молодой-DIM-NOM.PL
+7-8	виинэ	_	_	_	_	_	_	_	Gloss=пока-=PTCL
+7	виин	_	ADV	_	_	9	discourse	_	Gloss=пока
+8	э	а	PART	_	_	7	advmod:emph	_	Gloss=PTCL
+9	ӄоо	ӄоо	VERB	_	_	3	parataxis	_	Gloss=не.знаю
+10	миӈкы	миӈкы	ADV	_	_	12	advmod	_	Gloss=где-LOC
+11	ԓымынӄо	_	ADV	_	_	12	advmod	_	Gloss=OMN-тот-ADV.ABL
+12	ныԓейвыӄинэт	_	VERB	_	Valency=1	9	ccomp	_	Gloss=ST-идти-DISTR.O-ST.3SG-NOM.PL
+13	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Transhumance:29
+# text = Нытарагморэ нытарогморэ.
+# text[phon] = nətaraɣmore nətaroɣmore
+# text[rus] = Ставим ярангу, ставим полог.
+# text[eng] = We set the yaranga and make the yaranga roof.
+# labels = complete-dep anno-fran
+1	Нытарагморэ	тараӈык	VERB	_	Valency=1	0	root	_	Gloss=ST-MAKE-жилище-MAKE-NP.1PL
+2	нытарогморэ	_	VERB	_	Valency=1	1	parataxis	_	Gloss=ST-MAKE-полог-MAKE-NP.1PL
+3	.	.	PUNCT	_	_	1	punct	_	_
+

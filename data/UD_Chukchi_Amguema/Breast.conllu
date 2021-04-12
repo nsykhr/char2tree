@@ -1,0 +1,294 @@
+# sent_id = Breast:1
+# text = Ӄытԓыги рэнриԓьиԓгынэ гапанрэватԓен ынӄэнэ.
+# text[phon] = qətɬəɣi renriɬʔiɬɣəne ɣapanrewatɬen ənqene
+# text[rus] = Оказывается, бюстгальтер развязался.
+# text[eng] = It turned out that the bra was untied.
+# labels = complete-dep anno-fran ənqen unclear-syntax
+1	Ӄытԓыги	_	ADV	_	_	4	advmod	_	Gloss=оказывается
+2-3	рэнриԓьиԓгынэ	_	_	_	_	_	_	_	Gloss=верхняя.часть.спины-правая.постромка.упряжи-NOM.SG-=PTCL
+2	рэнриԓьиԓгын	рэнриԓьиԓгынэ	NOUN	_	_	4	nsubj	_	Gloss=верхняя.часть.спины-правая.постромка.упряжи-NOM.SG
+3	э	а	PART	_	_	2	advmod:emph	_	Gloss=PTCL
+4	гапанрэватԓен	панрэватык	VERB	_	Valency=1	0	root	_	Gloss=PF-слабо-VB-PF.3SG
+5-6	ынӄэнэ	_	_	_	_	_	_	_	Gloss=DET-=PTCL
+5	ынӄэн	_	PART	_	_	4	discourse	_	Gloss=DET
+6	э	а	PART	_	_	5	advmod:emph	_	Gloss=PTCL
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Breast:2
+# text = Эʼрыкут гым ым мэм мэмԓетыӈэ трэӄыгъэк.
+# text[phon] = ʔerəkut ɣəm əm mem memɬetəŋe treqəɣʔek
+# text[rus] = Так получилось, я к воде… что я сделала?
+# text[eng] = It so happened that I went to the water… what did I do?
+# labels = complete-dep anno-fran
+1	Эʼрыкут	_	ADV	_	_	5	advmod	_	Gloss=к.сожалению
+2	гым	гым	PRON	_	_	5	nsubj	_	Gloss=я
+3	ым	ым	X	_	_	5	reparandum	_	Gloss=FST
+4	мэм	мэм	X	_	_	5	reparandum	_	Gloss=FST
+5-6	мэмԓетыӈэ	_	_	_	_	_	_	_	Gloss=вода-DAT-=PTCL
+5	мэмԓеты	_	NOUN	_	_	0	root	_	Gloss=вода-DAT
+6	ӈэ	а	PART	_	_	5	advmod:emph	_	Gloss=PTCL
+7	трэӄыгъэк	_	VERB	_	_	5	parataxis	_	Gloss=1SG.S/A-что-TH-1SG.S
+8	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Breast:3
+# text = Читъым читъым эʼквырга пэԓг пэԓгытагнэты мимԓечы тымимԓычыкутгъэк.
+# text[phon] = sitʔəm sitʔəm ʔekwərɣa peɬɣ peɬɣətaɣnetə mimɬesə təmimɬəsəkutɣʔek
+# text[rus] = Неожиданно я оказалась по горло в воде.
+# text[eng] = Suddenly, I found myself neck-deep in the water.
+# labels = complete-dep anno-fran
+1-2	Читъым	_	_	_	_	_	_	_	Gloss=было-=EMPH
+1	Чит	_	AUX	_	_	3	reparandum	_	Gloss=было
+2	ъым	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3-4	читъым	_	_	_	_	_	_	_	Gloss=было-=EMPH
+3	чит	_	AUX	_	_	9	discourse	_	Gloss=было
+4	ъым	ъм	PART	_	_	3	advmod:emph	_	Gloss=EMPH
+5	эʼквырга	эʼквырга	ADV	_	_	9	advmod	_	Gloss=просто.так
+6	пэԓг	пэԓг	X	_	_	7	reparandum	_	Gloss=FST
+7	пэԓгытагнэты	_	NOUN	_	_	9	obl	_	Gloss=горло-FRONT-DAT
+8	мимԓечы	мимԓечы	X	_	_	9	reparandum	_	Gloss=FST
+9	тымимԓычыкутгъэк	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-вода-IN-VB-TH-1SG.S
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = Breast:4
+# text = Тэԓиӈ тэ тъаӄаԓеӈӈытоаʼкъым.
+# text[phon] = teɬiŋ te tʔaqaɬeŋŋətoʔakʔəm
+# text[rus] = От страху я вышла [из воды].
+# text[eng] = I came out [of the water] with fear.
+# comment = Не слышно префиксального показателя в глаголе.
+# labels = complete-dep anno-fran
+1	Тэԓиӈ	Тэԓиӈ	X	_	_	3	reparandum	3:reparandum	Gloss=FST
+2	тэ	тэ	X	_	_	3	reparandum	3:reparandum	Gloss=FST
+3-4	тъаӄаԓеӈӈытоаʼкъым	_	_	_	_	_	_	_	Gloss=1SG.S/A-плохой-сердце-выходить-TH-1SG.S-=EMPH|SpaceAfter=No
+3	тъаӄаԓеӈӈытоаʼк	ӈыток	VERB	_	Incorporated[obl]=Yes	0	root	0:root	Gloss=1SG.S/A-плохой-сердце-выходить-TH-1SG.S
+3.1	ъаӄа	эʼӄэ	ADJ	_	Incorporated=Yes	_	_	3.2:amod	Gloss=плохой
+3.2	ԓеӈ	ԓинԓиӈ	NOUN	_	Incorporated=Yes	_	_	3:obl	Gloss=сердце
+4	ъым	ъм	PART	_	_	3	advmod:emph	3:advmod:emph	Gloss=EMPH
+5	.	.	PUNCT	_	_	3	punct	3:punct	_
+
+# sent_id = Breast:5
+# text = Ӄытԓыги ынӄэ ԓёԓьоԓгын ранрэԓьэԓгэпы гэпинтыӄэтԓин.
+# text[phon] = qətɬəɣi ənqe ɬoɬʔoɬɣən ranreɬʔeɬɣepə ɣepintəqetɬin
+# text[rus] = Оказывается, грудь выскочила из бюстгальтера.
+# text[eng] = It turned out that a boob jumped out of the bra.
+# labels = complete-dep anno-fran ənqen
+1	Ӄытԓыги	_	ADV	_	_	5	advmod	_	Gloss=оказывается
+2	ынӄэ	_	PART	_	_	5	discourse	_	Gloss=DET
+3	ԓёԓьоԓгын	ԓёԓьоԓгын	NOUN	_	_	5	nsubj	_	Gloss=грудь-SING-NOM.SG
+4	ранрэԓьэԓгэпы	_	NOUN	_	_	5	obl	_	Gloss=верхняя.часть.спины-правая.постромка.упряжи-ABL
+5	гэпинтыӄэтԓин	пинтыӄэтык	VERB	_	Valency=1	0	root	_	Gloss=PF-появляться-PF.3SG|ModifiedGloss=Yes
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Breast:6
+# text = Ӄы ӈоонко ӈинӄэгти нивӄинэт.
+# text[phon] = qə ŋoonko ŋinqeɣti niwqinet
+# text[rus] = Мальчики там кричат:
+# text[eng] = The boys were screaming there:
+# labels = complete-dep anno-fran
+1	Ӄы	Ӄы	X	_	_	2	reparandum	_	Gloss=FST
+2	ӈоонко	ӈоонко	PRON	_	_	4	obl	_	Gloss=там-LOC.нер.изм.
+3	ӈинӄэгти	_	NOUN	_	_	4	nsubj	_	Gloss=молодой-DIM-NOM.PL
+4	нивӄинэт	ивык	VERB	_	Valency=2	0	root	_	Gloss=ST-сказать-ST.3SG-PL
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Breast:7
+# text = Ыммэмэй эӄыԓпэ ынӄэн ръэнут ынӄэ гынин уʼрэквъи.
+# text[phon] = əmmemej eqəɬpe ənqen rʔenut ənqe ɣənin ʔurekwʔi
+# text[rus] = «Мам, быстро, это самое, у тебя кое-что вылезло».
+# text[eng] = «Mum, quickly, you know, you have something got out».
+# labels = complete-dep anno-fran ənqen non-projective
+1	Ыммэмэй	_	NOUN	_	_	7	vocative	_	Gloss=мама-VOC
+2	эӄыԓпэ	эӄыԓпэ	ADV	_	_	7	advmod	_	Gloss=быстро
+3	ынӄэн	ынӄэн	PART	_	_	7	discourse	_	Gloss=DET
+4	ръэнут	ръэнут	PRON	_	_	7	nsubj	_	Gloss=что.NOM.SG
+5	ынӄэ	_	PART	_	_	7	discourse	_	Gloss=DET
+6	гынин	_	PRON	_	_	4	nmod:poss	_	Gloss=ты-GEN
+7	уʼрэквъи	_	VERB	_	Valency=1	0	root	_	Gloss=2/3.S/A-появляться-TH-2/3SG.S
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = Breast:8
+# text = Ванэван мычичевнэт.
+# text[phon] = wanewan məsisewnet
+# text[rus] = Я их не понимаю.
+# text[eng] = I do not understand them.
+# labels = complete-dep anno-fran
+1	Ванэван	ванэван	AUX	_	_	2	aux:neg	_	Gloss=NEG.NFUT
+2	мычичевнэт	чичевык	VERB	_	_	0	root	_	Gloss=1SG.S/A.SUBJ-понимать-3SG.O-PL
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Breast:9
+# text = Тынарагтын нэмыӄэй нивӄин.
+# text[phon] = tənaraɣtən neməqej niwqin
+# text[rus] = Тынарагтын тоже говорит:
+# text[eng] = Tynaragtyn also says:
+# labels = complete-dep anno-fran
+1	Тынарагтын	Тынарагтын	PROPN	_	_	3	nsubj	_	Gloss=Тынарагтын-NOM.SG
+2	нэмыӄэй	нэмыӄэй	ADV	_	_	3	advmod	_	Gloss=тоже
+3	нивӄин	ивык	VERB	_	Valency=2	0	root	_	Gloss=ST-сказать-ST.3SG
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Breast:10
+# text = Ынӄэнэ ӄытэнкэвӈыгын.
+# text[phon] = ənqene qətenkewŋəɣən
+# text[rus] = «Это… поправь там».
+# text[eng] = «Um… put it right there».
+# labels = complete-dep anno-fran ənqen
+1-2	Ынӄэнэ	_	_	_	_	_	_	_	Gloss=DET-=PTCL
+1	Ынӄэн	_	PART	_	_	3	discourse	_	Gloss=DET
+2	э	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3	ӄытэнкэвӈыгын	тэнкэвӈык	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-MAKE-гармонировать-MAKE-IRR-3SG.O
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Breast:11
+# text = Ръэнут.
+# text[phon] = rʔenut
+# text[rus] = [Я:] «Что?».
+# text[eng] = [Me:] «What?».
+# labels = complete-dep anno-fran
+1	Ръэнут	ръэнут	PRON	_	PronType=Int	0	root	_	Gloss=что.NOM.SG
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Breast:12
+# text = Танӈыӈавӄай ӈутку иквъи.
+# text[phon] = tanŋəŋawqaj ŋutku ikwʔi
+# text[rus] = Тут русская женщина говорит:
+# text[eng] = Here the Russian woman says:
+# labels = complete-dep anno-fran
+1	Танӈыӈавӄай	Танӈыӈавӄай	NOUN	_	_	3	nsubj	_	Gloss=чужеземец-FEM-DIM-NOM.SG
+2	ӈутку	ӈутку	ADV	_	_	3	advmod	_	Gloss=здесь
+3	иквъи	икын	VERB	_	Valency=2	0	root	_	Gloss=2/3.S/A-сказать-TH-2/3SG.S
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Breast:13
+# text = Ынӄэнэ рэнриԓьиԓгын ӄытэнкэвӈыгын.
+# text[phon] = ənqene renriɬʔiɬɣən qətenkewŋəɣən
+# text[rus] = «Это… поправь бюстгальтер».
+# text[eng] = «This is… straighten the bra».
+# labels = complete-dep anno-fran ənqen
+1-2	Ынӄэнэ	_	_	_	_	_	_	_	Gloss=DET-=PTCL
+1	Ынӄэн	_	PART	_	_	4	discourse	_	Gloss=DET
+2	э	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3	рэнриԓьиԓгын	рэнриԓьиԓгын	NOUN	_	_	4	obj	_	Gloss=верхняя.часть.спины-правая.постромка.упряжи-NOM.SG
+4	ӄытэнкэвӈыгын	тэнкэвӈык	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-MAKE-гармонировать-MAKE-IRR-3SG.O
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Breast:14
+# text = Тыгитээʼн ӈоон ынӄэн.
+# text[phon] = təɣiteʔen ŋoon ənqen
+# text[rus] = Я посмотрела туда.
+# text[eng] = I looked there.
+# labels = complete-dep anno-fran
+1	Тыгитээʼн	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-смотреть-TH-3SG.O
+2	ӈоон	ӈоок	ADV	_	_	1	advmod	_	Gloss=там
+3	ынӄэн	ынӄэн	PRON	_	_	1	obj	_	Gloss=DET
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Breast:15
+# text = Ԓёԓьоԓгын гэпинтыӄэтԓин нивигым ын тэӈынӈин.
+# text[phon] = ɬoɬʔoɬɣən ɣepintəqetɬin niwiɣəm ən teŋənŋin
+# text[rus] = «Надо же, думаю, грудь выскочила».
+# text[eng] = «Wow, I think, my boob jumped out».
+# comment = Перед последним словом слышится слог, похожий на [ən] или [əm]. Если это правда, не исключено,что это часть последнего слова (например, тоталитативный префикс əm-), а в последнем слова другаягармония (например, произнесено əm-taŋ-ənŋen).
+# labels = complete-dep anno-fran
+1	Ԓёԓьоԓгын	Ԓёԓьоԓгын	NOUN	_	_	2	nsubj	_	Gloss=грудь-SING-NOM.SG
+2	гэпинтыӄэтԓин	пинтыӄэтык	VERB	_	Valency=1	3	parataxis:speech	_	Gloss=PF-появляться-PF.3SG|ModifiedGloss=Yes
+3	нивигым	_	VERB	_	Valency=2	0	root	_	Gloss=ST-сказать-NP.1SG
+4	ын	ын	X	_	_	5	reparandum	_	Gloss=FST
+5	тэӈынӈин	ӈынӈыԓгын	ADV	_	_	3	advmod	_	Gloss=GOOD-так
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Breast:16
+# text = Ӄун ынпычьэккэтэ тынтоаʼк мытэ мытъабэтчыӄэвмык ынпычьэккэтэ нинивӄин.
+# text[phon] = qun ənpəsʔekkete təntoʔak məte mətʔabetsəqewmək ənpəsʔekkete niniwqin
+# text[rus] = Старший сын… я вышла… Мы пошли на обед, старший сын говорит:
+# text[eng] = The eldest son… I left… We went to dinner, the eldest son said:
+# labels = complete-dep anno-fran
+1	Ӄун	ӄун	ADV	_	_	3	advmod	_	Gloss=QUN
+2	ынпычьэккэтэ	_	NOUN	_	_	3	reparandum	_	Gloss=старый-ADJ-сын-INS
+3	тынтоаʼк	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-выходить-TH-1SG.S
+4	мытэ	мытэ	X	_	_	5	reparandum	_	Gloss=FST
+5	мытъабэтчыӄэвмык	_	VERB	_	_	3	parataxis	_	Gloss=1PL.S/A-обед-MCP-1PL.S/O
+6	ынпычьэккэтэ	_	NOUN	_	_	7	nsubj	_	Gloss=старый-ADJ-сын-INS
+7	нинивӄин	ивык	VERB	_	_	3	parataxis	_	Gloss=ST-INV-сказать-ST.3SG
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Breast:17
+# text = Ԓыгэн мама ынӈин ваԓьын ымыԓьорыкы нэԓ нэнанкаԓровӄэн.
+# text[phon] = ɬəɣen mama ənŋin waɬʔən əməɬʔorəkə neɬ nenankaɬrowqen
+# text[rus] = «Эх, мама, такая-сякая, всем показывает!».
+# text[eng] = «Eh, mum, so-and-so, shows to everyone!».
+# labels = complete-dep anno-frn
+1	Ԓыгэн	ԓыгэн	ADV	_	_	7	advmod	_	Gloss=просто
+2	мама	_	NOUN	_	_	7	vocative	_	Gloss=мама
+3	ынӈин	ынӈин	ADV	_	_	7	dep	_	Gloss=так
+4	ваԓьын	ваԓьын	AUX	_	_	3	cop	_	Gloss=быть-ATTR-NOM.SG
+5	ымыԓьорыкы	ымыԓьо	PRON	_	_	7	obl	_	Gloss=весь-AN.PL-DAT
+6	нэԓ	нэԓ	X	_	_	7	reparandum	_	Gloss=FST
+7	нэнанкаԓровӄэн	_	VERB	_	_	0	root	_	Gloss=LOW.A-INV-показывать-ST.3SG
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = Breast:18
+# text = Ӄэԓюӄъым тэнӈу мытытчыгъэн ԓыгэн ԓёԓьоԓгын пинтыӄэтыԓьын ынӄэнэ ранрэԓьэԓгычыкойпы.
+# text[phon] = qeɬuqʔəm tenŋu mətətsəɣʔen ɬəɣen ɬoɬʔoɬɣən pintəqetəɬʔən ənqene ranreɬʔeɬɣəsəkojpə
+# text[rus] = Конечно же, мы смеялись над грудью, выпавшей из бюстгальтера.
+# text[eng] = Of course, we laughed at the boob that fell out of the bra.
+# labels = complete-dep anno-fran ənqen valency
+1-2	Ӄэԓюӄъым	_	_	_	_	_	_	_	Gloss=конечно-=EMPH
+1	Ӄэԓюӄ	ӄэԓюӄъым	ADV	_	_	4	advmod	_	Gloss=конечно
+2	ъым	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	тэнӈу	_	VERB	_	_	4	xcomp	_	Gloss=смеяться-EQU
+4	мытытчыгъэн	рытчык	VERB	_	_	0	root	_	Gloss=1PL.S/A-делать-TH-3SG.O
+5	ԓыгэн	ԓыгэн	ADV	_	_	4	advmod	_	Gloss=просто
+6	ԓёԓьоԓгын	ԓёԓьоԓгын	NOUN	_	_	4	obj	_	Gloss=грудь-SING-NOM.SG
+7	пинтыӄэтыԓьын	пинтыӄэтыԓьын	VERB	_	_	6	acl:attr	_	Gloss=появляться-ATTR-NOM.SG
+8-9	ынӄэнэ	_	_	_	_	_	_	_	Gloss=DET-=PTCL
+8	ынӄэн	_	PART	_	_	7	discourse	_	Gloss=DET
+9	э	а	PART	_	_	8	advmod:emph	_	Gloss=PTCL
+10	ранрэԓьэԓгычыкойпы	_	NOUN	_	_	7	obl	_	Gloss=верхняя.часть.спины-правая.постромка.упряжи-IN-ABL
+11	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Breast:19
+# text = Мама ԓыгэн ымыԓьорыкы нэԓьуэʼн.
+# text[phon] = mama ɬəɣen əməɬʔorəkə neɬʔuʔen
+# text[rus] = «Мама, прямо всем… Все увидели…».
+# text[eng] = «Mum, just to everyone… everyone saw…».
+# labels = complete-dep anno-fran
+1	Мама	_	NOUN	_	_	4	vocative	_	Gloss=мама
+2	ԓыгэн	ԓыгэн	ADV	_	_	4	discourse	_	Gloss=просто
+3	ымыԓьорыкы	ымыԓьо	PRON	_	_	2	obl	_	Gloss=весь-AN.PL-DAT
+4	нэԓьуэʼн	_	VERB	_	_	0	root	_	Gloss=LOW.A-видеть-TH-3SG.O
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Breast:20
+# text = Наӄам ванэ никвъэн ръэнут нэԓьуэʼн.
+# text[phon] = naqam wane nikwʔen rʔenut neɬʔuʔen
+# text[rus] = Однако не говорит, что увидели.
+# text[eng] = However, he does not say what they saw.
+# labels = complete-dep anno-fran subordination
+1	Наӄам	наӄам	CCONJ	_	_	3	cc	_	Gloss=однако
+2	ванэ	вак	AUX	_	_	3	aux:neg	_	Gloss=NEG.NFUT
+3	никвъэн	_	VERB	_	_	0	root	_	Gloss=3.S/A.SUBJ-сказать-TH-3SG.O
+4	ръэнут	ръэнут	PRON	_	_	5	obj	_	Gloss=что.NOM.SG
+5	нэԓьуэʼн	_	VERB	_	_	3	parataxis:speech	_	Gloss=LOW.A-видеть-TH-3SG.O
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Breast:21
+# text = Гэгэргыпынчиԓин ӄэлуӄэ чама юрэӄъым ынӄэнэ ӈыркыԓятгъэ.
+# text[phon] = ɣeɣerɣəpənsiɬin qeluqe sama jureqʔəm ənqene ŋərkəɬatɣʔe
+# text[rus] = Ему, конечно, было досадно и, может быть, стыдно.
+# text[eng] = He, of course, was annoyed and, perhaps, ashamed.
+# labels = complete-dep anno-fran ənqen 
+1	Гэгэргыпынчиԓин	_	VERB	_	Incorporated[advcl]=Yes|Valency=1	0	root	0:root	Gloss=PF-злиться-выворачивать-PF.3SG
+1.1	гэрг	гэрг	VERB	_	Incorporated=Yes	_	_	1:advcl	Gloss=злиться
+2-3	ӄэлуӄэ	_	_	_	_	_	_	_	Gloss=конечно-=PTCL
+2	ӄэлуӄ	_	ADV	_	_	1	advmod	1:advmod	Gloss=конечно
+3	э	а	PART	_	_	2	advmod:emph	2:advmod:emph	Gloss=PTCL
+4	чама	чама	ADV	_	_	9	advmod	9:advmod	Gloss=также
+5-6	юрэӄъым	_	_	_	_	_	_	_	Gloss=может.быть-=EMPH
+5	юрэӄ	_	ADV	_	_	9	advmod	9:advmod	Gloss=может.быть
+6	ъым	ъм	PART	_	_	5	advmod:emph	5:advmod:emph	Gloss=EMPH
+7-8	ынӄэнэ	_	_	_	_	_	_	_	Gloss=DET-=PTCL
+7	ынӄэн	_	PART	_	_	9	discourse	9:discourse	Gloss=DET
+8	э	а	PART	_	_	7	advmod:emph	7:advmod:emph	Gloss=PTCL
+9	ӈыркыԓятгъэ	ӈыркыԓятык	VERB	_	_	1	parataxis	1:parataxis	Gloss=2/3.S/A-чувствовать.стыд-VB-TH-2/3SG.S
+10	.	.	PUNCT	_	_	1	punct	1:punct	_
+

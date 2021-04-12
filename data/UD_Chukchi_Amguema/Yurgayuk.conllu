@@ -1,0 +1,167 @@
+# sent_id = Yurgayuk:1
+# text = Юргаюкъыма ӄоԓ итгъи ынӄэна чыӈатэнмычыкоеквэ ныԓеӄинъым.
+# text[phon] = jurɣajukʔəma qoɬ itɣʔi ənqena səŋatenməsəkojekwe nəɬeqinʔəm
+# text[rus] = Юргаюк как-то раз проезжал вдоль реки с крутыми скалистыми берегами.
+# text[eng] = Once Iurgaiuk was going along the river with steep rocky shores.
+# labels = complete-dep anno-fran ənqen unclear-syntax
+1-3	Юргаюкъыма	_	_	_	_	_	_	_	Gloss=Юргаюк-NOM.SG-=EMPH-=PTCL
+1	Юргаюк	Юргаюк	PROPN	_	_	10	nsubj	_	Gloss=Юргаюк-NOM.SG
+2	ъым	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	а	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+4	ӄоԓ	ӄоԓ	PRON	_	_	10	dep	_	Gloss=некий
+5	итгъи	итык	AUX	_	_	4	cop	_	Gloss=2/3.S/A-являться-TH-2/3SG.S
+6-7	ынӄэна	_	_	_	_	_	_	_	Gloss=DET-=PTCL
+6	ынӄэн	ынӄэн	PART	_	_	10	discourse	_	Gloss=DET
+7	а	а	PART	_	_	6	advmod:emph	_	Gloss=PTCL
+8-9	чыӈатэнмычыкоеквэ	_	_	_	_	_	_	_	Gloss=раскалываться-скала-IN-PROL
+8	чыӈат	чыӈат	VERB	_	_	9	acl	_	Gloss=раскалываться
+9	энмычыкоеквэ	энм	NOUN	_	_	10	obl	_	Gloss=скала-IN-PROL
+10-11	ныԓеӄинъым	_	_	_	_	_	_	_	Gloss=ST-идти-ST.3SG-=EMPH
+10	ныԓеӄин	тыԓек	VERB	_	Valency=1	0	root	_	Gloss=ST-идти-ST.3SG
+11	ъым	ъм	PART	_	_	10	advmod:emph	_	Gloss=EMPH
+12	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = Yurgayuk:2
+# text = Ԓюут эʼӄэԓьэӈа танӈа ӈаԓгыԓёӈа натагъан нэйпыгъэн ръэт.
+# text[phon] = ɬuut ʔeqeɬʔeŋa tanŋa ŋaɬɣəɬoŋa nataɣʔan nejpəɣʔen rʔet
+# text[rus] = Вдруг враги-иноземцы с обеих сторон обошли и перекрыли дорогу.
+# text[eng] = Suddenly, foreign enemies surrounded him and blocked the road.
+# labels = complete-dep anno-fran
+1	Ԓюут	ԓюут	ADV	_	_	7	advmod	_	Gloss=вдруг
+2-3	эʼӄэԓьэӈа	_	_	_	_	_	_	_	Gloss=плохой-ATTR-INS-=PTCL
+2	эʼӄэԓьэ	_	ADJ	_	_	7	nsubj	_	Gloss=плохой-ATTR-INS
+3	ӈа	а	PART	_	_	2	advmod:emph	_	Gloss=PTCL
+4	танӈа	_	NOUN	_	_	2	appos	_	Gloss=чужеземец-INS
+5-6	ӈаԓгыԓёӈа	_	_	_	_	_	_	_	Gloss=по.обе.стороны-=PTCL
+5	ӈаԓгыԓё	_	ADV	_	_	7	advmod	_	Gloss=по.обе.стороны
+6	ӈа	а	PART	_	_	5	advmod:emph	_	Gloss=PTCL
+7	натагъан	_	VERB	_	_	0	root	_	Gloss=LOW.A-проходить-TH-3SG.O
+8	нэйпыгъэн	эйпык	VERB	_	_	7	parataxis	_	Gloss=LOW.A-затыкать-TH-3SG.O
+9	ръэт	ръэт	NOUN	_	_	8	obj	_	Gloss=дорога-NOM.SG
+10	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = Yurgayuk:3
+# text = Иʼӈыт чвининэтъыма.
+# text[phon] = ʔiŋət swininetʔəma
+# text[rus] = Передние концы нарты обрезал.
+# text[eng] = He cut the front of the sledge.
+# labels = complete-dep anno-fran
+1	Иʼӈыт	_	NOUN	_	_	2	obj	_	Gloss=нос-NOM.PL
+2-4	чвининэтъыма	_	_	_	_	_	_	_	Gloss=2/3.S/A-резать-3SG.A.3.O-3SG.O-PL-=EMPH-=PTCL
+2	чвининэт	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-резать-3SG.A.3.O-3SG.O-PL
+3	ъым	ъм	PART	_	_	2	advmod:emph	_	Gloss=EMPH
+4	а	а	PART	_	_	2	advmod:emph	_	Gloss=PTCL
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Yurgayuk:4
+# text = Янратъэчгына ӈачгытъэԓгык а ӈач ӈачгыӈкы эʼԓевнинъымэ.
+# text[phon] = janratʔesɣəna ŋasɣətʔeɬɣək а ŋas ŋasɣəŋkə ʔeɬewninʔəme
+# text[rus] = Левую постромку слева привязал.
+# text[eng] = He tied the left trace of harness up to the left.
+# labels = complete-dep anno-fran
+1-2	Янратъэчгына	_	_	_	_	_	_	_	Gloss=отдельно-правая.постромка.упряжи-NOM.SG-=PTCL
+1	Янратъэчгын	янратъэчгын	NOUN	_	_	7	obj	_	Gloss=отдельно-правая.постромка.упряжи-NOM.SG
+2	а	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3	ӈачгытъэԓгык	_	NOUN	_	_	7	obl	_	Gloss=левый-правая.постромка.упряжи-LOC
+4	а	_	X	_	_	7	dep	_	Gloss=
+5	ӈач	ӈач	X	_	_	6	reparandum	_	Gloss=FST
+6	ӈачгыӈкы	ӈачгыӈкы	NOUN	_	_	7	obl	_	Gloss=левый-LOC
+7-9	эʼԓевнинъымэ	_	_	_	_	_	_	_	Gloss=2/3.S/A-связывать-3SG.A.3.O-3SG.O-=EMPH-=PTCL
+7	эʼԓевнин	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-связывать-3SG.A.3.O-3SG.O
+8	ъым	ъм	PART	_	_	7	advmod:emph	_	Gloss=EMPH
+9	э	а	PART	_	_	7	advmod:emph	_	Gloss=PTCL
+10	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = Yurgayuk:5
+# text = Иʼԓгын мраӈӄа гакаӈӄорэн мраӈъэӈыкъым.
+# text[phon] = ʔiɬɣən mraŋqa ɣakaŋqoren mraŋʔeŋəkʔəm
+# text[rus] = А правую постромку ездового оленя — справа, к правому полозу (носу) нарты.
+# text[eng] = And the right trace of reindeer harness (he tied up) to the right, to the right front edge of the sledge.
+# labels = complete-dep anno-fran ellipsis
+1	Иʼԓгын	Иʼԓгын	NOUN	_	_	4	orphan	3.1:obj	Gloss=правая.постромка.упряжи-NOM.SG
+2	мраӈӄа	_	NOUN	_	_	4	orphan	3.1:obl	Gloss=правый-NEAR
+3	гакаӈӄорэн	_	NOUN	_	_	1	nmod:poss	1:nmod	Gloss=упряжка-олень-GEN
+3.1	эʼԓевнин	_	VERB	_	_	_	_	0:root	Gloss=связывать
+4-5	мраӈъэӈыкъым	_	_	_	_	_	_	_	Gloss=правый-нос-LOC-=EMPH
+4	мраӈъэӈык	_	NOUN	_	_	0	root	3.1:obl	Gloss=правый-нос-LOC
+5	ъым	ъм	PART	_	_	4	advmod:emph	4:advmod:emph	Gloss=EMPH
+6	.	.	PUNCT	_	_	4	punct	3.1:punct	_
+
+# sent_id = Yurgayuk:6
+# text = Мыԓьурэгъи ынкы наӄам пиӈэтчыӈын ԓыгэнывваԓявнэн.
+# text[phon] = məɬʔureɣʔi ənkə naqam piŋetsəŋən ɬəɣenəwwaɬawnen
+# text[rus] = Закружил не в ту сторону и прямо снежный вихрь поднял.
+# text[eng] = He turned to the wrong side and caused the blizzard.
+# labels = complete-dep anno-fran
+1	Мыԓьурэгъи	мыԓьурэк	VERB	_	_	0	root	_	Gloss=2/3.S/A-поворачивать.не.в.ту.сторону-TH-2/3SG.S
+2	ынкы	ынкы	PRON	_	_	1	obl	_	Gloss=тот-LOC
+3	наӄам	наӄам	CCONJ	_	_	5	cc	_	Gloss=однако
+4	пиӈэтчыӈын	пиӈэтчыӈын	NOUN	_	_	5	obj	_	Gloss=снегопад-AUG-NOM.SG
+5	ԓыгэнывваԓявнэн	_	VERB	_	_	1	parataxis	_	Gloss=2/3.S/A-INTS-TR-пурга-CS-3SG.A.3.O-3SG.O
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Yurgayuk:7
+# text = Тэӈэвыт ԓыгэнывваԓяв чама рыввиръувнинъым.
+# text[phon] = teŋewət ɬəɣenəwwaɬaw sama rəwwirʔuwninʔəm
+# text[rus] = Тут же снежный вихрь и ветер (пар) поднял.
+# text[eng] = Caused the blizzard and the random airflows.
+# labels = complete-dep anno-fran
+1	Тэӈэвыт	_	ADV	_	_	2	advmod	_	Gloss=GOOD-когда
+2	ԓыгэнывваԓяв	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-INTS-TR-пурга-CS
+3	чама	чама	ADV	_	_	4	advmod	_	Gloss=также
+4-5	рыввиръувнинъым	_	_	_	_	_	_	_	Gloss=2/3.S/A-TR-воздух-DISTR.S-CS-3SG.A.3.O-3SG.O-=EMPH
+4	рыввиръувнин	_	VERB	_	_	2	parataxis	_	Gloss=2/3.S/A-TR-воздух-DISTR.S-CS-3SG.A.3.O-3SG.O
+5	ъым	ъм	PART	_	_	4	advmod:emph	_	Gloss=EMPH
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Yurgayuk:8
+# text = Нынъувэвытыԓеӄин эʼӄэԓьэм.
+# text[phon] = nənʔuwewətəɬeqin ʔeqeɬʔeʔm
+# text[rus] = Враги начали зажимать его.
+# text[eng] = The enemies started to hustle him.
+# labels = complete-dep anno-fran
+1	Нынъувэвытыԓеӄин	_	VERB	_	Valency=2	0	root	_	Gloss=ST-теснить-GRAD-ST.3SG
+2-3	эʼӄэԓьэм	_	_	_	_	_	_	_	Gloss=плохой-ATTR-INS-=EMPH
+2	эʼӄэԓьэ	эʼӄэ	ADJ	_	_	1	nsubj	_	Gloss=плохой-ATTR-INS
+3	м	ъм	PART	_	_	2	advmod:emph	_	Gloss=EMPH
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Yurgayuk:9
+# text = Нэгитэгъэн эвына выегаԓягъэ въяԓгаԓягъэ эвына.
+# text[phon] = neɣiteɣʔen ewəna wəjeɣaɬaɣʔe wjaɬɣaɬaɣʔe ewəna
+# text[rus] = Смотрят: уже и ветер стих (пар прошёл), и снежный вихрь.
+# text[eng] = They look around, and the snowstorm is gone, the blizzard is gone.
+# labels = complete-dep anno-fran
+1	Нэгитэгъэн	гитэк	VERB	_	_	0	root	0:root	Gloss=LOW.A-смотреть-TH-3SG.O
+2-3	эвына	_	_	_	_	_	_	_	Gloss=уже-=PTCL
+2	эвын	эвын	ADV	_	_	4	advmod	4:advmod	Gloss=уже
+3	а	а	PART	_	_	2	advmod:emph	2:advmod:emph	Gloss=PTCL
+4	выегаԓягъэ	гаԓя	VERB	_	Incorporated[obj]=Yes|Valency=1	1	parataxis	1:parataxis	Gloss=2/3.S/A-воздух-проходить-TH-2/3SG.S
+4.1	вые	вйи	NOUN	_	Incorporated=Yes	_	_	4:obj	Gloss=воздух
+5	въяԓгаԓягъэ	гаԓя	VERB	_	Incorporated[obj]=Yes|Valency=1	1	parataxis	1:parataxis	Gloss=2/3.S/A-пурга-проходить-TH-2/3SG.S
+5.1	въяԓ	въяԓын	NOUN	_	Incorporated=Yes	_	_	5:obj	Gloss=пурга
+6-7	эвына	_	_	_	_	_	_	_	Gloss=уже-=PTCL|SpaceAfter=No
+6	эвын	эвын	ADV	_	_	5	advmod	5:advmod	Gloss=уже
+7	а	а	PART	_	_	6	advmod:emph	6:advmod:emph	Gloss=PTCL
+8	.	.	PUNCT	_	_	1	punct	1:punct	_
+
+# sent_id = Yurgayuk:10
+# text = Энмыткынык напэӄовтытэвԓяӄэн.
+# text[phon] = enmətkənək napeqowtətewɬaqen
+# text[rus] = А он на вершине скалы выколачивает подстилку на нарте от снежной пыли.
+# text[eng] = And he is on top of the mountain cleaning the seat pad from snow.
+# labels = complete-dep anno-fran
+1	Энмыткынык	_	NOUN	_	_	2	obl	2:obl	Gloss=скала-TOP-LOC
+2	напэӄовтытэвԓяӄэн	_	VERB	_	Incorporated[obj]=Yes|Valency=1	0	root	0:root	Gloss=ST-подстилка.на.нарте.из.шкуры-стряхивать-ST.3SG
+2.1	апэӄовт	эпиӄувыт	NOUN	_	Incorporated=Yes	_	_	2:obj	Gloss=подстилка.на.нарте.из.шкуры
+3	.	.	PUNCT	_	_	2	punct	1:punct	_
+
+# sent_id = Yurgayuk:11
+# text = Ытръэч.
+# text[phon] = ətrʔes
+# text[rus] = Конец.
+# text[eng] = That is all.
+# labels = complete anno-fran
+1	Ытръэч	ытръэч	ADV	_	_	0	root	_	Gloss=только|SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+

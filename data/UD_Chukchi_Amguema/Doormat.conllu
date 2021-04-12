@@ -1,0 +1,113 @@
+# sent_id = Doormat:1
+# text = Гымнин ытԓьаӄай нырэԓгыӄанъявӈытаӈӄэн.
+# text[phon] = ɣəmnin ətɬʔaqaj nəreɬɣəqanjawŋətaŋqen
+# text[rus] = Моя мамочка хотела поехать на Первый (в Эгвекинот).
+# text[eng] = My mum wanted to go to Egvekinot.
+# labels = complete-dep anno-fran
+1	Гымнин	_	PRON	_	_	2	nmod:poss	_	Gloss=я-AN.GEN
+2	ытԓьаӄай	ытԓьаӄай	NOUN	_	_	3	nsubj	_	Gloss=мать-DIM-NOM.SG
+3	нырэԓгыӄанъявӈытаӈӄэн	_	VERB	_	Valency=1	0	root	_	Gloss=ST-DES-белый-ущелье-GO.DO-DES-ST.3SG
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Doormat:2
+# text = Нивӄин эʼптэ гым ивкэ мэԓгыӄанъявӈытааʼк.
+# text[phon] = niwqin ʔepte ɣəm iwke meɬɣəqanjawŋətaʔak
+# text[rus] = Она говорит: «Ну-ка я тоже съезжу на Первый.
+# text[eng] = She said: «Well, I’ll go to Egvekinot too.
+# labels = complete-dep anno-fran
+1	Нивӄин	ивык	VERB	_	Valency=2	0	root	_	Gloss=ST-сказать-ST.3SG
+2	эʼптэ	_	ADV	_	_	5	advmod	_	Gloss=тоже
+3	гым	гым	PRON	_	_	5	nsubj	_	Gloss=я
+4	ивкэ	ивкэ	AUX	_	_	5	aux	_	Gloss=OPT
+5	мэԓгыӄанъявӈытааʼк	_	VERB	_	_	1	parataxis:speech	_	Gloss=1SG.S/A.SUBJ-белый-ущелье-GO.DO-TH-1SG.S
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Doormat:3
+# text = Ынкъам мъэӄимԓынӈээʼк.
+# text[phon] = ənkʔam mʔeqimɬənŋeʔek
+# text[rus] = И куплю водки».
+# text[eng] = And I’ll buy some vodka.
+# labels = complete-dep anno-fran
+1	Ынкъам	ынкъам	CCONJ	_	_	2	cc	_	Gloss=и
+2	мъэӄимԓынӈээʼк	_	VERB	_	_	0	root	_	Gloss=1SG.S/A.SUBJ-плохой-вода-GET-TH-1SG.S
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Doormat:4
+# text = Гымнан тивын.
+# text[phon] = ɣəmnan tiwən
+# text[rus] = Я сказала:
+# text[eng] = I said:
+# labels = complete-dep anno-fran
+1	Гымнан	гым	PRON	_	_	2	nsubj	_	Gloss=я-INS
+2	тивын	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-сказать-3SG.O
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Doormat:5
+# text = Эʼтки ынӄэн ынӄэнэ.
+# text[phon] = ʔetki ənqen ənqene
+# text[rus] = «Ой, ты что?!
+# text[eng] = «Oh, are you kidding?!
+# labels = complete-dep anno-fran ənqen
+1	Эʼтки	эʼтки	ADJ	_	_	0	root	_	Gloss=плохо
+2	ынӄэн	ынӄэн	PART	_	_	1	discourse	_	Gloss=DET
+3-4	ынӄэнэ	_	_	_	_	_	_	_	Gloss=DET-=PTCL
+3	ынӄэн	_	PART	_	_	1	discourse	_	Gloss=DET
+4	э	а	PART	_	_	3	advmod:emph	_	Gloss=PTCL
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Doormat:6
+# text = Эʼтки ынӈэ ынӄэн ягмаԓеччо нэрэтчыгыт.
+# text[phon] = ʔetki ənŋe ənqen jaɣmaɬesco neretsəɣət
+# text[rus] = Не надо, там из тебя сделают половую тряпку (т.е. затопчут и вытрут об тебя ноги).
+# text[eng] = Don’t, they’ll make a doormat out of you.
+# labels = complete-dep anno-fran ənqen valency
+1	Эʼтки	эʼтки	ADJ	_	_	0	root	_	Gloss=плохо
+2	ынӈэ	ынӈэ	AUX	_	_	5	aux	_	Gloss=PROH
+3	ынӄэн	ынӄэн	PART	_	_	5	discourse	_	Gloss=DET
+4	ягмаԓеччо	_	NOUN	_	_	5	xcomp	_	Gloss=ступня-вытирать-SURF-EQU|ModifiedGloss=Yes
+5	нэрэтчыгыт	рытчык	VERB	_	_	1	parataxis	_	Gloss=LOW.A-FUT-делать-2SG.O
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Doormat:7
+# text = Ынӄэн ныԓгэмаравръоӄэнат чама ръа имыръэнут нинэнпирӄыӄин ынӄэн.
+# text[phon] = ənqen nəɬɣemarawrʔoqenat sama rʔa imərʔenut ninenpirqəqin ənqen
+# text[rus] = Там очень ругаются и всех валят на землю».
+# text[eng] = There, they all swear very much and throw down everybody to the ground».
+# labels = complete-dep anno-fran ənqen 
+1	Ынӄэн	ынӄэн	PART	_	_	2	discourse	_	Gloss=DET
+2	ныԓгэмаравръоӄэнат	маравчетык	VERB	_	Valency=1	0	root	_	Gloss=ST-INTS-ссориться-DISTR.S-ST.3SG-PL
+3	чама	чама	ADV	_	_	6	advmod	_	Gloss=также
+4	ръа	ръа	X	_	_	5	reparandum	_	Gloss=FST
+5	имыръэнут	имыръэнут	PRON	_	_	6	obj	_	Gloss=FC-что.NOM.SG
+6	нинэнпирӄыӄин	рыпирӄык	VERB	_	_	2	parataxis	_	Gloss=ST-INV-валить-ST.3SG
+7	ынӄэн	ынӄэн	PART	_	_	6	discourse	_	Gloss=DET
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Doormat:8
+# text = Эгэй ытԓён иквъи.
+# text[phon] = eɣej ətɬon ikwʔi
+# text[rus] = «Ладно», — она сказала.
+# text[eng] = «OK», she said.
+# labels = complete-dep anno-fran speech
+1	Эгэй	эгэй	INTJ	_	_	3	parataxis:speech	_	Gloss=ладно
+2	ытԓён	ытԓён	PRON	_	_	3	nsubj	_	Gloss=он
+3	иквъи	икын	VERB	_	_	0	root	_	Gloss=2/3.S/A-сказать-TH-2/3SG.S
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Doormat:9
+# text = Эʼмъим ӄыччым эʼтки эʼтки тъэнӄэыччын ягмаԓеччо итык.
+# text[phon] = ʔemʔim qəccəm ʔetki ʔetki tʔenqeəccən jaɣmaɬecco itək
+# text[rus] = «Ой, я тогда не поеду, не хочу, чтобы об меня вытирали ноги».
+# text[eng] = «Oh, then I will not go, I do not want to be a doormat».
+# labels = complete-dep anno-fran
+1-2	Эʼмъим	_	_	_	_	_	_	_	Gloss=где-=EMPH
+1	Эʼмъи	_	ADV	_	_	6	discourse	_	Gloss=где
+2	м	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	ӄыччым	_	AUX	_	_	6	aux	_	Gloss=NEG.FUT
+4	эʼтки	эʼтки	ADV	_	_	6	advmod	_	Gloss=плохо
+5	эʼтки	эʼтки	ADV	_	_	6	advmod	_	Gloss=плохо
+6	тъэнӄэыччын	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-не.хотеть-VB-IPFV
+7	ягмаԓеччо	_	NOUN	_	_	6	xcomp	_	Gloss=ступня-вытирать-SURF-EQU|ModifiedGloss=Yes
+8	итык	итык	AUX	_	_	7	cop	_	Gloss=являться-INF
+9	.	.	PUNCT	_	_	6	punct	_	_
+

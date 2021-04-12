@@ -1,0 +1,353 @@
+# sent_id = Chapaev:1
+# text = Киноԓьыт ыныкит ӈан риӈъэтвэ риӈъэтвэыʼмэ.
+# text[phon] = kinoɬʔət ənəkit ŋan riŋʔetwe riŋʔetweʔəme
+# text[rus] = Когда киномеханики на самолёте это…
+# text[eng] = When projectionists on an aeroplane…
+# labels = complete-dep anno-karina
+1	Киноԓьыт	_	NOUN	_	_	4	nsubj	_	Gloss=фильм-ATTR-NOM.PL
+2	ыныкит	ыныкит	ADV	_	_	5	advmod	_	Gloss=если
+3	ӈан	ӈан	PART	_	_	4	discourse	_	Gloss=DEICT
+4	риӈъэтвэ	_	NOUN	_	_	0	root	_	Gloss=взлетать-лодка-INS
+5-7	риӈъэтвэыʼмэ	_	_	_	_	_	_	_	Gloss=взлетать-лодка-INS-=EMPH-=PTCL|SpaceAfter=No
+5	риӈъэтвэ	_	NOUN	_	_	4	parataxis	_	Gloss=взлетать-лодка-INS
+6	ыʼм	ъм	PART	_	_	5	advmod:emph	_	Gloss=EMPH
+7	э	а	PART	_	_	5	advmod:emph	_	Gloss=PTCL
+8	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Chapaev:2
+# text = Ръэнут риӈъэтвыӄэгти ӈан нытваӄэнат Аннушкано ныԓгыӄинэт.
+# text[phon] = rʔenut riŋʔetwəqeɣti ŋan nətwaqenat annuškano nəɬɣəqinet
+# text[rus] = Такие маленькие самолётики были, их называли «Аннушками».
+# text[eng] = There were such small airplanes, they were called «Annushka».
+# labels = complete-dep anno-karina
+1	Ръэнут	Ръэнут	NOUN	_	_	4	nsubj	_	Gloss=что.NOM.SG
+2	риӈъэтвыӄэгти	_	NOUN	_	_	1	appos	_	Gloss=взлетать-лодка-DIM-NOM.PL
+3	ӈан	ӈан	PART	_	_	2	discourse	_	Gloss=DEICT
+4	нытваӄэнат	вак	AUX	_	Valency=1	0	root	_	Gloss=ST-быть-ST.3SG-PL
+5	Аннушкано	Аннушка	PROPN	_	_	6	xcomp	_	Gloss=Аннушка-EQU
+6	ныԓгыӄинэт	тыԓгык	VERB	_	_	4	parataxis	_	Gloss=TR-считать-ST.3SG-NOM.PL|SpaceAfter=No
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Chapaev:3
+# text = Ынӄэната гакиноратԓенатъым кԓюпчыко.
+# text[phon] = ənqenata ɣakinoratɬenatʔəm kɬupsəko
+# text[rus] = Этим транспортом привезли кино в клуб.
+# text[eng] = They brought the movie to the club by this transport.
+# labels = complete-dep anno-karina
+1	Ынӄэната	ынӄэн	PRON	_	_	2	obl	2:obl	Gloss=DET-INS
+2-3	гакиноратԓенатъым	_	_	_	_	_	_	_	Gloss=PF-фильм-приносить-PF.3SG-PL=EMPH
+2	гакиноратԓенат	_	VERB	_	Incorporated[obj]=Yes|Valency=1	0	root	0:root	Gloss=PF-фильм-приносить-PF.3SG-PL
+2.1	кино	кино	NOUN	_	Incorporated=Yes	_	_	2:obj	Gloss=фильм
+3	ъым	ъм	PART	_	_	2	advmod:emph	2:advmod:emph	Gloss=EMPH
+4	кԓюпчыко	_	NOUN	_	_	2	obl	2:obl	Gloss=клуб-IN|SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	2:punct	_
+
+# sent_id = Chapaev:4
+# text = Клюбэты мури ымыԓьо кэԓиткуԓьымури ынӄэнэ нанвакъовсӄэвмык.
+# text[phon] = kɬubetə muri əməɬʔo keɬitkuɬʔəmuri ənqene nanwakʔowsqewmək
+# text[rus] = Нас всех — мы были школьниками — собрали и рассадили в клубе.
+# text[eng] = All of us—we were schoolchildren—were gathered and seated at the club.
+# labels = complete-dep anno-fran ənqen unclear-syntax
+1	Клюбэты	_	NOUN	_	_	7	obl	_	Gloss=клуб-DAT
+2	мури	мури	PRON	_	_	7	nsubj	_	Gloss=мы
+3	ымыԓьо	ымыԓьо	PRON	_	_	2	appos	_	Gloss=весь
+4	кэԓиткуԓьымури	_	NOUN	_	_	2	parataxis	_	Gloss=писать-ITER-ATTR-NP.1PL
+5-6	ынӄэнэ	_	_	_	_	_	_	_	Gloss=DET-=PTCL
+5	ынӄэн	_	PART	_	_	7	discourse	_	Gloss=DET
+6	э	а	PART	_	_	5	advmod:emph	_	Gloss=PTCL
+7	нанвакъовсӄэвмык	_	VERB	_	Valency=1	0	root	_	Gloss=LOW.A-TR-садиться-CS-MCP-1PL.S/O
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = Chapaev:5
+# text = Ӄытԓыгиыʼм ынӄэнэ чапаевӄай Чапаев ынӄэн мытԓьуэʼн кино тэӈвытку ӄэԓюӄэ.
+# text[phon] = qətɬəɣiʔəm ənqene čapajewqaj čapajew ənqen mətɬʔuʔen kino teŋwətku qeɬuqe
+# text[rus] = Конечно же, мы этот фильм, «Чапаев», смотрели впервые.
+# text[eng] = Of course, we watched this film, «Chapaev», for the first time.
+# labels = complete-dep anno-karina
+1-2	Ӄытԓыгиыʼм	_	_	_	_	_	_	_	Gloss=оказывается-=EMPH
+1	Ӄытԓыги	_	PART	_	_	8	discourse	_	Gloss=оказывается
+2	ыʼм	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3-4	ынӄэнэ	_	_	_	_	_	_	_	Gloss=DET-=PTCL
+3	ынӄэн	_	DET	_	_	5	det	_	Gloss=DET
+4	э	а	PART	_	_	3	advmod:emph	_	Gloss=PTCL
+5	чапаевӄай	чапаевӄай	PROPN	_	_	8	obj	_	Gloss=Чапаев-DIM-NOM.SG
+6	Чапаев	Чапаев	PROPN	_	_	5	appos	_	Gloss=Чапаев-NOM.SG
+7	ынӄэн	ынӄэн	DET	_	_	6	det	_	Gloss=DET
+8	мытԓьуэʼн	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-видеть-TH-3SG.O
+9	кино	_	NOUN	_	_	5	appos	_	Gloss=фильм
+10	тэӈвытку	_	ADV	_	_	8	advmod	_	Gloss=GOOD-впервые
+11-12	ӄэԓюӄэ	_	_	_	_	_	_	_	Gloss=конечно-=PTCL|SpaceAfter=No
+11	ӄэԓюӄ	_	ADV	_	_	8	advmod	_	Gloss=конечно
+12	э	а	PART	_	_	11	advmod:emph	_	Gloss=PTCL
+13	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = Chapaev:6
+# text = Ӈинӄэйӄэгти ӈээккэӄэгти ымыԓьо нывакъотваӄэнатъым.
+# text[phon] = ŋinqejqeɣti ŋeekkeqeɣti əməɬʔo nəwakʔotwaqenatʔəm
+# text[rus] = Мальчишки и девчонки все сидят.
+# text[eng] = All the boys and the girls are sitting.
+# labels = complete-dep anno-karina
+1	Ӈинӄэйӄэгти	_	NOUN	_	_	4	nsubj	_	Gloss=молодой-DIM-DIM-NOM.PL
+2	ӈээккэӄэгти	_	NOUN	_	_	1	conj	_	Gloss=FEM-сын-DIM-NOM.PL
+3	ымыԓьо	ымыԓьо	PRON	_	_	1	det	_	Gloss=весь
+4-5	нывакъотваӄэнатъым	_	_	_	_	_	_	_	Gloss=ST-садиться-RES-ST.3SG-PL-=EMPH
+4	нывакъотваӄэнат	_	VERB	_	Valency=1	0	root	_	Gloss=ST-садиться-RES-ST.3SG-PL
+5	ъым	ъм	PART	_	_	4	advmod:emph	_	Gloss=EMPH
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Chapaev:7
+# text = Наӄам ӈоонко ԓыгэнъым нрзб вай ынӄэн нрзб.
+# text[phon] = naqam ŋoonko ɬəɣenʔəm нрзб waj ənqen нрзб
+# text[rus] = Однако в той стороне прямо так это самое…
+# text[eng] = However, on the other side, just like that, you know…
+# labels = complete-dep anno-fran unclear-syntax
+1	Наӄам	наӄам	CCONJ	_	_	3	cc	_	Gloss=однако
+2	ӈоонко	ӈоонко	PRON	_	_	3	obl	_	Gloss=там-LOC.нер.изм.
+3-4	ԓыгэнъым	_	_	_	_	_	_	_	Gloss=просто-=EMPH
+3	ԓыгэн	_	ADV	_	_	0	root	_	Gloss=просто
+4	ъым	ъм	PART	_	_	3	advmod:emph	_	Gloss=EMPH
+5	нрзб	_	X	_	_	3	discourse	_	Gloss=
+6	вай	вай	ADV	_	_	3	advmod	_	Gloss=вот
+7	ынӄэн	ынӄэн	DET	_	_	3	discourse	_	Gloss=DET
+8	нрзб	_	X	_	_	3	discourse	_	Gloss=
+9	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Chapaev:8
+# text = Нывыргыргыръуӄинъымӈэ уʼрэӈэнри.
+# text[phon] = nəwərɣərɣərʔuqinʔəmŋe ʔureŋenri
+# text[rus] = Вон туда гудит.
+# text[eng] = It’s buzzing there.
+# labels = complete-dep anno-karina
+1-3	Нывыргыргыръуӄинъымӈэ	_	_	_	_	_	_	_	Gloss=ST-шум-DISTR.S-ST.3SG-=EMPH-=PTCL
+1	Нывыргыргыръуӄинъым	_	VERB	_	Valency=1	0	root	_	Gloss=ST-шум-DISTR.S-ST.3SG
+2	м	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	э	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+4	уʼрэӈэнри	уʼрэӈэнри	ADV	_	_	1	advmod	_	Gloss=открытый-там-ADV.ALL
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Chapaev:9
+# text = Йъэԓыги ынӄэн ӈоонко нинэгитэмури ынӄэн кином энмэн.
+# text[phon] = jʔeɬəɣi ənqen ŋoonko nineɣitemuri ənqen kinoʔm enmen
+# text[rus] = Мы всё-таки смотрим там кино.
+# text[eng] = Nevertheless, we are watching the movie there.
+# labels = complete-dep anno-karina
+1	Йъэԓыги	йъэԓыги	ADV	_	_	4	discourse	_	Gloss=в.первую.очередь
+2	ынӄэн	ынӄэн	DET	_	_	3	det	_	Gloss=DET
+3	ӈоонко	ӈоонко	PRON	_	_	4	obl	_	Gloss=там-LOC.нер.изм.
+4	нинэгитэмури	гитэк	VERB	_	_	0	root	_	Gloss=ST-INV-смотреть-NP.1PL
+5	ынӄэн	ынӄэн	DET	_	_	6	det	_	Gloss=DET
+6-7	кином	_	_	_	_	_	_	_	Gloss=фильм-NOM.SG-=EMPH
+6	кино	кином	NOUN	_	_	4	obj	_	Gloss=фильм-NOM.SG
+7	м	ъм	PART	_	_	6	advmod:emph	_	Gloss=EMPH
+8	энмэн	энмэн	PART	_	_	4	discourse	_	Gloss=так.вот
+9	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Chapaev:10
+# text = Ынӄэн ыныкит чапаевӄай нын нэнъиръиԓемйигӈы нынтоӄэнъымэ.
+# text[phon] = ənqen ənəkit čapajewqaj nən nenʔirʔiɬemjiɣŋə nəntoqenʔəme
+# text[rus] = Как этот Чапаев на большой скорости скачет (выскакивает).
+# text[eng] = How this Chapaev jumps out at high speed.
+# labels = complete-dep anno-karina
+1	Ынӄэн	ынӄэн	DET	_	_	3	det	_	Gloss=DET
+2	ыныкит	ыныкит	ADV	_	_	6	advmod	_	Gloss=если
+3	чапаевӄай	чапаевӄай	PROPN	_	_	6	nsubj	_	Gloss=Чапаев-DIM-NOM.SG
+4	нын	нын	X	_	_	6	reparandum	_	Gloss=FST
+5	нэнъиръиԓемйигӈы	нэнъиръиԓемйигӈы	X	_	_	6	reparandum	_	Gloss=FST
+6-8	нынтоӄэнъымэ	_	_	_	_	_	_	_	Gloss=ST-выходить-ST.3SG-=EMPH-=PTCL
+6	нынтоӄэн	_	VERB	_	Valency=1	0	root	_	Gloss=ST-выходить-ST.3SG
+7	ъым	ъм	PART	_	_	6	advmod:emph	_	Gloss=EMPH
+8	э	а	PART	_	_	6	advmod:emph	_	Gloss=PTCL
+9	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Chapaev:11
+# text = Наӄам ӈан вааԓ пакоԓырговаԓяйӈын ӄнут.
+# text[phon] = naqam ŋan waaɬ pakoɬərɣowaɬajŋən qnut
+# text[rus] = И сабля у него, как огромный нож для срезания ворса.
+# text[eng] = And his sword is like a big knife for removing hair from a reindeer skin.
+# labels = complete-dep anno-karina
+1	Наӄам	наӄам	CCONJ	_	_	4	cc	_	Gloss=однако
+2	ӈан	ӈан	PART	_	_	4	discourse	_	Gloss=DEICT
+3	вааԓ	вааԓ	NOUN	_	_	4	nsubj	_	Gloss=нож.NOM.SG
+4	пакоԓырговаԓяйӈын	пакоԓырговаԓяйӈын	NOUN	_	_	0	root	_	Gloss=срезать.ворс.специальным.ножом-нож-AUG-NOM.SG
+5	ӄнут	_	ADP	_	_	4	case	_	Gloss=как
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Chapaev:12
+# text = Ынӄэнэ ԓевтык гыргоԓя вай ынӈин нинэниԓюйвыӄин нинэниԓюйвыӄинъым.
+# text[phon] = ənqene ɬewtək ɣərɣoɬa waj ənŋin nineniɬujwəqin nineniɬujwəqinʔəm
+# text[rus] = И он над головой вот так двигает.
+# text[eng] = And he is moving it above his head like that.
+# labels = complete-dep anno-karina
+1-2	Ынӄэнэ	_	_	_	_	_	_	_	Gloss=DET-=PTCL
+1	Ынӄэн	_	PRON	_	_	7	nsubj	_	Gloss=DET
+2	э	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3	ԓевтык	_	NOUN	_	_	7	obl	_	Gloss=голова-LOC
+4	гыргоԓя	_	ADP	_	_	3	case	_	Gloss=вверху
+5	вай	вай	PART	_	_	6	discourse	_	Gloss=вот
+6	ынӈин	ынӈин	ADV	_	_	7	advmod	_	Gloss=так
+7	нинэниԓюйвыӄин	риԓюк	VERB	_	_	0	root	_	Gloss=ST-INV-TR-двигаться-DISTR.O-ST.3SG
+8-9	нинэниԓюйвыӄинъым	_	_	_	_	_	_	_	Gloss=ST-INV-TR-двигаться-DISTR.O-ST.3SG-=EMPH
+8	нинэниԓюйвыӄин	_	VERB	_	_	7	parataxis	_	Gloss=ST-INV-TR-двигаться-DISTR.O-ST.3SG
+9	ъым	ъм	PART	_	_	8	advmod:emph	_	Gloss=EMPH
+10	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = Chapaev:13
+# text = И ӈинӄэйӄэгти ӈээккэӄэгти ымыԓьо нивӄинэт.
+# text[phon] = i ŋinqejqeɣti ŋeekkeqeɣti əməɬʔo niwqinet
+# text[rus] = И мальчишки, и девчонки все говорят:
+# text[eng] = Both boys and girls all are saying:
+# labels = complete-dep anno-karina
+1	И	_	X	_	_	5	cc	_	Gloss=и
+2	ӈинӄэйӄэгти	_	NOUN	_	_	5	nsubj	_	Gloss=молодой-DIM-DIM-NOM.PL
+3	ӈээккэӄэгти	_	NOUN	_	_	2	conj	_	Gloss=FEM-сын-DIM-NOM.PL
+4	ымыԓьо	ымыԓьо	PRON	_	_	3	appos	_	Gloss=весь
+5	нивӄинэт	ивык	VERB	_	Valency=2	0	root	_	Gloss=ST-сказать-ST.3SG-PL
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Chapaev:14
+# text = Урааа мургинэт ура мургинэт.
+# text[phon] = uraaa murɣinet ura murɣinet
+# text[rus] = «Ура-а-а! Наши! Ура! Наши!».
+# text[eng] = «Hurrah! Ours! Hurrah! Ours!».
+# labels = complete-dep anno-karina
+1	Урааа	_	X	_	_	2	discourse	_	Gloss=ура.нер.изм.
+2	мургинэт	_	PRON	_	_	0	root	_	Gloss=мы-GEN-PL
+3	ура	_	X	_	_	4	discourse	_	Gloss=ура
+4	мургинэт	_	PRON	_	_	2	parataxis	_	Gloss=мы-GEN-PL
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Chapaev:15
+# text = Ынӈатаԓ гым нэмыӄэй ӄэԓюӄъым.
+# text[phon] = ənŋataɬ ɣəm neməqej qeɬuqʔəm
+# text[rus] = И я тоже, конечно.
+# text[eng] = Me too, of course.
+# labels = complete-dep anno-karina
+1	Ынӈатаԓ	ынӈатаԓ	ADV	_	_	0	root	_	Gloss=очень
+2	гым	гым	PRON	_	_	1	nsubj	_	Gloss=я
+3	нэмыӄэй	нэмыӄэй	ADV	_	_	1	advmod	_	Gloss=тоже
+4-5	ӄэԓюӄъым	_	_	_	_	_	_	_	 Gloss=конечно-=EMPH
+4	ӄэԓюӄ	ӄэԓюӄъым	ADV	_	_	1	discourse	_	Gloss=конечно
+5	ъым	ъм	PART	_	_	4	advmod:emph	_	Gloss=EMPH
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Chapaev:16
+# text = Нивигым эʼтки аʼӄаԓеӈгыргын.
+# text[phon] = niwiɣəm ʔetki ʔaqaɬeŋɣərɣən
+# text[rus] = Думаю: очень страшно.
+# text[eng] = I think it is very scary.
+# labels = complete-dep anno-karina
+1	Нивигым	_	VERB	_	Valency=2	0	root	_	Gloss=ST-сказать-NP.1SG
+2	эʼтки	эʼтки	ADV	_	_	3	advmod	_	Gloss=плохо
+3	аʼӄаԓеӈгыргын	аʼӄаԓеӈгыргын	NOUN	_	_	1	parataxis	_	Gloss=плохой-сердце-NMLZ-NOM.SG
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Chapaev:17
+# text = Нэмыӄэйъымэ ӄынвэтъымэ тъэче гииӈитыкъымэ ӄынвэтэ амноӈэты нэмыӄэй киноратыӈӈоаʼт.
+# text[phon] = neməqejʔəme qənwetʔəme tʔese ɣiiŋitəkʔəme qənwete amnoŋetə neməqej kinoratəŋŋoʔat
+# text[rus] = Как-то через несколько лет тоже наконец стали возить кино по бригадам.
+# text[eng] = Sometimes a few years later, they also finally began to carry films around the camps.
+# labels = complete-dep anno-karina
+1-3	Нэмыӄэйъымэ	_	_	_	_	_	_	_	Gloss=тоже-=EMPH-=PTCL
+1	Нэмыӄэй	_	ADV	_	_	15	advmod	15:advmod	Gloss=тоже
+2	ъым	ъм	PART	_	_	1	advmod:emph	1:advmod:emph	Gloss=EMPH
+3	э	а	PART	_	_	1	advmod:emph	1:advmod:emph	Gloss=PTCL
+4-6	ӄынвэтъымэ	_	_	_	_	_	_	_	Gloss=наконец-=EMPH-=PTCL
+4	ӄынвэт	_	ADV	_	_	15	advmod	15:advmod	Gloss=наконец
+5	ъым	ъм	PART	_	_	4	advmod:emph	4:advmod:emph	Gloss=EMPH
+6	э	а	PART	_	_	4	advmod:emph	4:advmod:emph	Gloss=PTCL
+7	тъэче	_	ADV	_	_	8	advmod	8:advmod	Gloss=сколько-MPL
+8-10	гииӈитыкъымэ	_	_	_	_	_	_	_	Gloss=год-TIME-LOC-=EMPH-=PTCL
+8	гииӈитык	_	NOUN	_	_	15	obl	15:obl	Gloss=год-TIME-LOC
+9	ъым	ъм	PART	_	_	8	advmod:emph	8:advmod:emph	Gloss=EMPH
+10	э	а	PART	_	_	8	advmod:emph	8:advmod:emph	Gloss=PTCL
+11-12	ӄынвэтэ	_	_	_	_	_	_	_	Gloss=наконец-=PTCL
+11	ӄынвэт	_	ADV	_	_	15	advmod	15:advmod	Gloss=наконец
+12	э	а	PART	_	_	11	advmod:emph	11:advmod:emph	Gloss=PTCL
+13	амноӈэты	эмнуӈ	NOUN	_	_	15	obl	15:obl	Gloss=тундра-DAT
+14	нэмыӄэй	нэмыӄэй	ADV	_	_	15	advmod	15:advmod	Gloss=тоже
+15	киноратыӈӈоаʼт	рэтык	VERB	_	Incorporated[obj]=Yes	0	root	0:root	2/3.S/A-фильм-приносить-INCH-TH-PL
+15.1	кино	кино	NOUN	_	Incorporated=Yes	_	_	15:obj	Gloss=фильм
+16	.	.	PUNCT	_	_	15	punct	15:punct	_
+
+# sent_id = Chapaev:18
+# text = Ынпыначгытъым нэмыӄэй ныкиноӄэнат.
+# text[phon] = ənpənasɣətʔəm neməqej nəkinoqenat
+# text[rus] = Старики тоже смотрели кино.
+# text[eng] = Old men also watched movies.
+# labels = complete-dep anno-karina
+1-2	Ынпыначгытъым	_	_	_	_	_	_	_	Gloss=старик-NOM.PL-=EMPH
+1	Ынпыначгыт	ынпыначгын	NOUN	_	_	4	nsubj	_	Gloss=старик-NOM.PL
+2	ъым	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	нэмыӄэй	нэмыӄэй	ADV	_	_	4	advmod	_	Gloss=тоже
+4	ныкиноӄэнат	_	VERB	_	_	0	root	_	Gloss=ST-фильм-ST.3SG-PL
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Chapaev:19
+# text = Ынԓеко ымыӈ ытри Аӈӄавъе ынӄэн нывакъотваӄэнат нэмыӄэйъым чыпэт тъэче маԓмытԓыӈча нэгитээʼн ынӄэн ыннэнчьэн Чапаевӄай.
+# text[phon] = ənɬeko əməŋ ətri aŋqawje ənqen nəwakʔotwaqenat neməqejʔəm səpet tʔese maɬmətɬəŋsa neɣiteʔen ənqen ənnensʔen sapajewqaj
+# text[rus] = Нынлеко и Анкавъе cидели тоже и аж раз пять посмотрели этого первого «Чапаева».
+# text[eng] = Nynleko and Anqawje sat too, and watched this «Chapaev» as much as around five times.
+# labels = complete-dep anno-karina
+1	Ынԓеко	Ынԓеко	PROPN	_	_	6	nsubj	_	Gloss=Нынлеко-NOM.SG
+2	ымыӈ	ымыӈ	ADV	_	_	4	cc	_	Gloss=также
+3	ытри	ытри	PRON	_	_	1	appos	_	Gloss=они
+4	Аӈӄавъе	Аӈӄавъе	PROPN	_	_	1	conj	_	Gloss=Анкавъе-NOM.SG
+5	ынӄэн	ынӄэн	DET	_	_	3	det	_	Gloss=DET
+6	нывакъотваӄэнат	_	VERB	_	Valency=1	0	root	_	Gloss=ST-садиться-RES-ST.3SG-PL
+7-8	нэмыӄэйъым	_	_	_	_	_	_	_	Gloss=тоже-=EMPH
+7	нэмыӄэй	_	ADV	_	_	6	advmod	_	Gloss=тоже
+8	ъым	ъм	PART	_	_	7	advmod:emph	_	Gloss=EMPH
+9	чыпэт	_	ADV	_	_	11	advmod	_	Gloss=даже
+10	тъэче	_	ADV	_	_	11	advmod	_	Gloss=сколько-MPL
+11	маԓмытԓыӈча	_	NUM	_	_	12	nummod	_	Gloss=SEEM-пять-MPL
+12	нэгитээʼн	_	VERB	_	_	6	parataxis	_	Gloss=LOW.A-смотреть-TH-3SG.O
+13	ынӄэн	ынӄэн	DET	_	_	14	det	_	Gloss=DET
+14	ыннэнчьэн	ыннэнчьэн	ADJ	_	_	15	amod	_	Gloss=один-ADJ-NOM.SG
+15	Чапаевӄай	Чапаев	PROPN	_	_	12	obj	_	Gloss=Чапаев-DIM-NOM.SG
+16	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Chapaev:20
+# text = Ынԓеко нивӄинэ Ынԓекона нинивӄинэ Аӈӄавъе.
+# text[phon] = ənɬeko niwqine ənɬekona niniwqine aŋqawje
+# text[rus] = Нынлеко говорит Анкавъе:
+# text[eng] = Nynleko says to Anqawje:
+# labels = complete-dep anno-karina speech inverse-contrast
+1	Ынԓеко	Ынԓеко	PROPN	_	_	2	nsubj	_	Gloss=Нынлеко-NOM.SG
+2-3	нивӄинэ	_	_	_	_	_	_	_	Gloss=ST-сказать-ST.3SG-=PTCL
+2	нивӄин	_	VERB	_	Valency=2	0	root	_	Gloss=ST-сказать-ST.3SG
+3	э	а	PART	_	_	2	advmod:emph	_	Gloss=PTCL
+4	Ынԓекона	_	PROPN	_	Case=Erg	5	nsubj	_	Gloss=Нынлеко-AN.INS
+5-6	нинивӄинэ	_	_	_	_	_	_	_	Gloss=ST-INV-сказать-ST.3SG-=PTCL
+5	нинивӄин	_	VERB	_	Valency=2	2	parataxis	_	Gloss=ST-INV-сказать-ST.3SG
+6	э	а	PART	_	_	5	advmod:emph	_	Gloss=PTCL
+7	Аӈӄавъе	Аӈӄавъе	PROPN	_	_	5	obj	_	Gloss=Анкавъе-NOM.SG
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Chapaev:21
+# text = Ынӈатаԓ аръаԓя Чапаевӄай этъуркыкыԓьи.
+# text[phon] = ənŋataɬ arʔaɬa čapajewqaj etʔurkəkəɬʔi
+# text[rus] = «Надо же, Чапаев такой неосторожный!».
+# text[eng] = «Oh my gosh! Chapaev is so careless!».
+# labels = complete-dep anno-karina
+1	Ынӈатаԓ	ынӈатаԓ	ADV	_	_	2	advmod	_	Gloss=очень
+2	аръаԓя	аръаԓя	ADV	_	_	4	advmod	_	Gloss=очень
+3	Чапаевӄай	Чапаев	PROPN	_	_	4	nsubj	_	Gloss=Чапаев-DIM-NOM.SG
+4	этъуркыкыԓьи	этъуркыкыԓьи	ADJ	_	_	0	root	_	Gloss=неосторожный|SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Chapaev:22
+# text = Ӄоԓьым нивӄин ӄун ии вэнъым эʼтки.
+# text[phon] = qoɬʔəm niwqin qun ii wenʔəm ʔetki
+# text[rus] = Другой отвечает: «Да, я абсолютно с тобой согласен, как так можно».
+# text[eng] = Another one answers: «Yes, I absolutely agree with you, it’s insanity!».
+# labels = complete-dep anno-karina speech
+1-2	Ӄоԓьым	_	_	_	_	_	_	_	Gloss=некий-=EMPH
+1	Ӄоԓ	ӄоԓ	PRON	_	_	3	nsubj	_	Gloss=некий
+2	ьым	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	нивӄин	ивык	VERB	_	Valency=2	0	root	_	Gloss=ST-сказать-ST.3SG
+4	ӄун	ӄун	PART	_	_	7	discourse	_	Gloss=QUN
+5	ии	ии	INTJ	_	_	7	discourse	_	Gloss=да
+6	вэнъым	вэнъым	ADV	_	_	7	advmod	_	Gloss=на.самом.деле
+7	эʼтки	эʼтки	ADV	_	_	3	parataxis	_	Gloss=плохо|SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	_
+

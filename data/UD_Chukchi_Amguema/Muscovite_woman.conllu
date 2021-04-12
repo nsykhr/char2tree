@@ -1,0 +1,99 @@
+# sent_id = Muscovite_woman:1
+# text = Ԓыгъоравэтԓьана ӈавтыӈгъэ мачквичкакъым тэгниԓгыӄин ӈэвысӄэт.
+# text[phon] = ɬəɣʔorawetɬʔana ŋawtəŋɣʔe maskwičkakʔəm teɣniɬɣəqin ŋewəsqet
+# text[rus] = Чукча женился на москвичке, очень белой девушке.
+# text[eng] = A Chukchi man married a girl from Moscow, an extremely pale girl.
+# labels = complete-dep anno-fran
+1-2	Ԓыгъоравэтԓьана	_	_	_	_	_	_	_	Gloss=AUTH-человек-NOM.SG-=PTCL
+1	Ԓыгъоравэтԓьан	Ԓыгъоравэтԓьана	NOUN	_	_	3	nsubj	_	Gloss=AUTH-человек-NOM.SG
+2	а	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3	ӈавтыӈгъэ	ӈавтыӈык	VERB	_	_	0	root	_	Gloss=2/3.S/A-жениться-TH-2/3SG.S
+4-5	мачквичкакъым	_	_	_	_	_	_	_	Gloss=москвичка-LOC-=EMPH
+4	мачквичкак	_	NOUN	_	_	3	obl	_	Gloss=москвичка-LOC
+5	ъым	ъм	PART	_	_	4	advmod:emph	_	Gloss=EMPH
+6	тэгниԓгыӄин	_	ADJ	_	_	3	parataxis	_	Gloss=GOOD-ST-белый-ST.3SG
+7	ӈэвысӄэт	ӈэвысӄэт	NOUN	_	_	6	nsubj	_	Gloss=женщина-NOM.SG
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Muscovite_woman:2
+# text = Ынӄорыӈа ӄоԓетъыԓёӈа нэмэ Чукоткагты етгъиыʼм.
+# text[phon] = ənqorəŋa qoɬetʔəɬoŋa neme čukotkaɣtə jetɣʔiʔəm
+# text[rus] = Потом в следующем году приехал на Чукотку.
+# text[eng] = Then, the next year, she came to Chukotka.
+# labels = complete-dep anno-fran
+1-2	Ынӄорыӈа	_	_	_	_	_	_	_	Gloss=потом-=PTCL
+1	Ынӄоры	_	ADV	_	_	7	advmod	_	Gloss=потом
+2	ӈа	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3-4	ӄоԓетъыԓёӈа	_	_	_	_	_	_	_	Gloss=некий-день-=PTCL
+3	ӄоԓетъыԓё	_	NOUN	_	_	7	obl	_	Gloss=некий-день
+4	ӈа	а	PART	_	_	3	advmod:emph	_	Gloss=PTCL
+5	нэмэ	нэмэ	ADV	_	_	7	advmod	_	Gloss=опять
+6	Чукоткагты	_	PROPN	_	_	7	obl	_	Gloss=Чукотка-DAT
+7-8	етгъиыʼм	_	_	_	_	_	_	_	Gloss=2/3.S/A-приходить-TH-2/3SG.S-=EMPH
+7	етгъи	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-приходить-TH-2/3SG.S
+8	ыʼм	ъм	PART	_	_	7	advmod:emph	_	Gloss=EMPH
+9	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = Muscovite_woman:3
+# text = Игыт намӈыԓёгъан тумгэ.
+# text[phon] = iɣət namŋəɬoɣʔan tumɣe
+# text[rus] = Тут же его друзья расспросили.
+# text[eng] = His friends started asking him (about her).
+# labels = complete-dep anno-fran
+1	Игыт	игыр	ADV	_	_	2	advmod	_	Gloss=сегодня
+2	намӈыԓёгъан	_	VERB	_	_	0	root	_	Gloss=LOW.A-спрашивать-TH-3SG.O
+3	тумгэ	тумгытум	NOUN	_	_	2	nsubj	_	Gloss=друг-INS
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Muscovite_woman:4
+# text = Ыʼмто гынин ӈэвъэн миӈкэмиԓ ваԓьын.
+# text[phon] = ʔəmto ɣənin ŋewʔen miŋkemiɬ waɬʔən
+# text[rus] = «Ну что, как твоя жена?».
+# text[eng] = «So, how is your wife?»
+# labels = complete-dep anno-fran unclear-syntax non-projective
+1	Ыʼмто	ыʼмто	ADV	_	_	4	discourse	_	Gloss=ну.как
+2	гынин	_	PRON	_	_	3	nmod:poss	_	Gloss=ты-GEN
+3	ӈэвъэн	ӈэвъэн	NOUN	_	_	4	nsubj	_	Gloss=жена-NOM.SG
+4	миӈкэмиԓ	_	ADV	_	_	0	root	_	Gloss=где-OBL-LIKE
+5	ваԓьын	ваԓьын	AUX	_	_	3	acl:attr	_	Gloss=быть-ATTR-NOM.SG
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Muscovite_woman:5
+# text = Ии ытԓён ынръам черитӄыԓьуӈэ.
+# text[phon] = ii ətɬon ənrʔam seritqəɬʔuŋe
+# text[rus] = «Да она, видимо, грязнуля.
+# text[eng] = «Apparently, she is a slob.
+# labels = complete-dep anno-fran
+1	Ии	ии	INTJ	_	_	4	discourse	_	Gloss=да
+2	ытԓён	ытԓён	PRON	_	_	4	nsubj	_	Gloss=он
+3	ынръам	ынкъам	PART	_	_	4	discourse	_	Gloss=видимо
+4-5	черитӄыԓьуӈэ	_	_	_	_	_	_	_	Gloss=грязнуля-=PTCL
+4	черитӄыԓьу	черитӄыԓьу	VERB	_	_	0	root	_	Gloss=грязнуля
+5	ӈэ	а	PART	_	_	4	advmod:emph	_	Gloss=PTCL
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Muscovite_woman:6
+# text = Ӄонпы ниԓгытэвӄинэ.
+# text[phon] = qonpə niɬɣətewqine
+# text[rus] = Постоянно моется.
+# text[eng] = She washes herself all the time.
+# labels = complete-dep anno-fran
+1	Ӄонпы	_	ADV	_	_	2	advmod	_	Gloss=всегда
+2-3	ниԓгытэвӄинэ	_	_	_	_	_	_	_	Gloss=ST-мыться-ST.3SG-=PTCL
+2	ниԓгытэвӄин	_	VERB	_	Valency=1	0	root	_	Gloss=ST-мыться-ST.3SG
+3	э	а	PART	_	_	2	advmod:emph	_	Gloss=PTCL
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Muscovite_woman:7
+# text = Турыгъевкы ынкъам вуԓӄытвик ӄонпы ниԓгытэвӄин.
+# text[phon] = turəɣjewkə ənkʔam wuɬqətwik qonpə niɬɣətewqin
+# text[rus] = Как только проснётся и вечером — всегда моется».
+# text[eng] = As soon as she wakes up and in the evening — always washes herself».
+# labels = complete-dep anno-fran conj-compat
+1	Турыгъевкы	_	VERB	_	_	5	advcl	_	Gloss=IMM-просыпаться-LOC
+2	ынкъам	ынкъам	CCONJ	_	_	3	cc	_	Gloss=и
+3	вуԓӄытвик	_	NOUN	_	_	1	conj	_	Gloss=темнота-TRSF-LOC
+4	ӄонпы	_	ADV	_	_	5	advmod	_	Gloss=всегда
+5	ниԓгытэвӄин	_	VERB	_	Valency=1	0	root	_	Gloss=ST-мыться-ST.3SG
+6	.	.	PUNCT	_	_	5	punct	_	_
+

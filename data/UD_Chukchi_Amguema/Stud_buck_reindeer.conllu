@@ -1,0 +1,203 @@
+# sent_id = Stud_buck_reindeer:1
+# text = Эʼми мэ а миӈкыриыʼм ынӄэн тыр тыркыԓьиӈын гэԓӄытԓин.
+# text[phon] = ʔemi me а miŋkəriʔəm ənqen tər tərkəɬʔiŋən ɣeɬqətɬin
+# text[rus] = Где, куда этот производитель ушёл?
+# text[eng] = Where, where did this stud buck reindeer go?
+# labels = complete-dep anno-fran ənqen
+1	Эʼми	эʼми	ADV	_	_	4	reparandum	_	Gloss=где
+2	мэ	мэ	X	_	_	4	reparandum	_	Gloss=FST
+3	а	_	X	_	_	4	reparandum	_	Gloss=
+4-5	миӈкыриыʼм	_	_	_	_	_	_	_	Gloss=где-LOC-ADV.ALL-=EMPH
+4	миӈкыри	_	ADV	_	_	9	advmod	_	Gloss=где-LOC-ADV.ALL
+5	ыʼм	ъм	PART	_	_	4	advmod:emph	_	Gloss=EMPH
+6	ынӄэн	ынӄэн	PART	_	_	9	discourse	_	Gloss=DET
+7	тыр	тыр	X	_	_	8	reparandum	_	Gloss=FST
+8	тыркыԓьиӈын	тыркыԓьиӈын	NOUN	_	_	9	nsubj	_	Gloss=тестикула-ATTR-AUG-NOM.SG
+9	гэԓӄытԓин	ӄытык	VERB	_	Valency=1	0	root	_	Gloss=PF-идти-PF.3SG
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = Stud_buck_reindeer:2
+# text = Это Ыʼттъыгыргынэ гэкэӈэ пыкиргъим.
+# text[phon] = это ʔəttʔəɣərɣəne ɣekeŋe pəkirɣʔiʔm
+# text[rus] = Ыттыгыргын приехал на оленьей упряжке.
+# text[eng] = Yttygyrgyn arrived on a reindeer sleigh.
+# labels = complete-dep anno-fran
+1	Это	_	X	_	_	5	discourse	_	Gloss=
+2-3	Ыʼттъыгыргынэ	_	_	_	_	_	_	_	Gloss=Ыттыгыргин-NOM.SG-=PTCL
+2	Ыʼттъыгыргын	Ыʼттъыгыргын	PROPN	_	_	5	nsubj	_	Gloss=Ыттыгыргин-NOM.SG
+3	э	а	PART	_	_	2	advmod:emph	_	Gloss=PTCL
+4	гэкэӈэ	_	NOUN	_	_	5	obl	_	Gloss=упряжка-INS
+5-6	пыкиргъим	_	_	_	_	_	_	_	Gloss=2/3.S/A-прибывать-TH-2/3SG.S-=EMPH
+5	пыкиргъи	_	VERB	_	Valency=1	0	root	_	Gloss=2/3.S/A-прибывать-TH-2/3SG.S
+6	м	ъм	PART	_	_	5	advmod:emph	_	Gloss=EMPH
+7	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Stud_buck_reindeer:3
+# text = Тынарагтына йъонэн ынӄэ ныпчеӈиӄинэт.
+# text[phon] = tənaraɣtəna jʔonen ənqe nəpseŋiqinet
+# text[rus] = Тынарагтын пошёл ему навстречу, и они начали разговаривать.
+# text[eng] = Tynaragtyn went to meet him, and they began to talk.
+# labels = complete-dep anno-fran ənqen
+1	Тынарагтына	Тынарагтын	PROPN	_	_	2	nsubj	_	Gloss=Тынарагтын-AN.INS
+2	йъонэн	йъок	VERB	_	_	0	root	_	Gloss=2/3.S/A-настигать-3SG.A.3.O-3SG.O
+3	ынӄэ	_	PART	_	_	4	discourse	_	Gloss=DET
+4	ныпчеӈиӄинэт	_	VERB	_	Valency=1	2	parataxis	_	Gloss=ST-расспрашивать-ST.3SG-PL
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Stud_buck_reindeer:4
+# text = Ӈээккэӄэгти наӄам ытри ынӄэнэ Наташа и Валерия ныкытгынтыръоӄэнат гыроԓмакы ырык.
+# text[phon] = ŋeekkeqeɣti naqam ətri ənqene Наташа и Валерия nəkətɣəntərʔoqenat ɣəroɬmakə ərək
+# text[rus] = Ну там девочки — Наташа и Валерия — бегают вокруг них.
+# text[eng] = Well, there girls—Natasha and Valeria—were running around them.
+# labels = complete-dep anno-fran ənqen non-projective
+1	Ӈээккэӄэгти	_	NOUN	_	_	9	nsubj	_	Gloss=FEM-сын-DIM-NOM.PL
+2	наӄам	наӄам	ADV	_	_	9	discourse	_	Gloss=однако
+3	ытри	ытри	PRON	_	_	1	appos	_	Gloss=они
+4-5	ынӄэнэ	_	_	_	_	_	_	_	Gloss=DET-=PTCL
+4	ынӄэн	_	PART	_	_	9	discourse	_	Gloss=DET
+5	э	а	PART	_	_	4	advmod:emph	_	Gloss=PTCL
+6	Наташа	_	PROPN	_	_	1	appos	_	Gloss=
+7	и	_	CCONJ	_	_	8	cc	_	Gloss=
+8	Валерия	_	PROPN	_	_	6	conj	_	Gloss=
+9	ныкытгынтыръоӄэнат	_	VERB	_	Valency=1	0	root	_	Gloss=ST-бежать-DISTR.S-ST.3SG-PL
+10	гыроԓмакы	_	ADV	_	_	9	advmod	_	Gloss=вокруг
+11	ырык	_	PRON	_	_	9	obl	_	Gloss=они-LOC
+12	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = Stud_buck_reindeer:5
+# text = Нрзб Тынарагтына а Тыӈэтинэ ынӄэнэ ӄаавъятыԓьынэ Ыʼттъыгыргын йъонэнъымэ агтаннэнат ынӄэн ӄаат оʼраӈоонрэ.
+# text[phon] = нрзб tənaraɣtəna а təŋetine ənqene qaawjatəɬʔəne ʔəttʔəɣərɣən jʔonenʔəme aɣtannenat ənqen qaat ʔoraŋoonre
+# text[rus] = Тынарагтын… а — Тынэти — пошёл к распрягавшему оленей Ыттыгыргину, отогнал тех оленей в другую сторону.
+# text[eng] = Tynaragtyn… no—Tyngeti—went to Yttygyrgyn who was unharnessing reindeers and drove those reindeers in the other direction.
+# labels = complete-dep anno-fran ənqen
+1	Нрзб	_	X	_	_	10	discourse	_	Gloss=
+2	Тынарагтына	_	PROPN	_	_	4	reparandum	_	Gloss=Тынарагтын-AN.INS
+3	а	_	X	_	_	4	discourse	_	Gloss=
+4	Тыӈэтинэ	тыӈэк	PROPN	_	_	10	nsubj	_	Gloss=Тынэти-AN.INS
+5-6	ынӄэнэ	_	_	_	_	_	_	_	Gloss=DET-=PTCL
+5	ынӄэн	_	PART	_	_	10	discourse	_	Gloss=DET
+6	э	а	PART	_	_	5	advmod:emph	_	Gloss=PTCL
+7-8	ӄаавъятыԓьынэ	_	_	_	_	_	_	_	Gloss=олень-распрягать-ATTR-NOM.SG-=PTCL
+7	ӄаавъятыԓьын	ӄаавъятыԓьынэ	VERB	_	_	9	acl:attr	_	Gloss=олень-распрягать-ATTR-NOM.SG
+8	э	а	PART	_	_	7	advmod:emph	_	Gloss=PTCL
+9	Ыʼттъыгыргын	Ыʼттъыгыргын	PROPN	_	_	10	obj	_	Gloss=Ыттыгыргин-NOM.SG
+10-12	йъонэнъымэ	_	_	_	_	_	_	_	Gloss=2/3.S/A-настигать-3SG.A.3.O-3SG.O-=EMPH-=PTCL
+10	йъонэн	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-настигать-3SG.A.3.O-3SG.O
+11	ъым	ъм	PART	_	_	10	advmod:emph	_	Gloss=EMPH
+12	э	а	PART	_	_	10	advmod:emph	_	Gloss=PTCL
+13	агтаннэнат	_	VERB	_	_	10	parataxis	_	Gloss=2/3.S/A-гнать-3SG.A.3.O-3SG.O-PL
+14	ынӄэн	ынӄэн	DET	_	_	15	det	_	Gloss=DET
+15	ӄаат	_	NOUN	_	_	13	obj	_	Gloss=олень-NOM.PL
+16	оʼраӈоонрэ	_	ADV	_	_	13	advmod	_	Gloss=TOWARDS-там-ADV.ALL
+17	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = Stud_buck_reindeer:6
+# text = Нрзб наӄам мачгыргочаыʼмэ ӄаагтатыԓьын уʼрэӈунриԓы ааӄъым ынӄэн йи га га гаканъёт нэна нэнарэӈатӄэнат ӈаԓвыԓьэты.
+# text[phon] = нрзб naqam masɣərɣosaʔəme qaaɣtatəɬʔən ʔureŋunriɬə aaqʔəm ənqen ji ɣa ɣa ɣakanjot nena nenareŋatqenat ŋaɬwəɬʔetə
+# text[rus] = На возвышенности пастух вон туда тех упряжных оленей гнал от стойбища к стаду.
+# text[eng] = On a hill, a shepherd drove those sledge reindeers from the camp to the herd.
+# labels = complete-dep anno-fran ənqen disfluency
+1	Нрзб	_	X	_	_	15	discourse	_	Gloss=
+2	наӄам	наӄам	ADV	_	_	15	advmod	_	Gloss=однако
+3-5	мачгыргочаыʼмэ	_	_	_	_	_	_	_	Gloss=APPR-вверху-=EMPH-=PTCL
+3	мачгыргочаыʼ	_	ADV	_	_	15	advmod	_	Gloss=APPR-вверху
+4	м	ъм	PART	_	_	3	advmod:emph	_	Gloss=EMPH
+5	э	а	PART	_	_	3	advmod:emph	_	Gloss=PTCL
+6	ӄаагтатыԓьын	ӄаагтатыԓьын	NOUN	_	_	15	dislocated	_	Gloss=олень-гнать-ATTR-NOM.SG
+7	уʼрэӈунриԓы	_	ADV	_	_	15	advmod	_	Gloss=TOWARDS-там.в.стороне-ADV.ALL.EXH
+8	ааӄъым	ааӄъым	X	_	_	9	reparandum	_	Gloss=FST
+9	ынӄэн	ынӄэн	PART	_	_	15	discourse	_	Gloss=DET
+10	йи	йи	X	_	_	13	reparandum	_	Gloss=FST
+11	га	га	X	_	_	13	reparandum	_	Gloss=FST
+12	га	га	X	_	_	13	reparandum	_	Gloss=FST
+13	гаканъёт	_	NOUN	_	_	15	obj	_	Gloss=пара.упряжных.оленей-NOM.PL
+14	нэна	нэна	X	_	_	15	reparandum	_	Gloss=FST
+15	нэнарэӈатӄэнат	_	VERB	_	_	0	root	_	Gloss=ST-INV-отгонять.стадо.от.стойбища-ST.3SG-PL
+16	ӈаԓвыԓьэты	_	NOUN	_	_	15	obl	_	Gloss=стадо-DAT
+17	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = Stud_buck_reindeer:7
+# text = Тынарагтынаыʼм Ыʼттъыгыргын нэнамӈыԓёӄэн миӈкыриыʼм тыркыԓьиӈын еэ гэԓ гэ гэԓӄытԓин.
+# text[phon] = tənaraɣtənaʔəm ʔəttʔəɣərɣən nenamŋəɬoqen miŋkəriʔəm tərkəɬʔiŋən jee ɣeɬ ɣe ɣeɬqətɬin
+# text[rus] = Тынарагтын спрашивает Ыттыгыргина: «В какую сторону производитель пошёл?».
+# text[eng] = Tynaragtyn asks Yttygyrgin: «Which way did the stud buck reindeer go?».
+# labels = complete-dep anno-fran
+1-2	Тынарагтынаыʼм	_	_	_	_	_	_	_	Gloss=Тынарагтын-AN.INS-=EMPH
+1	Тынарагтына	_	PROPN	_	_	4	nsubj	_	Gloss=Тынарагтын-AN.INS
+2	ыʼм	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	Ыʼттъыгыргын	Ыʼттъыгыргын	PROPN	_	_	4	obj	_	Gloss=Ыттыгыргин-NOM.SG
+4	нэнамӈыԓёӄэн	_	VERB	_	_	0	root	_	Gloss=ST-INV-спрашивать-ST.3SG
+5-6	миӈкыриыʼм	_	_	_	_	_	_	_	Gloss=где-LOC-ADV.ALL-=EMPH
+5	миӈкыри	_	ADV	_	_	11	advmod	_	Gloss=где-LOC-ADV.ALL
+6	ыʼм	ъм	PART	_	_	5	advmod:emph	_	Gloss=EMPH
+7	тыркыԓьиӈын	тыркыԓьиӈын	NOUN	_	_	11	nsubj	_	Gloss=тестикула-ATTR-AUG-NOM.SG
+8	еэ	еэ	X	_	_	11	reparandum	_	Gloss=FST
+9	гэԓ	гэԓ	X	_	_	11	reparandum	_	Gloss=FST
+10	гэ	гэ	X	_	_	11	reparandum	_	Gloss=FST
+11	гэԓӄытԓин	ӄытык	VERB	_	Valency=1	4	parataxis	_	Gloss=PF-идти-PF.3SG
+12	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Stud_buck_reindeer:8
+# text = Тыркыԓьиӈын эʼми.
+# text[phon] = tərkəɬʔiŋən ʔemi
+# text[rus] = «Где бык-производитель?».
+# text[eng] = «Where is the stud buck reindeer?».
+# labels = complete-dep anno-fran
+1	Тыркыԓьиӈын	Тыркыԓьиӈын	NOUN	_	_	2	nsubj	_	Gloss=тестикула-ATTR-AUG-NOM.SG
+2	эʼми	эʼми	ADV	_	_	0	root	_	Gloss=где
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Stud_buck_reindeer:9
+# text = А тут ӈээккэӄэгти ынӄэн Валерия увидела Романа ынӄэн ԓьунин Тыӈэти.
+# text[phon] = а тут ŋeekkeqeɣti ənqen Валерия увидела Романа ənqen ɬʔunin təŋeti
+# text[rus] = А тут девочки… Валерия увидела Романа, увидела Тынэти.
+# text[eng] = And then the girls… Valeria saw Roman, saw Tyngeti.
+# labels = complete-dep anno-fran ənqen disfluency
+1	А	_	X	_	_	9	discourse	_	Gloss=
+2	тут	так	X	_	_	1	flat:foreign	_	Gloss=
+3	ӈээккэӄэгти	_	NOUN	_	_	9	dislocated	_	Gloss=FEM-сын-DIM-NOM.PL
+4	ынӄэн	ынӄэн	PART	_	_	9	discourse	_	Gloss=DET
+5	Валерия	Валерия	PROPN	_	_	6	nsubj	_	Gloss=
+6	увидела	_	VERB	_	_	9	reparandum	_	Gloss=
+7	Романа	Роман	PROPN	_	_	6	obj	_	Gloss=
+8	ынӄэн	ынӄэн	PRON	_	_	9	nsubj	_	Gloss=DET
+9	ԓьунин	ԓьук	VERB	_	_	0	root	_	Gloss=2/3.S/A-видеть-3SG.A.3.O-3SG.O
+10	Тыӈэти	Тыӈэти	PROPN	_	_	9	obj	_	Gloss=Тынэти-NOM.SG
+11	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = Stud_buck_reindeer:10
+# text = Ԓьунин Тыӈэтим нивӄин ӈаанӄэнъым вай тыркыԓьиӈын.
+# text[phon] = ɬʔunin təŋetiʔm niwqin ŋaanqenʔəm waj tərkəɬʔiŋən
+# text[rus] = Увидела Тынэти и говорит: «Вон он, производитель!».
+# text[eng] = She saw Tyngeti and says: «There he is, the stud buck reindeer!».
+# labels = complete-dep anno-fran
+1	Ԓьунин	ԓьук	VERB	_	_	0	root	_	Gloss=2/3.S/A-видеть-3SG.A.3.O-3SG.O
+2-3	Тыӈэтим	_	_	_	_	_	_	_	Gloss=Тынэти-NOM.SG-=EMPH
+2	Тыӈэти	Тыӈэтим	PROPN	_	_	1	obj	_	Gloss=Тынэти-NOM.SG
+3	м	ъм	PART	_	_	2	advmod:emph	_	Gloss=EMPH
+4	нивӄин	ивык	VERB	_	Valency=2	1	parataxis	_	Gloss=ST-сказать-ST.3SG
+5-6	ӈаанӄэнъым	_	_	_	_	_	_	_	Gloss=вон.тот-=EMPH
+5	ӈаанӄэн	_	ADV	_	_	4	parataxis:speech	_	Gloss=вон.тот
+6	ъым	ъм	PART	_	_	5	advmod:emph	_	Gloss=EMPH
+7	вай	вай	ADV	_	_	8	advmod	_	Gloss=вот
+8	тыркыԓьиӈын	тыркыԓьиӈын	NOUN	_	_	5	parataxis	_	Gloss=тестикула-ATTR-AUG-NOM.SG
+9	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Stud_buck_reindeer:11
+# text = Наташанаыʼм нинивӄин ӄырымэн ынӄэн тыркыԓьиӈын ынӄэн дядя Рома.
+# text[phon] = natašanaʔəm niniwqin qərəmen ənqen tərkəɬʔiŋən ənqen дядя Рома
+# text[rus] = Наташа говорит: «Это не производитель, это дядя Рома!».
+# text[eng] = Natasha says: «This is not a stud buck reindeer, this is uncle Roma!».
+# labels = complete-dep anno-fran ənqen unclear-syntax
+1-2	Наташанаыʼм	_	_	_	_	_	_	_	Gloss=Тынэти-NOM.SG-=EMPH
+1	Наташана	Наташа	PROPN	_	_	3	nsubj	_	Gloss=Наташа-AN.INS
+2	ыʼм	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	нинивӄин	ивык	VERB	_	_	0	root	_	Gloss=ST-INV-сказать-ST.3SG
+4	ӄырымэн	ӄырымэн	AUX	_	_	3	parataxis:speech	_	Gloss=NEG.FUT-GEN
+5	ынӄэн	ынӄэн	DET	_	_	6	det	_	Gloss=DET
+6	тыркыԓьиӈын	тыркыԓьиӈын	NOUN	_	_	4	nsubj	_	Gloss=тестикула-ATTR-AUG-NOM.SG
+7	ынӄэн	ынӄэн	DET	_	_	8	det	_	Gloss=DET
+8	дядя	дядя	NOUN	_	_	3	parataxis:speech	_	Gloss=
+9	Рома	Рома	PROPN	_	_	8	appos	_	Gloss=
+10	.	.	PUNCT	_	_	3	punct	_	_
+

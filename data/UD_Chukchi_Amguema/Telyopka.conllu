@@ -1,0 +1,328 @@
+# sent_id = Telyopka:1
+# text = Тэлёпкаӄай Тэлёпкаӄай аны ӄыгывъекви.
+# text[phon] = telʲopkaqaj telʲopkaqaj anə qəɣəwjekwi
+# text[rus] = Телёпка, Телёпка, ну проснись.
+# text[eng] = Telyopka, Telyopka, come on, wake up.
+# labels = complete-dep anno-fran
+1	Тэлёпкаӄай	Тэлёпка	PROPN	_	_	2	reparandum	_	Gloss=Телёпка-DIM-NOM.SG
+2	Тэлёпкаӄай	Тэлёпка	PROPN	_	_	4	vocative	_	Gloss=Телёпка-DIM-NOM.SG
+3	аны	аны	ADV	_	_	4	advmod	_	Gloss=давай
+4	ӄыгывъекви	_	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-просыпаться-IRR-2/3SG.S
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Telyopka:2
+# text = Ивкэ гыто ӄуӈэԓги Тэлёпкаӄай.
+# text[phon] = iwke ɣəto quŋeɬɣi telʲopkaqaj
+# text[rus] = Пожалуйста, сходи за дровами, Телёпка.
+# text[eng] = Please, go and gather firewood, Telyopka.
+# labels = complete-dep anno-fran
+1	Ивкэ	ивкэ	AUX	_	_	3	aux	_	Gloss=OPT
+2	гыто	_	PRON	_	_	3	nsubj	_	Gloss=ты
+3	ӄуӈэԓги	уӈэԓык	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-собирать.дрова-IRR-2/3SG.S
+4	Тэлёпкаӄай	Тэлёпка	PROPN	_	_	3	vocative	_	Gloss=Телёпка-DIM-NOM.SG
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Telyopka:3
+# text = Ыммымэӄэй ыммымэӄэй аны тыэʼнӄэркын.
+# text[phon] = əmməmeqej əmməmeqej anə təʔenqerkən
+# text[rus] = [Зевает:] Мамочка, мамочка, ой не хочу.
+# text[eng] = [Yawns:] Mummy, mummy, I do not want to.
+# labels = complete-dep anno-fran
+1	Ыммымэӄэй	ыммымэ	NOUN	_	_	4	vocative	_	Gloss=мама-DIM-NOM.SG
+2	ыммымэӄэй	ыммымэ	NOUN	_	_	4	vocative	_	Gloss=мама-DIM-NOM.SG
+3	аны	аны	ADV	_	_	4	advmod	_	Gloss=давай
+4	тыэʼнӄэркын	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-не.хотеть-VB-IPFV
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Telyopka:4
+# text = Ивкэ гынан ӄуӈэԓги.
+# text[phon] = iwke ɣənan quŋeɬɣi
+# text[rus] = Сходи, пожалуйста, ты за дровами.
+# text[eng] = Please, go and gather firewood yourself.
+# labels = complete-dep anno-fran
+1	Ивкэ	ивкэ	AUX	_	_	3	aux	_	Gloss=OPT
+2	гынан	гыт	PRON	_	_	3	nsubj	_	Gloss=ты.INS
+3	ӄуӈэԓги	уӈэԓык	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-собирать.дрова-IRR-2/3SG.S
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Telyopka:5
+# text = Гымо мыйыԓӄэркын.
+# text[phon] = ɣəmo məjəɬqerkən
+# text[rus] = Я буду спать.
+# text[eng] = I will sleep.
+# labels = complete-dep anno-fran
+1	Гымо	гым	PRON	_	Case=Abs	2	nsubj	_	Gloss=я
+2	мыйыԓӄэркын	_	VERB	_	Valency=1	0	root	_	Gloss=1SG.S/A.SUBJ-спать-VB-IPFV
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Telyopka:6
+# text = Тэлёпкаӄай Тэлёпкаӄай аны ӄаймыгэ ӄаймыгэ.
+# text[phon] = telʲopkaqaj telʲopkaqaj anə qajməɣe qajməɣe
+# text[rus] = Телёпка, Телёпка, ну сходи за водой, сходи за водой.
+# text[eng] = Telyopka, Telyopka, go and get some water, go and get some water.
+# labels = complete-dep anno-fran
+1	Тэлёпкаӄай	Тэлёпка	PROPN	_	_	4	vocative	_	Gloss=Телёпка-DIM-NOM.SG
+2	Тэлёпкаӄай	Тэлёпка	PROPN	_	_	4	vocative	_	Gloss=Телёпка-DIM-NOM.SG
+3	аны	аны	ADV	_	_	4	advmod	_	Gloss=давай
+4	ӄаймыгэ	аймык	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-сходить.за.водой-IRR-2/3SG.S
+5	ӄаймыгэ	аймык	VERB	_	_	4	parataxis	_	Gloss=2.S/A.SUBJ-сходить.за.водой-IRR-2/3SG.S
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Telyopka:7
+# text = Тэлёпкаӄай Тэлёпкаӄай аны ӄыгывъекви.
+# text[phon] = telʲopkaqaj telʲopkaqaj anə qəɣəwjekwi
+# text[rus] = Телёпка, Телёпка, ну проснись.
+# text[eng] = Telyopka, Telyopka, come on, wake up.
+# labels = complete-dep anno-fran
+1	Тэлёпкаӄай	Тэлёпка	PROPN	_	_	4	vocative	_	Gloss=Телёпка-DIM-NOM.SG
+2	Тэлёпкаӄай	Тэлёпка	PROPN	_	_	4	vocative	_	Gloss=Телёпка-DIM-NOM.SG
+3	аны	аны	ADV	_	_	4	advmod	_	Gloss=давай
+4	ӄыгывъекви	_	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-просыпаться-IRR-2/3SG.S
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Telyopka:8
+# text = Ивкэ гыто ӄаймыгэ Тэлёпкаӄай.
+# text[phon] = iwke ɣəto qajməɣe telʲopkaqaj
+# text[rus] = Пожалуйста, ты сходи за водой, Телёпка.
+# text[eng] = Please, go and get some water, Telyopka.
+# labels = complete-dep anno-fran
+1	Ивкэ	ивкэ	AUX	_	_	3	aux	_	Gloss=OPT
+2	гыто	_	PRON	_	Case=Abs	3	nsubj	_	Gloss=ты
+3	ӄаймыгэ	аймык	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-сходить.за.водой-IRR-2/3SG.S
+4	Тэлёпкаӄай	Тэлёпка	PROPN	_	_	3	vocative	_	Gloss=Телёпка-DIM-NOM.SG
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Telyopka:9
+# text = Ыммымэӄэй ыммымэӄэй аны тыэʼнӄэркын.
+# text[phon] = əmməmeqej əmməmeqej anə təʔenqerkən
+# text[rus] = Мамочка, мамочка, ну не хочу.
+# text[eng] = Mummy, mummy, I do not want to.
+# labels = complete-dep anno-fran
+1	Ыммымэӄэй	ыммымэ	NOUN	_	_	4	vocative	_	Gloss=мама-DIM-NOM.SG
+2	ыммымэӄэй	ыммымэ	NOUN	_	_	4	vocative	_	Gloss=мама-DIM-NOM.SG
+3	аны	аны	ADV	_	_	4	advmod	_	Gloss=давай
+4	тыэʼнӄэркын	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-не.хотеть-VB-IPFV
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Telyopka:10
+# text = Ивкэ гынан ӄаймыгэ.
+# text[phon] = iwke ɣənan qajməɣe
+# text[rus] = Пожалуйста, сходи ты за водой.
+# text[eng] = Please, go and get some water yourself.
+# labels = complete-dep anno-fran
+1	Ивкэ	ивкэ	AUX	_	_	3	aux	_	Gloss=OPT
+2	гынан	гыт	PRON	_	_	3	nsubj	_	Gloss=ты.INS
+3	ӄаймыгэ	аймык	VERB	_	Valency=2	0	root	_	Gloss=2.S/A.SUBJ-сходить.за.водой-IRR-2/3SG.S
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Telyopka:11
+# text = Гымо мыйыԓӄэркын.
+# text[phon] = ɣəmo məjəɬqerkən
+# text[rus] = Я буду спать [зевает].
+# text[eng] = I will sleep [yawns].
+# labels = complete-dep anno-fran
+1	Гымо	гым	PRON	_	Case=Abs	2	nsubj	_	Gloss=я
+2	мыйыԓӄэркын	_	VERB	_	Valency=1	0	root	_	Gloss=1SG.S/A.SUBJ-спать-VB-IPFV
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Telyopka:12
+# text = Ыммымэӄэй Тэлёпкаӄай Тэлёпкаӄай аны ӄыгывъекви.
+# text[phon] = əmməmeqej telʲopkaqaj telʲopkaqaj anə qəɣəwjekwi
+# text[rus] = Мама: Телёпка, Телёпка, ну проснись.
+# text[eng] = Mother: Telyopka, Telyopka, come on, wake up.
+# labels = complete-dep anno-fran
+1	Ыммымэӄэй	Ыммымэ	NOUN	_	_	0	root	_	Gloss=мама-DIM-NOM.SG
+2	Тэлёпкаӄай	Тэлёпка	PROPN	_	_	5	vocative	_	Gloss=Телёпка-DIM-NOM.SG
+3	Тэлёпкаӄай	Тэлёпка	PROPN	_	_	5	vocative	_	Gloss=Телёпка-DIM-NOM.SG
+4	аны	аны	ADV	_	_	5	advmod	_	Gloss=давай
+5	ӄыгывъекви	_	VERB	_	_	1	parataxis	_	Gloss=2.S/A.SUBJ-просыпаться-IRR-2/3SG.S
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Telyopka:13
+# text = Ивкэ гынан ӄывинтэтги Тэлёпкаӄай.
+# text[phon] = iwke ɣənan qəwintetɣi telʲopkaqaj
+# text[rus] = Пожалуйста, подкинь дров в костёр, Телёпка.
+# text[eng] = Please, put some wood into the fire, Telyopka.
+# labels = complete-dep anno-fran
+1	Ивкэ	ивкэ	AUX	_	_	3	aux	_	Gloss=OPT
+2	гынан	гыт	PRON	_	_	3	nsubj	_	Gloss=ты.INS
+3	ӄывинтэтги	ывинтык	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-подбрасывать.дрова.в.огонь-VB-IRR-2/3SG.S
+4	Тэлёпкаӄай	Тэлёпка	PROPN	_	_	3	vocative	_	Gloss=Телёпка-DIM-NOM.SG
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Telyopka:14
+# text = Тэлёпка ыммымэӄэй ыммымэӄэй аны тыэʼнӄэркын.
+# text[phon] = telʲopka əmməmeqej əmməmeqej anə təʔenqerkən
+# text[rus] = Телёпка: Мамочка, мамочка, ну не хочу.
+# text[eng] = Telyopka: Mummy, mummy, I do not want to.
+# labels = complete-dep anno-fran
+1	Тэлёпка	Тэлёпка	PROPN	_	_	0	root	_	Gloss=Телёпка-NOM.SG
+2	ыммымэӄэй	ыммымэ	NOUN	_	_	5	vocative	_	Gloss=мама-DIM-NOM.SG
+3	ыммымэӄэй	ыммымэ	NOUN	_	_	5	vocative	_	Gloss=мама-DIM-NOM.SG
+4	аны	аны	ADV	_	_	5	advmod	_	Gloss=давай
+5	тыэʼнӄэркын	_	VERB	_	_	1	parataxis	_	Gloss=1SG.S/A-не.хотеть-VB-IPFV
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Telyopka:15
+# text = Ивкэ гынан ӄывинтэтги.
+# text[phon] = iwke ɣənan qəwintetɣi
+# text[rus] = Пожалуйста, ты подкинь дров.
+# text[eng] = Please, put some wood on the fire yourself.
+# labels = complete-dep anno-fran
+1	Ивкэ	ивкэ	AUX	_	_	3	aux	_	Gloss=OPT
+2	гынан	гыт	PRON	_	_	3	nsubj	_	Gloss=ты.INS
+3	ӄывинтэтги	ывинтык	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-подбрасывать.дрова.в.огонь-VB-IRR-2/3SG.S
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Telyopka:16
+# text = Гымо мыйыԓӄэркын.
+# text[phon] = ɣəmo məjəɬqerkən
+# text[rus] = Я буду спать.
+# text[eng] = I will sleep.
+# labels = complete-dep anno-fran
+1	Гымо	гым	PRON	_	_	2	nsubj	_	Gloss=я
+2	мыйыԓӄэркын	_	VERB	_	_	0	root	_	Gloss=1SG.S/A.SUBJ-спать-VB-IPFV
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Telyopka:17
+# text = Тэлёпкаӄай Тэлёпкаӄай аны ӄыгывъекви.
+# text[phon] = telʲopkaqaj telʲopkaqaj anə qəɣəwjekwi
+# text[rus] = Телёпка, Телёпка, ну проснись.
+# text[eng] = Telyopka, Telyopka, come on, wake up.
+# labels = complete-dep anno-fran
+1	Тэлёпкаӄай	Тэлёпка	PROPN	_	_	4	vocative	_	Gloss=Телёпка-DIM-NOM.SG
+2	Тэлёпкаӄай	Тэлёпка	PROPN	_	_	4	vocative	_	Gloss=Телёпка-DIM-NOM.SG
+3	аны	аны	ADV	_	_	4	advmod	_	Gloss=давай
+4	ӄыгывъекви	_	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-просыпаться-IRR-2/3SG.S
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Telyopka:18
+# text = Эʼми гымнин вонныӄай.
+# text[phon] = ʔemi ɣəmnin wonnəqaj
+# text[rus] = Где моя маленькая ложка?
+# text[eng] = Where is my little spoon?
+# labels = complete-dep anno-fran
+1	Эʼми	эʼми	ADV	_	_	0	root	_	Gloss=где
+2	гымнин	гым	PRON	_	_	3	nmod:poss	_	Gloss=я-AN.GEN
+3	вонныӄай	вонны	NOUN	_	_	1	nsubj	_	Gloss=ложка-DIM-NOM.SG
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Telyopka:19
+# text = Ивкэ мыӄамэтвагъак.
+# text[phon] = iwke məqametwaɣʔak
+# text[rus] = Я хочу есть!
+# text[eng] = I want to eat!
+# labels = complete-dep anno-fran
+1	Ивкэ	ивкэ	AUX	_	_	2	aux	_	Gloss=OPT
+2	мыӄамэтвагъак	ӄамэтвак	VERB	_	_	0	root	_	Gloss=1SG.S/A.SUBJ-есть-TH-1SG.S
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Telyopka:20
+# text = Ыммымэӄэй ыммымэӄэй эʼми гымнин майӈывонны.
+# text[phon] = əmməmeqej əmməmeqej ʔemi ɣəmnin majŋəwonnə
+# text[rus] = Мамочка, мамочка, где моя большая ложка?
+# text[eng] = Mummy, mummy, where is my big spoon?
+# labels = complete-dep anno-fran
+1	Ыммымэӄэй	Ыммымэ	NOUN	_	_	3	vocative	_	Gloss=мама-DIM-NOM.SG
+2	ыммымэӄэй	ыммымэ	NOUN	_	_	3	vocative	_	Gloss=мама-DIM-NOM.SG
+3	эʼми	эʼми	ADV	_	_	0	root	_	Gloss=где
+4	гымнин	_	PRON	_	_	5	nmod:poss	_	Gloss=я-AN.GEN
+5	майӈывонны	майӈывонны	NOUN	_	_	3	nsubj	_	Gloss=большой-ложка-NOM.SG
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Telyopka:21
+# text = Ивкэ гымо нэмыӄэй мыӄамэтвагъак.
+# text[phon] = iwke ɣəmo neməqej məqametwaɣʔak
+# text[rus] = Я тоже хочу есть!
+# text[eng] = I also want to eat!
+# labels = complete-dep anno-fran
+1	Ивкэ	ивкэ	AUX	_	_	4	aux	_	Gloss=OPT
+2	гымо	гым	PRON	_	Case=Abs	4	nsubj	_	Gloss=я
+3	нэмыӄэй	нэмыӄэй	ADV	_	_	4	advmod	_	Gloss=тоже
+4	мыӄамэтвагъак	ӄамэтвак	VERB	_	Valency=1	0	root	_	Gloss=1SG.S/A.SUBJ-есть-TH-1SG.S
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Telyopka:22
+# text = Гыто гуӈэԓигыт.
+# text[phon] = ɣəto ɣuŋeɬiɣət
+# text[rus] = Ты сходил за дровами?
+# text[eng] = Did you gather firewood?
+# labels = complete-dep anno-fran
+1	Гыто	_	PRON	_	Case=Abs	2	nsubj	_	Gloss=ты
+2	гуӈэԓигыт	уӈэԓык	VERB	_	Valency=1	0	root	_	Gloss=PF-собирать.дрова-NP.2SG
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Telyopka:23
+# text = Этԓы.
+# text[phon] = etɬə
+# text[rus] = Нет.
+# text[eng] = No.
+# labels = complete-dep anno-fran
+1	Этԓы	этԓы	INTJ	_	_	0	root	_	Gloss=NEG
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Telyopka:24
+# text = Гаймэгыт.
+# text[phon] = ɣajmeɣət
+# text[rus] = За водой сходил?
+# text[eng] = Did you go to get some water?
+# labels = complete-dep anno-fran
+1	Гаймэгыт	_	VERB	_	Valency=2	0	root	_	Gloss=PF-сходить.за.водой-NP.2SG
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Telyopka:25
+# text = Этԓы.
+# text[phon] = etɬə
+# text[rus] = Нет.
+# text[eng] = No.
+# labels = complete-dep anno-fran
+1	Этԓы	этԓы	INTJ	_	_	0	root	_	Gloss=NEG
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Telyopka:26
+# text = Гывинтэтигыт.
+# text[phon] = ɣəwintetiɣət
+# text[rus] = Дров подбросил в костёр?
+# text[eng] = Did you put any wood into the fire?
+# labels = complete-dep anno-fran
+1	Гывинтэтигыт	ывинтык	VERB	_	Valency=1	0	root	_	Gloss=PF-подбрасывать.дрова.в.огонь-VB-NP.2SG
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Telyopka:27
+# text = Этԓы.
+# text[phon] = etɬə
+# text[rus] = Нет.
+# text[eng] = No.
+# labels = complete-dep anno-fran
+1	Этԓы	этԓы	INTJ	_	_	0	root	_	Gloss=NEG
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Telyopka:28
+# text = Этԓы ынӈэ.
+# text[phon] = etɬə ənŋe
+# text[rus] = Ах нет?
+# text[eng] = No?
+# labels = complete-dep anno-fran
+1	Этԓы	этԓы	INTJ	_	_	0	root	_	Gloss=NEG
+2	ынӈэ	ынӈэ	AUX	_	_	1	parataxis	_	Gloss=PROH
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Telyopka:29
+# text = Ынӈин ӄывакъотваччын.
+# text[phon] = ənŋin qəwakʔotwaccən
+# text[rus] = Вот так и сиди!
+# text[eng] = So stay (lit. sit) like this!
+# labels = complete-dep anno-fran
+1	Ынӈин	ынӈин	ADV	_	_	2	advmod	_	Gloss=так
+2	ӄывакъотваччын	_	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-садиться-RES-IPFV
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Telyopka:30
+# text = Аӄамэтвака.
+# text[phon] = aqametwaka
+# text[rus] = Не евши!
+# text[eng] = Without eating!
+# labels = complete-dep anno-fran
+1	Аӄамэтвака	_	VERB	_	_	0	root	_	Gloss=CAR-есть-CAR-INS
+2	.	.	PUNCT	_	_	1	punct	_	_
+

@@ -1,0 +1,406 @@
+# sent_id = Shaman:1
+# text = Ынӄэн ӈуткэкин морыкаӈӄачормыԓьынэ аӈӄай нытваӄэн эӈэӈыԓьын.
+# text[phon] = ənqen ŋutkekin morəkaŋqasorməɬʔəne aŋqaj nətwaqen eŋeŋəɬʔən
+# text[rus] = Здесь, по эту сторону моря, жил шаман Анкай.
+# text[eng] = Here, on this side of the sea, the shaman Anqaj lived.
+# labels = complete-dep anno-fran ənqen unclear-syntax
+1	Ынӄэн	ынӄэн	PART	_	_	6	discourse	_	Gloss=DET
+2	ӈуткэкин	_	ADV	_	_	6	advmod	_	Gloss=тут-OBL-REL
+3-5	морыкаӈӄачормыԓьынэ	_	_	_	_	_	_	_	Gloss=мы-POSS.INC-море-SIDE-ATTR-NOM.SG-=PTCL
+3	морык	мури	PRON	_	_	4	nmod:poss	_	Gloss=мы-POSS.INC
+4	аӈӄачормыԓьын	аӈӄа	NOUN	_	_	6	nmod:attr	_	Gloss=море-SIDE-ATTR-NOM.SG
+5	э	а	PART	_	_	4	advmod:emph	_	Gloss=PTCL
+6	аӈӄай	аӈӄай	PROPN	_	_	0	root	_	Gloss=Анкай-NOM.SG
+7	нытваӄэн	вак	AUX	_	Valency=1	6	cop	_	Gloss=ST-быть-ST.3SG
+8	эӈэӈыԓьын	эӈэӈыԓьын	NOUN	_	_	6	nmod:attr	_	Gloss=шаманское.умение-ATTR-NOM.SG|SpaceAfter=No
+9	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Shaman:2
+# text = Нрзб ԓымынӄо ныԓейвыӄин.
+# text[phon] = нрзб ɬəmənqo nəɬejwəqin
+# text[rus] = Повсюду ходил.
+# text[eng] = He walked everywhere.
+# labels = complete-dep anno-fran
+1	Нрзб	нрзб	X	_	_	3	discourse	_	Gloss=
+2	ԓымынӄо	_	PRON	_	_	3	obl	_	Gloss=OMN-тот-ADV.ABL
+3	ныԓейвыӄин	ԓейвык	VERB	_	Valency=1	0	root	_	Gloss=ST-ходить-ST.3SG
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Shaman:3
+# text = Къама ӄоԓ нэнтыгъэн ынӄэнэ эвына ӄоԓӄочатԓьанма нэпиригъэн ӈутку танӈа.
+# text[phon] = kʔama qoɬ nentəɣʔen ənqene ewəna qoɬqosatɬʔanma nepiriɣʔen ŋutku tanŋa
+# text[rus] = Однажды, когда создавался колхоз, его арестовали русские.
+# text[eng] = Once, when the kolkhoz was being created, he was arrested by the Russians.
+# labels = complete-dep anno-fran ənqen unclear-syntax reattached-clitic
+1-2	Къама	_	_	_	_	_	_	_	Gloss=и-=PTCL
+1	Къам	_	CCONJ	_	_	10	cc	_	Gloss=и
+2	а	а	PART	_	_	10	advmod:emph	_	Gloss=PTCL
+3	ӄоԓ	ӄоԓ	PRON	_	_	4	obj	_	Gloss=некий
+4	нэнтыгъэн	_	VERB	_	_	10	dep	_	Gloss=LOW.A-иметь-TH-3SG.O
+5-6	ынӄэнэ	_	_	_	_	_	_	_	Gloss=DET-=PTCL
+5	ынӄэн	_	PART	_	_	10	discourse	_	Gloss=DET
+6	э	а	PART	_	_	5	advmod:emph	_	Gloss=PTCL
+7-8	эвына	_	_	_	_	_	_	_	Gloss=уже-=PTCL
+7	эвын	_	ADV	_	_	10	advmod	_	Gloss=уже
+8	а	а	PART	_	_	7	advmod:emph	_	Gloss=PTCL
+9	ӄоԓӄочатԓьанма	_	VERB	_	_	10	advcl	_	Gloss=колхоз-VB-PLAC-SIM
+10	нэпиригъэн	_	VERB	_	_	0	root	_	Gloss=LOW.A-брать-TH-3SG.O
+11	ӈутку	ӈутку	ADV	_	_	10	advmod	_	Gloss=здесь
+12	танӈа	_	NOUN	_	_	10	nsubj	_	Gloss=чужеземец-INS
+13	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = Shaman:4
+# text = Нэпиригъэнъым.
+# text[phon] = nepiriɣʔenʔəm
+# text[rus] = Арестовали.
+# text[eng] = They arrested him.
+# labels = complete-dep anno-fran
+1-2	Нэпиригъэнъым	_	_	_	_	_	_	_	Gloss=LOW.A-брать-TH-3SG.O-=EMPH
+1	Нэпиригъэн	_	VERB	_	_	0	root	_	Gloss=LOW.A-брать-TH-3SG.O
+2	ъым	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Shaman:5
+# text = Ӈайыӄытрык вай ынкы нынтыӄинэт ынӄэн эӈэӈыԓьыт ынӄэ.
+# text[phon] = ŋajəqətrək waj ənkə nəntəqinet ənqen eŋeŋəɬʔət ənqe
+# text[rus] = Там, на Дорожном, держали шаманов.
+# text[eng] = There, in Dorozhnyj, they kept shamans.
+# labels = complete-dep anno-fran ənqen valency
+1	Ӈайыӄытрык	_	PROPN	_	_	4	obl	_	Gloss=Дорожный-LOC
+2	вай	вай	ADV	_	_	4	advmod	_	Gloss=вот
+3	ынкы	ынкы	PRON	_	_	4	obl	_	Gloss=тот-LOC
+4	нынтыӄинэт	_	VERB	_	Valency=2	0	root	_	Gloss=ST-иметь-ST.3SG-PL
+5	ынӄэн	ынӄэн	PART	_	_	4	discourse	_	Gloss=DET
+6	эӈэӈыԓьыт	эӈэӈыԓьын	NOUN	_	_	4	obj	_	Gloss=шаманское.умение-ATTR-NOM.PL
+7	ынӄэ	_	PART	_	_	4	discourse	_	Gloss=DET
+8	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Shaman:6
+# text = Чит ынӄэнэ.
+# text[phon] = sit ənqene
+# text[rus] = Ну это самое…
+# text[eng] = Well, um…
+# labels = complete-dep anno-karina
+1	Чит	чит	AUX	_	_	2	cop	_	Gloss=было
+2-3	ынӄэнэ	_	_	_	_	_	_	_	Gloss=DET-=PTCL
+2	ынӄэн	_	PRON	_	_	0	root	_	Gloss=DET
+3	э	а	PART	_	_	2	advmod:emph	_	Gloss=PTCL
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Shaman:7
+# text = Пэрэнвыкъымэ оттычанԓяйӈычыко нэ ныёйвыӄэн ныёӄэн рэнэ пыԓвынты рыпыԓвынтыԓгав ваԓьын оʼмрэты оттычанԓяйӈынъым.
+# text[phon] = perenwəkʔəme ottəsanɬajŋəsəko ne nəjojwəqen nəjoqen rene pəɬwəntə rəpəɬwəntəɬɣaw waɬʔən ʔomretə ottəsanɬajŋənʔəm
+# text[rus] = В тюрьме затолкали в деревянный ящик, снаружи обитый железом.
+# text[eng] = In the prison, they pushed him into the wooden box that was covered with iron.
+# labels = complete-dep anno-karina valency
+1-3	Пэрэнвыкъымэ	_	_	_	_	_	_	_	Gloss=брать-NMN-LOC-=EMPH-=PTCL
+1	Пэрэнвык	_	VERB	_	_	7	obl	_	Gloss=брать-NMN-LOC
+2	ъым	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	э	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+4	оттычанԓяйӈычыко	_	NOUN	_	_	7	obl	_	Gloss=дерево-ящик-AUG-IN
+5	нэ	нэ	X	_	_	7	reparandum	_	Gloss=FST
+6	ныёйвыӄэн	_	VERB	_	Valency=2	7	reparandum	_	Gloss=ST-класть-DISTR.O-ST.3SG
+7	ныёӄэн	_	VERB	_	Valency=2	0	root	_	Gloss=ST-класть-ST.3SG
+8	рэнэ	рэнэ	X	_	_	10	reparandum	_	Gloss=FST
+9	пыԓвынты	пыԓвынты	X	_	_	10	reparandum	_	Gloss=FST
+10	рыпыԓвынтыԓгав	_	NOUN	_	_	13	acl:attr	_	Gloss=CUM-металл-CUM
+11	ваԓьын	ваԓьын	AUX	_	_	10	cop	_	Gloss=быть-ATTR-NOM.SG
+12	оʼмрэты	оʼмрэты	ADJ	_	_	13	amod	_	Gloss=крепкий-DAT
+13-14	оттычанԓяйӈынъым	_	_	_	_	_	_	_	Gloss=дерево-ящик-AUG-NOM.SG-=EMPH
+13	оттычанԓяйӈын	оттычанԓяйӈынъым	NOUN	_	_	7	obj	_	Gloss=дерево-ящик-AUG-NOM.SG
+14	ъым	ъм	PART	_	_	13	advmod:emph	_	Gloss=EMPH
+15	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = Shaman:8
+# text = Ынкы нычамогъевӄэн тынык пэ нымкыӄин чамокытъым.
+# text[phon] = ənkə nəsamoɣjewqen tənək pe nəmkəqin samokətʔəm
+# text[rus] = На нём было много замков.
+# text[eng] = There were a lot of locks.
+# labels = complete-dep anno-fran
+1	Ынкы	ын	PRON	_	_	2	obl	_	Gloss=тот-LOC
+2	нычамогъевӄэн	_	VERB	_	_	0	root	_	Gloss=ST-замок-DISTR.O-ST.3SG
+3	тынык	тынык	X	_	_	5	reparandum	_	Gloss=FST
+4	пэ	пэ	X	_	_	5	reparandum	_	Gloss=FST
+5	нымкыӄин	мк	ADJ	_	_	2	parataxis	_	Gloss=ST-многий-ST.3SG
+6-7	чамокытъым	_	_	_	_	_	_	_	Gloss=замок-NOM.PL-=EMPH
+6	чамокыт	_	NOUN	_	_	5	nsubj	_	Gloss=замок-NOM.PL
+7	ъым	ъм	PART	_	_	6	advmod:emph	_	Gloss=EMPH
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Shaman:9
+# text = Ӄорыӈэ нэргыръоӄаат эвын чанԓяткынык гыргоԓӈэ нывакъотваӄэн эвын чамоктэ йъэнкыӈ ынкы гэгтыткуԓеэт йъэнкыӈ нотач ыʼԓыткынык нытваӄэнат.
+# text[phon] = qorəŋe nerɣərʔoqaat ewən sanɬatkənək ɣərɣoɬŋe nəwakʔotwaqen ewən samokte jʔenkəŋ ənkə ɣeɣtətkuɬeet jʔenkəŋ notas ʔəɬətkənək nətwaqenat
+# text[rus] = Когда рассвело, он сидел на ящике, а замки, снятые, лежали внизу, на снегу.
+# text[eng] = When it dawned, he was sitting on the box, and the locks, removed, were lying down in the snow.
+# labels = complete-dep anno-fran leaf-invalid
+1-2	Ӄорыӈэ	_	_	_	_	_	_	_	Gloss=потом-=PTCL
+1	Ӄоры	_	ADV	_	_	3	advmod	_	Gloss=потом
+2	ӈэ	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3	нэргыръоӄаат	_	NOUN	_	Valency=1	0	root	_	Gloss=ST-свет-DISTR.S-ST.3PL
+4	эвын	_	PART	_	_	8	discourse	_	Gloss=если
+5	чанԓяткынык	_	NOUN	_	_	8	obl	_	Gloss=ящик-TOP-LOC
+6-7	гыргоԓӈэ	_	_	_	_	_	_	_	Gloss=верх-=PTCL
+6	гыргоԓ	_	ADP	_	_	5	case	_	Gloss=верх
+7	ӈэ	а	PART	_	_	5	advmod:emph	_	Gloss=PTCL
+8	нывакъотваӄэн	_	VERB	_	Valency=1	3	parataxis	_	Gloss=ST-садиться-RES-ST.3SG
+9	эвын	_	PART	_	_	14	discourse	_	Gloss=если
+10-11	чамоктэ	_	_	_	_	_	_	_	Gloss=замок-NOM.PL-=PTCL
+10	чамокт	_	NOUN	_	_	14	nsubj	_	Gloss=замок-NOM.PL
+11	э	а	PART	_	_	10	advmod:emph	_	Gloss=PTCL
+12	йъэнкыӈ	_	ADV	_	_	14	obl	_	Gloss=на.земле-AD
+13	ынкы	ынкы	PRON	_	_	14	obl	_	Gloss=тот-LOC
+14	гэгтыткуԓеэт	_	VERB	_	Valency=2	3	parataxis	_	Gloss=PF-снимать-ITER-PF.3PL
+15	йъэнкыӈ	_	ADV	_	_	17	advmod	_	Gloss=на.земле-AD
+16	нотач	нотач	X	_	_	17	reparandum	_	Gloss=FST
+17	ыʼԓыткынык	_	NOUN	_	_	3	parataxis	_	Gloss=снег-TOP-LOC
+18	нытваӄэнат	вак	AUX	_	Valency=1	17	cop	_	Gloss=ST-быть-ST.3SG-PL
+19	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Shaman:10
+# text = Тытыԓ ааӈкы.
+# text[phon] = tətəɬ aaŋkə
+# text[rus] = Дверь открыта.
+# text[eng] = The door was open.
+# labels = complete-dep anno-fran unclear-syntax
+1	Тытыԓ	Тытыԓ	NOUN	_	_	2	nsubj	_	Gloss=дверь-NOM.SG
+2	ааӈкы	ааӈкы	ADJ	_	_	0	root	_	Gloss=открыто
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Shaman:11
+# text = Нымӈыԓёӄэн ытԓён гэрэӄигыт кытвыԓӄун миӈкыри ганточгатэгыт.
+# text[phon] = nəmŋəɬoqen ətɬon ɣereqiɣət kətwəɬqun miŋkəri ɣantosɣateɣət
+# text[rus] = Его спрашивают: что же ты сделал, как ты вышел?
+# text[eng] = They ask him: what did you do, how did you get out?
+# labels = complete-dep anno-karina
+1	Нымӈыԓёӄэн	_	VERB	_	_	0	root	_	Gloss=ST-спрашивать-ST.3SG
+2	ытԓён	ытԓён	PRON	_	_	1	obj	_	Gloss=он
+3	гэрэӄигыт	рэӄык	VERB	_	Valency=1	4	xcomp	_	Gloss=PF-что-NP.2SG
+4	кытвыԓӄун	_	VERB	_	_	1	xcomp	_	Gloss=умудряться
+5	миӈкыри	миӈкыри	ADV	_	_	6	advmod	_	Gloss=где-LOC-ADV.ALL
+6	ганточгатэгыт	_	VERB	_	Valency=1	4	xcomp	_	Gloss=PF-выходить-AUG-VB-NP.2SG
+7	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Shaman:12
+# text = Нивӄин пԓеэн пчемытъэт ытръэч гъачаӈӈойгым.
+# text[phon] = niwqin pɬeen psemətʔet ətrʔes ɣʔasaŋŋojɣəm
+# text[rus] = Говорит: «Пи́сать захотелось».
+# text[eng] = He answers: «I wanted to piss».
+# labels = complete-dep anno-fran
+1	Нивӄин	ивык	VERB	_	Valency=2	0	root	_	Gloss=ST-сказать-ST.3SG
+2	пԓеэн	пԓеэн	X	_	_	3	reparandum	_	Gloss=FST
+3	пчемытъэт	_	ADV	_	_	5	advmod	_	Gloss=хотя.бы
+4	ытръэч	ытръэч	ADV	_	_	5	advmod	_	Gloss=только
+5	гъачаӈӈойгым	_	VERB	_	Valency=1	1	parataxis:speech	_	Gloss=PF-мочиться-INCH-NP.1SG
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Shaman:13
+# text = Ипэмиӈкыри рээн нынтыӄин рээн нынԓывэтӄин.
+# text[phon] = ipemiŋkəri reen nəntəqin reen nənɬəwetqin
+# text[rus] = Чего только с ним не делали, даже сжигали.
+# text[eng] = They did everything to him, they even burned him.
+# labels = complete-dep anno-fran valency
+1	Ипэмиӈкыри	_	ADV	_	_	3	advmod	_	Gloss=поистине-где-ADV.ALL
+2	рээн	_	ADV	_	_	3	advmod	_	Gloss=вместе.с.этим
+3	нынтыӄин	_	VERB	_	Valency=2	0	root	_	Gloss=ST-иметь-ST.3SG
+4	рээн	_	ADV	_	_	5	advmod	_	Gloss=вместе.с.этим
+5	нынԓывэтӄин	_	VERB	_	Valency=2	3	parataxis	_	Gloss=ST-сжигать-ST.3SG
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Shaman:14
+# text = Ӄоԓ нэнтыгъэн нэнԓывэтгъэнъым.
+# text[phon] = qoɬ nentəɣʔen nenɬəwetɣʔenʔəm
+# text[rus] = Однажды сжигали.
+# text[eng] = Once they burned him.
+# labels = complete-dep anno-fran
+1	Ӄоԓ	ӄоԓ	PRON	_	_	2	dep	_	Gloss=некий
+2	нэнтыгъэн	_	VERB	_	_	0	root	_	Gloss=LOW.A-иметь-TH-3SG.O
+3-4	нэнԓывэтгъэнъым	_	_	_	_	_	_	_	Gloss=LOW.A-сжигать-TH-3SG.O-=EMPH
+3	нэнԓывэтгъэн	_	VERB	_	_	2	parataxis	_	Gloss=LOW.A-сжигать-TH-3SG.O
+4	ъым	ъм	PART	_	_	3	advmod:emph	_	Gloss=EMPH
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Shaman:15
+# text = Ԓюутэ нивӄээт этаны уйӈэ нъэԓгъи.
+# text[phon] = ɬuute niwqeet etanə ujŋe nʔeɬɣʔi
+# text[rus] = Говорят: наверное, не стало его.
+# text[eng] = They say: probably, he is no more.
+# labels = complete-dep anno-karina
+1-2	Ԓюутэ	_	_	_	_	_	_	_	Gloss=вдруг-=PTCL
+1	Ԓюут	_	ADV	_	_	3	advmod	_	Gloss=вдруг
+2	э	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3	нивӄээт	_	VERB	_	Valency=2	0	root	_	Gloss=ST-сказать-ST.3PL
+4	этаны	этаны	ADV	_	_	3	parataxis:speech	_	Gloss=наверное
+5	уйӈэ	уйӈэ	VERB	_	_	3	parataxis:speech	_	Gloss=нет
+6	нъэԓгъи	нъэԓык	AUX	_	_	5	aux	_	Gloss=2/3.S/A-стать-TH-2/3SG.S
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Shaman:16
+# text = Ԓюут ӈоонӄо омкытагнэпы пинтыӄэтгъи оʼро оʼо оʼраырыкагты ныԓеӄин.
+# text[phon] = ɬuut ŋoonqo omkətaɣnepə pintəqetɣʔi ʔoro ʔoo ʔoraərəkaɣtə nəɬeqin
+# text[rus] = Вдруг появился из-за куста и идёт к ним.
+# text[eng] = Suddenly he appeared from behind a bush and went to them.
+# labels = complete-dep anno-fran strange-compound
+1	Ԓюут	ԓюут	ADV	_	_	4	advmod	_	Gloss=вдруг
+2	ӈоонӄо	_	ADV	_	_	4	advmod	_	Gloss=там-ADV.ABL
+3	омкытагнэпы	_	NOUN	_	_	4	obl	_	Gloss=куст-FRONT-ABL
+4	пинтыӄэтгъи	пинтыӄэтык	VERB	_	Valency=1	0	root	_	Gloss=2/3.S/A-появляться-TH-2/3SG.S
+5	оʼро	оʼро	X	_	_	7	reparandum	_	Gloss=FST
+6	оʼо	оʼо	X	_	_	7	reparandum	_	Gloss=FST
+7	оʼраырыкагты	_	PRON	_	_	8	obl	_	Gloss=TOWARDS-они-OBL-DAT
+8	ныԓеӄин	тыԓек	VERB	_	Valency=1	4	parataxis	_	Gloss=ST-идти-ST.3SG
+9	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Shaman:17
+# text = Ынӄоръым ԓьэԓьэнры ӄынвэт ԓьэԓенръугъим.
+# text[phon] = ənqorʔəm ɬʔeɬʔenrə qənwet ɬʔeɬenrʔuɣʔiʔm
+# text[rus] = Потом, наконец, наступила зима.
+# text[eng] = Then, finally, winter came.
+# labels = complete-dep anno-fran
+1-2	Ынӄоръым	_	_	_	_	_	_	_	Gloss=потом-=EMPH
+1	Ынӄор	_	ADV	_	_	5	advmod	_	Gloss=потом
+2	ъым	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	ԓьэԓьэнры	ԓьэԓьэнры	X	_	_	5	reparandum	_	Gloss=FST
+4	ӄынвэт	ӄынвэт	ADV	_	_	5	advmod	_	Gloss=наконец
+5-6	ԓьэԓенръугъим	_	_	_	_	_	_	_	Gloss=2/3.S/A-зима-DISTR.S-TH-2/3SG.S-=EMPH
+5	ԓьэԓенръугъи	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-зима-DISTR.S-TH-2/3SG.S
+6	м	ъм	PART	_	_	5	advmod:emph	_	Gloss=EMPH
+7	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Shaman:18
+# text = Чымче ынкы ваԓьын ыёогыргын Омваанвыкэнъым.
+# text[phon] = səmse ənkə waɬʔən əjooɣərɣən omwaanwəkenʔəm
+# text[rus] = Там неподалёку была полынья амгуэмская.
+# text[eng] = There was an ice-hole near Amguema.
+# labels = complete-dep anno-karina
+1	Чымче	_	ADV	_	_	0	root	_	Gloss=близко-INS
+2	ынкы	ын	PRON	_	_	1	det	_	Gloss=тот-LOC
+3	ваԓьын	ваԓьын	AUX	_	_	1	cop	_	Gloss=быть-ATTR-NOM.SG
+4	ыёогыргын	ыёогыргын	NOUN	_	_	1	nsubj	_	Gloss=полынья-NOM.SG
+5-6	Омваанвыкэнъым	_	_	_	_	_	_	_	Gloss=Амгуэма-REL-NOM.SG-=EMPH
+5	Омваанвыкэн	Омваанвыкэнъым	PROPN	_	_	4	nmod	_	Gloss=Амгуэма-REL-NOM.SG
+6	ъым	ъм	PART	_	_	5	advmod:emph	_	Gloss=EMPH
+7	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Shaman:19
+# text = Ԓьиннык навыквынэԓгэтгъэнъым ынкы нэнпыԓӄэквъэн.
+# text[phon] = ɬʔinnək nawəkwəneɬɣetɣʔenʔəm ənkə nenpəɬqekwʔen
+# text[rus] = На шею повесили камень и бросили в воду.
+# text[eng] = They hung a stone around his neck and threw him into the water.
+# labels = complete-dep anno-fran
+1	Ԓьиннык	_	NOUN	_	_	2	obl	2:obl	Gloss=шея.нер.изм.-LOC
+2-3	навыквынэԓгэтгъэнъым	_	_	_	_	_	_	_	Gloss=LOW.A-камень-TR-висеть-VB-TH-3SG.O-=EMPH
+2	навыквынэԓгэтгъэн	_	VERB	_	Incorporated[obj]=Yes	0	root	0:root	Gloss=LOW.A-камень-TR-висеть-VB-TH-3SG.O
+2.1	выкв	выкв	NOUN	_	Incorporated=Yes	_	_	2:obj	Gloss=камень
+3	ъым	ъм	PART	_	_	2	advmod:emph	2:advmod:emph	Gloss=EMPH
+4	ынкы	ынкы	PRON	_	_	5	obl	5:obl	Gloss=тот-LOC
+5	нэнпыԓӄэквъэн	_	VERB	_	_	2	parataxis	2:parataxis	Gloss=LOW.A-TR-тонуть-CS-TH-3SG.O
+6	.	.	PUNCT	_	_	2	punct	2:punct	_
+
+# sent_id = Shaman:20
+# text = Нэнпыԓӄэвынъым.
+# text[phon] = nenpəɬqewənʔəm
+# text[rus] = Бросили в воду.
+# text[eng] = They threw him into the water.
+# labels = complete-dep anno-fran
+1-2	Нэнпыԓӄэвынъым	_	_	_	_	_	_	_	Gloss=LOW.A-TR-тонуть-CS-3SG.O-=EMPH
+1	Нэнпыԓӄэвын	_	VERB	_	_	0	root	_	Gloss=LOW.A-TR-тонуть-CS-3SG.O
+2	ъым	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Shaman:21
+# text = Ԓюут ӈоонӄо ӄоԓеыёогыргытагнэпыӈ выйигиӈэтэӈэ а янот ынӄэнэ гаԓгаӄай ԓюут ыёогыргытагнэпы пиврэиʼм.
+# text[phon] = ɬuut ŋoonqo qoɬeəjooɣərɣətaɣnepəŋ wəjiɣiŋeteŋe а janot ənqene ɣaɬɣaqaj ɬuut əjooɣərɣətaɣnepə piwreʔim
+# text[rus] = Вдруг там из другой полыньи из-под облака пара вынырнула уточка.
+# text[eng] = Suddenly there from another ice-hole a small duck emerged in a cloud of steam.
+# labels = complete-dep anno-karina
+1	Ԓюут	ԓюут	ADV	_	_	14	advmod	_	Gloss=вдруг
+2	ӈоонӄо	_	ADV	_	_	14	advmod	_	Gloss=там-ADV.ABL
+3-4	ӄоԓеыёогыргытагнэпыӈ	_	_	_	_	_	_	_	Gloss=некий-полынья-FRONT-ABL-AD
+3	ӄоԓе	_	PRON	_	_	4	nmod	_	Gloss=некий
+4	ыёогыргытагнэпыӈ	_	NOUN	_	_	14	obl	_	Gloss=полынья-FRONT-ABL-AD
+5-6	выйигиӈэтэӈэ	_	_	_	_	_	_	_	Gloss=пар-BOTTOM-ADV.PROL-=PTCL
+5	выйигиӈэтэ	_	NOUN	_	_	14	obl	_	Gloss=пар-BOTTOM-ADV.PROL
+6	ӈэ	а	PART	_	_	5	advmod:emph	_	Gloss=PTCL
+7	а	_	PART	_	_	8	advmod:emph	_	Gloss=
+8	янот	янот	ADV	_	_	14	advmod	_	Gloss=сначала
+9-10	ынӄэнэ	_	_	_	_	_	_	_	Gloss=DET-=PTCL
+9	ынӄэн	_	DET	_	_	14	det	_	Gloss=DET
+10	э	а	PART	_	_	9	advmod:emph	_	Gloss=PTCL
+11	гаԓгаӄай	гаԓгаӄай	NOUN	_	_	14	nsubj	_	Gloss=утка-DIM-NOM.SG
+12	ԓюут	ԓюут	ADV	_	_	14	advmod	_	Gloss=вдруг
+13	ыёогыргытагнэпы	_	NOUN	_	_	14	obl	_	Gloss=полынья-FRONT-ABL
+14-15	пиврэиʼм	_	_	_	_	_	_	_	Gloss=2/3.S/A-вынырнуть-TH-2/3SG.S-=EMPH
+14	пиврэ	_	ADV	_	_	0	root	_	Gloss=2/3.S/A-вынырнуть-TH-2/3SG.S
+15	иʼм	ъм	PART	_	_	14	advmod:emph	_	Gloss=EMPH
+16	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = Shaman:22
+# text = Пиврэ ынӄоры риӈэиʼ виг йыӈачыкогт йыӈэчыкутгъи ры ыны ыныгнотаӈӄачагты эквэтгъи.
+# text[phon] = piwre ənqorə riŋeʔi wiɣ jəŋasəkoɣt jəŋesəkutɣʔi rə ənə ənəɣnotaŋqasaɣtə ekwetɣʔi
+# text[rus] = Потом взлетела, окутанная облаком, и полетела в сторону своей земли.
+# text[eng] = Then the duck took off, shrouded in a cloud, and flew towards its land.
+# labels = complete-dep anno-fran
+1	Пиврэ	_	VERB	_	_	3	dep	_	Gloss=вынырнуть
+2	ынӄоры	ынӄоры	ADV	_	_	3	advmod	_	Gloss=потом
+3	риӈэиʼ	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-взлетать-TH-2/3SG.S
+4	виг	виг	X	_	_	6	reparandum	_	Gloss=FST
+5	йыӈачыкогт	йыӈачыкогт	X	_	_	6	reparandum	_	Gloss=FST
+6	йыӈэчыкутгъи	_	VERB	_	_	3	parataxis	_	Gloss=2/3.S/A-облако-IN-VB-TH-2/3SG.S
+7	ры	ры	X	_	_	9	reparandum	_	Gloss=FST
+8	ыны	ыны	X	_	_	9	reparandum	_	Gloss=FST
+9-10	ыныгнотаӈӄачагты	_	_	_	_	_	_	_	Gloss=он-POSS.INC-страна-NEAR-DAT
+9	ыныг	_	PRON	_	_	10	nmod:poss	_	Gloss=он-POSS.INC
+10	нотаӈӄачагты	_	NOUN	_	_	11	obl	_	страна-NEAR-DAT
+11	эквэтгъи	эквэтык	VERB	_	_	3	parataxis	_	Gloss=2/3.S/A-отправляться-TH-2/3SG.S
+12	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Shaman:23
+# text = Ӄоԓетъыԓёӈы ынӈэнӄачайпы ӄуԓийъиԓгыкэ пыкиргъиӈэ пыкиргъэт магԓяԓьытъым иквъэт.
+# text[phon] = qoɬetʔəɬoŋə ənŋenqasajpə quɬijʔiɬɣəke pəkirɣʔiŋe pəkirɣʔet maɣɬaɬʔətʔəm ikwʔet
+# text[rus] = В другой раз, в следующем месяце, из той стороны приехали люди на собачьих упряжках, сказали:
+# text[eng] = Another time, next month, people on dog teams came from the other side, and they said:
+# labels = complete-dep anno-karina
+1-2	Ӄоԓетъыԓёӈы	_	_	_	_	_	_	_	Gloss=некий-день-=PTCL
+1	Ӄоԓетъыԓё	_	NOUN	_	_	7	obl	_	Gloss=некий-день
+2	ӈ	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3-4	ынӈэнӄачайпы	_	_	_	_	_	_	_	Gloss=DET.INC-NEAR-ABL
+3	ынӈэн	_	PRON	_	_	1	conj	_	Gloss=DET.INC
+4	ӄачайпы	_	ADP	_	_	3	case	_	Gloss=NEAR-ABL
+5-6	ӄуԓийъиԓгыкэ	_	_	_	_	_	_	_	Gloss=некий-месяц-LOC-=PTCL
+5	ӄуԓийъиԓгык	_	NOUN	_	_	1	conj	_	Gloss=некий-месяц-LOC
+6	э	а	PART	_	_	5	advmod:emph	_	Gloss=PTCL
+7-8	пыкиргъиӈэ	_	_	_	_	_	_	_	Gloss=2/3.S/A-прибывать-TH-2/3SG.S-=PTCL
+7	пыкиргъи	_	VERB	_	Valency=1	0	root	_	Gloss=2/3.S/A-прибывать-TH-2/3SG.S
+8	ӈэ	а	PART	_	_	7	advmod:emph	_	Gloss=PTCL
+9	пыкиргъэт	_	VERB	_	Valency=1	7	parataxis	_	Gloss=2/3.S/A-прибывать-TH-PL
+10-11	магԓяԓьытъым	_	_	_	_	_	_	_	Gloss=ездок.на.собаках-NOM.PL-=EMPH
+10	магԓяԓьыт	магԓяԓьын	NOUN	_	_	7	nsubj	_	Gloss=ездок.на.собаках-NOM.PL
+11	ъым	ъм	PART	_	_	10	advmod:emph	_	Gloss=EMPH
+12	иквъэт	_	VERB	_	Valency=2	7	parataxis	_	Gloss=2/3.S/A-сказать-TH-PL
+13	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = Shaman:24
+# text = Вынэ ӈан яра нытваӄэн.
+# text[phon] = wəne ŋan jara nətwaqen
+# text[rus] = Да, там, дома он.
+# text[eng] = Yes, he is at home.
+# labels = complete-dep anno-fran
+1	Вынэ	вынэ	ADV	_	_	3	advmod	_	Gloss=ну.ка
+2	ӈан	ӈан	ADV	_	_	3	advmod	_	Gloss=DEICT
+3	яра	яракэн	NOUN	_	_	0	root	_	Gloss=яранга
+4	нытваӄэн	вак	AUX	_	Valency=1	3	cop	_	Gloss=ST-быть-ST.3SG
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Shaman:25
+# text = Ынкы ярак тъыԓыӈӈогъэ чычетпэԓӄэтэ итгъи.
+# text[phon] = ənkə jarak tʔəɬəŋŋoɣʔe səsetpeɬqete itɣʔi
+# text[rus] = Там, дома, своей смертью умер.
+# text[eng] = There, at home, he died by his death.
+# labels = complete-dep anno-karina unclear-syntax
+1	Ынкы	ынкы	DET	_	_	2	det	_	Gloss=тот-LOC
+2	ярак	яраӈы	NOUN	_	_	3	obl	_	Gloss=яранга-LOC
+3	тъыԓыӈӈогъэ	тъыԓык	VERB	_	_	0	root	_	Gloss=2/3.S/A-болеть-INCH-TH-2/3SG.S
+4	чычетпэԓӄэтэ	_	NOUN	_	_	3	parataxis	_	Gloss=родственный-умирать-VB-INS-2/3SG.S
+5	итгъи	итык	AUX	_	Valency=1	4	cop	_	Gloss=2/3.S/A-являться-TH-2/3SG.S
+6	.	.	PUNCT	_	_	3	punct	_	_
+

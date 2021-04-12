@@ -1,0 +1,278 @@
+# sent_id = Fishing_with_Ilya:1
+# text = Мури мытъанэԓёсӄэвмык Илья гым ымы Саша.
+# text[phon] = muri mətʔaneɬosqewmək ilʲja ɣəm əmə saša
+# text[rus] = Поехали мы на рыбалку, Илья, я и Саша.
+# text[eng] = We went fishing, Ilya, me and Sasha.
+# labels = complete-dep anno-fran
+1	Мури	мури	PRON	_	_	2	nsubj	_	Gloss=мы
+2	мытъанэԓёсӄэвмык	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-удить-MCP-1PL.S/O
+3	Илья	Илья	PROPN	_	_	2	dislocated	_	Gloss=Илья-NOM.SG
+4	гым	гым	PRON	_	_	3	conj	_	Gloss=я
+5	ымы	ымы	ADV	_	_	6	advmod	_	Gloss=также
+6	Саша	Саша	PROPN	_	_	3	conj	_	Gloss=Саша-NOM.SG
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Fishing_with_Ilya:2
+# text = Мытынтымӈэвын Илья ярак ӄача.
+# text[phon] = mətəntəmŋewən ilʲja jarak qasa
+# text[rus] = Мы потеряли Илью возле дома.
+# text[eng] = We lost Ilya near the house.
+# labels = complete-dep anno-fran
+1	Мытынтымӈэвын	рытымӈэвык	VERB	_	_	0	root	_	Gloss=1PL.S/A-TR-потеряться-3SG.O
+2	Илья	Илья	PROPN	_	_	1	obj	_	Gloss=Илья-NOM.SG
+3	ярак	яраӈы	NOUN	_	_	1	obl	_	Gloss=яранга-LOC
+4	ӄача	ӄача	ADP	_	_	3	case	_	Gloss=около
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Fishing_with_Ilya:3
+# text = Вытку тыԓьуэʼнэ гэчеэмык ӄача тыԓьуэʼн.
+# text[phon] = wətku təɬʔuʔene geseemək qasa təɬʔuʔen
+# text[rus] = Я только возле ГСМ увидела.
+# text[eng] = I noticed it only when we were near GSM (fuels and lubricants).
+# labels = complete-dep anno-fran
+1	Вытку	вытку	ADV	_	_	2	advmod	_	Gloss=только.что
+2-3	тыԓьуэʼнэ	_	_	_	_	_	_	_	Gloss=1SG.S/A-видеть-TH-3SG.O-=PTCL
+2	тыԓьуэʼн	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-видеть-TH-3SG.O
+3	э	а	PART	_	_	2	advmod:emph	_	Gloss=PTCL
+4	гэчеэмык	_	PROPN	_	_	6	obl	_	Gloss=ГСМ-LOC
+5	ӄача	ӄача	ADP	_	_	4	case	_	Gloss=около
+6	тыԓьуэʼн	_	VERB	_	_	2	parataxis	_	Gloss=1SG.S/A-видеть-TH-3SG.O
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Fishing_with_Ilya:4
+# text = А тыгитээʼн уйӈэ Ильяыʼм ынкъа тэючгын ги ганаԓгыма.
+# text[phon] = а təɣiteʔen ujŋe ilʲjaʔəm ənkʔa tejusɣən ɣi ɣanaɬɣəma
+# text[rus] = Посмотрела, нету Ильи и мешка со шкурой.
+# text[eng] = I looked around (and saw) that Ilya and the sack with leather were gone.
+# labels = complete-dep anno-fran
+1	А	_	CCONJ	_	_	2	cc	_	Gloss=
+2	тыгитээʼн	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-смотреть-TH-3SG.O
+3	уйӈэ	уйӈэ	PART	_	_	2	parataxis	_	Gloss=нет
+4-5	Ильяыʼм	_	_	_	_	_	_	_	Gloss=Илья-NOM.SG-=EMPH
+4	Илья	Ильяыʼм	PROPN	_	_	3	nsubj	_	Gloss=Илья-NOM.SG
+5	ыʼм	ъм	PART	_	_	4	advmod:emph	_	Gloss=EMPH
+6	ынкъа	_	CCONJ	_	_	7	cc	_	Gloss=и
+7	тэючгын	тэючгын	NOUN	_	_	4	conj	_	Gloss=мешок-NOM.SG
+8	ги	ги	X	_	_	9	reparandum	_	Gloss=FST
+9	ганаԓгыма	нэԓгын	NOUN	_	_	7	nmod	_	Gloss=COM-шкура-SIM
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Fishing_with_Ilya:5
+# text = Ӄытԓыги мытнэрэтъэн ярак ӄача.
+# text[phon] = qətɬəɣi mətneretʔen jarak qasa
+# text[rus] = Оказывается, уронили возле дома.
+# text[eng] = It turned out, we had dropped him near the house.
+# labels = complete-dep anno-fran
+1	Ӄытԓыги	_	PART	_	_	2	discourse	_	Gloss=оказывается
+2	мытнэрэтъэн	мытнэрэтъэн	VERB	_	_	0	root	_	Gloss=1PL.S/A-TR-падать-TH-NOM.SG
+3	ярак	яраӈы	NOUN	_	_	2	obl	_	Gloss=яранга-LOC
+4	ӄача	ӄача	ADP	_	_	3	case	_	Gloss=около
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Fishing_with_Ilya:6
+# text = Ынӄо Саша гэпэԓӄынтэԓин гагтыԓен Илья.
+# text[phon] = ənqo saša ɣepeɬqənteɬin ɣaɣtəɬen ilʲja
+# text[rus] = Потом Саша вернулся и забрал Илью.
+# text[eng] = Then Sasha came back and picked Ilya up.
+# labels = complete-dep anno-fran valency
+1	Ынӄо	ынӄо	ADV	_	_	3	advmod	_	Gloss=потом
+2	Саша	Саша	PROPN	_	_	3	nsubj	_	Gloss=Саша-NOM.SG
+3	гэпэԓӄынтэԓин	_	VERB	_	Valency=1	0	root	_	Gloss=PF-возвращаться-VB-PF.3SG
+4	гагтыԓен	_	VERB	_	Valency=2	3	parataxis	_	Gloss=PF-сходить.за-PF.3SG
+5	Илья	Илья	PROPN	_	_	4	obj	_	Gloss=Илья-NOM.SG
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Fishing_with_Ilya:7
+# text = Ну и ынӄо мытыԓӄынмык ро рочгэтыыʼм.
+# text[phon] = ну и ənqo mətəɬqənmək ro rosɣetəʔəm
+# text[rus] = Ну и потом мы поехали на другой берег.
+# text[eng] = And then we went to the other shore.
+# labels = complete-dep anno-fran
+1	Ну	_	X	_	_	4	discourse	_	Gloss=
+2	и	_	X	_	_	1	flat:foreign	_	Gloss=
+3	ынӄо	ынӄо	ADV	_	_	4	advmod	_	Gloss=потом
+4	мытыԓӄынмык	ӄытык	VERB	_	_	0	root	_	Gloss=1PL.S/A-идти-1PL.S/O
+5	ро	ро	X	_	_	6	reparandum	_	Gloss=FST
+6-7	рочгэтыыʼм	_	_	_	_	_	_	_	Gloss=другой.берег-DAT-=EMPH
+6	рочгэты	_	NOUN	_	_	4	obl	_	Gloss=другой.берег-DAT
+7	ыʼм	ъм	PART	_	_	6	advmod:emph	_	Gloss=EMPH
+8	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Fishing_with_Ilya:8
+# text = Ынӄо так как же ещё ынӄо мытъирмыкэ.
+# text[phon] = ənqo так как же ещё ənqo mətʔirməke
+# text[rus] = Потом переправились.
+# text[eng] = Then we sailed across the river.
+# labels = complete-dep anno-fran
+1	Ынӄо	ынӄо	ADV	_	_	7	advmod	_	Gloss=потом
+2	так	так	X	_	_	7	discourse	_	Gloss=
+3	как	_	X	_	_	2	flat:foreign	_	Gloss=
+4	же	_	X	_	_	2	flat:foreign	_	Gloss=
+5	ещё	_	X	_	_	2	flat:foreign	_	Gloss=
+6	ынӄо	ынӄо	ADV	_	_	7	advmod	_	Gloss=потом
+7-8	мытъирмыкэ	_	_	_	_	_	_	_	Gloss=1PL.S/A-переправляться-1PL.S/O-=PTCL
+7	мытъирмык	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-переправляться-1PL.S/O
+8	э	а	PART	_	_	7	advmod:emph	_	Gloss=PTCL
+9	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = Fishing_with_Ilya:9
+# text = Ро ро роч рочгэты ынӄэн миӈкы нытваӄэн мургин палатка.
+# text[phon] = ro ro ros rosɣetə ənqen miŋkə nətwaqen murɣin палатка
+# text[rus] = На другой берег, где стояла наша палатка.
+# text[eng] = To the other shore where our tent was.
+# labels = complete-dep anno-fran ənqen unclear-syntax relative-clause
+1	Ро	Ро	X	_	_	4	reparandum	_	Gloss=FST
+2	ро	ро	X	_	_	4	reparandum	_	Gloss=FST
+3	роч	роч	X	_	_	4	reparandum	_	Gloss=FST
+4	рочгэты	рочгын	NOUN	_	_	0	root	_	Gloss=другой.берег-DAT
+5	ынӄэн	ынӄэн	PART	_	_	4	discourse	_	Gloss=DET
+6	миӈкы	миӈкы	ADV	_	_	4	acl	_	Gloss=где-LOC
+7	нытваӄэн	вак	AUX	_	Valency=1	6	cop	_	Gloss=ST-быть-ST.3SG
+8	мургин	_	PRON	_	_	9	nmod:poss	_	Gloss=мы-GEN
+9	палатка	_	NOUN	_	_	6	nsubj	_	Gloss=
+10	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Fishing_with_Ilya:10
+# text = Мытымпэмыкэ мытчайпанмык.
+# text[phon] = mətəmpeməke mətsajpanmək
+# text[rus] = Слезли с лодок, сварили чай.
+# text[eng] = We disembarked and made some tea.
+# labels = complete-dep anno-fran
+1-2	Мытымпэмыкэ	_	_	_	_	_	_	_	Gloss=1PL.S/A-высаживаться-1PL.S/O-=PTCL
+1	Мытымпэмык	_	VERB	_	_	0	root	0:root	Gloss=1PL.S/A-высаживаться-1PL.S/O
+2	э	а	PART	_	_	1	advmod:emph	1:advmod:emph	Gloss=PTCL
+3	мытчайпанмык	_	NOUN	_	Incorporated[obj]=Yes	1	parataxis	1:parataxis	Gloss=1PL.S/A-чай-варить-1PL.S/O
+3.1	чай	чай	NOUN	_	Incorporated=Yes	_	_	3:obj	Gloss=чай
+4	.	.	PUNCT	_	_	1	punct	1:punct	_
+
+# sent_id = Fishing_with_Ilya:11
+# text = Саша ныкупрэгитэӄин.
+# text[phon] = saša nəkupreɣiteqin
+# text[rus] = Саша проверял сети.
+# text[eng] = Sasha was checking the nets.
+# labels = complete-dep anno-fran
+1	Саша	Саша	PROPN	_	_	2	nsubj	2:nsubj	Gloss=Саша-NOM.SG
+2	ныкупрэгитэӄин	_	VERB	_	Incorporated[obj]=Yes|Valency=1	0	root	0:root	Gloss=ST-сеть-смотреть-ST.3SG
+2.1	купрэ	купрэ	NOUN	_	Incorporated=Yes	_	_	2:obj	Gloss=сеть
+3	.	.	PUNCT	_	_	2	punct	2:punct	_
+
+# sent_id = Fishing_with_Ilya:12
+# text = Мури и с Ильёй нычаёморэ.
+# text[phon] = muri и с Ильёй nəsajomore
+# text[rus] = Мы с Ильёй пили чай.
+# text[eng] = Me and Ilya were drinking tea.
+# labels = complete-dep anno-fran
+1	Мури	мури	PRON	_	_	5	nsubj	_	Gloss=мы
+2	и	_	X	_	_	4	cc	_	Gloss=
+3	с	_	X	_	_	4	discourse	_	Gloss=
+4	Ильёй	_	PROPN	_	_	1	conj	_	Gloss=
+5	нычаёморэ	чаёк	VERB	_	Valency=1	0	root	_	Gloss=ST-чай-EAT-NP.1PL
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Fishing_with_Ilya:13
+# text = Чама мрэнэ нэԓгинуюркыни нэԓгинуйывмыкы.
+# text[phon] = sama mrene neɬɣinujurkəni neɬɣinujəwməkə
+# text[rus] = И нас замучали комары.
+# text[eng] = And mosquitos gave us no peace (lit. ate us).
+# labels = complete-dep anno-fran
+1	Чама	чама	ADV	_	_	4	advmod	_	Gloss=также
+2	мрэнэ	_	NOUN	_	_	4	nsubj	_	Gloss=комар-INS
+3	нэԓгинуюркыни	нэԓгинуюркыни	X	_	_	4	reparandum	_	Gloss=FST
+4-5	нэԓгинуйывмыкы	_	_	_	_	_	_	_	Gloss=LOW.A-INTS-есть-DISTR.O-1PL.S/O-=PTCL
+4	нэԓгинуйывмык	_	VERB	_	_	0	root	_	Gloss=LOW.A-INTS-есть-DISTR.O-1PL.S/O
+5	ы	а	PART	_	_	4	advmod:emph	_	Gloss=PTCL
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Fishing_with_Ilya:14
+# text = Ынӄо чаёпԓыткокэ Сашана тэйкынин гымнинэ орвыӄай ынӄэнэ.
+# text[phon] = ənqo sajopɬətkoke sašana tejkənin ɣəmnine orwəqaj ənqene
+# text[rus] = Потом, после чаепития Саша сделал мои саночки.
+# text[eng] = Then, after the tea time, Saha made me a tiny sledge.
+# labels = complete-dep anno-fran ənqen
+1	Ынӄо	ынӄо	ADV	_	_	5	advmod	_	Gloss=потом
+2-3	чаёпԓыткокэ	_	_	_	_	_	_	_	Gloss=чай-EAT-COMPL-LOC-=PTCL
+2	чаёпԓыткок	_	VERB	_	_	5	advcl	_	Gloss=чай-EAT-COMPL-LOC
+3	э	а	PART	_	_	2	advmod:emph	_	Gloss=PTCL
+4	Сашана	_	PROPN	_	_	5	nsubj	_	Gloss=Саша-AN.INS
+5	тэйкынин	тэйкык	VERB	_	_	0	root	_	Gloss=2/3.S/A-делать-3SG.A.3.O-3SG.O
+6-7	гымнинэ	_	_	_	_	_	_	_	Gloss=я-AN.GEN-=PTCL
+6	гымнин	гым	PRON	_	_	8	nmod:poss	_	Gloss=я-AN.GEN
+7	э	а	PART	_	_	6	advmod:emph	_	Gloss=PTCL
+8	орвыӄай	орвыӄай	NOUN	_	_	5	obj	_	Gloss=нарта-DIM-NOM.SG
+9-10	ынӄэнэ	_	_	_	_	_	_	_	Gloss=DET-=PTCL
+9	ынӄэн	_	PART	_	_	5	discourse	_	Gloss=DET
+10	э	а	PART	_	_	9	advmod:emph	_	Gloss=PTCL
+11	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Fishing_with_Ilya:15
+# text = Нъанэԓёморэ ынкъа орвыръараӄӄагтэ.
+# text[phon] = nʔaneɬomore ənkʔa orwərʔaraqqaɣte
+# text[rus] = Мы рыбачим... и саночки, это как их там...
+# text[eng] = We are fishing... and the sledge, what would that be...
+# labels = complete-dep anno-fran unclear-syntax
+1	Нъанэԓёморэ	_	VERB	_	Valency=1	0	root	_	Gloss=ST-удить-NP.1PL
+2	ынкъа	_	CCONJ	_	_	3	cc	_	Gloss=и
+3	орвыръараӄӄагтэ	_	NOUN	_	_	1	conj	_	Gloss=нарта-что-что-DIM-NOM.PL
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Fishing_with_Ilya:16
+# text = Ынкы ныйымэтваӄэнатэ гыръоӈ ӄнут гыръоӈавыръэнутэт.
+# text[phon] = ənkə nəjəmetwaqenate ɣərʔoŋ qnut ɣərʔoŋawərʔenutet
+# text[rus] = Там развешаны как будто мушки (штуки, похожие на мух).
+# text[eng] = There are these things that look like flies, hanged on it.
+# labels = complete-dep anno-fran unclear-syntax unclear-morph
+1	Ынкы	ын	PRON	_	_	2	obl	_	Gloss=тот-LOC
+2-3	ныйымэтваӄэнатэ	_	_	_	_	_	_	_	Gloss=ST-вешать-RES-ST.3SG-PL-=PTCL
+2	ныйымэтваӄэнат	_	VERB	_	Valency=1	0	root	_	Gloss=ST-вешать-RES-ST.3SG-PL
+3	э	а	PART	_	_	2	advmod:emph	_	Gloss=PTCL
+4	гыръоӈ	гыръоӈ	X	_	_	5	reparandum	_	Gloss=FST
+5	ӄнут	_	ADV	_	_	6	dep	_	Gloss=как
+6	гыръоӈавыръэнутэт	гыръоӈавыръэнутэт	NOUN	_	_	2	nsubj	_	Gloss=рожать-FEM-что.NOM.SG-NOM.PL
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Fishing_with_Ilya:17
+# text = Ынӄо Илья гэннуԓин.
+# text[phon] = ənqo ilʲja ɣennuɬin
+# text[rus] = Потом Илья поймал рыбу.
+# text[eng] = Then Ilya caught a fish.
+# labels = complete-dep anno-fran
+1	Ынӄо	ынӄо	ADV	_	_	3	advmod	_	Gloss=потом
+2	Илья	Илья	PROPN	_	_	3	nsubj	_	Gloss=Илья-NOM.SG
+3	гэннуԓин	_	VERB	_	Valency=1	0	root	_	Gloss=PF-рыба-EAT-PF.3SG
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Fishing_with_Ilya:18
+# text = Чинит гэнвыԓин орвыӄай ынӄэнэ.
+# text[phon] = sinit ɣenwəɬin orwəqaj ənqene
+# text[rus] = Сам вытащил саночки.
+# text[eng] = He pulled out the sledge himself.
+# labels = complete-dep anno-fran ənqen
+1	Чинит	чинит	ADV	_	_	2	advmod	_	Gloss=сам
+2	гэнвыԓин	рывык	VERB	_	Valency=2	0	root	_	Gloss=PF-вытаскивать-PF.3SG
+3	орвыӄай	орвыӄай	NOUN	_	_	2	obj	_	Gloss=нарта-DIM-NOM.SG
+4-5	ынӄэнэ	_	_	_	_	_	_	_	Gloss=DET-=PTCL
+4	ынӄэн	_	PART	_	_	2	discourse	_	Gloss=DET
+5	э	а	PART	_	_	4	advmod:emph	_	Gloss=PTCL
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Fishing_with_Ilya:19
+# text = Ынӄо гэннуԓин.
+# text[phon] = ənqo ɣennuɬin
+# text[rus] = Потом опять поймал рыбу.
+# text[eng] = Then he caught (another) fish.
+# labels = complete-dep anno-fran
+1	Ынӄо	ынӄо	ADV	_	_	2	advmod	_	Gloss=потом
+2	гэннуԓин	_	VERB	_	Valency=1	0	root	_	Gloss=PF-рыба-EAT-PF.3SG
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Fishing_with_Ilya:20
+# text = Ынӄо нэмэ мытчаёмык.
+# text[phon] = ənqo neme mətsajomək
+# text[rus] = Потом снова попили чаю.
+# text[eng] = Then we drank some tea again.
+# labels = complete-dep anno-fran
+1	Ынӄо	ынӄо	ADV	_	_	3	advmod	_	Gloss=потом
+2	нэмэ	нэмэ	ADV	_	_	3	advmod	_	Gloss=опять
+3	мытчаёмык	чаёк	VERB	_	_	0	root	_	Gloss=1PL.S/A-чай-EAT-1PL.S/O
+4	.	.	PUNCT	_	_	3	punct	_	_
+

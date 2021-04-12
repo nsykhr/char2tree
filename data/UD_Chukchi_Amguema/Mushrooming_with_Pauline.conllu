@@ -1,0 +1,95 @@
+# sent_id = Mushrooming_with_Pauline:1
+# text = Гым ынкъам студентка Палина гапъомпъоӈӈытаморэ.
+# text[phon] = ɣəm ənkʔam студентка palʲina ɣapʔompʔoŋŋətamore
+# text[rus] = Я и студентка Полина пошли за грибами.
+# text[eng] = Me and Polina, a student, went to gather mushrooms.
+# labels = complete-dep anno-fran
+1	Гым	гым	PRON	_	_	5	nsubj	_	Gloss=я
+2	ынкъам	ынкъам	CCONJ	_	_	3	cc	_	Gloss=и
+3	студентка	студентка	NOUN	_	_	1	conj	_	Gloss=
+4	Палина	Полина	PROPN	_	_	3	appos	_	Gloss=Полина
+5	гапъомпъоӈӈытаморэ	_	NOUN	_	Valency=1	0	root	_	Gloss=PF-гриб-GO.DO-NP.1PL
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Mushrooming_with_Pauline:2
+# text = Наӄам ниԓетӄин чама.
+# text[phon] = naqam niɬetqin sama
+# text[rus] = Но шёл дождь.
+# text[eng] = But it was raining.
+# labels = complete-dep anno-fran
+1	Наӄам	наӄам	CCONJ	_	_	2	cc	_	Gloss=однако
+2	ниԓетӄин	_	VERB	_	Valency=1	0	root	_	Gloss=ST-дождь-VB-ST.3SG
+3	чама	чама	ADV	_	_	2	advmod	_	Gloss=также
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Mushrooming_with_Pauline:3
+# text = Вэнԓыги мытэквэнмыкъым.
+# text[phon] = wenɬəɣi mətekwenməkʔəm
+# text[rus] = Всё равно мы пошли.
+# text[eng] = But we went anyways.
+# labels = complete-dep anno-fran
+1	Вэнԓыги	вэнԓыги	ADV	_	_	2	advmod	_	Gloss=всё.же
+2-3	мытэквэнмыкъым	_	_	_	_	_	_	_	Gloss=1PL.S/A-отправляться-1PL.S/O-=EMPH
+2	мытэквэнмык	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-отправляться-1PL.S/O
+3	ъым	ъм	PART	_	_	2	advmod:emph	_	Gloss=EMPH
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Mushrooming_with_Pauline:4
+# text = Чама ныкитэ ныкытийгатӄэн ныч нымаччьачаӈкытийгатӄэн ынкъам тэӈуйӈэ эмрэнкэ.
+# text[phon] = sama nəkite nəkətijɣatqen nəs nəmassʔasaŋkətijɣatqen ənkʔam teŋujŋe emrenke
+# text[rus] = В то же время ночью дул прохладный ветер — и совсем не было комаров.
+# text[eng] = That night the wind was cool and there were no mosquitos.
+# labels = complete-dep anno-fran negative
+1	Чама	чама	ADV	_	_	5	advmod	_	Gloss=также
+2	ныкитэ	ныкитэ	NOUN	_	_	5	obl	_	Gloss=ночь-INS
+3	ныкытийгатӄэн	_	VERB	_	Valency=1	5	reparandum	_	Gloss=ST-ветер-VB-ST.3SG
+4	ныч	ныч	X	_	_	5	reparandum	_	Gloss=FST
+5	нымаччьачаӈкытийгатӄэн	_	VERB	_	Valency=1	0	root	_	Gloss=ST-APPR-морозный-ветер-VB-ST.3SG
+6	ынкъам	ынкъам	CCONJ	_	_	7	cc	_	Gloss=и
+7	тэӈуйӈэ	уйӈэ	AUX	_	_	5	conj	_	Gloss=GOOD-нет
+8	эмрэнкэ	_	NOUN	_	_	7	nsubj	_	Gloss=CAR-комар-CAR-INS
+9	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Mushrooming_with_Pauline:5
+# text = Ынкы мытгичинэтэ пъомпъоӈытъым ынкъам ԓемӄут.
+# text[phon] = ənkə mətɣisinete pʔompʔoŋətʔəm ənkʔam ɬemqut
+# text[rus] = И мы там собрали грибы и мать-и-мачеху.
+# text[eng] = And we gathered some mushrooms and tussilage.
+# labels = complete-dep anno-fran
+1	Ынкы	ынкы	PRON	_	_	2	obl	_	Gloss=тот-LOC
+2-3	мытгичинэтэ	_	_	_	_	_	_	_	Gloss=1PL.S/A-собирать-3SG.O-PL-=PTCL
+2	мытгичинэт	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-собирать-3SG.O-PL
+3	э	а	PART	_	_	2	advmod:emph	_	Gloss=PTCL
+4-5	пъомпъоӈытъым	_	_	_	_	_	_	_	Gloss=гриб-NOM.PL-=EMPH
+4	пъомпъоӈыт	_	NOUN	_	_	2	obj	_	Gloss=гриб-NOM.PL
+5	ъым	ъм	PART	_	_	4	advmod:emph	_	Gloss=EMPH
+6	ынкъам	ынкъам	CCONJ	_	_	7	cc	_	Gloss=и
+7	ԓемӄут	_	NOUN	_	_	4	conj	_	Gloss=белокопытник.холодный-NOM.PL
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Mushrooming_with_Pauline:6
+# text = Не ԓемӄут а как же это.
+# text[phon] = не ɬemqut а как же это
+# text[rus] = Не мать-и-мачеху, а как же это...
+# text[eng] = Not tussilage, but... what would that be...
+# labels = complete-dep anno-fran disfluency
+1	Не	_	X	_	_	2	discourse	_	Gloss=
+2	ԓемӄут	_	NOUN	_	_	0	root	_	Gloss=белокопытник.холодный-NOM.PL
+3	а	_	X	_	_	2	parataxis	_	Gloss=
+4	как	_	X	_	_	3	flat:foreign	_	Gloss=
+5	же	_	X	_	_	3	flat:foreign	_	Gloss=
+6	это	_	X	_	_	3	flat:foreign	_	Gloss=
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Mushrooming_with_Pauline:7
+# text = Ынӄо ынӄо мури мытрагтымык.
+# text[phon] = ənqo ənqo muri mətraɣtəmək
+# text[rus] = Потом мы пошли домой.
+# text[eng] = Then we went home.
+# labels = complete-dep anno-fran
+1	Ынӄо	ынӄо	ADV	_	_	4	advmod	_	Gloss=потом
+2	ынӄо	ынӄо	ADV	_	_	4	advmod	_	Gloss=потом
+3	мури	мури	PRON	_	_	4	nsubj	_	Gloss=мы
+4	мытрагтымык	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-жилище-GO.TO-1PL.S/O
+5	.	.	PUNCT	_	_	4	punct	_	_
+
