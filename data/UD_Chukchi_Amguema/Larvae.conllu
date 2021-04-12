@@ -1,0 +1,298 @@
+# sent_id = Larvae:1
+# text = Тагрытыԓяма муриӈэ.
+# text[phon] = taɣrətəɬama muriŋe
+# text[rus] = Во время летней кочёвки мы [тогда были].
+# text[eng] = During the time of summer nomadizing, we...
+# labels = complete-dep anno-fran
+1	Тагрытыԓяма	_	VERB	_	_	2	orphan	_	Gloss=кочевать.летом-SIM
+2-3	муриӈэ	_	_	_	_	_	_	_	Gloss=мы-=PTCL
+2	мури	_	PRON	_	Case=Abs	0	root	_	Gloss=мы
+3	ӈэ	а	PART	_	_	2	advmod:emph	_	Gloss=PTCL
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Larvae:2
+# text = Ынӄэнэ гым ипэ Кымъыӈэнэ нэнатарычваӈӄэн ӄэԓюӄ ӈээккэӄэйивым еп.
+# text[phon] = ənqene ɣəm ipe kəmʔəŋene nenatarəswaŋqen qeɬuq ŋeekkeqejiwəm jep
+# text[rus] = Тогда мне Кымъынэ собирала личинок, я ведь ещё девочка была.
+# text[eng] = Kymyne was gathering grubs for me, I was still a girl back then.
+# labels = complete-dep anno-fran ənqen
+1-2	Ынӄэнэ	_	_	_	_	_	_	_	Gloss=DET-=PTCL
+1	Ынӄэн	_	PART	_	_	6	discourse	_	Gloss=DET
+2	э	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3	гым	гым	PRON	_	_	6	obj	_	Gloss=я
+4	ипэ	ипэ	ADV	_	_	6	advmod	_	Gloss=поистине
+5	Кымъыӈэнэ	Кымъынэ	PROPN	_	_	6	nsubj	_	Gloss=Кымъынэ-AN.INS
+6	нэнатарычваӈӄэн	_	VERB	_	_	0	root	_	Gloss=ST-INV-MAKE-личинка-MAKE-ST.3SG
+7	ӄэԓюӄ	ӄэԓюӄ	ADV	_	_	8	advmod	_	Gloss=конечно
+8	ӈээккэӄэйивым	_	NOUN	_	_	6	parataxis	_	Gloss=FEM-сын-DIM-NP.1SG
+9	еп	еп	ADV	_	_	8	advmod	_	Gloss=ещё
+10	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Larvae:3
+# text = Нэнатарычваӈӄээтъымэ.
+# text[phon] = nenatarəswaŋqeetʔəme
+# text[rus] = Собирала личинок.
+# text[eng] = She was gathering grubs.
+# labels = complete-dep anno-fran
+1-3	Нэнатарычваӈӄээтъымэ	_	_	_	_	_	_	_	Gloss=ST-INV-MAKE-личинка-MAKE-ST.3PL-=EMPH-=PTCL
+1	Нэнатарычваӈӄээт	_	VERB	_	Valency=1	0	root	_	Gloss=ST-INV-MAKE-личинка-MAKE-ST.3PL
+2	ъым	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	э	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Larvae:4
+# text = Нинэйыԓӄин гым каарачыко ваԓьэвым ва ынӄэн нэнаԓпынрыӄэн кэгынмычыку.
+# text[phon] = ninejəɬqin ɣəm kaarasəko waɬʔewəm wa ənqen nenaɬpənrəqen keɣənməsəku
+# text[rus] = Давала мне, я в кибитке сидела, а она давала мне их в кулаке.
+# text[eng] = She was giving them to me, I was sitting in the closed sledge and she was giving them to me holding them in her fist.
+# labels = complete-dep anno-fran ənqen
+1	Нинэйыԓӄин	йыԓык	VERB	_	Valency=2	0	root	_	Gloss=ST-INV-давать-ST.3SG
+2	гым	гым	PRON	_	Case=Abs	3	nsubj	_	Gloss=я
+3	каарачыко	_	NOUN	_	_	1	parataxis	_	Gloss=нарта.с.кибиткой-IN
+4	ваԓьэвым	_	AUX	_	_	3	cop	_	Gloss=быть-ATTR-NP.1SG
+5	ва	ва	X	_	_	6	reparandum	_	Gloss=FST
+6	ынӄэн	ынӄэн	PART	_	_	7	discourse	_	Gloss=DET
+7	нэнаԓпынрыӄэн	_	VERB	_	_	1	parataxis	_	Gloss=ST-INV-давать-ST.3SG
+8	кэгынмычыку	_	NOUN	_	_	7	obl	_	Gloss=кисть.руки-IN
+9	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Larvae:5
+# text = Аԓымъым чит нин нрычвойгымъым.
+# text[phon] = aɬəmʔəm sit nin nrəswojɣəmʔəm
+# text[rus] = Я ведь тогда ела личинок.
+# text[eng] = I used to eat grubs.
+# labels = complete-dep anno-fran
+1-2	Аԓымъым	_	_	_	_	_	_	_	Gloss=хотя-=EMPH
+1	Аԓым	аԓым	PART	_	_	5	discourse	_	Gloss=хотя
+2	ъым	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	чит	чит	AUX	_	_	5	discourse	_	Gloss=было
+4	нин	нин	X	_	_	5	reparandum	_	Gloss=FST
+5-6	нрычвойгымъым	_	_	_	_	_	_	_	Gloss=ST-личинка-EAT-NP.1SG-=EMPH
+5	нрычвойгым	_	VERB	_	Valency=1	0	root	_	Gloss=ST-личинка-EAT-NP.1SG
+6	ъым	ъм	PART	_	_	5	advmod:emph	_	Gloss=EMPH
+7	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Larvae:6
+# text = Ытръэч ынӄэнэ ӄоԓ тынтынэт тыгитэнэт ынин кэгынмытъым.
+# text[phon] = ətrʔes ənqene qoɬ təntənet təɣitenet ənin keɣənmətʔəm
+# text[rus] = Только один раз посмотрела на её руки.
+# text[eng] = Only once I looked at her hands.
+# labels = complete-dep anno-fran ənqen
+1	Ытръэч	ытръэч	ADV	_	_	6	advmod	_	Gloss=только
+2-3	ынӄэнэ	_	_	_	_	_	_	_	Gloss=DET-=PTCL
+2	ынӄэн	_	PART	_	_	6	discourse	_	Gloss=DET
+3	э	а	PART	_	_	2	advmod:emph	_	Gloss=PTCL
+4	ӄоԓ	ӄоԓ	PRON	_	_	6	dep	_	Gloss=некий
+5	тынтынэт	рытык	VERB	_	_	6	reparandum	_	Gloss=1SG.S/A-иметь-3SG.O-PL
+6	тыгитэнэт	гитэк	VERB	_	_	0	root	_	Gloss=1SG.S/A-смотреть-3SG.O-PL
+7	ынин	ытԓён	PRON	_	_	8	nmod:poss	_	Gloss=он-GEN
+8-9	кэгынмытъым	_	_	_	_	_	_	_	Gloss=кисть.руки-NOM.PL-=EMPH
+8	кэгынмыт	_	NOUN	_	_	6	obj	_	Gloss=кисть.руки-NOM.PL
+9	ъым	ъм	PART	_	_	8	advmod:emph	_	Gloss=PTCL
+10	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = Larvae:7
+# text = Эԓёԓьыӈӈоаʼтэ аръаԓя гагты.
+# text[phon] = eɬoɬʔəŋŋoʔate arʔaɬa ɣaɣtə
+# text[rus] = А они (личинки) как начали шевелиться.
+# text[eng] = And they (grubs) started moving.
+# labels = complete-dep anno-fran
+1-2	Эԓёԓьыӈӈоаʼтэ	_	_	_	_	_	_	_	Gloss=шевелиться-INCH-TH-PL-=PTCL
+1	Эԓёԓьыӈӈоаʼт	_	VERB	_	_	0	root	_	Gloss=шевелиться-INCH-TH-PL
+2	э	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3	аръаԓя	аръаԓя	ADV	_	_	1	advmod	_	Gloss=очень
+4	гагты	гагты	X	_	_	1	reparandum	_	Gloss=FST
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Larvae:8
+# text = Гагтыԓыԓяпэвым ынӄоръым.
+# text[phon] = ɣaɣtəɬəɬapewəm ənqorʔəm
+# text[rus] = Сразу глаза очень широко раскрыла.
+# text[eng] = I opened my eyes really wide.
+# labels = complete-dep anno-fran
+1	Гагтыԓыԓяпэвым	_	VERB	_	Valency=1	0	root	_	Gloss=PF-HARD-открыть.глаза-NP.1SG
+2-3	ынӄоръым	_	_	_	_	_	_	_	Gloss=потом-=EMPH
+2	ынӄор	_	ADV	_	_	1	advmod	_	Gloss=потом
+3	ъым	ъм	PART	_	_	2	advmod:emph	_	Gloss=EMPH
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Larvae:9
+# text = Ынӄэн эӄыԓпэӈэ тыпиринэт ынӈин.
+# text[phon] = ənqen eqəɬpeŋe təpirinet ənŋin
+# text[rus] = Быстро схватила их так.
+# text[eng] = Grabbed them quickly.
+# labels = complete-dep anno-fran ənqen
+1	Ынӄэн	ынӄэн	PRON	_	_	4	obj	_	Gloss=DET
+2-3	эӄыԓпэӈэ	_	_	_	_	_	_	_	Gloss=быстро-=PTCL
+2	эӄыԓпэ	_	ADV	_	_	4	advmod	_	Gloss=быстро
+3	ӈэ	а	PART	_	_	2	advmod:emph	_	Gloss=PTCL
+4	тыпиринэт	пирик	VERB	_	_	0	root	_	Gloss=1SG.S/A-брать-3SG.O-PL
+5	ынӈин	ынӈин	ADV	_	_	4	advmod	_	Gloss=так
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Larvae:10
+# text = Тынинтысӄивнэт ӈоонрэ каарачыкойпы.
+# text[phon] = tənintəsqiwnet ŋoonre kaarasəkojpə
+# text[rus] = Выбросила туда из кибитки.
+# text[eng] = Threw away, out of the closed sledge.
+# labels = complete-dep anno-fran
+1	Тынинтысӄивнэт	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-бросать-MCP-3SG.O-PL
+2	ӈоонрэ	ӈоонрэ	ADV	_	_	1	advmod	_	Gloss=там-ADV.ALL
+3	каарачыкойпы	_	NOUN	_	_	1	obl	_	Gloss=нарта.с.кибиткой-IN-ABL
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Larvae:11
+# text = Ӈоонӄо ыʼԓык иргъэт.
+# text[phon] = ŋoonqo ʔəɬək irɣʔet
+# text[rus] = Они оттуда в снег упали.
+# text[eng] = They fell down into the snow.
+# labels = complete-dep anno-fran
+1	Ӈоонӄо	_	ADV	_	_	3	advmod	_	Gloss=там-ADV.ABL
+2	ыʼԓык	ыʼԓьыԓ	NOUN	_	_	3	obl	_	Gloss=снег-LOC
+3	иргъэт	_	VERB	_	_	0	root	_	Gloss=падать-TH-PL
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Larvae:12
+# text = Ынӄорыӈэ гамӈыԓтэтԓен апаӄайына.
+# text[phon] = ənqorəŋe ɣamŋəɬtetɬen apaqajəna
+# text[rus] = Потом рассказала бабушке.
+# text[eng] = Then I told my grandmother about it.
+# labels = complete-dep anno-fran
+1-2	Ынӄорыӈэ	_	_	_	_	_	_	_	Gloss=потом-=PTCL
+1	Ынӄоры	_	ADV	_	_	3	advmod	_	Gloss=потом
+2	ӈэ	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3	гамӈыԓтэтԓен	_	VERB	_	Valency=2	0	root	_	Gloss=PF-весть-DUR-PF.3SG
+4	апаӄайына	_	NOUN	_	_	3	obl	_	Gloss=бабушка-AN.DAT
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Larvae:13
+# text = Ытчаяӄэйъым гымнинэ эпэӄэйыну нинъэйӈэвивым.
+# text[phon] = ətsajaqejʔəm ɣəmnine epeqejənu ninʔejŋewiwəm
+# text[rus] = Тётю свою я бабушкой называла.
+# text[eng] = I used to call my aunt grandmother.
+# labels = complete-dep anno-fran valency secondary-predication
+1-2	Ытчаяӄэйъым	_	_	_	_	_	_	_	Gloss=тётя-DIM-NOM.SG-=EMPH
+1	Ытчаяӄэй	ытчая	NOUN	_	_	6	obj	_	Gloss=тётя-DIM-NOM.SG
+2	ъым	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3-4	гымнинэ	_	_	_	_	_	_	_	Gloss=я-AN.GEN-=PTCL
+3	гымнин	гым	PRON	_	_	1	nmod:poss	_	Gloss=я-AN.GEN
+4	э	а	PART	_	_	3	advmod:emph	_	Gloss=PTCL
+5	эпэӄэйыну	_	NOUN	_	_	6	xcomp	_	Gloss=бабушка-EQU
+6	нинъэйӈэвивым	_	VERB	_	_	0	root	_	Gloss=ST-INV-звать-NP.1SG
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Larvae:14
+# text = Ытԓьэ гымыкытԓьэн ынӄэнэ ынпыччакит ынпычьын чакыгэт.
+# text[phon] = ətɬʔe ɣəməkətɬʔen ənqene ənpəssakit ənpəsʔən sakəɣet
+# text[rus] = Моей мамы старшая сестра.
+# text[eng] = My mother's elder sister.
+# labels = complete-dep anno-fran ənqen
+1	Ытԓьэ	ытԓьэ	X	_	_	3	reparandum	_	Gloss=FST
+2-3	гымыкытԓьэн	_	_	_	_	_	_	_	Gloss=я-POSS.INC-мать-GEN
+2	гымык	_	NOUN	_	_	3	nmod:poss	_	Gloss=я-POSS.INC
+3	ытԓьэн	_	NOUN	_	_	8	nmod:poss	_	Gloss=мать-GEN
+4-5	ынӄэнэ	_	_	_	_	_	_	_	Gloss=DET-=PTCL
+4	ынӄэн	_	PART	_	_	8	discourse	_	Gloss=DET
+5	э	а	PART	_	_	4	advmod:emph	_	Gloss=PTCL
+6	ынпыччакит	ынпыччакит	X	_	_	7	reparandum	_	Gloss=FST
+7	ынпычьын	ынпычьын	ADJ	_	_	8	amod	_	Gloss=старый-ADJ-NOM.SG
+8	чакыгэт	чакыгэт	NOUN	_	_	0	root	_	Gloss=сестра-NOM.SG
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = Larvae:15
+# text = Гымнан эпэӄэйыну нинъэйӈэвивым ынӄэн ынӈинэ.
+# text[phon] = ɣəmnan epeqejənu ninʔejŋewiwəm ənqen ənŋine
+# text[rus] = Я так её бабушкой называла.
+# text[eng] = I called her my grandmother, that way.
+# labels = complete-dep anno-fran valency secondary-predication
+1	Гымнан	гым	PRON	_	_	3	nsubj	_	Gloss=я-INS
+2	эпэӄэйыну	_	NOUN	_	_	3	xcomp	_	Gloss=бабушка-EQU
+3	нинъэйӈэвивым	_	VERB	_	_	0	root	_	Gloss=ST-INV-звать-NP.1SG
+4	ынӄэн	ынӄэн	PART	_	_	3	discourse	_	Gloss=DET
+5-6	ынӈинэ	_	_	_	_	_	_	_	Gloss=так-=PTCL
+5	ынӈин	_	ADV	_	_	3	advmod	_	Gloss=так
+6	э	а	PART	_	_	5	advmod:emph	_	Gloss=PTCL
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Larvae:16
+# text = Ыныкэккэԓӄыԓин ӈэв ӈэвъэнйыръын ӈэ ӈэвъэнъым ынӄэн Кымъыӈэ.
+# text[phon] = ənəkekkeɬqəɬin ŋew ŋewʔenjərʔən ŋe ŋewʔenʔəm ənqen kəmʔəŋe
+# text[rus] = Это её приёмного сына жена, Кымъынэ.
+# text[eng] = This is her adopted son's wife, Kymyne.
+# labels = complete-dep anno-fran ənqen unclear-syntax
+1-2	Ыныкэккэԓӄыԓин	_	_	_	_	_	_	_	Gloss=он-POSS.INC-сын-DEB-GEN
+1	Ынык	ын	PRON	_	_	2	nmod:poss	_	Gloss=он-POSS.INC
+2	эккэԓӄыԓин	экык	NOUN	_	_	6	nmod:poss	_	Gloss=сын-DEB-GEN
+3	ӈэв	ӈэв	X	_	_	6	reparandum	_	Gloss=FST
+4	ӈэвъэнйыръын	ӈэвъэнйыръын	NOUN	_	_	6	reparandum	_	Gloss=жена-содержимое-NOM.SG
+5	ӈэ	ӈэ	X	_	_	6	reparandum	_	Gloss=FST
+6-7	ӈэвъэнъым	_	_	_	_	_	_	_	Gloss=жена-NOM.SG-=EMPH
+6	ӈэвъэн	ӈэвъэнъым	NOUN	_	_	0	root	_	Gloss=жена-NOM.SG
+7	ъым	ъм	PART	_	_	6	advmod:emph	_	Gloss=EMPH
+8	ынӄэн	ынӄэн	PRON	_	_	6	nsubj	_	Gloss=DET
+9	Кымъыӈэ	Кымъыӈэ	PROPN	_	_	8	appos	_	Gloss=Кымъынэ-NOM.SG
+10	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Larvae:17
+# text = Ынанъымэ ив гэрэӄыԓин ӈээккэӄэй арычвокыԓьин.
+# text[phon] = ənanʔəme iw ɣereqəɬin ŋeekkeqej arəswokəɬʔin
+# text[rus] = Она спросила: «Почему девочка не ест личинок?».
+# text[eng] = She asked: «Why does this girl not eat grubs?»
+# labels = complete-dep anno-fran unclear-syntax
+1-3	Ынанъымэ	_	_	_	_	_	_	_	Gloss=он.INS-=EMPH-=PTCL
+1	Ынан	_	PRON	_	Case=Erg	0	root	_	Gloss=он.INS
+2	ъым	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	э	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+4	ив	ив	X	_	_	5	reparandum	_	Gloss=FST
+5	гэрэӄыԓин	_	VERB	_	Valency=1	1	parataxis	_	Gloss=PF-что-PF.3SG
+6	ӈээккэӄэй	ӈээккэӄэй	NOUN	_	_	5	obj	_	Gloss=FEM-сын-DIM-NOM.SG
+7	арычвокыԓьин	_	VERB	_	_	6	acl	_	Gloss=CAR-личинка-EAT-CAR-ATTR-GEN
+8	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Larvae:18
+# text = Ивнин.
+# text[phon] = iwnin
+# text[rus] = А та (бабушка) ответила:
+# text[eng] = She said:
+# labels = complete-dep anno-fran
+1	Ивнин	ивык	VERB	_	_	0	root	_	Gloss=2/3.S/A-сказать-3SG.A.3.O-3SG.O
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Larvae:19
+# text = Мачынан ынӄэн эʼнӄэыркынъым ынӈэ ынӈэ рычвойвот энтивкэ.
+# text[phon] = masənan ənqen ʔenqeərkənʔəm ənŋe ənŋe rəswojwot entiwke
+# text[rus] = «Пускай, если не хочет, не надо её заставлять есть личинки».
+# text[eng] = «Let it be, if she does not want it, let's not make her eat grubs».
+# labels = complete-dep anno-karina ənqen
+1	Мачынан	ытԓён	PART	_	_	7	discourse	_	Gloss=пусть
+2	ынӄэн	ынӄэн	PART	_	_	7	discourse	_	Gloss=DET
+3-4	эʼнӄэыркынъым	_	_	_	_	_	_	_	Gloss=2/3.S/A-не.хотеть-VB-IPFV-=EMPH
+3	эʼнӄэыркын	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-не.хотеть-VB-IPFV
+4	ъым	ъм	PART	_	_	3	advmod:emph	_	Gloss=EMPH
+5	ынӈэ	ынӈэ	AUX	_	_	3	aux	_	Gloss=PROH
+6	ынӈэ	ынӈэ	AUX	_	_	5	reparandum	_	Gloss=PROH
+7	рычвойвот	_	VERB	_	_	8	advcl	_	Gloss=личинка-EAT-PURP
+8	энтивкэ	_	VERB	_	_	3	xcomp	_	Gloss=CAR-иметь-DISTR.O-CAR-INS
+9	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = Larvae:20
+# text = Ытръэч.
+# text[phon] = ətrʔes
+# text[rus] = Всё.
+# text[eng] = That is all.
+# labels = complete-dep anno-fran
+1	Ытръэч	ытръэч	ADV	_	_	0	root	_	Gloss=только
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Larvae:21
+# text = Ынӄэн ынӈин тпаак рычвок.
+# text[phon] = ənqen ənŋin tpaak rəswok
+# text[rus] = Так я перестала есть личинки.
+# text[eng] = This is how I stopped eating grubs.
+# labels = complete-dep anno-fran
+1	Ынӄэн	ынӄэн	DET	_	_	3	det	_	Gloss=DET
+2	ынӈин	ынӈин	ADV	_	_	3	advmod	_	Gloss=так
+3	тпаак	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-переставать-1SG.S
+4	рычвок	_	VERB	_	_	3	xcomp	_	Gloss=личинка-EAT-INF
+5	.	.	PUNCT	_	_	3	punct	_	_
+

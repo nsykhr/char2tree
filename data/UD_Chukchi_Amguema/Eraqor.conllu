@@ -1,0 +1,196 @@
+# sent_id = Eraqor:1
+# text = Эԓгааткоӈӈок допустим мургин рэмкын гъэраӄорԓена.
+# text[phon] = eɬɣaatkoŋŋok допустим murɣin remkən ɣʔeraqorɬena
+# text[rus] = Перед началом отбивки наш народ участвовал в Эракоре.
+# text[eng] = Before the sorting of the herd started, our people had participated in Eraqor.
+# labels = complete-dep anno-karina
+1	Эԓгааткоӈӈок	_	VERB	_	_	5	advcl	_	Gloss=отделять.самцов.от.самок-INCH-LOC
+2	допустим	допустить	X	_	_	1	discourse	_	Gloss=
+3	мургин	мури	PRON	_	_	4	nmod:poss	_	Gloss=мы-GEN
+4	рэмкын	рэмкын	NOUN	_	_	5	nsubj	_	Gloss=народ-NOM.SG
+5-6	гъэраӄорԓена	_	_	_	_	_	_	_	Gloss=PF-Эракор-PF.3SG-=PTCL
+5	гъэраӄорԓен	Эраӄор	VERB	_	Valency=1	0	root	_	Gloss=PF-Эракор-PF.3SG
+6	а	а	PART	_	_	5	advmod:emph	_	Gloss=PTCL
+7	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Eraqor:2
+# text = Гъэраӄорԓен таӈымыԓьо гэетръуԓинэтэ ямганымгынымгыпы ям ян ян ямна гын нымнымгыпы.
+# text[phon] = ɣʔeraqorɬen taŋəməɬʔo ɣejetrʔuɬinete jamɣanəmɣənəmɣəpə jam jan jan jamna ɣən nəmnəmɣəpə
+# text[rus] = В Эракоре участвовали абсолютно все, приехали из каждого посёлка.
+# text[eng] = Everyone participated in Eraqor, (people) arrived from all villages.
+# labels = complete-dep anno-karina
+1	Гъэраӄорԓен	Эраӄор	VERB	_	Valency=1	0	root	_	Gloss=PF-Эракор-PF.3SG
+2	таӈымыԓьо	ымыԓьо	PRON	_	_	1	nsubj	_	Gloss=GOOD-весь
+3-4	гэетръуԓинэтэ	_	_	_	_	_	_	_	Gloss=PF-приходить-DISTR.S-PF.3SG-PL-=PTCL
+3	гэетръуԓинэт	_	VERB	_	Valency=1	1	parataxis	_	Gloss=PF-приходить-DISTR.S-PF.3SG-PL
+4	э	а	PART	_	_	3	advmod:emph	_	Gloss=PTCL
+5	ямганымгынымгыпы	ямганымгынымгыпы	X	_	_	11	reparandum	_	Gloss=FST
+6	ям	ям	X	_	_	11	reparandum	_	Gloss=FST
+7	ян	ян	X	_	_	11	reparandum	_	Gloss=FST
+8	ян	ян	X	_	_	11	reparandum	_	Gloss=FST
+9	ямна	ямна	X	_	_	11	reparandum	_	Gloss=FST
+10	гын	гын	X	_	_	11	reparandum	_	Gloss=FST
+11	нымнымгыпы	нымным	NOUN	_	_	4	obl	_	Gloss=посёлок-ABL
+12	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Eraqor:3
+# text = Ԓгинымкыӄин оʼравэтԓьан гэетԓин.
+# text[phon] = ɬɣinəmkəqin ʔorawetɬʔan ɣejetɬin
+# text[rus] = Очень много людей приехало.
+# text[eng] = Many people arrived.
+# labels = complete-dep anno-karina
+1	Ԓгинымкыӄин	_	ADJ	_	_	2	amod	_	Gloss=INTS-ST-многий-ST.3SG
+2	оʼравэтԓьан	оʼравэтԓьан	NOUN	_	_	3	nsubj	_	Gloss=человек-NOM.SG
+3	гэетԓин	_	VERB	_	Valency=1	0	root	_	Gloss=PF-приходить-PF.3SG
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Eraqor:4
+# text = Ԓгэгэчевкы гатваморэ.
+# text[phon] = ɬɣeɣesewkə ɣatwamore
+# text[rus] = Нам было очень весело.
+# text[eng] = We had so much fun.
+# labels = complete-dep anno-karina
+1	Ԓгэгэчевкы	ныгичививӄин	ADJ	_	_	0	root	_	Gloss=INTS-интересный-LOC
+2	гатваморэ	вак	AUX	_	Valency=1	1	cop	_	Gloss=PF-быть-NP.1PL
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Eraqor:5
+# text = Ԓгэн рэмкын ниԓюԓьэтӄинэ.
+# text[phon] = ɬɣen remkən niɬuɬʔetqine
+# text[rus] = Люди просто танцевали.
+# text[eng] = People were just dancing.
+# labels = complete-dep anno-karina
+1	Ԓгэн	ԓгэн	ADV	_	_	3	advmod	_	Gloss=просто
+2	рэмкын	рэмкын	NOUN	_	_	3	nsubj	_	Gloss=народ-NOM.SG
+3-4	ниԓюԓьэтӄинэ	_	_	_	_	_	_	_	Gloss=ST-шевелиться-ST.3SG-=PTCL
+3	ниԓюԓьэтӄин	_	VERB	_	Valency=1	0	root	_	Gloss=ST-шевелиться-ST.3SG
+4	э	а	PART	_	_	3	advmod:emph	_	Gloss=PTCL
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Eraqor:6
+# text = Чама ныԓыԓептиԓръуӄинэт эԓёԓьыԓьэтъым.
+# text[phon] = sama nəɬəɬeptiɬrʔuqinet eɬoɬʔəɬʔetʔəm
+# text[rus] = И пристально смотрели на танцующих.
+# text[eng] = And they gazed at the dancers.
+# labels = complete-dep anno-karina valency
+1	Чама	чама	ADV	_	_	2	cc	_	Gloss=также
+2	ныԓыԓептиԓръуӄинэт	ԓыԓепык	VERB	_	Valency=1	0	root	_	Gloss=ST-открыть.глаза-DUR-DISTR.S-ST.3SG-PL
+3-4	эԓёԓьыԓьэтъым	_	_	_	_	_	_	_	Gloss=шевелиться-ATTR-DAT-=EMPH
+3	эԓёԓьыԓьэт	_	VERB	_	_	2	obl	_	Gloss=шевелиться-ATTR-DAT
+4	ъым	ъм	PART	_	_	3	advmod:emph	_	Gloss=EMPH
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Eraqor:7
+# text = Чама ныръиԓеӄинэт.
+# text[phon] = sama nərʔiɬeqinet
+# text[rus] = И на упряжках гонялись.
+# text[eng] = And they took part in a race.
+# labels = complete-dep anno-karina
+1	Чама	чама	ADV	_	_	2	cc	_	Gloss=также
+2	ныръиԓеӄинэт	ръиԓек	VERB	_	Valency=1	0	root	_	Gloss=ST-участвовать.в.гонках-ST.3SG-PL
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Eraqor:8
+# text = Ныгэкэӈыԓьэтӄинэт чама нырачвыӈӄэнат чама нытэйкэвӄинэт.
+# text[phon] = nəɣekeŋəɬʔetqinet sama nəraswəŋqenat sama nətejkewqinet
+# text[rus] = Ездили в упряжках, состязались в беге и борьбе.
+# text[eng] = They were riding sleighs and had a (running) race and also wrestled.
+# labels = complete-dep anno-karina valency
+1	Ныгэкэӈыԓьэтӄинэт	_	VERB	_	Valency=1	0	root	_	Gloss=ST-упряжка-ATTR-VB-ST.3SG-PL
+2	чама	чама	ADV	_	_	3	cc	_	Gloss=также
+3	нырачвыӈӄэнат	рачвыӈык	VERB	_	Valency=1	1	parataxis	_	Gloss=ST-участвовать.в.беге-ST.3SG-PL
+4	чама	чама	ADV	_	_	5	cc	_	Gloss=также
+5	нытэйкэвӄинэт	_	VERB	_	Valency=1	1	parataxis	_	Gloss=ST-бороться-ST.3SG-PL
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Eraqor:9
+# text = Чама таӈнырэԓӄыпатӄэнат.
+# text[phon] = sama taŋnəreɬqəpatqenat
+# text[rus] = И кашу варили.
+# text[eng] = And they also cooked porridge.
+# labels = complete-dep anno-karina
+1	Чама	чама	ADV	_	_	2	advmod	2:advmod	Gloss=также
+2	таӈнырэԓӄыпатӄэнат	ыпатык	VERB	_	Incorporated[obj]=Yes|Valency=1	0	root	0:root	Gloss=ST-каша-варить-ST.3SG-PL
+2.1	рэԓӄ	риԓӄыриԓ	NOUN	_	Incorporated=Yes	_	_	2:obj	Gloss=каша
+3	.	.	PUNCT	_	_	2	punct	2:punct	_
+
+# sent_id = Eraqor:10
+# text = Чама рэн йъа гаԓгэтаранԓен рэмкын.
+# text[phon] = sama ren jʔa ɣaɬɣetaranɬen remkən
+# text[rus] = И яраног много поставили люди.
+# text[eng] = And people build many yarangas.
+# labels = complete-dep anno-karina
+1	Чама	чама	ADV	_	_	4	cc	_	Gloss=также
+2	рэн	рэн	X	_	_	4	reparandum	_	Gloss=FST
+3	йъа	йъа	X	_	_	4	reparandum	_	Gloss=FST
+4	гаԓгэтаранԓен	тараӈык	VERB	_	Valency=1	0	root	_	Gloss=PF-INTS-MAKE-жилище-MAKE-PF.3SG
+5	рэмкын	рэмкын	NOUN	_	_	4	nsubj	_	Gloss=народ-NOM.SG
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Eraqor:11
+# text = Ԓгэнарагчеԓьатӄэнат ныԓгитэӈычьэтӄин рэмкын.
+# text[phon] = ɬɣenaraɣseɬʔatqenat nəɬɣiteŋəsʔetqin remkən
+# text[rus] = Много ходили в гости друг к другу, очень интересно было.
+# text[eng] = We often visited each other, it was very interesting.
+# labels = complete-dep anno-karina
+1	Ԓгэнарагчеԓьатӄэнат	_	VERB	_	Valency=1	0	root	_	Gloss=INTS-идти.в.соседнюю.ярангу-PLAC-ST.3SG-PL
+2	ныԓгитэӈычьэтӄин	_	VERB	_	_	1	parataxis	_	Gloss=ST-INTS-хороший-ADJ-VB-ST.3SG
+3	рэмкын	рэмкын	NOUN	_	_	1	nsubj	_	Gloss=народ-NOM.SG
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Eraqor:12
+# text = Муриыʼм ныԓгэԓвавморэ миԓгынъюнэвкы.
+# text[phon] = muriʔəm nəɬɣeɬwawmore miɬɣənjunewkə
+# text[rus] = А мы никак не могли разжечь костёр.
+# text[eng] = We could not set the fire.
+# labels = complete-dep anno-karina valency
+1-2	Муриыʼм	_	_	_	_	_	_	_	Gloss=мы-=EMPH
+1	Мури	мури	PRON	_	_	3	nsubj	3:nsubj|4.1:nsubj	Gloss=мы
+2	ыʼм	ъм	PART	_	_	1	advmod:emph	1:advmod:emph	Gloss=EMPH
+3	ныԓгэԓвавморэ	ԓывавык	VERB	_	Valency=1	0	root	0:root	Gloss=ST-INTS-не.мочь-NP-1PL
+4	миԓгынъюнэвкы	рыйынравык	VERB	_	Incorporated[obj]=Yes|Valency=1	3	xcomp	3:xcomp	Gloss=разжигать.костёр-INF
+4.1	миԓгы	миԓгын	NOUN	_	Incorporated=Yes	_	_	4:obj	Gloss=огонь
+5	.	.	PUNCT	_	_	4	punct	4:punct	_
+
+# sent_id = Eraqor:13
+# text = Мургинэт уттыт гэԓгийъэтитӄэтԓинэт ӈэргэрык.
+# text[phon] = murɣinet uttət ɣeɬɣijʔetitqetɬinet ŋerɣerək
+# text[rus] = Наши дрова совсем промокли осенью.
+# text[eng] = Our firewood got wet in the autumn.
+# labels = complete-dep anno-karina
+1	Мургинэт	_	PRON	_	_	2	nmod:poss	_	Gloss=мы-GEN-PL
+2	уттыт	уттуут	NOUN	_	_	3	nsubj	_	Gloss=дерево-NOM.PL
+3	гэԓгийъэтитӄэтԓинэт	_	VERB	_	Valency=1	0	root	_	Gloss=PF-INTS-облако-VB-сырой-VB-PF.3SG-PL
+4	ӈэргэрык	ӈэргэр	NOUN	_	_	3	obl	_	Gloss=ранняя.осень-LOC
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Eraqor:14
+# text = Пԓыткукэ рэмкынэ клубэты гэԓгиԓӄытръуԓин ынкы.
+# text[phon] = pɬətkuke remkəne klubetə ɣeɬɣiɬqətrʔuɬin ənkə
+# text[rus] = Закончив, весь народ пошёл в клуб.
+# text[eng] = When they were done, people went to the club.
+# labels = complete-dep anno-karina
+1-2	Пԓыткукэ	_	_	_	_	_	_	_	Gloss=закончить-LOC-=PTCL
+1	Пԓыткук	пԓыткук	VERB	_	_	6	advcl	_	Gloss=закончить-LOC
+2	э	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3-4	рэмкынэ	_	_	_	_	_	_	_	Gloss=народ-NOM.SG-=PTCL
+3	рэмкын	рэмкынэ	NOUN	_	_	6	nsubj	_	Gloss=народ-NOM.SG
+4	э	а	PART	_	_	3	advmod:emph	_	Gloss=PTCL
+5	клубэты	_	NOUN	_	_	6	obl	_	Gloss=клуб-DAT
+6	гэԓгиԓӄытръуԓин	_	VERB	_	Valency=1	0	root	_	Gloss=PF-INTS-идти-DISTR.S-PF.3SG
+7	ынкы	ынкы	PRON	_	_	5	det	_	Gloss=тот-LOC
+8	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Eraqor:15
+# text = В общем рэмкын клубык гаканчертԓен.
+# text[phon] = в общем remkən klubək ɣakancertɬen
+# text[rus] = В общем, в клубе народ побывал на концерте.
+# text[eng] = In the end, people went to the concert in the club.
+# labels = complete-dep anno-karina
+1	В	в	X	_	_	5	discourse	_	Gloss=
+2	общем	общем	X	_	_	1	flat:foreign	_	Gloss=
+3	рэмкын	рэмкын	NOUN	_	_	5	nsubj	_	Gloss=народ-NOM.SG
+4	клубык	_	NOUN	_	_	5	obl	_	Gloss=клуб-LOC
+5	гаканчертԓен	_	VERB	_	Valency=1	0	root	_	Gloss=PF-концерт-PF.3SG
+6	.	.	PUNCT	_	_	5	punct	_	_
+

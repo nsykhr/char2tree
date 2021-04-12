@@ -1,0 +1,71 @@
+# sent_id = Eagle:1
+# text = Чапаев ытри Пэтька гамаравԓенат.
+# text[phon] = čapajew ətri petʲka ɣamarawɬenat
+# text[rus] = Поссорились Чапаев и Петька.
+# text[eng] = Chapaev and Petka had an argument.
+# labels = complete-dep anno-fran unclear-syntax
+1	Чапаев	Чапаев	PROPN	_	_	4	dislocated	_	Gloss=Чапаев-NOM.SG
+2	ытри	ытри	PRON	_	_	4	nsubj	_	Gloss=они
+3	Пэтька	Пэтька	PROPN	_	_	1	conj	_	Gloss=Петька-NOM.SG
+4	гамаравԓенат	маравчетык	VERB	_	Valency=1	0	root	_	Gloss=PF-ссориться-PF.3SG-PL
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Eagle:2
+# text = Нвакъотваӄаат.
+# text[phon] = nwakʔotwaqaat
+# text[rus] = Сидят.
+# text[eng] = They sit.
+# labels = complete-dep anno-fran
+1	Нвакъотваӄаат	_	VERB	_	Valency=1	0	root	_	Gloss=ST-садиться-RES-ST.3PL
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Eagle:3
+# text = Пэтькана нэран нэнаранвэтгавэтыӄэн Чапаев.
+# text[phon] = petʲkana neran nenaranwetɣawetəqen čapajew
+# text[rus] = Петька хочет заговорить с Чапаевым.
+# text[eng] = Petka wants to talk to Chapaev.
+# labels = complete-dep anno-fran
+1	Пэтькана	пэтька	PROPN	_	_	3	nsubj	_	Gloss=Петька-AN.INS
+2	нэран	нэран	X	_	_	3	reparandum	_	Gloss=FST
+3	нэнаранвэтгавэтыӄэн	_	VERB	_	Valency=2	0	root	_	Gloss=ST-INV-DES-TR-говорить-VB-ST.3SG
+4	Чапаев	Чапаев	PROPN	_	_	3	obj	_	Gloss=Чапаев-NOM.SG
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Eagle:4
+# text = Чапаянни Чапаевна нинивӄин.
+# text[phon] = čapajanni čapajewna niniwqin
+# text[rus] = Чапаев говорит ему:
+# text[eng] = Chapaev says to him:
+# labels = complete-dep anno-fran
+1	Чапаянни	Чапаянни	X	_	_	2	reparandum	_	Gloss=FST
+2	Чапаевна	Чапаев	PROPN	_	_	3	nsubj	_	Gloss=Чапаев-AN.INS
+3	нинивӄин	ивык	VERB	_	_	0	root	_	Gloss=ST-INV-сказать-ST.3SG
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Eagle:5
+# text = Тиԓмытириԓ тиԓмэ эʼԓьэԓ ванэ нын нынвэтгаваннэн.
+# text[phon] = tiɬmətiriɬ tiɬme ʔeɬʔeɬ wane nən nənwetɣawannen
+# text[rus] = «Орёл с говном не разговаривает».
+# text[eng] = «An eagle does not talk to crap.»
+# labels = complete-dep anno-fran
+1	Тиԓмытириԓ	Тиԓмытириԓ	X	_	_	2	reparandum	_	Gloss=FST
+2	тиԓмэ	тиԓмытиԓ	NOUN	_	_	6	nsubj	_	Gloss=орёл-INS
+3	эʼԓьэԓ	эʼԓьэԓ	NOUN	_	_	6	obj	_	Gloss=экскременты
+4	ванэ	ванэ	AUX	_	_	6	aux:neg	_	Gloss=NEG.NFUT
+5	нын	нын	X	_	_	6	reparandum	_	Gloss=FST
+6	нынвэтгаваннэн	рывэтгавык	VERB	_	_	0	root	_	Gloss=3.S/A.SUBJ-TR-говорить-VB-3SG.A.3.O-3SG.O
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Eagle:6
+# text = Пэтька нрзб гым виин мриӈээʼк.
+# text[phon] = petʲka нрзб ɣəm wiin mriŋeʔek
+# text[rus] = Петька отвечает: «Тогда я полетел».
+# text[eng] = Petka replies: «Then I am flying away.»
+# labels = complete-dep anno-fran
+1	Пэтька	Пэтька	PROPN	_	_	0	root	_	Gloss=Петька-NOM.SG
+2	нрзб	нрзб	X	_	_	5	discourse	_	Gloss=
+3	гым	гым	PRON	_	_	5	nsubj	_	Gloss=я
+4	виин	виин	ADV	_	_	5	advmod	_	Gloss=пока
+5	мриӈээʼк	_	VERB	_	_	1	parataxis	_	Gloss=1SG.S/A.SUBJ-взлетать-TH-1SG.S
+6	.	.	PUNCT	_	_	5	punct	_	_
+

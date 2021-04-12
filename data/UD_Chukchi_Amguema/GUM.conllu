@@ -1,0 +1,493 @@
+# sent_id = GUM:1
+# text = Москва мури ӄэԓюӄъым гэтумгиинэтэ нрзб ӈиръэ ӈинӄэгти мурыгрээн нэмыӄэй.
+# text[phon] = maskwa muri qeɬuqʔəm ɣetumɣiinete нрзб ŋirʔe ŋinqeɣti murəɣreen neməqej
+# text[rus] = Москва. Мы с мужем, с нами также двое мальчиков.
+# text[eng] = Moscow. Me and my husband, two boys are also with us.
+# labels = complete-dep anno-fran
+1	Москва	Москва	PROPN	_	_	0	root	_	Gloss=Москва-NOM.SG
+2	мури	мури	PRON	_	Case=Abs	5	nsubj	_	Gloss=мы
+3-4	ӄэԓюӄъым	_	_	_	_	_	_	_	Gloss=конечно-=EMPH
+3	ӄэԓюӄ	ӄэԓюӄъым	ADV	_	_	5	advmod	_	Gloss=конечно
+4	ъым	ъм	PART	_	_	3	advmod:emph	_	Gloss=EMPH
+5	гэтумгиинэтэ	_	NOUN	_	_	1	parataxis	_	Gloss=COM-супруг(а)-INS
+6	нрзб	_	X	_	_	9	discourse	_	Gloss=
+7	ӈиръэ	_	NUM	_	_	8	nummod	_	Gloss=два
+8	ӈинӄэгти	_	NOUN	_	_	9	nsubj	_	Gloss=молодой-DIM-NOM.PL
+9-10	мурыгрээн	_	_	_	_	_	_	_	Gloss=мы-POSS.INC-=с
+9	мурыг	_	PRON	_	_	1	parataxis	_	Gloss=мы-POSS.INC
+10	рээн	_	ADP	_	_	9	case	_	Gloss=с
+11	нэмыӄэй	нэмыӄэй	ADV	_	_	9	advmod	_	Gloss=тоже
+12	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = GUM:2
+# text = Гамачквантат через так хочется по-русски сказать ынӄэнъымэ гавэԓыткорантаморэм.
+# text[phon] = ɣamaskwantat через так хочется по-русски сказать ənqenʔəme ɣaweɬətkorantamoreʔm
+# text[rus] = Пошли в большой магазин.
+# text[eng] = We went to a big store.
+# labels = complete-dep anno-fran ənqen disfluency
+1	Гамачквантат	Гамачквантат	X	_	_	10	reparandum	_	Gloss=FST
+2	через	_	X	_	_	10	parataxis	_	Gloss=
+3	так	так	X	_	_	2	flat:foreign	_	Gloss=
+4	хочется	_	X	_	_	2	flat:foreign	_	Gloss=
+5	по-русски	_	X	_	_	2	flat:foreign	_	Gloss=
+6	сказать	_	X	_	_	2	flat:foreign	_	Gloss=
+7-9	ынӄэнъымэ	_	_	_	_	_	_	_	Gloss=DET-=EMPH-=PTCL
+7	ынӄэн	_	PART	_	_	10	discourse	_	Gloss=DET
+8	ъым	ъм	PART	_	_	7	advmod:emph	_	Gloss=EMPH
+9	э	а	PART	_	_	7	advmod:emph	_	Gloss=PTCL
+10-11	гавэԓыткорантаморэм	_	_	_	_	_	_	_	Gloss=PF-товар-ITER-жилище-GO.DO-NP.1PL-=EMPH
+10	гавэԓыткорантаморэ	_	VERB	_	Valency=1	0	root	_	Gloss=PF-товар-ITER-жилище-GO.DO-NP.1PL
+11	м	ъм	PART	_	_	10	advmod:emph	_	Gloss=EMPH
+12	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = GUM:3
+# text = Вэнъым нымэйыӈӄин ӄоныры ԓыгэныԓгинивԓыӄин чама.
+# text[phon] = wenʔəm nəmejəŋqin qonərə ɬəɣenəɬɣiniwɬəqin sama
+# text[rus] = Совсем большой, притом очень длинный и…
+# text[eng] = Very large, and very long and…
+# labels = complete-dep anno-fran
+1	Вэнъым	вэнъым	ADV	_	_	2	advmod	_	Gloss=на.самом.деле
+2	нымэйыӈӄин	нымэйыӈӄин	ADJ	_	_	0	root	_	Gloss=ST-большой-ST.3SG
+3	ӄоныры	ӄоныры	ADV	_	_	4	advmod	_	Gloss=притом
+4	ԓыгэныԓгинивԓыӄин	_	ADJ	_	_	2	parataxis	_	Gloss=AUTH-ST-INTS-ST-длинный-ST.3SG
+5	чама	чама	ADV	_	_	4	advmod	_	Gloss=также
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = GUM:4
+# text = Мыг мы мы как и сказать короче нымэйыӈӄин вэԓыткоран ынӄэн.
+# text[phon] = məɣ mə mə как и сказать короче nəmejəŋqin weɬətkoran ənqen
+# text[rus] = Как и сказать, короче, большой магазин.
+# text[eng] = How to say, in a short, a large store.
+# labels = complete-dep anno-fran ənqen disfluency
+1	Мыг	Мыг	X	_	_	4	reparandum	_	Gloss=FST
+2	мы	мы	X	_	_	4	reparandum	_	Gloss=FST
+3	мы	мы	X	_	_	4	reparandum	_	Gloss=FST
+4	как	_	X	_	_	9	discourse	_	Gloss=
+5	и	_	X	_	_	4	flat:foreign	_	Gloss=
+6	сказать	_	X	_	_	4	flat:foreign	_	Gloss=
+7	короче	_	X	_	_	4	flat:foreign	_	Gloss=
+8	нымэйыӈӄин	нымэйыӈӄин	ADJ	_	_	0	root	_	Gloss=ST-большой-ST.3SG
+9	вэԓыткоран	вэԓыткоран	NOUN	_	_	8	nsubj	_	Gloss=товар-ITER-жилище-NOM.SG
+10	ынӄэн	ынӄэн	PART	_	_	9	discourse	_	Gloss=DET
+11	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = GUM:5
+# text = Гыргоԓят гыргоԓя гыргоԓяйпы ныԓейвымури ынӄэн нинэгитэмури имыръэнут ԓыгэнэ.
+# text[phon] = ɣərɣoɬat ɣərɣoɬa ɣərɣoɬajpə nəɬejwəmuri ənqen nineɣitemuri imərʔenut ɬəɣene
+# text[rus] = Сверху идём, рассматриваем всякие вещи…
+# text[eng] = From above we are going, we are looking at all sorts of things…
+# labels = complete-dep anno-fran ənqen
+1	Гыргоԓят	Гыргоԓят	X	_	_	2	reparandum	_	Gloss=FST
+2	гыргоԓя	_	ADV	_	_	4	advmod	_	Gloss=вверху
+3	гыргоԓяйпы	_	ADV	_	_	4	advmod	_	Gloss=вверху-ABL
+4	ныԓейвымури	_	VERB	_	Valency=1	0	root	_	Gloss=ST-ходить-NP.1PL
+5	ынӄэн	ынӄэн	PART	_	_	6	discourse	_	Gloss=DET
+6	нинэгитэмури	гитэк	VERB	_	Valency=2	4	parataxis	_	Gloss=ST-INV-смотреть-NP.1PL
+7	имыръэнут	имыръэнут	PRON	_	_	6	obj	_	Gloss=FC-что.NOM.SG
+8-9	ԓыгэнэ	_	_	_	_	_	_	_	Gloss=просто-=PTCL
+8	ԓыгэн	_	ADV	_	_	6	advmod	_	Gloss=просто
+9	э	а	PART	_	_	8	advmod:emph	_	Gloss=PTCL
+10	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = GUM:6
+# text = Ӄытԓыги пԓеӄӄэгти ты тыԓьунэт.
+# text[phon] = qətɬəɣi pɬeqqeɣti tə təɬʔunet
+# text[rus] = Между тем, я увидела сапожки.
+# text[eng] = Meanwhile, I saw boots.
+# labels = complete-dep anno-fran
+1	Ӄытԓыги	_	ADV	_	_	4	advmod	_	Gloss=оказывается
+2	пԓеӄӄэгти	_	NOUN	_	_	4	obj	_	Gloss=обувь-DIM-NOM.PL
+3	ты	ты	X	_	_	4	reparandum	_	Gloss=FST
+4	тыԓьунэт	ԓьук	VERB	_	_	0	root	_	Gloss=1SG.S/A-видеть-3SG.O-PL
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = GUM:7
+# text = Нивигым ынӈатаԓ йыӄӄайъым вай ынӄэнат пԓеӄӄэгтиыʼм.
+# text[phon] = niwiɣəm ənŋataɬ jəqqajʔəm waj ənqenat pɬeqqeɣtiʔəm
+# text[rus] = Думаю: вот это да, какие красивые сапожки!
+# text[eng] = I am thinking: wow, what beautiful boots!
+# labels = complete-dep anno-fran
+1	Нивигым	_	VERB	_	Valency=2	0	root	_	Gloss=ST-сказать-NP.1SG
+2	ынӈатаԓ	ынӈатаԓ	ADV	_	_	3	advmod	_	Gloss=очень
+3	йыӄӄайъым	йыӄӄайъым	ADJ	_	_	6	amod	_	Gloss=замечательный.EMPH
+4	вай	вай	ADV	_	_	6	advmod	_	Gloss=вот
+5	ынӄэнат	_	PRON	_	_	6	det	_	Gloss=DET-NOM.PL
+6-7	пԓеӄӄэгтиыʼм	_	_	_	_	_	_	_	Gloss=обувь-DIM-NOM.PL-=EMPH
+6	пԓеӄӄэгти	_	NOUN	_	_	1	parataxis	_	Gloss=обувь-DIM-NOM.PL
+7	ыʼм	ъм	PART	_	_	6	advmod:emph	_	Gloss=EMPH
+8	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = GUM:8
+# text = Кытэӄэй тыгитэнэтъым ынӄо.
+# text[phon] = kəteqej təɣitenetʔəm ənqo
+# text[rus] = Немного посмотрела на них.
+# text[eng] = I looked at them for a while.
+# labels = complete-dep anno-fran
+1	Кытэӄэй	кытэӄэй	ADV	_	_	2	advmod	_	Gloss=какое.то.время
+2-3	тыгитэнэтъым	_	_	_	_	_	_	_	Gloss=1SG.S/A-смотреть-3SG.O-PL-=EMPH
+2	тыгитэнэт	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-смотреть-3SG.O-PL
+3	ъым	ъм	PART	_	_	2	advmod:emph	_	Gloss=EMPH
+4	ынӄо	ынӄо	ADV	_	_	2	advmod	_	Gloss=потом
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = GUM:9
+# text = Уʼрэӈунри тыԓиэʼ эʼми тыԓеԓьыт ыʼттъыёԓкэнат.
+# text[phon] = ʔureŋunri təɬiʔe ʔemi təɬeɬʔət ʔəttʔəjoɬkenat
+# text[rus] = Повернулась в ту сторону, где были те, кто шёл впереди.
+# text[eng] = I turned in the direction where those who were ahead were.
+# labels = complete-dep anno-karina
+1	Уʼрэӈунри	уʼрэӈунри	ADV	_	_	2	advmod	_	Gloss=TOWARDS-там.в.стороне-ADV.ALL
+2	тыԓиэʼ	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-поворачиваться-TH
+3	эʼми	эʼми	ADV	_	_	4	advmod	_	Gloss=где
+4	тыԓеԓьыт	_	VERB	_	_	2	advcl	_	Gloss=идти-ATTR-NOM.PL
+5	ыʼттъыёԓкэнат	ыʼттъыёԓкэн	ADJ	_	_	4	nsubj	_	Gloss=перед-REL-NOM.PL
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = GUM:10
+# text = Тынтымӈэвынат.
+# text[phon] = təntəmŋewənat
+# text[rus] = Я их потеряла.
+# text[eng] = I lost them.
+# labels = complete-dep anno-fran
+1	Тынтымӈэвынат	рытымӈэвык	VERB	_	_	0	root	_	Gloss=1SG.S/A-TR-потеряться-3SG.O-PL
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = GUM:11
+# text = Нивигым эʼми ынръам.
+# text[phon] = niwiɣəm ʔemi ənrʔam
+# text[rus] = Думаю: где же они?!
+# text[eng] = I am thinking: where are they?!
+# labels = complete-dep anno-fran
+1	Нивигым	_	VERB	_	Valency=2	0	root	_	Gloss=ST-сказать-NP.1SG
+2	эʼми	эʼми	ADV	_	_	1	parataxis	_	Gloss=где
+3	ынръам	ынкъам	ADV	_	_	2	advmod	_	Gloss=в_данном_моменте
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = GUM:12
+# text = Тыԓӄырэрыӈӈонат ӄэԓюӄъым.
+# text[phon] = təɬqərerəŋŋonat qeɬuqʔəm
+# text[rus] = Начала искать их, конечно.
+# text[eng] = I started looking for them, of course.
+# labels = complete-dep anno-fran
+1	Тыԓӄырэрыӈӈонат	ӄырирык	VERB	_	_	0	root	_	Gloss=1SG.S/A-искать-INCH-3SG.O-PL
+2-3	ӄэԓюӄъым	_	_	_	_	_	_	_	Gloss=конечно-=EMPH
+2	ӄэԓюӄ	ӄэԓюӄъым	ADV	_	_	1	advmod	_	Gloss=конечно
+3	ъым	ъм	PART	_	_	2	advmod:emph	_	Gloss=EMPH
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = GUM:13
+# text = Ԓымынӄо ныԓейвигым чама гыргочаткынэпы чама ӄынвэт.
+# text[phon] = ɬəmənqo nəɬejwiɣəm sama ɣərɣosatkənepə sama qənwet
+# text[rus] = Везде прошлась, и сверху тоже наконец.
+# text[eng] = I walked everywhere, and from above, too, finally.
+# labels = complete-dep anno-fran
+1	Ԓымынӄо	_	ADV	_	_	2	advmod	_	Gloss=OMN-тот-ADV.ABL
+2	ныԓейвигым	_	VERB	_	Valency=1	0	root	_	Gloss=ST-ходить-NP.1SG
+3	чама	чама	ADV	_	_	4	advmod	_	Gloss=также
+4	гыргочаткынэпы	_	ADV	_	_	2	advmod	_	Gloss=вверху-TOP-ABL
+5	чама	чама	ADV	_	_	6	advmod	_	Gloss=также
+6	ӄынвэт	ӄынвэт	ADV	_	_	2	advmod	_	Gloss=наконец
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = GUM:14
+# text = Ив тивтыԓетгъэкъым тынтоаʼк.
+# text[phon] = iw tiwtəɬetɣʔekʔəm təntoʔak
+# text[rus] = Спустилась, вышла.
+# text[eng] = I walked down and went out.
+# labels = complete-dep anno-fran
+1	Ив	Ив	X	_	_	2	reparandum	_	Gloss=FST
+2-3	тивтыԓетгъэкъым	_	_	_	_	_	_	_	Gloss=1SG.S/A-внизу-VB-TH-1SG.S-=EMPH
+2	тивтыԓетгъэк	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-внизу-VB-TH-1SG.S
+3	ъым	ъм	PART	_	_	2	advmod:emph	_	Gloss=EMPH
+4	тынтоаʼк	_	VERB	_	_	2	parataxis	_	Gloss=1SG.S/A-выходить-TH-1SG.S
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = GUM:15
+# text = Ыннэнчьэн тытыԓ тынтоаʼнъым тъатчаӈӈоаʼк ынӄэн нын.
+# text[phon] = ənnensʔen tətəɬ təntoʔanʔəm tʔatsaŋŋoʔak ənqen nən
+# text[rus] = Прошла первую дверь, стала ждать.
+# text[eng] = I passed the first door and started waiting.
+# labels = complete-dep anno-fran ənqen
+1	Ыннэнчьэн	Ыннэнчьэн	ADJ	_	_	2	amod	_	Gloss=один-ADJ-NOM.SG
+2	тытыԓ	тытыԓ	NOUN	_	_	3	obj	_	Gloss=дверь-NOM.SG
+3-4	тынтоаʼнъым	_	_	_	_	_	_	_	Gloss=1SG.S/A-выходить-TH-3SG.O-=EMPH
+3	тынтоаʼн	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-выходить-TH-3SG.O
+4	ъым	ъм	PART	_	_	3	advmod:emph	_	Gloss=EMPH
+5	тъатчаӈӈоаʼк	_	VERB	_	_	3	parataxis	_	Gloss=1SG.S/A-ждать-INCH-TH-1SG.S
+6	ынӄэн	ынӄэн	PART	_	_	5	discourse	_	Gloss=DET
+7	нын	нын	X	_	_	5	reparandum	_	Gloss=FST
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = GUM:16
+# text = Ӄутти нынтоӄэнат ынӄоръым.
+# text[phon] = qutti nəntoqenat ənqorʔəm
+# text[rus] = Другие выходят оттуда.
+# text[eng] = Other people come out of there.
+# labels = complete-dep anno-fran
+1	Ӄутти	_	ADJ	_	_	2	nsubj	_	Gloss=некий-NOM.PL
+2	нынтоӄэнат	ӈыток	VERB	_	Valency=1	0	root	_	Gloss=ST-выходить-ST.3SG-PL
+3-4	ынӄоръым	_	_	_	_	_	_	_	Gloss=потом-=EMPH
+3	ынӄор	_	ADV	_	_	2	advmod	_	Gloss=потом
+4	ъым	ъм	PART	_	_	3	advmod:emph	_	Gloss=EMPH
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = GUM:17
+# text = Нивигым аԓымы мэԓнымкыӄинэ тытԓытыԓ ӈотӄоры ӈытогыргын ваԓьын.
+# text[phon] = niwiɣəm aɬəmə meɬnəmkəqine tətɬətəɬ ŋotqorə ŋətoɣərɣən waɬʔən
+# text[rus] = Думаю: вроде было много входных дверей, много выходов оттуда.
+# text[eng] = I am thinking: there were a lot of entrance doors, a lot of exits from there.
+# labels = complete-dep anno-fran
+1	Нивигым	_	VERB	_	Valency=2	0	root	_	Gloss=ST-сказать-NP.1SG
+2	аԓымы	аԓымы	ADV	_	_	3	advmod	_	Gloss=хотя
+3-4	мэԓнымкыӄинэ	_	_	_	_	_	_	_	Gloss=SEEM-ST-многий-ST.3SG-=PTCL
+3	мэԓнымкыӄин	_	ADJ	_	_	1	parataxis	_	Gloss=SEEM-ST-многий-ST.3SG
+4	э	а	PART	_	_	3	advmod:emph	_	Gloss=PTCL
+5	тытԓытыԓ	_	NOUN	_	_	3	nsubj	_	Gloss=дверь.RDP.NOM
+6	ӈотӄоры	_	ADV	_	_	7	advmod	_	Gloss=тут-ADV.ABL
+7	ӈытогыргын	ӈытогыргын	VERB	_	_	5	acl:attr	_	Gloss=выходить-NMLZ-NOM.SG
+8	ваԓьын	ваԓьын	AUX	_	_	7	cop	_	Gloss=быть-ATTR-NOM.SG
+9	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = GUM:18
+# text = Нымкыӄин тытԓытыԓ аԓымы.
+# text[phon] = nəmkəqin tətɬətəɬ aɬəmə
+# text[rus] = Много дверей ведь было.
+# text[eng] = There were a lot of doors, indeed.
+# labels = complete-dep anno-fran
+1	Нымкыӄин	_	ADJ	_	_	0	root	_	Gloss=ST-многий-ST.3SG
+2	тытԓытыԓ	_	NOUN	_	_	1	nsubj	_	Gloss=дверь.RDP.NOM
+3	аԓымы	аԓымы	ADV	_	_	1	advmod	_	Gloss=хотя
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = GUM:19
+# text = Опопыӈа эʼмитԓён мэмԓыфонтан мыйъоаʼн.
+# text[phon] = opopəŋa ʔemitɬon memɬəfantan məjʔoʔan
+# text[rus] = Попробую-ка я сходить к [той двери], где фонтан.
+# text[eng] = Let me try to go to [that door] where the fountain is.
+# labels = complete-dep anno-karina
+1-2	Опопыӈа	_	_	_	_	_	_	_	Gloss=лучше-=PTCL
+1	Опопы	_	ADV	_	_	5	advmod	_	Gloss=лучше
+2	ӈа	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3	эʼмитԓён	_	PRON	_	_	4	amod	_	Gloss=который
+4	мэмԓыфонтан	мэмԓыфонтан	NOUN	_	_	5	obl	_	Gloss=вода-фонтан-NOM.SG
+5	мыйъоаʼн	_	VERB	_	_	0	root	_	Gloss=1SG.S/A.SUBJ-настигать-TH-3SG.O
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = GUM:20
+# text = Ныԓейгым гыргочаткын гыргоча ынӄэн нинэгитэйгым эʼмитԓёнэ фонтан.
+# text[phon] = nəɬejɣəm ɣərɣosatkən ɣərɣosa ənqen nineɣitejɣəm ʔemitɬone fantan
+# text[rus] = Прошлась поверху, посмотрела там, где фонтан.
+# text[eng] = I walked over the top, looked where the fountain was.
+# labels = complete-dep anno-karina
+1	Ныԓейгым	тыԓек	VERB	_	Valency=1	0	root	_	Gloss=ST-идти-NP.1SG
+2	гыргочаткын	гыргочаткын	X	_	_	3	reparandum	_	Gloss=FST
+3	гыргоча	гыргоча	ADV	_	_	1	advmod	_	Gloss=вверху
+4	ынӄэн	ынӄэн	PRON	_	_	1	det	_	Gloss=DET
+5	нинэгитэйгым	гитэк	VERB	_	_	1	parataxis	_	Gloss=ST-INV-смотреть-NP.1SG
+6-7	эʼмитԓёнэ	_	_	_	_	_	_	_	Gloss=который-=PTCL
+6	эʼмитԓён	_	PRON	_	_	8	nmod	_	Gloss=который
+7	э	а	PART	_	_	6	advmod:emph	_	Gloss=PTCL
+8	фонтан	фонтан	NOUN	_	_	4	ccomp	_	Gloss=фонтан-NOM.SG
+9	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = GUM:21
+# text = Ӄытԓыги ынӄэн ԓюутэ энаркып энаркыпчыткогъэ ӈинчьэккэтэыʼм.
+# text[phon] = qətɬəɣi ənqen ɬuute enarkəp enarkəpsətkoɣʔe ŋinsʔekketeʔəm
+# text[rus] = Оказывается, как хорошо, что стукнул меня младший сын.
+# text[eng] = It turns out how good that the youngest son hit me.
+# labels = complete-dep anno-fran ənqen
+1	Ӄытԓыги	_	ADV	_	_	6	advmod	_	Gloss=оказывается
+2	ынӄэн	ынӄэн	PART	_	_	6	discourse	_	Gloss=DET
+3-4	ԓюутэ	_	_	_	_	_	_	_	Gloss=вдруг-=PTCL
+3	ԓюут	_	ADV	_	_	6	advmod	_	Gloss=вдруг
+4	э	а	PART	_	_	3	advmod:emph	_	Gloss=PTCL
+5	энаркып	энаркып	X	_	_	6	reparandum	_	Gloss=FST
+6	энаркыпчыткогъэ	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-INV-ударять-ITER-TH-2/3SG.S
+7-8	ӈинчьэккэтэыʼм	_	_	_	_	_	_	_	Gloss=молодой-ADJ-сын-INS-=EMPH
+7	ӈинчьэккэтэ	_	NOUN	_	_	6	nsubj	_	Gloss=молодой-ADJ-сын-INS
+8	ыʼм	ъм	PART	_	_	7	advmod:emph	_	Gloss=EMPH
+9	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = GUM:22
+# text = Нивигым оо мэӈин.
+# text[phon] = niwiɣəm oo meŋin
+# text[rus] = Думаю: ого! кто это?
+# text[eng] = I am thinking: ah, who is this?
+# labels = complete-dep anno-fran
+1	Нивигым	_	VERB	_	Valency=2	0	root	_	Gloss=ST-сказать-NP.1SG
+2	оо	_	INTJ	_	_	1	parataxis	_	Gloss=о
+3	мэӈин	_	PRON	_	_	2	parataxis	_	Gloss=кто
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = GUM:23
+# text = Оʼмрын ӄытԓыги.
+# text[phon] = ʔomrən qətɬəɣi
+# text[rus] = Оказывается, Омрын.
+# text[eng] = It turns out that [it is] Omryn.
+# labels = complete-dep anno-fran
+1	Оʼмрын	Оʼмрын	PROPN	_	_	0	root	_	Gloss=Омрын-NOM.SG
+2	ӄытԓыги	ӄытԓыги	PART	_	_	1	discourse	_	Gloss=оказывается
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = GUM:24
+# text = Ынӄэн Оʼмрынына нрзб.
+# text[phon] = ənqen ʔomrənəna нрзб
+# text[rus] = Я Омрына спрашиваю:
+# text[eng] = I am asking Omryn:
+# labels = complete-dep anno-fran ənqen
+1	Ынӄэн	ынӄэн	PART	_	_	2	discourse	_	Gloss=DET
+2	Оʼмрынына	Оʼмрын	PROPN	_	_	0	root	_	Gloss=Омрын-AN.DAT
+3	нрзб	_	X	_	_	2	discourse	_	Gloss=
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = GUM:25
+# text = Эʼми ӄуттиӈэ эʼмиыʼмэ эʼми атэӄай ымы эʼми ынъэӄэй.
+# text[phon] = ʔemi quttiŋe ʔemiʔəme ʔemi ateqaj əmə ʔemi ənʔeqej
+# text[rus] = «Где остальные, где папочка и где брат?».
+# text[eng] = «Where are the others, where is daddy and where is your brother?».
+# labels = complete-dep anno-fran
+1	Эʼми	эʼми	ADV	_	_	0	root	_	Gloss=где
+2-3	ӄуттиӈэ	_	_	_	_	_	_	_	Gloss=некий-NOM.PL-=PTCL
+2	ӄутти	_	PRON	_	_	1	nsubj	_	Gloss=некий-NOM.PL
+3	ӈэ	а	PART	_	_	2	advmod:emph	_	Gloss=PTCL
+4-6	эʼмиыʼмэ	_	_	_	_	_	_	_	Gloss=где-=EMPH-=PTCL
+4	эʼми	эʼми	ADV	_	AdvType=Int	7	reparandum	_	Gloss=где
+5	ыʼм	ъм	PART	_	_	4	advmod:emph	_	Gloss=EMPH
+6	э	а	PART	_	_	4	advmod:emph	_	Gloss=PTCL
+7	эʼми	эʼми	ADV	_	_	1	parataxis	_	Gloss=где
+8	атэӄай	атэӄай	NOUN	_	_	7	nsubj	_	Gloss=папа-DIM-NOM.SG
+9	ымы	ымы	ADV	_	_	10	advmod	_	Gloss=также
+10	эʼми	эʼми	ADV	_	_	1	parataxis	_	Gloss=где
+11	ынъэӄэй	ынъэӄэй	NOUN	_	_	10	nsubj	_	Gloss=старший.брат-NOM.SG
+12	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = GUM:26
+# text = Ӈоонӄо ынъэӄэй фантанык ӄача нытваӄэн.
+# text[phon] = ŋoonqo ənʔeqej fantanək qasa nətwaqen
+# text[rus] = «Вон брат находится возле фонтана.
+# text[eng] = «My brother is there near the fountain.
+# labels = complete-dep anno-fran
+1	Ӈоонӄо	_	ADV	_	_	3	advmod	_	Gloss=там-ADV.ABL
+2	ынъэӄэй	ынъэӄэй	NOUN	_	_	3	nsubj	_	Gloss=старший.брат-NOM.SG
+3	фантанык	_	NOUN	_	_	0	root	_	Gloss=фонтан-LOC
+4	ӄача	ӄача	ADP	_	_	3	case	_	Gloss=около
+5	нытваӄэн	вак	AUX	_	Valency=1	3	cop	_	Gloss=ST-быть-ST.3SG
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = GUM:27
+# text = Атэӄайына нэԓӄыричыӄи нэԓӄырирчыӄиквыт.
+# text[phon] = ateqajəna neɬqərisəqi neɬqərirsəqikwət
+# text[rus] = Папочка пошёл искать тебя».
+# text[eng] = Daddy went to look for you».
+# labels = complete-dep anno-fran
+1	Атэӄайына	атэ	NOUN	_	_	3	nsubj	_	Gloss=папа-DIM-AN.INS
+2	нэԓӄыричыӄи	нэԓӄыричыӄи	X	_	_	3	reparandum	_	Gloss=FST
+3	нэԓӄырирчыӄиквыт	ӄырирык	VERB	_	_	0	root	_	Gloss=LOW.A-искать-MCP-2SG.O
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = GUM:28
+# text = Еээй ынӈатаԓ эʼтки нивигым вай тынтымӈэвтык.
+# text[phon] = jeeej ənŋataɬ ʔetki niwiɣəm waj təntəmŋewtək
+# text[rus] = «Эх, как же так», — говорю я, — «я вас потеряла».
+# text[eng] = «Heh, how so?», I am saying, «I lost you».
+# labels = complete-dep anno-fran unclear-syntax
+1	Еээй	_	INTJ	_	_	3	discourse	_	Gloss=эх
+2	ынӈатаԓ	ынӈатаԓ	ADV	_	_	3	advmod	_	Gloss=очень
+3	эʼтки	эʼтки	ADV	_	_	0	root	_	Gloss=плохо
+4	нивигым	_	VERB	_	Valency=2	3	parataxis	_	Gloss=ST-сказать-NP.1SG
+5	вай	вай	ADV	_	_	6	advmod	_	Gloss=вот
+6	тынтымӈэвтык	_	VERB	_	_	3	parataxis:speech	_	Gloss=1SG.S/A-TR-потеряться-2PL.S/O
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = GUM:29
+# text = Ынӄэнъымэ тыйъоаʼнат ԓым.
+# text[phon] = ənqenʔəme təjʔoʔanat ɬəm
+# text[rus] = Пошла к ним.
+# text[eng] = I went to them.
+# labels = complete-dep anno-fran ənqen
+1-3	Ынӄэнъымэ	_	_	_	_	_	_	_	Gloss=DET-=EMPH-=PTCL
+1	Ынӄэн	_	PART	_	_	4	discourse	_	Gloss=DET
+2	ъым	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	э	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+4	тыйъоаʼнат	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-настигать-TH-3SG.O-PL
+5	ԓым	ԓым	X	_	_	4	reparandum	_	Gloss=FST
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = GUM:30
+# text = Ынъэӄэйынъэмэ гымнинъым ынӄэн ынпычьэкык иниквъи.
+# text[phon] = ənʔeqejənʔeme ɣəmninʔəm ənqen ənpəsʔekək inikwʔi
+# text[rus] = Его старший брат — мой старший сын — говорит мне:
+# text[eng] = His older brother, my older son, tells me:
+# labels = complete-dep anno-fran
+1-3	Ынъэӄэйынъэмэ	_	_	_	_	_	_	_	Gloss=старший.брат-AN.INS-=EMPH-=PTCL
+1	Ынъэӄэйынъэ	_	NOUN	_	_	8	nsubj	_	Gloss=старший.брат-AN.INS
+2	м	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	э	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+4-5	гымнинъым	_	_	_	_	_	_	_	Gloss=я-AN.GEN-=EMPH
+4	гымнин	_	PRON	_	_	7	nmod:poss	_	Gloss=я-AN.GEN
+5	ъым	ъм	PART	_	_	4	advmod:emph	_	Gloss=EMPH
+6	ынӄэн	ынӄэн	DET	_	_	7	det	_	Gloss=DET
+7	ынпычьэкык	ынпычьэкык	NOUN	_	_	1	appos	_	Gloss=старый-ADJ-сын-NOM.SG
+8	иниквъи	икын	VERB	_	Valency=2	0	root	_	Gloss=2/3.S/A-INV-сказать-TH-2/3SG.S
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = GUM:31
+# text = Иаʼм мэӈӄоры ныԓейвыԓьэтигыт.
+# text[phon] = iʔam meŋqorə nəɬejwəɬʔetiɣət
+# text[rus] = «Почему ты везде бродишь?
+# text[eng] = «Why are you wandering everywhere?
+# labels = complete-dep anno-fran
+1	Иаʼм	_	ADV	_	_	3	advmod	_	Gloss=почему
+2	мэӈӄоры	_	ADV	_	_	3	advmod	_	Gloss=где-ADV.ABL
+3	ныԓейвыԓьэтигыт	ԓейвыԓьын	VERB	_	Valency=1	0	root	_	Gloss=ST-ходить-PLAC-NP.2SG
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = GUM:32
+# text = Мытынтымӈэквыт.
+# text[phon] = mətəntəmŋekwət
+# text[rus] = Мы тебя потеряли.
+# text[eng] = We lost you.
+# labels = complete-dep anno-fran
+1	Мытынтымӈэквыт	рытымӈэвык	VERB	_	_	0	root	_	Gloss=1PL.S/A-TR-потеряться-2SG.O
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = GUM:33
+# text = Ынкъам тымӈэвыркын иаʼм ынӄэн.
+# text[phon] = ənkʔam təmŋewərkən iʔam ənqen
+# text[rus] = И почему ты теряешься?»
+# text[eng] = And why are you getting lost?»
+# labels = complete-dep anno-fran ənqen
+1	Ынкъам	ынкъам	CCONJ	_	_	2	cc	_	Gloss=и
+2	тымӈэвыркын	тымӈэвык	VERB	_	_	0	root	_	Gloss=2/3.S/A-потеряться-IPFV
+3	иаʼм	_	ADV	_	_	2	advmod	_	Gloss=почему
+4	ынӄэн	ынӄэн	PART	_	_	2	discourse	_	Gloss=DET
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = GUM:34
+# text = Аʼйыӈ эʼйӈэԓьэтгъи кытэӄэй ӄэԓюӄ эт.
+# text[phon] = ʔajəŋ ʔejŋeɬʔetɣʔi kəteqej qeɬuq et
+# text[rus] = Поругался какое-то время, конечно.
+# text[eng] = He quarreled for a while, of course.
+# labels = complete-dep anno-fran
+1	Аʼйыӈ	Аʼйыӈ	X	_	_	2	reparandum	_	Gloss=FST
+2	эʼйӈэԓьэтгъи	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-ругать-TH-2/3SG.S
+3	кытэӄэй	кытэӄэй	ADV	_	_	2	advmod	_	Gloss=какое.то.время
+4	ӄэԓюӄ	ӄэԓюӄ	ADV	_	_	2	advmod	_	Gloss=конечно
+5	эт	эт	X	_	_	2	dep	_	Gloss=FST
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = GUM:35
+# text = Ӄытԓыгим ынӄэн вэтчатваӈӈоэʼм.
+# text[phon] = qətɬəɣiʔm ənqen wetsatwaŋŋoʔeʔm
+# text[rus] = Потом начал стоять [и ждать].
+# text[eng] = Then he began to stand [and wait].
+# labels = complete-dep anno-fran ənqen
+1-2	Ӄытԓыгим	_	_	_	_	_	_	_	Gloss=оказывается-=EMPH
+1	Ӄытԓыги	_	ADV	_	_	4	advmod	_	Gloss=оказывается
+2	м	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	ынӄэн	ынӄэн	PART	_	_	4	discourse	_	Gloss=DET
+4-5	вэтчатваӈӈоэʼм	_	_	_	_	_	_	_	Gloss=2/3.S/A-вставать-RES-INCH-TH-2/3SG.S-=EMPH
+4	вэтчатваӈӈо	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-вставать-RES-INCH-TH-2/3SG.S
+5	эʼм	ъм	PART	_	_	4	advmod:emph	_	Gloss=EMPH
+6	.	.	PUNCT	_	_	4	punct	_	_
+

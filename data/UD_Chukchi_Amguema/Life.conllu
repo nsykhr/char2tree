@@ -1,0 +1,80 @@
+# sent_id = Life:1
+# text = Мури Омваамвыԓьыморэ ӄорагынрэтыԓьыморэ.
+# text[phon] = muri omwaamwəɬʔəmore qoraɣənretəɬʔəmore
+# text[rus] = Мы амгуэмские, оленеводы.
+# text[eng] = We are rendeer herders from Amguema.
+# labels = complete-dep anno-fran
+1	Мури	мури	PRON	_	Case=Abs	3	nsubj	_	Gloss=мы
+2	Омваамвыԓьыморэ	_	PROPN	_	_	3	nmod:attr	_	Gloss=Амгуэма-ATTR-NP.1PL
+3	ӄорагынрэтыԓьыморэ	ӄорагынрэтыԓьын	NOUN	_	_	0	root	_	Gloss=олень-защищать-ATTR-NP.1PL
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Life:2
+# text = Ытԓыгын гымнинэ ӄорагынрэтыԓьу гитԓин.
+# text[phon] = ətɬəɣən ɣəmnine qoraɣənretəɬʔu ɣitɬin
+# text[rus] = Мой отец оленеводом был.
+# text[eng] = My father was a reindeer herder.
+# labels = complete-dep anno-fran
+1	Ытԓыгын	Ытԓыгын	NOUN	_	_	4	nsubj	_	Gloss=отец-NOM.SG
+2-3	гымнинэ	_	_	_	_	_	_	_	Gloss=я-AN.GEN-=PTCL
+2	гымнин	гым	PRON	_	_	1	nmod:poss	_	Gloss=я-AN.GEN
+3	э	а	PART	_	_	2	advmod:emph	_	Gloss=PTCL
+4	ӄорагынрэтыԓьу	_	NOUN	_	_	0	root	_	Gloss=олень-защищать-ATTR-EQU
+5	гитԓин	_	AUX	_	Valency=1	4	cop	_	Gloss=PF-являться-PF.3SG
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Life:3
+# text = Ынӄо бригадиро гатваԓен.
+# text[phon] = ənqo brigadiro ɣatwaɬen
+# text[rus] = Потом бригадиром стал.
+# text[eng] = Then he became a foreman.
+# labels = complete-dep anno-fran
+1	Ынӄо	ынӄо	ADV	_	_	2	advmod	_	Gloss=потом
+2	бригадиро	бригадир	NOUN	_	_	0	root	_	Gloss=бригадир-EQU
+3	гатваԓен	вак	AUX	_	Valency=1	2	cop	_	Gloss=PF-быть-PF.3SG
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Life:4
+# text = Гым нэмыӄэй эмнуӈкы гатвайгым.
+# text[phon] = ɣəm neməqej emnuŋkə ɣatwajɣəm
+# text[rus] = Я тоже в тундре находилась.
+# text[eng] = I was also in tundra.
+# labels = complete-dep anno-fran
+1	Гым	гым	PRON	_	_	3	nsubj	_	Gloss=я
+2	нэмыӄэй	нэмыӄэй	ADV	_	_	3	advmod	_	Gloss=тоже
+3	эмнуӈкы	_	NOUN	_	_	0	root	_	Gloss=тундра-LOC
+4	гатвайгым	вак	AUX	_	Valency=1	3	cop	_	Gloss=PF-быть-NP.1SG
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Life:5
+# text = Ынкы тымигчирэтгъэк.
+# text[phon] = ənkə təmiɣsiretɣʔek
+# text[rus] = Там работала.
+# text[eng] = I worked there.
+# labels = complete-dep anno-fran
+1	Ынкы	ын	PRON	_	_	2	obl	_	Gloss=тот-LOC
+2	тымигчирэтгъэк	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-работа-VB-TH-1SG.S
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Life:6
+# text = Ынӄо тыпэнчиааʼк.
+# text[phon] = ənqo təpensiaʔak
+# text[rus] = Потом на пенсию вышла.
+# text[eng] = Then I retired.
+# labels = complete-dep anno-fran
+1	Ынӄо	ынӄо	ADV	_	_	2	advmod	_	Gloss=потом
+2	тыпэнчиааʼк	_	VERB	_	Valency=1	0	root	_	Gloss=1SG.S/A-пенсия-TH-1SG.S
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Life:7
+# text = Ынӄо вай рамаеты тытваӈӈогъак.
+# text[phon] = ənqo waj ramajetə tətwaŋŋoɣʔak
+# text[rus] = Потом вот в посёлке осталась жить.
+# text[eng] = Then I started living in the village.
+# labels = complete-dep anno-fran
+1	Ынӄо	ынӄо	ADV	_	_	3	advmod	_	Gloss=потом
+2	вай	вай	PART	_	_	3	discourse	_	Gloss=вот
+3	рамаеты	_	NOUN	_	_	0	root	_	Gloss=жилище-PILE-DAT
+4	тытваӈӈогъак	_	AUX	_	_	3	cop	_	Gloss=1SG.S/A-быть-INCH-TH-1SG.S
+5	.	.	PUNCT	_	_	3	punct	_	_
+

@@ -1,0 +1,67 @@
+# sent_id = Incident:1
+# text = Нӄэнэ ымыӈ нытваӄэнэ ынӄэнэ ӈинӄэй аʼачеӄӄай ӈэԓвыԓьыкыӈа.
+# text[phon] = nqene əməŋ nətwaqene ənqene ŋinqej ʔaaseqqaj ŋeɬwəɬʔəkəŋa
+# text[rus] = Было даже такое: мальчик, подросток, в стаде…
+# text[eng] = There was even such: a boy, a teenager, in a herd…
+# labels = complete-dep anno-fran ənqen reattached-clitic
+1-2	Нӄэнэ	_	_	_	_	_	_	_	Gloss=DET.нер.изм.-=PTCL
+1	Нӄэн	_	PART	_	_	3	discourse	_	Gloss=DET.нер.изм.
+2	э	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3	ымыӈ	ымыӈ	ADV	_	_	0	root	_	Gloss=также
+4-5	нытваӄэнэ	_	_	_	_	_	_	_	Gloss=ST-быть-ST.3SG-=PTCL
+4	нытваӄэн	вак	AUX	_	Valency=1	3	cop	_	Gloss=ST-быть-ST.3SG
+5	э	а	PART	_	_	3	advmod:emph	_	Gloss=PTCL
+6-7	ынӄэнэ	_	_	_	_	_	_	_	Gloss=DET-=PTCL
+6	ынӄэн	_	PART	_	_	10	discourse	_	Gloss=DET
+7	э	а	PART	_	_	6	advmod:emph	_	Gloss=PTCL
+8	ӈинӄэй	ӈинӄэй	ADJ	_	_	9	amod	_	Gloss=молодой-DIM-NOM.SG
+9	аʼачеӄӄай	аʼачеӄӄай	NOUN	_	_	10	nsubj	_	Gloss=парень-DIM-NOM.SG
+10-11	ӈэԓвыԓьыкыӈа	_	_	_	_	_	_	_	Gloss=стадо-LOC-=PTCL
+10	ӈэԓвыԓьыкы	_	NOUN	_	_	3	parataxis	_	Gloss=стадо-LOC
+11	ӈа	а	PART	_	_	10	advmod:emph	_	Gloss=PTCL
+12	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = Incident:2
+# text = Гытгак аʼйӈама тыр тыркыԓьэ тыркыԓьэ ӄора ӄоратыр тыркыԓьэ гаегъентоԓен.
+# text[phon] = ɣətɣak ʔajŋama tər tərkəɬʔe tərkəɬʔe qora qoratər tərkəɬʔe ɣajeɣjentoɬen
+# text[rus] = Осенью, во время гона, олень-производитель кишки вытащил у него…
+# text[eng] = In the fall, during the rut, a stud buck reindeer pulled his intestines out…
+# labels = complete-dep anno-fran
+1	Гытгак	_	NOUN	_	_	9	obl	9:obl	Gloss=поздняя.осень-LOC
+2	аʼйӈама	_	VERB	_	_	9	advcl	9:advcl	Gloss=издавать.резкие.звуки.во.время.гона-SIM
+3	тыр	тыр	X	_	_	5	reparandum	5:reparandum	Gloss=FST
+4	тыркыԓьэ	тыркыԓьын	NOUN	_	_	5	reparandum	5:reparandum	Gloss=тестикула-ATTR-INS
+5	тыркыԓьэ	тыркыԓьын	NOUN	_	_	9	obl	9:obl	Gloss=тестикула-ATTR-INS
+6	ӄора	ӄора	X	_	_	8	reparandum	8:reparandum	Gloss=FST
+7	ӄоратыр	ӄоратыр	X	_	_	8	reparandum	8:reparandum	Gloss=FST
+8	тыркыԓьэ	тыркыԓьын	NOUN	_	_	9	obl	9:obl	Gloss=тестикула-ATTR-INS
+9	гаегъентоԓен	_	VERB	_	Incorporated[obj]=Yes|Valency=1	0	root	0:root	Gloss=PF-тонкая.кишка-вынимать-PF.3SG
+9.1	егъе	егъелгын	NOUN	_	Incorporated=Yes	_	_	9:obj	Gloss=тонкая.кишка
+10	.	.	PUNCT	_	_	9	punct	9:punct	_
+
+# sent_id = Incident:3
+# text = Йъэ гытга рынна гагтоԓенат.
+# text[phon] = jʔe ɣətɣa rənna ɣaɣtoɬenat
+# text[rus] = Рогами вытащил.
+# text[eng] = The deer pulled them out with his horns.
+# labels = complete-dep anno-fran valency
+1	Йъэ	Йъэ	X	_	_	3	reparandum	_	Gloss=FST
+2	гытга	гытга	X	_	_	3	reparandum	_	Gloss=FST
+3	рынна	рынны	NOUN	_	_	4	nsubj	_	Gloss=рог-INS
+4	гагтоԓенат	йыток	VERB	_	Valency=2	0	root	_	Gloss=PF-вынимать-PF.3SG-PL
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Incident:4
+# text = Ынӄэн гатваԓен ынӈин пыӈыԓ тит тэԓенъеп.
+# text[phon] = ənqen ɣatwaɬen ənŋin pəŋəɬ tit teɬenjep
+# text[rus] = Это было… такой случай… в старину…
+# text[eng] = It was… such a case… in the old days…
+# labels = complete-dep anno-fran ənqen unclear-syntax
+1	Ынӄэн	ынӄэн	PRON	_	_	2	nsubj	_	Gloss=DET
+2	гатваԓен	вак	AUX	_	Valency=1	0	root	_	Gloss=PF-быть-PF.3SG
+3	ынӈин	ынӈин	ADV	_	_	4	advmod	_	Gloss=так
+4	пыӈыԓ	пыӈыԓ	NOUN	_	_	2	parataxis	_	Gloss=весть-NOM.SG
+5	тит	тит	X	_	_	6	reparandum	_	Gloss=FST
+6	тэԓенъеп	тэԓенъеп	ADV	_	_	2	parataxis	_	Gloss=раньше-ещё
+7	.	.	PUNCT	_	_	2	punct	_	_
+

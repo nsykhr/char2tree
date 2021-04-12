@@ -1,0 +1,369 @@
+# sent_id = Knives:1
+# text = Ынӄэн нэмэӈ ӄоԓ итгъи г Онмаԓьырыкы грэм Онмаԓьыргыеквэ таэʼм.
+# text[phon] = ənqen nemeŋ qoɬ itɣʔi ɣ onmaɬʔərəkə ɣrem onmaɬʔərɣəjekwe taʔeʔm
+# text[rus] = Однажды, как-то раз так случилось, что проезжал по землям, где жили Онмальын.
+# text[eng] = Once it happened so that he passed through the lands where Onmalyn lived.
+# comment = Непонятно, кто проезжал. Интерпретация множественного числа нуждается в уточнении.
+# labels = complete-dep anno-karina
+1	Ынӄэн	ынӄэн	PART	_	_	10	discourse	_	Gloss=DET
+2-3	нэмэӈ	_	_	_	_	_	_	_	Gloss=опять-=PTCL
+2	нэмэ	_	ADV	_	_	10	advmod	_	Gloss=опять
+3	ӈ	а	PART	_	_	2	advmod:emph	_	Gloss=PTCL
+4	ӄоԓ	ӄоԓ	PRON	_	_	5	dep	_	Gloss=некий
+5	итгъи	итык	VERB	_	_	10	dep	_	Gloss=2/3.S/A-являться-TH-2/3SG.S
+6	г	г	X	_	_	7	reparandum	_	Gloss=FST
+7	Онмаԓьырыкы	_	PROPN	_	_	10	obl	_	Gloss=Онмальын-AN.PL-DAT
+8	грэм	грэм	X	_	_	9	reparandum	_	Gloss=FST
+9	Онмаԓьыргыеквэ	_	PROPN	_	_	10	obl	_	Gloss=Онмальын-AN.PL-PROL
+10-11	таэʼм	_	_	_	_	_	_	_	Gloss=2/3.S/A-проходить-TH-2/3SG.S-=EMPH
+10	таэʼ	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-проходить-TH-2/3SG.S
+11	м	ъм	PART	_	_	10	advmod:emph	_	Gloss=EMPH
+12	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = Knives:2
+# text = Эмныӈинӄинэтъым ытри Ԓетынтаграв.
+# text[phon] = emnəŋinqinetʔəm ətri ɬetəntaɣraw
+# text[rus] = Оба молодые, он [Онмальын] и Летынтаграв.
+# text[eng] = Both are young, he [Onmalyn] and Letyntagraw.
+# labels = complete-dep anno-fran unclear-syntax
+1-2	Эмныӈинӄинэтъым	_	_	_	_	_	_	_	Gloss=RESTR-ST-молодой-ST.3SG-PL-=EMPH
+1	Эмныӈинӄинэт	_	ADJ	_	_	0	root	_	Gloss=RESTR-ST-молодой-ST.3SG-PL
+2	ъым	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	ытри	ытри	PRON	_	_	1	nsubj	_	Gloss=они
+4	Ԓетынтаграв	Ԓетынтаграв	PROPN	_	_	1	dislocated	_	Gloss=Лэтынтаграв-NOM.SG
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Knives:3
+# text = Пэнинъым иԓьуткуԓьын нэниԓьуткуӈэтъэн ми нэнамӈыԓёӄаат.
+# text[phon] = peninʔəm iɬʔutkuɬʔən neniɬʔutkuŋetʔen mi nenamŋəɬoqaat
+# text[rus] = Шаману дали бубен, а он спрашивает:
+# text[eng] = The shaman was given the tambourine, and then he asked people:
+# labels = complete-dep anno-karina unclear-syntax
+1-2	Пэнинъым	_	_	_	_	_	_	_	Gloss=прежний-=EMPH
+1	Пэнин	_	ADJ	_	_	3	nmod	_	Gloss=прежний
+2	ъым	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	иԓьуткуԓьын	иԓьуткуԓьын	NOUN	_	_	4	nsubj	_	Gloss=бить.в.бубен-ATTR-NOM.SG
+4	нэниԓьуткуӈэтъэн	_	VERB	_	_	0	root	_	Gloss=LOW.A-TR-бить.в.бубен-SF-TH-3SG.O
+5	ми	ми	X	_	_	6	reparandum	_	Gloss=FST
+6	нэнамӈыԓёӄаат	_	VERB	_	_	4	parataxis	_	Gloss=ST-INV-спрашивать-ST.3PL
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Knives:4
+# text = Ыʼмтъом ръэнут торыкагты мыԓьуэʼн ръэнут мытэйкыгъэн ръэнут мыныгйивэвын.
+# text[phon] = ʔəmtʔom rʔenut torəkaɣtə məɬʔuʔen rʔenut mətejkəɣʔen rʔenut mənəɣjiwewən
+# text[rus] = «Что ж мне для вас увидеть, что сделать, что объяснить?».
+# text[eng] = «Well, what should I see for you, what should I do, what should I explain?».
+# labels = complete-dep anno-fran
+1-2	Ыʼмтъом	_	_	_	_	_	_	_	Gloss=ну.как-=EMPH
+1	Ыʼмтъо	_	ADV	_	_	5	advmod	_	Gloss=ну.как
+2	м	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	ръэнут	ръэнут	PRON	_	_	5	obj	_	Gloss=что.NOM.SG
+4	торыкагты	тури	PRON	_	_	5	obl	_	Gloss=вы-OBL-DAT
+5	мыԓьуэʼн	_	VERB	_	_	0	root	_	Gloss=1SG.S/A.SUBJ-видеть-TH-3SG.O
+6	ръэнут	ръэнут	PRON	_	_	7	obj	_	Gloss=что.NOM.SG
+7	мытэйкыгъэн	тэйкык	VERB	_	_	5	parataxis	_	Gloss=1SG.S/A.SUBJ-делать-TH-3SG.O
+8	ръэнут	ръэнут	PRON	_	_	9	obj	_	Gloss=что.NOM.SG
+9	мыныгйивэвын	гыйивэвык	VERB	_	_	5	parataxis	_	Gloss=1SG.S/A.SUBJ-TR-знак-CS-3SG.O
+10	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Knives:5
+# text = Ынӄэнъымэ.
+# text[phon] = ənqenʔəme
+# text[rus] = Ну, значит…
+# text[eng] = Well, then…
+# labels = complete-dep anno-fran
+1-3	Ынӄэнъымэ	_	_	_	_	_	_	_	Gloss=DET-=EMPH-=PTCL
+1	Ынӄэн	_	PRON	_	_	0	root	_	Gloss=DET
+2	ъым	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	э	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Knives:6
+# text = Ивнинэт янотъым вай опэт мыӄэтвэтгъэкъым оп ваԓы янот мынъыԓигъэн.
+# text[phon] = iwninet janotʔəm waj opet məqetwetɣʔekʔəm op waɬə janot mənʔəɬiɣʔen
+# text[rus] = Он им сказал: «Сначала в себя нож воткну, сначала нож в себя засуну».
+# text[eng] = He told them: «First, I will stick the knife in myself».
+# labels = complete-dep anno-fran speech
+1	Ивнинэт	ивык	VERB	_	Valency=2	0	root	_	Gloss=2/3.S/A-сказать-3SG.A.3.O-3SG.O-PL
+2-3	янотъым	_	_	_	_	_	_	_	Gloss=сначала-=EMPH
+2	янот	_	ADV	_	_	6	advmod	_	Gloss=сначала
+3	ъым	ъм	PART	_	_	2	advmod:emph	_	Gloss=EMPH
+4	вай	вай	PART	_	_	6	discourse	_	Gloss=вот
+5	опэт	опэт	X	_	_	6	reparandum	_	Gloss=FST
+6-7	мыӄэтвэтгъэкъым	_	_	_	_	_	_	_	Gloss=1SG.S/A.SUBJ-забивать-VB-TH-LOC-=EMPH
+6	мыӄэтвэтгъэк	_	VERB	_	_	1	parataxis:speech	_	Gloss=1SG.S/A.SUBJ-забивать-VB-TH-LOC
+7	ъым	ъм	PART	_	_	6	advmod:emph	_	Gloss=EMPH
+8	оп	оп	X	_	_	9	reparandum	_	Gloss=FST
+9	ваԓы	ваԓы	NOUN	_	_	11	obj	_	Gloss=нож.NOM.SG
+10	янот	янот	ADV	_	_	11	advmod	_	Gloss=сначала
+11	мынъыԓигъэн	ръыԓик	VERB	_	_	1	parataxis:speech	_	Gloss=1SG.S/A.SUBJ-вталкивать-TH-3SG.O
+12	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Knives:7
+# text = Ӄорыӈэ.
+# text[phon] = qorəŋe
+# text[rus] = Затем…
+# text[eng] = Then…
+# labels = complete-dep anno-fran
+1-2	Ӄорыӈэ	_	_	_	_	_	_	_	Gloss=потом-=PTCL
+1	Ӄоры	_	ADV	_	_	0	root	_	Gloss=потом
+2	ӈэ	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Knives:8
+# text = Онмаԓьынъам ивнин о раӄычгатыркын.
+# text[phon] = onmaɬʔənʔam iwnin o raqəsɣatərkən
+# text[rus] = Онмальын ему говорит: «Да что ж ты делаешь-то?
+# text[eng] = Onmalyn said to him: «What on earth are you doing here?
+# labels = complete-dep anno-fran
+1-2	Онмаԓьынъам	_	_	_	_	_	_	_	Gloss=Онмальын-AN.INS-=EMPH
+1	Онмаԓьынъа	_	PROPN	_	_	3	nsubj	_	Gloss=Онмальын-AN.INS
+2	м	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	ивнин	ивык	VERB	_	Valency=2	0	root	_	Gloss=2/3.S/A-сказать-3SG.A.3.O-3SG.O
+4	о	о	X	_	_	5	reparandum	_	Gloss=FST
+5	раӄычгатыркын	_	VERB	_	_	3	parataxis:speech	_	Gloss=2/3.S/A-что-AUG-VB-IPFV
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Knives:9
+# text = Нан ярак ынӈин ӄитыркын ыныкит равъэчгатгъам миӈкыри мытрэнрэӄэквыт миӈкыри мытрэнтыгыт.
+# text[phon] = nan jarak ənŋin qitərkən ənəkit rawʔesɣatɣʔam miŋkəri mətrenreqekwət miŋkəri mətrentəɣət
+# text[rus] = У себя дома так делай! Вдруг помрёшь, что мы с тобой будем делать, куда денем?».
+# text[eng] = Do like that at your own home! What if will die, what will we do with you, where we will put you?».
+# labels = complete-dep anno-fran unclear-syntax
+1	Нан	_	ADV	_	_	3	advmod	_	Gloss=сам
+2	ярак	яраӈы	NOUN	_	_	3	obl	_	Gloss=яранга-LOC
+3	ынӈин	ынӈин	ADV	_	_	0	root	_	Gloss=так
+4	ӄитыркын	_	AUX	_	_	3	cop	_	Gloss=2.S/A.SUBJ-являться-IPFV
+5	ыныкит	ыныкит	ADV	_	_	6	advmod	_	Gloss=если
+6-7	равъэчгатгъам	_	_	_	_	_	_	_	Gloss=2/3.S/A-FUT-умереть-AUG-VB-TH-=EMPH
+6	равъэчгатгъа	_	VERB	_	_	3	parataxis	_	Gloss=2/3.S/A-FUT-умереть-AUG-VB-TH
+7	м	ъм	PART	_	_	6	advmod:emph	_	Gloss=EMPH
+8	миӈкыри	миӈкыри	ADV	_	_	9	advmod	_	Gloss=где-LOC-ADV.ALL
+9	мытрэнрэӄэквыт	_	VERB	_	_	3	parataxis	_	Gloss=1PL.S/A-FUT-TR-что-CS-2SG.O
+10	миӈкыри	миӈкыри	ADV	_	_	11	advmod	_	Gloss=где-LOC-ADV.ALL
+11	мытрэнтыгыт	рытык	VERB	_	_	3	parataxis	_	Gloss=1PL.S/A-FUT-иметь-2SG.O
+12	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Knives:10
+# text = Ынӈин ниԓьуткуԓьэтӄинъым ивнинэт ръэнутъым мыԓьуэʼн мыныгйивэвын.
+# text[phon] = ənŋin niɬʔutkuɬʔetqinʔəm iwninet rʔenutʔəm məɬʔuʔen mənəɣjiwewən
+# text[rus] = Таким образом играя в бубен, говорит: «Что увидеть, что объяснить?»
+# text[eng] = Thus playing the tambourine, he says: «What should I see, what should I explain?».
+# labels = complete-dep anno-fran
+1	Ынӈин	ынӈин	ADV	_	_	2	advmod	_	Gloss=так
+2-3	ниԓьуткуԓьэтӄинъым	_	_	_	_	_	_	_	Gloss=ST-бить.в.бубен-PLAC-ST.3SG-=EMPH
+2	ниԓьуткуԓьэтӄин	_	VERB	_	_	0	root	_	Gloss=ST-бить.в.бубен-PLAC-ST.3SG
+3	ъым	ъм	PART	_	_	2	advmod:emph	_	Gloss=EMPH
+4	ивнинэт	ивык	VERB	_	Valency=2	2	parataxis	_	Gloss=2/3.S/A-сказать-3SG.A.3.O-3SG.O-PL
+5-6	ръэнутъым	_	_	_	_	_	_	_	Gloss=что.NOM.SG-=EMPH
+5	ръэнут	ръэнутъым	PRON	_	_	7	obj	_	Gloss=что.NOM.SG
+6	ъым	ъм	PART	_	_	5	advmod:emph	_	Gloss=EMPH
+7	мыԓьуэʼн	_	VERB	_	_	4	parataxis:speech	_	Gloss=1SG.S/A.SUBJ-видеть-TH-3SG.O
+8	мыныгйивэвын	гыйивэвык	VERB	_	_	4	parataxis:speech	_	Gloss=1SG.S/A.SUBJ-TR-знак-CS-3SG.O
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Knives:11
+# text = Пԓевыт ӈан эʼми ваԓы ӈутку ӄоԓ гатымӈэвԓен ԓгититэепкы нэнаԓвавморэ ԓьукъым.
+# text[phon] = pɬewət ŋan ʔemi waɬə ŋutku qoɬ ɣatəmŋewɬen ɬɣititejepkə nenaɬwawmore ɬʔukʔəm
+# text[rus] = «Раз так, где-то нож тут потерялся, и очень давно мы не можем его найти.
+# text[eng] = «Okay, the knife is lost somewhere here, and we cannot find it for a long time.
+# labels = complete-dep anno-karina valency
+1	Пԓевыт	_	PART	_	_	7	advmod	_	Gloss=пусть.будет.так
+2	ӈан	ӈан	ADV	_	_	1	flat	_	Gloss=DEICT
+3	эʼми	эʼми	ADV	_	_	7	advmod	_	Gloss=где
+4	ваԓы	ваԓы	NOUN	_	_	7	nsubj	_	Gloss=нож.NOM.SG
+5	ӈутку	ӈутку	ADV	_	_	7	advmod	_	Gloss=здесь
+6	ӄоԓ	ӄоԓ	PRON	_	_	7	nmod	_	Gloss=некий
+7	гатымӈэвԓен	_	VERB	_	Valency=1	0	root	_	Gloss=PF-потеряться-PF.3SG
+8	ԓгититэепкы	_	ADV	_	_	9	advmod	_	Gloss=INTS-когда-ещё-LOC
+9	нэнаԓвавморэ	ԓывавык	VERB	_	_	7	parataxis	_	Gloss=ST-INV-не.мочь-NP.1PL
+10-11	ԓьукъым	_	_	_	_	_	_	_	Gloss=находить-LOC-=EMPH
+10	ԓьук	_	VERB	_	_	9	xcomp	_	Gloss=находить-LOC
+11	ъым	ъм	PART	_	_	10	advmod:emph	_	Gloss=EMPH
+12	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = Knives:12
+# text = Ынӄэӄ пԓевыт янот ӄыԓьугын.
+# text[phon] = ənqeq pɬewət janot qəɬʔuɣən
+# text[rus] = Тогда сначала найди его».
+# text[eng] = Then find it first».
+# comment = Подобное произношение ənqen загадочно, на дефект записи не похоже.
+# labels = complete-dep anno-fran ənqen 
+1	Ынӄэӄ	_	PART	_	_	4	discourse	_	Gloss=DET.нер.изм.
+2	пԓевыт	_	ADV	_	_	4	advmod	_	Gloss=пусть.будет.так
+3	янот	янот	ADV	_	_	4	advmod	_	Gloss=сначала
+4	ӄыԓьугын	ԓьук	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-находить-IRR-3SG.O
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Knives:13
+# text = Ынӈин оʼтчой ниԓьуткуԓьэтӄинъым.
+# text[phon] = ənŋin ʔotsoj niɬʔutkuɬʔetqinʔəm
+# text[rus] = Так он долго играл в бубен.
+# text[eng] = Thus he played the tambourine so long.
+# labels = complete-dep anno-fran
+1	Ынӈин	ынӈин	ADV	_	_	2	advmod	_	Gloss=так
+2	оʼтчой	_	ADV	_	_	3	advmod	_	Gloss=долго
+3-4	ниԓьуткуԓьэтӄинъым	_	_	_	_	_	_	_	Gloss=ST-бить.в.бубен-PLAC-ST.3SG-=EMPH
+3	ниԓьуткуԓьэтӄин	_	VERB	_	_	0	root	_	Gloss=ST-бить.в.бубен-PLAC-ST.3SG
+4	ъым	ъм	PART	_	_	3	advmod:emph	_	Gloss=EMPH
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Knives:14
+# text = Эвынэ ӄынвэт тъэраткоӈӈоаʼт этынвыт ымы очыткока гэнъэԓԓеэтъым.
+# text[phon] = ewəne qənwet tʔeratkoŋŋoʔat etənwət əmə osətkoka ɣenʔeɬɬeetʔəm
+# text[rus] = Что аж хозяева стали дремать и отвечать перестали.
+# text[eng] = That the hosts even began to doze off and ceased to answer.
+# labels = complete-dep anno-fran
+1-2	Эвынэ	_	_	_	_	_	_	_	Gloss=уже-=PTCL
+1	Эвын	_	ADV	_	_	4	advmod	_	Gloss=уже
+2	э	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3	ӄынвэт	ӄынвэт	ADV	_	_	4	advmod	_	Gloss=наконец
+4	тъэраткоӈӈоаʼт	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-дремать-ITER-INCH-TH-PL
+5	этынвыт	_	NOUN	_	_	4	nsubj	_	Gloss=хозяин-NOM.PL
+6	ымы	ымы	ADV	_	_	8	advmod	_	Gloss=также
+7	очыткока	_	VERB	_	_	8	advcl	_	Gloss=отвечать-ITER-CAR-INS
+8-9	гэнъэԓԓеэтъым	_	_	_	_	_	_	_	Gloss=PF-стать-PF.3PL-=EMPH
+8	гэнъэԓԓеэт	_	VERB	_	Valency=1	4	parataxis	_	Gloss=PF-стать-PF.3PL
+9	ъым	ъм	PART	_	_	8	advmod:emph	_	Gloss=PTCL
+10	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Knives:15
+# text = Ԓюут мэӈӄо расӄэпыӈэ ваԓят аратыткоӈӈоаʼт аакгэӈэтыӈ.
+# text[phon] = ɬuut meŋqo rasqepəŋe waɬat aratətkoŋŋoʔat aakɣeŋetəŋ
+# text[rus] = Вдруг откуда-то с потолка полога ножи начали падать туда, где стояли свечи.
+# text[eng] = Suddenly somewhere from the ceiling of the inner tent knives began to fall to the place where the candles were.
+# labels = complete-dep anno-fran
+1	Ԓюут	ԓюут	ADV	_	_	6	advmod	_	Gloss=вдруг
+2	мэӈӄо	мэӈӄокэн	ADV	_	_	6	advmod	_	Gloss=где-ADV.ABL
+3-4	расӄэпыӈэ	_	_	_	_	_	_	_	Gloss=крыша-ABL-=PTCL
+3	расӄэпы	_	NOUN	_	_	6	obl	_	Gloss=крыша-ABL
+4	ӈэ	а	PART	_	_	3	advmod:emph	_	Gloss=PTCL
+5	ваԓят	_	NOUN	_	_	6	nsubj	_	Gloss=нож-NOM.PL
+6	аратыткоӈӈоаʼт	_	VERB	_	_	0	root	_	Gloss=падать-ITER-INCH-TH-PL
+7	аакгэӈэтыӈ	_	NOUN	_	_	6	obl	_	Gloss=жирник-BOTTOM-DAT-AD
+8	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Knives:16
+# text = Нанъяачьым ԓюут ԓыгэмайӈыпэгԓяэʼ янра иргъи ӄоԓ нэмэ ваԓьым.
+# text[phon] = nanjaasʔəm ɬuut ɬəɣemajŋəpeɣɬaʔe janra irɣʔi qoɬ neme waɬʔəm
+# text[rus] = И тут вдруг с большим грохотом последним ударился ещё один нож.
+# text[eng] = And then suddenly with a great crashing noise last hit another knife.
+# labels = complete-dep anno-fran
+1-2	Нанъяачьым	_	_	_	_	_	_	_	Gloss=SUPER-сзади-=EMPH
+1	Нанъяач	_	ADV	_	_	4	advmod	_	Gloss=SUPER-сзади
+2	ьым	ъм	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3	ԓюут	ԓюут	ADV	_	_	4	advmod	_	Gloss=вдруг
+4	ԓыгэмайӈыпэгԓяэʼ	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-INTS-большой-трещать-TH-2/3SG.S
+5	янра	_	ADV	_	_	6	advmod	_	Gloss=отдельно
+6	иргъи	_	VERB	_	_	4	parataxis	_	Gloss=2/3.S/A-падать-TH-2/3SG.S
+7	ӄоԓ	ӄоԓ	PRON	_	_	9	det	_	Gloss=некий
+8	нэмэ	нэмэ	ADV	_	_	9	advmod	_	Gloss=опять
+9-10	ваԓьым	_	_	_	_	_	_	_	Gloss=нож.NOM.SG-=EMPH
+9	ваԓ	ваԓьым	NOUN	_	_	6	obj	_	Gloss=нож.NOM.SG
+10	ьым	ъм	PART	_	_	9	advmod:emph	_	Gloss=EMPH
+11	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Knives:17
+# text = Онмаԓьынаӈэ ээк рымэйӈэвнинъым.
+# text[phon] = onmaɬʔənaŋe eek rəmejŋewninʔəm
+# text[rus] = Онмальын сделал побольше огонь в жирнике.
+# text[eng] = Onmalyn made more fire in the oil lamp.
+# labels = complete-dep anno-fran
+1-2	Онмаԓьынаӈэ	_	_	_	_	_	_	_	Gloss=Онмальын-AN.INS-=PTCL
+1	Онмаԓьына	_	PROPN	_	_	4	nsubj	_	Gloss=Онмальын-AN.INS
+2	ӈэ	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3	ээк	ээк	NOUN	_	_	4	obj	_	Gloss=жирник-NOM.SG
+4-5	рымэйӈэвнинъым	_	_	_	_	_	_	_	Gloss=2/3.S/A-TR-большой-CS-3SG.A.3.O-3SG.O-=EMPH
+4	рымэйӈэвнин	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-TR-большой-CS-3SG.A.3.O-3SG.O
+5	ъым	ъм	PART	_	_	4	advmod:emph	_	Gloss=EMPH
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Knives:18
+# text = Нэԓьунэт эвын ваԓят ымыԓьо гэнумэкэвйивԓеэт гэгичийивԓеэт ымы ръысӄыёԓгычыко ваԓьыт гагтоԓенат.
+# text[phon] = neɬʔunet ewən waɬat əməɬʔo ɣenumekewjiwɬeet ɣeɣisijiwɬeet əmə rʔəsqəjoɬɣəsəko waɬʔət ɣaɣtoɬenat
+# text[rus] = И увидели, что, оказалось, все ножи были собраны и сложены в одну кучу, и даже те, что были в ножнах, тоже вытащены.
+# text[eng] = And they saw that, it turned out, all knives were collected and stacked in one together, even those that were in the sheath were dragged out too.
+# labels = complete-dep anno-fran valency
+1	Нэԓьунэт	ԓьук	VERB	_	_	0	root	_	Gloss=LOW.A-видеть-3SG.O-PL
+2	эвын	_	ADV	_	_	5	advmod	_	Gloss=если
+3	ваԓят	_	NOUN	_	_	5	obj	_	Gloss=нож-NOM.PL
+4	ымыԓьо	ымыԓьо	PRON	_	_	3	nmod	_	Gloss=весь
+5	гэнумэкэвйивԓеэт	_	VERB	_	Valency=2	1	parataxis	_	Gloss=PF-TR-кружок-CS-DISTR.O-PF.3PL
+6	гэгичийивԓеэт	_	VERB	_	Valency=2	5	conj	_	Gloss=PF-собирать-DISTR.O-PF.3PL
+7	ымы	ымы	ADV	_	_	10	advmod	_	Gloss=также
+8	ръысӄыёԓгычыко	ръысӄыёԓгын	NOUN	_	_	10	obj	_	Gloss=охотничий.нож-CONT-IN
+9	ваԓьыт	вак	AUX	_	_	8	cop	_	Gloss=быть-ATTR-NOM.PL
+10	гагтоԓенат	_	VERB	_	Valency=2	1	parataxis	_	Gloss=PF-вынимать-PF.3SG-PL
+11	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Knives:19
+# text = Нанъяачьым ынӄэн гыргочаткыныкъым янра.
+# text[phon] = nanjaasʔəm ənqen ɣərɣosatkənəkʔəm janra
+# text[rus] = Самый последний лежал отдельно сверху этой кучи.
+# text[eng] = The last one was lying separately on top of this pile.
+# labels = complete-dep anno-karina
+1-2	Нанъяачьым	_	_	_	_	_	_	_	Gloss=SUPER-сзади-=EMPH
+1	Нанъяачьы	_	NOUN	_	_	4	nsubj	_	Gloss=SUPER-сзади
+2	м	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	ынӄэн	ынӄэн	DET	_	_	4	det	_	Gloss=DET
+4-5	гыргочаткыныкъым	_	_	_	_	_	_	_	Gloss=вверху-TOP-LOC-=EMPH
+4	гыргочаткынык	_	NOUN	_	_	0	root	_	Gloss=вверху-TOP-LOC
+5	ъым	ъм	PART	_	_	4	advmod:emph	_	Gloss=EMPH
+6	янра	_	ADV	_	_	4	advmod	_	Gloss=отдельно
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Knives:20
+# text = Аʼԓяйпыԓьын ԓыгэпэтываԓы ынӄэ тымӈэвԓен.
+# text[phon] = ʔaɬajpəɬʔən ɬəɣepetəwaɬə ənqe təmŋewɬen
+# text[rus] = Ржавый, очень старый нож, потерянный.
+# text[eng] = Rusty, very old knife, the one that had been lost.
+# labels = complete-dep anno-karina
+1	Аʼԓяйпыԓьын	Аʼԓяйпыԓьын	ADJ	_	_	4	nmod	_	Gloss=ржаветь-ATTR-NOM.SG
+2	ԓыгэпэтываԓы	ԓыгэпэтываԓы	NOUN	_	_	4	nsubj	_	Gloss=INTS-старый-нож.NOM.SG
+3	ынӄэ	_	DET	_	_	4	det	_	Gloss=DET
+4	тымӈэвԓен	_	VERB	_	_	0	root	_	Gloss=потеряться-PF.3SG
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Knives:21
+# text = Ивнинэт эты вай ӈотӄэн.
+# text[phon] = iwninet etə waj ŋotqen
+# text[rus] = И говорит: «Наверное, вот этот!».
+# text[eng] = And he says: «Probably this one!».
+# labels = complete-dep anno-fran
+1	Ивнинэт	ивык	VERB	_	Valency=2	0	root	_	Gloss=2/3.S/A-сказать-3SG.A.3.O-3SG.O-PL
+2	эты	эты	ADV	_	_	4	advmod	_	Gloss=наверное
+3	вай	вай	ADV	_	_	4	advmod	_	Gloss=вот
+4	ӈотӄэн	ӈотӄэн	PRON	_	_	1	parataxis:speech	_	Gloss=этот
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Knives:22
+# text = Ынӄэн рыпэт ваԓяпэгԓяръок гэԓӄутысӄычетԓинэтъым.
+# text[phon] = ənqen rəpet waɬapeɣɬarʔok ɣeɬqutəsqəsetɬinetʔəm
+# text[rus] = Когда нож прогремел, все подскочили.
+# text[eng] = When the knife thundered, everyone jumped.
+# labels = complete-dep anno-fran ənqen
+1	Ынӄэн	ынӄэн	PART	_	_	4	discourse	3:discourse	Gloss=DET
+2	рыпэт	_	ADV	_	_	3	advmod	3:advmod	Gloss=даже
+3	ваԓяпэгԓяръок	_	VERB	_	Incorporated[nsubj]=Yes	4	advcl	4:advcl	Gloss=нож-трещать-DISTR.S-LOC
+3.1	ваԓя	ваԓы	NOUN	_	Incorporated=Yes	_	_	3:nsubj	Gloss=нож
+4-5	гэԓӄутысӄычетԓинэтъым	_	_	_	_	_	_	_	Gloss=PF-вставать-RAPID-PF.3SG-PL-=EMPH
+4	гэԓӄутысӄычетԓинэт	_	VERB	_	Valency=1	0	root	0:root	Gloss=PF-вставать-RAPID-PF.3SG-PL
+5	ъым	ъм	PART	_	_	4	advmod:emph	4:advmod:emph	Gloss=EMPH
+6	.	.	PUNCT	_	_	4	punct	4:punct	_
+
+# sent_id = Knives:23
+# text = Ынӄэ нэгитээʼн эвын ынӄэн ваԓыӈэ ԓьоо.
+# text[phon] = ənqe neɣiteʔen ewən ənqen waɬəŋe ɬʔoo
+# text[rus] = Все посмотрели, действительно, тот нож, найденный.
+# text[eng] = Everybody looked at the knife, indeed, that was that knife.
+# labels = complete-dep anno-fran ənqen unclear-syntax
+1	Ынӄэ	_	PART	_	_	2	discourse	_	Gloss=DET
+2	нэгитээʼн	_	VERB	_	_	0	root	_	Gloss=LOW.A-смотреть-TH-3SG.O
+3	эвын	_	ADV	_	_	5	advmod	_	Gloss=если
+4	ынӄэн	ынӄэн	DET	_	_	5	det	_	Gloss=DET
+5-6	ваԓыӈэ	_	_	_	_	_	_	_	Gloss=нож.NOM.SG-=PTCL
+5	ваԓы	ваԓыӈэ	NOUN	_	_	2	parataxis	_	Gloss=нож.NOM.SG
+6	ӈэ	а	PART	_	_	5	advmod:emph	_	Gloss=PTCL
+7	ԓьоо	ԓьоо	VERB	_	_	5	acl	_	Gloss=находить-PTCP.PASS-NOM.SG
+8	.	.	PUNCT	_	_	2	punct	_	_
+

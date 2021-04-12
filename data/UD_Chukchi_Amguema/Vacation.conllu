@@ -1,0 +1,285 @@
+# sent_id = Vacation:1
+# text = Янор Омваамгыпы такчитэ ԓымэвыр афтобуса Камаза трэԓӄытгъэ Эԓгыӄанъявэты.
+# text[phon] = janor omwaamɣəpə taksite ɬəmewər aftobusa kamaza treɬqətɣʔe eɬɣəqanjawetə
+# text[rus] = Сначала из Амгуэмы я поеду на такси или на автобусе, на Камазе в Эгвекинот.
+# text[eng] = First, from Amguema, I will take a taxi or a bus, or Kamaz to Egvekinot.
+# labels = complete-dep anno-fran
+1	Янор	янор	ADV	_	_	7	advmod	_	Gloss=сначала
+2	Омваамгыпы	омваам	PROPN	_	_	7	obl	_	Gloss=Амгуэма-ABL
+3	такчитэ	_	NOUN	_	_	7	obl	_	Gloss=такси-INS
+4	ԓымэвыр	ԓымэвыр	CCONJ	_	_	5	cc	_	Gloss=OMN-или
+5	афтобуса	_	NOUN	_	Case=Ins	3	conj	_	Gloss=автобус-INS
+6	Камаза	_	PROPN	_	Case=Ins	3	conj	_	Gloss=Камаз-INS
+7	трэԓӄытгъэ	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-FUT-идти-TH
+8	Эԓгыӄанъявэты	_	PROPN	_	_	7	obl	_	Gloss=белый-ущелье-DAT
+9	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = Vacation:2
+# text = Иԓгыӄэнъевык ынкы н киткит тратвагъа тъэр ыʼԓёӈэт тратвагъа ӄэԓюӄъым гэмо гымнан титэ трэпириӈынэт билеты Въэӈэты.
+# text[phon] = iɬɣəqenjewək ənkə n kitkit tratwaɣʔa tʔer ʔəɬoŋet tratwaɣʔa qeɬuqʔəm ɣemo ɣəmnan tite trepiriŋənet билеты wʔeŋetə
+# text[rus] = В Эгвекиноте я побуду чуть-чуть, несколько дней, потому что я не знаю, когда куплю билеты на Анадырь.
+# text[eng] = In Egvekinot I will stay a little, a few days, because I do not know when I will buy tickets to Anadyr.
+# labels = complete-dep anno-fran unclear-syntax
+1	Иԓгыӄэнъевык	_	PROPN	_	_	0	root	_	Gloss=белый-ущелье-LOC
+2	ынкы	ынкы	PRON	_	_	1	appos	_	Gloss=тот-LOC
+3	н	н	X	_	_	4	reparandum	_	Gloss=FST
+4	киткит	киткит	ADV	_	_	1	advmod	_	Gloss=немного
+5	тратвагъа	_	AUX	_	_	1	cop	_	Gloss=1SG.S/A-FUT-быть-TH
+6	тъэр	тъэр	ADJ	_	_	7	amod	_	Gloss=сколько
+7	ыʼԓёӈэт	ыʼԓёӈэт	ADV	_	_	8	advmod	_	Gloss=день-TIME
+8	тратвагъа	_	AUX	_	_	1	parataxis	_	Gloss=1SG.S/A-FUT-быть-TH
+9-10	ӄэԓюӄъым	_	_	_	_	_	_	_	Gloss=конечно-=EMPH
+9	ӄэԓюӄ	ӄэԓюӄъым	ADV	_	_	14	advmod	_	Gloss=конечно
+10	ъым	ъм	PART	_	_	9	advmod:emph	_	Gloss=EMPH
+11	гэмо	_	VERB	_	_	1	parataxis	_	Gloss=не.знать
+12	гымнан	гым	PRON	_	_	14	nsubj	_	Gloss=я-INS
+13	титэ	титэ	ADV	_	_	14	advmod	_	Gloss=когда
+14	трэпириӈынэт	_	VERB	_	_	11	ccomp	_	Gloss=1SG.S/A-FUT-брать-FUT-3SG.O-PL
+15	билеты	_	NOUN	_	_	14	obj	_	Gloss=
+16	Въэӈэты	_	PROPN	_	_	15	nmod	_	Gloss=Анадырь-DAT
+17	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = Vacation:3
+# text = Ынӄоры Въаӈгыпы Въаӈгыпы ынкы трабилетынӈааʼ Москвагты.
+# text[phon] = ənqorə wʔaŋɣəpə wʔaŋɣəpə ənkə trabilʲetənŋaʔa maskwaɣtə
+# text[rus] = Затем из Анадыря я возьму билеты на Москву.
+# text[eng] = Then I will take tickets from Anadyr to Moscow.
+# labels = complete-dep anno-fran
+1	Ынӄоры	ынӄоры	ADV	_	_	5	advmod	_	Gloss=потом
+2	Въаӈгыпы	_	PROPN	_	_	3	reparandum	_	Gloss=Анадырь-ABL
+3	Въаӈгыпы	_	PROPN	_	_	5	obl	_	Gloss=Анадырь-ABL
+4	ынкы	ынкы	PRON	_	_	5	obl	_	Gloss=тот-LOC
+5	трабилетынӈааʼ	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-FUT-билет-GET-TH
+6	Москвагты	_	PROPN	_	_	5	obl	_	Gloss=Москва-DAT
+7	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Vacation:4
+# text = Москвайпы трэриӈээʼ Санкт-Петербургэты.
+# text[phon] = moskwajpə treriŋeʔe sanktpitirburgetə
+# text[rus] = Из Москвы полечу в Санкт-Петербург.
+# text[eng] = From Moscow I will fly to St. Petersburg.
+# labels = complete-dep anno-fran
+1	Москвайпы	_	PROPN	_	_	2	obl	_	Gloss=Москва-ABL
+2	трэриӈээʼ	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-FUT-взлетать-TH
+3	Санкт-Петербургэты	_	PROPN	_	_	2	obl	_	Gloss=Санкт.Петербург-DAT
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Vacation:5
+# text = Ынкы трэԓьуӈынэт гымнинэт чакэттомгыӄай Лариса ынкъам гымнин ӈавытԓывэӄай Виталина.
+# text[phon] = ənkə treɬʔuŋənet ɣəmninet sakettomɣəqaj larisa ənkʔam ɣəmnin ŋawətɬəweqaj vʲitalʲina
+# text[rus] = Там я увижу сестрёнку Ларису и племянницу Виталину.
+# text[eng] = There I will see my sister Larissa and my niece Vitalina.
+# labels = complete-dep anno-fran
+1	Ынкы	ын	PRON	_	_	2	obl	_	Gloss=тот-LOC
+2	трэԓьуӈынэт	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-FUT-видеть-FUT-3SG.O-PL
+3	гымнинэт	_	PRON	_	_	4	nmod:poss	_	Gloss=я-AN.GEN-PL
+4	чакэттомгыӄай	чакэттомгыӄай	NOUN	_	_	2	obj	_	Gloss=сестра-друг-DIM-NOM.SG
+5	Лариса	Лариса	PROPN	_	_	4	appos	_	Gloss=Лариса-NOM.SG
+6	ынкъам	ынкъам	CCONJ	_	_	8	cc	_	Gloss=и
+7	гымнин	_	PRON	_	_	8	nmod:poss	_	Gloss=я-AN.GEN
+8	ӈавытԓывэӄай	ӈавытԓывэӄай	NOUN	_	_	4	conj	_	Gloss=FEM-племянник-DIM-NOM.SG
+9	Виталина	Виталина	PROPN	_	_	8	appos	_	Gloss=Виталина-NOM.SG
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Vacation:6
+# text = Мэсӄээӄын ынкы мытратвааʼ Дианана транкаԓровӈынат музеи ԓыгэн Петергоф тэӈимыръэнут мытрэгитэӈын.
+# text[phon] = mesqeeqən ənkə mətratwaʔa dianana trankaɬrowŋənat музеи ɬəɣen pitirgof teŋimərʔenut mətreɣiteŋən
+# text[rus] = Там ещё чуть-чуть побудем, Диане покажу музеи, Петергоф, всё остальное, всё посмотрим.
+# text[eng] = We’ll be there a little bit more, I will show Diana the museums, Peterhof, everything else, we’ll see everything.
+# labels = complete-dep anno-fran unclear-syntax
+1	Мэсӄээӄын	_	ADV	_	_	2	advmod	_	Gloss=APPR-ещё.немного
+2	ынкы	ын	PRON	_	_	0	root	_	Gloss=тот-LOC
+3	мытратвааʼ	_	AUX	_	_	2	cop	_	Gloss=1PL.S/A-FUT-быть-TH
+4	Дианана	_	PROPN	_	_	5	dep	_	Gloss=Диана-AN.INS
+5	транкаԓровӈынат	_	VERB	_	_	2	parataxis	_	Gloss=1SG.S/A-FUT-показывать-FUT-3SG.O-PL
+6	музеи	_	NOUN	_	_	5	obj	_	Gloss=
+7	ԓыгэн	ԓыгэн	ADV	_	_	6	advmod	_	Gloss=просто
+8	Петергоф	Петергоф	PROPN	_	_	6	conj	_	Gloss=Петергоф-NOM.SG
+9	тэӈимыръэнут	тэӈимыръэнут	PRON	_	_	10	obj	_	Gloss=GOOD-FC-что.NOM.SG
+10	мытрэгитэӈын	гитэк	VERB	_	_	2	parataxis	_	Gloss=1PL.S/A-FUT-смотреть-FUT-3SG.O
+11	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Vacation:7
+# text = Ԓыгэнъым ынӄэн майӈынымэӈын Санкт-Петербург транкаԓровӈын.
+# text[phon] = ɬəɣenʔəm ənqen majŋənəmeŋən sanktpitirburk trankaɬrowŋən
+# text[rus] = Покажу ей Санкт-Петербург, большой город.
+# text[eng] = I’ll show her St. Petersburg, a big city.
+# labels = complete-dep anno-fran ənqen
+1-2	Ԓыгэнъым	_	_	_	_	_	_	_	Gloss=просто-=EMPH
+1	Ԓыгэн	_	ADV	_	_	6	advmod	_	Gloss=просто
+2	ъым	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	ынӄэн	ынӄэн	PART	_	_	6	discourse	_	Gloss=DET
+4	майӈынымэӈын	майӈынымэӈын	NOUN	_	_	6	obj	_	Gloss=большой-посёлок-AUG-NOM.SG
+5	Санкт-Петербург	Санкт-Петербург	PROPN	_	_	4	appos	_	Gloss=Санкт.Петербург-NOM.SG
+6	транкаԓровӈын	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-FUT-показывать-FUT-3SG.O
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Vacation:8
+# text = Ынкы ткэԓиткугъэк тъэргииӈит.
+# text[phon] = ənkə tkeɬitkuɣʔek tʔerɣiiŋit
+# text[rus] = Я там училась несколько лет.
+# text[eng] = I studied there for several years.
+# labels = complete-dep anno-fran
+1	Ынкы	ынкы	PRON	_	_	2	obl	_	Gloss=тот-LOC
+2	ткэԓиткугъэк	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-писать-ITER-TH-1SG.S
+3-4	тъэргииӈит	_	_	_	_	_	_	_	Gloss=сколько-год-TIME
+3	тъэр	_	ADJ	_	_	4	amod	_	Gloss=сколько
+4	гииӈит	_	NOUN	_	_	2	obl	_	Gloss=год-TIME
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Vacation:9
+# text = Ынӄоры Виталинанэн отпуск ратвагъа мури кынмаԓ мытрэԓӄытгъэ аӈӄагты Чёрное море мытрайъоӈын.
+# text[phon] = ənqorə vʲitalʲinanen otpusk ratwaɣʔa muri kənmaɬ mətreɬqətɣʔe aŋqaɣtə Чёрное море mətrajʔoŋən
+# text[rus] = Потом у Виталины отпуск начнётся, мы вместе поедем на море, на Чёрное море.
+# text[eng] = Then Vitalina’s vacation will begin, we will go together to the sea, to the Black Sea.
+# labels = complete-dep anno-fran
+1	Ынӄоры	ынӄоры	ADV	_	_	3	advmod	_	Gloss=потом
+2	Виталинанэн	_	PROPN	_	_	3	nmod:poss	_	Gloss=Виталина-AN.GEN
+3	отпуск	отпуск	NOUN	_	_	0	root	_	Gloss=отпуск-NOM.SG
+4	ратвагъа	вак	AUX	_	_	3	cop	_	Gloss=2/3.S/A-FUT-быть-TH
+5	мури	мури	PRON	_	_	7	nsubj	_	Gloss=мы
+6	кынмаԓ	кынмаԓ	ADV	_	_	7	advmod	_	Gloss=вместе
+7	мытрэԓӄытгъэ	ӄытык	VERB	_	_	3	parataxis	_	Gloss=1PL.S/A-FUT-идти-TH
+8	аӈӄагты	_	NOUN	_	_	7	obl	_	Gloss=море-DAT
+9	Чёрное	_	X	_	_	11	obj	_	Gloss=
+10	море	_	X	_	_	9	flat:name	_	Gloss=
+11	мытрайъоӈын	йъок	VERB	_	_	3	parataxis	_	Gloss=1PL.S/A-FUT-настигать-FUT-3SG.O
+12	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Vacation:10
+# text = Ларисанэн ыʼԓгытумгыӄэй Жэня мытрай мытрайъоӈын ынкы мытранымытвагъа тъэр нидэлят.
+# text[phon] = larisanen ʔəɬɣətumɣəqej ženʲa mətraj mətrajʔoŋən ənkə mətranəmətwaɣʔa tʔer nidelʲat
+# text[rus] = К Ларисиной лучшей подруге поедем и там проживем несколько недель.
+# text[eng] = We’ll go to Larissa’s best friend and live there for a few weeks.
+# labels = complete-dep anno-fran
+1	Ларисанэн	Лариса	PROPN	_	_	2	nmod:poss	_	Gloss=Лариса-AN.GEN
+2	ыʼԓгытумгыӄэй	ыʼԓгытумгыӄэй	NOUN	_	_	5	obj	_	Gloss=любить-друг-DIM-NOM.SG
+3	Жэня	Жэня	PROPN	_	_	2	appos	_	Gloss=Женя-NOM.SG
+4	мытрай	мытрай	X	_	_	5	reparandum	_	Gloss=FST
+5	мытрайъоӈын	йъок	VERB	_	_	0	root	_	Gloss=1PL.S/A-FUT-настигать-FUT-3SG.O
+6	ынкы	ынкы	PRON	_	_	7	obl	_	Gloss=тот-LOC
+7	мытранымытвагъа	_	NOUN	_	_	5	parataxis	_	Gloss=1PL.S/A-FUT-посёлок-RES-TH
+8	тъэр	тъэр	ADV	_	_	9	advmod	_	Gloss=сколько
+9	нидэлят	_	NOUN	_	_	7	obl	_	Gloss=неделя-NOM.PL
+10	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Vacation:11
+# text = Ынӄоры нэмэ Питерэты мытрэԓӄытгъэ.
+# text[phon] = ənqorə neme pitiretə mətreɬqətɣʔe
+# text[rus] = Потом мы вернёмся в Питер.
+# text[eng] = Then we will return to St. Petersburg.
+# labels = complete-dep anno-fran
+1	Ынӄоры	ынӄоры	ADV	_	_	4	advmod	_	Gloss=потом
+2	нэмэ	нэмэ	ADV	_	_	4	advmod	_	Gloss=опять
+3	Питерэты	Питер	PROPN	_	_	4	obl	_	Gloss=Питер-DAT
+4	мытрэԓӄытгъэ	ӄытык	VERB	_	_	0	root	_	Gloss=1PL.S/A-FUT-идти-TH
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Vacation:12
+# text = Мэсӄээӄын ынкы мытратвагъа.
+# text[phon] = mesqeeqən ənkə mətratwaɣʔa
+# text[rus] = Там ещё чуть-чуть побудем.
+# text[eng] = We will be there a little bit more.
+# labels = complete-dep anno-fran
+1	Мэсӄээӄын	_	ADV	_	_	2	advmod	_	Gloss=APPR-ещё.немного
+2	ынкы	ынкы	PRON	_	_	0	root	_	Gloss=тот-LOC
+3	мытратвагъа	вак	AUX	_	_	2	cop	_	Gloss=1PL.S/A-FUT-быть-TH
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Vacation:13
+# text = Нэмэ Мачквагты Мачквайпы Въаӈэты Въаӈгыпы эԓгыӄанъявэты ынкъам ӈутриԓы нэмэ мытрарагтыаʼ.
+# text[phon] = neme maskwaɣtə maskwajpə wʔaŋetə wʔaŋɣəpə eɬɣəqanjawetə ənkʔam ŋutriɬə neme mətraraɣtəʔa
+# text[rus] = Потом снова полетим в Москву, из Москвы в Анадырь, из Анадыря в Эгвекинот, а потом сюда вернёмся.
+# text[eng] = Then we will fly again to Moscow, from Moscow to Anadyr, from Anadyr to Egvekinot, and then we will return here.
+# labels = complete-dep anno-fran unclear-syntax
+1	Нэмэ	нэмэ	ADV	_	_	2	advmod	_	Gloss=опять
+2	Мачквагты	_	PROPN	_	_	0	root	_	Gloss=Москва-DAT
+3	Мачквайпы	_	PROPN	_	_	4	orphan	_	Gloss=Москва-ABL
+4	Въаӈэты	_	PROPN	_	_	2	conj	_	Gloss=Анадырь-DAT
+5	Въаӈгыпы	_	PROPN	_	_	6	orphan	_	Gloss=Анадырь-ABL
+6	эԓгыӄанъявэты	_	PROPN	_	_	2	conj	_	Gloss=белый-ущелье-DAT
+7	ынкъам	ынкъам	CCONJ	_	_	10	cc	_	Gloss=и
+8	ӈутриԓы	_	ADV	_	_	10	advmod	_	Gloss=тут-ADV.ALL.EXH
+9	нэмэ	нэмэ	ADV	_	_	10	advmod	_	Gloss=опять
+10	мытрарагтыаʼ	_	VERB	_	_	2	conj	_	Gloss=1PL.S/A-FUT-жилище-GO.TO-TH
+11	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Vacation:14
+# text = Ӄэԓюӄъым Диананэн энмэч каԓеткогыргын рэпкиргъэ.
+# text[phon] = qeɬuqʔəm diananen enmes kaɬetkoɣərɣən repkirɣʔe
+# text[rus] = Конечно, у Дианы учёба начнётся.
+# text[eng] = Of course, Diana will start studying.
+# labels = complete-dep anno-fran
+1-2	Ӄэԓюӄъым	_	_	_	_	_	_	_	Gloss=конечно-=EMPH
+1	Ӄэԓюӄ	ӄэԓюӄъым	ADV	_	_	6	advmod	_	Gloss=конечно
+2	ъым	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	Диананэн	_	PROPN	_	_	5	nmod:poss	_	Gloss=Диана-AN.GEN
+4	энмэч	энмэч	ADV	_	_	5	advmod	_	Gloss=уже
+5	каԓеткогыргын	каԓеткогыргын	NOUN	_	_	6	nsubj	_	Gloss=писать-ITER-NMLZ-NOM.SG
+6	рэпкиргъэ	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-FUT-прибывать-TH
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Vacation:15
+# text = Опопы мачынан пропустит пропустит занятия мачынан нымачпэԓяткоаʼн кэԓиткук.
+# text[phon] = opopə masənan пропустит пропустит занятия masənan nəmaspeɬatkoʔan keɬitkuk
+# text[rus] = Пусть уж она пропустит немного учёбу.
+# text[eng] = Let her miss her studies a little.
+# labels = complete-dep anno-fran disfluency
+1	Опопы	опопы	ADV	_	_	7	advmod	_	Gloss=лучше
+2	мачынан	ытԓён	PART	_	_	4	discourse	_	Gloss=пусть
+3	пропустит	_	X	_	_	4	reparandum	_	Gloss=
+4	пропустит	_	X	_	_	7	reparandum	_	Gloss=
+5	занятия	_	X	_	_	4	obj	_	Gloss=
+6	мачынан	ытԓён	PART	_	_	7	discourse	_	Gloss=пусть
+7	нымачпэԓяткоаʼн	_	VERB	_	_	0	root	_	Gloss=3.S/A.SUBJ-APPR-оставлять-ITER-TH-3SG.O
+8	кэԓиткук	_	VERB	_	_	7	xcomp	_	Gloss=писать-ITER-INF
+9	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = Vacation:16
+# text = Ытԓён ныԓгинытэӈкэԓиткуӄин аммытԓыӈ аммытԓыӈбаԓтэ ӄонпы нинэпириӄинэт.
+# text[phon] = ətɬon nəɬɣinəteŋkeɬitkuqin ammətɬəŋ ammətɬəŋbaɬte qonpə ninepiriqinet
+# text[rus] = Она отлично учится, получает одни пятёрки.
+# text[eng] = She is a great student, gets only the highest grades.
+# labels = complete-dep anno-fran
+1	Ытԓён	ытԓён	PRON	_	_	2	nsubj	_	Gloss=он
+2	ныԓгинытэӈкэԓиткуӄин	_	VERB	_	Valency=1	0	root	_	Gloss=ST-INTS-ST-GOOD-писать-ITER-ST.3SG
+3	аммытԓыӈ	аммытԓыӈ	X	_	_	4	reparandum	_	Gloss=FST
+4-5	аммытԓыӈбаԓтэ	_	_	_	_	_	_	_	Gloss=RESTR-пять-балл-NOM.PL
+4	аммытԓыӈ	_	NUM	_	_	5	nummod	_	Gloss=RESTR-пять
+5	баԓтэ	_	NOUN	_	_	7	obj	_	Gloss=балл-NOM.PL
+6	ӄонпы	_	ADV	_	_	7	advmod	_	Gloss=всегда
+7	нинэпириӄинэт	_	VERB	_	_	2	parataxis	_	Gloss=ST-INV-брать-ST.3SG-PL
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Vacation:17
+# text = Ынӄэ мачынан нымэч нымачпэԓятъан.
+# text[phon] = ənqe masənan nəmes nəmaspeɬatʔan
+# text[rus] = Пусть она немного опоздает.
+# text[eng] = Let her be late a little.
+# labels = complete-dep anno-fran ənqen
+1	Ынӄэ	_	PART	_	_	4	discourse	_	Gloss=DET
+2	мачынан	ытԓён	PART	_	_	4	discourse	_	Gloss=пусть
+3	нымэч	нымэч	X	_	_	4	reparandum	_	Gloss=FST
+4	нымачпэԓятъан	пэԓятык	VERB	_	Valency=1	0	root	_	Gloss=ST-APPR-оставлять-VB-TH-3SG.O
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Vacation:18
+# text = Пэтԓе рэркыԓегнинэт кэԓиткутумгыт.
+# text[phon] = petɬe rerkəɬeɣninet keɬitkutumɣət
+# text[rus] = Она быстро догонит своих одноклассников.
+# text[eng] = She will quickly catch up with her classmates.
+# labels = complete-dep anno-fran
+1	Пэтԓе	пэтԓе	ADV	_	_	2	advmod	_	Gloss=быстро
+2	рэркыԓегнинэт	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-FUT-преследовать-IRR-3SG.A.3.O-3SG.O-PL
+3	кэԓиткутумгыт	_	NOUN	_	_	2	obj	_	Gloss=писать-ITER-друг-NOM.PL
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Vacation:19
+# text = Ытръэч.
+# text[phon] = ətrʔes
+# text[rus] = Всё.
+# text[eng] = That’s all.
+# labels = complete-dep anno-fran
+1	Ытръэч	ытръэч	ADV	_	_	0	root	_	Gloss=только
+2	.	.	PUNCT	_	_	1	punct	_	_
+

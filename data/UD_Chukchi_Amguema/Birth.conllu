@@ -1,0 +1,119 @@
+# sent_id = Birth:1
+# text = Гым эмнуӈкы тъурэтгъэк.
+# text[phon] = ɣəm emnuŋkə tʔuretɣʔek
+# text[rus] = Я родилась в тундре.
+# text[eng] = I was born in tundra.
+# labels = complete-dep anno-fran
+1	Гым	гым	PRON	_	Case=Abs	3	nsubj	_	Gloss=я
+2	эмнуӈкы	_	NOUN	_	_	3	obl	_	Gloss=тундра-LOC
+3	тъурэтгъэк	_	VERB	_	Valency=1	0	root	_	Gloss=1SG.S/A-родиться-TH-1SG.S
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Birth:2
+# text = Гымнинэт ытԓьат гымнин ытԓыгын ынкъам ытԓя гымнинэт ытԓьат ынкъам ытԓыгыт чачча ныяԓгытӄэнатъым.
+# text[phon] = ɣəmninet ətɬʔat ɣəmnin ətɬəɣən ənkʔam ətɬa ɣəmninet ətɬʔat ənkʔam ətɬəɣət čassa nəjaɬɣətqenatʔəm
+# text[rus] = Мои родители, мой отец и мать, мои родители... Сейчас... Они кочевали.
+# text[eng] = My parents, my father and my mother, and my parents... Now... They nomadised.
+# labels = complete-dep anno-fran
+1	Гымнинэт	_	PRON	_	_	2	nmod:poss	_	Gloss=я-AN.GEN-PL
+2	ытԓьат	_	NOUN	_	_	12	nsubj	_	Gloss=мать-NOM.PL
+3	гымнин	_	PRON	_	_	4	nmod:poss	_	Gloss=я-AN.GEN
+4	ытԓыгын	ытԓыгын	NOUN	_	_	2	appos	_	Gloss=отец-NOM.SG
+5	ынкъам	ынкъам	CCONJ	_	_	6	cc	_	Gloss=и
+6	ытԓя	ытԓя	NOUN	_	_	4	conj	_	Gloss=мать
+7	гымнинэт	_	PRON	_	_	8	nmod:poss	_	Gloss=я-AN.GEN-PL
+8	ытԓьат	_	NOUN	_	_	2	appos	_	Gloss=мать-NOM.PL
+9	ынкъам	ынкъам	CCONJ	_	_	10	cc	_	Gloss=и
+10	ытԓыгыт	ытԓыгын	NOUN	_	_	8	conj	_	Gloss=отец-NOM.PL
+11	чачча	_	ADV	_	_	12	advmod	_	Gloss=сейчас
+12-13	ныяԓгытӄэнатъым	_	_	_	_	_	_	_	Gloss=ST-кочевать-ST.3SG-PL-=EMPH
+12	ныяԓгытӄэнат	_	VERB	_	Valency=1	0	root	_	Gloss=ST-кочевать-ST.3SG-PL
+13	ъым	ъм	PART	_	_	12	advmod:emph	_	_
+14	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = Birth:3
+# text = Ԓюут ёоʼръогъэ.
+# text[phon] = ɬuut joʔorʔoɣʔe
+# text[rus] = Вдруг началась пурга.
+# text[eng] = Suddenly, the snowstorm started.
+# labels = complete-dep anno-fran
+1	Ԓюут	ԓюут	ADV	_	_	2	advmod	_	Gloss=вдруг
+2	ёоʼръогъэ	ёоʼк	VERB	_	_	0	root	_	Gloss=2/3.S/A-пуржить-DISTR.S-TH-2/3SG.S
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Birth:4
+# text = Ынӄо тыԓянвык нытваӄэн аԓвабригаден яратъым.
+# text[phon] = ənqo təɬanwək nətwaqen aɬwabrʲigadʲen jaratʔəm
+# text[rus] = По пути были яранги чужой бригады.
+# text[eng] = On the way, there were yarangas of the other team (lit. brigade).
+# labels = complete-dep anno-fran
+1	Ынӄо	ынӄо	ADV	_	_	2	advmod	_	Gloss=потом
+2	тыԓянвык	_	VERB	_	_	0	root	_	Gloss=идти-NMN-LOC
+3	нытваӄэн	вак	AUX	_	Valency=1	2	cop	_	Gloss=ST-быть-ST.3SG
+4	аԓвабригаден	_	NOUN	_	_	5	nmod:poss	_	Gloss=другой-бригада-GEN
+5-6	яратъым	_	_	_	_	_	_	_	Gloss=яранга-NOM.PL-=EMPH
+5	ярат	_	NOUN	_	_	2	nsubj	_	Gloss=яранга-NOM.PL
+6	ъым	ъм	PART	_	_	5	advmod:emph	_	Gloss=EMPH
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Birth:5
+# text = Ынкы гым тъурэтгъэк аԓваярак.
+# text[phon] = ənkə ɣəm tʔuretɣʔek aɬwajarak
+# text[rus] = Там я родилась, в чужой яранге.
+# text[eng] = I was born there in someone else's yaranga.
+# labels = complete-dep anno-fran
+1	Ынкы	ынкы	PRON	_	_	3	obl	_	Gloss=тот-LOC
+2	гым	гым	PRON	_	_	3	nsubj	_	Gloss=я
+3	тъурэтгъэк	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-родиться-TH-1SG.S
+4	аԓваярак	_	NOUN	_	_	3	obl	_	Gloss=другой-яранга-LOC
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Birth:6
+# text = Гэмэԓетԓин айвэм эргатыкъым.
+# text[phon] = ɣemeɬetɬin ajweʔm erɣatəkʔəm
+# text[rus] = На следующий день погода прояснилась.
+# text[eng] = The next day the weather cleared up.
+# labels = complete-dep anno-fran
+1	Гэмэԓетԓин	_	VERB	_	Valency=1	0	root	_	Gloss=PF-хорошая.погода-VB-PF.3SG
+2-3	айвэм	_	_	_	_	_	_	_	Gloss=вчера-=EMPH
+2	айвэ	_	ADV	_	_	1	advmod	_	Gloss=вчера
+3	м	ъм	PART	_	_	2	advmod:emph	_	Gloss=EMPH
+4-5	эргатыкъым	_	_	_	_	_	_	_	Gloss=свет-VB-LOC-=EMPH
+4	эргатык	_	VERB	_	_	1	advcl	_	Gloss=свет-VB-LOC
+5	ъым	ъм	PART	_	_	4	advmod:emph	_	Gloss=EMPH
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Birth:7
+# text = Ытԓыгэ тэйкынин яраӈы.
+# text[phon] = ətɬəɣe tejkənin jaraŋə
+# text[rus] = Отец поставил ярангу.
+# text[eng] = My dad set the yaranga.
+# labels = complete-dep anno-fran
+1	Ытԓыгэ	ытԓыгын	NOUN	_	_	2	nsubj	_	Gloss=отец-INS
+2	тэйкынин	тэйкык	VERB	_	_	0	root	_	Gloss=2/3.S/A-делать-3SG.A.3.O-3SG.O
+3	яраӈы	яраӈы	NOUN	_	_	2	obj	_	Gloss=яранга-NOM.SG
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Birth:8
+# text = Ынӄо мури ыммэмы мытрагтымык.
+# text[phon] = ənqo muri əmmemə mətraɣtəmək
+# text[rus] = Потом мы с мамой вошли в дом.
+# text[eng] = Then me and my mother entered the house.
+# labels = complete-dep anno-fran
+1	Ынӄо	ынӄо	ADV	_	_	4	advmod	_	Gloss=потом
+2	мури	мури	PRON	_	_	4	nsubj	_	Gloss=мы
+3	ыммэмы	ыммэмы	NOUN	_	_	2	conj	_	Gloss=мама
+4	мытрагтымык	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-жилище-GO.TO-1PL.S/O
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Birth:9
+# text = Ынӄо мытъяԓгынмык пятеԓьэпы.
+# text[phon] = ənqo mətjaɬɣənmək pʲatʲeɬʔepə
+# text[rus] = Потом мы перекочевали из пятой бригады.
+# text[eng] = Then we moved from the fifth team.
+# labels = complete-dep anno-fran
+1	Ынӄо	ынӄо	ADV	_	_	2	advmod	_	Gloss=потом
+2	мытъяԓгынмык	яԓгытык	VERB	_	_	0	root	_	Gloss=1PL.S/A-кочевать-1PL.S/O
+3	пятеԓьэпы	_	ADJ	_	_	2	obl	_	Gloss=пятый-ATTR-ABL
+4	.	.	PUNCT	_	_	2	punct	_	_
+

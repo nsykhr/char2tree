@@ -1,0 +1,81 @@
+# sent_id = In_the_evening:1
+# text = Ыʼттъыгрына ԓьунин ӈэвысӄэт итэй нрзб.
+# text[phon] = ʔəttʔəɣrəna ɬʔunin ŋewəsqet itej нрзб
+# text[rus] = Ыттыгыргин увидел девушку.
+# text[eng] = Yttygyrgin saw a girl.
+# labels = complete-dep anno-fran
+1	Ыʼттъыгрына	_	PROPN	_	_	2	nsubj	_	Gloss=Ыттыгыргин-AN.INS
+2	ԓьунин	ԓьук	VERB	_	_	0	root	_	Gloss=2/3.S/A-видеть-3SG.A.3.O-3SG.O
+3	ӈэвысӄэт	ӈэвысӄэт	NOUN	_	_	2	obj	_	Gloss=женщина-NOM.SG
+4	итэй	итэй	X	_	_	2	reparandum	_	Gloss=FST
+5	нрзб	_	X	_	_	2	discourse	_	Gloss=
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = In_the_evening:2
+# text = Тан нивӄин эты танӈыӈавиӈын.
+# text[phon] = tan niwqin etə tanŋəŋawiŋən
+# text[rus] = Говорит: «Наверное, это русская бабёнка.
+# text[eng] = He says: «Probably, that is a Russian woman.
+# labels = complete-dep anno-fran
+1	Тан	Тан	X	_	_	4	reparandum	_	Gloss=FST
+2	нивӄин	ивык	VERB	_	Valency=2	0	root	_	Gloss=ST-сказать-ST.3SG
+3	эты	эты	ADV	_	_	4	advmod	_	Gloss=наверное
+4	танӈыӈавиӈын	танӈыӈавиӈын	NOUN	_	_	2	parataxis:speech	_	Gloss=чужеземец-FEM-AUG-NOM.SG
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = In_the_evening:3
+# text = Коԓё майӈыԓёԓьо.
+# text[phon] = koɬo majŋəɬoɬʔo
+# text[rus] = Очень большая грудь».
+# text[eng] = Very big breasts.»
+# labels = complete-dep anno-fran
+1	Коԓё	коԓё	ADV	_	_	2	advmod	_	Gloss=очень
+2	майӈыԓёԓьо	_	NOUN	_	_	0	root	_	Gloss=большой-грудь
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = In_the_evening:4
+# text = Нивӄин.
+# text[phon] = niwqin
+# text[rus] = Говорит:
+# text[eng] = He says:
+# labels = complete-dep anno-fran
+1	Нивӄин	ивык	VERB	_	Valency=2	0	root	_	Gloss=ST-сказать-ST.3SG
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = In_the_evening:5
+# text = Эй йыӄӄэй ивкэ вуԓӄытви вайыкы мыԓёогъа.
+# text[phon] = ej jəqqej iwke wuɬqətwi wajəkə məɬooɣʔa
+# text[rus] = «Эх, вот бы вечером пососать грудь».
+# text[eng] = «I would (gladly) suck it this evening.»
+# labels = complete-dep anno-fran
+1	Эй	_	INTJ	_	_	6	discourse	_	Gloss=INTJ
+2	йыӄӄэй	йыӄӄэй	ADV	_	_	6	advmod	_	Gloss=разве
+3	ивкэ	ивкэ	AUX	_	_	6	aux	_	Gloss=OPT
+4	вуԓӄытви	вуԓӄытвикин	NOUN	_	_	6	obl	_	Gloss=темнота-TRSF
+5	вайыкы	_	ADV	_	_	6	advmod	_	Gloss=вон.там
+6	мыԓёогъа	_	VERB	_	_	0	root	_	Gloss=1SG.S/A.SUBJ-сосать-TH
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = In_the_evening:6
+# text = Ԓюут ӈэвысӄэт чинит иквъи.
+# text[phon] = ɬuut ŋewəsqet sinit ikwʔi
+# text[rus] = Вдруг девушка сама говорит:
+# text[eng] = Suddenly, the girl herself says:
+# labels = complete-dep anno-fran 
+1	Ԓюут	ԓюут	ADV	_	_	4	advmod	_	Gloss=вдруг
+2	ӈэвысӄэт	ӈэвысӄэт	NOUN	_	_	4	nsubj	_	Gloss=женщина-NOM.SG
+3	чинит	чинит	PRON	_	_	4	dep	_	Gloss=сам
+4	иквъи	икын	VERB	_	_	0	root	_	Gloss=2/3.S/A-сказать-TH-2/3SG.S
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = In_the_evening:7
+# text = Оʼтчой вытку вуԓӄытви.
+# text[phon] = ʔotsoj wətku wuɬqətwi
+# text[rus] = «Долго вечера ждать».
+# text[eng] = «It's a long time until evening.»
+# labels = complete-dep anno-fran
+1	Оʼтчой	_	ADV	_	_	3	advmod	_	Gloss=долго
+2	вытку	вытку	ADV	_	_	3	advmod	_	Gloss=только.что
+3	вуԓӄытви	вуԓӄытвикин	NOUN	_	_	0	root	_	Gloss=темнота-TRSF
+4	.	.	PUNCT	_	_	3	punct	_	_
+

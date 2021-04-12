@@ -1,0 +1,147 @@
+# sent_id = Wyttal:1
+# text = Гымнан торывтатык нинэгичийгымэ вытвыттэ рымавыттэ эээ ръэнут это.
+# text[phon] = ɣəmnan torəwtatək nineɣisijɣəme wətwətte rəmawətte эээ rʔenut это
+# text[rus] = Я, когда зелень только распускается, собираю листочки, щавель, что там ещё…
+# text[eng] = When new sprouts show up, I gather the leaves, sorrel, what else...
+# labels = complete-dep anno-fran
+1	Гымнан	гым	PRON	_	_	3	nsubj	_	Gloss=я-INS
+2	торывтатык	_	VERB	_	_	3	advcl	_	Gloss=новый-лист-VB-LOC
+3-4	нинэгичийгымэ	_	_	_	_	_	_	_	Gloss=ST-INV-собирать-NP.1SG-=PTCL
+3	нинэгичийгым	_	VERB	_	_	0	root	_	Gloss=ST-INV-собирать-NP.1SG
+4	э	а	PART	_	_	3	advmod:emph	_	Gloss=PTCL
+5	вытвыттэ	_	NOUN	_	_	3	obj	_	Gloss=лист-NOM.PL
+6	рымавыттэ	_	NOUN	_	_	5	appos	_	Gloss=дикий.щавель-NOM.PL
+7	эээ	_	INTJ	_	_	8	discourse	_	Gloss=
+8	ръэнут	ръэнут	PRON	_	PronType=Ind	3	parataxis	_	Gloss=что.NOM.SG
+9	это	_	X	_	_	8	discourse	_	Gloss=
+10	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Wyttal:2
+# text = Рымавыттэм нинэнръэԓевивым ынкы гэвтыт и ԓыгэвытвыттэ.
+# text[phon] = rəmawətteʔm ninenrʔeɬewiwəm ənkə ɣewtət и ɬəɣewətwətte
+# text[rus] = Щавель… смешиваю там (всё), иван-чай и зелёные листочки…
+# text[eng] = Sorrel... I mix it all up, fireweed and the green leaves.
+# labels = complete-dep anno-fran
+1-2	Рымавыттэм	_	_	_	_	_	_	_	Gloss=дикий.щавель-NOM.PL-=EMPH
+1	Рымавыттэ	_	NOUN	_	_	0	root	_	Gloss=дикий.щавель-NOM.PL
+2	м	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	нинэнръэԓевивым	_	VERB	_	_	1	parataxis	_	Gloss=ST-INV-TR-смешиваться-CS-NP.1SG
+4	ынкы	ын	PRON	_	_	3	obl	_	Gloss=тот-LOC
+5	гэвтыт	гэвт	NOUN	_	_	3	obj	_	Gloss=иван.чай-NOM.PL
+6	и	_	CCONJ	_	_	7	cc	_	Gloss=
+7	ԓыгэвытвыттэ	_	NOUN	_	_	5	conj	_	Gloss=AUTH-лист-NOM.PL
+8	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Wyttal:3
+# text = Нэнапатэвым.
+# text[phon] = nenapatewəm
+# text[rus] = Варю.
+# text[eng] = I boil them.
+# labels = complete-dep anno-fran
+1	Нэнапатэвым	_	VERB	_	_	0	root	_	Gloss=ST-INV-варить-NP.1SG
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Wyttal:4
+# text = Ынӄоры нинэԓпиттивым.
+# text[phon] = ənqorə nineɬpittiwəm
+# text[rus] = Потом отжимаю.
+# text[eng] = Then I squeeze them.
+# labels = complete-dep anno-fran
+1	Ынӄоры	ынӄоры	ADV	_	_	2	advmod	_	Gloss=потом
+2	нинэԓпиттивым	_	VERB	_	_	0	root	_	Gloss=ST-INV-выжимать-NP.1SG
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Wyttal:5
+# text = Ынӄоры виин уӄӄэмчыку ынӈин нинэнрэӄэвивым.
+# text[phon] = ənqorə wiin uqqemsəku ənŋin ninenreqewiwəm
+# text[rus] = Затем пока так что я (там) делаю…
+# text[eng] = Then on the dish, so, what do I do...
+# labels = complete-dep anno-fran
+1	Ынӄоры	ынӄоры	ADV	_	_	5	advmod	_	Gloss=потом
+2	виин	виин	ADV	_	_	5	advmod	_	Gloss=пока
+3	уӄӄэмчыку	_	NOUN	_	_	5	obl	_	Gloss=блюдо-IN
+4	ынӈин	ынӈин	ADV	_	_	5	advmod	_	Gloss=так
+5	нинэнрэӄэвивым	_	VERB	_	_	0	root	_	Gloss=ST-INV-TR-что-CS-NP.1SG
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Wyttal:6
+# text = Чеэкэй нымэчвиԓетӄинъым.
+# text[phon] = seekej nəmeswiɬetqinʔəm
+# text[rus] = Всё это вместе немного подкисает.
+# text[eng] = All together that turns a bit sour.
+# labels = complete-dep anno-fran
+1	Чеэкэй	_	ADV	_	_	2	advmod	_	Gloss=вместе
+2-3	нымэчвиԓетӄинъым	_	_	_	_	_	_	_	Gloss=ST-APPR-портиться-VB-ST.3SG-=EMPH
+2	нымэчвиԓетӄин	_	VERB	_	Valency=1	0	root	_	Gloss=ST-APPR-портиться-VB-ST.3SG
+3	ъым	ъм	PART	_	_	2	advmod:emph	_	Gloss=EMPH
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Wyttal:7
+# text = Нэнатаԓяйгым нинэкиԓитивым.
+# text[phon] = nenataɬajɣəm ninekiɬitiwəm
+# text[rus] = Отбиваю, замешиваю (как тесто).
+# text[eng] = I soften (lit. beat) it and knead it.
+# labels = complete-dep anno-fran
+1	Нэнатаԓяйгым	таԓяк	VERB	_	_	0	root	_	Gloss=ST-INV-ударять-NP.1SG
+2	нинэкиԓитивым	_	VERB	_	_	1	parataxis	_	Gloss=ST-INV-месить-NP.1SG
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Wyttal:8
+# text = Ынӄоры нэмэ эээ нинэнкувԓюкэвивым.
+# text[phon] = ənqorə neme эээ ninenkuwɬukewiwəm
+# text[rus] = Затем опять скатываю в кругляши.
+# text[eng] = Then I make balls out of it again.
+# labels = complete-dep anno-fran
+1	Ынӄоры	ынӄоры	ADV	_	_	4	advmod	_	Gloss=потом
+2	нэмэ	нэмэ	ADV	_	_	4	advmod	_	Gloss=опять
+3	эээ	_	INTJ	_	_	4	discourse	_	Gloss=
+4	нинэнкувԓюкэвивым	_	VERB	_	_	0	root	_	Gloss=ST-INV-TR-круг-CS-NP.1SG
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Wyttal:9
+# text = Виин нинэнӄитэтивым ӄэтырачыко.
+# text[phon] = wiin ninenqitetiwəm qetərasəko
+# text[rus] = Замораживаю на время в холодильнике.
+# text[eng] = I freeze them in the fridge.
+# labels = complete-dep anno-fran
+1	Виин	виин	ADV	_	_	2	advmod	_	Gloss=пока
+2	нинэнӄитэтивым	_	VERB	_	_	0	root	_	Gloss=ST-INV-TR-замерзать-VB-NP.1SG
+3	ӄэтырачыко	_	NOUN	_	_	2	obl	_	Gloss=замерзать-жилище-IN
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Wyttal:10
+# text = Ынӄоры ԓьэԓеӈкы нэнагтойгым.
+# text[phon] = ənqorə ɬʔeɬeŋkə nenaɣtojɣəm
+# text[rus] = Потом зимой вытаскиваю.
+# text[eng] = Then I take them out in the winter.
+# labels = complete-dep anno-fran
+1	Ынӄоры	ынӄоры	ADV	_	_	3	advmod	_	Gloss=потом
+2	ԓьэԓеӈкы	_	NOUN	_	_	3	obl	_	Gloss=зима-LOC
+3	нэнагтойгым	агтак	VERB	_	_	0	root	_	Gloss=ST-INV-вынимать-NP.1SG
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Wyttal:11
+# text = Рыпонтаԓгав нэнатаԓяморъэм нинэнумури рымытӄыԓгавкы.
+# text[phon] = rəpontaɬɣaw nenataɬamorʔem ninenumuri rəmətqəɬɣawkə
+# text[rus] = Вместе с печенью долбим, едим с (нерпичьим) жиром.
+# text[eng] = We grind it and mix it with liver (lit. beat it with liver), we eat it with the (seal) fat.
+# labels = complete-dep anno-fran
+1	Рыпонтаԓгав	_	NOUN	_	_	2	obl	_	Gloss=CUM-печень-CUM
+2-3	нэнатаԓяморъэм	_	_	_	_	_	_	_	Gloss=ST-INV-ударять-NP.1PL-=EMPH
+2	нэнатаԓяморъэ	_	VERB	_	_	0	root	_	Gloss=ST-INV-ударять-NP.1PL
+3	м	_	PART	_	_	2	advmod:emph	_	Gloss=EMPH
+4	нинэнумури	рук	VERB	_	_	2	parataxis	_	Gloss=ST-INV-есть-NP.1PL
+5	рымытӄыԓгавкы	_	NOUN	_	_	4	obl	_	Gloss=CUM-жир-CUM-LOC
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Wyttal:12
+# text = Тэӄэмэӈ ынӈин ваԓьын.
+# text[phon] = teqemeŋ ənŋin waɬʔən
+# text[rus] = Вот такое блюдо.
+# text[eng] = That is the dish.
+# labels = complete-dep anno-fran
+1	Тэӄэмэӈ	Тэӄэмэӈ	NOUN	_	_	2	nsubj	_	Gloss=MAKE-блюдо-MAKE-NOM.SG
+2	ынӈин	ынӈин	ADV	_	_	0	root	_	Gloss=так
+3	ваԓьын	ваԓьын	AUX	_	_	2	cop	_	Gloss=быть-ATTR-NOM.SG
+4	.	.	PUNCT	_	_	2	punct	_	_
+
