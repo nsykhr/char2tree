@@ -1,0 +1,149 @@
+# sent_id = Komsomolets_(again):1
+# text = Ӈуткэкин Омваамвыкэн Тымӈэԓӄот нымӈыԓтэԓӄэн.
+# text[phon] = ŋutkekin omwaamwəken təmŋeɬqot nəmŋəɬteɬqen
+# text[rus] = Здешний амгуэмский Тымнелькот рассказывал.
+# text[eng] = Tynelkot from here, from Amguema, told (this story).
+# labels = complete-dep anno-fran
+1	Ӈуткэкин	_	ADV	_	_	3	nmod:relat	_	Gloss=тут-OBL-REL
+2	Омваамвыкэн	_	PROPN	_	_	3	nmod:relat	_	Gloss=Амгуэма-REL
+3	Тымӈэԓӄот	Тымӈэԓӄот	PROPN	_	_	4	nsubj	_	Gloss=Тынелькот-NOM.SG
+4	нымӈыԓтэԓӄэн	_	VERB	_	_	0	root	_	Gloss=ST-весть-DUR-ST.3SG
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Komsomolets_(again):2
+# text = Ӄоԓ титгъэк тынотапынмынтагъакъым.
+# text[phon] = qoɬ titɣʔek tənotapənməntaɣʔakʔəm
+# text[rus] = Однажды поехал я в Нутэпэльмен.
+# text[eng] = Once I went to Nutepelmen.
+# labels = complete-dep anno-fran
+1	Ӄоԓ	ӄоԓ	PRON	_	_	2	nsubj	_	Gloss=некий
+2	титгъэк	итык	VERB	_	_	0	root	_	Gloss=1SG.S/A-являться-TH-1SG.S
+3-4	тынотапынмынтагъакъым	_	_	_	_	_	_	_	Gloss=1SG.S/A-Нутэпэльмен-GO.DO-TH-1SG.S-=EMPH
+3	тынотапынмынтагъак	_	VERB	_	_	2	parataxis	_	Gloss=1SG.S/A-Нутэпэльмен-GO.DO-TH-1SG.S
+4	ъым	ъм	PART	_	_	3	advmod:emph	_	Gloss=EMPH
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Komsomolets_(again):3
+# text = Кԓюпыӈӄачагты тычейвыткугъэк.
+# text[phon] = kɬupəŋqasaɣtə təsejwətkuɣʔek
+# text[rus] = В сторону клуба прогулялся.
+# text[eng] = I walked to the club.
+# labels = complete-dep anno-fran
+1	Кԓюпыӈӄачагты	_	NOUN	_	_	2	obl	_	Gloss=клуб-NEAR-DAT
+2	тычейвыткугъэк	_	VERB	_	Valency=1	0	root	_	Gloss=1SG.S/A-идти-ITER-TH-1SG.S
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Komsomolets_(again):4
+# text = Ынкы ӄычекытваԓьымкына.
+# text[phon] = ənkə qəsekətwaɬʔəmkəna
+# text[rus] = Там народ толпится.
+# text[eng] = People crowded the area.
+# labels = complete-dep anno-fran
+1	Ынкы	ынкы	PRON	_	_	2	obl	_	Gloss=тот-LOC
+2-3	ӄычекытваԓьымкына	_	_	_	_	_	_	_	Gloss=толпиться-ATTR-COLL-NOM.SG-=PTCL
+2	ӄычекытваԓьымкын	ӄычекытваԓьымкына	VERB	_	_	0	root	_	Gloss=толпиться-ATTR-COLL-NOM.SG
+3	а	а	PART	_	_	2	advmod:emph	_	Gloss=PTCL
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Komsomolets_(again):5
+# text = Тыйъоаʼн тымӈыԓёнат ныръэтури.
+# text[phon] = təjʔoʔan təmŋəɬonat nərʔeturi
+# text[rus] = Подошёл к ним, спрашиваю: «Что вы делаете?».
+# text[eng] = I approach them and ask: «What are you doing?»
+# labels = complete-dep anno-fran
+1	Тыйъоаʼн	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-настигать-TH-3SG.O
+2	тымӈыԓёнат	_	VERB	_	_	1	parataxis	_	Gloss=1SG.S/A-спрашивать-3SG.O-PL
+3	ныръэтури	_	VERB	_	_	2	parataxis	_	Gloss=ST-что-NP.2PL
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Komsomolets_(again):6
+# text = Иквъэт вынэ вай комсомолтэ нумэкэтӄинэт.
+# text[phon] = ikwʔet wəne waj kamsamoɬte numeketqinet
+# text[rus] = Отвечают: «Да вот, комсомольцы собрались».
+# text[eng] = They reply: «Well, that is a Komsomol members meeting.»
+# labels = complete-dep anno-karina
+1	Иквъэт	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-сказать-TH-PL
+2	вынэ	вынэ	PART	_	_	1	parataxis:speech	_	Gloss=ну.ка
+3	вай	вай	ADV	_	_	1	parataxis:speech	_	Gloss=вот
+4	комсомолтэ	комсомол	NOUN	_	_	5	nsubj	_	Gloss=комсомолец-NOM.PL
+5	нумэкэтӄинэт	_	VERB	_	_	1	parataxis:speech	_	Gloss=ST-кружок-VB-ST.3SG-PL
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Komsomolets_(again):7
+# text = Ээ эты вай гым камчамоԓевым.
+# text[phon] = ee etə waj ɣəm kamsamoɬewəm
+# text[rus] = «Ээ, наверное, я комсомолец».
+# text[eng] = «Probably, I am also a Komsomol member.»
+# labels = complete-dep anno-fran
+1	Ээ	_	INTJ	_	_	5	discourse	_	Gloss=ээ
+2	эты	эты	ADV	_	_	5	advmod	_	Gloss=наверное
+3	вай	вай	ADV	_	_	5	advmod	_	Gloss=вот
+4	гым	гым	PRON	_	_	5	nsubj	_	Gloss=я
+5	камчамоԓевым	_	NOUN	_	_	0	root	_	Gloss=комсомолец-NP.1SG
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Komsomolets_(again):8
+# text = Вы гыт ынӈин эвнумэкэткэ.
+# text[phon] = wə ɣət ənŋin ewnumeketke
+# text[rus] = «Тебе не нужно приходить на собрания».
+# text[eng] = «You should not come to the meetings.»
+# labels = complete-dep anno-karina unclear-syntax
+1	Вы	Вы	X	_	_	2	reparandum	_	Gloss=FST
+2	гыт	_	PRON	_	_	4	nsubj	_	Gloss=ты
+3	ынӈин	ынӈин	ADV	_	_	4	advmod	_	Gloss=так
+4	эвнумэкэткэ	_	VERB	_	_	0	root	_	Gloss=PREF-кружок-VB-CAR-INS
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Komsomolets_(again):9
+# text = Ээ микынтим камчамоԓтэ.
+# text[phon] = ee mikəntiʔm kamsamoɬte
+# text[rus] = «Ээ, а кто такие комсомольцы?».
+# text[eng] = «And who are these Komsomol members?»
+# labels = complete-dep anno-fran
+1	Ээ	_	INTJ	_	_	4	discourse	_	Gloss=ээ
+2-3	микынтим	_	_	_	_	_	_	_	Gloss=кто-NOM.PL-=EMPH
+2	микынти	_	PRON	_	PronType=Int	4	nsubj	_	Gloss=кто-NOM.PL
+3	м	ъм	PART	_	_	2	advmod:emph	_	Gloss=EMPH
+4	камчамоԓтэ	_	NOUN	_	_	0	root	_	Gloss=комсомолец-NOM.PL
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Komsomolets_(again):10
+# text = Ынӄэнъыма ӈэнъянвытъым тагмэгчеръянвыт.
+# text[phon] = ənqenʔəma ŋenjanwətʔəm taɣmeɣserjanwət
+# text[rus] = «Это молодёжь, которая хорошо работает».
+# text[eng] = «They are young men that do their job well.»
+# labels = complete-dep anno-karina
+1-3	Ынӄэнъыма	_	_	_	_	_	_	_	Gloss=DET-=EMPH-=PTCL
+1	Ынӄэн	_	DET	_	_	6	det	_	Gloss=DET
+2	ъым	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	а	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+4-5	ӈэнъянвытъым	_	_	_	_	_	_	_	Gloss=молодой-NMN.PL-NOM.PL-=EMPH
+4	ӈэнъянвыт	ӈэнъян	NOUN	_	_	6	nsubj	_	Gloss=молодой-NMN.PL-NOM.PL
+5	ъым	ъм	PART	_	_	4	advmod:emph	_	Gloss=EMPH
+6	тагмэгчеръянвыт	_	NOUN	_	_	0	root	_	Gloss=GOOD-работа-NMN.PL-NOM.PL
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Komsomolets_(again):11
+# text = Амвынэ трагтыгъак.
+# text[phon] = amwəne traɣtəɣʔak
+# text[rus] = Ну я пошёл домой.
+# text[eng] = Well, I went home.
+# labels = complete-dep anno-fran
+1	Амвынэ	_	ADV	_	_	2	advmod	_	Gloss=RESTR-ну.ка
+2	трагтыгъак	_	VERB	_	Valency=1	0	root	_	Gloss=1SG.S/A-жилище-GO.TO-TH-LOC
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Komsomolets_(again):12
+# text = Тивымкэ тивык этаны вай ӄырымэнайгым камчамоԓевым.
+# text[phon] = tiwəmke tiwək etanə waj qərəmenajɣəm kamsamoɬewəm
+# text[rus] = Подумал: «Наверное, я не комсомолец».
+# text[eng] = And thought: «Probably, I am not a Komsomol member.»
+# labels = complete-dep anno-fran unclear-syntax
+1	Тивымкэ	Тивымкэ	X	_	_	2	reparandum	_	Gloss=FST
+2	тивык	тивык	VERB	_	Valency=1	0	root	_	Gloss=1SG.S/A-сказать-1SG.S
+3	этаны	этаны	ADV	_	_	6	advmod	_	Gloss=наверное
+4	вай	вай	ADV	_	_	6	advmod	_	Gloss=вот
+5	ӄырымэнайгым	_	AUX	_	_	6	aux	_	Gloss=NEG.FUT-GEN-NP.1SG
+6	камчамоԓевым	_	NOUN	_	_	2	parataxis	_	Gloss=комсомолец-NP.1SG
+7	.	.	PUNCT	_	_	6	punct	_	_
+

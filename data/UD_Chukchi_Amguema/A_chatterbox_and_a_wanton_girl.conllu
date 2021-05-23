@@ -1,0 +1,125 @@
+# sent_id = A_chatterbox_and_a_wanton_girl:1
+# text = Тыӈэԓӄотна нэнатвыӄэн.
+# text[phon] = təŋeɬqotna nenatwəqen
+# text[rus] = Тынелькот рассказывал.
+# text[eng] = Tynelkot told it (this story).
+# labels = complete anno-fran
+1	Тыӈэԓӄотна	Тыӈэԓӄот	PROPN	_	Case=Erg	2	nsubj	_	Gloss=Тынелькот-AN.INS
+2	нэнатвыӄэн	тывык	VERB	_	_	0	root	_	Gloss=ST-INV-рассказывать-ST.3SG
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = A_chatterbox_and_a_wanton_girl:2
+# text = Ӄоԓе итгъэт ӄынвэтэ ӈиръэ ӈэвысӄэтти эԓерэты натанат.
+# text[phon] = qoɬe itɣʔet qənwete ŋirʔe ŋewəsqetti eɬeretə natanat
+# text[rus] = Однажды наконец двух женщин сослали на остров.
+# text[eng] = Once upon a time, two women were finally sent away to an island.
+# labels = complete-dep anno-fran
+1	Ӄоԓе	ӄоԓе	PRON	_	_	2	dep	_	Gloss=некий
+2	итгъэт	итык	AUX	_	Valency=1	0	root	_	Gloss=2/3.S/A-являться-TH-PL
+3-4	ӄынвэтэ	_	_	_	_	_	_	_	Gloss=наконец-=PTCL
+3	ӄынвэт	ӄынвэт	ADV	_	_	8	advmod	_	Gloss=наконец
+4	э	а	PART	_	_	3	advmod:emph	_	Gloss=PTCL
+5	ӈиръэ	ӈирэӄ	NUM	_	NumType=Card	6	nummod	_	Gloss=два
+6	ӈэвысӄэтти	_	NOUN	_	_	8	obj	_	Gloss=женщина-NOM.PL
+7	эԓерэты	иԓир	NOUN	_	_	8	obl	_	Gloss=остров-DAT
+8	натанат	так	VERB	_	Valency=2	2	parataxis	_	Gloss=LOW.A-приносить-3SG.O-PL
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = A_chatterbox_and_a_wanton_girl:3
+# text = Ӄоԓ вэтгавӈавъым ӄоԓ камэԓгыӈав.
+# text[phon] = qoɬ wetɣawŋawʔəm qoɬ kameɬɣəŋaw
+# text[rus] = Одна языкастая, другая гулящая.
+# text[eng] = One was a scandalmonger and the other one was flirtatious.
+# labels = complete anno-fran
+1	Ӄоԓ	ӄоԓ	PRON	_	_	2	nsubj	_	Gloss=некий
+2-3	вэтгавӈавъым	_	_	_	_	_	_	_	Gloss=говорить-FEM-NOM.SG-=EMPH
+2	вэтгавӈав	вэтгавӈав	NOUN	_	_	0	root	_	Gloss=говорить-FEM-NOM.SG
+3	ъым	ъм	PART	_	_	2	advmod:emph	_	Gloss=EMPH
+4	ӄоԓ	ӄоԓ	PRON	_	_	5	nsubj	_	Gloss=некий
+5	камэԓгыӈав	камэԓгыӈав	NOUN	_	_	2	parataxis	_	Gloss=преуспевать-FEM-NOM.SG
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = A_chatterbox_and_a_wanton_girl:4
+# text = Ынкы иԓирыкы нантыӈӈонатъым.
+# text[phon] = ənkə iɬirəkə nantəŋŋonatʔəm
+# text[rus] = Там на острове их стали держать.
+# text[eng] = They kept them there on the island.
+# labels = complete anno-fran
+1	Ынкы	ын	PRON	_	_	3	obl	_	Gloss=тот-LOC
+2	иԓирыкы	иԓир	NOUN	_	_	3	obl	_	Gloss=остров-LOC
+3-4	нантыӈӈонатъым	_	_	_	_	_	_	_	Gloss=LOW.A-держать-INCH-3SG.O-PL-=EMPH
+3	нантыӈӈонат	рынрык	VERB	_	Valency=2	0	root	_	Gloss=LOW.A-держать-INCH-3SG.O-PL
+4	ъым	ъм	PART	_	_	3	advmod:emph	_	Gloss=EMPH
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = A_chatterbox_and_a_wanton_girl:5
+# text = Ӄоры ӄоԓетъыԓёӈ иквъэтэ оʼравэтԓьат эчвэра игыт мэтчимгъунӈээʼтэ.
+# text[phon] = qorə qoɬetʔəɬoŋ ikwʔete ʔorawetɬʔat eswera iɣət metsimɣʔunŋeʔete
+# text[rus] = Потом на другой день люди говорят: «Может, они уже одумались?».
+# text[eng] = Then, the next day, people say: «Maybe, they have already changed their minds?»
+# labels = complete-dep anno-fran missing-feats
+1	Ӄоры	ӄоры	ADV	_	_	3	advmod	_	Gloss=потом
+2	ӄоԓетъыԓёӈ	ӄоԓетъыԓёӈ	ADV	_	_	3	advmod	_	Gloss=некий-день-AD
+3-4	иквъэтэ	_	_	_	_	_	_	_	Gloss=2/3.S/A-сказать-TH-PL-=PTCL
+3	иквъэт	икын	VERB	_	_	0	root	_	Gloss=2/3.S/A-сказать-TH-PL
+4	э	а	PART	_	_	3	advmod:emph	_	Gloss=PTCL
+5	оʼравэтԓьат	_	NOUN	_	_	8	nsubj	_	Gloss=человек-NOM.PL
+6	эчвэра	эчвэра	ADV	_	_	8	advmod	_	Gloss=можно.надеяться
+7	игыт	игыр	ADV	_	_	8	advmod	_	Gloss=сегодня
+8-9	мэтчимгъунӈээʼтэ	_	_	_	_	_	_	_	Gloss=APPR-думать-GET-TH-PL-=PTCL
+8	мэтчимгъунӈээʼт	чимгъук	VERB	_	_	3	parataxis:speech	_	Gloss=APPR-думать-GET-TH-PL
+9	э	а	PART	_	_	8	advmod:emph	_	Gloss=PTCL
+10	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = A_chatterbox_and_a_wanton_girl:6
+# text = Этъым мыныгытынат мынривԓынэт.
+# text[phon] = etʔəm mənəɣətənat mənriwɬənet
+# text[rus] = Может, сходим за ними и заберём их?
+# text[eng] = Maybe, we can come and take them back?
+# labels = complete-dep anno-fran
+1-2	Этъым	_	_	_	_	_	_	_	Gloss=наверное-=EMPH
+1	Эт	эт	ADV	_	_	3	advmod	_	Gloss=наверное
+2	ъым	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	мыныгытынат	_	VERB	_	_	0	root	_	Gloss=1PL.S/A.SUBJ-сходить.за-3SG.O-PL
+4	мынривԓынэт	ривԓык	VERB	_	_	3	parataxis	_	Gloss=1PL.S/A.SUBJ-перетаскивать-3SG.O-PL
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = A_chatterbox_and_a_wanton_girl:7
+# text = Ынпыначгын иквъиӈа амвынэ.
+# text[phon] = ənpənasɣən ikwʔiŋa amwəne
+# text[rus] = Старик говорит им: «Знаете что...».
+# text[eng] = The old man says: «You know what...»
+# labels = complete-dep anno-fran
+1	Ынпыначгын	Ынпыначгын	NOUN	_	_	2	nsubj	_	Gloss=старик-NOM.SG
+2-3	иквъиӈа	_	_	_	_	_	_	_	Gloss=2/3.S/A-сказать-TH-2/3SG.S-=PTCL
+2	иквъи	икын	VERB	_	_	0	root	_	Gloss=2/3.S/A-сказать-TH-2/3SG.S
+3	ӈа	а	PART	_	_	2	parataxis:speech	_	Gloss=PTCL
+4	амвынэ	амвынэ	PART	_	_	3	flat	_	Gloss=RESTR-ну.ка
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = A_chatterbox_and_a_wanton_girl:8
+# text = Камэԓгыӈав ӄри ӄривԓыгыткы.
+# text[phon] = kameɬɣəŋaw qri qriwɬəɣətkə
+# text[rus] = Гулящую заберите.
+# text[eng] = Bring back the flirtatious one.
+# labels = complete anno-fran check-lemmas
+1	Камэԓгыӈав	камэԓгыӈав	NOUN	_	_	3	obj	_	Gloss=преуспевать-FEM-NOM.SG
+2	ӄри	ӄри	X	_	_	3	reparandum	_	Gloss=FST
+3	ӄривԓыгыткы	ривԓык	VERB	_	Valency=2	0	root	_	Gloss=2.S/A.SUBJ-перетаскивать-IRR-2PL.A.3.O
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = A_chatterbox_and_a_wanton_girl:9
+# text = Ынкъам вэтгавӈав виин ынкы опопы ӄээӄын нрэчимгъунӈэӈгъэн.
+# text[phon] = ənkʔam wetɣawŋaw wiin ənkə opopə qeeqən nresimɣʔunŋeŋɣʔen
+# text[rus] = А языкастая пусть пока лучше там ещё немного подумает.
+# text[eng] = And let the one who likes to gossip stay there and think it all over.
+# labels = complete-dep anno-fran
+1	Ынкъам	ынкъам	CCONJ	_	_	7	cc	_	Gloss=и
+2	вэтгавӈав	вэтгавӈав	NOUN	_	_	7	nsubj	_	Gloss=говорить-FEM-NOM.SG
+3	виин	виин	ADV	_	_	7	advmod	_	Gloss=пока
+4	ынкы	ын	PRON	_	_	7	obl	_	Gloss=тот-LOC
+5	опопы	опопы	ADV	_	_	7	advmod	_	Gloss=лучше
+6	ӄээӄын	ӄээӄын	ADV	_	_	7	advmod	_	Gloss=ещё.немного
+7	нрэчимгъунӈэӈгъэн	чимгъук	VERB	_	_	0	root	_	Gloss=3.S/A.SUBJ-DES-думать-GET-DES-TH-IRR.2/3SG.S
+8	.	.	PUNCT	_	_	7	punct	_	_
+

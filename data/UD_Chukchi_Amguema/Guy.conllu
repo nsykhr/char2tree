@@ -1,0 +1,110 @@
+# sent_id = Guy:1
+# text = Нымӈыԓтэԓӄэнат эмнуӈыԓьыт ынӄэн ынпыначгыт ынӄэнэ.
+# text[phon] = nəmŋəɬteɬqenat emnuŋəɬʔət ənqen ənpənasɣət ənqene
+# text[rus] = Тундровые старики рассказывали это.
+# text[eng] = Old tundra men told it.
+# labels = complete-dep anno-fran ənqen
+1	Нымӈыԓтэԓӄэнат	_	VERB	_	Valency=1	0	root	_	Gloss=ST-весть-DUR-ST.3SG-PL
+2	эмнуӈыԓьыт	_	NOUN	_	_	4	nmod:attr	_	Gloss=тундра-ATTR-NOM.PL
+3	ынӄэн	ынӄэн	PART	_	_	1	discourse	_	Gloss=DET
+4	ынпыначгыт	ынпыначгын	NOUN	_	_	1	nsubj	_	Gloss=старик-NOM.PL
+5-6	ынӄэнэ	_	_	_	_	_	_	_	Gloss=DET-=PTCL
+5	ынӄэн	_	PART	_	_	1	discourse	_	Gloss=DET
+6	э	а	PART	_	_	5	advmod:emph	_	Gloss=PTCL
+7	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Guy:2
+# text = Ӄорагынрэтыԓьына аʼачек молодой аʼачек ынӄэн гаӄэтывъэӈӈоԓенэ.
+# text[phon] = qoraɣənretəɬʔəna ʔaasek молодой ʔaasek ənqen ɣaqetəwʔeŋŋoɬene
+# text[rus] = Молодой парень, пастух, чуть было не замёрз насмерть.
+# text[eng] = A young boy, a shepherd, almost froze to death.
+# labels = complete-dep anno-fran ənqen
+1-2	Ӄорагынрэтыԓьына	_	_	_	_	_	_	_	Gloss=олень-защищать-ATTR-NOM.SG-=PTCL
+1	Ӄорагынрэтыԓьын	Ӄорагынрэтыԓьына	NOUN	_	_	5	nmod:attr	5:nmod:attr	Gloss=олень-защищать-ATTR-NOM.SG
+2	а	а	PART	_	_	1	advmod:emph	1:advmod:emph	Gloss=PTCL
+3	аʼачек	аʼачек	NOUN	_	_	5	reparandum	5:reparandum	Gloss=парень-NOM.SG
+4	молодой	_	ADJ	_	_	5	amod	5:amod	Gloss=
+5	аʼачек	аʼачек	NOUN	_	_	7	nsubj	7:nsubj	Gloss=парень-NOM.SG
+6	ынӄэн	ынӄэн	PART	_	_	7	discourse	7:discourse	Gloss=DET
+7-8	гаӄэтывъэӈӈоԓенэ	_	_	_	_	_	_	_	Gloss=PF-замерзать-умереть-INCH-PF.3SG-=PTCL
+7	гаӄэтывъэӈӈоԓен	_	VERB	_	Incorporated[advcl]=Yes|Valency=1	0	root	0:root	Gloss=PF-замерзать-умереть-INCH-PF.3SG
+7.1	ӄэты	ӄитык	VERB	_	Incorporated=Yes	_	_	7:advcl	Gloss=замерзать
+8	э	а	PART	_	_	7	advmod:emph	7:advmod:emph	Gloss=PTCL
+9	.	.	PUNCT	_	_	7	punct	7:punct	_
+
+# sent_id = Guy:3
+# text = Нутэк ӄорагынрэтыԓьын ынӄэн.
+# text[phon] = nutek qoraɣənretəɬʔən ənqen
+# text[rus] = В тундре пастух это…
+# text[eng] = In the tundra, the shepherd…
+# labels = complete-dep anno-fran
+1	Нутэк	нутэнут	NOUN	_	_	0	root	_	Gloss=страна-LOC
+2	ӄорагынрэтыԓьын	ӄорагынрэтыԓьын	NOUN	_	_	1	parataxis	_	Gloss=олень-защищать-ATTR-NOM.SG
+3	ынӄэн	ынӄэн	PRON	_	_	1	discourse	_	Gloss=DET
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Guy:4
+# text = Иʼгэ нано наномаваквъан.
+# text[phon] = ʔiɣe nano nanomawakwʔan
+# text[rus] = Волки его согрели.
+# text[eng] = He was warmed by the wolves.
+# labels = complete-dep anno-fran
+1	Иʼгэ	иʼгын	NOUN	_	_	3	nsubj	_	Gloss=волк-INS
+2	нано	нано	X	_	_	3	reparandum	_	Gloss=FST
+3	наномаваквъан	_	VERB	_	Valency=2	0	root	_	Gloss=LOW.A-TR-тёплый-CS-CS-TH-3SG.O
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Guy:5
+# text = Ынӄэн иʼгэ иʼгэ ынӄэ наноно наномаваквъан.
+# text[phon] = ənqen ʔiɣe ʔiɣe ənqe nanono nanomawakwʔan
+# text[rus] = Это… волки его согрели.
+# text[eng] =  He was warmed by the wolves.
+# labels = complete-dep anno-fran ənqen
+1	Ынӄэн	ынӄэн	PRON	_	_	6	discourse	_	Gloss=DET
+2	иʼгэ	иʼгын	NOUN	_	_	3	reparandum	_	Gloss=волк-INS
+3	иʼгэ	иʼгын	NOUN	_	_	6	nsubj	_	Gloss=волк-INS
+4	ынӄэ	_	PART	_	_	6	discourse	_	Gloss=DET
+5	наноно	наноно	X	_	_	6	reparandum	_	Gloss=FST
+6	наномаваквъан	_	VERB	_	Valency=2	0	root	_	Gloss=LOW.A-TR-тёплый-CS-CS-TH-3SG.O
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Guy:6
+# text = Он иʼгчыкуӈ ынкы гомавԓен.
+# text[phon] = он ʔiɣsəkuŋ ənkə ɣomawɬen
+# text[rus] = Под волками он согрелся.
+# text[eng] = He warmed up under the wolves.
+# labels = complete-dep anno-fran
+1	Он	он	PRON	_	_	5	nsubj	_	Gloss=
+2-3	иʼгчыкуӈ	_	_	_	_	_	_	_	Gloss=волк-IN-=PTCL
+2	иʼгчыку	_	NOUN	_	_	5	obl	_	Gloss=волк-IN
+3	ӈ	а	PART	_	_	2	advmod:emph	_	Gloss=PTCL
+4	ынкы	ынкы	PRON	_	_	5	obl	_	Gloss=тот-LOC
+5	гомавԓен	_	VERB	_	Valency=2	0	root	_	Gloss=PF-тёплый-CS-PF.3SG
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Guy:7
+# text = Ынӄэн ынӈин егтэ ег нэнъегтэԓев.
+# text[phon] = ənqen ənŋin jeɣte jeɣ nenjeɣteɬew
+# text[rus] = Вот так они его спасли.
+# text[eng] = That’s how they saved him.
+# labels = complete-dep anno-fran ənqen
+1	Ынӄэн	ынӄэн	PART	_	_	5	discourse	_	Gloss=DET
+2	ынӈин	ынӈин	ADV	_	_	5	advmod	_	Gloss=так
+3	егтэ	егтэ	X	_	_	5	reparandum	_	Gloss=FST
+4	ег	ег	X	_	_	5	reparandum	_	Gloss=FST
+5	нэнъегтэԓев	_	VERB	_	_	0	root	_	Gloss=LOW.A-TR-спастись-CS
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Guy:8
+# text = Спасли волки нрзб ынӄэн нэнъегтэԓев.
+# text[phon] = спасли волки нрзб ənqen nenjeɣteɬew
+# text[rus] = Так спасли его волки.
+# text[eng] = So the wolves saved him.
+# labels = complete-dep anno-fran
+1	Спасли	_	VERB	_	_	5	reparandum	_	Gloss=
+2	волки	_	NOUN	_	_	1	nsubj	_	Gloss=
+3	нрзб	_	X	_	_	5	discourse	_	Gloss=
+4	ынӄэн	ынӄэн	PRON	_	_	5	obj	_	Gloss=DET
+5	нэнъегтэԓев	_	VERB	_	_	0	root	_	Gloss=LOW.A-TR-спастись-CS
+6	.	.	PUNCT	_	_	5	punct	_	_
+

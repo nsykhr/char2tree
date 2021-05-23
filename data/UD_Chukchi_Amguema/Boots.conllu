@@ -1,0 +1,138 @@
+# sent_id = Boots:1
+# text = Ынйивӈэвэ мынпъоӈӈытамык.
+# text[phon] = ənjiwŋewe mənpʔoŋŋətamək
+# text[rus] = DMP: — Тётка, пойдём за грибами!
+# text[eng] = DMP: — Aunt, let's go and hunt mushrooms!
+# labels = complete-dep anno-fran
+1-2	Ынйивӈэвэ	_	_	_	_	_	_	_	Gloss=дядя-FEM-=PTCL
+1	Ынйивӈэв	_	NOUN	_	_	3	vocative	_	Gloss=дядя-FEM
+2	э	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3	мынпъоӈӈытамык	_	VERB	_	_	0	root	_	Gloss=1PL.S/A.SUBJ-гриб-GO.DO-1PL.S/O
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Boots:2
+# text = Ии.
+# text[phon] = ii
+# text[rus] = KTV: — Хорошо.
+# text[eng] = KTV: — Yes.
+# labels = complete-dep anno-fran
+1	Ии	ии	INTJ	_	_	0	root	_	Gloss=да
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Boots:3
+# text = Янотъым гым трачаёгъа ынӄо мынпъоӈӈытама ӄэйвэм.
+# text[phon] = janotʔəm ɣəm trasajoɣʔa ənqo mənpʔoŋŋətama qejweʔm
+# text[rus] = KTV: Сначала я попью чаю, а потом пойдём за грибами, может.
+# text[eng] = KTV: I will first drink some tea and then we will probably go to gather some mushrooms.
+# labels = complete-dep anno-fran
+1-2	Янотъым	_	_	_	_	_	_	_	Gloss=сначала-=EMPH
+1	Янот	_	ADV	_	_	4	advmod	_	Gloss=сначала
+2	ъым	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	гым	гым	PRON	_	_	4	nsubj	_	Gloss=я
+4	трачаёгъа	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-FUT-чай-EAT-TH
+5	ынӄо	ынӄо	ADV	_	_	6	advmod	_	Gloss=потом
+6	мынпъоӈӈытама	_	NOUN	_	_	4	parataxis	_	Gloss=1PL.S/A.SUBJ-гриб-GO.DO
+7-8	ӄэйвэм	_	_	_	_	_	_	_	Gloss=ли-=EMPH
+7	ӄэйвэ	_	ADV	_	_	6	advmod	_	Gloss=ли
+8	м	ъм	PART	_	_	7	advmod:emph	_	Gloss=EMPH
+9	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Boots:4
+# text = Янотъым гымэ ӈинӄэгти каԓеткорагты трэнэквэтэвӈынэтъымэ.
+# text[phon] = janotʔəm ɣəme ŋinqeɣti kaɬetkoraɣtə trenekwetewŋənetʔəme
+# text[rus] = DMP: — Сначала я детей отправлю в школу.
+# text[eng] = DMP: — I will first send the kids to school.
+# labels = complete-dep anno-fran
+1-2	Янотъым	_	_	_	_	_	_	_	Gloss=сначала-=EMPH
+1	Янот	_	ADV	_	_	7	advmod	_	Gloss=сначала
+2	ъым	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3-4	гымэ	_	_	_	_	_	_	_	Gloss=я-=PTCL
+3	гым	ымым	PRON	_	Case=Abs	7	nsubj	_	Gloss=я
+4	э	а	PART	_	_	3	advmod:emph	_	Gloss=PTCL
+5	ӈинӄэгти	_	NOUN	_	_	7	obj	_	Gloss=молодой-DIM-NOM.PL
+6	каԓеткорагты	каԓеткоран	NOUN	_	_	7	obl	_	Gloss=писать-ITER-жилище-DAT
+7-9	трэнэквэтэвӈынэтъымэ	_	_	_	_	_	_	_	loss=1SG.S/A-FUT-TR-отправляться-CS-FUT-3SG.O-PL-=EMPH-=PTCL
+7	трэнэквэтэвӈынэт	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-FUT-TR-отправляться-CS-FUT-3SG.O-PL
+8	ъым	ъм	PART	_	_	7	advmod:emph	_	Gloss=EMPH
+9	э	а	PART	_	_	7	advmod:emph	_	Gloss=PTCL
+10	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = Boots:5
+# text = Тумгытумэ транӄамэтвавӈынъым.
+# text[phon] = tumɣətume tranqametwawŋənʔəm
+# text[rus] = DMP: Мужа покормлю.
+# text[eng] = DMP: I will feed my husband.
+# labels = complete-dep anno-fran
+1-2	Тумгытумэ	_	_	_	_	_	_	_	Gloss=друг-=PTCL
+1	Тумгытум	тумгытум	NOUN	_	_	3	obj	_	Gloss=друг
+2	э	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3-4	транӄамэтвавӈынъым	_	_	_	_	_	_	_	Gloss=1SG.S/A-FUT-TR-есть-CS-FUT-3SG.O-=EMPH
+3	транӄамэтвавӈын	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-FUT-TR-есть-CS-FUT-3SG.O
+4	ъым	ъм	PART	_	_	3	advmod:emph	_	Gloss=EMPH
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Boots:6
+# text = Ынӄо мынԓеркын.
+# text[phon] = ənqo mənɬerkən
+# text[rus] = KTV: — Потом пойдём.
+# text[eng] = KTV: — Then we will go.
+# labels = complete-dep anno-fran
+1	Ынӄо	ынӄо	ADV	_	_	2	advmod	_	Gloss=потом
+2	мынԓеркын	_	VERB	_	_	0	root	_	Gloss=1PL.S/A.SUBJ-идти-IPFV
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Boots:7
+# text = Чакэттэты трачаёсӄэвъым.
+# text[phon] = sakettetə trasajosqewʔəm
+# text[rus] = DMP: — К сестре пойду чаю попить [смех].
+# text[eng] = DMP: — I will go to my sister to drink some tea [laughter].
+# labels = complete-dep anno-fran
+1	Чакэттэты	чакыгэт	NOUN	_	_	2	obl	_	Gloss=сестра-DAT
+2-3	трачаёсӄэвъым	_	_	_	_	_	_	_	Gloss=1SG.S/A-FUT-чай-EAT-MCP-=EMPH
+2	трачаёсӄэв	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-FUT-чай-EAT-MCP
+3	ъым	ъм	PART	_	_	2	advmod:emph	_	Gloss=EMPH
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Boots:8
+# text = Ынкъамэ триԓгытэквъэыʼм травэръэпыгъа трасапокгыпгъа.
+# text[phon] = ənkʔame triɬɣətekwʔeʔəm trawerʔepəɣʔa trasapokɣəpɣʔa
+# text[rus] = DMP: — Ещё помоюсь, оденусь, надену сапоги.
+# text[eng] = DMP: — And I will wash myself, get dressed, put on my boots.
+# labels = complete-dep anno-fran reattached-clitic
+1-2	Ынкъамэ	_	_	_	_	_	_	_	Gloss=и-=PTCL
+1	Ынкъам	_	CCONJ	_	_	3	cc	3:cc	Gloss=и
+2	э	а	PART	_	_	3	advmod:emph	1:advmod	Gloss=PTCL
+3-4	триԓгытэквъэыʼм	_	_	_	_	_	_	_	Gloss=1SG.S/A-FUT-мыться-TH-=EMPH
+3	триԓгытэквъэ	_	VERB	_	_	0	root	0:root	Gloss=1SG.S/A-FUT-мыться-TH
+4	ыʼм	ъм	PART	_	_	3	advmod:emph	3:advmod	Gloss=EMPH
+5	травэръэпыгъа	_	VERB	_	Incorporated[obj]=Yes	3	parataxis	3:parataxis	Gloss=1SG.S/A-FUT-одежда.из.шкур-надевать-TH
+5.1	авэръ	эвиръ	NOUN	_	Incorporated=Yes	_	_	5:obj	Gloss=одежда.из.шкур
+6	трасапокгыпгъа	_	VERB	_	Incorporated[obj]=Yes	3	parataxis	3:parataxis	Gloss=1SG.S/A-FUT-сапог-надевать-TH|SpaceAfter=No
+6.1	сапок	сапок	NOUN	_	Incorporated=Yes	_	_	6:obj	Gloss=сапог
+7	.	.	PUNCT	_	_	3	punct	3:punct	_
+
+# sent_id = Boots:9
+# text = Ынӄо гыныкы травэтгавъёԓгыткогъам ынкъам мынԓеркын мынԓеркын.
+# text[phon] = ənqo ɣənəkə trawetɣawjoɬɣətkoɣʔaʔm ənkʔam mənɬerkən mənɬerkən
+# text[rus] = KTV, DMP: — Потом тебе позвоню и пойдём, пойдём.
+# text[eng] = KTV, DMP: — Then I will call you and we will go.
+# labels = complete-dep anno-fran
+1	Ынӄо	ынӄо	ADV	_	_	3	advmod	_	Gloss=потом
+2	гыныкы	гыт	PRON	_	_	3	obl	_	Gloss=ты-DAT
+3-4	травэтгавъёԓгыткогъам	_	_	_	_	_	_	_	Gloss=1SG.S/A-FUT-говорить-CONT-ITER-TH-=EMPH
+3	травэтгавъёԓгыткогъа	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-FUT-говорить-CONT-ITER-TH
+4	м	ъм	PART	_	_	3	advmod:emph	_	Gloss=EMPH
+5	ынкъам	ынкъам	CCONJ	_	_	7	cc	_	Gloss=и
+6	мынԓеркын	_	VERB	_	_	7	reparandum	_	Gloss=1PL.S/A.SUBJ-идти-IPFV
+7	мынԓеркын	_	VERB	_	_	3	conj	_	Gloss=1PL.S/A.SUBJ-идти-IPFV
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Boots:10
+# text = Эгэй.
+# text[phon] = eɣej
+# text[rus] = DMP: — Ладно!
+# text[eng] = DMP: — Allright!
+# labels = complete-dep anno-fran
+1	Эгэй	эгэй	INTJ	_	_	0	root	_	Gloss=ладно
+2	.	.	PUNCT	_	_	1	punct	_	_
+

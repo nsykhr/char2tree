@@ -1,0 +1,61 @@
+# sent_id = Public_baths:1
+# text = Пытӄайвэ мури Ӄайкаврагыргын эԓгыӄанъявӈытаморэ эмриԓгытэвӈэ.
+# text[phon] = pətqajwe muri qajkawraɣərɣən eɬɣəqanjawŋətamore emriɬɣətewŋe
+# text[rus] = Позавчера мы с (Татьяной) Кайкаврагыргиной ездили на Первый (в Эгвекинот), чтобы помыться.
+# text[eng] = The day before yesterday me and (Tatiana) Kaikawragyrgina went to Egvekinot (lit. white ravine) to wash ourselves.
+# labels = complete-dep anno-fran
+1	Пытӄайвэ	_	ADV	_	_	4	advmod	_	Gloss=повторно-вчера
+2	мури	мури	PRON	_	_	4	nsubj	_	Gloss=мы
+3	Ӄайкаврагыргын	ӄайкаврагыргын	PROPN	_	_	2	conj	_	Gloss=Кайкаврагыргин
+4	эԓгыӄанъявӈытаморэ	_	VERB	_	Valency=1	0	root	_	Gloss=белый-ущелье-GO.DO-NP.1PL
+5	эмриԓгытэвӈэ	_	VERB	_	_	4	advcl	_	Gloss=RESTR-DES-мыться-DES-INS
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Public_baths:2
+# text = Мытыпкирмык мытыԓгитэӈиԓгытэвмык гэԓгитэӈычьэнмури.
+# text[phon] = mətəpkirmək mətəɬɣiteŋiɬɣətewmək ɣeɬɣiteŋəsʔenmuri
+# text[rus] = Мы приехали, очень хорошо помылись, нам очень понравилось.
+# text[eng] = We came there and washed ourselves, we enjoyed it.
+# labels = complete-dep anno-fran
+1	Мытыпкирмык	_	VERB	_	Valency=1	0	root	_	Gloss=1PL.S/A-прибывать-1PL.S/O
+2	мытыԓгитэӈиԓгытэвмык	_	VERB	_	Valency=1	1	parataxis	_	Gloss=1PL.S/A-INTS-GOOD-мыться-1PL.S/O
+3	гэԓгитэӈычьэнмури	_	ADJ	_	_	1	parataxis	_	Gloss=PF-INTS-хороший-ADJ-VB-NP.1PL
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Public_baths:3
+# text = Ӈоонрэ тыԓяма Эԓгыӄанъявэты гэмэчпъоӈгэԓеморэ.
+# text[phon] = ŋoonre təɬama eɬɣəqanjawetə ɣemespʔoŋɣeɬemore
+# text[rus] = По дороге туда, в Эгвекинот, мы собрали немного грибов.
+# text[eng] = On the road to Egvekinot we gathered some mushrooms.
+# labels = complete-dep anno-fran
+1	Ӈоонрэ	ӈоонрэ	ADV	_	_	4	advmod	_	Gloss=там-ADV.ALL
+2	тыԓяма	тыԓяк	VERB	_	_	4	advcl	_	Gloss=идти-SIM
+3	Эԓгыӄанъявэты	_	PROPN	_	_	4	obl	_	Gloss=белый-ущелье-DAT
+4	гэмэчпъоӈгэԓеморэ	_	VERB	_	Valency=1	0	root	_	Gloss=PF-APPR-гриб-SEARCH-NP.1PL
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Public_baths:4
+# text = Паԓӄынтанма эԓгыӄанъяквыпы нэмыӄэй гамачпъоӈгэԓеморэ.
+# text[phon] = paɬqəntanma eɬɣəqanjakwəpə neməqej ɣamaspʔoŋɣeɬemore
+# text[rus] = На обратном пути из Эгвекинота мы тоже собрали немного грибов.
+# text[eng] = On the way back from Egvekinot we also gathered some mushrooms.
+# labels = complete-dep anno-fran
+1	Паԓӄынтанма	_	VERB	_	_	4	advcl	_	Gloss=возвращаться-VB-SIM
+2	эԓгыӄанъяквыпы	_	PROPN	_	_	1	obl	_	Gloss=белый-ущелье-ABL
+3	нэмыӄэй	нэмыӄэй	ADV	_	_	4	advmod	_	Gloss=тоже
+4	гамачпъоӈгэԓеморэ	_	VERB	_	Valency=1	0	root	_	Gloss=PF-APPR-гриб-SEARCH-NP.1PL
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Public_baths:5
+# text = Иԓгыӄэнъевык нымэԓмэԓетӄин наӄам мурык ниԓетӄин.
+# text[phon] = iɬɣəqenjewək nəmeɬmeɬetqin naqam murək niɬetqin
+# text[rus] = В Эгвекиноте стояла хорошая погода, а у нас шёл дождь.
+# text[eng] = The weather was good in Egvekinot but it was raining in our village.
+# labels = complete-dep anno-fran
+1	Иԓгыӄэнъевык	_	PROPN	_	_	2	obl	_	Gloss=белый-ущелье-LOC
+2	нымэԓмэԓетӄин	_	VERB	_	Valency=1	0	root	_	Gloss=ST-хорошая.погода-VB-ST.3SG
+3	наӄам	наӄам	CCONJ	_	_	5	cc	_	Gloss=однако
+4	мурык	мури	PRON	_	_	5	obl	_	Gloss=мы-LOC
+5	ниԓетӄин	_	VERB	_	Valency=1	2	conj	_	Gloss=ST-дождь-VB-ST.3SG
+6	.	.	PUNCT	_	_	2	punct	_	_
+

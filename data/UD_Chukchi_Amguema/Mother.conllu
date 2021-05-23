@@ -1,0 +1,206 @@
+# sent_id = Mother:1
+# text = Гымнин гымнин ытԓя тэԓенъеп ганрагтатԓен гымыкытԓыгэ.
+# text[phon] = ɣəmnin ɣəmnin ətɬa teɬenjep ɣanraɣtatɬen ɣəməkətɬəɣe
+# text[rus] = Давным-давно мой отец взял в жёны мою мать.
+# text[eng] = A long time ago my father married my mother.
+# labels = complete-dep anno-fran
+1	Гымнин	_	PRON	_	_	2	reparandum	_	Gloss=я-AN.GEN
+2	гымнин	_	PRON	_	_	3	nmod:poss	_	Gloss=я-AN.GEN
+3	ытԓя	ытԓя	NOUN	_	_	5	obj	_	Gloss=мать-NOM.SG
+4	тэԓенъеп	_	ADV	_	_	5	advmod	_	Gloss=раньше-ещё
+5	ганрагтатԓен	_	VERB	_	Valency=2	0	root	_	Gloss=PF-TR-жилище-GO.TO-VB-PF.3SG
+6-7	гымыкытԓыгэ	_	_	_	_	_	_	_	Gloss=я-POSS.INC-отец-INS
+6	гымык	_	PRON	_	_	7	nmod:poss	_	Gloss=я-POSS.INC
+7	ытԓыгэ	_	NOUN	_	_	5	nsubj	_	Gloss=отец-INS
+8	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Mother:2
+# text = Гымнин ытԓя тэԓенъеп ганрагтатԓен ытԓыгэ Ринтыкэвнэ.
+# text[phon] = ɣəmnin ətɬa teɬenjep ɣanraɣtatɬen ətɬəɣe rintəkewne
+# text[rus] = Давным-давно мой отец, Ринтыкеу, взял в жёны мою мать.
+# text[eng] = A long time ago my father Rintykew married my mother.
+# labels = complete-dep anno-fran
+1	Гымнин	_	PRON	_	_	2	nmod:poss	_	Gloss=я-AN.GEN
+2	ытԓя	ытԓя	NOUN	_	_	4	obj	_	Gloss=мать-NOM.SG
+3	тэԓенъеп	_	ADV	_	_	4	advmod	_	Gloss=раньше-ещё
+4	ганрагтатԓен	_	VERB	_	Valency=2	0	root	_	Gloss=PF-TR-жилище-GO.TO-VB-PF.3SG
+5	ытԓыгэ	ытԓыгын	NOUN	_	_	4	nsubj	_	Gloss=отец-INS
+6	Ринтыкэвнэ	Ринтыкэв	PROPN	_	_	5	appos	_	Gloss=Ринтыкеу-AN.INS
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Mother:3
+# text = Ныннын гымынин ытԓьакэн Руԓтыӈэвыт.
+# text[phon] = nənnən ɣəmənin ətɬʔaken ruɬtəŋewət
+# text[rus] = Мою маму звали Рультынэвыт.
+# text[eng] = The name of my mother was Rultynewyt.
+# labels = complete-dep anno-fran
+1	Ныннын	Ныннын	PRON	_	_	4	nsubj	_	Gloss=имя-NOM.SG
+2	гымынин	_	PRON	_	_	3	nmod:poss	_	Gloss=я-AN.GEN
+3	ытԓьакэн	_	NOUN	_	_	1	nmod:relat	_	Gloss=мать-REL
+4	Руԓтыӈэвыт	Руԓтыӈэвыт	PROPN	_	_	0	root	_	Gloss=Рультынэвыт-NOM.SG
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Mother:4
+# text = Руԓтыӈэвыт ытԓьата мури нэнмэйӈэвмык ытԓыгэ чавчывак майны.
+# text[phon] = ruɬtəŋewət ətɬʔata muri nenmejŋewmək ətɬəɣe sawsəwak majnə
+# text[rus] = Мать и отец вырастили нас в оленеводстве в Майне.
+# text[eng] = Our mother and father raised us in a place for reindeer breeding.
+# labels = complete-dep anno-fran unclear-syntax
+1	Руԓтыӈэвыт	Руԓтыӈэвыт	PROPN	_	_	4	nsubj	_	Gloss=Рультынэвыт-NOM.SG
+2	ытԓьата	_	NOUN	_	_	1	appos	_	Gloss=мать-INS
+3	мури	мури	PRON	_	_	4	obj	_	Gloss=мы
+4	нэнмэйӈэвмык	рымэйӈэвык	VERB	_	_	0	root	_	Gloss=LOW.A-TR-большой-CS-1PL.S/O
+5	ытԓыгэ	ытԓыгын	NOUN	_	_	4	dislocated	_	Gloss=отец-INS
+6	чавчывак	чавчыв	NOUN	_	_	4	obl	_	Gloss=оленевод-LOC
+7	майны	_	X	_	_	4	discourse	_	Gloss=
+8	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Mother:5
+# text = Мури ганымытваморэ майӈыярачыко ии.
+# text[phon] = muri ɣanəmətwamore majŋəjarasəko ii
+# text[rus] = Мы жили в большой яранге.
+# text[eng] = We lived in a big yaranga.
+# labels = complete-dep anno-fran
+1	Мури	мури	PRON	_	Case=Abs	2	nsubj	_	Gloss=мы
+2	ганымытваморэ	_	VERB	_	Valency=1	0	root	_	Gloss=PF-посёлок-быть-NP.1PL
+3	майӈыярачыко	_	NOUN	_	_	2	obl	_	Gloss=большой-яранга-IN
+4	ии	ии	INTJ	_	_	2	discourse	_	Gloss=да
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Mother:6
+# text = Чит майӈыярачыко ӈиръэ ёрот ёрот.
+# text[phon] = sit majŋəjarasəko ŋirʔe jorot jorot
+# text[rus] = В большой яранге было два полога.
+# text[eng] = There were two inner tents in the yaranga.
+# labels = complete-dep anno-fran
+1	Чит	чит	AUX	_	_	2	cop	_	Gloss=было
+2	майӈыярачыко	_	NOUN	_	_	0	root	_	Gloss=большой-яранга-IN
+3	ӈиръэ	_	NUM	_	NumType=Card	5	nummod	_	Gloss=два
+4	ёрот	_	NOUN	_	_	5	reparandum	_	Gloss=полог-NOM.PL
+5	ёрот	_	NOUN	_	_	2	nummod	_	Gloss=полог-NOM.PL
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Mother:7
+# text = Ӄоԓеёрочыкоӈъым нытваӄэнат эпэӄэй эпы.
+# text[phon] = qoɬejorosəkoŋʔəm nətwaqenat epeqej epə
+# text[rus] = В одном пологе жили бабушка и дедушка.
+# text[eng] = My grandmother and grandfather lived in one inner tent.
+# labels = complete-dep anno-fran
+1-4	Ӄоԓеёрочыкоӈъым	_	_	_	_	_	_	_	Gloss=некий-полог-IN-=PTCL-=EMPH
+1	Ӄоԓе	_	PRON	_	_	2	nmod	_	Gloss=некий
+2	ёрочыкоӈ	_	NOUN	_	_	0	root	_	Gloss=полог-IN
+3	ъы	ъм	PART	_	_	2	advmod:emph	_	Gloss=PTCL
+4	м	а	PART	_	_	2	advmod:emph	_	Gloss=EMPH
+5	нытваӄэнат	вак	AUX	_	Valency=1	2	cop	_	Gloss=ST-быть-ST.3SG-PL
+6	эпэӄэй	эпэӄэй	NOUN	_	_	2	nsubj	_	Gloss=бабушка-NOM.SG
+7	эпы	эпы	NOUN	_	_	6	conj	_	Gloss=дедушка-NOM.SG
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Mother:8
+# text = Муръим ӄоԓеёрочыко мытмэйӈэнмык гымнин ынинэԓьын Рэнто Нутэӈэвыт чакы Кэйӈавыт гым и Якоӄай вот.
+# text[phon] = murʔim qoɬejorosəko mətmejŋenmək ɣəmnin ənineɬʔən rento nuteŋewət sakə kejŋawət ɣəm и jakoqaj вот
+# text[rus] = Мы выросли в другом пологе: мой старший брат Ренто, сестра Нутеневыт, Кейнавыт, я и Якокай.
+# text[eng] = We grew up in the other inner tent: my elder brother Rento, sister Nutenewyt, Keinawyt, me and Iakokai.
+# labels = complete-dep anno-fran
+1-2	Муръим	_	_	_	_	_	_	_	Gloss=мы-=EMPH
+1	Муръи	_	PRON	_	Case=Abs	5	nsubj	_	Gloss=мы
+2	м	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3-4	ӄоԓеёрочыко	_	_	_	_	_	_	_	Gloss=некий-полог-IN
+3	ӄоԓе	_	PRON	_	_	4	det	_	Gloss=некий
+4	ёрочыко	_	NOUN	_	_	5	obl	_	Gloss=полог-IN
+5	мытмэйӈэнмык	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-большой-VB-1PL.S/O
+6	гымнин	_	PRON	_	_	7	nmod:poss	_	Gloss=я-AN.GEN
+7	ынинэԓьын	ынинэԓьын	NOUN	_	_	5	dislocated	_	Gloss=старший.брат-NOM.SG
+8	Рэнто	Рэнто	PROPN	_	_	7	appos	_	Gloss=Ренто-NOM.SG
+9	Нутэӈэвыт	Нутэӈэвыт	PROPN	_	_	7	conj	_	Gloss=Нутеневыт-NOM.SG
+10	чакы	чакы	NOUN	_	_	9	appos	_	Gloss=сестра-NOM.SG
+11	Кэйӈавыт	Кэйӈавыт	PROPN	_	_	7	conj	_	Gloss=Кейнавыт-NOM.SG
+12	гым	гым	PRON	_	Case=Abs	7	conj	_	Gloss=я
+13	и	_	CCONJ	_	_	14	cc	_	Gloss=
+14	Якоӄай	Якоӄай	PROPN	_	_	7	conj	_	Gloss=Якокай-NOM.SG
+15	вот	_	X	_	_	5	discourse	_	Gloss=
+16	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Mother:9
+# text = Гымнин ытԓя ныԓгиным нэрмэӄин.
+# text[phon] = ɣəmnin ətɬa nəɬɣinəm nermeqin
+# text[rus] = Мама моя сильная.
+# text[eng] = My mother is strong.
+# labels = complete-dep anno-fran
+1	Гымнин	_	PRON	_	_	2	nmod:poss	_	Gloss=я-AN.GEN
+2	ытԓя	ытԓя	NOUN	_	_	4	nsubj	_	Gloss=мать-NOM.SG
+3	ныԓгиным	ныԓгиным	X	_	_	4	reparandum	_	Gloss=FST
+4	нэрмэӄин	_	ADJ	_	_	0	root	_	Gloss=ST-сильный-ST.3SG
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Mother:10
+# text = Чама ныԓгинымигчирӄинэт ынин мынгыт.
+# text[phon] = sama nəɬɣinəmiɣsirqinet ənin mənɣət
+# text[rus] = Ещё у неё очень работящие руки.
+# text[eng] = And she is a good worker (lit. her hands are good-working).
+# labels = complete-dep anno-fran
+1	Чама	чама	ADV	_	_	2	advmod	_	Gloss=также
+2	ныԓгинымигчирӄинэт	_	VERB	_	Valency=1	0	root	_	Gloss=ST-INTS-ST-работа-ST.3SG-PL
+3	ынин	ытԓён	PRON	_	_	4	nmod:poss	_	Gloss=он-GEN
+4	мынгыт	_	NOUN	_	_	2	nsubj	_	Gloss=рука-NOM.PL
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Mother:11
+# text = Коԓё мэ мынгыт маманэн ӄонпы нымигчирэтӄинэт нытэнэԓгыӈӄинэт нувиӄинэт наймыӄэнат.
+# text[phon] = koɬo me mənɣət mamanen qonpə nəmiɣsiretqinet nəteneɬɣəŋqinet nuwiqinet najməqenat
+# text[rus] = Руки моей мамы постоянно работали: выделывали шкуры, варили, ходили за водой.
+# text[eng] = My mother's hands always worked dressing skins, cooking, getting water.
+# labels = complete-dep anno-fran valency
+1	Коԓё	коԓё	ADV	_	_	6	advmod	_	Gloss=очень
+2	мэ	мэ	X	_	_	3	reparandum	_	Gloss=FST
+3	мынгыт	_	NOUN	_	_	6	nsubj	_	Gloss=рука-NOM.PL
+4	маманэн	_	NOUN	_	_	3	nmod:poss	_	Gloss=мама-AN.GEN
+5	ӄонпы	_	ADV	_	_	6	advmod	_	Gloss=всегда
+6	нымигчирэтӄинэт	_	VERB	_	Valency=1	0	root	_	Gloss=ST-работа-VB-ST.3SG-PL
+7	нытэнэԓгыӈӄинэт	_	VERB	_	Valency=1	6	parataxis	_	Gloss=ST-MAKE-шкура-MAKE-ST.3SG-PL
+8	нувиӄинэт	увик	VERB	_	Valency=2	6	parataxis	_	Gloss=ST-варить-ST.3SG-PL
+9	наймыӄэнат	аймык	VERB	_	Valency=1	6	parataxis	_	Gloss=ST-сходить.за.водой-ST.3SG-PL
+10	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Mother:12
+# text = Танъярачыко нэнмэйӈэвмык ытԓьата ӄэԓьу ынан гэтэйкыԓин рэтэм яракэн.
+# text[phon] = tanjarasəko nenmejŋewmək ətɬʔata qeɬʔu ənan ɣetejkəɬin retem jaraken
+# text[rus] = Мать вырастила нас в хорошей яранге, потому что она сама сделала покрышку яранги.
+# text[eng] = Mother raised us in a good yaranga because she made the yaranga roof herself.
+# labels = complete-dep anno-fran
+1	Танъярачыко	_	NOUN	_	_	2	obl	_	Gloss=GOOD-яранга-IN
+2	нэнмэйӈэвмык	рымэйӈэвык	VERB	_	_	0	root	_	Gloss=LOW.A-TR-большой-CS-1PL.S/O
+3	ытԓьата	_	NOUN	_	_	2	nsubj	_	Gloss=мать-INS
+4	ӄэԓьу	_	ADV	_	_	2	advmod	_	Gloss=конечно
+5	ынан	_	PRON	_	_	6	nsubj	_	Gloss=он.INS
+6	гэтэйкыԓин	тэйкык	VERB	_	Valency=2	2	parataxis	_	Gloss=PF-делать-PF.3SG
+7	рэтэм	рэтэм	NOUN	_	_	6	obj	_	Gloss=покрышка.яранги-NOM.SG
+8	яракэн	_	NOUN	_	_	7	nmod:relat	_	Gloss=яранга-REL
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Mother:13
+# text = Таӈванэван мури мын мынӈъомык.
+# text[phon] = taŋwanewan muri mən mənŋʔomək
+# text[rus] = Мы никогда не нуждались.
+# text[eng] = We were never in need.
+# labels = complete-dep anno-fran
+1	Таӈванэван	_	AUX	_	_	4	aux:neg	_	Gloss=GOOD-NEG.NFUT
+2	мури	мури	PRON	_	_	4	nsubj	_	Gloss=мы
+3	мын	мын	X	_	_	4	reparandum	_	Gloss=FST
+4	мынӈъомык	ӈъок	VERB	_	_	0	root	_	Gloss=1PL.S/A.SUBJ-жить.в.нужде-1PL.S/O
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Mother:14
+# text = Майӈыӈэԓвыԓ мурык гэнмэйӈэвԓин ытԓыгэ чама эпэнэ.
+# text[phon] = majŋəŋeɬwəɬ murək ɣenmejŋewɬin ətɬəɣe sama epene
+# text[rus] = Отец и дед у нас увеличили большое стадо оленей.
+# text[eng] = Father and grandfather increased our reindeer herd.
+# labels = complete-dep anno-fran
+1	Майӈыӈэԓвыԓ	Майӈыӈэԓвыԓ	NOUN	_	_	3	obj	_	Gloss=большой-стадо-NOM.SG
+2	мурык	мури	PRON	_	_	3	obl	_	Gloss=мы-LOC
+3	гэнмэйӈэвԓин	рымэйӈэвык	VERB	_	Valency=2	0	root	_	Gloss=PF-TR-большой-CS-PF.3SG
+4	ытԓыгэ	ытԓыгын	NOUN	_	_	3	nsubj	_	Gloss=отец-INS
+5	чама	чама	ADV	_	_	6	cc	_	Gloss=также
+6	эпэнэ	эпэ	NOUN	_	_	4	conj	_	Gloss=дедушка-AN.INS
+7	.	.	PUNCT	_	_	3	punct	_	_
+

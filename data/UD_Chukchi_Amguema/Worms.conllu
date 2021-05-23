@@ -1,0 +1,49 @@
+# sent_id = Worms:1
+# text = Кымгытчитгъи кымъыԓгыӄэй.
+# text[phon] = kəmɣətsitɣʔi kəmʔəɬɣəqej
+# text[rus] = Свернулся червячок калачиком.
+# text[eng] = The little worm curled up.
+# labels = complete-dep anno-fran
+1	Кымгытчитгъи	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-сжиматься-COMB-TH-2/3SG.S
+2	кымъыԓгыӄэй	кымъыԓгыӄэй	NOUN	_	_	1	nsubj	_	Gloss=червь-SING-DIM-NOM.SG
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Worms:2
+# text = Ӄоԓьым нэмэ ынык ӄача.
+# text[phon] = qoɬʔəm neme ənək qasa
+# text[rus] = А рядом ещё один.
+# text[eng] = Another one near it.
+# labels = complete-dep anno-fran
+1-2	Ӄоԓьым	_	_	_	_	_	_	_	Gloss=некий-=EMPH
+1	Ӄоԓ	_	PRON	_	_	0	root	_	Gloss=некий
+2	ьым	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	нэмэ	нэмэ	ADV	_	_	1	advmod	_	Gloss=опять
+4	ынык	ытԓён	PRON	_	_	1	nmod	_	Gloss=он-LOC
+5	ӄача	ӄача	ADP	_	_	4	case	_	Gloss=около
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Worms:3
+# text = Кымъыруԓтын Кымъытэгын кымгытчитгъэт мимԓытэгнык.
+# text[phon] = kəmʔəruɬtən kəmʔəteɣən kəmɣətsitɣʔet mimɬəteɣnək
+# text[rus] = Кымъырультын и Кымъытэгын свернулись возле воды.
+# text[eng] = Kymyrultyn and Kymytegyn curled up near the water.
+# labels = complete-dep anno-fran
+1	Кымъыруԓтын	Кымъыруԓтын	PROPN	_	_	3	nsubj	_	Gloss=червь-отодвигаться-NOM.SG
+2	Кымъытэгын	Кымъытэгын	PROPN	_	_	1	conj	_	Gloss=червь-FRONT-NOM.SG
+3	кымгытчитгъэт	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-сжиматься-COMB-TH-PL
+4	мимԓытэгнык	_	NOUN	_	_	3	obl	_	Gloss=вода-FRONT-LOC
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Worms:4
+# text = Уттыӄэе мывинрэтгъэк юръэ йигрэ кымгытчитгъэт.
+# text[phon] = uttəqeje məwinretɣʔek jurʔe jiɣre kəmɣətsitɣʔet
+# text[rus] = Помогу им палочкой, может быть, от жажды свернулись.
+# text[eng] = I will help them with a wand, maybe they curled up with thirst.
+# labels = complete-dep anno-fran
+1	Уттыӄэе	_	NOUN	_	_	2	obl	_	Gloss=дерево-DIM-INS
+2	мывинрэтгъэк	_	VERB	_	_	0	root	_	Gloss=1SG.S/A.SUBJ-помогать-TH-1SG.S
+3	юръэ	_	ADV	_	_	5	advmod	_	Gloss=может.быть
+4	йигрэ	йигрык	VERB	_	_	5	advcl	_	Gloss=хотеть.пить-INS
+5	кымгытчитгъэт	_	VERB	_	_	2	parataxis	_	Gloss=2/3.S/A-сжиматься-COMB-TH-PL
+6	.	.	PUNCT	_	_	5	punct	_	_
+

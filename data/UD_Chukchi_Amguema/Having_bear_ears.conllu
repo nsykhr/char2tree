@@ -1,0 +1,404 @@
+# sent_id = Having_bear_ears:1
+# text = Тэԓеӈкы гатваԓен оʼравэтԓьан.
+# text[phon] = teɬeŋkə ɣatwaɬen ʔorawetɬʔan
+# text[rus] = Давным-давно жил-был человек.
+# text[eng] = Long time ago there was a man.
+# labels = complete-dep anno-fran
+1	Тэԓеӈкы	_	ADV	_	_	2	advmod	_	Gloss=раньше-LOC
+2	гатваԓен	вак	AUX	_	Valency=1	0	root	_	Gloss=PF-быть-PF.3SG
+3	оʼравэтԓьан	оʼравэтԓьан	NOUN	_	_	2	nsubj	_	Gloss=человек-NOM.SG
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Having_bear_ears:2
+# text = Ныӄааркываԓяркыԓяӄэн.
+# text[phon] = nəqaarkəwaɬarkəɬaqen
+# text[rus] = Гонялся за куском стада.
+# text[eng] = He was chasing a part of the reindeer herd.
+# labels = complete-dep anno-fran
+1	Ныӄааркываԓяркыԓяӄэн	_	VERB	_	Incorporated[obj]=Yes|Valency=1	0	root	0:root	Gloss=ST-олень-гнаться.за-ST.3SG
+1.1	ӄааркы	_	NOUN	_	Incorporated=Yes	_	_	1:obj	Gloss=олень
+2	.	.	PUNCT	_	_	1	punct	1:punct	_
+
+# sent_id = Having_bear_ears:3
+# text = Ԓюут это эԓгаро эрэтгъи.
+# text[phon] = ɬuut это eɬɣaro eretɣʔi
+# text[rus] = Вдруг в берлогу упал.
+# text[eng] = Suddenly, he fell into a den.
+# labels = complete-dep anno-fran
+1	Ԓюут	ԓюут	ADV	_	_	4	advmod	_	Gloss=вдруг
+2	это	_	X	_	_	4	discourse	_	Gloss=
+3	эԓгаро	_	NOUN	_	_	4	obl	_	Gloss=песец
+4	эрэтгъи	эрэтык	VERB	_	_	0	root	_	Gloss=2/3.S/A-падать-TH-2/3SG.S
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Having_bear_ears:4
+# text = Ынӈин ԓьэԓеӈитгъи а ӈэргэргитгъи ԓьэԓеӈитгъи.
+# text[phon] = ənŋin ɬʔeɬeŋitɣʔi а ŋerɣerɣitɣʔi ɬʔeɬeŋitɣʔi
+# text[rus] = Так провёл зиму, а осень... зиму.
+# text[eng] = That is how he spent the winter, uhm autumn... winter.
+# labels = complete-dep anno-fran
+1	Ынӈин	ынӈин	ADV	_	_	2	advmod	_	Gloss=так
+2	ԓьэԓеӈитгъи	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-зима-TIME-TH-2/3SG.S
+3	а	_	PART	_	_	5	advmod:emph	_	Gloss=
+4	ӈэргэргитгъи	_	VERB	_	_	5	reparandum	_	Gloss=2/3.S/A-ранняя.осень-TIME-TH-2/3SG.S
+5	ԓьэԓеӈитгъи	_	VERB	_	_	2	parataxis	_	Gloss=2/3.S/A-зима-TIME-TH-2/3SG.S
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Having_bear_ears:5
+# text = Кыткытык ыԓвыԓютэ нинивӄин.
+# text[phon] = kətkətək əɬwəɬute niniwqin
+# text[rus] = Весной медведица говорит:
+# text[eng] = In the spring, the bear says:
+# labels = complete-dep anno-fran
+1	Кыткытык	_	NOUN	_	_	3	obl	_	Gloss=весна-LOC
+2	ыԓвыԓютэ	ыԓвыԓю	NOUN	_	_	3	nsubj	_	Gloss=бурый.медведь-INS
+3	нинивӄин	ивык	VERB	_	_	0	root	_	Gloss=ST-INV-сказать-ST.3SG
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Having_bear_ears:6
+# text = Мэсӄымавыч мэсӄымэк гииӈитгъи.
+# text[phon] = mesqəmawəs mesqəmek ɣiiŋitɣʔi
+# text[rus] = «Почти год ты прожил.
+# text[eng] = You have been here for almost a year.
+# labels = complete-dep anno-fran
+1	Мэсӄымавыч	Мэсӄымавыч	X	_	_	2	reparandum	_	Gloss=FST
+2	мэсӄымэк	_	ADV	_	_	3	advmod	_	Gloss=APPR-почти
+3	гииӈитгъи	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-год-TIME-TH-2/3SG.S
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Having_bear_ears:7
+# text = Ӈинӄэй и ӈээккэӄэй ӄынрагтатгынат.
+# text[phon] = ŋinqej и ŋeekkeqej qənraɣtatɣənat
+# text[rus] = Мальчика и девочку отведи домой.
+# text[eng] = Bring the boy and the girl home.
+# labels = complete-dep anno-fran
+1	Ӈинӄэй	Ӈинӄэй	NOUN	_	_	4	obj	_	Gloss=молодой-DIM-NOM.SG
+2	и	_	CCONJ	_	_	3	cc	_	Gloss=
+3	ӈээккэӄэй	ӈээккэӄэй	NOUN	_	_	1	conj	_	Gloss=FEM-сын-DIM-NOM.SG
+4	ӄынрагтатгынат	_	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-TR-жилище-GO.TO-VB-IRR-3SG.O-PL
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Having_bear_ears:8
+# text = Ӈинӄэй Кэйӈывиԓюну ӄытэнынныӈгын.
+# text[phon] = ŋinqej kejŋəwiɬunu qətenənnəŋɣən
+# text[rus] = Мальчика назови Медвежьим Ушком.
+# text[eng] = Name the boy Bearberry (Bear's ear).
+# labels = complete-dep anno-fran
+1	Ӈинӄэй	Ӈинӄэй	NOUN	_	_	3	obj	_	Gloss=молодой-DIM-NOM.SG
+2	Кэйӈывиԓюну	_	NOUN	_	_	3	xcomp	_	Gloss=бурый.медведь-ухо-EQU
+3	ӄытэнынныӈгын	_	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-MAKE-имя-MAKE-IRR-3SG.O
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Having_bear_ears:9
+# text = А ӈээккэӄэй ӈээккэӄэй нут нутэӈэвытыну.
+# text[phon] = а ŋeekkeqej ŋeekkeqej nut nuteŋewətənu
+# text[rus] = А девочку — Тундрой.
+# text[eng] = And the girl — Tundra.
+# labels = complete-dep anno-fran ellipsis
+1	А	_	CCONJ	_	_	5	cc	5.1:cc	Gloss=
+2	ӈээккэӄэй	ӈээккэӄэй	NOUN	_	_	3	reparandum	3:reparandum	Gloss=FEM-сын-DIM-NOM.SG
+3	ӈээккэӄэй	ӈээккэӄэй	NOUN	_	_	5	orphan	5.1:obj	Gloss=FEM-сын-DIM-NOM.SG
+4	нут	нут	X	_	_	5	reparandum	5:reparandum	Gloss=FST
+5	нутэӈэвытыну	_	NOUN	_	_	0	root	5.1:xcomp	Gloss=страна-FEM-EQU
+5.1	ӄытэнынныӈгын	_	VERB	_	_	_	_	0:root	Gloss=страна
+6	.	.	PUNCT	_	_	5	punct	5:punct	_
+
+# sent_id = Having_bear_ears:10
+# text = Ынӄэн а то яраԓьата энмэч гынин эвиръыт нэныԓгывэтыркынэт.
+# text[phon] = ənqen а то jaraɬʔata enmes ɣənin ewirʔət nenəɬɣəwetərkənet
+# text[rus] = А то домашние уже сжигают твою одежду (как бы хоронят вместо тебя)».
+# text[eng] = Your family has already been burning your clothes.»
+# labels = complete-dep anno-fran ənqen
+1	Ынӄэн	ынӄэн	PART	_	_	8	discourse	_	Gloss=DET
+2	а	_	X	_	_	8	discourse	_	Gloss=
+3	то	_	X	_	_	2	flat:foreign	_	Gloss=
+4	яраԓьата	_	NOUN	_	_	8	nsubj	_	Gloss=яранга-ATTR-INS
+5	энмэч	энмэч	ADV	_	_	8	advmod	_	Gloss=уже
+6	гынин	_	PRON	_	_	7	nmod:poss	_	Gloss=ты-GEN
+7	эвиръыт	_	NOUN	_	_	8	obj	_	Gloss=одежда.из.шкур-NOM.PL
+8	нэныԓгывэтыркынэт	_	VERB	_	_	0	root	_	Gloss=LOW.A-сжигать-IPFV-PL
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = Having_bear_ears:11
+# text = Ынӄо ыԓвыԓютэ рытриԓнин ӄԓявыԓ.
+# text[phon] = ənqo əɬwəɬute rətriɬnin qɬawəɬ
+# text[rus] = Потом медведица отпустила мужчину.
+# text[eng] = Then the bear let the man go.
+# labels = complete-dep anno-fran
+1	Ынӄо	ынӄо	ADV	_	_	3	advmod	_	Gloss=потом
+2	ыԓвыԓютэ	ыԓвыԓю	NOUN	_	_	3	nsubj	_	Gloss=бурый.медведь-INS
+3	рытриԓнин	рытриԓык	VERB	_	_	0	root	_	Gloss=2/3.S/A-пускать-3SG.A.3.O-3SG.O
+4	ӄԓявыԓ	ӄԓявыԓ	NOUN	_	_	3	obj	_	Gloss=мужчина-NOM.SG
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Having_bear_ears:12
+# text = Ыныгрээн ӈинӄэй и ӈээккэӄэй.
+# text[phon] = ənəɣreen ŋinqej и ŋeekkeqej
+# text[rus] = С ним мальчика и девочку.
+# text[eng] = The boy and the girl with him.
+# labels = complete-dep anno-fran
+1-2	Ыныгрээн	_	_	_	_	_	_	_	Gloss=он-LOC-=с
+1	Ыныг	_	PRON	_	_	0	root	_	Gloss=он-LOC
+2	рээн	_	ADP	_	_	1	case	_	Gloss=с
+3	ӈинӄэй	ӈинӄэй	NOUN	_	_	1	parataxis	_	Gloss=молодой-DIM-NOM.SG
+4	и	_	CCONJ	_	_	5	cc	_	Gloss=
+5	ӈээккэӄэй	ӈээккэӄэй	NOUN	_	_	3	conj	_	Gloss=FEM-сын-DIM-NOM.SG
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Having_bear_ears:13
+# text = Наӄам кэйӈывиԓюԓьыт.
+# text[phon] = naqam kejŋəwiɬuɬʔət
+# text[rus] = Но с медвежьими ушками.
+# text[eng] = But they were with bear ears.
+# labels = complete-dep anno-fran
+1	Наӄам	наӄам	CCONJ	_	_	2	cc	_	Gloss=однако
+2	кэйӈывиԓюԓьыт	_	NOUN	_	_	0	root	_	Gloss=бурый.медведь-ухо-ATTR-NOM.PL
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Having_bear_ears:14
+# text = А ыԓвыԓютэ ивнин никут.
+# text[phon] = а əɬwəɬute iwnin nikut
+# text[rus] = А медведица говорит:
+# text[eng] = And the bear says:
+# labels = complete-dep anno-fran
+1	А	_	CCONJ	_	_	3	cc	_	Gloss=
+2	ыԓвыԓютэ	ыԓвыԓю	NOUN	_	_	3	nsubj	_	Gloss=бурый.медведь-INS
+3	ивнин	ивык	VERB	_	_	0	root	_	Gloss=2/3.S/A-сказать-3SG.A.3.O-3SG.O
+4	никут	никут	X	_	_	3	dep	_	Gloss=FST
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Having_bear_ears:15
+# text = Айвачыӈӄачайпы это ӄининиги.
+# text[phon] = ajwasəŋqasajpə это qininiɣi
+# text[rus] = «Ты с южной стороны появись.
+# text[eng] = «Come from the southern side.
+# labels = complete-dep anno-fran
+1	Айвачыӈӄачайпы	айвач	NOUN	_	_	3	obl	_	Gloss=подветренная.сторона-NEAR-ABL
+2	это	_	X	_	_	3	discourse	_	Gloss=
+3	ӄининиги	ининик	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-появляться-IRR-2/3SG.S
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Having_bear_ears:16
+# text = И митъэԓыги ӈан маёԓгын ӄанарайъо йъотъра нарайъотԓяты нрзб ӄывъёпчагынат.
+# text[phon] = и mitʔeɬəɣi ŋan majoɬɣən qanarajʔo jʔotʔra narajʔotɬatə нрзб qəwjopsaɣənat
+# text[rus] = И запомни: когда к холму будешь подходить, (тихонько) свистни их.
+# text[eng] = And remember: when you will be approaching the hill, whistle gently to call them.
+# labels = complete-dep anno-karina
+1	И	_	X	_	_	2	cc	_	Gloss=
+2	митъэԓыги	_	VERB	_	_	0	root	_	Gloss=заблаговременно-известно
+3	ӈан	ӈан	DET	_	_	4	det	_	Gloss=DEICT
+4	маёԓгын	маёԓгын	NOUN	_	_	9	obl	_	Gloss=холм-NOM.SG
+5	ӄанарайъо	ӄанарайъо	X	_	_	9	reparandum	_	Gloss=FST
+6	йъотъра	йъотъра	X	_	_	9	reparandum	_	Gloss=FST
+7	нарайъотԓяты	нарайъотԓяты	X	_	_	9	reparandum	_	Gloss=FST
+8	нрзб	_	X	_	_	9	discourse	_	Gloss=
+9	ӄывъёпчагынат	выёпчак	VERB	_	_	2	parataxis	_	Gloss=2.S/A.SUBJ-свистеть-IRR-3SG.O-PL
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Having_bear_ears:17
+# text = Ангынтавкэгты.
+# text[phon] = anɣəntawkeɣtə
+# text[rus] = Чтобы не спугнуть.
+# text[eng] = Not to frighten them off.
+# labels = complete-dep anno-fran
+1	Ангынтавкэгты	_	VERB	_	_	0	root	_	Gloss=CAR-TR-убегать-CAR.DAT
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Having_bear_ears:18
+# text = Ынӄэн гынинэт эвиръыт нэныԓгывэтыркынэт.
+# text[phon] = ənqen ɣəninet ewirʔət nenəɬɣəwetərkənet
+# text[rus] = А то твою одежду сжигают».
+# text[eng] = As they are burning your clothes.»
+# labels = complete-dep anno-fran ənqen
+1	Ынӄэн	ынӄэн	PRON	_	_	4	discourse	_	Gloss=DET
+2	гынинэт	_	PRON	_	_	3	nmod:poss	_	Gloss=ты-GEN-PL
+3	эвиръыт	_	NOUN	_	_	4	obj	_	Gloss=одежда.из.шкур-NOM.PL
+4	нэныԓгывэтыркынэт	_	VERB	_	_	0	root	_	Gloss=LOW.A-сжигать-IPFV-PL
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Having_bear_ears:19
+# text = Ӈуттэԓвъэм ваԓёмгъэ.
+# text[phon] = ŋutteɬwʔem waɬomɣʔe
+# text[rus] = Ну ладно, послушался.
+# text[eng] = So, he obeyed.
+# labels = complete-dep anno-fran
+1-2	Ӈуттэԓвъэм	_	_	_	_	_	_	_	Gloss=тут-ещё-=EMPH
+1	Ӈуттэԓв	_	PART	_	_	3	discourse	_	Gloss=тут-ещё
+2	ъэм	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	ваԓёмгъэ	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-слушаться-TH-2/3SG.S
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Having_bear_ears:20
+# text = Айвачыӈкы тагъэ.
+# text[phon] = ajwasəŋkə taɣʔe
+# text[rus] = С южной стороны подошёл.
+# text[eng] = He came from the southern side.
+# labels = complete-dep anno-fran
+1	Айвачыӈкы	_	NOUN	_	_	2	obl	_	Gloss=подветренная.сторона-LOC
+2	тагъэ	так	VERB	_	_	0	root	_	Gloss=2/3.S/A-проходить-TH-2/3SG.S
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Having_bear_ears:21
+# text = Мач а гыргочайпы выёпчанэнат.
+# text[phon] = mas а ɣərɣosajpə wəjopsanenat
+# text[rus] = Сверху свистнул их.
+# text[eng] = And whistled to them from the top.
+# labels = complete-dep anno-fran
+1	Мач	Мач	X	_	_	2	reparandum	_	Gloss=FST
+2	а	_	CCONJ	_	_	4	cc	_	Gloss=
+3	гыргочайпы	гыргочайпы	NOUN	_	_	4	obl	_	Gloss=вверху-ABL
+4	выёпчанэнат	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-свистеть-3SG.A.3.O-3SG.O-PL
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Having_bear_ears:22
+# text = Эвиръынԓеԓьыт яраԓьыт.
+# text[phon] = ewirʔənɬeɬʔət jaraɬʔət
+# text[rus] = Домашние хоронят одежду.
+# text[eng] = His relatives are burying his clothes.
+# labels = complete-dep anno-fran unclear-syntax
+1	Эвиръынԓеԓьыт	рыԓек	VERB	_	Incorporated[obj]=Yes	0	root	0:root	Gloss=одежда.из.шкур-хоронить-ATTR-NOM.PL
+1.1	Эвиръын	эвиръын	NOUN	_	Incorporated=Yes	_	_	1:obj	Gloss=одежда.из.шкур
+2	яраԓьыт	_	NOUN	_	_	1	nsubj	1:nsubj	Gloss=яранга-ATTR-NOM.PL
+3	.	.	PUNCT	_	_	1	punct	1:punct	_
+
+# sent_id = Having_bear_ears:23
+# text = Нэгитэгъэн нэԓкыԓгъэн.
+# text[phon] = neɣiteɣʔen neɬkəɬɣʔen
+# text[rus] = Посмотрели на него, узнали.
+# text[eng] = They looked at him and recognised him.
+# labels = complete-dep anno-fran
+1	Нэгитэгъэн	_	VERB	_	_	0	root	_	Gloss=LOW.A-смотреть-TH-3SG.O
+2	нэԓкыԓгъэн	_	VERB	_	_	1	parataxis	_	Gloss=LOW.A-узнавать-TH-3SG.O
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Having_bear_ears:24
+# text = Наӄам ыныгрээн ӈиръэ нэнэнэт.
+# text[phon] = naqam ənəɣreen ŋirʔe nenenet
+# text[rus] = Но с ним двое детей.
+# text[eng] = But he was with two children.
+# labels = complete-dep anno-fran
+1	Наӄам	наӄам	ADV	_	_	2	advmod	_	Gloss=однако
+2-3	ыныгрээн	_	_	_	_	_	_	_	Gloss=он-LOC-=с
+2	ыныг	_	PRON	_	_	0	root	_	Gloss=он-LOC
+3	рээн	_	ADP	_	_	2	case	_	Gloss=с
+4	ӈиръэ	_	NUM	_	NumType=Card	5	nummod	_	Gloss=два
+5	нэнэнэт	_	NOUN	_	_	2	nsubj	_	Gloss=ребёнок-NOM.PL
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Having_bear_ears:25
+# text = Это эвын ӄымэк гынтэквъэтъым.
+# text[phon] = это ewən qəmek ɣəntekwʔetʔəm
+# text[rus] = Чуть не убежали они (родственники).
+# text[eng] = The relatives almost ran away.
+# labels = complete-dep anno-fran
+1	Это	_	PART	_	_	4	discourse	_	Gloss=
+2	эвын	_	ADV	_	_	4	advmod	_	Gloss=уже
+3	ӄымэк	ӄымэк	ADV	_	_	4	advmod	_	Gloss=почти
+4-5	гынтэквъэтъым	_	_	_	_	_	_	_	Gloss=2/3.S/A-убегать-TH-PL-=EMPH
+4	гынтэквъэт	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-убегать-TH-PL
+5	ъым	ъм	PART	_	_	4	advmod:emph	_	Gloss=EMPH
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Having_bear_ears:26
+# text = Ынан ивнинэт.
+# text[phon] = ənan iwninet
+# text[rus] = Он говорит им:
+# text[eng] = He says to them:
+# labels = complete-dep anno-fran
+1	Ынан	_	PRON	_	_	2	nsubj	_	Gloss=он.INS
+2	ивнинэт	ивык	VERB	_	_	0	root	_	Gloss=2/3.S/A-сказать-3SG.A.3.O-3SG.O-PL
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Having_bear_ears:27
+# text = Ынӄэнэ ынӄэнайгым.
+# text[phon] = ənqene ənqenajɣəm
+# text[rus] = «Это я.
+# text[eng] = «This is me.
+# labels = complete-dep anno-fran ənqen
+1-2	Ынӄэнэ	_	_	_	_	_	_	_	Gloss=DET-=PTCL
+1	Ынӄэн	_	PART	_	_	3	discourse	_	Gloss=DET
+2	э	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3	ынӄэнайгым	_	PRON	_	_	0	root	_	Gloss=DET-NP.1SG
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Having_bear_ears:28
+# text = Ванэ гым это мраквачак.
+# text[phon] = wane ɣəm это mrakwasak
+# text[rus] = Я не умер.
+# text[eng] = I did not die.
+# labels = complete-dep anno-fran
+1	Ванэ	вак	AUX	_	Valency=1	4	aux	_	Gloss=NEG.NFUT
+2	гым	гым	PRON	_	_	4	nsubj	_	Gloss=я
+3	это	_	PART	_	_	4	discourse	_	Gloss=
+4	мраквачак	_	VERB	_	_	0	root	_	Gloss=1SG.S/A.SUBJ-гибнуть-1SG.S
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Having_bear_ears:29
+# text = Ӈотӄэнат гымнинэт нэнэнэт.
+# text[phon] = ŋotqenat ɣəmninet nenenet
+# text[rus] = Это мои дети.
+# text[eng] = These are my children.
+# labels = complete-dep anno-fran
+1	Ӈотӄэнат	_	PRON	_	_	3	nsubj	_	Gloss=этот-PL
+2	гымнинэт	_	PRON	_	_	3	nmod:poss	_	Gloss=я-AN.GEN-PL
+3	нэнэнэт	_	NOUN	_	_	0	root	_	Gloss=ребёнок-NOM.PL
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Having_bear_ears:30
+# text = Ынӄо ӈинӄэй кэйӈывиԓю а ӈээккэӄэй Нутэӈэвыт.
+# text[phon] = ənqo ŋinqej kejŋəwiɬu а ŋeekkeqej nuteŋewət
+# text[rus] = Мальчик — Медвежье Ушко, а девочка — Тундра».
+# text[eng] = The boy is Earberry and the girl is Tundra.»
+# labels = complete-dep anno-fran
+1	Ынӄо	ынӄо	ADV	_	_	3	advmod	_	Gloss=потом
+2	ӈинӄэй	ӈинӄэй	NOUN	_	_	3	nsubj	_	Gloss=молодой-DIM-NOM.SG
+3	Кэйӈывиԓю	_	PROPN	_	_	0	root	_	Gloss=
+4	а	_	CCONJ	_	_	6	cc	_	Gloss=
+5	ӈээккэӄэй	ӈээккэӄэй	NOUN	_	_	6	nsubj	_	Gloss=FEM-сын-DIM-NOM.SG
+6	Нутэӈэвыт	Нутэӈэвыт	PROPN	_	_	3	conj	_	Gloss=Нутеневыт-NOM.SG
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Having_bear_ears:31
+# text = Йъарат это накапчачгэтагъан ынӄо ԓгэкоргаквъат.
+# text[phon] = jʔarat это nakapsasɣetaɣʔan ənqo ɬɣekorɣakwʔat
+# text[rus] = Конечно же, удивились и потом сильно обрадовались.
+# text[eng] = Of course, they looked at him amazed but then they rejoiced.
+# labels = complete-dep anno-fran
+1	Йъарат	йъарат	ADV	_	_	3	advmod	_	Gloss=особенно
+2	это	_	X	_	_	3	discourse	_	Gloss=
+3	накапчачгэтагъан	_	VERB	_	_	0	root	_	Gloss=LOW.A-растерянный-смотреть-TH-3SG.O
+4	ынӄо	ынӄо	ADV	_	_	5	advmod	_	Gloss=потом
+5	ԓгэкоргаквъат	_	VERB	_	_	3	parataxis	_	Gloss=2/3.S/A-INTS-радоваться-TH-PL
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Having_bear_ears:32
+# text = И это ԓгэкоргаквъатъым нанрагтатынат.
+# text[phon] = и это ɬɣekorɣakwʔatʔəm nanraɣtatənat
+# text[rus] = Очень обрадовались и домой повели.
+# text[eng] = They rejoiced and brought him home.
+# labels = complete-dep anno-fran
+1	И	_	CCONJ	_	_	3	cc	_	Gloss=
+2	это	_	X	_	_	3	discourse	_	Gloss=
+3-4	ԓгэкоргаквъатъым	_	_	_	_	_	_	_	Gloss=2/3.S/A-INTS-радоваться-TH-PL-=EMPH
+3	ԓгэкоргаквъат	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-INTS-радоваться-TH-PL
+4	ъым	ъм	PART	_	_	3	advmod:emph	_	Gloss=EMPH
+5	нанрагтатынат	_	VERB	_	_	3	parataxis	_	Gloss=LOW.A-TR-жилище-GO.TO-VB-3SG.O-PL
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Having_bear_ears:33
+# text = Ынкъамэ ӄаӈан микынти игыт это яатԓьат тынтыяатынат.
+# text[phon] = ənkʔame qaŋan mikənti iɣət это jaatɬʔat təntəjaatənat
+# text[rus] = А… ну как же, чьи это сейчас потомки (наследники), я забыла.
+# text[eng] = And... I forgot who are their descendants now.
+# labels = complete-dep anno-karina reattached-clitic
+1-2	Ынкъамэ	_	_	_	_	_	_	_	Gloss=и-=PTCL
+1	Ынкъам	_	CCONJ	_	_	8	cc	_	Gloss=и
+2	э	а	PART	_	_	8	advmod:emph	_	Gloss=PTCL
+3	ӄаӈан	ӄаӈан	PART	_	_	8	discourse	_	Gloss=же
+4	микынти	мэӈин	PRON	_	_	7	nsubj	_	Gloss=кто-AN.GEN-NOM.PL
+5	игыт	игыр	ADV	_	_	7	advmod	_	Gloss=сегодня
+6	это	_	X	_	_	8	discourse	_	Gloss=
+7	яатԓьат	_	NOUN	_	_	8	xcomp	_	Gloss=потомок-NOM.PL
+8	тынтыяатынат	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-забывать-VB-3SG.O-PL
+9	.	.	PUNCT	_	_	8	punct	_	_
+

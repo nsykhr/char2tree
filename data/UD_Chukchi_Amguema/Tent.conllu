@@ -1,0 +1,125 @@
+# sent_id = Tent:1
+# text = Игыт марэгына манэгран нанкаԓыроквъан нрзб уттынутэкэнэ чамаӈа ваамԓыӈкы ваԓьын.
+# text[phon] = iɣət mareɣəna maneɣran nankaɬərokwʔan нрзб uttənutekene samaŋa waamɬəŋkə waɬʔən
+# text[rus] = Сейчас палатку показали где-то в лесотундровой зоне и в то же время у реки.
+# text[eng] = Now they have just shown a tent in the forest tundra and at the same time by the river.
+# labels = complete-dep anno-fran non-projective
+1	Игыт	игыр	ADV	_	_	4	advmod	_	Gloss=сегодня
+2	марэгына	марэгына	X	_	_	3	reparandum	_	Gloss=FST
+3	манэгран	манэгран	NOUN	_	_	4	obj	_	Gloss=ткань-жилище-NOM.SG
+4	нанкаԓыроквъан	_	VERB	_	_	0	root	_	Gloss=LOW.A-показывать-TH-3SG.O
+5	нрзб	_	X	_	_	4	discourse	_	Gloss=
+6-7	уттынутэкэнэ	_	_	_	_	_	_	_	Gloss=дерево-страна-REL-=PTCL
+6	уттынутэкэн	_	NOUN	_	_	3	nmod:relat	_	Gloss=дерево-страна-REL
+7	э	а	PART	_	_	6	advmod:emph	_	Gloss=PTCL
+8-9	чамаӈа	_	_	_	_	_	_	_	Gloss=также-=PTCL
+8	чамаӈ	_	ADV	_	_	10	advmod	_	Gloss=также
+9	а	а	PART	_	_	8	advmod:emph	_	Gloss=PTCL
+10	ваамԓыӈкы	_	NOUN	_	_	3	nmod:attr	_	Gloss=река-EDGE-LOC
+11	ваԓьын	ваԓьын	AUX	_	_	10	cop	_	Gloss=быть-ATTR-NOM.SG
+12	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = Tent:2
+# text = Ваԓӄыԓыргытанӈын тинԓыԓеԓьынэ.
+# text[phon] = waɬqəɬərɣətanŋən tinɬəɬeɬʔəne
+# text[rus] = Бородатый чужеземец в очках.
+# text[eng] = A bearded foreigner with glasses.
+# labels = complete-dep anno-fran
+1	Ваԓӄыԓыргытанӈын	Ваԓӄыԓыргытанӈын	NOUN	_	_	0	root	_	Gloss=подбородок-шерсть-чужеземец-NOM.SG
+2-3	тинԓыԓеԓьынэ	_	_	_	_	_	_	_	Gloss=лёд-глаз-ATTR-NOM.SG-=PTCL
+2	тинԓыԓеԓьын	тинԓыԓеԓьынэ	NOUN	_	_	1	nmod:attr	_	Gloss=лёд-глаз-ATTR-NOM.SG
+3	э	а	PART	_	_	2	advmod:emph	_	Gloss=PTCL
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tent:3
+# text = Ынӄэнэ ръэнут нинэтэйкыӄин кэԓикэԓ юрэӄъымэ.
+# text[phon] = ənqene rʔenut ninetejkəqin keɬikeɬ jureqʔəme
+# text[rus] = Что-то он там делает, наверное, книгу пишет.
+# text[eng] = He is doing something, probably, writing a book.
+# labels = complete-dep anno-fran ənqen
+1-2	Ынӄэнэ	_	_	_	_	_	_	_	Gloss=DET-=PTCL
+1	Ынӄэн	_	PART	_	_	4	discourse	_	Gloss=DET
+2	э	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3	ръэнут	ръэнут	PRON	_	_	4	obj	_	Gloss=что.NOM.SG
+4	нинэтэйкыӄин	тэйкык	VERB	_	_	0	root	_	Gloss=ST-INV-делать-ST.3SG
+5	кэԓикэԓ	кэԓикэԓ	NOUN	_	_	4	parataxis	_	Gloss=книга-NOM.SG
+6-8	юрэӄъымэ	_	_	_	_	_	_	_	Gloss=может.быть-=EMPH-=PTCL
+6	юрэӄ	_	ADV	_	_	5	advmod	_	Gloss=может.быть
+7	ъым	ъм	PART	_	_	6	advmod:emph	_	Gloss=EMPH
+8	э	а	PART	_	_	6	advmod:emph	_	Gloss=PTCL
+9	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Tent:4
+# text = Ӈаргыночьыт нинэтэнгыеӈӄээт миӈкыри ваԓьыт.
+# text[phon] = ŋarɣənosʔət ninetenɣəjeŋqeet miŋkəri waɬʔət
+# text[rus] = Занимается волками, какие они.
+# text[eng] = He is examining wolves, the way they are.
+# comment = Нет уверенности, что второе слово именно такое.
+# labels = complete-dep anno-fran unclear-syntax
+1	Ӈаргыночьыт	ӈаргыно	ADJ	_	_	2	obj	_	Gloss=внешняя.сторона-ADJ-NOM.PL
+2	нинэтэнгыеӈӄээт	_	VERB	_	Valency=2	0	root	_	Gloss=ST-INV-определять-ST.3PL
+3	миӈкыри	миӈкыри	ADV	_	_	2	parataxis	_	Gloss=где-LOC-ADV.ALL
+4	ваԓьыт	вак	AUX	_	_	3	cop	_	Gloss=быть-ATTR-NOM.PL
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Tent:5
+# text = Вытку ԓьунин ынӄэн игыт.
+# text[phon] = wətku ɬʔunin ənqen iɣət
+# text[rus] = И вот только что он увидел его.
+# text[eng] = And he has just saw him.
+# labels = complete-dep anno-fran
+1	Вытку	вытку	ADV	_	_	2	advmod	_	Gloss=только.что
+2	ԓьунин	ԓьук	VERB	_	_	0	root	_	Gloss=2/3.S/A-видеть-3SG.A.3.O-3SG.O
+3	ынӄэн	ынӄэн	DET	_	_	2	obj	_	Gloss=DET
+4	игыт	игыр	ADV	_	_	2	advmod	_	Gloss=сегодня
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Tent:6
+# text = Ытръэч.
+# text[phon] = ətrʔes
+# text[rus] = Всё.
+# text[eng] = That is all.
+# labels = complete-dep anno-fran
+1	Ытръэч	ытръэч	ADV	_	_	0	root	_	Gloss=только
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tent:7
+# text = И вот иʼныӈэ энмэна эн ынӄэн иʼны мэԓьыттъывытрынэ ныръэӄин ӄынут гэгиинрэԓин ӄынутэ гытъэвыԓьын гэймэвԓин оʼравэтԓьак.
+# text[phon] = и вот ʔinəŋe enmena en ənqen ʔinə meɬʔəttʔəwətrəne nərʔeqin qənut ɣeɣiinreɬin qənute ɣətʔewəɬʔən ɣejmewɬin ʔorawetɬʔak
+# text[rus] = И вот этот волк, похожий на собаку, что он там делает... как будто высматривает, как будто оголодавший подошёл к человеку.
+# text[eng] = And this wolf that looks like a dog, what is it doing there... gazing, came to the man as if it is hungry.
+# labels = complete-dep anno-fran unclear-syntax
+1	И	_	X	_	_	12	discourse	_	Gloss=
+2	вот	_	X	_	_	1	flat:foreign	_	Gloss=
+3-4	иʼныӈэ	_	_	_	_	_	_	_	Gloss=волк.NOM.SG-=PTCL
+3	иʼны	иʼныӈэ	NOUN	_	_	12	dislocated	_	Gloss=волк.NOM.SG
+4	ӈэ	а	PART	_	_	3	advmod:emph	_	Gloss=PTCL
+5-6	энмэна	_	_	_	_	_	_	_	Gloss=итак-=PTCL
+5	энмэн	_	ADV	_	_	12	discourse	_	Gloss=итак
+6	а	а	PART	_	_	5	advmod:emph	_	Gloss=PTCL
+7	эн	эн	X	_	_	8	reparandum	_	Gloss=FST
+8	ынӄэн	ынӄэн	PRON	_	_	9	det	_	Gloss=DET
+9	иʼны	иʼны	NOUN	_	_	12	nsubj	_	Gloss=волк.NOM.SG
+10-11	мэԓьыттъывытрынэ	_	_	_	_	_	_	_	Gloss=SEEM-собака-SIMILAR-NOM.SG-=PTCL
+10	мэԓьыттъывытрын	мэԓьыттъывытрынэ	NOUN	_	_	9	appos	_	Gloss=SEEM-собака-SIMILAR-NOM.SG
+11	э	а	PART	_	_	10	advmod:emph	_	Gloss=PTCL
+12	ныръэӄин	_	X	_	_	0	root	_	Gloss=
+13	ӄынут	ӄынут	ADV	_	_	14	advmod	_	Gloss=как
+14	гэгиинрэԓин	гиинрэк	VERB	_	Valency=2	12	parataxis	_	Gloss=PF-алчно.смотреть-PF.3SG
+15-16	ӄынутэ	_	_	_	_	_	_	_	Gloss=как-=PTCL
+15	ӄынут	_	ADV	_	_	17	advmod	_	Gloss=как
+16	э	а	PART	_	_	15	advmod:emph	_	Gloss=PTCL
+17	гытъэвыԓьын	гытъэвыԓьын	NOUN	_	_	18	dep	_	Gloss=голодный-CS-ATTR-NOM.SG
+18	гэймэвԓин	эймэвык	VERB	_	Valency=1	12	parataxis	_	Gloss=PF-приближаться-PF.3SG
+19	оʼравэтԓьак	оʼравэтԓьан	NOUN	_	_	18	obl	_	Gloss=человек-LOC
+20	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = Tent:8
+# text = Ытръэч.
+# text[phon] = ətrʔes
+# text[rus] = Конец.
+# text[eng] = That is all.
+# labels = complete-dep anno-fran
+1	Ытръэч	ытръэч	ADV	_	_	0	root	_	Gloss=только
+2	.	.	PUNCT	_	_	1	punct	_	_
+

@@ -1,0 +1,153 @@
+# sent_id = An_evil_spirit_and_a_dicky_bird:1
+# text = Энмэн гатваԓен каԓьайӈын ынкъам пчеӄаԓгын.
+# text[phon] = enmen ɣatwaɬen kaɬʔajŋən ənkʔam pseqaɬɣən
+# text[rus] = Жил-был злой дух и птичка.
+# text[eng] = Once upon a time there was an evil spirit and a dicky bird.
+# labels = complete-dep anno-fran unclear-syntax
+1	Энмэн	энмэн	ADV	_	_	2	advmod	_	Gloss=итак
+2	гатваԓен	вак	AUX	_	Valency=1	0	root	_	Gloss=PF-быть-PF.3SG
+3	каԓьайӈын	каԓьайӈын	NOUN	_	_	2	nsubj	_	Gloss=злой.дух-AUG-NOM.SG
+4	ынкъам	ынкъам	CCONJ	_	_	5	cc	_	Gloss=и
+5	пчеӄаԓгын	пчеӄаԓгын	NOUN	_	_	3	conj	_	Gloss=птичка-SING-NOM.SG
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = An_evil_spirit_and_a_dicky_bird:2
+# text = Ԓьувыԓгыгъэт.
+# text[phon] = ɬʔuwəɬɣəɣʔet
+# text[rus] = Они встретились.
+# text[eng] = They met.
+# labels = complete-dep anno-fran
+1	Ԓьувыԓгыгъэт	ԓьувыԓгык	VERB	_	_	0	root	_	Gloss=2/3.S/A-видеть-REC-TH-PL
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = An_evil_spirit_and_a_dicky_bird:3
+# text = Иквъэт ги мынӄымԓёченмык.
+# text[phon] = ikwʔet ɣi mənqəmɬosenmək
+# text[rus] = Говорят: давай друг у друга костный мозг есть.
+# text[eng] = They say: let us eat each other’s bone marrow.
+# labels = complete-dep anno-fran
+1	Иквъэт	_	VERB	_	Valency=2	0	root	_	Gloss=2/3.S/A-сказать-TH-PL
+2	ги	ги	X	_	_	3	reparandum	_	Gloss=FST
+3	мынӄымԓёченмык	_	VERB	_	_	1	parataxis:speech	_	Gloss=1PL.S/A.SUBJ-костный.мозг-EAT-COMB-1PL.S/O
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = An_evil_spirit_and_a_dicky_bird:4
+# text = Каԓьайӈын эгэ мынӄымԓёченмэв.
+# text[phon] = kaɬʔajŋən eɣe mənqəmɬosenmew
+# text[rus] = Злой дух [говорит]: «Ладно, давай есть друг у друга костный мозг».
+# text[eng] = The evil spirit says: «Well, let us eat each other’s bone marrow».
+# labels = complete-dep anno-fran
+1	Каԓьайӈын	Каԓьайӈын	NOUN	_	_	0	root	_	Gloss=злой.дух-AUG-NOM.SG
+2	эгэ	_	ADV	_	_	3	advmod	_	Gloss=ладно
+3	мынӄымԓёченмэв	_	VERB	_	_	1	parataxis	_	Gloss=1PL.S/A.SUBJ-костный.мозг-EAT-COMB-1PL.S/O.EXCL
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = An_evil_spirit_and_a_dicky_bird:5
+# text = Каԓьайӈын нрзб янот гым мӄымԓёчетык.
+# text[phon] = kaɬʔajŋən нрзб janot ɣəm mqəmɬosetək
+# text[rus] = Злой дух [говорит]: «Только я первый буду есть костный мозг».
+# text[eng] = The evil spirit says: «But I will first eat the bone marrow».
+# labels = complete-dep anno-fran
+1	Каԓьайӈын	Каԓьайӈын	NOUN	_	_	0	root	_	Gloss=злой.дух-AUG-NOM.SG
+2	нрзб	_	X	_	_	5	discourse	_	Gloss=
+3	янот	янот	ADV	_	_	5	advmod	_	Gloss=сначала
+4	гым	гым	PRON	_	_	5	nsubj	_	Gloss=я
+5	мӄымԓёчетык	_	VERB	_	_	1	parataxis	_	Gloss=1SG.S/A.SUBJ-костный.мозг-EAT-COMB-1SG.S
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = An_evil_spirit_and_a_dicky_bird:6
+# text = Пчеӄаԓгын иквъи эгэ евъев.
+# text[phon] = pseqaɬɣən ikwʔi eɣe jewjew
+# text[rus] = Птичка [говорит]: «Хорошо, подожди».
+# text[eng] = The dicky bird [says]: «Ok, wait a little».
+# labels = complete-dep anno-fran
+1	Пчеӄаԓгын	Пчеӄаԓгын	NOUN	_	_	2	nsubj	_	Gloss=птичка-SING-NOM.SG
+2	иквъи	икын	VERB	_	_	0	root	_	Gloss=2/3.S/A-сказать-TH-2/3SG.S
+3	эгэ	_	ADV	_	_	2	parataxis:speech	_	Gloss=ладно
+4	евъев	евъев	INTJ	_	_	3	parataxis	_	Gloss=постой
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = An_evil_spirit_and_a_dicky_bird:7
+# text = Оонъыԓгыӄай пиринин.
+# text[phon] = oonʔəɬɣəqaj pirinin
+# text[rus] = Ягодку взяла.
+# text[eng] = The bird took a berry.
+# labels = complete-dep anno-fran
+1	Оонъыԓгыӄай	Оонъыԓгыӄай	NOUN	_	_	2	obj	_	Gloss=ягода-SING-DIM-NOM.SG
+2	пиринин	пирик	VERB	_	_	0	root	_	Gloss=2/3.S/A-брать-3SG.A.3.O-3SG.O
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = An_evil_spirit_and_a_dicky_bird:8
+# text = Энаркэынэн гыткаԓгыӄай.
+# text[phon] = enarkeənen ɣətkaɬɣəqaj
+# text[rus] = Ножку намазала.
+# text[eng] = The bird smeared its leg.
+# labels = complete-dep anno-fran
+1	Энаркэынэн	_	VERB	_	_	0	root	_	Gloss=намазывать-3SG.A.3.O-3SG.O
+2	гыткаԓгыӄай	гыткаԓгыӄай	NOUN	_	_	1	obj	_	Gloss=нога-SING-DIM-NOM.SG
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = An_evil_spirit_and_a_dicky_bird:9
+# text = Выквыԓгыйӈын пиринин каԓьайӈа.
+# text[phon] = wəkwəɬɣəjŋən pirinin kaɬʔajŋa
+# text[rus] = Злой дух взял большой камень.
+# text[eng] = The evil spirit took a big stone.
+# labels = complete-dep anno-fran
+1	Выквыԓгыйӈын	Выквыԓгыйӈын	NOUN	_	_	2	obj	_	Gloss=камень-SING-AUG-NOM.SG
+2	пиринин	пирик	VERB	_	_	0	root	_	Gloss=2/3.S/A-брать-3SG.A.3.O-3SG.O
+3	каԓьайӈа	_	NOUN	_	_	2	nsubj	_	Gloss=злой.дух-AUG-INS
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = An_evil_spirit_and_a_dicky_bird:10
+# text = Чит ӄымԓёркынэн пчеӄаԓгыӄай.
+# text[phon] = sit qəmɬorkənen pseqaɬɣəqaj
+# text[rus] = Только собрался поесть костный мозг у птички (т. е. ударить ей по ноге).
+# text[eng] = The evil spirit was just about to eat the bird’s bone marrow (i.e. to hit it on the leg).
+# labels = complete-dep anno-fran unclear-syntax
+1	Чит	чит	AUX	_	_	2	discourse	_	Gloss=было
+2	ӄымԓёркынэн	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-костный.мозг-EAT-IPFV-3SG.A.3.O-3SG.O
+3	пчеӄаԓгыӄай	пчеӄаԓгыӄай	NOUN	_	_	2	obj	_	Gloss=птичка-SING-DIM-NOM.SG
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = An_evil_spirit_and_a_dicky_bird:11
+# text = Пчеӄаԓгыӄая гыткаԓгын гэнруԓтэтԓин.
+# text[phon] = pseqaɬɣəqaja ɣətkaɬɣən ɣenruɬtetɬin
+# text[rus] = Птичка ногу убрала.
+# text[eng] = The bird moved its leg aside.
+# labels = complete-dep anno-fran
+1	Пчеӄаԓгыӄая	_	NOUN	_	_	3	nsubj	_	Gloss=птичка-SING-DIM-INS
+2	гыткаԓгын	гыткаԓгын	NOUN	_	_	3	obj	_	Gloss=нога-SING-NOM.SG
+3	гэнруԓтэтԓин	руԓтык	VERB	_	Valency=2	0	root	_	Gloss=PF-TR-отодвигаться-VB-PF.3SG
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = An_evil_spirit_and_a_dicky_bird:12
+# text = Оонъыԓгын гэтриԓԓин.
+# text[phon] = oonʔəɬɣən ɣetriɬɬin
+# text[rus] = Ягодку положила.
+# text[eng] = The bird put a berry.
+# labels = complete-dep anno-fran
+1	Оонъыԓгын	Оонъыԓгын	NOUN	_	_	2	obj	_	Gloss=ягода-SING-NOM.SG
+2	гэтриԓԓин	рытриԓык	VERB	_	Valency=2	0	root	_	Gloss=PF-класть-PF.3SG
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = An_evil_spirit_and_a_dicky_bird:13
+# text = Эв ии рыпэт чыпъэв.
+# text[phon] = ew ii rəpet səpʔew
+# text[rus] = «Ай, аж синяк!».
+# text[eng] = «Ouch, even a bruise».
+# labels = complete-dep anno-fran
+1	Эв	эв	INTJ	_	_	0	root	_	Gloss=
+2	ии	ии	INTJ	_	_	1	parataxis	_	Gloss=да
+3	рыпэт	рыпэт	ADV	_	_	4	advmod	_	Gloss=даже
+4	чыпъэв	чыпъэв	NOUN	_	_	1	parataxis	_	Gloss=синяк-NOM.SG
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = An_evil_spirit_and_a_dicky_bird:14
+# text = Ытръэч.
+# text[phon] = ətrʔes
+# text[rus] = Конец.
+# text[eng] = The end.
+# labels = complete anno-fran
+1	Ытръэч	ытръэч	ADV	_	_	0	root	_	Gloss=только
+2	.	.	PUNCT	_	_	1	punct	_	_
+

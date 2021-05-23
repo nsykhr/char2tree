@@ -1,0 +1,48 @@
+# sent_id = Tenylqot_and_Eqelqot:1
+# text = Гатваԓенат Тэӈыԓӄотъым Эʼӄэԓӄот.
+# text[phon] = ɣatwaɬenat teŋəɬqotʔəm ʔeqeɬqot
+# text[rus] = Жили-были Тэнылькот и Экэлькот.
+# text[eng] = Once upon a time, there lived Tenylkot and Ekelkot.
+# labels = complete-dep anno-fran
+1	Гатваԓенат	вак	AUX	_	Valency=1	0	root	_	Gloss=PF-быть-PF.3SG-PL
+2-3	Тэӈыԓӄотъым	_	_	_	_	_	_	_	Gloss=Тэнылькот-NOM.SG-=EMPH
+2	Тэӈыԓӄот	Тэӈыԓӄотъым	PROPN	_	_	1	nsubj	_	Gloss=Тэнылькот-NOM.SG
+3	ъым	ъм	PART	_	_	2	advmod:emph	_	Gloss=EMPH
+4	Эʼӄэԓӄот	Эʼӄэԓӄот	PROPN	_	_	2	conj	_	Gloss=Экэлькот-NOM.SG
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tenylqot_and_Eqelqot:2
+# text = Гамаравԓенат гамаравтайкавԓенат.
+# text[phon] = ɣamarawɬenat ɣamarawtajkawɬenat
+# text[rus] = Поругались и подрались.
+# text[eng] = They had a row and started fighting.
+# labels = complete-dep anno-fran conjunction
+1	Гамаравԓенат	маравчетык	VERB	_	Valency=1	0	root	0:root	Gloss=PF-ссориться-PF.3SG-PL
+2	гамаравтайкавԓенат	тэйкэвык	VERB	_	Incorporated[advcl]=Yes|Valency=1	1	parataxis	1:conj	Gloss=PF-ссориться-бороться-PF.3SG-PL
+2.1	марав	маравчетык	VERB	_	Incorporated=Yes	_	_	2:advcl	Gloss=ссориться
+3	.	.	PUNCT	_	_	1	punct	1:punct	_
+
+# sent_id = Tenylqot_and_Eqelqot:3
+# text = Ӄэԓёӄъым Тэӈыԓӄот гъэӄэԓтэтԓин.
+# text[phon] = qeɬoqʔəm teŋəɬqot ɣʔeqeɬtetɬin
+# text[rus] = Потому что Тэнылькот плохо себя повёл.
+# text[eng] = Because Tenylkot misbehaved.
+# labels = complete-dep anno-fran
+1-2	Ӄэԓёӄъым	_	_	_	_	_	_	_	Gloss=конечно-=EMPH
+1	Ӄэԓёӄ	_	ADV	_	_	4	advmod	_	Gloss=конечно
+2	ъым	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	Тэӈыԓӄот	Тэӈыԓӄот	PROPN	_	_	4	nsubj	_	Gloss=Тэнылькот-NOM.SG
+4	гъэӄэԓтэтԓин	эʼӄэ	ADJ	_	_	0	root	_	Gloss=PF-плохой-BE-PF.3SG
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Tenylqot_and_Eqelqot:4
+# text = А Эʼӄэԓӄот гэтэӈыԓтэтԓин.
+# text[phon] = а ʔeqeɬqot ɣeteŋəɬtetɬin
+# text[rus] = А Экэлькот хорошо себя повёл.
+# text[eng] = And Ekelkot behaved well.
+# labels = complete-dep anno-fran
+1	А	а	CCONJ	_	_	3	cc	_	Gloss=
+2	Эʼӄэԓӄот	Эʼӄэԓӄот	PROPN	_	_	3	nsubj	_	Gloss=Экэлькот-NOM.SG
+3	гэтэӈыԓтэтԓин	тэӈыԓьын	ADJ	_	_	0	root	_	Gloss=PF-хороший-BE-PF.3SG
+4	.	.	PUNCT	_	_	3	punct	_	_
+

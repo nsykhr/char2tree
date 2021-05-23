@@ -1,0 +1,140 @@
+# sent_id = Komsomolets:1
+# text = Ӄоԓ титгъэк тынотапынмынтагъакъым.
+# text[phon] = qoɬ titɣʔek tənotapənməntaɣʔakʔəm
+# text[rus] = Однажды поехал я в Нутэпэльмен.
+# text[eng] = Once I went to Nutepelmen.
+# labels = complete-dep anno-fran unclear-syntax
+1	Ӄоԓ	ӄоԓ	PRON	_	_	2	dep	_	Gloss=некий
+2	титгъэк	итык	VERB	_	_	3	dep	_	Gloss=1SG.S/A-являться-TH-1SG.S
+3-4	тынотапынмынтагъакъым	_	_	_	_	_	_	_	Gloss=1SG.S/A-Нутэпэльмен-GO.DO-TH-1SG.S-=EMPH
+3	тынотапынмынтагъак	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-Нутэпэльмен-GO.DO-TH-1SG.S
+4	ъым	ъм	PART	_	_	3	advmod:emph	_	Gloss=EMPH
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Komsomolets:2
+# text = Кԓюпыӈӄачагты тычейвыткугъакъым.
+# text[phon] = kɬupəŋqasaɣtə təsejwətkuɣʔakʔəm
+# text[rus] = В сторону клуба прогулялся.
+# text[eng] = I walked to the club.
+# labels = complete-dep anno-fran
+1	Кԓюпыӈӄачагты	_	NOUN	_	_	2	obl	_	Gloss=клуб-NEAR-DAT
+2-3	тычейвыткугъакъым	_	_	_	_	_	_	_	Gloss=1SG.S/A-идти-ITER-TH-1SG.S-=EMPH
+2	тычейвыткугъак	_	VERB	_	Valency=1	0	root	_	Gloss=1SG.S/A-идти-ITER-TH-1SG.S
+3	ъым	ъм	PART	_	_	2	advmod:emph	_	Gloss=EMPH
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Komsomolets:3
+# text = Ынкы кԓюпык ӄача ӄычекытваԓьымкына тыйъоаʼнъым тымӈыԓёнат.
+# text[phon] = ənkə kɬupək qasa qəsekətwaɬʔəmkəna təjʔoʔanʔəm təmŋəɬonat
+# text[rus] = Подошёл к тем, кто толпился там возле клуба, спрашиваю их.
+# text[eng] = I approached the ones who stood near the club and asked them:
+# labels = complete-dep anno-fran
+1	Ынкы	ынкы	PRON	_	_	4	obl	_	Gloss=тот-LOC
+2	кԓюпык	кԓюп	NOUN	_	_	4	obl	_	Gloss=клуб-LOC
+3	ӄача	ӄача	ADP	_	_	2	case	_	Gloss=около
+4-5	ӄычекытваԓьымкына	_	_	_	_	_	_	_	Gloss=толпиться-ATTR-COLL-NOM.SG-=PTCL
+4	ӄычекытваԓьымкын	ӄычекытваԓьымкына	VERB	_	_	6	obj	_	Gloss=толпиться-ATTR-COLL-NOM.SG
+5	а	а	PART	_	_	4	advmod:emph	_	Gloss=PTCL
+6-7	тыйъоаʼнъым	_	_	_	_	_	_	_	Gloss=1SG.S/A-настигать-TH-3SG.O-=EMPH
+6	тыйъоаʼн	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-настигать-TH-3SG.O
+7	ъым	ъм	PART	_	_	6	advmod:emph	_	Gloss=EMPH
+8	тымӈыԓёнат	_	VERB	_	_	6	parataxis	_	Gloss=1SG.S/A-спрашивать-3SG.O-PL
+9	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Komsomolets:4
+# text = Ныръэтури.
+# text[phon] = nərʔeturi
+# text[rus] = «Что вы делаете?».
+# text[eng] = «What are you doing?»
+# labels = complete-dep anno-fran
+1	Ныръэтури	_	VERB	_	_	0	root	_	Gloss=ST-что-NP.2PL
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Komsomolets:5
+# text = Иквъи амвынэ камчамоԓтэ нумэкэтӄинэт.
+# text[phon] = ikwʔi amwəne kamsamoɬte numeketqinet
+# text[rus] = Отвечают: «А, это комсомольцы собрались».
+# text[eng] = They reply: «Well, Komsomol members got together.»
+# labels = complete-dep anno-fran
+1	Иквъи	икын	VERB	_	Valency=2	0	root	_	Gloss=2/3.S/A-сказать-TH-2/3SG.S
+2	амвынэ	_	PART	_	_	4	discourse	_	Gloss=RESTR-ну.ка
+3	камчамоԓтэ	_	NOUN	_	_	4	nsubj	_	Gloss=комсомолец-NOM.PL
+4	нумэкэтӄинэт	_	VERB	_	Valency=1	1	parataxis:speech	_	Gloss=ST-кружок-VB-ST.3SG-PL
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Komsomolets:6
+# text = Ээ микынтим камчамоԓтэ.
+# text[phon] = ee mikəntiʔm kamsamoɬte
+# text[rus] =  «Ээ, а кто такие комсомольцы?».
+# text[eng] = «And who are these Komsomol members?»
+# labels = complete-dep anno-fran
+1	Ээ	_	INTJ	_	_	4	discourse	_	Gloss=ээ
+2-3	микынтим	_	_	_	_	_	_	_	Gloss=кто-NOM.PL-=EMPH
+2	микынти	_	PRON	_	_	4	nsubj	_	Gloss=кто-NOM.PL
+3	м	ъм	PART	_	_	2	advmod:emph	_	Gloss=EMPH
+4	камчамоԓтэ	_	NOUN	_	_	0	root	_	Gloss=комсомолец-NOM.PL
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Komsomolets:7
+# text = Ынӄэнъымэ тагмэгчетъянвытъым ӈэнъянвыт.
+# text[phon] = ənqenʔəme taɣmeɣsetjanwətʔəm ŋenjanwət
+# text[rus] = «Это те, которые хорошо работают, молодые».
+# text[eng] = «They are people who do their job well, young people.»
+# labels = complete-dep anno-fran ənqen unclear-syntax
+1-3	Ынӄэнъымэ	_	_	_	_	_	_	_	Gloss=DET-=EMPH-=PTCL
+1	Ынӄэн	_	PART	_	_	4	discourse	_	Gloss=DET
+2	ъым	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	э	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+4-5	тагмэгчетъянвытъым	_	_	_	_	_	_	_	Gloss=GOOD-работа-NMN.PL-NOM.PL-=EMPH
+4	тагмэгчетъянвыт	_	NOUN	_	_	0	root	_	Gloss=GOOD-работа-NMN.PL-NOM.PL
+5	ъым	ъм	PART	_	_	4	advmod:emph	_	Gloss=EMPH
+6	ӈэнъянвыт	ӈэнъян	ADJ	_	_	4	appos	_	Gloss=молодой-NMN.PL-NOM.PL
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Komsomolets:8
+# text = Ээ эты гым камчамоԓевым.
+# text[phon] = ee etə ɣəm kamsamoɬewəm
+# text[rus] = «Ээ, интересно, а я комсомолец?».
+# text[eng] = «So, probably I am also a Komsomol member?».
+# labels = complete-dep anno-fran
+1	Ээ	_	INTJ	_	_	4	discourse	_	Gloss=ээ
+2	эты	эты	ADV	_	_	4	advmod	_	Gloss=наверное
+3	гым	гым	PRON	_	Case=Abs	4	nsubj	_	Gloss=я
+4	камчамоԓевым	_	NOUN	_	_	0	root	_	Gloss=комсомолец-NP.1SG
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Komsomolets:9
+# text = Иквъэтэ амвынэ гыт эвнумэкэткэ.
+# text[phon] = ikwʔete amwəne ɣət ewnumeketke
+# text[rus] = Говорят: «Нет, тебе не надо ходить на собрания».
+# text[eng] = They say: «No, you should not go to the Komsomol meetings.»
+# labels = complete-dep anno-fran unclear-syntax
+1-2	Иквъэтэ	_	_	_	_	_	_	_	Gloss=2/3.S/A-сказать-TH-PL-=PTCL
+1	Иквъэт	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-сказать-TH-PL
+2	э	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3	амвынэ	_	ADV	_	_	5	advmod	_	Gloss=RESTR-ну.ка
+4	гыт	_	PRON	_	Case=Abs	5	nsubj	_	Gloss=ты
+5	эвнумэкэткэ	_	VERB	_	_	1	parataxis:speech	_	Gloss=PREF-кружок-VB-CAR-INS
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Komsomolets:10
+# text = Ээ эвыӈан ӄырымэнайгым камчамоԓевым.
+# text[phon] = ee ewəŋan qərəmenajɣəm kamsamoɬewəm
+# text[rus] = «Ээ, значит, я не комсомолец».
+# text[eng] = «This means I am not a Komsomol member.»
+# labels = complete-dep anno-fran unclear-syntax
+1	Ээ	_	INTJ	_	_	4	discourse	_	Gloss=ээ
+2	эвыӈан	эвыӈан	ADV	_	_	4	advmod	_	Gloss=значит
+3	ӄырымэнайгым	_	AUX	_	_	4	aux	_	Gloss=NEG.FUT-GEN-NP.1SG
+4	камчамоԓевым	_	NOUN	_	_	0	root	_	Gloss=комсомолец-NP.1SG
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Komsomolets:11
+# text = Трагтыгъак.
+# text[phon] = traɣtəɣʔak
+# text[rus] = Пошёл я домой.
+# text[eng] = I went home.
+# labels = complete-dep anno-fran
+1	Трагтыгъак	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-жилище-GO.TO-TH-1SG.S
+2	.	.	PUNCT	_	_	1	punct	_	_
+

@@ -1,0 +1,309 @@
+# sent_id = On_a_daily_basis:1
+# text = Инъэ гым ныԓӄутигым.
+# text[phon] = inʔe ɣəm nəɬqutiɣəm
+# text[rus] = Утром я встаю.
+# text[eng] = I get up in the morning.
+# labels = complete-dep anno-fran
+1	Инъэ	_	NOUN	_	_	3	obl	_	Gloss=утро-INS
+2	гым	гым	PRON	_	_	3	nsubj	_	Gloss=я
+3	ныԓӄутигым	ӄутык	VERB	_	Valency=1	0	root	_	Gloss=ST-вставать-NP.1SG
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = On_a_daily_basis:2
+# text = Янот нычаёйгым.
+# text[phon] = janot nəsajojɣəm
+# text[rus] = Сначала пью чай.
+# text[eng] = First I drink tea.
+# labels = complete-dep anno-fran
+1	Янот	янот	ADV	_	_	2	advmod	_	Gloss=сначала
+2	нычаёйгым	чаёк	VERB	_	Valency=1	0	root	_	Gloss=ST-чай-EAT-NP.1SG
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = On_a_daily_basis:3
+# text = Ниԓгытэвигым ынкъам нывийгым нытапэтӈивым.
+# text[phon] = niɬɣətewiɣəm ənkʔam nəwijɣəm nətapetŋiwəm
+# text[rus] = Умываюсь, варю мясо и готовлю обед.
+# text[eng] = I wash up, cook meat and cook dinner.
+# labels = complete-dep anno-fran
+1	Ниԓгытэвигым	_	VERB	_	Valency=1	0	root	_	Gloss=ST-мыться-NP.1SG
+2	ынкъам	ынкъам	CCONJ	_	_	3	cc	_	Gloss=и
+3	нывийгым	_	VERB	_	Valency=2	1	conj	_	Gloss=ST-варить-NP.1SG
+4	нытапэтӈивым	_	VERB	_	Valency=1	1	conj	_	Gloss=ST-MAKE-обед-MAKE-NP.1SG
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = On_a_daily_basis:4
+# text = Ванэ мычавтракгъак.
+# text[phon] = wane məsawtrakɣʔak
+# text[rus] = Я не завтракаю.
+# text[eng] = I do not have breakfast.
+# labels = complete-dep anno-fran
+1	Ванэ	вак	AUX	_	_	2	aux	_	Gloss=NEG.NFUT
+2	мычавтракгъак	_	VERB	_	_	0	root	_	Gloss=1SG.S/A.SUBJ-завтрак-TH-1SG.S
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = On_a_daily_basis:5
+# text = Апэтыпԓыткокэ.
+# text[phon] = apetəpɬətkoke
+# text[rus] = После обеда…
+# text[eng] = After lunch…
+# labels = complete-dep anno-fran
+1-2	Апэтыпԓыткокэ	_	_	_	_	_	_	_	Gloss=обед-COMPL-LOC-=PTCL
+1	Апэтыпԓыткок	_	NOUN	_	_	0	root	_	Gloss=обед-COMPL-LOC
+2	э	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = On_a_daily_basis:6
+# text = Игытъым ванэ гым м мымигчирэтгъэк.
+# text[phon] = iɣətʔəm wane ɣəm m məmiɣsiretɣʔek
+# text[rus] = Я на данный момент не работаю.
+# text[eng] = I’m not currently working.
+# labels = complete-dep anno-fran
+1-2	Игытъым	_	_	_	_	_	_	_	Gloss=сегодня-=EMPH
+1	Игыт	_	ADV	_	_	6	advmod	_	Gloss=сегодня
+2	ъым	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	ванэ	вак	AUX	_	_	6	aux	_	Gloss=NEG.NFUT
+4	гым	гым	PRON	_	Case=Abs	6	nsubj	_	Gloss=я
+5	м	_	PART	_	_	4	advmod:emph	_	Gloss=EMPH
+6	мымигчирэтгъэк	_	VERB	_	_	0	root	_	Gloss=1SG.S/A.SUBJ-работа-VB-TH-1SG.S
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = On_a_daily_basis:7
+# text = Ныпэнчияйгым.
+# text[phon] = nəpensijajɣəm
+# text[rus] = Я на пенсии.
+# text[eng] = I’m retired.
+# labels = complete-dep anno-fran
+1	Ныпэнчияйгым	_	NOUN	_	Valency=1	0	root	_	Gloss=ST-пенсия-NP.1SG
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = On_a_daily_basis:8
+# text = Апэтыпԓыткокэ нотагты ныԓӄытивым эԓек.
+# text[phon] = apetəpɬətkoke notaɣtə nəɬqətiwəm eɬek
+# text[rus] = Летом после обеда я иду в тундру.
+# text[eng] = In the summer afternoon I go to the tundra.
+# labels = complete-dep anno-fran
+1-2	Апэтыпԓыткокэ	_	_	_	_	_	_	_	Gloss=обед-COMPL-LOC-=PTCL
+1	Апэтыпԓыткок	_	NOUN	_	_	4	advcl	_	Gloss=обед-COMPL-LOC
+2	э	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3	нотагты	нутэнут	NOUN	_	_	4	obl	_	Gloss=страна-DAT
+4	ныԓӄытивым	_	VERB	_	Valency=1	0	root	_	Gloss=ST-идти-NP.1SG
+5	эԓек	эԓек	NOUN	_	_	4	obl	_	Gloss=лето-LOC
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = On_a_daily_basis:9
+# text = Нуунъыгичийгым чама ныпъоӈгэԓейгым.
+# text[phon] = nuunʔəɣisijɣəm sama nəpʔoŋɣeɬejɣəm
+# text[rus] = Собираю ягоды и грибы.
+# text[eng] = I collect berries and mushrooms.
+# labels = complete-dep anno-fran
+1	Нуунъыгичийгым	_	VERB	_	Incorporated[obj]=Yes|Valency=1	0	root	0:root	Gloss=ST-ягода-собирать-NP.1SG
+1.1	уунъ	оонъыԓгын	NOUN	_	Incorporated=Yes	_	_	1:obj	Gloss=ягода
+2	чама	чама	ADV	_	_	3	advmod	3:advmod	Gloss=также
+3	ныпъоӈгэԓейгым	_	NOUN	_	Valency=1	1	parataxis	1:parataxis	Gloss=ST-гриб-SEARCH-NP.1SG
+4	.	.	PUNCT	_	_	1	punct	1:punct	_
+
+# sent_id = On_a_daily_basis:10
+# text = Нырагтэгым.
+# text[phon] = nəraɣteɣəm
+# text[rus] = Иду домой.
+# text[eng] = Then I go home.
+# labels = complete-dep anno-fran
+1	Нырагтэгым	_	VERB	_	Valency=1	0	root	_	Gloss=ST-жилище-GO.TO-NP.1SG
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = On_a_daily_basis:11
+# text = Ниԓгытэвивым нычаёйгым ныӄамэтвайгым нэмэ нывийгым воԓӄытвэӄамэтвак рооԓӄыԓ.
+# text[phon] = niɬɣətewiwəm nəsajojɣəm nəqametwajɣəm neme nəwijɣəm woɬqətweqametwak rooɬqəɬ
+# text[rus] = Умываюсь, пью чай, снова готовлю еду на вечер.
+# text[eng] = I wash up, drink tea, cook food again for the evening.
+# text[eng'] = I wash, drink tea, eat, again cook eating for when it becomes dark food.
+# labels = complete-dep anno-fran missing-lemma
+1	Ниԓгытэвивым	_	VERB	_	Valency=1	0	root	0:root	Gloss=ST-мыться-NP.1SG
+2	нычаёйгым	чаёк	VERB	_	Valency=1	1	parataxis	1:parataxis	Gloss=ST-чай-EAT-NP.1SG
+3	ныӄамэтвайгым	ӄамэтвак	VERB	_	Valency=1	1	parataxis	1:parataxis	Gloss=ST-есть-NP.1SG
+4	нэмэ	нэмэ	ADV	_	_	5	advmod	5:advmod	Gloss=опять
+5	нывийгым	_	VERB	_	Valency=2	1	parataxis	1:parataxis	Gloss=ST-варить-NP.1SG
+6	воԓӄытвэӄамэтвак	ӄамэтва	VERB	_	Incorporated[advcl]=Yes	5	dep	5:dep	Gloss=темнота-TRSF-есть-LOC
+6.1	воԓӄытвэ	воԓӄытвэ	VERB	_	Incorporated=Yes	_	_	6:advcl	Gloss=темнота-TRSF
+7	рооԓӄыԓ	рооԓӄыԓ	VERB	_	_	5	obj	5:obj	Gloss=есть-PTCP.PASS-DEB-NOM.SG
+8	.	.	PUNCT	_	_	1	punct	1:punct	_
+
+# sent_id = On_a_daily_basis:12
+# text = Уунъытэ.
+# text[phon] = uunʔəte
+# text[rus] = Ягоды…
+# text[eng] = Berries…
+# labels = complete-dep anno-fran
+1-2	Уунъытэ	_	_	_	_	_	_	_	Gloss=ягода-NOM.PL-=PTCL
+1	Уунъыт	оонъыԓгын	NOUN	_	_	0	root	_	Gloss=ягода-NOM.PL
+2	э	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = On_a_daily_basis:13
+# text = Ӈу нинэ нуй ӈуйӈуй нэ нэ нэнъупиратэвым.
+# text[phon] = ŋu nine nuj ŋujŋuj ne ne nenʔupiratewəm
+# text[rus] = Убираю мусор.
+# text[eng] = I clean garbage.
+# labels = complete-dep anno-fran
+1	Ӈу	Ӈу	X	_	_	4	reparandum	_	Gloss=FST
+2	нинэ	нинэ	X	_	_	4	reparandum	_	Gloss=FST
+3	нуй	нуй	X	_	_	4	reparandum	_	Gloss=FST
+4	ӈуйӈуй	ӈуйӈуй	NOUN	_	_	7	obj	_	Gloss=мусор-NOM.SG
+5	нэ	нэ	X	_	_	7	reparandum	_	Gloss=FST
+6	нэ	нэ	X	_	_	7	reparandum	_	Gloss=FST
+7	нэнъупиратэвым	_	VERB	_	Valency=2	0	root	_	Gloss=ST-INV-убирать-NP.1SG
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = On_a_daily_basis:14
+# text = Ынкъам пԓыткукъым натчьатэгым и ныйыԓӄэтигым.
+# text[phon] = ənkʔam pɬətkukʔəm natsʔateɣəm i nəjəɬqetiɣəm
+# text[rus] = И, закончив, ложусь спать.
+# text[eng] = And, having finished, I go to bed.
+# labels = complete-dep anno-fran
+1	Ынкъам	ынкъам	CCONJ	_	_	4	cc	_	Gloss=и
+2-3	пԓыткукъым	_	_	_	_	_	_	_	Gloss=закончить-LOC-=EMPH
+2	пԓыткук	_	VERB	_	_	4	advcl	_	Gloss=закончить-LOC
+3	ъым	ъм	PART	_	_	2	advmod:emph	_	Gloss=EMPH
+4	натчьатэгым	_	VERB	_	Valency=1	0	root	_	Gloss=ST-ложиться.спать-NP.1SG
+5	и	_	CCONJ	_	_	6	cc	_	Gloss=и
+6	ныйыԓӄэтигым	йыԓӄэтык	VERB	_	Valency=1	4	conj	_	Gloss=ST-спать-VB-NP.1SG
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = On_a_daily_basis:15
+# text = Ԓьэԓеӈкы пууръу нымигчирэтигым.
+# text[phon] = ɬʔeɬeŋkə puurʔu nəmiɣsiretiɣəm
+# text[rus] = А вот зимой я работаю.
+# text[eng] = But in the winter I work.
+# labels = complete-dep anno-fran valency
+1	Ԓьэԓеӈкы	_	NOUN	_	_	3	obl	_	Gloss=зима-LOC
+2	пууръу	_	ADV	_	_	3	advmod	_	Gloss=взамен
+3	нымигчирэтигым	_	VERB	_	Valency=1	0	root	_	Gloss=ST-работа-VB-NP.1SG
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = On_a_daily_basis:16
+# text = Ныԓӄутигым инъэ.
+# text[phon] = nəɬqutiɣəm inʔe
+# text[rus] = Встаю утром.
+# text[eng] = I get up in the morning.
+# labels = complete-dep anno-fran
+1	Ныԓӄутигым	ӄутык	VERB	_	Valency=1	0	root	_	Gloss=ST-вставать-NP.1SG
+2	инъэ	_	NOUN	_	_	1	obl	_	Gloss=утро-INS
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = On_a_daily_basis:17
+# text = Нычаёйгым.
+# text[phon] = nəsajojɣəm
+# text[rus] = Пью чай.
+# text[eng] = I drink tea.
+# labels = complete-dep anno-fran
+1	Нычаёйгым	чаёк	VERB	_	Valency=1	0	root	_	Gloss=ST-чай-EAT-NP.1SG
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = On_a_daily_basis:18
+# text = Мэгчерынвэты нытэнмавэвым ынкъам нымигчирэтысӄививым.
+# text[phon] = meɣserənwetə nətenmawewəm ənkʔam nəmiɣsiretəsqiwiwəm
+# text[rus] = Готовлюсь к работе и иду на работу.
+# text[eng] = I get ready for work and go to work.
+# labels = complete-dep anno-fran valency
+1	Мэгчерынвэты	_	NOUN	_	_	2	obl	_	Gloss=работа-NMN-DAT
+2	нытэнмавэвым	_	VERB	_	Valency=1	0	root	_	Gloss=ST-готовиться-NP.1SG
+3	ынкъам	ынкъам	CCONJ	_	_	4	cc	_	Gloss=и
+4	нымигчирэтысӄививым	_	VERB	_	Valency=1	2	conj	_	Gloss=ST-работа-VB-MCP-NP.1SG
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = On_a_daily_basis:19
+# text = Ынкы каԓеткорак нытэнъэткуйгым апэттагнэты.
+# text[phon] = ənkə kaɬetkorak nətenʔetkujɣəm apettaɣnetə
+# text[rus] = Там, в школе, я убираюсь до обеда.
+# text[eng] = There, at school, I clean before dinner.
+# labels = complete-dep anno-fran
+1	Ынкы	ынкы	PRON	_	_	3	obl	_	Gloss=тот-LOC
+2	каԓеткорак	каԓеткоран	NOUN	_	_	3	obl	_	Gloss=писать-ITER-жилище-LOC
+3	нытэнъэткуйгым	_	VERB	_	Valency=2	0	root	_	Gloss=ST-мыть-ITER-NP.1SG
+4	апэттагнэты	_	NOUN	_	_	3	obl	_	Gloss=обед-FRONT-DAT
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = On_a_daily_basis:20
+# text = Нырагтэгым напэтэгым.
+# text[phon] = nəraɣteɣəm napeteɣəm
+# text[rus] = Иду домой, обедаю.
+# text[eng] = Then I go home for lunch.
+# labels = complete-dep anno-fran valency
+1	Нырагтэгым	_	VERB	_	Valency=1	0	root	_	Gloss=ST-жилище-GO.TO-NP.1SG
+2	напэтэгым	_	VERB	_	Valency=1	1	parataxis	_	Gloss=ST-обед-NP.1SG
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = On_a_daily_basis:21
+# text = Апэтыпԓыткок нэмэ нымигчирысӄививым.
+# text[phon] = apetəpɬətkok neme nəmiɣsirəsqiwiwəm
+# text[rus] = После обеда снова иду на работу.
+# text[eng] = After lunch I go to work again.
+# labels = complete-dep anno-fran valency
+1	Апэтыпԓыткок	_	VERB	_	_	3	advcl	_	Gloss=обед-COMPL-LOC
+2	нэмэ	нэмэ	ADV	_	_	3	advmod	_	Gloss=опять
+3	нымигчирысӄививым	_	VERB	_	Valency=1	0	root	_	Gloss=ST-работа-MCP-NP.1SG
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = On_a_daily_basis:22
+# text = Ынкы нытэнъэткуйгым.
+# text[phon] = ənkə nətenʔetkujɣəm
+# text[rus] = Там я мою [полы].
+# text[eng] =  There I mop [floors].
+# labels = complete-dep anno-fran
+1	Ынкы	ынкы	PRON	_	_	2	obl	_	Gloss=тот-LOC
+2	нытэнъэткуйгым	_	VERB	_	Valency=2	0	root	_	Gloss=ST-мыть-ITER-NP.1SG
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = On_a_daily_basis:23
+# text = Ӈыраӄычьэты нырагтэгым.
+# text[phon] = ŋəraqəsʔetə nəraɣteɣəm
+# text[rus] = К четырём я иду домой.
+# text[eng] = I go home by four.
+# labels = complete-dep anno-fran
+1	Ӈыраӄычьэты	_	ADJ	_	_	2	obl	_	Gloss=четыре-ADJ-DAT
+2	нырагтэгым	_	VERB	_	Valency=1	0	root	_	Gloss=ST-жилище-GO.TO-NP.1SG
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = On_a_daily_basis:24
+# text = Ниԓгытэвивым ынкъам ярак нымигчирэтивым ч нытэнъэткуйгым чама нывийгым.
+# text[phon] = niɬɣətewiwəm ənkʔam jarak nəmiɣsiretiwəm s nətenʔetkujɣəm sama nəwijɣəm
+# text[rus] = Умываюсь и работаю дома, убираюсь и готовлю.
+# text[eng] = I wash up and work at home, clean and cook.
+# labels = complete-dep anno-fran valency
+1	Ниԓгытэвивым	_	VERB	_	Valency=1	0	root	_	Gloss=ST-мыться-NP.1SG
+2	ынкъам	ынкъам	CCONJ	_	_	4	cc	_	Gloss=и
+3	ярак	яраӈы	NOUN	_	_	4	obl	_	Gloss=яранга-LOC
+4	нымигчирэтивым	_	VERB	_	Valency=1	1	conj	_	Gloss=ST-работа-VB-NP.1SG
+5	ч	ч	X	_	_	6	reparandum	_	Gloss=FST
+6	нытэнъэткуйгым	_	VERB	_	Valency=2	4	parataxis	_	Gloss=ST-мыть-ITER-NP.1SG
+7	чама	чама	ADV	_	_	8	advmod	_	Gloss=также
+8	нывийгым	_	VERB	_	Valency=1	4	parataxis	_	Gloss=ST-варить-NP.1SG
+9	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = On_a_daily_basis:25
+# text = И имыръэнук имыръэнут ярак нинэтэйкивым чама нываӈэйгым.
+# text[phon] = i imərʔenuk imərʔenut jarak ninetejkiwəm sama nəwaŋejɣəm
+# text[rus] = Делаю разные дела по дому и шью.
+# text[eng] = I do all the housework and sew.
+# labels = complete-dep anno-fran valency
+1	И	_	CCONJ	_	_	5	cc	_	Gloss=и
+2	имыръэнук	имыръэнук	X	_	_	3	reparandum	_	Gloss=FST
+3	имыръэнут	имыръэнут	PRON	_	_	5	obj	_	Gloss=FC-что.NOM.SG
+4	ярак	яраӈы	NOUN	_	_	5	obl	_	Gloss=яранга-LOC
+5	нинэтэйкивым	_	VERB	_	Valency=2	0	root	_	Gloss=ST-INV-делать-NP.1SG
+6	чама	чама	ADV	_	_	7	advmod	_	Gloss=также
+7	нываӈэйгым	ваӈэк	VERB	_	Valency=1	5	parataxis	_	Gloss=ST-шить-NP.1SG
+8	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = On_a_daily_basis:26
+# text = Ынкъам мынгытычьэты натчьатэгым ныйыԓӄэтигым.
+# text[phon] = ənkʔam mənɣətəsʔetə natsʔateɣəm nəjəɬqetiɣəm
+# text[rus] = И к десяти ложусь спать.
+# text[eng] = And by ten I go to bed.
+# labels = complete-dep anno-fran
+1	Ынкъам	ынкъам	CCONJ	_	_	3	cc	_	Gloss=и
+2	мынгытычьэты	мынгытычьын	ADJ	_	_	3	obl	_	Gloss=десять-ADJ-DAT
+3	натчьатэгым	_	VERB	_	Valency=1	0	root	_	Gloss=ST-ложиться.спать-NP.1SG
+4	ныйыԓӄэтигым	йыԓӄэтык	VERB	_	Valency=1	3	parataxis	_	Gloss=ST-спать-VB-NP.1SG
+5	.	.	PUNCT	_	_	3	punct	_	_
+

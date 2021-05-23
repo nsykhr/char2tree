@@ -1,0 +1,248 @@
+# sent_id = Bouillon_with_crushed_bones:1
+# text = Торкаԓеткопааԓьэвым.
+# text[phon] = torkaɬetkopaaɬʔewəm
+# text[rus] = Я тогда только закончила учиться.
+# text[eng] = I had just finished school.
+# labels = complete-dep anno-fran
+1	Торкаԓеткопааԓьэвым	паак	VERB	_	Incorporated[obj]=Yes	0	root	0:root	Gloss=IMM-писать-ITER-переставать-ATTR-NP.1SG
+1.1	каԓетко	каԓеткоран	NOUN	_	Incorporated=Yes	_	_	1:obj	Gloss=писать-ITER,школа
+2	.	.	PUNCT	_	_	1	punct	1:punct	_
+
+# sent_id = Bouillon_with_crushed_bones:2
+# text = Тыта тытаԓяпԓытконат ръэнутэт а.
+# text[phon] = təta tətaɬapɬətkonat rʔenutet а
+# text[rus] = Закончила дробить это, как его... А?
+# text[eng] = Finished crushing them, what is that...
+# labels = complete-dep anno-fran
+1	Тыта	Тыта	X	_	_	2	reparandum	_	Gloss=FST
+2	тытаԓяпԓытконат	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-ударять-COMPL-3SG.O-PL
+3	ръэнутэт	ръэнутэт	PRON	_	PronType=Int	2	parataxis	_	Gloss=что.NOM.SG-PL
+4	а	_	X	_	_	3	parataxis	_	Gloss=
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Bouillon_with_crushed_bones:3
+# text = Ыʼттъымыт таԓяпԓыткогъэ.
+# text[phon] = ʔəttʔəmət taɬapɬətkoɣʔe
+# text[rus] = NNN: Кости ты закончила дробить.
+# text[eng] = NNN: You finished crushing the bones.
+# labels = complete-dep anno-fran
+1	Ыʼттъымыт	ыʼттъым	NOUN	_	_	2	obj	_	Gloss=кость-NOM.PL
+2	таԓяпԓыткогъэ	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-ударять-COMPL-TH-2/3SG.S
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Bouillon_with_crushed_bones:4
+# text = А та тытаԓяпԓытконат ыʼттъымыт.
+# text[phon] = а ta tətaɬapɬətkonat ʔəttʔəmət
+# text[rus] = Я закончила дробить кости.
+# text[eng] = I finished crushing the bones.
+# labels = complete-dep anno-fran
+1	А	_	INTJ	_	_	3	discourse	_	Gloss=
+2	та	та	X	_	_	3	reparandum	_	Gloss=FST
+3	тытаԓяпԓытконат	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-ударять-COMPL-3SG.O-PL
+4	ыʼттъымыт	ыʼттъым	NOUN	_	_	3	obj	_	Gloss=кость-NOM.PL
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Bouillon_with_crushed_bones:5
+# text = Кэԓеӈынэ ынӄэн ынпыӈэвӄэй гымнин Кэԓеӈынэ нэнамӈыԓёйгым.
+# text[phon] = keɬeŋəne ənqen ənpəŋewqej ɣəmnin keɬeŋəne nenamŋəɬojɣəm
+# text[rus] = Спрашиваю Келенгыне — это бабушка моя.
+# text[eng] = I ask Kelengyne, that is my grandmother.
+# labels = complete-dep anno-karina
+1	Кэԓеӈынэ	Кэԓеӈынэ	PROPN	_	_	6	obj	_	Gloss=Келенгыне-NOM.SG
+2	ынӄэн	ынӄэн	DET	_	_	1	det	_	Gloss=DET
+3	ынпыӈэвӄэй	ынпыӈэвӄэй	NOUN	_	_	1	acl	_	Gloss=старый-FEM-DIM-NOM.SG
+4	гымнин	_	PRON	_	_	3	nmod:poss	_	Gloss=я-AN.GEN
+5	Кэԓеӈынэ	Кэԓеӈынэ	PROPN	_	_	1	reparandum	_	Gloss=Келенгыне-NOM.SG
+6	нэнамӈыԓёйгым	_	VERB	_	Valency=2	0	root	_	Gloss=ST-INV-спрашивать-NP.1SG
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Bouillon_with_crushed_bones:6
+# text = Эм тыта таԓяпԓыткоэʼ тытаԓяпԓыткоаʼ.
+# text[phon] = эм təta taɬapɬətkoʔe tətaɬapɬətkoʔa
+# text[rus] = «Я закончила дробить кости».
+# text[eng] = «I finished crushing the bones.»
+# labels = complete-dep anno-fran
+1	Эм	_	INTJ	_	_	4	discourse	_	Gloss=
+2	тыта	тыта	X	_	_	4	reparandum	_	Gloss=FST
+3	таԓяпԓыткоэʼ	_	VERB	_	_	4	reparandum	_	Gloss=2/3.S/A-ударять-COMPL-TH-2/3SG.S
+4	тытаԓяпԓыткоаʼ	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-ударять-COMPL-TH
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Bouillon_with_crushed_bones:7
+# text = Нивӄин ӄы ӄытаԓяпатгэ.
+# text[phon] = niwqin qə qətaɬapatɣe
+# text[rus] = Она говорит: «Поставь вариться».
+# text[eng] = She says: «Cook them.»
+# labels = complete-dep anno-fran
+1	Нивӄин	ивык	VERB	_	Valency=2	0	root	_	Gloss=ST-сказать-ST.3SG
+2	ӄы	ӄы	X	_	_	3	reparandum	_	Gloss=FST
+3	ӄытаԓяпатгэ	таԓяпатык	VERB	_	_	1	parataxis:speech	_	Gloss=2.S/A.SUBJ-ударять-варить-IRR-2/3SG.S
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Bouillon_with_crushed_bones:8
+# text = Ну ынӄэнэ тынпыэʼн таԓяпат.
+# text[phon] = ну ənqene tənpəʔen taɬapat
+# text[rus] = Я повесила (на крюк над огнём) бульон.
+# text[eng] = I hanged the (pot with) broth (on the hook above the fire).
+# labels = complete-dep anno-karina
+1	Ну	_	X	_	_	4	discourse	_	Gloss=
+2-3	ынӄэнэ	_	_	_	_	_	_	_	Gloss=DET-=PTCL
+2	ынӄэн	_	DET	_	_	4	discourse	_	Gloss=DET
+3	э	а	PART	_	_	2	advmod:emph	_	Gloss=PTCL
+4	тынпыэʼн	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-вешать-TH-3SG.O
+5	таԓяпат	таԓяпат	NOUN	_	_	4	obj	_	Gloss=ударять-варить-NOM.SG
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Bouillon_with_crushed_bones:9
+# text = Нывинтивым чама ынӄэн ԓгипыгыпгэтыԓьэтӄин таԓяпат.
+# text[phon] = nəwintiwəm sama ənqen ɬɣipəɣəpɣetəɬʔetqin taɬapat
+# text[rus] = Подбрасываю дров в костёр, и сильно кипит похлёбка из толчёной кости.
+# text[eng] = I put some wood into the fire and the bones broth is boiling.
+# labels = complete-dep anno-karina
+1	Нывинтивым	_	VERB	_	Valency=1	0	root	_	Gloss=ST-подбрасывать.дрова.в.огонь-NP.1SG
+2	чама	чама	ADV	_	_	1	advmod	_	Gloss=также
+3	ынӄэн	ынӄэн	DET	_	_	1	discourse	_	Gloss=DET
+4	ԓгипыгыпгэтыԓьэтӄин	_	VERB	_	Valency=1	1	parataxis	_	Gloss=INTS-кипеть-PLAC-ST.3SG
+5	таԓяпат	таԓяпат	NOUN	_	_	4	nsubj	_	Gloss=ударять-варить-NOM.SG
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Bouillon_with_crushed_bones:10
+# text = Оʼтчой ныпыгыпгэтыԓьэтӄин нинивигым.
+# text[phon] = ʔotsoj nəpəɣəpɣetəɬʔetqin niniwiɣəm
+# text[rus] = Долго кипит, я говорю:
+# text[eng] = It has been boiling for a long time and I say:
+# labels = complete-dep anno-fran
+1	Оʼтчой	_	ADV	_	_	2	advmod	_	Gloss=долго
+2	ныпыгыпгэтыԓьэтӄин	_	VERB	_	Valency=1	0	root	_	Gloss=ST-кипеть-PLAC-ST.3SG
+3	нинивигым	_	VERB	_	Valency=2	2	parataxis	_	Gloss=ST-INV-сказать-NP.1SG
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Bouillon_with_crushed_bones:11
+# text = Вынэ эпэӄэй ынӄэнэ таԓяпат оʼтчой ԓгипыгыпгэттыԓеэркын.
+# text[phon] = wəne epeqej ənqene taɬapat ʔotsoj ɬɣipəɣəpɣettəɬeerkən
+# text[rus] = «Послушай, бабушка, что-то долго кипит этот бульон из толчёных костей!».
+# text[eng] = «Listen, grandmother, the bones broth has been boiling for a long time!»
+# labels = complete-dep anno-karina
+1	Вынэ	вынэ	PART	_	_	2	discourse	_	Gloss=ну.ка
+2	эпэӄэй	эпэӄэй	NOUN	_	_	7	vocative	_	Gloss=бабушка-NOM.SG
+3-4	ынӄэнэ	_	_	_	_	_	_	_	Gloss=DET-=PTCL
+3	ынӄэн	_	DET	_	_	7	discourse	_	Gloss=DET
+4	э	а	PART	_	_	3	advmod:emph	_	Gloss=PTCL
+5	таԓяпат	таԓяпат	NOUN	_	_	7	nsubj	_	Gloss=ударять-варить-NOM.SG
+6	оʼтчой	_	ADV	_	_	7	advmod	_	Gloss=долго
+7	ԓгипыгыпгэттыԓеэркын	_	VERB	_	Valency=1	0	root	_	Gloss=2/3.S/A-INTS-кипеть-GRAD-VB-IPFV
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = Bouillon_with_crushed_bones:12
+# text = А ӄынгэргэквынъым.
+# text[phon] = а qənɣerɣekwənʔəm
+# text[rus] = «А ты разозли его!».
+# text[eng] = «Make it angry!»
+# labels = complete-dep anno-fran
+1	А	_	INTJ	_	_	2	discourse	_	Gloss=
+2-3	ӄынгэргэквынъым	_	_	_	_	_	_	_	Gloss=2.S/A.SUBJ-TR-злиться-CS-IRR-NOM.SG-=EMPH
+2	ӄынгэргэквын	ӄынгэргэквынъым	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-TR-злиться-CS-IRR-2/3SG.S|ModifiedGloss=Yes
+3	ъым	ъм	PART	_	_	2	advmod:emph	_	Gloss=EMPH
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Bouillon_with_crushed_bones:13
+# text = Оʼтчой нывакъотвайгым н нычимгъуйгым.
+# text[phon] = ʔotsoj nəwakʔotwajɣəm n nəsimɣʔujɣəm
+# text[rus] = Долго я сидела и думала.
+# text[eng] = I was sitting there and thinking for a long time.
+# labels = complete-dep anno-fran
+1	Оʼтчой	_	ADV	_	_	2	advmod	_	Gloss=долго
+2	нывакъотвайгым	_	VERB	_	Valency=1	0	root	_	Gloss=ST-садиться-RES-NP.1SG
+3	н	н	X	_	_	4	reparandum	_	Gloss=FST
+4	нычимгъуйгым	чимгъук	VERB	_	Valency=2	2	parataxis	_	Gloss=ST-думать-NP.1SG
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Bouillon_with_crushed_bones:14
+# text = Кытвыԓӄун миӈкыри мынгэргэвын.
+# text[phon] = kətwəɬqun miŋkəri mənɣerɣewən
+# text[rus] = «Как же мне его разозлить?».
+# text[eng] = «How on earth can I make it angry?»
+# labels = complete-dep anno-fran
+1	Кытвыԓӄун	_	PART	_	_	3	discourse	_	Gloss=умудряться
+2	миӈкыри	миӈкыри	ADV	_	_	3	advmod	_	Gloss=где-LOC-ADV.ALL
+3	мынгэргэвын	_	VERB	_	_	0	root	_	Gloss=1SG.S/A.SUBJ-TR-злиться-CS-3SG.O
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Bouillon_with_crushed_bones:15
+# text = Эмӄэԓеԓвынэ нивигым этъым мыӄэпԓюгъэн.
+# text[phon] = emqeɬeɬwəne niwiɣəm etʔəm məqepɬuɣʔen
+# text[rus] = Думаю про себя: «Пнуть его, что ли?».
+# text[eng] = I say to myself: «Should I kick it or what?»
+# labels = complete-dep anno-fran
+1	Эмӄэԓеԓвынэ	_	PRON	_	PronType=Pers|Reflex=Yes	2	obl	_	Gloss=про.себя
+2	нивигым	_	VERB	_	Valency=2	0	root	_	Gloss=ST-сказать-NP.1SG
+3-4	этъым	_	_	_	_	_	_	_	Gloss=наверное-=EMPH
+3	эт	_	ADV	_	_	5	advmod	_	Gloss=наверное
+4	ъым	ъм	PART	_	_	3	advmod:emph	_	Gloss=EMPH
+5	мыӄэпԓюгъэн	ӄэпԓюк	VERB	_	_	2	parataxis:speech	_	Gloss=1SG.S/A.SUBJ-пинать-TH-3SG.O
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Bouillon_with_crushed_bones:16
+# text = Н уттытъуԓӄэгти ни ни пэнъёԓгычыко нэнаёйгым.
+# text[phon] = n uttətʔuɬqeɣti ni ni penjoɬɣəsəko nenajojɣəm
+# text[rus] = Маленькие веточки кладу в костёр.
+# text[eng] = I put tiny branches into the fire.
+# labels = complete-dep anno-fran
+1	Н	Н	X	_	_	2	reparandum	_	Gloss=FST
+2	уттытъуԓӄэгти	_	NOUN	_	_	6	obj	_	Gloss=дерево-PIECE-DIM-NOM.PL
+3	ни	ни	X	_	_	5	reparandum	_	Gloss=FST
+4	ни	ни	X	_	_	5	reparandum	_	Gloss=FST
+5	пэнъёԓгычыко	пэнъёԓгын	NOUN	_	_	6	obl	_	Gloss=костёр-IN
+6	нэнаёйгым	_	VERB	_	Valency=2	0	root	_	Gloss=ST-INV-класть-NP.1SG
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Bouillon_with_crushed_bones:17
+# text = Ӄынвэт ынпыӈэвӄэй нэнамӈыԓёйгым.
+# text[phon] = qənwet ənpəŋewqej nenamŋəɬojɣəm
+# text[rus] = Наконец, спрашиваю бабушку:
+# text[eng] = Finally, I ask my grandmother:
+# labels = complete-dep anno-fran
+1	Ӄынвэт	ӄынвэт	ADV	_	_	3	advmod	_	Gloss=наконец
+2	ынпыӈэвӄэй	ынпыӈэвӄэй	NOUN	_	_	3	obj	_	Gloss=старый-FEM-DIM-NOM.SG
+3	нэнамӈыԓёйгым	_	VERB	_	Valency=2	0	root	_	Gloss=ST-INV-спрашивать-NP.1SG
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Bouillon_with_crushed_bones:18
+# text = Эпэӄэй эты мыӄэпԓюгъэн что ли.
+# text[phon] = epeqej etə məqepɬuɣʔen что ли
+# text[rus] = «Бабушка, мне пнуть его что ли?».
+# text[eng] = «Granny, should I kick it or what?»
+# labels = complete-dep anno-fran
+1	Эпэӄэй	Эпэӄэй	NOUN	_	_	3	vocative	_	Gloss=бабушка-NOM.SG
+2	эты	эты	ADV	_	_	3	advmod	_	Gloss=наверное
+3	мыӄэпԓюгъэн	ӄэпԓюк	VERB	_	_	0	root	_	Gloss=1SG.S/A.SUBJ-пинать-TH-3SG.O
+4	что	_	X	_	_	3	discourse	_	Gloss=
+5	ли	_	X	_	_	4	flat:foreign	_	Gloss=
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Bouillon_with_crushed_bones:19
+# text = Ӄоԓьым нытэнӈыткуӄин аны ванэ ӄъыԓтыёгэ.
+# text[phon] = qoɬʔəm nətenŋətkuqin anə wane qʔəɬtəjoɣe
+# text[rus] = Она смеётся: «Да не, снег положи.
+# text[eng] = She laughs: «No, just put some snow in it.
+# labels = complete-dep anno-fran subject-checked-karina
+1-2	Ӄоԓьым	_	_	_	_	_	_	_	Gloss=некий-=EMPH
+1	Ӄоԓ	_	PRON	_	_	3	nsubj	3:nsubj	Gloss=некий
+2	ьым	ъм	PART	_	_	1	advmod:emph	1:advmod:emph	Gloss=EMPH
+3	нытэнӈыткуӄин	тэнӈыткук	VERB	_	Valency=1	0	root	0:root	Gloss=ST-смеяться-ITER-ST.3SG
+4	аны	аны	ADV	_	_	6	advmod	6:advmod	Gloss=давай
+5	ванэ	вак	PART	_	_	4	flat	4:flat	Gloss=NEG.NFUT
+6	ӄъыԓтыёгэ	_	VERB	_	Incorporated[obj]=Yes	3	parataxis	3:parataxis	Gloss=2.S/A.SUBJ-снег-класть-IRR-2/3SG.S|SpaceAfter=No
+6.1	ъыԓ	ыʼԓьыԓ	NOUN	_	Incorporated=Yes	_	_	6:obj	Gloss=снег
+7	.	.	PUNCT	_	_	3	punct	3:punct	_
+
+# sent_id = Bouillon_with_crushed_bones:20
+# text = Ынӈэ эӄэпԓюкэ.
+# text[phon] = ənŋe eqepɬuke
+# text[rus] = Не надо пинать».
+# text[eng] = Do not kick it.»
+# labels = complete-dep anno-fran
+1	Ынӈэ	ынӈэ	AUX	_	_	2	aux	_	Gloss=PROH
+2	эӄэпԓюкэ	_	VERB	_	_	0	root	_	Gloss=CAR-пинать-CAR-INS
+3	.	.	PUNCT	_	_	2	punct	_	_
+

@@ -1,0 +1,347 @@
+# sent_id = Ice_Age:1
+# text = Ынпыӈэвӄэй Кымъыӈэӄэйъымэ Ԓетынтагравнэн ытԓьаӄай ԓгитэԓенъепкинэ ԓыгэн ԓгиынпыӈэвӄэй аръаԓя.
+# text[phon] = ənpəŋewqej kəmʔəŋeqejʔəme ɬetəntaɣrawnen ətɬʔaqaj ɬɣiteɬenjepkine ɬəɣen ɬɣiənpəŋewqej arʔaɬa
+# text[rus] = Давным-давно старушка Кымъынэкэй, мать Лэтынтаграва, прямо совсем старушка…
+# text[eng] = Long ago, the old woman Kymyneqej, the mother of Letyntagraw, really an old woman…
+# timestamp = 00:00:00
+# labels = complete-dep anno-fran
+1	Ынпыӈэвӄэй	Ынпыӈэвӄэй	ADJ	_	_	2	amod	_	Gloss=старый-FEM-DIM-NOM.SG
+2-4	Кымъыӈэӄэйъымэ	_	_	_	_	_	_	_	Gloss=Кымъынэ-DIM-NOM.SG-=EMPH-=PTCL
+2	Кымъыӈэӄэй	Кымъыӈэӄэй	PROPN	_	_	0	root	_	Gloss=Кымъынэ-DIM-NOM.SG
+3	ъым	ъм	PART	_	_	2	advmod:emph	_	Gloss=EMPH
+4	э	а	PART	_	_	2	advmod:emph	_	Gloss=PTCL
+5	Ԓетынтагравнэн	_	PROPN	_	_	6	nmod:poss	_	Gloss=Лэтынтаграв-AN.GEN
+6	ытԓьаӄай	ытԓьаӄай	NOUN	_	_	2	appos	_	Gloss=мать-DIM-NOM.SG
+7-8	ԓгитэԓенъепкинэ	_	_	_	_	_	_	_	Gloss=INTS-раньше-ещё-REL-=PTCL
+7	ԓгитэԓенъепкин	_	ADV	_	_	2	nmod:relat	_	Gloss=INTS-раньше-ещё-REL
+8	э	а	PART	_	_	7	advmod:emph	_	Gloss=PTCL
+9	ԓыгэн	ԓыгэн	ADV	_	_	10	advmod	_	Gloss=просто
+10	ԓгиынпыӈэвӄэй	ԓгиынпыӈэвӄэй	ADJ	_	_	2	appos	_	Gloss=INTS-старый-FEM-DIM-NOM.SG
+11	аръаԓя	аръаԓя	ADV	_	_	10	advmod	_	Gloss=очень
+12	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Ice_Age:2
+# text = Купрэткумуриӈэ ямгагытгыкъым рээн ӈоонӄо Ваӈӄарэмак ӄача кынмаӈӄакъым.
+# text[phon] = kupretkumuriŋe jamɣaɣətɣəkʔəm reen ŋoonqo waŋqaremak qasa kənmaŋqakʔəm
+# text[rus] = Мы рыбачили сеткой на озёрах, и оттуда дальше, возле Ванкарема, в лагуне.
+# text[eng] = We fished with a net on the lakes, there further as well, near Vankarem, in the lagoon.
+# timestamp = 00:00:08
+# labels = complete-dep anno-fran
+1-2	Купрэткумуриӈэ	_	_	_	_	_	_	_	Gloss=сеть-ITER-NP.1PL-=PTCL
+1	Купрэткумури	купрэткук	VERB	_	_	0	root	_	Gloss=сеть-ITER-NP.1PL
+2	ӈэ	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3-4	ямгагытгыкъым	_	_	_	_	_	_	_	Gloss=EVERY-озеро-LOC-=EMPH
+3	ямгагытгык	_	NOUN	_	_	1	obl	_	Gloss=EVERY-озеро-LOC
+4	ъым	ъм	PART	_	_	3	advmod:emph	_	Gloss=EMPH
+5	рээн	_	ADP	_	_	3	case	_	Gloss=вместе.с.этим
+6	ӈоонӄо	_	ADV	_	_	1	advmod	_	Gloss=там-ADV.ABL
+7	Ваӈӄарэмак	Ваӈӄарэма	PROPN	_	_	1	obl	_	Gloss=Ванкарем-LOC
+8	ӄача	ӄача	ADP	_	_	7	case	_	Gloss=около
+9-10	кынмаӈӄакъым	_	_	_	_	_	_	_	Gloss=лагуна-LOC-=EMPH
+9	кынмаӈӄак	кынмаӈӄы	NOUN	_	_	1	obl	_	Gloss=лагуна-LOC
+10	ъым	ъм	PART	_	_	9	advmod:emph	_	Gloss=EMPH
+11	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Ice_Age:3
+# text = Нэкэм вай ынӄоӈэ ваӈӄарэмараӄаеквэйпыӈэ таӈъора выквыткойӈыт ынӈин вэтԓяквыткойӈыт ваԓьытъымэ.
+# text[phon] = nekem waj ənqoŋe waŋqaremaraqajekwejpəŋe taŋʔora wəkwətkojŋət ənŋin wetɬakwətkojŋət waɬʔətʔəme
+# text[rus] = И оттуда вот особенно, с Ванкаремской гряды холмов, хорошо видны большие скалистые горы (сопки), вот такие вот отвесные.
+# text[eng] = And especially from there, from the Vankarem ridge of hills, large rocky mountains (hills) are clearly visible, such precipitous ones.
+# timestamp = 00:00:14
+# labels = complete-dep anno-fran 
+1	Нэкэм	нэкэм	ADV	_	_	3	advmod	_	Gloss=особенно
+2	вай	вай	ADV	_	_	3	advmod	_	Gloss=вот
+3-4	ынӄоӈэ	_	_	_	_	_	_	_	Gloss=оттуда-=PTCL
+3	ынӄо	_	ADV	_	_	0	root	_	Gloss=оттуда
+4	ӈэ	а	PART	_	_	3	advmod:emph	_	Gloss=PTCL
+5-7	ваӈӄарэмараӄаеквэйпыӈэ	_	_	_	_	_	_	_	Gloss=Ванкарем-грань-EXT-ABL-=PTCL
+5	ваӈӄарэма	Ваӈӄарэма	PROPN	_	_	6	nmod	_	Gloss=Ванкарем
+6	раӄаеквэйпы	рэӄэрэӄ	NOUN	_	_	3	parataxis	_	Gloss=грань-EXT-ABL
+7	ӈэ	а	PART	_	_	6	advmod:emph	_	Gloss=PTCL
+8	таӈъора	_	ADV	_	_	9	dep	_	Gloss=GOOD-открытый-AD
+9	выквыткойӈыт	_	NOUN	_	_	3	parataxis	_	Gloss=камень-NUMBER-AUG-NOM.PL
+10	ынӈин	ынӈин	ADV	_	_	12	advmod	_	Gloss=так
+11-12	вэтԓяквыткойӈыт	_	_	_	_	_	_	_	Gloss=вертикальный-камень-NUMBER-AUG-NOM.PL
+11	вэтԓя	_	ADJ	_	_	12	amod	_	Gloss=вертикальный
+12	квыткойӈыт	выкв	NOUN	_	_	3	parataxis	_	Gloss=камень-NUMBER-AUG-NOM.PL
+13-15	ваԓьытъымэ	_	_	_	_	_	_	_	Gloss=быть-ATTR-NOM.PL-=EMPH-=PTCL|SpaceAfter=No
+13	ваԓьыт	_	AUX	_	_	12	discourse	_	Gloss=быть-ATTR-NOM.PL
+14	ъым	ъм	PART	_	_	13	advmod:emph	_	Gloss=EMPH
+15	э	а	PART	_	_	13	advmod:emph	_	Gloss=PTCL
+16	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Ice_Age:4
+# text = Нивӄинэ.
+# text[phon] = niwqine
+# text[rus] = Рассказывала [старушка Кымъынэкэй]:
+# text[eng] = [The old woman Kymyneqej] told:
+# timestamp = 00:00:24
+# labels = complete-dep anno-fran
+1-2	Нивӄинэ	_	_	_	_	_	_	_	Gloss=ST-сказать-ST.3SG-=PTCL
+1	Нивӄин	_	VERB	_	Valency=2	0	root	_	Gloss=ST-сказать-ST.3SG
+2	э	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Ice_Age:5
+# text = Ӈанӄаатъым ӄынут ӈанэ ӄытԓыги тэԓенъепэ тыԓеԓьытэ миӈкы имԓетгынтэвыԓьыт ӄэԓюӄъымэ ӈанӄэ чит таӈымыԓьэтыӈа ӈотӄэн нутэнут мургин мимԓычыку ваԓьын.
+# text[phon] = ŋanqaatʔəm qənut ŋane qətɬəɣi teɬenjepe təɬeɬʔəte miŋkə imɬetɣəntewəɬʔət qeɬuqʔəme ŋanqe sit taŋəməɬʔetəŋa ŋotqen nutenut murɣin mimɬəsəku waɬʔən
+# text[rus] = Вон те [скалы], как там, оказывается, как люди, которые шли, убегали от наводнения, потому что раньше эта земля наша, полностью была под водой.
+# text[eng] = Those [rocks] as there, as it turns out, are as people that were walking, were running away from the flood because earlier this land of ours was completely under water.
+# comment = Нет уверенности, что там действительно произнесено слово miŋkə. В слове mimɬəsəku на месте ɬ звучит [s].
+# labels = complete-dep anno-karina
+1-2	Ӈанӄаатъым	_	_	_	_	_	_	_	Gloss=тот-NOM.PL-=EMPH
+1	Ӈанӄаат	_	PRON	_	_	4	nsubj	4:nsubj	Gloss=тот-NOM.PL
+2	ъым	ъм	PART	_	_	1	advmod:emph	1:advmod:emph	Gloss=EMPH
+3	ӄынут	ӄынут	ADV	_	_	4	advmod	4:advmod	Gloss=как
+4-5	ӈанэ	_	_	_	_	_	_	_	Gloss=DEICT-=PTCL
+4	ӈан	_	ADV	_	_	0	root	0:root	Gloss=DEICT
+5	э	а	PART	_	_	4	advmod:emph	4:advmod:emph	Gloss=PTCL
+6	ӄытԓыги	_	ADV	_	_	4	discourse	4:discourse	Gloss=оказывается
+7-8	тэԓенъепэ	_	_	_	_	_	_	_	Gloss=раньше-ещё-=PTCL
+7	тэԓенъеп	ADV	ADV	_	_	9	advmod	9:advmod	Gloss=раньше-ещё
+8	э	а	PART	_	_	7	advmod:emph	7:advmod:emph	Gloss=PTCL
+9-10	тыԓеԓьытэ	_	_	_	_	_	_	_	Gloss=идти-ATTR-NOM.PL-=PTCL
+9	тыԓеԓьыт	_	VERB	_	Valency=1	4	acl	4:acl	Gloss=идти-ATTR-NOM.PL
+10	э	а	PART	_	_	9	advmod:emph	9:advmod:emph	Gloss=PTCL
+11	миӈкы	миӈкы	ADV	_	_	12	advmod	12:advmod	Gloss=где-LOC
+12	имԓетгынтэвыԓьыт	_	VERB	_	Incorporated[obj]=Yes|Valency=1	9	advcl	9:advcl	Gloss=вода-VB-убегать-ATTR-NOM.PL
+12.1	имԓ	_	NOUN	_	Incorporated=Yes	_	_	12:obj	Gloss=вода
+13-15	ӄэԓюӄъымэ	_	_	_	_	_	_	_	Gloss=конечно-=EMPH-=PTCL
+13	ӄэԓюӄ	_	ADV	_	_	12	discourse	12:discourse	Gloss=конечно
+14	ъым	ъм	PART	_	_	13	advmod:emph	12:advmod:emph	Gloss=EMPH
+15	э	а	PART	_	_	13	advmod:emph	13:advmod:emph	Gloss=PTCL
+16	ӈанӄэ	_	PRON	_	_	4	dep	4:dep	Gloss=тот.нер.изм.
+17	чит	чит	AUX	_	_	16	cop	16:cop	Gloss=было
+18-19	таӈымыԓьэтыӈа	_	_	_	_	_	_	_	Gloss=GOOD-весь-DAT-=PTCL
+18	таӈымыԓьэты	PRON	PRON	_	_	21	nmod	21:nmod	Gloss=GOOD-весь-DAT
+19	ӈа	а	PART	_	_	18	advmod:emph	18:advmod:emph	Gloss=PTCL
+20	ӈотӄэн	ӈотӄэн	PRON	_	_	21	det	21:det	Gloss=этот
+21	нутэнут	нутэнут	NOUN	_	_	23	nsubj	23:nsubj	Gloss=страна-NOM.SG
+22	мургин	_	PRON	_	_	21	nmod:poss	21:nmod:poss	Gloss=мы-GEN
+23	мимԓычыку	мимԓычыкукин	NOUN	_	_	12	advcl	12:advcl	Gloss=вода-IN
+24	ваԓьын	ваԓьын	AUX	_	_	23	aux	23:aux	Gloss=быть-ATTR-NOM.SG
+25	.	.	PUNCT	_	_	4	punct	4:punct	_
+
+# sent_id = Ice_Age:6
+# text = Ынкъамэ ынӄэна.
+# text[phon] = ənkʔame ənqena
+# text[rus] = Потом это…
+# text[eng] = Then um…
+# labels = complete-dep anno-fran reattached-clitic
+1-2	Ынкъамэ	_	_	_	_	_	_	_	Gloss=и-=PTCL
+1	Ынкъам	_	CCONJ	_	_	3	cc	_	Gloss=и
+2	э	а	PART	_	_	3	advmod:emph	_	Gloss=PTCL
+3-4	ынӄэна	_	_	_	_	_	_	_	Gloss=DET-=PTCL
+3	ынӄэн	ынӄэна	PRON	_	_	0	root	_	Gloss=DET
+4	а	а	PART	_	_	3	advmod:emph	_	Gloss=PTCL
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Ice_Age:7
+# text = Имԓетгынтэвъыма амноӈэты рэмкына тэӈыръиԓеԓьэтӄинэ гынтэвтыԓеӄинэт.
+# text[phon] = imɬetɣəntewʔəma amnoŋetə remkəna teŋərʔiɬeɬʔetqine ɣəntewtəɬeqinet
+# text[rus] = Спасаясь от наводнения, люди в тундру очень быстро уходили.
+# text[eng] = Running away from the flood, people very quickly went to the tundra.
+# text[eng'] = Fleeing the water to the tundra the people racing fleeing went.
+# labels = complete-dep anno-fran missing-ptcl
+1-2	Имԓетгынтэвъыма	_	_	_	_	_	_	_	Gloss=вода-VB-убегать-SIM-=EMPH
+1	Имԓетгынтэв	_	VERB	_	Incorporated[obj]=Yes	8	advcl	8:advcl	Gloss=вода-VB-убегать-SIM
+1.1	имԓ	мимыԓ	NOUN	_	Incorporated=Yes	_	_	1:obj	Gloss=вода
+2	ъыма	ъм	PART	_	_	1	advmod:emph	1:advmod:emph	Gloss=EMPH
+3	амноӈэты	эмнуӈ	NOUN	_	_	8	obl	8:obl	Gloss=тундра-DAT
+4-5	рэмкына	_	_	_	_	_	_	_	Gloss=народ-NOM.SG-=PTCL
+4	рэмкын	рэмкына	NOUN	_	_	8	nsubj	8:nsubj	Gloss=народ-NOM.SG
+5	а	а	PART	_	_	4	advmod:emph	4:advmod:emph	Gloss=PTCL
+6-7	тэӈыръиԓеԓьэтӄинэ	_	_	_	_	_	_	_	Gloss=GOOD-участвовать.в.гонках-PLAC-ST.3SG-=PTCL
+6	тэӈыръиԓеԓьэтӄин	_	VERB	_	_	8	advcl	8:advcl	Gloss=GOOD-участвовать.в.гонках-PLAC-ST.3SG
+7	э	а	PART	_	_	6	advmod:emph	6:advmod:emph	Gloss=PTCL
+8	гынтэвтыԓеӄинэт	_	VERB	_	Incorporated[advcl]=Yes|Valency=1	0	root	0:root	Gloss=убегать-идти-ST.3SG-PL
+8.1	гынтэв	гынтэв	VERB	_	Incorporated=Yes	_	_	8:advcl	Gloss=убегать
+9	.	.	PUNCT	_	_	8	punct	8:punct	_
+
+# sent_id = Ice_Age:8
+# text = Ынӄэна.
+# text[phon] = ənqena
+# text[rus] = Это…
+# text[eng] = Um…
+# labels = complete-dep anno-fran
+1-2	Ынӄэна	_	_	_	_	_	_	_	Gloss=DET-=PTCL
+1	Ынӄэн	ынӄэна	DET	_	_	0	root	_	Gloss=DET
+2	а	а	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Ice_Age:9
+# text = Ынкы имԓетыкъыма чит ӈутку мургынутэ ваԓьыт камагӈаԓвыԓьыйӈытъыма.
+# text[phon] = ənkə imɬetəkʔəma sit ŋutku murɣənute waɬʔət kamaɣŋaɬwəɬʔəjŋətʔəma
+# text[rus] = Там, когда случилось наводнение, раньше здесь, в нашей тундре были огромные стада мамонтов.
+# text[eng] = Before the flood happened, here, in our tundra, there had been huge herds of mammoths.
+# comment = Не слышно показателя локатива в слове murɣənute[k], нет уверенности, что оно произнесено именно так и что это одно слово. Если murɣə- представляет собой инкорпорацию личного местоимения (впритяжательной функции), то ожидалось бы скорее murəɣ-.
+# labels = complete-dep anno-fran unclear-syntax
+1	Ынкы	ын	PRON	_	_	6	obl	_	Gloss=тот-LOC
+2-4	имԓетыкъыма	_	_	_	_	_	_	_	Gloss=вода-VB-LOC-=EMPH-=PTCL
+2	имԓетык	_	VERB	_	_	6	advcl	_	Gloss=вода-VB-LOC
+3	ъым	ъм	PART	_	_	2	advmod:emph	_	Gloss=EMPH
+4	а	а	PART	_	_	2	advmod:emph	_	Gloss=PTCL
+5	чит	чит	AUX	_	_	6	cop	_	Gloss=было
+6	ӈутку	ӈутку	ADV	_	_	0	root	_	Gloss=здесь
+7-8	мургынутэ	_	_	_	_	_	_	_	Gloss=мы-POSS.INC-страна
+7	мургы	_	PRON	_	_	8	nmod:poss	_	Gloss=мы-POSS.INC
+8	нутэ	_	NOUN	_	_	6	obl	_	Gloss=страна
+9	ваԓьыт	вак	AUX	_	_	11	acl:attr	_	Gloss=быть-ATTR-NOM.PL
+10-13	камагӈаԓвыԓьыйӈытъыма	_	_	_	_	_	_	_	Gloss=мамонт-стадо-AUG-NOM.PL-=EMPH-=PTCL
+10	камаг	_	NOUN	_	_	11	nmod	_	Gloss=мамонт
+11	ӈаԓвыԓьыйӈыт	_	NOUN	_	_	6	nsubj	_	Gloss=стадо-AUG-NOM.PL
+12	ъым	ъм	PART	_	_	11	advmod:emph	_	Gloss=EMPH
+13	а	а	PART	_	_	11	advmod:emph	_	Gloss=PTCL
+14	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Ice_Age:10
+# text = Игыт ӈан рынныт ынӄаатэ нутэкэ ръыԓӄычыку ръыԓӄывээмык рээн ныԓьуӄинэтэ.
+# text[phon] = iɣət ŋan rənnət ənqaate nuteke rʔəɬqəsəku rʔəɬqəweemək reen nəɬʔuqinete
+# text[rus] = Сейчас их рога (бивни) находят до сих пор в земле, в глине, в песчаных речках.
+# text[eng] = Now their horns (tusks) are still found in the ground, in clay, in sandy rivers.
+# labels = complete-dep anno-fran ənqen valency
+1	Игыт	игыр	ADV	_	_	11	advmod	_	Gloss=сегодня
+2	ӈан	ӈан	ADV	_	_	11	advmod	_	Gloss=DEICT
+3	рынныт	_	NOUN	_	_	11	nsubj	_	Gloss=рог-NOM.PL
+4-5	ынӄаатэ	_	_	_	_	_	_	_	Gloss=DET-NOM.PL-=PTCL
+4	ынӄаат	_	DET	_	_	3	det	_	Gloss=DET-NOM.PL
+5	э	а	PART	_	_	4	advmod:emph	_	Gloss=PTCL
+6-7	нутэкэ	_	_	_	_	_	_	_	Gloss=страна-LOC-=PTCL
+6	нутэк	нутэнут	NOUN	_	_	11	obl	_	Gloss=страна-LOC
+7	э	а	PART	_	_	6	advmod:emph	_	Gloss=PTCL
+8	ръыԓӄычыку	_	NOUN	_	_	9	reparandum	_	Gloss=глина-IN
+9	ръыԓӄывээмык	_	NOUN	_	_	11	obl	_	Gloss=глина-река-LOC
+10	рээн	_	ADP	_	_	9	case	_	Gloss=вместе.с.этим
+11-12	ныԓьуӄинэтэ	_	_	_	_	_	_	_	Gloss=ST-находить-ST.3SG-PL-=PTCL
+11	ныԓьуӄинэт	_	VERB	_	Valency=1	0	root	_	Gloss=ST-находить-ST.3SG-PL
+12	э	а	PART	_	_	11	advmod:emph	_	Gloss=PTCL
+13	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = Ice_Age:11
+# text = Чит нымкыӄин коԓё камагтэ.
+# text[phon] = sit nəmkəqin koɬo kamaɣte
+# text[rus] = Раньше очень много было мамонтов.
+# text[eng] = There used to be a lot of mammoths.
+# labels = complete-dep anno-fran
+1	Чит	чит	AUX	_	_	2	cop	_	Gloss=было
+2	нымкыӄин	_	ADJ	_	_	0	root	_	Gloss=ST-многий-ST.3SG
+3	коԓё	коԓё	ADV	_	_	2	advmod	_	Gloss=очень
+4	камагтэ	_	NOUN	_	_	2	nsubj	_	Gloss=мамонт-NOM.PL
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Ice_Age:12
+# text = Ынкъамэ ынӄэнатаӈа энмэна оʼравэт нрзб оʼ оʼравэтрамкына гэегтэԓԓин энмэна.
+# text[phon] = ənkʔame ənqenataŋa enmena ʔorawet нрзб ʔo ʔorawetramkəna ɣejeɣteɬɬin enmena
+# text[rus] = И это… говорят, человечество спаслось.
+# text[eng] = And this ... they say, humanity was saved.
+# labels = complete-dep anno-fran reattached-clitic valency
+1-2	Ынкъамэ	_	_	_	_	_	_	_	Gloss=и-=PTCL
+1	Ынкъам	ынкъам	CCONJ	_	_	12	cc	_	Gloss=и
+2	э	а	PART	_	_	12	advmod:emph	_	Gloss=PTCL
+3-4	ынӄэнатаӈа	_	_	_	_	_	_	_	Gloss=DET-INS-=PTCL
+3	ынӄэната	_	PRON	_	_	12	nsubj	_	Gloss=DET-INS
+4	ӈа	а	PART	_	_	3	advmod:emph	_	Gloss=PTCL
+5-6	энмэна	_	_	_	_	_	_	_	Gloss=итак-=PTCL
+5	энмэн	энмэн	PART	_	_	12	discourse	_	Gloss=итак
+6	а	а	PART	_	_	5	advmod:emph	_	Gloss=PTCL
+7	оʼравэт	оʼравэт	X	_	_	10	reparandum	_	Gloss=FST
+8	нрзб	нрзб	X	_	_	10	discourse	_	Gloss=
+9	оʼ	оʼ	X	_	_	10	reparandum	_	Gloss=FST
+10-11	оʼравэтрамкына	_	_	_	_	_	_	_	Gloss=человек.нер.изм.-народ-NOM.SG-=PTCL
+10	оʼравэтрамкын	оʼравэтрамкына	NOUN	_	_	12	obj	_	Gloss=человек.нер.изм.-народ-NOM.SG
+11	а	а	PART	_	_	10	advmod:emph	_	Gloss=PTCL
+12	гэегтэԓԓин	егтэԓык	VERB	_	Valency=2	0	root	_	Gloss=PF-спастись-PF.3SG
+13-14	энмэна	_	_	_	_	_	_	_	Gloss=говорят-=PTCL
+13	энмэн	энмэн	PART	_	_	12	discourse	_	Gloss=говорят
+14	а	а	PART	_	_	13	advmod:emph	_	Gloss=PTCL
+15	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = Ice_Age:13
+# text = Ӄоԓ мыгнэнэнэԓьынъымэ мэйӈынэнэнэтэӈ нэнатратӄэн аӈӄы нэнаԓпынрыӄэнъымэ.
+# text[phon] = qoɬ məɣneneneɬʔənʔəme mejŋəneneneteŋ nenatratqen aŋqə nenaɬpənrəqenʔəme
+# text[rus] = Один многодетный [отец] многими [мёртвыми] детьми придавливал [ярангу], морю отдавал.
+# text[eng] = One [father] that had many children pressed down [the yaranga] with his many [dead] children, thus giving them to the sea.
+# labels = complete-dep check-valency anno-fran
+1	Ӄоԓ	ӄоԓ	ADJ	_	_	2	amod	_	Gloss=некий
+2-4	мыгнэнэнэԓьынъымэ	_	_	_	_	_	_	_	Gloss=многий-ребёнок-ATTR-NOM.SG-=EMPH-=PTCL
+2	мыгнэнэнэԓьын	мыгнэнэнэԓьынъымэ	NOUN	_	_	7	nsubj	_	Gloss=многий-ребёнок-ATTR-NOM.SG
+3	ъым	ъм	PART	_	_	2	advmod:emph	_	Gloss=EMPH
+4	э	а	PART	_	_	2	advmod:emph	_	Gloss=PTCL
+5-6	мэйӈынэнэнэтэӈ	_	_	_	_	_	_	_	Gloss=большой-ребёнок-INS-=PTCL
+5	мэйӈынэнэнэтэ	_	NOUN	_	_	7	obl	_	Gloss=большой-ребёнок-INS
+6	ӈ	а	PART	_	_	5	advmod:emph	_	Gloss=PTCL
+7	нэнатратӄэн	энатрык	VERB	_	Valency=1	0	root	_	Gloss=ST-придавить-VB-ST.3SG
+8	аӈӄы	аӈӄы	NOUN	_	_	9	obj	_	Gloss=море-NOM.SG
+9-11	нэнаԓпынрыӄэнъымэ	_	_	_	_	_	_	_	Gloss=ST-INV-давать-ST.3SG-=EMPH-=PTCL
+9	нэнаԓпынрыӄэн	_	VERB	_	_	7	parataxis	_	Gloss=ST-INV-давать-ST.3SG
+10	ъым	ъм	PART	_	_	9	advmod:emph	_	Gloss=EMPH
+11	э	а	PART	_	_	9	advmod:emph	_	Gloss=PTCL
+12	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = Ice_Age:14
+# text = Амынан рыгнуннин нанӈэнчьан нэнэныӈ.
+# text[phon] = amənan rəɣnunnin nanŋensʔan nenenəŋ
+# text[rus] = Только одного [ребёнка себе] оставил, самого младшего.
+# text[eng] = Only the one child was kept by him, the youngest one.
+# labels = complete-dep anno-fran
+1	Амынан	_	ADV	_	_	2	advmod	_	Gloss=RESTR-сам
+2	рыгнуннин	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-забирать.о.море-3SG.A.3.O-3SG.O
+3	нанӈэнчьан	нанӈэнчьан	ADJ	_	_	4	amod	_	Gloss=SUPER-молодой-ADJ-NOM.SG
+4-5	нэнэныӈ	_	_	_	_	_	_	_	Gloss=ребёнок-NOM.SG-=PTCL
+4	нэнэны	нэнэныӈ	NOUN	_	_	2	obj	_	Gloss=ребёнок-NOM.SG
+5	ӈ	а	PART	_	_	4	advmod:emph	_	Gloss=PTCL
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Ice_Age:15
+# text = Къама мимԓык нэмэ пэԓӄынтэттыԓеиʼм къам иуԓтиӈэгчыкыкваԓьынэ ръэвинэ ыʼмйиквин ынӄэнэ амыԓӄыкваԓьын ынкы гамыԓӄыпэԓятԓена ръэв.
+# text[phon] = kʔama mimɬək neme peɬqəntettəɬeʔiʔm kʔam iuɬtiŋeɣsəkəkwaɬʔəne rʔewine ʔəmjikwin ənqene aməɬqəkwaɬʔən ənkə ɣaməɬqəpeɬatɬena rʔew
+# text[rus] = И потом вода опять вернулась, и в Иультинских сопках застряли китовые кости (скелет), там в песках, на мели, остался кит.
+# text[eng] = And then the water returned again, and the whale bones (the skeleton) stuck in the Iultinsky hills, there was a whale in the sand, aground.
+# labels = complete-dep anno-fran ənqen non-projective reattached-clitic
+1-2	Къама	_	_	_	_	_	_	_	Gloss=и-=PTCL
+1	Къам	_	CCONJ	_	_	5	cc	5:cc	Gloss=и
+2	а	а	PART	_	_	5	advmod:emph	1:advmod:emph	Gloss=PTCL
+3	мимԓык	_	NOUN	_	_	5	obl	5:obl	Gloss=вода-LOC
+4	нэмэ	нэмэ	ADV	_	_	5	advmod	5:advmod	Gloss=опять
+5-6	пэԓӄынтэттыԓеиʼм	_	_	_	_	_	_	_	Gloss=возвращаться-VB-идти-TH-2/3SG.S-=EMPH
+5	пэԓӄынтэттыԓеиʼ	_	VERB	_	Incorporated[advcl]=Yes	0	root	0:root	Gloss=возвращаться-VB-идти-TH-2/3SG.S
+5.1	пэԓӄынт	_	VERB	_	Incorporated=Yes	_	_	5:advcl	Gloss=возвращаться
+6	м	ъм	PART	_	_	5	advmod:emph	5:advmod:emph	Gloss=EMPH
+7	къам	_	CCONJ	_	_	12	cc	12:cc	Gloss=и
+8-9	иуԓтиӈэгчыкыкваԓьынэ	_	_	_	_	_	_	_	Gloss=Иультин-сопка-застревать-ATTR-NOM.SG-=PTCL
+8	иуԓтиӈэгчыкыкваԓьын	иуԓтиӈэгчыкыкваԓьынэ	VERB	_	Incorporated[obl]=Yes	12	acl:attr	12:acl:attr	Gloss=Иультин-сопка-застревать-ATTR-NOM.SG
+8.1	иуԓти	_	PROPN	_	Incorporated=Yes	_	_	8.2:nmod	Gloss=Иультин
+8.2	ӈэг	_	NOUN	_	Incorporated=Yes	_	_	8:obl	Gloss=сопка
+9	э	а	PART	_	_	8	advmod:emph	8:advmod:emph	Gloss=PTCL
+10-11	ръэвинэ	_	_	_	_	_	_	_	Gloss=кит-GEN-=PTCL
+10	ръэвин	ръэв	NOUN	_	_	12	nmod:poss	12:nmod:poss	Gloss=кит-GEN
+11	э	а	PART	_	_	10	advmod:emph	10:advmod:emph	Gloss=PTCL
+12	ыʼмйиквин	ыʼмйиквин	NOUN	_	_	17	dislocated	17:dislocated	Gloss=скелет-NOM.SG
+13-14	ынӄэнэ	_	_	_	_	_	_	_	Gloss=DET-=PTCL
+13	ынӄэн	_	PART	_	_	17	discourse	17:discourse	Gloss=DET
+14	э	а	PART	_	_	13	advmod:emph	13:advmod:emph	Gloss=PTCL
+15	амыԓӄыкваԓьын	амыԓӄыкваԓьын	VERB	_	Incorporated[obl]=Yes	19	acl:attr	19:acl:attr	Gloss=мель-застревать-ATTR-NOM.SG
+15.1	амыԓ	_	NOUN	_	Incorporated=Yes	_	_	15:obl	Gloss=мель
+16	ынкы	ынкы	PRON	_	_	17	obl	17:obl	Gloss=тот-LOC
+17-18	гамыԓӄыпэԓятԓена	_	_	_	_	_	_	_	Gloss=PF-мель-оставлять-VB-PF.3SG-=PTCL
+17	гамыԓӄыпэԓятԓен	_	VERB	_	Valency=1	5	parataxis	5:parataxis	Gloss=PF-мель-оставлять-VB-PF.3SG
+17.1	амыԓ	_	NOUN	_	Incorporated[obj]=Yes	_	_	17:obj	Gloss=мель
+18	а	а	PART	_	_	17	advmod:emph	17:advmod:emph	Gloss=PTCL
+19	ръэв	ръэв	NOUN	_	_	17	nsubj	17:nsubj	Gloss=кит-NOM.SG
+20	.	.	PUNCT	_	_	5	punct	5:punct	_
+
+# sent_id = Ice_Age:16
+# text = Ынӄэн нэмэ мимыԓ гэквэтԓин гэтэԓпыԓин аӈӄакэн.
+# text[phon] = ənqen neme miməɬ ɣekwetɬin ɣeteɬpəɬin aŋqaken
+# text[rus] = И снова вода морская ушла, кончился «ледниковый период».
+# text[eng] = And again the sea water was gone, the “ice age” was over.
+# text[eng'] = It [again the water_i went away] was over [sea]_i
+# labels = complete-dep anno-fran
+1	Ынӄэн	ынӄэн	PRON	_	_	5	nsubj	_	Gloss=DET
+2	нэмэ	нэмэ	ADV	_	_	4	advmod	_	Gloss=опять
+3	мимыԓ	_	NOUN	_	_	4	nsubj	_	Gloss=вода
+4	гэквэтԓин	эквэтык	VERB	_	Valency=1	0	root	_	Gloss=PF-отправляться-PF.3SG
+5	гэтэԓпыԓин	тэԓпык	VERB	_	Valency=1	4	parataxis	_	Gloss=PF-кончаться-PF.3SG
+6	аӈӄакэн	аӈӄакэн	NOUN	_	_	3	nmod:relat	_	Gloss=море-REL-NOM.SG
+7	.	.	PUNCT	_	_	6	punct	_	_
+

@@ -1,0 +1,245 @@
+# sent_id = Walk:1
+# text = Янот ръэтъеквэ мытԓемыкъым.
+# text[phon] = janot rʔetjekwe mətɬeməkʔəm
+# text[rus] = Сначала мы по дороге шли.
+# text[eng] = At first we walked along the road.
+# labels = complete-dep anno-fran
+1	Янот	янот	ADV	_	_	3	advmod	_	Gloss=сначала
+2	ръэтъеквэ	_	NOUN	_	_	3	obl	_	Gloss=дорога-PROL
+3-4	мытԓемыкъым	_	_	_	_	_	_	_	Gloss=1PL.S/A-идти-1PL.S/O-=EMPH
+3	мытԓемык	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-идти-1PL.S/O
+4	ъым	ъм	PART	_	_	3	advmod:emph	_	Gloss=EMPH
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Walk:2
+# text = Ынӄо гытгыпэԓгыкагыргын мытъиргъэнъым.
+# text[phon] = ənqo ɣətɣəpeɬɣəkaɣərɣən mətʔirɣʔenʔəm
+# text[rus] = Потом перешли ручеёк, впадающий в озеро.
+# text[eng] = Then we crossed the stream that flows into the lake.
+# labels = complete-dep anno-fran
+1	Ынӄо	ынӄо	ADV	_	_	3	advmod	_	Gloss=потом
+2	гытгыпэԓгыкагыргын	гытгыпэԓгыкагыргын	NOUN	_	_	3	obj	_	Gloss=озеро-горло-проход-NOM.SG
+3-4	мытъиргъэнъым	_	_	_	_	_	_	_	Gloss=1PL.S/A-переправляться-TH-3SG.O-=EMPH
+3	мытъиргъэн	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-переправляться-TH-3SG.O
+4	ъым	ъм	PART	_	_	3	advmod:emph	_	Gloss=EMPH
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Walk:3
+# text = Ынӄо мыт омкычыкойпы мытԓемыкъым ынӄо мытйынрысӄанмыкъым.
+# text[phon] = ənqo mət omkəsəkojpə mətɬeməkʔəm ənqo mətjənrəsqanməkʔəm
+# text[rus] = Потом по кустам шли, потом по обрывистому берегу шли.
+# text[eng] = Then we walked through the bushes, then along the steep bank.
+# labels = complete-dep anno-fran
+1	Ынӄо	ынӄо	ADV	_	_	4	advmod	_	Gloss=потом
+2	мыт	мыт	X	_	_	3	reparandum	_	Gloss=FST
+3	омкычыкойпы	_	NOUN	_	_	4	obl	_	Gloss=куст-IN-ABL
+4-5	мытԓемыкъым	_	_	_	_	_	_	_	Gloss=1PL.S/A-идти-1PL.S/O-=EMPH
+4	мытԓемык	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-идти-1PL.S/O
+5	ъым	ъм	PART	_	_	4	advmod:emph	_	Gloss=EMPH
+6	ынӄо	ынӄо	ADV	_	_	7	advmod	_	Gloss=потом
+7-8	мытйынрысӄанмыкъым	_	_	_	_	_	_	_	Gloss=1PL.S/A-высокий.обрывистый.берег-SURF-VB-1PL.S/O-=EMPH
+7	мытйынрысӄанмык	_	VERB	_	_	4	parataxis	_	Gloss=1PL.S/A-высокий.обрывистый.берег-SURF-VB-1PL.S/O
+8	ъым	ъм	PART	_	_	7	advmod:emph	_	Gloss=EMPH
+9	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Walk:4
+# text = Ӈагтагнэты мытԓемык йынрысӄыткыната.
+# text[phon] = ŋaɣtaɣnetə mətɬemək jənrəsqətkənata
+# text[rus] = До сопки шли по обрыву.
+# text[eng] = All the way to the hills we walked along the cliff.
+# labels = complete-dep anno-fran
+1	Ӈагтагнэты	_	NOUN	_	_	2	obl	_	Gloss=сопка-FRONT-DAT
+2	мытԓемык	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-идти-1PL.S/O
+3	йынрысӄыткыната	йыӈыр	NOUN	_	_	2	obl	_	Gloss=высокий.обрывистый.берег-SURF-TOP-ADV.PROL
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Walk:5
+# text = Ынӄо мытӈэйыттэнмык янот йиӈ ӈайгыточгыткок мытчаёмык ӈайгытоԓыӈкы.
+# text[phon] = ənqo mətŋejəttenmək janot jiŋ ŋajɣətosɣətkok mətsajomək ŋajɣətoɬəŋkə
+# text[rus] = Потом мы залезали на сопку, сначала по склону сопки поднимались, чай попили на склоне сопки.
+# text[eng] = Then we climbed a hill, first we climbed the hill slope, then we drank tea on the hill slope.
+# labels = complete-dep anno-fran
+1	Ынӄо	ынӄо	ADV	_	_	2	advmod	2:advmod	Gloss=потом
+2	мытӈэйыттэнмык	_	VERB	_	Incorporated[obj]=Yes	0	root	0:root	Gloss=1PL.S/A-сопка-взбираться-1PL.S/O
+2.1	ӈэйы	ӈэгны	NOUN	_	Incorporated=Yes	_	_	2:obj	Gloss=сопка
+3	янот	янот	ADV	_	_	6	advmod	6:advmod	Gloss=сначала
+4	йиӈ	йиӈ	X	_	_	5	reparandum	5:reparandum	Gloss=FST
+5	ӈайгыточгыткок	_	NOUN	_	_	6	obl	6:obl	Gloss=сопка-склон-ITER-LOC
+6	мытчаёмык	чаёк	VERB	_	_	2	parataxis	2:parataxis	Gloss=1PL.S/A-чай-EAT-1PL.S/O
+7	ӈайгытоԓыӈкы	_	NOUN	_	_	6	obl	6:obl	Gloss=сопка-склон-LOC
+8	.	.	PUNCT	_	_	2	punct	2:punct	_
+
+# sent_id = Walk:6
+# text = Ынӄо нэмэ мытӈэйыттэнмык.
+# text[phon] = ənqo neme mətŋejəttenmək
+# text[rus] = Потом снова на сопку залезали.
+# text[eng] = Then we climbed the hill again.
+# labels = complete-dep anno-fran
+1	Ынӄо	ынӄо	ADV	_	_	3	advmod	3:advmod	Gloss=потом
+2	нэмэ	нэмэ	ADV	_	_	3	advmod	3:advmod	Gloss=опять
+3	мытӈэйыттэнмык	_	VERB	_	Incorporated[obj]=Yes	0	root	0:root	Gloss=1PL.S/A-сопка-взбираться-1PL.S/O|SpaceAfter=No
+3.1	ӈэйы	ӈэгны	NOUN	_	Incorporated=Yes	_	_	3:obj	Gloss=сопка
+4	.	.	PUNCT	_	_	3	punct	3:punct	_
+
+# sent_id = Walk:7
+# text = И таӈԓымынӄо ӈай ӈай ӈайгыпы мытԓе ӈайыткыната мытԓейвымык.
+# text[phon] = и taŋɬəmənqo ŋaj ŋaj ŋajɣəpə mətɬe ŋajətkənata mətɬejwəmək
+# text[rus] = По всей сопке бродили.
+# text[eng] = We roamed the whole hill.
+# labels = complete-dep anno-fran
+1	И	_	CCONJ	_	_	8	cc	_	Gloss=
+2	таӈԓымынӄо	_	ADV	_	_	8	advmod	_	Gloss=GOOD-OMN-оттуда
+3	ӈай	ӈай	X	_	_	5	reparandum	_	Gloss=FST
+4	ӈай	ӈай	X	_	_	5	reparandum	_	Gloss=FST
+5	ӈайгыпы	ӈэгны	NOUN	_	_	8	obl	_	Gloss=сопка-ABL
+6	мытԓе	мытԓе	X	_	_	8	reparandum	_	Gloss=FST
+7	ӈайыткыната	ӈэгны	NOUN	_	_	8	obl	_	Gloss=сопка-TOP-ADV.PROL
+8	мытԓейвымык	ԓейвык	VERB	_	_	0	root	_	Gloss=1PL.S/A-ходить-1PL.S/O
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = Walk:8
+# text = Ынӄо мытивыт мыткэӈкэԓенмык мытчайпанмыкы.
+# text[phon] = ənqo mətiwət mətkeŋkeɬenmək mətsajpanməkə
+# text[rus] = Потом мы спустились и сварили чай.
+# text[eng] = Then we went down and brewed tea.
+# labels = complete-dep anno-fran
+1	Ынӄо	ынӄо	ADV	_	_	3	advmod	3:advmod	Gloss=потом
+2	мытивыт	мытивыт	X	_	_	3	reparandum	3:reparandum	Gloss=FST
+3	мыткэӈкэԓенмык	_	VERB	_	_	0	root	0:root	Gloss=1PL.S/A-сойти-1PL.S/O
+4-5	мытчайпанмыкы	_	_	_	_	_	_	_	Gloss=1PL.S/A-чай-варить-1PL.S/O-=PTCL
+4	мытчайпанмык	ыпатык	VERB	_	Incorporated[obj]=Yes	3	parataxis	3:parataxis	Gloss=1PL.S/A-чай-варить-1PL.S/O
+4.1	чай	чай	NOUN	_	Incorporated=Yes	_	_	4:obj	Gloss=чай
+5	ы	а	PART	_	_	4	advmod:emph	4:advmod:emph	Gloss=PTCL
+6	.	.	PUNCT	_	_	3	punct	3:punct	_
+
+# sent_id = Walk:9
+# text = Мытчаёмыкъым и нэмэ мытпъугыркимык.
+# text[phon] = mətsajoməkʔəm i neme mətpʔuɣərkimək
+# text[rus] = Чай попили и опять собирали корешки.
+# text[eng] = We drank tea and collected roots again.
+# labels = complete-dep anno-fran
+1-2	Мытчаёмыкъым	_	_	_	_	_	_	_	Gloss=1PL.S/A-чай-EAT-1PL.S/O-=EMPH
+1	Мытчаёмык	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-чай-EAT-1PL.S/O
+2	ъым	ъм	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	и	_	CCONJ	_	_	5	cc	_	Gloss=и
+4	нэмэ	нэмэ	ADV	_	_	5	advmod	_	Gloss=опять
+5	мытпъугыркимык	_	VERB	_	_	1	conj	_	Gloss=1PL.S/A-клайтония.остролистная-DRAG.OUT-1PL.S/O
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Walk:10
+# text = Ынӄэн мыт это.
+# text[phon] = ənqen mət это
+# text[rus] = Ну… это…
+# text[eng] = Um… this…
+# labels = complete-dep anno-fran
+1	Ынӄэн	ынӄэн	DET	_	_	3	discourse	_	Gloss=DET
+2	мыт	мыт	X	_	_	3	reparandum	_	Gloss=FST
+3	это	это	X	_	_	0	root	_	Gloss=
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Walk:11
+# text = Йынрысӄ мыткэӈкэԓенмык ӈайгыпы ынӄо мытръэт йынрысӄыткыната мытрагтытыԓякванмык.
+# text[phon] = jənrəsq mətkeŋkeɬenmək ŋajɣəpə ənqo mətrʔet jənrəsqətkənata mətraɣtətəɬakwanmək
+# text[rus] = Мы спустились с сопки, потом пошли по обрыву, пошли в сторону дома.
+# text[eng] = We went from the hill, then went over the cliff, went towards home.
+# labels = complete-dep anno-fran
+1	Йынрысӄ	Йынрысӄ	X	_	_	2	reparandum	_	Gloss=FST
+2	мыткэӈкэԓенмык	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-сойти-1PL.S/O
+3	ӈайгыпы	ӈэгны	NOUN	_	_	2	obl	_	Gloss=сопка-ABL
+4	ынӄо	ынӄо	ADV	_	_	7	advmod	_	Gloss=потом
+5	мытръэт	мытръэт	X	_	_	6	reparandum	_	Gloss=FST
+6	йынрысӄыткыната	йыӈыр	NOUN	_	_	7	obl	_	Gloss=высокий.обрывистый.берег-SURF-TOP-ADV.PROL
+7	мытрагтытыԓякванмык	_	VERB	_	_	2	parataxis	_	Gloss=1PL.S/A-жилище-GO.TO-идти-отправляться-1PL.S/O
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Walk:12
+# text = И раԓӄаӈынвы мытчаёмык нэмэ.
+# text[phon] = i raɬqaŋənwə mətsajomək neme
+# text[rus] = И на стоянке (на прежнем месте яранги) мы снова чай попили.
+# text[eng] = And in the camp (in the place where previously was a yaranga) we drank tea again.
+# labels = complete-dep anno-fran
+1	И	и	CCONJ	_	_	3	cc	_	Gloss=и
+2	раԓӄаӈынвы	_	NOUN	_	_	3	obl	_	Gloss=жилище-EX.PLACE-LOC
+3	мытчаёмык	чаёк	VERB	_	_	0	root	_	Gloss=1PL.S/A-чай-EAT-1PL.S/O
+4	нэмэ	нэмэ	ADV	_	_	3	advmod	_	Gloss=опять
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Walk:13
+# text = Ынӄо нэмэ мыт гытгыпэԓгыкагыргыт мытъиргъэн.
+# text[phon] = ənqo neme mət ɣətɣəpeɬɣəkaɣərɣət mətʔirɣʔen
+# text[rus] = Потом снова перешли ручеёк, впадающий в озеро.
+# text[eng] = Then we crossed the stream that flows into the lake again.
+# labels = complete-dep anno-fran
+1	Ынӄо	ынӄо	ADV	_	_	5	advmod	_	Gloss=потом
+2	нэмэ	нэмэ	ADV	_	_	5	advmod	_	Gloss=опять
+3	мыт	мыт	X	_	_	5	reparandum	_	Gloss=FST
+4	гытгыпэԓгыкагыргыт	_	NOUN	_	_	5	obj	_	Gloss=озеро-горло-проход-NOM.PL
+5	мытъиргъэн	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-переправляться-TH-3SG.O
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Walk:14
+# text = И гыр мытръэтпэнрымык и ынкы как же мотоцикл ковԓёрвыӄай.
+# text[phon] = i ɣər mətrʔetpenrəmək i ənkə как же мотоцикл kowɬorwəqaj
+# text[rus] = К дороге вышли и это… Как же мотоцикл… Мотоцикл (букв. маленькая машина).
+# text[eng] = We went to the road and um ... How to say motorcycle ... Motorcycle (literally—small car).
+# labels = complete-dep anno-fran disfluency
+1	И	_	CCONJ	_	_	3	cc	_	Gloss=и
+2	гыр	гыр	X	_	_	3	reparandum	_	Gloss=FST
+3	мытръэтпэнрымык	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-дорога-бросаться-1PL.S/O
+4	и	_	CCONJ	_	_	5	cc	_	Gloss=и
+5	ынкы	ын	PRON	_	_	3	discourse	_	Gloss=тот-LOC
+6	как	_	X	_	_	3	parataxis	_	Gloss=
+7	же	_	X	_	_	6	flat:foreign	_	Gloss=
+8	мотоцикл	_	NOUN	_	_	6	flat:foreign	_	Gloss=
+9	ковԓёрвыӄай	ковԓёрвыӄай	NOUN	_	_	3	parataxis	_	Gloss=шар-нарта-DIM-NOM.SG
+10	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Walk:15
+# text = И матачикԓя мытрагтымык.
+# text[phon] = i matacikɬa mətraɣtəmək
+# text[rus] = И на мотоцикле домой приехали.
+# text[eng] = And we arrived home on a motorcycle.
+# labels = complete-dep anno-fran
+1	И	и	CCONJ	_	_	3	cc	_	Gloss=и
+2	матачикԓя	_	NOUN	_	_	3	obl	_	Gloss=мотоцикл-INS
+3	мытрагтымык	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-жилище-GO.TO-1PL.S/O
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Walk:16
+# text = Нэрэнмык ӈаанӄоры рамаеты и я и мытрэсӄивмык.
+# text[phon] = nerenmək ŋaanqorə ramajetə и я i mətresqiwmək
+# text[rus] = Привезли оттуда нас в посёлок, и я… и мы зашли.
+# text[eng] = They brought us from there to the village, and I… and we entered.
+# labels = complete-dep anno-fran
+1	Нэрэнмык	рэтык	VERB	_	_	0	root	_	Gloss=LOW.A-приносить-1PL.S/O
+2	ӈаанӄоры	_	ADV	_	_	1	advmod	_	Gloss=вон.там-ADV.ABL
+3	рамаеты	_	NOUN	_	_	1	obl	_	Gloss=жилище-PILE-DAT
+4	и	и	CCONJ	_	_	7	discourse	_	Gloss=
+5	я	я	X	_	_	4	flat:foreign	_	Gloss=
+6	и	и	CCONJ	_	_	7	cc	_	Gloss=и
+7	мытрэсӄивмык	рэсӄивык	VERB	_	_	1	parataxis	_	Gloss=1PL.S/A-входить-1PL.S/O
+8	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Walk:17
+# text = Ынӄо мытиԓгытэвмык и мытчаёмгомык и мыткаԓеткомгомык.
+# text[phon] = ənqo mətiɬɣətewmək i mətsajomɣomək i mətkaɬetkomɣomək
+# text[rus] = Потом мы умылись и сели чай пить, и начали заниматься.
+# text[eng] = Then we washed and sat down to drink tea, and began to study.
+# labels = complete-dep anno-fran
+1	Ынӄо	ынӄо	ADV	_	_	2	advmod	_	Gloss=потом
+2	мытиԓгытэвмык	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-мыться-1PL.S/O
+3	и	_	CCONJ	_	_	4	cc	_	Gloss=и
+4	мытчаёмгомык	чаёк	VERB	_	_	2	parataxis	_	Gloss=1PL.S/A-чай-EAT-INCH-1PL.S/O
+5	и	_	CCONJ	_	_	6	cc	_	Gloss=и
+6	мыткаԓеткомгомык	_	VERB	_	_	2	parataxis	_	Gloss=1PL.S/A-писать-ITER-INCH-1PL.S/O
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Walk:18
+# text = Ытръэч.
+# text[phon] = ətrʔes
+# text[rus] = Всё.
+# text[eng] = That’s all.
+# labels = complete-dep anno-fran
+1	Ытръэч	ытръэч	ADV	_	_	0	root	_	Gloss=только
+2	.	.	PUNCT	_	_	1	punct	_	_
+
